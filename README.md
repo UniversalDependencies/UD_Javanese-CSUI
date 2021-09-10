@@ -1,11 +1,11 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+UD Javanese-CSUI is a manually annotated treebank built by Information Retrieval and Natural Language Processing (IR-NLP) Laboratory of Faculty of Computer Science, Universitas Indonesia. The sentences are taken from the Javanese Wikipedia.  
 
 
 # Introduction
 
-...
+UD Javanese-CSUI is a gold standard treebank for Javanese that manually annotated.
 
 
 # Acknowledgments
