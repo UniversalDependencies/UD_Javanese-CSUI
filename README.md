@@ -34,7 +34,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Alfina, Ika; Tanaya, Dipta; Rizqiyah, Putri; Yuliawati, Arlisa; Wijono, Sri Hartatti; Dinakaramani, Arawinda
+Contributors: Alfina, Ika; Tanaya, Dipta; Rizqiyah, Putri; Yuliawati, Arlisa; Wijono, Sri Hartati; Dinakaramani, Arawinda
 Contributing: here
 Contact: ika.alfina@cs.ui.ac.id
 ===============================================================================
