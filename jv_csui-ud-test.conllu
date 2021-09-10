@@ -1,0 +1,90 @@
+# sent_id = 26
+# text = Dibuka taun 2003, kanthi kapasitas 18.000 kursi.
+# text_id = Dibuka tahun 2003, dengan kapasitas 18.000 kursi.
+# text_en = Opened in 2003, with a capacity of 18000 seats.
+1	Dibuka	buka	VERB	_	_	0	root	_	_
+2	taun	taun	NOUN	_	_	1	obl	_	_
+3	2003	2003	NUM	_	_	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	kanthi	kanthi	ADP	_	_	6	case	_	_
+6	kapasitas	kapasitas	NOUN	_	_	1	obl	_	_
+7	18.000	18.000	NUM	_	_	8	nummod	_	_
+8	kursi	kursi	NOUN	_	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 27
+# text = Lagu "She" dadi puncak tangga lagu Britania.
+# tex_id = Lagu "She" menjadi puncak tangga lagu Britania
+# text_en = The song "She" tops the UK charts
+1	Lagu	lagu	NOUN	_	_	5	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	She	She	PROPN	_	_	1	nmod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	dadi	dadi	VERB	_	_	0	root	_	_
+6	puncak	puncak	NOUN	_	_	5	obl	_	_
+7	tangga	tangga	NOUN	_	_	6	nmod	_	_
+8	lagu	lagu	NOUN	_	_	7	nmod	_	_
+9	Britania	Britania	PROPN	_	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 28
+# text = Sawijining jalur kaping kalih, Jalur B, kanthi arah timurlaut dhateng baratdaya, dipunjadwalaken dipunbikak taun 2015.
+# text_id = Jalur kedua, Jalur B, menuju timur laut ke barat daya, dijadwalkan dibuka pada tahun 2015
+# text_en = A second line, Line B, heading northeast to southwest, is scheduled to open in 2015.
+1	Sawijining	Sawijining	ADV	_	_	15	advmod	_	_
+2	jalur	jalur	NOUN	_	_	15	nsubj	_	_
+3	kaping	kaping	NOUN	_	_	2	nmod	_	_
+4	kalih	kalih	ADJ	_	_	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Jalur	Jalur	PROPN	_	_	2	appos	_	_
+7	B	B	PROPN	_	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	kanthi	kanthi	ADP	_	_	10	case	_	_
+10	arah	arah	NOUN	_	_	2	nmod	_	_
+11	timurlaut	timurlaut	NOUN	_	_	10	nmod	_	_
+12	dhateng	dhateng	ADP	_	_	13	case	_	_
+13	baratdaya	baratdaya	NOUN	_	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	dipunjadwalaken	jadwal	VERB	_	_	0	root	_	_
+16	dipunbikak	mbukak	VERB	_	_	15	xcomp	_	_
+17	taun	taun	NOUN	_	_	16	obl	_	_
+18	2015	2015	NUM	_	_	17	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 29
+# text = Kapasitas seri 705 yaiku 75 penumpang.
+# text_id = Kapasitas seri 705 adalah 75 penumpang.
+# text_en = The capacity of the 705 series is 75 passengers.
+1	Kapasitas	kapasitas	NOUN	_	_	6	nsubj	_	_
+2	seri	seri	NOUN	_	_	1	nmod	_	_
+3	705	705	NUM	_	_	2	nummod	_	_
+4	yaiku	yaiku	AUX	_	_	6	aux	_	_
+5	75	75	NUM	_	_	6	nummod	_	_
+6	penumpang	tumpang	NOUN	_	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 30
+# text = Status kelangkaan buah iki dianalisis nganggo kategori lan kriteria tumbuhan langka miturut IUCN Red List Categories 30 November 1994.
+# text_id = Status kelangkaan buah ini dianalisis menggunakan kategori dan kriteria tumbuhan langka menurut Kategori Red List IUCN 30 November 1994.
+# text_en = The rarity status of this fruit was analyzed using the category and criteria of rare plants according to the IUCN Red List Category on November 30, 1994.
+1	Status	status	NOUN	_	_	5	nsubj	_	_
+2	kelangkaan	langka	NOUN	_	_	1	nmod	_	_
+3	buah	buah	NOUN	_	_	2	nmod	_	_
+4	iki	iki	DET	_	_	1	det	_	_
+5	dianalisis	analisis	VERB	_	_	0	root	_	_
+6	nganggo	enggo	VERB	_	_	5	xcomp	_	_
+7	kategori	kategori	NOUN	_	_	6	obj	_	_
+8	lan	lan	CCONJ	_	_	9	cc	_	_
+9	kriteria	kriteria	NOUN	_	_	7	conj	_	_
+10	tumbuhan	tumbuh	NOUN	_	_	7	nmod	_	_
+11	langka	langka	ADJ	_	_	10	amod	_	_
+12	miturut	miturut	VERB	_	_	7	acl	_	_
+13	IUCN	IUCN	PROPN	_	_	12	obl	_	_
+14	Red	Red	PROPN	_	_	13	flat	_	_
+15	List	List	PROPN	_	_	13	flat	_	_
+16	Categories	Categories	PROPN	_	_	13	flat	_	_
+17	30	30	NUM	_	_	13	nmod	_	_
+18	November	November	PROPN	_	_	17	flat	_	_
+19	1994	1994	NUM	_	_	17	flat	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
