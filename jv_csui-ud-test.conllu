@@ -188,6 +188,117 @@
 13	pelamar	lamar	NOUN	_	Number=Sing	9	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	9	punct	_	_
 
+# sent_id = 91
+# text = Timur 2, Timur 3, lan Barat 1-Barat 3 kabèh nglayani penerbangan domestik.
+# text_id = Timur 2, Timur 3, dan Barat 1-Barat 3 semuanya melayani penerbangan domestik.
+# text_en = East 2, East 3, and West 1-West 3 can serve domestic flights.
+1	Timur	timur	NOUN	_	Number=Sing	14	nsubj	_	_
+2	2	2	NUM	_	_	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	Timur	timur	NOUN	_	_	1	conj	_	_
+5	3	3	NUM	_	_	4	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	lan	lan	CCONJ	_	_	8	cc	_	_
+8	Barat	Barat	NOUN	_	_	1	conj	_	_
+9	1	1	NUM	_	_	8	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Barat	Barat	NOUN	_	_	8	nmod	_	_
+12	3	3	NUM	_	_	11	nummod	_	_
+13	kabèh	kabèh	DET	_	_	1	det	_	_
+14	nglayani	nglayani	VERB	_	_	0	root	_	_
+15	penerbangan	terbang	NOUN	_	Number=Sing	14	obj	_	_
+16	domestik	domestik	ADJ	_	_	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 92
+# text = Rudal punika ugi gadhah kemampuan nyergap sasaranipun saking sedaya arah (all-aspect), ing sedaya cuaca (all-weather) sarta ing tèngah pengacauan elektronis (jamming).
+# text_id = Rudal tersebut juga memiliki kemampuan untuk menyergap targetnya dari segala arah (all-aspect), di segala cuaca (all-weather) dan di tengah-tengah electronic jamming (jamming).
+# text_en = The missile also has the ability to ambush its target from all directions (all-aspect), in all weather (all-weather) and in the midst of electronic jamming (jamming).
+1	Rudal	Rudal	NOUN	_	_	4	nsubj	_	_
+2	punika	punika	DET	_	_	1	det	_	_
+3	ugi	ugi	ADV	_	_	4	advmod	_	_
+4	gadhah	gadhah	VERB	_	_	0	root	_	_
+5	kemampuan	mampu	NOUN	_	Number=Sing	4	obj	_	_
+6	nyergap	nyergap	VERB	_	_	5	advcl	_	_
+7	sasaranipun	sasaranipun	NOUN	_	_	6	obj	_	_
+8	saking	saking	ADP	_	_	10	case	_	_
+9	sedaya	daya	DET	_	_	10	det	_	_
+10	arah	arah	NOUN	_	Number=Sing	6	obl	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	all-aspect	all-aspect	X	_	_	10	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	ing	ing	ADP	_	_	17	case	_	_
+16	sedaya	daya	DET	_	_	17	det	_	_
+17	cuaca	cuaca	NOUN	_	Number=Sing	10	conj	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	all-weather	all-weather	X	_	_	17	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	sarta	sarta	CCONJ	_	_	23	cc	_	_
+22	ing	ing	ADP	_	_	23	case	_	_
+23	tèngah	tèngah	NOUN	_	_	10	conj	_	_
+24	pengacauan	kacauan	NOUN	_	Number=Sing	23	nmod	_	_
+25	elektronis	elektronis	ADJ	_	_	24	amod	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	jamming	jamming	X	_	_	24	appos	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 93
+# text = ABC wiwit disiaraké ing TV nalika taun 1948.
+# text_id = ABC mulai ditayangkan di TV pada tahun 1948.
+# text_en = ABC began airing on TV in 1948.
+1	ABC	ABC	PROPN	_	_	2	nsubj	_	_
+2	wiwit	wiwit	VERB	_	_	0	root	_	_
+3	disiaraké	disiaraké	VERB	_	_	2	xcomp	_	_
+4	ing	ing	ADP	_	_	5	case	_	_
+5	TV	TV	PROPN	_	_	3	obl	_	_
+6	nalika	nalika	ADP	_	_	7	case	_	_
+7	taun	taun	NOUN	_	_	3	obl:tmod	_	_
+8	1948	1948	NUM	_	_	7	nummod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 94
+# text = Karni aktif ing akèh organisasi wartawan.
+# text_id = Karni aktif di banyak organisasi jurnalistik.
+# text_en = Karni is active in many journalistic organizations.
+1	Karni	Karni	PROPN	_	_	2	nsubj	_	_
+2	aktif	aktif	ADJ	_	_	0	root	_	_
+3	ing	ing	ADP	_	_	5	case	_	_
+4	akèh	akèh	DET	_	_	5	det	_	_
+5	organisasi	organisasi	NOUN	_	Number=Sing	2	obl	_	_
+6	wartawan	wartawan	NOUN	_	Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 95
+# text = Lajeng ayahipun mengajaknya mlebet ing tim gadahanipun pribadi ingkang turun ing ajang Formula Three Euroseries lan F3 lokal Éropah.
+# text_id = Kemudian ayahnya mengundangnya untuk bergabung dengan tim milik pribadinya yang turun di ajang Formula Tiga Euroseries dan F3 lokal di Eropa.
+# text_en = Then his father invited him to join his privately owned team that competed in Formula Three Euroseries and local F3 in Europe.
+1	Lajeng	Lajeng	ADV	_	_	4	advmod	_	_
+2-3	ayahipun	_	_	_	_	_	_	_	_
+2	ayahi	ayah	NOUN	_	_	4	nsubj	_	_
+3	pun	pun	PRON	_	_	2	nmod:poss	_	_
+4-5	mengajaknya	_	_	_	_	_	_	_	_
+4	mengajak	ajak	VERB	_	Voice=Act	0	root	_	_
+5	nya	nya	PRON	_	Number=Sing|Person=3	4	obj	_	_
+6	mlebet	mlebet	VERB	_	_	4	advcl	_	_
+7	ing	ing	ADP	_	_	8	case	_	_
+8	tim	tim	NOUN	_	Number=Sing	4	obl	_	_
+9	gadahanipun	gadahanipun	NOUN	_	_	8	nmod	_	_
+10	pribadi	pribadi	ADJ	_	_	8	amod	_	_
+11	ingkang	ingkang	SCONJ	_	_	12	mark	_	_
+12	turun	turun	VERB	_	_	8	acl:relcl	_	_
+13	ing	ing	ADP	_	_	14	case	_	_
+14	ajang	ajang	NOUN	_	Number=Sing	12	obl	_	_
+15	Formula	Formula	PROPN	_	_	14	nmod	_	_
+16	Three	Three	PROPN	_	_	15	flat:name	_	_
+17	Euroseries	Euroseries	PROPN	_	_	15	flat:name	_	_
+18	lan	lan	CCONJ	_	_	19	cc	_	_
+19	F3	F3	PROPN	_	_	15	conj	_	_
+20	lokal	lokal	ADJ	_	_	19	amod	_	_
+21	Éropah	Éropah	PROPN	_	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
 # sent_id = 96
 # text = Tetandhingan pungkasane ana ing Seri A yaiku nalika klawan Inter Milan tanggal 4 April 2004.
 # text_id = Pertandingan terakhirnya di Seri A adalah melawan Inter Milan pada 4 April 2004.
