@@ -88,3 +88,103 @@
 19	1994	1994	NUM	_	_	17	flat	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = 86
+# text = Geolog Inggris John Michell kanthi kapisah ugi manggihaken timbangan puntir ing taun 1750, nanging piyambakipun gagal migunakaken kanggé ngukur medan daya tarik bumi.
+# text_id = Ahli geologi Inggris John Michell secara terpisah juga menemukan skala torsional pada tahun 1750, tetapi ia gagal menggunakannya untuk mengukur medan gravitasi bumi.
+# text_en = British geologist John Michell separately also discovered torsional scales in 1750, but he failed to use them to measure the earth’s gravitational field.
+1	Geolog	Geolog	NOUN	_	_	8	nsubj	_	_
+2	Inggris	Inggris	PROPN	_	_	1	nmod	_	_
+3	John	John	PROPN	_	_	1	appos	_	_
+4	Michell	Michell	PROPN	_	_	3	flat:name	_	_
+5	kanthi	kanthi	ADP	_	_	6	case:adv	_	_
+6	kapisah	kapisah	VERB	_	_	8	advcl	_	_
+7	ugi	ugi	ADV	_	_	8	advmod	_	_
+8	manggihaken	manggihaken	VERB	_	_	0	root	_	_
+9	timbangan	timbang	NOUN	_	Number=Sing	8	obj	_	_
+10	puntir	puntir	VERB	_	_	9	acl	_	_
+11	ing	ing	ADP	_	_	12	case	_	_
+12	taun	taun	NOUN	_	_	8	obl:tmod	_	_
+13	1750	1750	NUM	_	_	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	8	punct	_	_
+15	nanging	nanging	CCONJ	_	_	17	cc	_	_
+16	piyambakipun	piyambakipun	PRON	_	_	17	nsubj	_	_
+17	gagal	gagal	VERB	_	_	8	conj	_	_
+18-19	migunakaken	_	_	_	_	_	_	_	_
+18	migunaka	migunaka	VERB	_	_	17	xcomp	_	_
+19	ken	ken	PRON	_	_	18	obj	_	_
+20	kanggé	kanggé	SCONJ	_	_	21	mark	_	_
+21	ngukur	ngukur	VERB	_	_	18	advcl	_	_
+22	medan	medan	NOUN	_	Number=Sing	21	obj	_	_
+23	daya	daya	NOUN	_	Number=Sing	22	nmod	_	_
+24	tarik	tarik	VERB	_	_	23	acl	_	_
+25	bumi	bumi	NOUN	_	Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 87
+# text = Ing taun kapitu kudu diluwari tanpa mbayar tebusan apa-apa.
+# text_id = Pada tahun ketujuh ia harus ditebus tanpa membayar tebusan apapun.
+# text_en = In the seventh year he must be redeemed without paying any ransom.
+1	Ing	Ing	ADP	_	_	2	case	_	_
+2	taun	taun	NOUN	_	_	5	obl:tmod	_	_
+3	kapitu	kapitu	ADJ	_	_	2	amod	_	_
+4	kudu	kudu	AUX	_	_	5	aux	_	_
+5	diluwari	diluwari	X	_	_	0	root	_	_
+6	tanpa	tanpa	SCONJ	_	_	7	mark	_	_
+7	mbayar	mbayar	VERB	_	_	5	advcl	_	_
+8	tebusan	tebus	NOUN	_	Number=Sing	7	obj	_	_
+9	apa-apa	apa	PRON	_	_	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 88
+# text = Markas Liga Arab mapan ana ing Kairo.
+# text_id = Markas besar Liga Arab terletak di Kairo.
+# text_en = The headquarters of the Arab League is located in Cairo.
+1	Markas	markas	NOUN	_	Number=Sing	4	nsubj:pass	_	_
+2	Liga	Liga	PROPN	_	_	1	nmod	_	_
+3	Arab	Arab	PROPN	_	_	2	flat:name	_	_
+4	mapan	mapan	VERB	_	_	0	root	_	_
+5	ana	ana	VERB	_	_	4	xcomp	_	_
+6	ing	ing	ADP	_	_	7	case	_	_
+7	Kairo	Kairo	PROPN	_	_	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 89
+# text = Nalika taun 2002 panjenengané nentang aksi militèr 'sepihak' déning Amérika Sarékat ing Irak.
+# text_id = Pada tahun 2002 ia menentang aksi militer 'sepihak' oleh Amerika Serikat di Irak.
+# text_en = In 2002 he opposed ‘unilateral’ military action by the United States in Iraq.
+1	Nalika	Nalika	ADP	_	_	2	case	_	_
+2	taun	taun	NOUN	_	_	5	obl:tmod	_	_
+3	2002	2002	NUM	_	_	2	nummod	_	_
+4	panjenengané	panjenengané	PRON	_	_	5	nsubj	_	_
+5	nentang	nentang	VERB	_	_	0	root	_	_
+6	aksi	aksi	NOUN	_	Number=Sing	5	obj	_	_
+7	militèr	militèr	NOUN	_	_	6	nmod	_	_
+8	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	sepihak	pihak	ADJ	_	_	6	amod	_	SpaceAfter=No
+10	'	'	PUNCT	_	_	9	punct	_	_
+11	déning	déning	ADP	_	_	12	case	_	_
+12	Amérika	Amérika	PROPN	_	_	6	nmod	_	_
+13	Sarékat	Sarékat	PROPN	_	_	12	flat:name	_	_
+14	ing	ing	ADP	_	_	15	case	_	_
+15	Irak	Irak	PROPN	_	_	6	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 90
+# text = Ing audhisi mau, namung 11 tiyang ingkang dipuntampi saking 2.396 tiyang pelamar.
+# text_id = Pada audisi tersebut, hanya 11 orang yang diterima dari 2.396 pendaftar.
+# text_en = At the audition, only 11 people were accepted out of 2,396 applicants.
+1	Ing	Ing	ADP	_	_	2	case	_	_
+2	audhisi	audhisi	NOUN	_	_	9	obl	_	_
+3	mau	mau	DET	_	_	2	det	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	namung	namung	ADV	_	_	7	advmod	_	_
+6	11	11	NUM	_	_	7	nummod	_	_
+7	tiyang	tiyang	NOUN	_	_	0	root	_	_
+8	ingkang	ingkang	PRON	_	_	9	nsubj	_	_
+9	dipuntampi	dipuntampi	VERB	_	_	7	csubj	_	_
+10	saking	saking	ADP	_	_	13	case	_	_
+11	2.396	2.396	NUM	_	_	13	nummod	_	_
+12	tiyang	tiyang	NOUN	_	_	13	clf	_	_
+13	pelamar	lamar	NOUN	_	Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	9	punct	_	_
+
