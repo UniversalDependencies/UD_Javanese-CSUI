@@ -56,7 +56,7 @@
 2-3	putranipun	_	_	_	_	_	_	_	_
 2	putra	putra	NOUN	_	Number=Sing	13	nsubj	_	_
 3	nipun	ipun	PRON	_	_	2	nmod:poss	_	_
-4	ingkang	ingkang	PRON	_	_	5	nsubj	_	_
+4	ingkang	ingkang	PRON	_	PronType=Rel	5	nsubj	_	_
 5	asma	asma	VERB	_	Voice=Act	2	acl:relcl	_	_
 6	Drestarastra	Drestarastra	PROPN	_	_	5	obl	_	SpaceAfter=No
 7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -81,7 +81,7 @@
 3	didangu	dangu	VERB	_	Voice=Pass	16	advcl	_	_
 4	sarupaning	rupa	NOUN	_	Number=Sing	3	obl	_	_
 5	kabungahan	bungah	NOUN	_	Number=Sing	4	nmod	_	_
-6	paparinging	paring	VERB	_	_	4	acl:relcl	_	_
+6	paparinging	paring	VERB	_	Voice=Pass	4	acl:relcl	_	_
 7	Allah	Allah	PROPN	_	_	6	obl	_	_
 8	nalika	nalika	ADP	_	_	10	case	_	_
 9	ing	ing	ADP	_	_	10	case	_	_
@@ -118,18 +118,18 @@
 4	II	II	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	14	14	NUM	_	_	7	nummod	_	_
-7	radio	radio	NOUN	_	Number=Sing	15	nsubj	_	_
+7	radio	radio	NOUN	_	Number=Sing	0	root	_	_
 8	komersial	komersial	ADJ	_	_	7	amod	_	_
 9	lan	lan	CCONJ	_	_	11	cc	_	_
 10	12	12	NUM	_	_	11	nummod	_	_
 11	radio	radio	NOUN	_	Number=Sing	7	conj	_	_
 12	umum	umum	ADJ	_	_	11	amod	_	_
-13	ingkang	ingkang	PRON	_	_	15	nsubj	_	_
+13	ingkang	ingkang	PRON	_	PronType=Rel	15	nsubj	_	_
 14	saged	saged	AUX	_	_	15	aux	_	_
-15	dipunoperasikaken	operasi	VERB	_	Voice=Pass	0	root	_	_
+15	dipunoperasikaken	operasi	VERB	_	Voice=Pass	7	acl:relcl	_	_
 16	ing	ing	ADP	_	_	17	case	_	_
 17	Prancis	Prancis	PROPN	_	_	15	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	15	punct	_	_
+18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 6
 # text = Semono uga ing sakjumlah perkutut kagem Bapak.
@@ -151,11 +151,11 @@
 1	Kriteria	kriteria	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 2	punika	punika	DET	_	_	1	det	_	_
 3	kedah	kedah	AUX	_	_	4	aux	_	_
-4	dipunterapaken	terap	VERB	_	_	0	root	_	_
+4	dipunterapaken	terap	VERB	_	Voice=Pass	0	root	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
 6	konsekuensi-konsekuensi	konsekuensi	X	_	_	4	obl	_	_
 7	ingkang	ingkang	PRON	_	PronType=Rel	8	nsubj	_	_
-8	timbul	timbul	VERB	_	_	6	advcl	_	_
+8	timbul	timbul	VERB	_	Voice=Act	6	acl:relcl	_	_
 9	saking	saking	ADP	_	_	10	case	_	_
 10	putusan-putusan	putus	NOUN	_	Number=Plur	8	obl	_	_
 11	etis	etis	X	_	_	10	dep	_	SpaceAfter=No
@@ -166,7 +166,7 @@
 # text_id = Paulus menyebut dirinya sebagai “rasul bagi bangsa-bangsa non-Yahudi” (Roma 11:13).
 # text_en = Paul called himself “an apostle to the Gentiles” (Romans 11:13).
 1	Paulus	Paulus	PROPN	_	_	2	nsubj	_	_
-2	nyebut	sebut	VERB	_	_	0	root	_	_
+2	nyebut	sebut	VERB	_	Voice=Act	0	root	_	_
 3-4	dhèknèné	_	_	_	_	_	_	_	_
 3	dhèknè	dhèknè	PRON	_	_	1	obj	_	_
 4	né	né	PRON	_	_	3	nmod:poss	_	_
@@ -192,7 +192,7 @@
 1-2	Jenengé	_	_	_	_	_	_	_	_
 1	Jeneng	jeneng	NOUN	_	_	3	nsubj	_	_
 2	é	é	PRON	_	_	1	nmod:poss	_	_
-3	disebutake	sebut	VERB	_	_	0	root	_	_
+3	disebutake	sebut	VERB	_	Voice=Pass	0	root	_	_
 4	kaping	kaping	NOUN	_	_	3	obl	_	_
 5	27	27	NUM	_	_	4	nummod	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
@@ -215,7 +215,7 @@
 # text = Dibuka taun 2003, kanthi kapasitas 18.000 kursi.
 # text_id = Dibuka tahun 2003, dengan kapasitas 18.000 kursi.
 # text_en = Opened in 2003, with a capacity of 18000 seats.
-1	Dibuka	buka	VERB	_	_	0	root	_	_
+1	Dibuka	buka	VERB	_	Voice=Pass	0	root	_	_
 2	taun	taun	NOUN	_	Number=Sing	1	obl:tmod	_	_
 3	2003	2003	NUM	_	_	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -233,7 +233,7 @@
 2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	She	She	PROPN	_	_	1	nmod	_	SpaceAfter=No
 4	"	"	PUNCT	_	_	3	punct	_	_
-5	dadi	dadi	VERB	_	_	0	root	_	_
+5	dadi	dadi	VERB	_	Voice=Act	0	root	_	_
 6	puncak	puncak	NOUN	_	Number=Sing	5	obl	_	_
 7	tangga	tangga	NOUN	_	Number=Sing	6	nmod	_	_
 8	lagu	lagu	NOUN	_	Number=Sing	7	nmod	_	_
@@ -258,8 +258,8 @@
 12	dhateng	dhateng	ADP	_	_	13	case	_	_
 13	baratdaya	baratdaya	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	dipunjadwalaken	jadwal	VERB	_	_	0	root	_	_
-16	dipunbikak	mbukak	VERB	_	_	15	xcomp	_	_
+15	dipunjadwalaken	jadwal	VERB	_	Voice=Pass	0	root	_	_
+16	dipunbikak	mbukak	VERB	_	Voice=Pass	15	xcomp	_	_
 17	taun	taun	NOUN	_	Number=Sing	16	obl:tmod	_	_
 18	2015	2015	NUM	_	_	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	15	punct	_	_
@@ -284,14 +284,14 @@
 2	kelangkaan	langka	NOUN	_	Number=Sing	1	nmod	_	_
 3	buah	buah	NOUN	_	Number=Sing	2	nmod	_	_
 4	iki	iki	DET	_	_	1	det	_	_
-5	dianalisis	analisis	VERB	_	_	0	root	_	_
-6	nganggo	enggo	VERB	_	_	5	xcomp	_	_
+5	dianalisis	analisis	VERB	_	Voice=Pass	0	root	_	_
+6	nganggo	enggo	VERB	_	Voice=Act	5	xcomp	_	_
 7	kategori	kategori	NOUN	_	Number=Sing	6	obj	_	_
 8	lan	lan	CCONJ	_	_	9	cc	_	_
 9	kriteria	kriteria	NOUN	_	Number=Sing	7	conj	_	_
 10	tumbuhan	tumbuh	NOUN	_	Number=Sing	7	nmod	_	_
 11	langka	langka	ADJ	_	_	10	amod	_	_
-12	miturut	miturut	VERB	_	_	7	acl	_	_
+12	miturut	miturut	VERB	_	Voice=Act	7	acl	_	_
 13	IUCN	IUCN	PROPN	_	_	12	obl	_	_
 14	Red	Red	PROPN	_	_	13	flat:name	_	_
 15	List	List	PROPN	_	_	13	flat:name	_	_
@@ -310,26 +310,26 @@
 3	John	John	PROPN	_	_	1	appos	_	_
 4	Michell	Michell	PROPN	_	_	3	flat:name	_	_
 5	kanthi	kanthi	ADP	_	_	6	case:adv	_	_
-6	kapisah	kapisah	VERB	_	_	8	advcl	_	_
+6	kapisah	kapisah	VERB	_	Voice=Pass	8	advcl	_	_
 7	ugi	ugi	ADV	_	_	8	advmod	_	_
-8	manggihaken	manggihaken	VERB	_	_	0	root	_	_
+8	manggihaken	manggihaken	VERB	_	Voice=Act	0	root	_	_
 9	timbangan	timbang	NOUN	_	Number=Sing	8	obj	_	_
-10	puntir	puntir	VERB	_	_	9	acl	_	_
+10	puntir	puntir	VERB	_	Voice=Act	9	acl	_	_
 11	ing	ing	ADP	_	_	12	case	_	_
 12	taun	taun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 13	1750	1750	NUM	_	_	12	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	8	punct	_	_
 15	nanging	nanging	CCONJ	_	_	17	cc	_	_
 16	piyambakipun	piyambakipun	PRON	_	_	17	nsubj	_	_
-17	gagal	gagal	VERB	_	_	8	conj	_	_
+17	gagal	gagal	VERB	_	Voice=Act	8	conj	_	_
 18-19	migunakaken	_	_	_	_	_	_	_	_
-18	migunaka	migunaka	VERB	_	_	17	xcomp	_	_
+18	migunaka	migunaka	VERB	_	Voice=Act	17	xcomp	_	_
 19	ken	ken	PRON	_	_	18	obj	_	_
 20	kanggé	kanggé	SCONJ	_	_	21	mark	_	_
-21	ngukur	ngukur	VERB	_	_	18	advcl	_	_
+21	ngukur	ngukur	VERB	_	Voice=Act	18	advcl	_	_
 22	medan	medan	NOUN	_	Number=Sing	21	obj	_	_
 23	daya	daya	NOUN	_	Number=Sing	22	nmod	_	_
-24	tarik	tarik	VERB	_	_	23	acl	_	_
+24	tarik	tarik	VERB	_	Voice=Act	23	acl	_	_
 25	bumi	bumi	NOUN	_	Number=Sing	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -343,7 +343,7 @@
 4	kudu	kudu	AUX	_	_	5	aux	_	_
 5	diluwari	diluwari	X	_	_	0	root	_	_
 6	tanpa	tanpa	SCONJ	_	_	7	mark	_	_
-7	mbayar	mbayar	VERB	_	_	5	advcl	_	_
+7	mbayar	mbayar	VERB	_	Voice=Act	5	advcl	_	_
 8	tebusan	tebus	NOUN	_	Number=Sing	7	obj	_	_
 9	apa-apa	apa	PRON	_	_	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
@@ -355,8 +355,8 @@
 1	Markas	markas	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 2	Liga	Liga	PROPN	_	_	1	nmod	_	_
 3	Arab	Arab	PROPN	_	_	2	flat:name	_	_
-4	mapan	mapan	VERB	_	_	0	root	_	_
-5	ana	ana	VERB	_	_	4	xcomp	_	_
+4	mapan	mapan	VERB	_	Voice=Pass	0	root	_	_
+5	ana	ana	VERB	_	Voice=Act	4	xcomp	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
 7	Kairo	Kairo	PROPN	_	_	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
@@ -369,7 +369,7 @@
 2	taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	2002	2002	NUM	_	_	2	nummod	_	_
 4	panjenengané	panjenengané	PRON	_	_	5	nsubj	_	_
-5	nentang	nentang	VERB	_	_	0	root	_	_
+5	nentang	nentang	VERB	_	Voice=Act	0	root	_	_
 6	aksi	aksi	NOUN	_	Number=Sing	5	obj	_	_
 7	militèr	militèr	NOUN	_	Number=Sing	6	nmod	_	_
 8	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -393,8 +393,8 @@
 5	namung	namung	ADV	_	_	7	advmod	_	_
 6	11	11	NUM	_	_	7	nummod	_	_
 7	tiyang	tiyang	NOUN	_	Number=Sing	0	root	_	_
-8	ingkang	ingkang	PRON	_	_	9	nsubj	_	_
-9	dipuntampi	dipuntampi	VERB	_	_	7	csubj	_	_
+8	ingkang	ingkang	PRON	_	PronType=Rel	9	nsubj	_	_
+9	dipuntampi	dipuntampi	VERB	_	Voice=Pass	7	acl:relcl	_	_
 10	saking	saking	ADP	_	_	13	case	_	_
 11	2.396	2.396	NUM	_	_	13	nummod	_	_
 12	tiyang	tiyang	NOUN	_	Number=Sing	13	clf	_	_
@@ -418,7 +418,7 @@
 11	Barat	Barat	NOUN	_	Number=Sing	8	nmod	_	_
 12	3	3	NUM	_	_	11	nummod	_	_
 13	kabèh	kabèh	DET	_	_	1	det	_	_
-14	nglayani	nglayani	VERB	_	_	0	root	_	_
+14	nglayani	nglayani	VERB	_	Voice=Act	0	root	_	_
 15	penerbangan	terbang	NOUN	_	Number=Sing	14	obj	_	_
 16	domestik	domestik	ADJ	_	_	15	amod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	14	punct	_	_
@@ -430,9 +430,9 @@
 1	Rudal	Rudal	NOUN	_	Number=Sing	4	nsubj	_	_
 2	punika	punika	DET	_	_	1	det	_	_
 3	ugi	ugi	ADV	_	_	4	advmod	_	_
-4	gadhah	gadhah	VERB	_	_	0	root	_	_
+4	gadhah	gadhah	VERB	_	Voice=Act	0	root	_	_
 5	kemampuan	mampu	NOUN	_	Number=Sing	4	obj	_	_
-6	nyergap	nyergap	VERB	_	_	5	advcl	_	_
+6	nyergap	nyergap	VERB	_	Voice=Act	5	advcl	_	_
 7	sasaranipun	sasaranipun	NOUN	_	Number=Sing	6	obj	_	_
 8	saking	saking	ADP	_	_	10	case	_	_
 9	sedaya	daya	DET	_	_	10	det	_	_
@@ -462,8 +462,8 @@
 # text_id = ABC mulai ditayangkan di TV pada tahun 1948.
 # text_en = ABC began airing on TV in 1948.
 1	ABC	ABC	PROPN	_	_	2	nsubj	_	_
-2	wiwit	wiwit	VERB	_	_	0	root	_	_
-3	disiaraké	disiaraké	VERB	_	_	2	xcomp	_	_
+2	wiwit	wiwit	VERB	_	Voice=Act	0	root	_	_
+3	disiaraké	disiaraké	VERB	_	Voice=Pass	2	xcomp	_	_
 4	ing	ing	ADP	_	_	5	case	_	_
 5	TV	TV	PROPN	_	_	3	obl	_	_
 6	nalika	nalika	ADP	_	_	7	case	_	_
@@ -492,15 +492,15 @@
 2	ayahi	ayah	NOUN	_	Number=Sing	4	nsubj	_	_
 3	pun	pun	PRON	_	_	2	nmod:poss	_	_
 4-5	mengajaknya	_	_	_	_	_	_	_	_
-4	mengajak	ajak	VERB	_	Voice=Act	0	root	_	_
-5	nya	nya	PRON	_	Number=Sing|Person=3	4	obj	_	_
-6	mlebet	mlebet	VERB	_	_	4	advcl	_	_
+4	mengajak	ajak	X	_	_	0	root	_	_
+5	nya	nya	X	_	_	4	obj	_	_
+6	mlebet	mlebet	VERB	_	Voice=Act	4	advcl	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
 8	tim	tim	NOUN	_	Number=Sing	4	obl	_	_
 9	gadahanipun	gadahanipun	NOUN	_	Number=Sing	8	nmod	_	_
 10	pribadi	pribadi	ADJ	_	_	8	amod	_	_
-11	ingkang	ingkang	SCONJ	_	_	12	mark	_	_
-12	turun	turun	VERB	_	_	8	acl:relcl	_	_
+11	ingkang	ingkang	PRON	_	PronType=Rel	12	nsubj	_	_
+12	turun	turun	VERB	_	Voice=Act	8	acl:relcl	_	_
 13	ing	ing	ADP	_	_	14	case	_	_
 14	ajang	ajang	NOUN	_	Number=Sing	12	obl	_	_
 15	Formula	Formula	PROPN	_	_	14	nmod	_	_
@@ -516,7 +516,7 @@
 # text = Tetandhingan pungkasane ana ing Seri A yaiku nalika klawan Inter Milan tanggal 4 April 2004.
 # text_id = Pertandingan terakhirnya di Seri A adalah melawan Inter Milan pada 4 April 2004.
 # text_en = His last match in Series A was against Inter Milan on April 4, 2004.
-1	Tetandhingan	Tetandhingan	PROPN	_	_	10	nsubj	_	_
+1	Tetandhingan	tetandhingan	NOUN	_	_	10	nsubj	_	_
 2-3	pungkasane	_	_	_	_	_	_	_	_
 2	pungkasa	pungkas	ADJ	_	_	1	amod	_	_
 3	ne	ne	PRON	_	_	1	nmod:poss	_	_
@@ -524,7 +524,7 @@
 5	ing	ing	ADP	_	_	6	case	_	_
 6	Seri	Seri	PROPN	_	_	1	nmod	_	_
 7	A	A	PROPN	_	_	6	flat:name	_	_
-8	yaiku	yaiku	SCONJ	_	_	10	mark	_	_
+8	yaiku	yaiku	AUX	_	_	10	cop	_	_
 9	nalika	nalika	ADV	_	_	10	advmod	_	_
 10	klawan	klawan	X	_	_	0	root	_	_
 11	Inter	Inter	PROPN	_	_	10	obj	_	_
@@ -581,14 +581,14 @@
 2	Márquez	Márquez	PROPN	_	_	1	flat:name	_	_
 3	kanthi	kanthi	ADP	_	_	4	case:adv	_	_
 4	umum	umum	ADJ	_	_	5	advmod	_	_
-5	dipuntingali	dipuntingali	VERB	_	_	0	root	_	_
+5	dipuntingali	dipuntingali	VERB	_	Voice=Pass	0	root	_	_
 6	minangka	minangka	ADP	_	_	7	case	_	_
 7	utama	utama	NOUN	_	Number=Sing	5	obl	_	_
 8	saking	saking	ADP	_	_	9	case	_	_
 9	gaya	gaya	NOUN	_	Number=Sing	7	nmod	_	_
 10	sastra	sastra	NOUN	_	Number=Sing	9	nmod	_	_
-11	ingkang	ingkang	SCONJ	_	_	12	mark	_	_
-12	dipunkenal	dipunkenal	VERB	_	_	9	acl:relcl	_	_
+11	ingkang	ingkang	PRON	_	PronType=Rel	12	nsubj	_	_
+12	dipunkenal	dipunkenal	VERB	_	Voice=Pass	9	acl:relcl	_	_
 13	minangka	minangka	ADP	_	_	14	case	_	_
 14	realisme	realisme	NOUN	_	Number=Sing	12	obl	_	_
 15	magis	magis	ADJ	_	_	14	amod	_	SpaceAfter=No
