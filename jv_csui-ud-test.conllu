@@ -1,29 +1,160 @@
+# sent_id = 1
+# text = Para warga padha metu karo nggowoni sampah sing wis dipisah antarané sampah tèlès lan sampah garing ing sajroning bak sampah; Cecep (17), gawéané luwih énténg amarga wis didèwèné sampahé, dèwèé ora pèrlu antri.
+# text_id = Para warga keluar dengan membawa tumpukan sampah yang sudah dipisahkan antara sampah basah dan sampah kering di dalam tempat sampah; Cecep (17), pekerjaannya lebih ringan karena sudah ada sampahnya, tidak perlu antri.
+# text_en = The residents came out with piles of garbage that had been separated between wet and dry waste in the trash; Cecep (17), his job is lighter because there is already garbage, no need to queue.
+1	Para	para	DET	_	_	2	det	_	_
+2	warga	warga	NOUN	_	Number=Sing	4	nsubj	_	_
+3	padha	padha	ADV	_	_	4	advmod	_	_
+4	metu	metu	VERB	_	Voice=Act	0	root	_	_
+5	karo	karo	SCONJ	_	_	6	mark	_	_
+6	nggowoni	gowo	VERB	_	Voice=Act	4	advcl	_	_
+7	sampah	sampah	NOUN	_	Number=Sing	6	obj	_	_
+8	sing	sing	SCONJ	_	_	10	mark	_	_
+9	wis	wis	ADV	_	_	10	advmod	_	_
+10	dipisah	pisah	VERB	_	Voice=Pass	7	acl:relcl	_	_
+11-12	antarané	_	_	_	_	_	_	_	_
+11	antara	antara	NOUN	_	Number=Sing	9	obl	_	_
+12	né	né	DET	_	_	11	det	_	_
+13	sampah	sampah	NOUN	_	Number=Sing	11	nmod	_	_
+14	tèlès	tèlès	ADJ	_	_	13	amod	_	_
+15	lan	lan	CCONJ	_	_	16	cc	_	_
+16	sampah	sampah	NOUN	_	Number=Sing	13	conj	_	_
+17	garing	garing	ADJ	_	_	16	amod	_	_
+18	ing	ing	ADP	_	_	20	case	_	_
+19	sajroning	sajroning	NOUN	_	Number=Sing	20	nmod	_	_
+20	bak	bak	NOUN	_	Number=Sing	10	obl	_	_
+21	sampah	sampah	NOUN	_	Number=Sing	20	nmod	_	SpaceAfter=No
+22	;	,	PUNCT	_	_	4	punct	_	_
+23	Cecep	Cecep	PROPN	_	_	28	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	17	17	NUM	_	_	23	nummod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28-29	gawéané	_	_	_	_	_	_	_	_
+28	gawéan	gawé	NOUN	_	Number=Sing	31	nsubj	_	_
+29	é	é	PRON	_	_	28	nmod:poss	_	_
+30	luwih	luwih	ADV	_	_	31	advmod	_	_
+31	énténg	énténg	ADV	_	_	4	parataxis	_	_
+32	amarga	amarga	SCONJ	_	_	34	mark	_	_
+33	wis	wis	ADV	_	_	34	advmod	_	_
+34	didèwèné	dèwè	VERB	_	Voice=Act	31	advcl	_	_
+35-36	sampahé	_	_	_	_	_	_	_	SpaceAfter=No
+35	sampah	sampah	NOUN	_	Number=Sing	34	nsubj	_	_
+36	é	é	DET	_	_	35	det	_	_
+37	,	,	PUNCT	_	_	40	punct	_	_
+38	dèwèé	dèwèé	PRON	_	_	40	nsubj	_	_
+39	ora	ora	PART	_	Polarity=Neg	40	advmod	_	_
+40	pèrlu	pèrlu	VERB	_	Voice=Act	34	advcl	_	_
+41	antri	antri	VERB	_	Voice=Act	40	xcomp	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 2
+# text = Pramila putranipun ingkang asma Drestarastra-ramanipun para Korawa, miyosipun wuta.
+# text_id = Demikianlah putranya yang bernama Drestarastra — bapak Korawa, terlahir buta.
+# text_en = Thus his son, Drestarastra — the father of the Kauravas, was born blind.
+1	Pramila	Pramila	ADV	_	_	13	advmod	_	_
+2-3	putranipun	_	_	_	_	_	_	_	_
+2	putra	putra	NOUN	_	Number=Sing	13	nsubj	_	_
+3	nipun	ipun	PRON	_	_	2	nmod:poss	_	_
+4	ingkang	ingkang	PRON	_	_	5	nsubj	_	_
+5	asma	asma	VERB	_	Voice=Act	2	acl:relcl	_	_
+6	Drestarastra	Drestarastra	PROPN	_	_	5	obl	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8-9	ramanipun	_	_	_	_	_	_	_	_
+8	rama	rama	NOUN	_	Number=Sing	6	nmod	_	_
+9	nipun	ipun	DET	_	_	8	det	_	_
+10	para	para	DET	_	_	11	det	_	_
+11	Korawa	Korawa	PROPN	_	_	8	nmod:poss	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13-14	miyosipun	_	_	_	_	_	_	_	_
+13	miyosi	miyosi	VERB	_	Voice=Pass	0	root	_	_
+14	ipun	ipun	DET	_	_	13	det	_	_
+15	wuta	wuta	ADJ	_	_	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 3
+# text = Sira banjur didangu sarupaning kabungahan paparinging Allah nalika ing donya, ya gene ora padha syukur?
+# text_id = Dan ketika Anda ditanya tentang sukacita Allah di dunia, mengapa mereka tidak bersyukur?
+# text_en = And when you are asked about God's joy in the world, why are they not grateful?
+1	Sira	Sira	ADV	_	_	16	advmod	_	_
+2	banjur	banjur	SCONJ	_	_	3	mark	_	_
+3	didangu	dangu	VERB	_	Voice=Pass	16	advcl	_	_
+4	sarupaning	rupa	NOUN	_	Number=Sing	3	obl	_	_
+5	kabungahan	bungah	NOUN	_	Number=Sing	4	nmod	_	_
+6	paparinging	paring	VERB	_	_	4	acl:relcl	_	_
+7	Allah	Allah	PROPN	_	_	6	obl	_	_
+8	nalika	nalika	ADP	_	_	10	case	_	_
+9	ing	ing	ADP	_	_	10	case	_	_
+10	donya	donya	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	ya	ya	PART	_	_	16	advmod	_	_
+13	gene	gene	PRON	_	_	16	obl	_	_
+14	ora	ora	PART	_	Polarity=Neg	16	advmod	_	_
+15	padha	padha	ADV	_	_	16	advmod	_	_
+16	syukur	syukur	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 4
+# text = Temoné ing kana wujud prasasti watu.
+# text_id = Ditemukan di sana berupa prasasti batu.
+# text_en = Found there in the form of stone inscriptions.
+1	Temoné	temu	VERB	_	Voice=Pass	0	root	_	_
+2	ing	ing	ADP	_	_	3	case	_	_
+3	kana	kana	PRON	_	_	1	obl	_	_
+4	wujud	wujud	VERB	_	Voice=Act	1	advcl	_	_
+5	prasasti	prasasti	NOUN	_	Number=Sing	4	obl	_	_
+6	watu	watu	NOUN	_	Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sadèrèngipun Perang Dunia II, 14 radio komersial lan 12 radio umum ingkang saged dipunoperasikaken ing Prancis.
+# text_id = Sebelum Perang Dunia II, 14 radio komersial dan 12 radio publik dapat dioperasikan di Prancis.
+# Prior to World War II, 14 commercial and 12 public radios could be operated in France.
+1	Sadèrèngipun	sadèrèngipun	ADP	_	_	2	case	_	_
+2	Perang	Perang	PROPN	_	_	15	obl	_	_
+3	Dunia	Dunia	PROPN	_	_	2	flat:name	_	_
+4	II	II	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	14	14	NUM	_	_	7	nummod	_	_
+7	radio	radio	NOUN	_	Number=Sing	15	nsubj	_	_
+8	komersial	komersial	ADJ	_	_	7	amod	_	_
+9	lan	lan	CCONJ	_	_	11	cc	_	_
+10	12	12	NUM	_	_	11	nummod	_	_
+11	radio	radio	NOUN	_	Number=Sing	7	conj	_	_
+12	umum	umum	ADJ	_	_	11	amod	_	_
+13	ingkang	ingkang	PRON	_	_	15	nsubj	_	_
+14	saged	saged	AUX	_	_	15	aux	_	_
+15	dipunoperasikaken	operasi	VERB	_	Voice=Pass	0	root	_	_
+16	ing	ing	ADP	_	_	17	case	_	_
+17	Prancis	Prancis	PROPN	_	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	15	punct	_	_
+
 # sent_id = 26
 # text = Dibuka taun 2003, kanthi kapasitas 18.000 kursi.
 # text_id = Dibuka tahun 2003, dengan kapasitas 18.000 kursi.
 # text_en = Opened in 2003, with a capacity of 18000 seats.
 1	Dibuka	buka	VERB	_	_	0	root	_	_
-2	taun	taun	NOUN	_	_	1	obl:tmod	_	_
+2	taun	taun	NOUN	_	Number=Sing	1	obl:tmod	_	_
 3	2003	2003	NUM	_	_	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	kanthi	kanthi	ADP	_	_	6	case	_	_
-6	kapasitas	kapasitas	NOUN	_	_	1	obl	_	_
+6	kapasitas	kapasitas	NOUN	_	Number=Sing	1	obl	_	_
 7	18.000	18.000	NUM	_	_	8	nummod	_	_
-8	kursi	kursi	NOUN	_	_	6	nmod	_	SpaceAfter=No
+8	kursi	kursi	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 27
 # text = Lagu "She" dadi puncak tangga lagu Britania.
 # tex_id = Lagu "She" menjadi puncak tangga lagu Britania.
 # text_en = The song "She" tops the UK charts.
-1	Lagu	lagu	NOUN	_	_	5	nsubj	_	_
+1	Lagu	lagu	NOUN	_	Number=Sing	5	nsubj	_	_
 2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	She	She	PROPN	_	_	1	nmod	_	SpaceAfter=No
 4	"	"	PUNCT	_	_	3	punct	_	_
 5	dadi	dadi	VERB	_	_	0	root	_	_
-6	puncak	puncak	NOUN	_	_	5	obl	_	_
-7	tangga	tangga	NOUN	_	_	6	nmod	_	_
-8	lagu	lagu	NOUN	_	_	7	nmod	_	_
+6	puncak	puncak	NOUN	_	Number=Sing	5	obl	_	_
+7	tangga	tangga	NOUN	_	Number=Sing	6	nmod	_	_
+8	lagu	lagu	NOUN	_	Number=Sing	7	nmod	_	_
 9	Britania	Britania	PROPN	_	_	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -32,22 +163,22 @@
 # text_id = Jalur kedua, Jalur B, menuju timur laut ke barat daya, dijadwalkan dibuka pada tahun 2015.
 # text_en = A second line, Line B, heading northeast to southwest, is scheduled to open in 2015.
 1	Sawijining	Sawijining	ADV	_	_	15	advmod	_	_
-2	jalur	jalur	NOUN	_	_	15	nsubj	_	_
-3	kaping	kaping	NOUN	_	_	2	nmod	_	_
+2	jalur	jalur	NOUN	_	Number=Sing	15	nsubj	_	_
+3	kaping	kaping	NOUN	_	Number=Sing	2	nmod	_	_
 4	kalih	kalih	ADJ	_	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	Jalur	Jalur	PROPN	_	_	2	appos	_	_
 7	B	B	PROPN	_	_	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	kanthi	kanthi	ADP	_	_	10	case	_	_
-10	arah	arah	NOUN	_	_	2	nmod	_	_
-11	timurlaut	timurlaut	NOUN	_	_	10	nmod	_	_
+10	arah	arah	NOUN	_	Number=Sing	2	nmod	_	_
+11	timurlaut	timurlaut	NOUN	_	Number=Sing	10	nmod	_	_
 12	dhateng	dhateng	ADP	_	_	13	case	_	_
-13	baratdaya	baratdaya	NOUN	_	_	11	nmod	_	SpaceAfter=No
+13	baratdaya	baratdaya	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	dipunjadwalaken	jadwal	VERB	_	_	0	root	_	_
 16	dipunbikak	mbukak	VERB	_	_	15	xcomp	_	_
-17	taun	taun	NOUN	_	_	16	obl:tmod	_	_
+17	taun	taun	NOUN	_	Number=Sing	16	obl:tmod	_	_
 18	2015	2015	NUM	_	_	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -55,28 +186,28 @@
 # text = Kapasitas seri 705 yaiku 75 penumpang.
 # text_id = Kapasitas seri 705 adalah 75 penumpang.
 # text_en = The capacity of the 705 series is 75 passengers.
-1	Kapasitas	kapasitas	NOUN	_	_	6	nsubj	_	_
-2	seri	seri	NOUN	_	_	1	nmod	_	_
+1	Kapasitas	kapasitas	NOUN	_	Number=Sing	6	nsubj	_	_
+2	seri	seri	NOUN	_	Number=Sing	1	nmod	_	_
 3	705	705	NUM	_	_	2	nummod	_	_
 4	yaiku	yaiku	AUX	_	_	6	aux	_	_
 5	75	75	NUM	_	_	6	nummod	_	_
-6	penumpang	tumpang	NOUN	_	_	0	root	_	SpaceAfter=No
+6	penumpang	tumpang	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 30
 # text = Status kelangkaan buah iki dianalisis nganggo kategori lan kriteria tumbuhan langka miturut IUCN Red List Categories 30 November 1994.
 # text_id = Status kelangkaan buah ini dianalisis menggunakan kategori dan kriteria tumbuhan langka menurut Kategori Red List IUCN 30 November 1994.
 # text_en = The rarity status of this fruit was analyzed using the category and criteria of rare plants according to the IUCN Red List Category on November 30, 1994.
-1	Status	status	NOUN	_	_	5	nsubj:pass	_	_
-2	kelangkaan	langka	NOUN	_	_	1	nmod	_	_
-3	buah	buah	NOUN	_	_	2	nmod	_	_
+1	Status	status	NOUN	_	Number=Sing	5	nsubj:pass	_	_
+2	kelangkaan	langka	NOUN	_	Number=Sing	1	nmod	_	_
+3	buah	buah	NOUN	_	Number=Sing	2	nmod	_	_
 4	iki	iki	DET	_	_	1	det	_	_
 5	dianalisis	analisis	VERB	_	_	0	root	_	_
 6	nganggo	enggo	VERB	_	_	5	xcomp	_	_
-7	kategori	kategori	NOUN	_	_	6	obj	_	_
+7	kategori	kategori	NOUN	_	Number=Sing	6	obj	_	_
 8	lan	lan	CCONJ	_	_	9	cc	_	_
-9	kriteria	kriteria	NOUN	_	_	7	conj	_	_
-10	tumbuhan	tumbuh	NOUN	_	_	7	nmod	_	_
+9	kriteria	kriteria	NOUN	_	Number=Sing	7	conj	_	_
+10	tumbuhan	tumbuh	NOUN	_	Number=Sing	7	nmod	_	_
 11	langka	langka	ADJ	_	_	10	amod	_	_
 12	miturut	miturut	VERB	_	_	7	acl	_	_
 13	IUCN	IUCN	PROPN	_	_	12	obl	_	_
@@ -92,7 +223,7 @@
 # text = Geolog Inggris John Michell kanthi kapisah ugi manggihaken timbangan puntir ing taun 1750, nanging piyambakipun gagal migunakaken kanggé ngukur medan daya tarik bumi.
 # text_id = Ahli geologi Inggris John Michell secara terpisah juga menemukan skala torsional pada tahun 1750, tetapi ia gagal menggunakannya untuk mengukur medan gravitasi bumi.
 # text_en = British geologist John Michell separately also discovered torsional scales in 1750, but he failed to use them to measure the earth’s gravitational field.
-1	Geolog	Geolog	NOUN	_	_	8	nsubj	_	_
+1	Geolog	Geolog	NOUN	_	Number=Sing	8	nsubj	_	_
 2	Inggris	Inggris	PROPN	_	_	1	nmod	_	_
 3	John	John	PROPN	_	_	1	appos	_	_
 4	Michell	Michell	PROPN	_	_	3	flat:name	_	_
@@ -103,7 +234,7 @@
 9	timbangan	timbang	NOUN	_	Number=Sing	8	obj	_	_
 10	puntir	puntir	VERB	_	_	9	acl	_	_
 11	ing	ing	ADP	_	_	12	case	_	_
-12	taun	taun	NOUN	_	_	8	obl:tmod	_	_
+12	taun	taun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 13	1750	1750	NUM	_	_	12	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	8	punct	_	_
 15	nanging	nanging	CCONJ	_	_	17	cc	_	_
@@ -125,7 +256,7 @@
 # text_id = Pada tahun ketujuh ia harus ditebus tanpa membayar tebusan apapun.
 # text_en = In the seventh year he must be redeemed without paying any ransom.
 1	Ing	Ing	ADP	_	_	2	case	_	_
-2	taun	taun	NOUN	_	_	5	obl:tmod	_	_
+2	taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	kapitu	kapitu	ADJ	_	_	2	amod	_	_
 4	kudu	kudu	AUX	_	_	5	aux	_	_
 5	diluwari	diluwari	X	_	_	0	root	_	_
@@ -153,12 +284,12 @@
 # text_id = Pada tahun 2002 ia menentang aksi militer 'sepihak' oleh Amerika Serikat di Irak.
 # text_en = In 2002 he opposed ‘unilateral’ military action by the United States in Iraq.
 1	Nalika	Nalika	ADP	_	_	2	case	_	_
-2	taun	taun	NOUN	_	_	5	obl:tmod	_	_
+2	taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	2002	2002	NUM	_	_	2	nummod	_	_
 4	panjenengané	panjenengané	PRON	_	_	5	nsubj	_	_
 5	nentang	nentang	VERB	_	_	0	root	_	_
 6	aksi	aksi	NOUN	_	Number=Sing	5	obj	_	_
-7	militèr	militèr	NOUN	_	_	6	nmod	_	_
+7	militèr	militèr	NOUN	_	Number=Sing	6	nmod	_	_
 8	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	sepihak	pihak	ADJ	_	_	6	amod	_	SpaceAfter=No
 10	'	'	PUNCT	_	_	9	punct	_	_
@@ -174,17 +305,17 @@
 # text_id = Pada audisi tersebut, hanya 11 orang yang diterima dari 2.396 pendaftar.
 # text_en = At the audition, only 11 people were accepted out of 2,396 applicants.
 1	Ing	Ing	ADP	_	_	2	case	_	_
-2	audhisi	audhisi	NOUN	_	_	9	obl	_	_
+2	audhisi	audhisi	NOUN	_	Number=Sing	9	obl	_	_
 3	mau	mau	DET	_	_	2	det	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	namung	namung	ADV	_	_	7	advmod	_	_
 6	11	11	NUM	_	_	7	nummod	_	_
-7	tiyang	tiyang	NOUN	_	_	0	root	_	_
+7	tiyang	tiyang	NOUN	_	Number=Sing	0	root	_	_
 8	ingkang	ingkang	PRON	_	_	9	nsubj	_	_
 9	dipuntampi	dipuntampi	VERB	_	_	7	csubj	_	_
 10	saking	saking	ADP	_	_	13	case	_	_
 11	2.396	2.396	NUM	_	_	13	nummod	_	_
-12	tiyang	tiyang	NOUN	_	_	13	clf	_	_
+12	tiyang	tiyang	NOUN	_	Number=Sing	13	clf	_	_
 13	pelamar	lamar	NOUN	_	Number=Sing	9	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -195,14 +326,14 @@
 1	Timur	timur	NOUN	_	Number=Sing	14	nsubj	_	_
 2	2	2	NUM	_	_	1	nummod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	Timur	timur	NOUN	_	_	1	conj	_	_
+4	Timur	timur	NOUN	_	Number=Sing	1	conj	_	_
 5	3	3	NUM	_	_	4	nummod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	lan	lan	CCONJ	_	_	8	cc	_	_
-8	Barat	Barat	NOUN	_	_	1	conj	_	_
+8	Barat	Barat	NOUN	_	Number=Sing	1	conj	_	_
 9	1	1	NUM	_	_	8	nummod	_	SpaceAfter=No
 10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	Barat	Barat	NOUN	_	_	8	nmod	_	_
+11	Barat	Barat	NOUN	_	Number=Sing	8	nmod	_	_
 12	3	3	NUM	_	_	11	nummod	_	_
 13	kabèh	kabèh	DET	_	_	1	det	_	_
 14	nglayani	nglayani	VERB	_	_	0	root	_	_
@@ -214,13 +345,13 @@
 # text = Rudal punika ugi gadhah kemampuan nyergap sasaranipun saking sedaya arah (all-aspect), ing sedaya cuaca (all-weather) sarta ing tèngah pengacauan elektronis (jamming).
 # text_id = Rudal tersebut juga memiliki kemampuan untuk menyergap targetnya dari segala arah (all-aspect), di segala cuaca (all-weather) dan di tengah-tengah electronic jamming (jamming).
 # text_en = The missile also has the ability to ambush its target from all directions (all-aspect), in all weather (all-weather) and in the midst of electronic jamming (jamming).
-1	Rudal	Rudal	NOUN	_	_	4	nsubj	_	_
+1	Rudal	Rudal	NOUN	_	Number=Sing	4	nsubj	_	_
 2	punika	punika	DET	_	_	1	det	_	_
 3	ugi	ugi	ADV	_	_	4	advmod	_	_
 4	gadhah	gadhah	VERB	_	_	0	root	_	_
 5	kemampuan	mampu	NOUN	_	Number=Sing	4	obj	_	_
 6	nyergap	nyergap	VERB	_	_	5	advcl	_	_
-7	sasaranipun	sasaranipun	NOUN	_	_	6	obj	_	_
+7	sasaranipun	sasaranipun	NOUN	_	Number=Sing	6	obj	_	_
 8	saking	saking	ADP	_	_	10	case	_	_
 9	sedaya	daya	DET	_	_	10	det	_	_
 10	arah	arah	NOUN	_	Number=Sing	6	obl	_	_
@@ -236,7 +367,7 @@
 20	)	)	PUNCT	_	_	19	punct	_	_
 21	sarta	sarta	CCONJ	_	_	23	cc	_	_
 22	ing	ing	ADP	_	_	23	case	_	_
-23	tèngah	tèngah	NOUN	_	_	10	conj	_	_
+23	tèngah	tèngah	NOUN	_	Number=Sing	10	conj	_	_
 24	pengacauan	kacauan	NOUN	_	Number=Sing	23	nmod	_	_
 25	elektronis	elektronis	ADJ	_	_	24	amod	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
@@ -254,7 +385,7 @@
 4	ing	ing	ADP	_	_	5	case	_	_
 5	TV	TV	PROPN	_	_	3	obl	_	_
 6	nalika	nalika	ADP	_	_	7	case	_	_
-7	taun	taun	NOUN	_	_	3	obl:tmod	_	_
+7	taun	taun	NOUN	_	Number=Sing	3	obl:tmod	_	_
 8	1948	1948	NUM	_	_	7	nummod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -276,7 +407,7 @@
 # text_en = Then his father invited him to join his privately owned team that competed in Formula Three Euroseries and local F3 in Europe.
 1	Lajeng	Lajeng	ADV	_	_	4	advmod	_	_
 2-3	ayahipun	_	_	_	_	_	_	_	_
-2	ayahi	ayah	NOUN	_	_	4	nsubj	_	_
+2	ayahi	ayah	NOUN	_	Number=Sing	4	nsubj	_	_
 3	pun	pun	PRON	_	_	2	nmod:poss	_	_
 4-5	mengajaknya	_	_	_	_	_	_	_	_
 4	mengajak	ajak	VERB	_	Voice=Act	0	root	_	_
@@ -284,7 +415,7 @@
 6	mlebet	mlebet	VERB	_	_	4	advcl	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
 8	tim	tim	NOUN	_	Number=Sing	4	obl	_	_
-9	gadahanipun	gadahanipun	NOUN	_	_	8	nmod	_	_
+9	gadahanipun	gadahanipun	NOUN	_	Number=Sing	8	nmod	_	_
 10	pribadi	pribadi	ADJ	_	_	8	amod	_	_
 11	ingkang	ingkang	SCONJ	_	_	12	mark	_	_
 12	turun	turun	VERB	_	_	8	acl:relcl	_	_
@@ -357,7 +488,7 @@
 5	bapak	bapak	NOUN	_	Number=Sing	0	root	_	_
 6	ageng	ageng	ADJ	_	_	5	amod	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
-8	hidrostatika	hidrostatika	NOUN	_	_	5	nmod	_	SpaceAfter=No
+8	hidrostatika	hidrostatika	NOUN	_	Number=Sing	5	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 100
@@ -370,14 +501,14 @@
 4	umum	umum	ADJ	_	_	5	advmod	_	_
 5	dipuntingali	dipuntingali	VERB	_	_	0	root	_	_
 6	minangka	minangka	ADP	_	_	7	case	_	_
-7	utama	utama	NOUN	_	_	5	obl	_	_
+7	utama	utama	NOUN	_	Number=Sing	5	obl	_	_
 8	saking	saking	ADP	_	_	9	case	_	_
 9	gaya	gaya	NOUN	_	Number=Sing	7	nmod	_	_
 10	sastra	sastra	NOUN	_	Number=Sing	9	nmod	_	_
 11	ingkang	ingkang	SCONJ	_	_	12	mark	_	_
 12	dipunkenal	dipunkenal	VERB	_	_	9	acl:relcl	_	_
 13	minangka	minangka	ADP	_	_	14	case	_	_
-14	realisme	realisme	NOUN	_	_	12	obl	_	_
+14	realisme	realisme	NOUN	_	Number=Sing	12	obl	_	_
 15	magis	magis	ADJ	_	_	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
