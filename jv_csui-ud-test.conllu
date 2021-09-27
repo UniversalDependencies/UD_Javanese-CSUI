@@ -99,7 +99,7 @@
 # text_id = Ditemukan di sana berupa prasasti batu.
 # text_en = Found there in the form of stone inscriptions.
 1-2	Temoné	_	_	_	_	_	_	_	_
-1	Temon	temu	NOUN	_	_	5	nsubj	_	_
+1	Temon	temu	NOUN	_	Number=Sing	5	nsubj	_	_
 2	é	é	DET	_	_	1	det	_	_
 3	ing	ing	ADP	_	_	4	case	_	_
 4	kana	kana	PRON	_	_	5	obl	_	_
@@ -130,6 +130,86 @@
 16	ing	ing	ADP	_	_	17	case	_	_
 17	Prancis	Prancis	PROPN	_	_	15	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 6
+# text = Semono uga ing sakjumlah perkutut kagem Bapak.
+# text_id = Hal yang sama berlaku untuk sejumlah perkutut untuk Anda.
+# text_en = The same goes for a number of pigeons for you.
+1	Semono	Semono	ADJ	_	_	0	root	_	_
+2	uga	uga	ADV	_	_	1	advmod	_	_
+3	ing	ing	ADP	_	_	5	case	_	_
+4	sakjumlah	jumlah	DET	_	_	5	det	_	_
+5	perkutut	perkutut	NOUN	_	Number=Sing	1	obl	_	_
+6	kagem	kagem	ADP	_	_	7	case	_	_
+7	Bapak	Bapak	PROPN	_	_	1	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 7
+# text = Kriteria punika kedah dipunterapaken ing konsekuensi-konsekuensi ingkang timbul saking putusan-putusan etis.
+# text_id = Kriteria ini harus diterapkan pada konsekuensi yang timbul dari keputusan etis.
+# text_en = These criteria should be applied to the consequences arising from ethical decisions.
+1	Kriteria	kriteria	NOUN	_	Number=Sing	4	nsubj:pass	_	_
+2	punika	punika	DET	_	_	1	det	_	_
+3	kedah	kedah	AUX	_	_	4	aux	_	_
+4	dipunterapaken	terap	VERB	_	_	0	root	_	_
+5	ing	ing	ADP	_	_	6	case	_	_
+6	konsekuensi-konsekuensi	konsekuensi	X	_	_	4	obl	_	_
+7	ingkang	ingkang	PRON	_	PronType=Rel	8	nsubj	_	_
+8	timbul	timbul	VERB	_	_	6	advcl	_	_
+9	saking	saking	ADP	_	_	10	case	_	_
+10	putusan-putusan	putus	NOUN	_	Number=Plur	8	obl	_	_
+11	etis	etis	X	_	_	10	dep	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 8
+# text = Paulus nyebut dhèknèné minangka "rasul kanggo bangsa-bangsa non-Yahudi" (Roma 11:13).
+# text_id = Paulus menyebut dirinya sebagai “rasul bagi bangsa-bangsa non-Yahudi” (Roma 11:13).
+# text_en = Paul called himself “an apostle to the Gentiles” (Romans 11:13).
+1	Paulus	Paulus	PROPN	_	_	2	nsubj	_	_
+2	nyebut	sebut	VERB	_	_	0	root	_	_
+3-4	dhèknèné	_	_	_	_	_	_	_	_
+3	dhèknè	dhèknè	PRON	_	_	1	obj	_	_
+4	né	né	PRON	_	_	3	nmod:poss	_	_
+5	minangka	minangka	ADP	_	_	7	case	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	rasul	rasul	NOUN	_	Number=Sing	3	obl	_	_
+8	kanggo	kanggo	ADP	_	_	9	case	_	_
+9	bangsa-bangsa	bangsa	NOUN	_	Number=Plur	7	nmod	_	_
+10	non-Yahudi	non-Yahudi	PROPN	_	_	9	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	7	punct	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Roma	Roma	PROPN	_	_	7	nmod	_	_
+14	11	11	NUM	_	_	13	nummod	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	13	13	NUM	_	_	14	flat	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 9
+# text = Jenengé disebutake kaping 27 ing Al-Quran.
+# text_id = Namanya disebut sebanyak 27 kali dalam Al-Qur'an.
+# text_en = His name is mentioned 27 times in the Qur'an.
+1-2	Jenengé	_	_	_	_	_	_	_	_
+1	Jeneng	jeneng	NOUN	_	_	3	nsubj	_	_
+2	é	é	PRON	_	_	1	nmod:poss	_	_
+3	disebutake	sebut	VERB	_	_	0	root	_	_
+4	kaping	kaping	NOUN	_	_	3	obl	_	_
+5	27	27	NUM	_	_	4	nummod	_	_
+6	ing	ing	ADP	_	_	7	case	_	_
+7	Al-Quran	Al-Quran	PROPN	_	_	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 10
+# text = Tuladha: sepira dhuwurmu?
+# text_id = Contoh: berapa tinggimu?
+# text_en = Example: how tall are you?
+1	Tuladha	Tuladha	NOUN	_	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	sepira	sepira	ADV	_	_	4	advmod	_	_
+4-5	dhuwurmu	_	_	_	_	_	_	_	SpaceAfter=No
+4	dhuwur	dhuwur	NOUN	_	_	1	parataxis	_	_
+5	mu	mu	PRON	_	_	4	nmod:poss	_	_
+6	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 26
 # text = Dibuka taun 2003, kanthi kapasitas 18.000 kursi.
