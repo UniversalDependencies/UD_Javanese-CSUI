@@ -301,6 +301,161 @@
 19	1994	1994	NUM	_	_	17	flat	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
+# sent_id = 51
+# text = Nganti ing sawijining dina, Pak Surya ketemu karo Sarah.
+# text_id = Hingga suatu hari, Pak Surya bertemu dengan Sarah.
+# text_en = Until one day, Mr. Surya met Sarah
+1	Nganti	Nganti	ADP	_	_	4	case	_	_
+2	ing	ing	ADP	_	_	4	case	_	_
+3	sawijining	sawiji	DET	_	_	4	det	_	_
+4	dina	dina	NOUN	_	_	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Pak	Pak	PROPN	_	_	8	nsubj	_	_
+7	Surya	Surya	PROPN	_	_	6	flat:name	_	_
+8	ketemu	ketemu	VERB	_	Voice=Act	0	root	_	_
+9	karo	karo	ADP	_	_	10	case	_	_
+10	Sarah	Sarah	PROPN	_	_	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 52
+# text = Pesawat punika dipunsertifikasi perdana taun 1994.
+# text_id = Pesawat itu disertifikasi perdana tahun 1994.
+# text_en = The aircraft was first certified in 1994.
+1	Pesawat	pesawat	X	_	_	3	nsubj	_	_
+2	punika	punika	DET	_	_	1	det	_	_
+3	dipunsertifikasi	sertifikasi	VERB	_	_	0	root	_	_
+4	perdana	perdana	ADJ	_	_	3	amod	_	_
+5	taun	taun	NOUN	_	_	3	obl	_	_
+6	1994	1994	NUM	_	_	5	nummod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 53
+# text = Israèl lan Arab sarujuk gencatan senjata.
+# text_id = Israel dan Arab setuju gencatan senjata.
+# text_en = Israel and Arabs agreed to a ceasefire.
+1	Israèl	israèl	PROPN	_	_	4	nsubj	_	_
+2	lan	lan	CCONJ	_	_	3	cc	_	_
+3	Arab	Arab	PROPN	_	_	1	conj	_	_
+4	sarujuk	sarujuk	VERB	_	_	0	root	_	_
+5	gencatan	gencatan	NOUN	_	Number=Sing	4	obl	_	_
+6	senjata	senjata	NOUN	_	Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 54
+# text = Panjenenganipun miyos kanthi asma asli Joko Widodo.
+# text_id = Beliau terlahir dengan nama asli Joko Widodo.
+# text_en = He was born with the real name Joko Widodo.
+1-2	Panjenenganipun	_	_	_	_	_	_	_	_
+1	Panjenengan	panjenengan	PRON	_	_	3	nsubj	_	_
+2	ipun	ipun	PRON	_	_	1	nmod:poss	_	_
+3	miyos	miyos	VERB	_	_	0	root	_	_
+4	kanthi	kanthi	ADP	_	_	5	case	_	_
+5	asma	asma	NOUN	_	Number=Sing	3	obl	_	_
+6	asli	asli	ADJ	_	_	5	amod	_	_
+7	Joko	Joko	PROPN	_	_	5	nmod	_	_
+8	Widodo	Widodo	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 55
+# text = 1995-Ing Somalia, misi perdamaian PBB dipunpungkasi.
+# text_id = 1995-Di Somalia, misi perdamaian PBB diakhiri.
+# text_en = 1995-In Somalia, the UN peace mission was ended.
+1	1995	1995	NUM	_	_	9	obl:tmod	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	Ing	Ing	ADP	_	_	4	case	_	_
+4	Somalia	Somalia	PROPN	_	_	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	misi	misi	NOUN	_	Number=Sing	9	nsubj	_	_
+7	perdamaian	perdamaian	X	_	_	6	nmod	_	_
+8	PBB	PBB	PROPN	_	_	6	nmod	_	_
+9	dipunpungkasi	pungkas	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 56
+# text = Kanthi tetulung kabèh mau, Count Dracula iso dibasmi.
+# text_id = Dengan bantuan mereka semua, Count Dracula dapat dimusnahkan.
+# text_en = With the help of all of them, Count Dracula can be exterminated.
+1	Kanthi	Kanthi	ADP	_	_	2	case	_	_
+2	tetulung	tetulung	NOUN	_	_	9	obl	_	_
+3	kabèh	kabèh	DET	_	_	4	det	_	_
+4	mau	mau	X	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	Count	Count	PROPN	_	_	9	nsubj	_	_
+7	Dracula	Dracula	PROPN	_	_	6	flat:name	_	_
+8	iso	iso	AUX	_	_	9	aux	_	_
+9	dibasmi	dibasmi	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 57
+# text = "Déné piyambakipun ngolah bahan ingkang strategis kanggé kepentingan rakyat," ngendikanipun Endriartono.
+# text_id = "Padahal dia mengolah bahan yang strategis untuk kepentingan rakyat," kata Endriartono.
+# text_en = "Whereas he processes materials that are strategic for the benefit of the people," said Endriartono.
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Déné	déné	ADV	_	_	5	advmod	_	_
+3-4	piyambakipun	_	_	_	_	_	_	_	_
+3	piyambak	piyambak	PRON	_	_	5	nsubj	_	_
+4	ipun	ipun	PRON	_	_	3	nmod:poss	_	_
+5	ngolah	ngolah	VERB	_	Voice=Act	0	root	_	_
+6	bahan	bahan	NOUN	_	Number=Sing	5	obj	_	_
+7	ingkang	ingkang	PRON	_	PronType=Rel	8	nsubj	_	_
+8	strategis	strategis	ADJ	_	_	6	acl:relcl	_	_
+9	kanggé	kanggé	ADP	_	_	10	case	_	_
+10	kepentingan	kepentingan	NOUN	_	Number=Sing	8	obl	_	_
+11	rakyat	rakyat	NOUN	_	Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	5	punct	_	_
+14-15	ngendikanipun	_	_	_	_	_	_	_	_
+14	ngendika	ngendika	PRON	_	_	5	parataxis	_	_
+15	nipun	ipun	PRON	_	_	14	nmod:poss	_	_
+16	Endriartono	Endriartono	PROPN	_	_	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 58
+# text = Euryarchaeota iso urip ing lingkungan ekstrem.
+# text_id = Euryarchaeota dapat bertahan hidup di lingkungan ekstrem.
+# text_en = Euryarchaeota can survive in extreme environments.
+1	Euryarchaeota	Euryarchaeota	PROPN	_	_	3	nsubj	_	_
+2	iso	iso	AUX	_	_	3	aux	_	_
+3	urip	urip	VERB	_	Voice=Act	0	root	_	_
+4	ing	ing	ADP	_	_	5	case	_	_
+5	lingkungan	lingkungan	NOUN	_	Number=Sing	3	obl	_	_
+6	ekstrem	ekstrem	ADJ	_	_	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 59
+# text = Koizumi ngundurke diri ana ing tanggal 26 September lan sakpungkasane digantiake Abe.
+# text_id = Koizumi mengundurkan diri pada tanggal 26 September dan akhirnya digantikan oleh Abe.
+# text_en = Koizumi resigned on September 26 and was eventually replaced by Abe.
+1	Koizumi	Koizumi	PROPN	_	_	2	nsubj	_	_
+2	ngundurke	mundur	VERB	_	Voice=Act	0	root	_	_
+3	diri	diri	PRON	_	PronType=Prs	2	obj	_	_
+4	ana	ana	ADP	_	_	6	case	_	_
+5	ing	ing	ADP	_	_	6	case	_	_
+6	tanggal	tanggal	NOUN	_	_	2	obl	_	_
+7	26	26	NUM	_	_	6	nummod	_	_
+8	September	September	PROPN	_	_	7	flat	_	_
+9	lan	lan	CCONJ	_	_	12	cc	_	_
+10	sakpungkasane	pungkasan	ADV	_	_	11	advmod	_	_
+11	digantiake	ganti	VERB	_	_	2	conj	_	_
+12	Abe	Abe	PROPN	_	_	11	obl:agent	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 60
+# text = Nalika taun 1999, Danau Sentarum dikukuhaké dadi taman nasional.
+# text_id = Pada tahun 1999, Danau Sentarum dikukuhkan menjadi taman nasional.
+# text_en = In 1999, Lake Sentarum was declared a national park.
+1	Nalika	Nalika	ADP	_	_	2	case	_	_
+2	taun	taun	NOUN	_	_	7	obl	_	_
+3	1999	1999	NUM	_	_	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	Danau	Danau	PROPN	_	_	7	nsubj	_	_
+6	Sentarum	Sentarum	PROPN	_	_	5	flat:name	_	_
+7	dikukuhaké	dikukuhaké	VERB	_	Voice=Pass	0	root	_	_
+8	dadi	dadi	VERB	_	_	7	xcomp	_	_
+9	taman	taman	NOUN	_	Number=Sing	8	obj	_	_
+10	nasional	nasional	ADJ	_	_	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
+
 # sent_id = 86
 # text = Geolog Inggris John Michell kanthi kapisah ugi manggihaken timbangan puntir ing taun 1750, nanging piyambakipun gagal migunakaken kanggé ngukur medan daya tarik bumi.
 # text_id = Ahli geologi Inggris John Michell secara terpisah juga menemukan skala torsional pada tahun 1750, tetapi ia gagal menggunakannya untuk mengukur medan gravitasi bumi.
