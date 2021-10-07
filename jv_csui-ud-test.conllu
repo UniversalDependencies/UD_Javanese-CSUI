@@ -636,9 +636,9 @@
 1	Koizumi	Koizumi	PROPN	_	_	2	nsubj	_	_
 2	ngundurke	mundur	VERB	_	Voice=Act	0	root	_	_
 3	diri	diri	PRON	_	PronType=Prs	2	obj	_	_
-4	ana	ana	ADP	_	_	6	case	_	_
+4	ana	ana	VERB	_	_	2	advcl	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
-6	tanggal	tanggal	NOUN	_	_	2	obl	_	_
+6	tanggal	tanggal	NOUN	_	_	3	obl	_	_
 7	26	26	NUM	_	_	6	nummod	_	_
 8	September	September	PROPN	_	_	7	flat	_	_
 9	lan	lan	CCONJ	_	_	12	cc	_	_
@@ -662,6 +662,208 @@
 9	taman	taman	NOUN	_	Number=Sing	8	obj	_	_
 10	nasional	nasional	ADJ	_	_	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 76
+# text = Nalika taun 2006 lagu iki uga digunakaké ana ing sapérangan episode ing serial TV Supernatural.
+# text_id = Pada tahun 2006 lagu tersebut juga digunakan dalam sebagian episode serial TV Supernatural.
+# text_en = In 2006 the song was also used in several episodes of the TV series Supernatural.
+1	Nalika	Nalika	ADP	_	_	2	case	_	_
+2	taun	taun	NOUN	_	_	7	obl:tmod	_	_
+3	2006	2006	NUM	_	_	2	nummod	_	_
+4	lagu	lagu	NOUN	_	_	7	nsubj:pass	_	_
+5	iki	iki	DET	_	_	4	det	_	_
+6	uga	uga	ADV	_	_	7	advmod	_	_
+7	digunakaké	guna	VERB	_	_	0	root	_	_
+8	ana	ana	VERB	_	_	7	advcl	_	_
+9	ing	ing	ADP	_	_	10	case	_	_
+10	sapérangan	pérang	NOUN	_	_	8	obl	_	_
+11	episode	episode	NOUN	_	_	10	nmod	_	_
+12	ing	ing	ADP	_	_	13	case	_	_
+13	serial	serial	NOUN	_	_	11	nmod	_	_
+14	TV	TV	PROPN	_	_	13	nmod	_	_
+15	Supernatural	Supernatural	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 77
+# text = Akèh-akèhe lagu Shakur dipunsèrat nganggo kekerasan ing ghetto, rasisme, prakawis sosial, lan kadang padudone kaliyan rapper sanès.
+# text_id = Sebagian besar lagu Shakur ditulis dengan kekerasan ghetto, rasisme, masalah sosial, dan terkadang konflik dengan rapper lain.
+# text_en = Most of Shakur’s songs are written with ghetto violence, racism, social issues, and sometimes conflicts with other rappers.
+1	Akèh-akèhe	akèh	DET	_	_	2	det	_	_
+2	lagu	lagu	NOUN	_	_	4	nsubj:pass	_	_
+3	Shakur	Shakur	PROPN	_	_	2	nmod	_	_
+4	dipunsèrat	sèrat	VERB	_	_	0	root	_	_
+5	nganggo	anggo	VERB	_	_	4	xcomp	_	_
+6	kekerasan	keras	NOUN	_	_	5	obl	_	_
+7	ing	ing	ADP	_	_	8	case	_	_
+8	ghetto	ghetto	X	_	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	rasisme	rasisme	X	_	_	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	prakawis	prakawis	NOUN	_	_	8	conj	_	_
+13	sosial	sosial	NOUN	_	_	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	lan	lan	CCONJ	_	_	17	cc	_	_
+16	kadang	kadang	ADV	_	_	17	advmod	_	_
+17-18	padudone	_	_	_	_	_	_	_	_
+17	padudon	padu	VERB	_	_	8	conj	_	_
+18	e	e	DET	_	_	17	det	_	_
+19	kaliyan	kaliyan	ADP	_	_	20	case	_	_
+20	rapper	rapper	X	_	Foreign=Yes	17	obl	_	_
+21	sanès	sanès	ADJ	_	_	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 78
+# text = Iki wujud jinis kanker paling umum kang ditandhang kaum wanita.
+# text_id = Ini adalah jenis kanker paling umum yang diderita wanita.
+# text_en = This is the most common type of cancer that women suffer from.
+1	Iki	Iki	PRON	_	_	2	nsubj	_	_
+2	wujud	wujud	NOUN	_	_	0	root	_	_
+3	jinis	jinis	NOUN	_	_	2	nmod	_	_
+4	kanker	kanker	NOUN	_	_	3	nmod	_	_
+5	paling	paling	ADV	_	_	6	advmod	_	_
+6	umum	umum	ADJ	_	_	3	amod	_	_
+7	kang	kang	PRON	_	PronType=Rel	8	nsubj:pass	_	_
+8	ditandhang	tandhang	VERB	_	_	6	advcl	_	_
+9	kaum	kaum	NOUN	_	_	8	obl:agent	_	_
+10	wanita	wanita	NOUN	_	_	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 79
+# text = Karakter-karakter punika namung muncul ingkang sakêdhepan kemawon, limrahipun ing film utawi serial House of Mouse.
+# text_id = Karakter ini hanya muncul sesekali, biasanya dalam film atau serial House of Mouse.
+# text_en = These characters only appear occasionally, usually in a movie or House of Mouse  series.
+1	Karakter-karakter	karakter	NOUN	_	Number=Plur	4	nsubj	_	_
+2	punika	punika	DET	_	_	1	det	_	_
+3	namung	namung	ADV	_	_	4	advmod	_	_
+4	muncul	muncul	VERB	_	_	0	root	_	_
+5	ingkang	ingkang	PRON	_	_	6	nsubj	_	_
+6	sakêdhepan	kêdhep	ADV	_	_	4	advmod	_	_
+7	kemawon	kemawon	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	limrahipun	limrah	ADV	_	_	11	advmod	_	_
+10	ing	ing	ADP	_	_	11	case	_	_
+11	film	film	NOUN	_	_	4	advcl	_	_
+12	utawi	utawi	CCONJ	_	_	13	cc	_	_
+13	serial	serial	NOUN	_	_	11	conj	_	_
+14	House	House	PROPN	_	_	13	nmod	_	_
+15	of	of	PROPN	_	_	14	flat:foreign	_	_
+16	Mouse	Mouse	PROPN	_	_	14	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 80
+# text = Ushaidi diciptakake ing pungkasan taun 2007 minangka respon saking huru-hara saksampunè pemilu ingkang kèdadosan ing Kenya.
+# text_id = Ushaidi diciptakan pada akhir 2007 sebagai tanggapan atas kerusuhan setelah pemilu yang terjadi di Kenya.
+# text_en = Ushaidi was created in late 2007 in response to the post-election unrest in Kenya.
+1	Ushaidi	Ushaidi	PROPN	_	_	2	nsubj:pass	_	_
+2	diciptakake	cipta	VERB	_	_	0	root	_	_
+3	ing	ing	ADP	_	_	5	case	_	_
+4	pungkasan	pungkasan	NOUN	_	_	5	nmod	_	_
+5	taun	taun	NOUN	_	_	2	obl:tmod	_	_
+6	2007	2007	NUM	_	_	5	nummod	_	_
+7	minangka	minangka	ADP	_	_	8	case	_	_
+8	respon	respon	NOUN	_	_	2	obl	_	_
+9	saking	saking	ADP	_	_	10	case	_	_
+10	huru-hara	huru-hara	NOUN	_	_	8	nmod	_	_
+11	saksampunè	sampun	ADP	_	_	12	case	_	_
+12	pemilu	pemilu	NOUN	_	Number=Sing	10	nmod	_	_
+13	ingkang	ingkang	PRON	_	PronType=Rel	14	nsubj	_	_
+14	kèdadosan	dados	VERB	_	_	12	acl:relcl	_	_
+15	ing	ing	ADP	_	_	16	case	_	_
+16	Kenya	Kenya	PROPN	_	_	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 81
+# text = Star Movies yaiku saluran mbayar kang pertama ing India.
+# text_id = Star Movies adalah saluran berbayar pertama di India.
+# text_en = Star Movies was the first paid channel in India.
+1	Star	Star	PROPN	_	_	4	nsubj	_	_
+2	Movies	Movies	PROPN	_	_	1	flat:name	_	_
+3	yaiku	yaiku	AUX	_	_	4	cop	_	_
+4	saluran	saluran	NOUN	_	_	0	root	_	_
+5	mbayar	mbayar	VERB	_	_	4	acl	_	_
+6	kang	kang	PRON	_	PronType=Rel	7	nsubj	_	_
+7	pertama	pertama	ADJ	_	_	4	acl:relcl	_	_
+8	ing	ing	ADP	_	_	9	case	_	_
+9	India	India	PROPN	_	_	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 82
+# text = 1920-Hongaria kicalan 71% teritori lan 63% populasi nalika Traktat Trianon dipuntapakastani ing Paris.
+# text_id = 1920-Hongaria kehilangan 71% wilayahnya dan 63% penduduknya ketika Perjanjian Trianon diratifikasi di Paris.
+# text_en = 1920-Hungary loses 71% of its territory and 63% of its population when the Treaty of Trianon is ratified in Paris.
+1	1920	1920	NUM	_	_	4	obl:tmod	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	Hongaria	Hongaria	PROPN	_	_	4	nsubj:pass	_	_
+4	kicalan	ical	VERB	_	Voice=Pass	0	root	_	_
+5	71	71	NUM	_	_	6	nummod	_	SpaceAfter=No
+6	%	%	SYM	_	_	4	obl	_	_
+7	teritori	teritori	NOUN	_	_	6	nmod	_	_
+8	lan	lan	CCONJ	_	_	10	cc	_	_
+9	63	63	NUM	_	_	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	_	_	6	conj	_	_
+11	populasi	populasi	NOUN	_	_	10	nmod	_	_
+12	nalika	nalika	SCONJ	_	_	15	mark	_	_
+13	Traktat	Traktat	PROPN	_	_	15	nsubj:pass	_	_
+14	Trianon	Trianon	PROPN	_	_	13	flat:name	_	_
+15	dipuntapakastani	tapakasta	VERB	_	Voice=Pass	4	advcl	_	_
+16	ing	ing	ADP	_	_	17	case	_	_
+17	Paris	Paris	PROPN	_	_	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 83
+# text = Wonten ing ESO piyambakipun ningali perkembangan lan pembangunan Very Large Telescope.
+# text_id = Di ESO ia mengawasi pengembangan dan pembangunan Teleskop Sangat Besar.
+# text_en = At ESO he oversaw the development and building of the Very Large Telescope.
+1	Wonten	Wonten	ADV	_	_	5	advmod	_	_
+2	ing	ing	ADP	_	_	3	case	_	_
+3	ESO	ESO	PROPN	_	_	5	obl	_	_
+4	piyambakipun	piyambak	PRON	_	_	5	nsubj	_	_
+5	ningali	tingal	VERB	_	Voice=Act	0	root	_	_
+6	perkembangan	perkembangan	NOUN	_	_	5	obj	_	_
+7	lan	lan	CCONJ	_	_	8	cc	_	_
+8	pembangunan	bangun	NOUN	_	_	6	conj	_	_
+9	Very	Very	PROPN	_	_	8	nmod	_	_
+10	Large	Large	PROPN	_	_	9	flat:name	_	_
+11	Telescope	Telescope	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 84
+# text = Panjenenganipun terus makarya dugi 2 taun salajengipun, liwat 3 operasi lan kemoterapi eksperimental lan remisi 10 wulan.
+# text_id = Dia terus bekerja sampai 2 tahun berikutnya, melalui 3 operasi dan kemoterapi eksperimental dan remisi 10 bulan.
+# text_en = He continued to work until the next 2 years, through 3 surgeries and experimental chemotherapy and a 10 month remission.
+1	Panjenenganipun	Panjenengan	PRON	_	_	3	nsubj	_	_
+2	terus	terus	ADV	_	_	3	advmod	_	_
+3	makarya	karya	VERB	_	Voice=Act	0	root	_	_
+4	dugi	dugi	ADP	_	_	6	case	_	_
+5	2	2	NUM	_	_	6	nummod	_	_
+6	taun	taun	NOUN	_	_	3	obl	_	_
+7	salajengipun	lajeng	ADJ	_	_	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	liwat	liwat	ADP	_	_	11	case	_	_
+10	3	3	NUM	_	_	11	nummod	_	_
+11	operasi	operasi	NOUN	_	_	3	obl	_	_
+12	lan	lan	CCONJ	_	_	13	cc	_	_
+13	kemoterapi	kemoterapi	X	_	_	11	conj	_	_
+14	eksperimental	eksperimental	X	_	_	13	dep	_	_
+15	lan	lan	CCONJ	_	_	16	cc	_	_
+16	remisi	remisi	X	_	_	11	conj	_	_
+17	10	10	NUM	_	_	18	nummod	_	_
+18	wulan	wulan	NOUN	_	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 85
+# text = Iridium 33 iku satelit komunikasi Iridium Amérika Sarékat.
+# text_id = Iridium 33 adalah satelit komunikasi Iridium Amerika Serikat.
+# text_en = Iridium 33 is an Iridium communications satellite of the United States.
+1	Iridium	Iridium	PROPN	_	_	4	nsubj	_	_
+2	33	33	NUM	_	_	1	nummod	_	_
+3	iku	yaiku	AUX	_	_	4	cop	_	_
+4	satelit	satelit	NOUN	_	_	0	root	_	_
+5	komunikasi	komunikasi	NOUN	_	_	4	nmod	_	_
+6	Iridium	Iridium	PROPN	_	_	4	nmod	_	_
+7	Amérika	Amérika	PROPN	_	_	4	nmod	_	_
+8	Sarékat	Sarékat	PROPN	_	_	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 86
 # text = Geolog Inggris John Michell kanthi kapisah ugi manggihaken timbangan puntir ing taun 1750, nanging piyambakipun gagal migunakaken kanggé ngukur medan daya tarik bumi.
@@ -718,9 +920,9 @@
 2	Liga	Liga	PROPN	_	_	1	nmod	_	_
 3	Arab	Arab	PROPN	_	_	2	flat:name	_	_
 4	mapan	mapan	VERB	_	Voice=Pass	0	root	_	_
-5	ana	ana	ADP	_	_	7	case	_	_
+5	ana	ana	VERB	_	_	4	advcl	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
-7	Kairo	Kairo	PROPN	_	_	4	obl	_	SpaceAfter=No
+7	Kairo	Kairo	PROPN	_	_	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 89
@@ -882,9 +1084,9 @@
 2-3	pungkasane	_	_	_	_	_	_	_	_
 2	pungkasan	pungkas	ADJ	_	_	1	amod	_	_
 3	e	e	PRON	_	_	1	nmod:poss	_	_
-4	ana	ana	ADP	_	_	6	case	_	_
+4	ana	ana	VERB	_	_	1	acl	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
-6	Seri	Seri	PROPN	_	_	1	nmod	_	_
+6	Seri	Seri	PROPN	_	_	4	obl	_	_
 7	A	A	PROPN	_	_	6	flat:name	_	_
 8	yaiku	yaiku	AUX	_	_	10	cop	_	_
 9	nalika	nalika	ADV	_	_	10	advmod	_	_
