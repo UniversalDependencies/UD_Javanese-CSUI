@@ -9,30 +9,30 @@
 5	karo	karo	SCONJ	_	_	6	mark	_	_
 6	nggowoni	gowo	VERB	_	Voice=Act	4	advcl	_	_
 7	sampah	sampah	NOUN	_	Number=Sing	6	obj	_	_
-8	sing	sing	PRON	_	_	10	nsubj	_	_
+8	sing	sing	PRON	_	PronType=Rel	10	nsubj:pass	_	_
 9	wis	wis	AUX	_	_	10	aux	_	_
 10	dipisah	pisah	VERB	_	Voice=Pass	7	acl:relcl	_	_
 11-12	antarané	_	_	_	_	_	_	_	_
-11	antara	antara	NOUN	_	Number=Sing	12	nmod	_	_
+11	antara	antara	NOUN	_	Number=Sing	12	nmod:lmod	_	_
 12	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obl	_	_
-13	sampah	sampah	NOUN	_	Number=Sing	11	nmod	_	_
+13	sampah	sampah	NOUN	_	Number=Sing	12	nmod	_	_
 14	tèlès	tèlès	ADJ	_	_	13	amod	_	_
 15	lan	lan	CCONJ	_	_	16	cc	_	_
 16	sampah	sampah	NOUN	_	Number=Sing	13	conj	_	_
 17	garing	garing	ADJ	_	_	16	amod	_	_
 18	ing	ing	ADP	_	_	20	case	_	_
-19	sajroning	sajroning	NOUN	_	Number=Sing	20	nmod	_	_
+19	sajroning	sajroning	NOUN	_	Number=Sing	20	nmod:lmod	_	_
 20	bak	bak	NOUN	_	Number=Sing	10	obl	_	_
 21	sampah	sampah	NOUN	_	Number=Sing	20	nmod	_	SpaceAfter=No
 22	;	,	PUNCT	_	_	4	punct	_	_
 23	Cecep	Cecep	PROPN	_	_	28	nmod	_	_
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	17	17	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
+25	17	17	NUM	_	NumType=Card	23	nmod	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	25	punct	_	_
 28-29	gawéané	_	_	_	_	_	_	_	_
 28	gawéan	gawé	NOUN	_	Number=Sing	31	nsubj	_	_
-29	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	28	nmod:poss	_	_
+29	é	é	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
 30	luwih	luwih	ADV	_	_	31	advmod	_	_
 31	énténg	énténg	ADV	_	_	4	parataxis	_	_
 32	amarga	amarga	SCONJ	_	_	34	mark	_	_
@@ -40,7 +40,7 @@
 34	didèwèné	dèwè	VERB	_	Voice=Act	31	advcl	_	_
 35-36	sampahé	_	_	_	_	_	_	_	SpaceAfter=No
 35	sampah	sampah	NOUN	_	Number=Sing	34	nsubj	_	_
-36	é	é	DET	_	_	35	det	_	_
+36	é	é	DET	_	Definite=Def|PronType=Art	35	det	_	_
 37	,	,	PUNCT	_	_	40	punct	_	_
 38	dèwèé	dèwèé	PRON	_	Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
 39	ora	ora	PART	_	Polarity=Neg	40	advmod	_	_
@@ -55,20 +55,20 @@
 1	Pramila	Pramila	ADV	_	_	13	advmod	_	_
 2-3	putranipun	_	_	_	_	_	_	_	_
 2	putra	putra	NOUN	_	Number=Sing	13	nsubj	_	_
-3	nipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
+3	nipun	ipun	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 4	ingkang	ingkang	PRON	_	PronType=Rel	5	nsubj	_	_
 5	asma	asma	VERB	_	Voice=Act	2	acl:relcl	_	_
 6	Drestarastra	Drestarastra	PROPN	_	_	5	obl	_	SpaceAfter=No
 7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8-9	ramanipun	_	_	_	_	_	_	_	_
 8	rama	rama	NOUN	_	Number=Sing	6	nmod	_	_
-9	nipun	ipun	DET	_	_	8	det	_	_
+9	nipun	ipun	DET	_	Definite=Def|PronType=Art	8	det	_	_
 10	para	para	DET	_	Number=Plur	11	det	_	_
 11	Korawa	Korawa	PROPN	_	_	8	nmod:poss	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13-14	miyosipun	_	_	_	_	_	_	_	_
 13	miyos	miyos	VERB	_	Voice=Pass	0	root	_	_
-14	ipun	ipun	DET	_	_	13	det	_	_
+14	ipun	ipun	DET	_	Definite=Def|PronType=Art	13	det	_	_
 15	wuta	wuta	ADJ	_	_	13	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -76,7 +76,7 @@
 # text = Sira banjur didangu sarupaning kabungahan paparinging Allah nalika ing donya, ya gene ora padha syukur?
 # text_id = Dan ketika Anda ditanya tentang sukacita Allah di dunia, mengapa mereka tidak bersyukur?
 # text_en = And when you are asked about God's joy in the world, why are they not grateful?
-1	Sira	Sira	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj:pass	_	_
+1	Sira	sira	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj:pass	_	_
 2	banjur	banjur	ADV	_	_	3	advmod	_	_
 3	didangu	dangu	VERB	_	Voice=Pass	16	advcl	_	_
 4	sarupaning	rupa	NOUN	_	Number=Sing	3	obl	_	_
@@ -88,7 +88,7 @@
 10	donya	donya	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	ya	ya	PART	_	_	16	advmod	_	_
-13	gene	gene	PRON	_	_	16	obl	_	_
+13	gene	gene	PRON	_	PronType=Dem	16	obl	_	_
 14	ora	ora	PART	_	Polarity=Neg	16	advmod	_	_
 15	padha	padha	ADV	_	_	16	advmod	_	_
 16	syukur	syukur	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
@@ -168,8 +168,8 @@
 1	Paulus	Paulus	PROPN	_	_	2	nsubj	_	_
 2	nyebut	sebut	VERB	_	Voice=Act	0	root	_	_
 3-4	dhèknèné	_	_	_	_	_	_	_	_
-3	dhèknè	dhèknè	PRON	_	_	1	obj	_	_
-4	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
+3	dhèknè	dhèknè	PRON	_	PronType=Prs|Reflex=Yes	1	obj	_	_
+4	né	é	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 5	minangka	minangka	ADP	_	_	7	case	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	rasul	rasul	NOUN	_	Number=Sing	3	obl	_	_
@@ -191,7 +191,7 @@
 # text_en = His name is mentioned 27 times in the Qur'an.
 1-2	Jenengé	_	_	_	_	_	_	_	_
 1	Jeneng	jeneng	NOUN	_	Number=Sing	3	nsubj	_	_
-2	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
+2	é	é	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
 3	disebutake	sebut	VERB	_	Voice=Pass	0	root	_	_
 4	kaping	kaping	NOUN	_	Number=Sing	3	obl	_	_
 5	27	27	NUM	_	NumType=Card	4	nummod	_	_
@@ -240,7 +240,7 @@
 # text = Surah Al-Lahab utawa Al-Masad iku surat nomer 111 sajeroning Al-Qur'an.
 # text_id = Surat Al-Lahab atau Al-Masad adalah surat nomor 111 dalam Al-Qur'an.
 # text_en = Surah Al-Lahab or Al-Masad is sura number 111 in the Qur'an.
-1	Surah	Surah	NOUN	_	_	6	nsubj	_	_
+1	Surah	Surah	NOUN	_	Number=Sing	6	nsubj	_	_
 2	Al-Lahab	Al-Lahab	PROPN	_	_	1	nmod	_	_
 3	utawa	utawa	CCONJ	_	_	4	cc	_	_
 4	Al-Masad	Al-Masad	PROPN	_	_	1	conj	_	_
@@ -264,8 +264,8 @@
 6	Rigoletto	Rigoletto	PROPN	_	_	9	nsubj	_	_
 7	inggih	yaiku	AUX	_	_	9	aux	_	_
 8	punika	punika	DET	_	_	7	fixed	_	_
-9	opera	opera	NOUN	_	_	0	root	_	_
-10	nomer	nomer	NOUN	_	_	9	nmod	_	_
+9	opera	opera	NOUN	_	Number=Sing	0	root	_	_
+10	nomer	nomer	NOUN	_	Number=Sing	9	nmod	_	_
 11	9	9	NUM	_	NumType=Card	10	nummod	_	_
 12	ingkang	ingkang	PRON	_	PronType=Rel	14	nsubj	_	_
 13	paling	paling	ADV	_	_	14	advmod	_	_
@@ -381,7 +381,7 @@
 # text = Saben makluk bakal mati lan ing akhirat bakal dihisab ngenani amalan-amalané.
 # text_id = Setiap makhluk akan mati dan di akhirat akan dimintai pertanggungjawaban atas perbuatannya.
 # text_en = Every creature will die and in the hereafter will be held responsibility for his actions.
-1	Saben	Saben	DET	_	_	2	det	_	_
+1	Saben	saben	DET	_	_	2	det	_	_
 2	makluk	makluk	NOUN	_	Number=Sing	4	nsubj	_	_
 3	bakal	bakal	AUX	_	_	4	aux	_	_
 4	mati	mati	VERB	_	_	0	root	_	_
@@ -393,7 +393,7 @@
 10	ngenani	ngenani	ADP	_	_	11	case	_	_
 11-12	amalan-amalané	_	_	_	_	_	_	_	SpaceAfter=No
 11	amalan-amalan	amal	NOUN	_	Number=Plur	9	obl	_	_
-12	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	_
+12	é	é	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 32
@@ -417,7 +417,7 @@
 15	dados	dados	VERB	_	Voice=Act	12	xcomp	_	_
 16	présidhèn	présidhèn	NOUN	_	Number=Sing	15	obl	_	_
 17	perusahaan	usaha	NOUN	_	Number=Sing	16	nmod	_	_
-18	mau	mau	DET	_	_	17	det	_	SpaceAfter=No
+18	mau	mau	DET	_	PronType=Dem	17	det	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 33
@@ -532,12 +532,12 @@
 27	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 42
-# text = Karyane kang paling wigati yaiku Trilogi Cinta(爱情的三部曲).
+# text = Karyané kang paling wigati yaiku Trilogi Cinta(爱情的三部曲).
 # text_id = Karyanya yang paling penting adalah Love Trilogy (爱情 ).
 # text_en = His most important work is the Love Trilogy (爱情).
-1-2	Karyane	_	_	_	_	_	_	_	_
+1-2	Karyané	_	_	_	_	_	_	_	_
 1	Karya	karya	NOUN	_	Number=Sing	7	nsubj	_	_
-2	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
+2	né	é	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
 3	kang	kang	PRON	_	_	5	nsubj	_	_
 4	paling	paling	ADV	_	_	5	advmod	_	_
 5	wigati	wigati	ADJ	_	_	1	acl:relcl	_	_
@@ -592,7 +592,7 @@
 # text_en = Until one day, Mr. Surya met Sarah
 1	Nganti	Nganti	ADP	_	_	4	case	_	_
 2	ing	ing	ADP	_	_	4	case	_	_
-3	sawijining	sawiji	DET	_	_	4	det	_	_
+3	sawijining	sawiji	DET	_	Definite=Ind|PronType=Art	4	det	_	_
 4	dina	dina	NOUN	_	Number=Sing	8	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	Pak	Pak	PROPN	_	_	8	nsubj	_	_
@@ -606,7 +606,7 @@
 # text = Pesawat punika dipunsertifikasi perdana taun 1994.
 # text_id = Pesawat itu disertifikasi perdana tahun 1994.
 # text_en = The aircraft was first certified in 1994.
-1	Pesawat	pesawat	X	_	Foreign=Yes	3	nsubj	_	_
+1	Pesawat	pesawat	X	_	Foreign=Yes	3	nsubj:pass	_	_
 2	punika	punika	DET	_	_	1	det	_	_
 3	dipunsertifikasi	sertifikasi	VERB	_	_	0	root	_	_
 4	perdana	perdana	ADJ	_	_	3	amod	_	_
@@ -630,16 +630,14 @@
 # text = Panjenenganipun miyos kanthi asma asli Joko Widodo.
 # text_id = Beliau terlahir dengan nama asli Joko Widodo.
 # text_en = He was born with the real name Joko Widodo.
-1-2	Panjenenganipun	_	_	_	_	_	_	_	_
-1	Panjenengan	panjenengan	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
-2	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
-3	miyos	miyos	VERB	_	Voice=Pass	0	root	_	_
-4	kanthi	kanthi	ADP	_	_	5	case	_	_
-5	asma	asma	NOUN	_	Number=Sing	3	obl	_	_
-6	asli	asli	ADJ	_	_	5	amod	_	_
-7	Joko	Joko	PROPN	_	_	5	nmod	_	_
-8	Widodo	Widodo	PROPN	_	_	7	flat:name	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	3	punct	_	_
+1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	_
+2	miyos	miyos	VERB	_	Voice=Pass	0	root	_	_
+3	kanthi	kanthi	ADP	_	_	4	case	_	_
+4	asma	asma	NOUN	_	Number=Sing	2	obl	_	_
+5	asli	asli	ADJ	_	_	4	amod	_	_
+6	Joko	Joko	PROPN	_	_	4	nmod	_	_
+7	Widodo	Widodo	PROPN	_	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 55
 # text = 1995-Ing Somalia, misi perdamaian PBB dipunpungkasi.
@@ -650,7 +648,7 @@
 3	Ing	Ing	ADP	_	_	4	case	_	_
 4	Somalia	Somalia	PROPN	_	_	9	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
-6	misi	misi	NOUN	_	Number=Sing	9	nsubj	_	_
+6	misi	misi	NOUN	_	Number=Sing	9	nsubj:pass	_	_
 7	perdamaian	perdamaian	X	_	Foreign=Yes	6	nmod	_	_
 8	PBB	PBB	PROPN	_	_	6	nmod	_	_
 9	dipunpungkasi	pungkas	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
@@ -662,8 +660,8 @@
 # text_en = With the help of all of them, Count Dracula can be exterminated.
 1	Kanthi	Kanthi	ADP	_	_	2	case	_	_
 2	tetulung	tetulung	NOUN	_	Number=Sing	9	obl	_	_
-3	kabèh	kabèh	PRON	_	_	2	nmod:poss	_	_
-4	mau	mau	DET	_	_	3	det	_	SpaceAfter=No
+3	kabèh	kabèh	PRON	_	PronType=Tot	2	nmod:poss	_	_
+4	mau	mau	DET	_	PronType=Dem	3	det	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	Count	Count	PROPN	_	_	9	nsubj	_	_
 7	Dracula	Dracula	PROPN	_	_	6	flat:name	_	_
@@ -677,7 +675,7 @@
 # text_en = "Whereas he processes materials that are strategic for the benefit of the people," said Endriartono.
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Déné	déné	ADV	_	_	4	advmod	_	_
-3	piyambakipun	piyambakipun	PRON	_	_	4	nsubj	_	_
+3	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	ngolah	ngolah	VERB	_	Voice=Act	0	root	_	_
 5	bahan	bahan	NOUN	_	Number=Sing	4	obj	_	_
 6	ingkang	ingkang	PRON	_	PronType=Rel	7	nsubj	_	_
@@ -688,8 +686,8 @@
 11	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	4	punct	_	_
 13-14	ngendikanipun	_	_	_	_	_	_	_	_
-13	ngendika	ngendika	NOUN	_	_	4	parataxis	_	_
-14	nipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
+13	ngendika	ngendika	NOUN	_	Number=Sing	4	parataxis	_	_
+14	nipun	ipun	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 15	Endriartono	Endriartono	PROPN	_	_	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -761,7 +759,7 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 77
-# text = Akèh-akèhe lagu Shakur dipunsèrat nganggo kekerasan ing ghetto, rasisme, prakawis sosial, lan kadang padudone kaliyan rapper sanès.
+# text = Akèh-akèhe lagu Shakur dipunsèrat nganggo kekerasan ing ghetto, rasisme, prakawis sosial, lan kadang padudoné kaliyan rapper sanès.
 # text_id = Sebagian besar lagu Shakur ditulis dengan kekerasan ghetto, rasisme, masalah sosial, dan terkadang konflik dengan rapper lain.
 # text_en = Most of Shakur’s songs are written with ghetto violence, racism, social issues, and sometimes conflicts with other rappers.
 1	Akèh-akèhe	akèh	DET	_	_	2	det	_	_
@@ -780,9 +778,9 @@
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	lan	lan	CCONJ	_	_	17	cc	_	_
 16	kadang	kadang	ADV	_	_	17	advmod	_	_
-17-18	padudone	_	_	_	_	_	_	_	_
+17-18	padudoné	_	_	_	_	_	_	_	_
 17	padudon	padu	VERB	_	_	8	conj	_	_
-18	e	e	DET	_	_	17	det	_	_
+18	é	é	DET	_	Definite=Def|PronType=Art	17	det	_	_
 19	kaliyan	kaliyan	ADP	_	_	20	case	_	_
 20	rapper	rapper	X	_	Foreign=Yes	17	obl	_	_
 21	sanès	sanès	ADJ	_	_	20	amod	_	SpaceAfter=No
@@ -792,7 +790,7 @@
 # text = Iki wujud jinis kanker paling umum kang ditandhang kaum wanita.
 # text_id = Ini adalah jenis kanker paling umum yang diderita wanita.
 # text_en = This is the most common type of cancer that women suffer from.
-1	Iki	Iki	PRON	_	_	2	nsubj	_	_
+1	Iki	iki	PRON	_	_	2	nsubj	_	_
 2	wujud	wujud	NOUN	_	Number=Sing	0	root	_	_
 3	jinis	jinis	NOUN	_	Number=Sing	2	nmod	_	_
 4	kanker	kanker	NOUN	_	Number=Sing	3	nmod	_	_
@@ -962,16 +960,14 @@
 15	nanging	nanging	CCONJ	_	_	17	cc	_	_
 16	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 17	gagal	gagal	VERB	_	Voice=Act	8	conj	_	_
-18-19	migunakaken	_	_	_	_	_	_	_	_
-18	migunaka	migunaka	VERB	_	Voice=Act	17	xcomp	_	_
-19	ken	ken	PRON	_	_	18	obj	_	_
-20	kanggé	kanggé	SCONJ	_	_	21	mark	_	_
-21	ngukur	ngukur	VERB	_	Voice=Act	18	advcl	_	_
-22	medan	medan	NOUN	_	Number=Sing	21	obj	_	_
-23	daya	daya	NOUN	_	Number=Sing	22	nmod	_	_
-24	tarik	tarik	VERB	_	Voice=Act	23	acl	_	_
-25	bumi	bumi	NOUN	_	Number=Sing	23	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	8	punct	_	_
+18	migunakaken	migunakaken	VERB	_	Voice=Act	17	xcomp	_	_
+19	kanggé	kanggé	SCONJ	_	_	20	mark	_	_
+20	ngukur	ngukur	VERB	_	Voice=Act	18	advcl	_	_
+21	medan	medan	NOUN	_	Number=Sing	20	obj	_	_
+22	daya	daya	NOUN	_	Number=Sing	21	nmod	_	_
+23	tarik	tarik	VERB	_	Voice=Act	22	acl	_	_
+24	bumi	bumi	NOUN	_	Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 87
 # text = Ing taun kapitu kudu diluwari tanpa mbayar tebusan apa-apa.
@@ -1057,7 +1053,7 @@
 10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	Barat	Barat	NOUN	_	Number=Sing	8	nmod	_	_
 12	3	3	NUM	_	NumType=Card	11	nummod	_	_
-13	kabèh	kabèh	DET	_	_	1	det	_	_
+13	kabèh	kabèh	PRON	_	PronType=Tot	1	nmod	_	_
 14	nglayani	nglayani	VERB	_	Voice=Act	0	root	_	_
 15	penerbangan	terbang	NOUN	_	Number=Sing	14	obj	_	_
 16	domestik	domestik	ADJ	_	_	15	amod	_	SpaceAfter=No
@@ -1124,41 +1120,44 @@
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 95
-# text = Lajeng ayahipun ngaturi piyambakipun mlebet ing tim gadahanipun ingkang ndherek lomba ing ajang Formula Three Euroseries lan F3 lokal Éropah.
+# text = Lajeng ayahipun ngaturi piyambakipun mlebet ing tim gadahanipun piyambak ingkang ndherek lomba ing ajang Formula Three Euroseries lan F3 lokal Éropah.
 # text_id = Kemudian ayahnya mengundangnya untuk bergabung dengan tim milik pribadinya yang turun di ajang Formula Tiga Euroseries dan F3 lokal di Eropa.
 # text_en = Then his father invited him to join his privately owned team that competed in Formula Three Euroseries and local F3 in Europe.
 1	Lajeng	Lajeng	ADV	_	_	4	advmod	_	_
 2-3	ayahipun	_	_	_	_	_	_	_	_
-2	ayahi	ayah	NOUN	_	Number=Sing	4	nsubj	_	_
-3	pun	pun	PRON	_	_	2	nmod:poss	_	_
+2	ayah	ayah	NOUN	_	Number=Sing	4	nsubj	_	_
+3	ipun	ipun	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 4	ngaturi	atur	VERB	_	Voice=Act	0	root	_	_
 5	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 6	mlebet	mlebet	VERB	_	Voice=Act	4	advcl	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
 8	tim	tim	NOUN	_	Number=Sing	4	obl	_	_
-9	gadahanipun	gadahanipun	NOUN	_	Number=Sing	8	nmod	_	_
-10	ingkang	ingkang	PRON	_	PronType=Rel	11	nsubj	_	_
-11	ndherek	dherek	VERB	_	Voice=Act	8	acl:relcl	_	_
-12	lomba	lomba	NOUN	_	Number=Sing	11	obj	_	_
-13	ing	ing	ADP	_	_	14	case	_	_
-14	ajang	ajang	NOUN	_	Number=Sing	12	obl	_	_
-15	Formula	Formula	PROPN	_	_	14	nmod	_	_
-16	Three	Three	PROPN	_	_	15	flat:name	_	_
-17	Euroseries	Euroseries	PROPN	_	_	15	flat:name	_	_
-18	lan	lan	CCONJ	_	_	19	cc	_	_
-19	F3	F3	PROPN	_	_	15	conj	_	_
-20	lokal	lokal	ADJ	_	_	19	amod	_	_
-21	Éropah	Éropah	PROPN	_	_	19	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	4	punct	_	_
+9-10	gadahanipun	_	_	_	_	_	_	_	_
+9	gadaha	gadaha	NOUN	_	Number=Sing	8	nmod	_	_
+10	nipun	ipun	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	piyambak	piyambak	DET	_	PronType=Emp	9	det	_	_
+12	ingkang	ingkang	PRON	_	PronType=Rel	13	nsubj	_	_
+13	ndherek	dherek	VERB	_	Voice=Act	8	acl:relcl	_	_
+14	lomba	lomba	NOUN	_	Number=Sing	13	obj	_	_
+15	ing	ing	ADP	_	_	16	case	_	_
+16	ajang	ajang	NOUN	_	Number=Sing	14	obl	_	_
+17	Formula	Formula	PROPN	_	_	16	nmod	_	_
+18	Three	Three	PROPN	_	_	17	flat:name	_	_
+19	Euroseries	Euroseries	PROPN	_	_	17	flat:name	_	_
+20	lan	lan	CCONJ	_	_	21	cc	_	_
+21	F3	F3	PROPN	_	_	17	conj	_	_
+22	lokal	lokal	ADJ	_	_	21	amod	_	_
+23	Éropah	Éropah	PROPN	_	_	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 96
-# text = Tetandhingan pungkasane ana ing Seri A yaiku nalika nglawan Inter Milan tanggal 4 April 2004.
+# text = Tetandhingan pungkasané ana ing Seri A yaiku nalika nglawan Inter Milan tanggal 4 April 2004.
 # text_id = Pertandingan terakhirnya di Seri A adalah melawan Inter Milan pada 4 April 2004.
 # text_en = His last match in Series A was against Inter Milan on April 4, 2004.
 1	Tetandhingan	tandhing	NOUN	_	Number=Sing	10	nsubj	_	_
-2-3	pungkasane	_	_	_	_	_	_	_	_
+2-3	pungkasané	_	_	_	_	_	_	_	_
 2	pungkasan	pungkas	ADJ	_	_	1	amod	_	_
-3	e	e	PRON	_	_	1	nmod:poss	_	_
+3	é	é	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
 4	ana	ana	VERB	_	_	1	acl	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
 6	Seri	Seri	PROPN	_	_	4	obl	_	_
