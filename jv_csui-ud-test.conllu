@@ -14,7 +14,7 @@
 10	dipisah	pisah	VERB	_	Voice=Pass	7	acl:relcl	_	_
 11-12	antarané	_	_	_	_	_	_	_	_
 11	antara	antara	NOUN	_	Number=Sing	12	nmod	_	_
-12	né	né	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+12	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obl	_	_
 13	sampah	sampah	NOUN	_	Number=Sing	11	nmod	_	_
 14	tèlès	tèlès	ADJ	_	_	13	amod	_	_
 15	lan	lan	CCONJ	_	_	16	cc	_	_
@@ -102,7 +102,7 @@
 1	Temon	temu	NOUN	_	Number=Sing	5	nsubj	_	_
 2	é	é	DET	_	_	1	det	_	_
 3	ing	ing	ADP	_	_	4	case	_	_
-4	kana	kana	PRON	_	_	5	obl	_	_
+4	kana	kana	PRON	_	PronType=Dem	5	obl	_	_
 5	wujud	wujud	VERB	_	Voice=Act	0	root	_	_
 6	prasasti	prasasti	NOUN	_	Number=Sing	5	obl	_	_
 7	watu	watu	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
@@ -169,7 +169,7 @@
 2	nyebut	sebut	VERB	_	Voice=Act	0	root	_	_
 3-4	dhèknèné	_	_	_	_	_	_	_	_
 3	dhèknè	dhèknè	PRON	_	_	1	obj	_	_
-4	né	né	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
+4	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
 5	minangka	minangka	ADP	_	_	7	case	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	rasul	rasul	NOUN	_	Number=Sing	3	obl	_	_
@@ -203,13 +203,89 @@
 # text = Tuladha: sepira dhuwurmu?
 # text_id = Contoh: berapa tinggimu?
 # text_en = Example: how tall are you?
-1	Tuladha	Tuladha	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+1	Tuladha	tuladha	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	sepira	sepira	ADV	_	_	4	advmod	_	_
 4-5	dhuwurmu	_	_	_	_	_	_	_	SpaceAfter=No
 4	dhuwur	dhuwur	NOUN	_	Number=Sing	1	parataxis	_	_
-5	mu	kamu	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nmod:poss	_	_
+5	mu	mu	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 11
+# text = Ngudhunaké tekanan darah.
+# text_id = Menurunkan tekanan darah.
+# text_en = Lowering blood pressure.
+1	Ngudhunaké	mudhun	VERB	_	Voice=Act	0	root	_	_
+2	tekanan	tekan	NOUN	_	Number=Sing	1	obl	_	_
+3	darah	darah	NOUN	_	Number=Sing	2	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 12
+# text = Punika nampung tradhisi lawas saking aturan institusi gabungan ing Swiss.
+# text_id = Ini mengakomodasi tradisi lama aturan badan kolektif di Swiss.
+# text_en = It accommodates the long tradition of collective institutional rule in Switzerland.
+1	Punika	punika	PRON	_	_	2	nsubj	_	_
+2	nampung	tampung	VERB	_	Voice=Act	0	root	_	_
+3	tradhisi	tradhisi	NOUN	_	Number=Sing	2	obj	_	_
+4	lawas	lawas	ADJ	_	_	3	amod	_	_
+5	saking	saking	ADP	_	_	6	case	_	_
+6	aturan	atur	NOUN	_	Number=Sing	2	obl	_	_
+7	institusi	institusi	NOUN	_	Number=Sing	6	nmod	_	_
+8	gabungan	gabung	ADJ	_	_	7	amod	_	_
+9	ing	ing	ADP	_	_	10	case	_	_
+10	Swiss	Swiss	PROPN	_	_	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 13
+# text = Surah Al-Lahab utawa Al-Masad iku surat nomer 111 sajeroning Al-Qur'an.
+# text_id = Surat Al-Lahab atau Al-Masad adalah surat nomor 111 dalam Al-Qur'an.
+# text_en = Surah Al-Lahab or Al-Masad is sura number 111 in the Qur'an.
+1	Surah	Surah	NOUN	_	_	6	nsubj	_	_
+2	Al-Lahab	Al-Lahab	PROPN	_	_	1	nmod	_	_
+3	utawa	utawa	CCONJ	_	_	4	cc	_	_
+4	Al-Masad	Al-Masad	PROPN	_	_	1	conj	_	_
+5	iku	yaiku	AUX	_	_	6	cop	_	_
+6	surat	surat	NOUN	_	Number=Sing	0	root	_	_
+7	nomer	nomer	NOUN	_	Number=Sing	6	nmod	_	_
+8	111	111	NUM	_	NumType=Card	7	nummod	_	_
+9	sajeroning	jero	ADP	_	_	10	case	_	_
+10	Al-Qur'an	Al-Qur'an	PROPN	_	_	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 14
+# text = Miturut American Opera Association, Rigoletto inggih punika opera nomer 9 ingkang paling asring dipuntontonaken ing Amérika Utara.
+# text_id = Menurut American Opera Association, Rigoletto adalah opera ke-9 yang paling sering dimainkan di Amerika Utara.
+# text_en = According to the American Opera Association, Rigoletto is the 9th most played opera in North America.
+1	Miturut	Miturut	ADP	_	_	2	case	_	_
+2	American	American	PROPN	_	_	10	nmod	_	_
+3	Opera	Opera	PROPN	_	_	2	flat:name	_	_
+4	Association	Asscociation	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	Rigoletto	Rigoletto	PROPN	_	_	9	nsubj	_	_
+7	inggih	yaiku	AUX	_	_	9	aux	_	_
+8	punika	punika	DET	_	_	7	fixed	_	_
+9	opera	opera	NOUN	_	_	0	root	_	_
+10	nomer	nomer	NOUN	_	_	9	nmod	_	_
+11	9	9	NUM	_	NumType=Card	10	nummod	_	_
+12	ingkang	ingkang	PRON	_	PronType=Rel	14	nsubj	_	_
+13	paling	paling	ADV	_	_	14	advmod	_	_
+14	asring	asring	ADJ	_	_	9	acl:relcl	_	_
+15	dipuntontonaken	tonton	VERB	_	Voice=Pass	14	xcomp	_	_
+16	ing	ing	ADP	_	_	17	case	_	_
+17	Amérika	Amérika	PROPN	_	_	15	obl	_	_
+18	Utara	Utara	PROPN	_	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 15
+# text = Présidhèn Indonésia (1974).
+# text_id = Presiden Indonesia (1974).
+# text_en = President of Indonesia (1974).
+1	Présidhèn	Présidhèn	PROPN	_	_	0	root	_	_
+2	Indonésia	Indonésia	PROPN	_	_	1	flat:name	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	1974	1974	NUM	_	_	1	nmod:tmod	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 26
 # text = Dibuka taun 2003, kanthi kapasitas 18.000 kursi.
@@ -461,7 +537,7 @@
 # text_en = His most important work is the Love Trilogy (爱情).
 1-2	Karyane	_	_	_	_	_	_	_	_
 1	Karya	karya	NOUN	_	Number=Sing	7	nsubj	_	_
-2	né	né	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
+2	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
 3	kang	kang	PRON	_	_	5	nsubj	_	_
 4	paling	paling	ADV	_	_	5	advmod	_	_
 5	wigati	wigati	ADJ	_	_	1	acl:relcl	_	_
@@ -599,25 +675,23 @@
 # text = "Déné piyambakipun ngolah bahan ingkang strategis kanggé kepentingan rakyat," ngendikanipun Endriartono.
 # text_id = "Padahal dia mengolah bahan yang strategis untuk kepentingan rakyat," kata Endriartono.
 # text_en = "Whereas he processes materials that are strategic for the benefit of the people," said Endriartono.
-1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-2	Déné	déné	ADV	_	_	5	advmod	_	_
-3-4	piyambakipun	_	_	_	_	_	_	_	_
-3	piyambak	piyambak	PRON	_	_	5	nsubj	_	_
-4	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
-5	ngolah	ngolah	VERB	_	Voice=Act	0	root	_	_
-6	bahan	bahan	NOUN	_	Number=Sing	5	obj	_	_
-7	ingkang	ingkang	PRON	_	PronType=Rel	8	nsubj	_	_
-8	strategis	strategis	ADJ	_	_	6	acl:relcl	_	_
-9	kanggé	kanggé	ADP	_	_	10	case	_	_
-10	kepentingan	kepentingan	NOUN	_	Number=Sing	8	obl	_	_
-11	rakyat	rakyat	NOUN	_	Number=Sing	10	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	5	punct	_	SpaceAfter=No
-13	"	"	PUNCT	_	_	5	punct	_	_
-14-15	ngendikanipun	_	_	_	_	_	_	_	_
-14	ngendika	ngendika	PRON	_	_	5	parataxis	_	_
-15	nipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
-16	Endriartono	Endriartono	PROPN	_	_	14	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	14	punct	_	_
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Déné	déné	ADV	_	_	4	advmod	_	_
+3	piyambakipun	piyambakipun	PRON	_	_	4	nsubj	_	_
+4	ngolah	ngolah	VERB	_	Voice=Act	0	root	_	_
+5	bahan	bahan	NOUN	_	Number=Sing	4	obj	_	_
+6	ingkang	ingkang	PRON	_	PronType=Rel	7	nsubj	_	_
+7	strategis	strategis	ADJ	_	_	5	acl:relcl	_	_
+8	kanggé	kanggé	ADP	_	_	9	case	_	_
+9	kepentingan	kepentingan	NOUN	_	Number=Sing	7	obl	_	_
+10	rakyat	rakyat	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	4	punct	_	_
+13-14	ngendikanipun	_	_	_	_	_	_	_	_
+13	ngendika	ngendika	NOUN	_	_	4	parataxis	_	_
+14	nipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
+15	Endriartono	Endriartono	PROPN	_	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 58
 # text = Euryarchaeota isa urip ing lingkungan ekstrem.
@@ -636,7 +710,7 @@
 # text_id = Koizumi mengundurkan diri pada tanggal 26 September dan akhirnya digantikan oleh Abe.
 # text_en = Koizumi resigned on September 26 and was eventually replaced by Abe.
 1	Koizumi	Koizumi	PROPN	_	_	2	nsubj	_	_
-2	ngundurke	mundur	VERB	_	Voice=Act	0	root	_	_
+2	ngundurke	undur	VERB	_	Voice=Act	0	root	_	_
 3	diri	diri	PRON	_	PronType=Prs	2	obj	_	_
 4	ana	ana	VERB	_	_	2	advcl	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
@@ -657,7 +731,7 @@
 2	taun	taun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	1999	1999	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	Danau	Danau	PROPN	_	_	7	nsubj	_	_
+5	Danau	Danau	PROPN	_	_	7	nsubj:pass	_	_
 6	Sentarum	Sentarum	PROPN	_	_	5	flat:name	_	_
 7	dikukuhaké	dikukuhaké	VERB	_	Voice=Pass	0	root	_	_
 8	dadi	dadi	VERB	_	_	7	xcomp	_	_
@@ -1050,23 +1124,22 @@
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 95
-# text = Lajeng ayahipun mengajaknya mlebet ing tim gadahanipun pribadi ingkang turun ing ajang Formula Three Euroseries lan F3 lokal Éropah.
+# text = Lajeng ayahipun ngaturi piyambakipun mlebet ing tim gadahanipun ingkang ndherek lomba ing ajang Formula Three Euroseries lan F3 lokal Éropah.
 # text_id = Kemudian ayahnya mengundangnya untuk bergabung dengan tim milik pribadinya yang turun di ajang Formula Tiga Euroseries dan F3 lokal di Eropa.
 # text_en = Then his father invited him to join his privately owned team that competed in Formula Three Euroseries and local F3 in Europe.
 1	Lajeng	Lajeng	ADV	_	_	4	advmod	_	_
 2-3	ayahipun	_	_	_	_	_	_	_	_
 2	ayahi	ayah	NOUN	_	Number=Sing	4	nsubj	_	_
 3	pun	pun	PRON	_	_	2	nmod:poss	_	_
-4-5	mengajaknya	_	_	_	_	_	_	_	_
-4	mengajak	ajak	X	_	Foreign=Yes	0	root	_	_
-5	nya	nya	X	_	Foreign=Yes	4	obj	_	_
+4	ngaturi	atur	VERB	_	Voice=Act	0	root	_	_
+5	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 6	mlebet	mlebet	VERB	_	Voice=Act	4	advcl	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
 8	tim	tim	NOUN	_	Number=Sing	4	obl	_	_
 9	gadahanipun	gadahanipun	NOUN	_	Number=Sing	8	nmod	_	_
-10	pribadi	pribadi	ADJ	_	_	8	amod	_	_
-11	ingkang	ingkang	PRON	_	PronType=Rel	12	nsubj	_	_
-12	turun	turun	VERB	_	Voice=Act	8	acl:relcl	_	_
+10	ingkang	ingkang	PRON	_	PronType=Rel	11	nsubj	_	_
+11	ndherek	dherek	VERB	_	Voice=Act	8	acl:relcl	_	_
+12	lomba	lomba	NOUN	_	Number=Sing	11	obj	_	_
 13	ing	ing	ADP	_	_	14	case	_	_
 14	ajang	ajang	NOUN	_	Number=Sing	12	obl	_	_
 15	Formula	Formula	PROPN	_	_	14	nmod	_	_
