@@ -76,8 +76,8 @@
 # text = Sira banjur didangu sarupaning kabungahan paparinging Allah nalika ing donya, ya gene ora padha syukur?
 # text_id = Dan ketika Anda ditanya tentang sukacita Allah di dunia, mengapa mereka tidak bersyukur?
 # text_en = And when you are asked about God's joy in the world, why are they not grateful?
-1	Sira	Sira	ADV	_	_	16	advmod	_	_
-2	banjur	banjur	SCONJ	_	_	3	mark	_	_
+1	Sira	Sira	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj:pass	_	_
+2	banjur	banjur	ADV	_	_	3	advmod	_	_
 3	didangu	dangu	VERB	_	Voice=Pass	16	advcl	_	_
 4	sarupaning	rupa	NOUN	_	Number=Sing	3	obl	_	_
 5	kabungahan	bungah	NOUN	_	Number=Sing	4	nmod	_	_
@@ -361,7 +361,7 @@
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 34
-# text = Para penentang iki ngeklaim yèn biaya ékonomi kang diperlokaké kanggo melaksanakan Protokol Kyoto iso ngancik 300 milyar dollar AS, mligi disebabkan déning biaya ènergi.
+# text = Para penentang iki ngeklaim yèn biaya ékonomi kang diperlokaké kanggo melaksanakan Protokol Kyoto isa ngancik 300 milyar dollar AS, mligi disebabkan déning biaya ènergi.
 # text_id = Penentang mengklaim bahwa biaya ekonomi yang dibutuhkan untuk menerapkan Protokol Kyoto dapat mencapai 300 miliar dolar AS, khususnya karena biaya energi.
 # text_en = Opponents claim that the economic costs required to implement the Kyoto Protocol could be as high as $300 billion, mainly because of energy costs.
 1	Para	para	DET	_	Number=Plur	2	det	_	_
@@ -377,7 +377,7 @@
 11	melaksanakan	laksana	VERB	_	Voice=Act	9	advcl	_	_
 12	Protokol	Protokol	PROPN	_	_	11	obj	_	_
 13	Kyoto	Kyoto	PROPN	_	_	12	flat:name	_	_
-14	iso	iso	AUX	_	_	15	aux	_	_
+14	isa	isa	AUX	_	_	15	aux	_	_
 15	ngancik	ngancik	VERB	_	_	4	ccomp	_	_
 16	300	300	NUM	_	NumType=Card	18	nummod	_	_
 17	milyar	milyar	NUM	_	NumType=Card	16	flat	_	_
@@ -581,7 +581,7 @@
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 56
-# text = Kanthi tetulung kabèh mau, Count Dracula iso dibasmi.
+# text = Kanthi tetulung kabèh mau, Count Dracula isa dirantas.
 # text_id = Dengan bantuan mereka semua, Count Dracula dapat dimusnahkan.
 # text_en = With the help of all of them, Count Dracula can be exterminated.
 1	Kanthi	Kanthi	ADP	_	_	2	case	_	_
@@ -591,8 +591,8 @@
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	Count	Count	PROPN	_	_	9	nsubj	_	_
 7	Dracula	Dracula	PROPN	_	_	6	flat:name	_	_
-8	iso	iso	AUX	_	_	9	aux	_	_
-9	dibasmi	dibasmi	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
+8	isa	isa	AUX	_	_	9	aux	_	_
+9	dirantas	rantas	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 57
@@ -620,11 +620,11 @@
 17	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = 58
-# text = Euryarchaeota iso urip ing lingkungan ekstrem.
+# text = Euryarchaeota isa urip ing lingkungan ekstrem.
 # text_id = Euryarchaeota dapat bertahan hidup di lingkungan ekstrem.
 # text_en = Euryarchaeota can survive in extreme environments.
 1	Euryarchaeota	Euryarchaeota	PROPN	_	_	3	nsubj	_	_
-2	iso	iso	AUX	_	_	3	aux	_	_
+2	isa	isa	AUX	_	_	3	aux	_	_
 3	urip	urip	VERB	_	Voice=Act	0	root	_	_
 4	ing	ing	ADP	_	_	5	case	_	_
 5	lingkungan	lingkungan	NOUN	_	Number=Sing	3	obl	_	_
@@ -954,13 +954,13 @@
 # text_en = At the audition, only 11 people were accepted out of 2,396 applicants.
 1	Ing	Ing	ADP	_	_	2	case	_	_
 2	audhisi	audhisi	NOUN	_	Number=Sing	9	obl	_	_
-3	mau	mau	DET	_	_	2	det	_	SpaceAfter=No
+3	mau	mau	DET	_	PronType=Dem	2	det	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	namung	namung	ADV	_	_	7	advmod	_	_
 6	11	11	NUM	_	NumType=Card	7	nummod	_	_
 7	tiyang	tiyang	NOUN	_	Number=Sing	0	root	_	_
 8	ingkang	ingkang	PRON	_	PronType=Rel	9	nsubj	_	_
-9	dipuntampi	dipuntampi	VERB	_	Voice=Pass	7	acl:relcl	_	_
+9	dipuntampi	tampi	VERB	_	Voice=Pass	7	acl:relcl	_	_
 10	saking	saking	ADP	_	_	13	case	_	_
 11	2.396	2.396	NUM	_	NumType=Card	13	nummod	_	_
 12	tiyang	tiyang	NOUN	_	Number=Sing	13	clf	_	_
@@ -1079,10 +1079,10 @@
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 96
-# text = Tetandhingan pungkasane ana ing Seri A yaiku nalika klawan Inter Milan tanggal 4 April 2004.
+# text = Tetandhingan pungkasane ana ing Seri A yaiku nalika nglawan Inter Milan tanggal 4 April 2004.
 # text_id = Pertandingan terakhirnya di Seri A adalah melawan Inter Milan pada 4 April 2004.
 # text_en = His last match in Series A was against Inter Milan on April 4, 2004.
-1	Tetandhingan	tetandhingan	NOUN	_	Number=Sing	10	nsubj	_	_
+1	Tetandhingan	tandhing	NOUN	_	Number=Sing	10	nsubj	_	_
 2-3	pungkasane	_	_	_	_	_	_	_	_
 2	pungkasan	pungkas	ADJ	_	_	1	amod	_	_
 3	e	e	PRON	_	_	1	nmod:poss	_	_
@@ -1092,7 +1092,7 @@
 7	A	A	PROPN	_	_	6	flat:name	_	_
 8	yaiku	yaiku	AUX	_	_	10	cop	_	_
 9	nalika	nalika	ADV	_	_	10	advmod	_	_
-10	klawan	klawan	X	_	Foreign=Yes	0	root	_	_
+10	nglawan	lawan	VERB	_	Voice=Act	0	root	_	_
 11	Inter	Inter	PROPN	_	_	10	obj	_	_
 12	Milan	Milan	PROPN	_	_	11	flat:name	_	_
 13	tanggal	tanggal	NOUN	_	Number=Sing	10	obl:tmod	_	_
@@ -1102,12 +1102,12 @@
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 97
-# text = Limpakuwus, kabupatèn Banyumas, Jawa Tengah.
+# text = Limpakuwus, Kabupatèn Banyumas, Jawa Tengah.
 # text_id = Limpakuwus, Kabupaten Banyumas, Jawa Tengah.
 # text_en = Limpakuwus, Banyumas Regency, Central Java.
 1	Limpakuwus	Limpakuwus	PROPN	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	kabupatèn	kabupatèn	X	_	Foreign=Yes	1	nmod	_	_
+3	Kabupatèn	kabupatèn	PROPN	_	_	1	nmod	_	_
 4	Banyumas	Banyumas	PROPN	_	_	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	Jawa	Jawa	PROPN	_	_	3	nmod	_	_
