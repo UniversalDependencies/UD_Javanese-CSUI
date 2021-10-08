@@ -2,19 +2,19 @@
 # text = Para warga padha metu karo nggowoni sampah sing wis dipisah antarané sampah tèlès lan sampah garing ing sajroning bak sampah; Cecep (17), gawéané luwih énténg amarga wis didèwèné sampahé, dèwèé ora pèrlu antri.
 # text_id = Para warga keluar dengan membawa tumpukan sampah yang sudah dipisahkan antara sampah basah dan sampah kering di dalam tempat sampah; Cecep (17), pekerjaannya lebih ringan karena sudah ada sampahnya, tidak perlu antri.
 # text_en = The residents came out with piles of garbage that had been separated between wet and dry waste in the trash; Cecep (17), his job is lighter because there is already garbage, no need to queue.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	warga	warga	NOUN	_	Number=Sing	4	nsubj	_	_
 3	padha	padha	ADV	_	_	4	advmod	_	_
 4	metu	metu	VERB	_	Voice=Act	0	root	_	_
 5	karo	karo	SCONJ	_	_	6	mark	_	_
 6	nggowoni	gowo	VERB	_	Voice=Act	4	advcl	_	_
 7	sampah	sampah	NOUN	_	Number=Sing	6	obj	_	_
-8	sing	sing	SCONJ	_	_	10	mark	_	_
+8	sing	sing	PRON	_	_	10	nsubj	_	_
 9	wis	wis	AUX	_	_	10	aux	_	_
 10	dipisah	pisah	VERB	_	Voice=Pass	7	acl:relcl	_	_
 11-12	antarané	_	_	_	_	_	_	_	_
-11	antara	antara	NOUN	_	Number=Sing	10	obl	_	_
-12	né	né	DET	_	_	11	det	_	_
+11	antara	antara	NOUN	_	Number=Sing	12	nmod	_	_
+12	né	né	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obl	_	_
 13	sampah	sampah	NOUN	_	Number=Sing	11	nmod	_	_
 14	tèlès	tèlès	ADJ	_	_	13	amod	_	_
 15	lan	lan	CCONJ	_	_	16	cc	_	_
@@ -27,12 +27,12 @@
 22	;	,	PUNCT	_	_	4	punct	_	_
 23	Cecep	Cecep	PROPN	_	_	28	nmod	_	_
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	17	17	NUM	_	_	23	nummod	_	SpaceAfter=No
+25	17	17	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	25	punct	_	_
 28-29	gawéané	_	_	_	_	_	_	_	_
 28	gawéan	gawé	NOUN	_	Number=Sing	31	nsubj	_	_
-29	é	é	PRON	_	_	28	nmod:poss	_	_
+29	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	28	nmod:poss	_	_
 30	luwih	luwih	ADV	_	_	31	advmod	_	_
 31	énténg	énténg	ADV	_	_	4	parataxis	_	_
 32	amarga	amarga	SCONJ	_	_	34	mark	_	_
@@ -42,7 +42,7 @@
 35	sampah	sampah	NOUN	_	Number=Sing	34	nsubj	_	_
 36	é	é	DET	_	_	35	det	_	_
 37	,	,	PUNCT	_	_	40	punct	_	_
-38	dèwèé	dèwèé	PRON	_	_	40	nsubj	_	_
+38	dèwèé	dèwèé	PRON	_	Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
 39	ora	ora	PART	_	Polarity=Neg	40	advmod	_	_
 40	pèrlu	pèrlu	VERB	_	Voice=Act	34	advcl	_	_
 41	antri	antri	VERB	_	Voice=Act	40	xcomp	_	SpaceAfter=No
@@ -55,7 +55,7 @@
 1	Pramila	Pramila	ADV	_	_	13	advmod	_	_
 2-3	putranipun	_	_	_	_	_	_	_	_
 2	putra	putra	NOUN	_	Number=Sing	13	nsubj	_	_
-3	nipun	ipun	PRON	_	_	2	nmod:poss	_	_
+3	nipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
 4	ingkang	ingkang	PRON	_	PronType=Rel	5	nsubj	_	_
 5	asma	asma	VERB	_	Voice=Act	2	acl:relcl	_	_
 6	Drestarastra	Drestarastra	PROPN	_	_	5	obl	_	SpaceAfter=No
@@ -63,7 +63,7 @@
 8-9	ramanipun	_	_	_	_	_	_	_	_
 8	rama	rama	NOUN	_	Number=Sing	6	nmod	_	_
 9	nipun	ipun	DET	_	_	8	det	_	_
-10	para	para	DET	_	_	11	det	_	_
+10	para	para	DET	_	Number=Plur	11	det	_	_
 11	Korawa	Korawa	PROPN	_	_	8	nmod:poss	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13-14	miyosipun	_	_	_	_	_	_	_	_
@@ -117,11 +117,11 @@
 3	Dunia	Dunia	PROPN	_	_	2	flat:name	_	_
 4	II	II	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	14	14	NUM	_	_	7	nummod	_	_
+6	14	14	NUM	_	NumType=Card	7	nummod	_	_
 7	radio	radio	NOUN	_	Number=Sing	0	root	_	_
 8	komersial	komersial	ADJ	_	_	7	amod	_	_
 9	lan	lan	CCONJ	_	_	11	cc	_	_
-10	12	12	NUM	_	_	11	nummod	_	_
+10	12	12	NUM	_	NumType=Card	11	nummod	_	_
 11	radio	radio	NOUN	_	Number=Sing	7	conj	_	_
 12	umum	umum	ADJ	_	_	11	amod	_	_
 13	ingkang	ingkang	PRON	_	PronType=Rel	15	nsubj	_	_
@@ -153,12 +153,12 @@
 3	kedah	kedah	AUX	_	_	4	aux	_	_
 4	dipunterapaken	terap	VERB	_	Voice=Pass	0	root	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
-6	konsekuensi-konsekuensi	konsekuensi	X	_	_	4	obl	_	_
+6	konsekuensi-konsekuensi	konsekuensi	X	_	Foreign=Yes	4	obl	_	_
 7	ingkang	ingkang	PRON	_	PronType=Rel	8	nsubj	_	_
 8	timbul	timbul	VERB	_	Voice=Act	6	acl:relcl	_	_
 9	saking	saking	ADP	_	_	10	case	_	_
 10	putusan-putusan	putus	NOUN	_	Number=Plur	8	obl	_	_
-11	etis	etis	X	_	_	10	dep	_	SpaceAfter=No
+11	etis	etis	X	_	Foreign=Yes	10	dep	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 8
@@ -169,7 +169,7 @@
 2	nyebut	sebut	VERB	_	Voice=Act	0	root	_	_
 3-4	dhèknèné	_	_	_	_	_	_	_	_
 3	dhèknè	dhèknè	PRON	_	_	1	obj	_	_
-4	né	né	PRON	_	_	3	nmod:poss	_	_
+4	né	né	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
 5	minangka	minangka	ADP	_	_	7	case	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	rasul	rasul	NOUN	_	Number=Sing	3	obl	_	_
@@ -179,9 +179,9 @@
 11	"	"	PUNCT	_	_	7	punct	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	Roma	Roma	PROPN	_	_	7	nmod	_	_
-14	11	11	NUM	_	_	13	nummod	_	SpaceAfter=No
+14	11	11	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	13	13	NUM	_	_	14	flat	_	SpaceAfter=No
+16	13	13	NUM	_	NumType=Card	14	flat	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -190,11 +190,11 @@
 # text_id = Namanya disebut sebanyak 27 kali dalam Al-Qur'an.
 # text_en = His name is mentioned 27 times in the Qur'an.
 1-2	Jenengé	_	_	_	_	_	_	_	_
-1	Jeneng	jeneng	NOUN	_	_	3	nsubj	_	_
-2	é	é	PRON	_	_	1	nmod:poss	_	_
+1	Jeneng	jeneng	NOUN	_	Number=Sing	3	nsubj	_	_
+2	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
 3	disebutake	sebut	VERB	_	Voice=Pass	0	root	_	_
-4	kaping	kaping	NOUN	_	_	3	obl	_	_
-5	27	27	NUM	_	_	4	nummod	_	_
+4	kaping	kaping	NOUN	_	Number=Sing	3	obl	_	_
+5	27	27	NUM	_	NumType=Card	4	nummod	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
 7	Al-Quran	Al-Quran	PROPN	_	_	3	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
@@ -203,12 +203,12 @@
 # text = Tuladha: sepira dhuwurmu?
 # text_id = Contoh: berapa tinggimu?
 # text_en = Example: how tall are you?
-1	Tuladha	Tuladha	NOUN	_	_	0	root	_	SpaceAfter=No
+1	Tuladha	Tuladha	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	sepira	sepira	ADV	_	_	4	advmod	_	_
 4-5	dhuwurmu	_	_	_	_	_	_	_	SpaceAfter=No
-4	dhuwur	dhuwur	NOUN	_	_	1	parataxis	_	_
-5	mu	mu	PRON	_	_	4	nmod:poss	_	_
+4	dhuwur	dhuwur	NOUN	_	Number=Sing	1	parataxis	_	_
+5	mu	kamu	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nmod:poss	_	_
 6	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 26
@@ -217,11 +217,11 @@
 # text_en = Opened in 2003, with a capacity of 18000 seats.
 1	Dibuka	buka	VERB	_	Voice=Pass	0	root	_	_
 2	taun	taun	NOUN	_	Number=Sing	1	obl:tmod	_	_
-3	2003	2003	NUM	_	_	2	nummod	_	SpaceAfter=No
+3	2003	2003	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	kanthi	kanthi	ADP	_	_	6	case	_	_
 6	kapasitas	kapasitas	NOUN	_	Number=Sing	1	obl	_	_
-7	18.000	18.000	NUM	_	_	8	nummod	_	_
+7	18.000	18.000	NUM	_	NumType=Card	8	nummod	_	_
 8	kursi	kursi	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -261,7 +261,7 @@
 15	dipunjadwalaken	jadwal	VERB	_	Voice=Pass	0	root	_	_
 16	dipunbikak	mbukak	VERB	_	Voice=Pass	15	xcomp	_	_
 17	taun	taun	NOUN	_	Number=Sing	16	obl:tmod	_	_
-18	2015	2015	NUM	_	_	17	nummod	_	SpaceAfter=No
+18	2015	2015	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = 29
@@ -270,9 +270,9 @@
 # text_en = The capacity of the 705 series is 75 passengers.
 1	Kapasitas	kapasitas	NOUN	_	Number=Sing	6	nsubj	_	_
 2	seri	seri	NOUN	_	Number=Sing	1	nmod	_	_
-3	705	705	NUM	_	_	2	nummod	_	_
+3	705	705	NUM	_	NumType=Card	2	nummod	_	_
 4	yaiku	yaiku	AUX	_	_	6	aux	_	_
-5	75	75	NUM	_	_	6	nummod	_	_
+5	75	75	NUM	_	NumType=Card	6	nummod	_	_
 6	penumpang	tumpang	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -296,9 +296,9 @@
 14	Red	Red	PROPN	_	_	13	flat:name	_	_
 15	List	List	PROPN	_	_	13	flat:name	_	_
 16	Categories	Categories	PROPN	_	_	13	flat:name	_	_
-17	30	30	NUM	_	_	13	nmod:tmod	_	_
+17	30	30	NUM	_	NumType=Card	13	nmod:tmod	_	_
 18	November	November	PROPN	_	_	17	flat	_	_
-19	1994	1994	NUM	_	_	17	flat	_	SpaceAfter=No
+19	1994	1994	NUM	_	NumType=Card	17	flat	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 31
@@ -306,7 +306,7 @@
 # text_id = Setiap makhluk akan mati dan di akhirat akan dimintai pertanggungjawaban atas perbuatannya.
 # text_en = Every creature will die and in the hereafter will be held responsibility for his actions.
 1	Saben	Saben	DET	_	_	2	det	_	_
-2	makluk	makluk	NOUN	_	_	4	nsubj	_	_
+2	makluk	makluk	NOUN	_	Number=Sing	4	nsubj	_	_
 3	bakal	bakal	AUX	_	_	4	aux	_	_
 4	mati	mati	VERB	_	_	0	root	_	_
 5	lan	lan	CCONJ	_	_	9	cc	_	_
@@ -317,7 +317,7 @@
 10	ngenani	ngenani	ADP	_	_	11	case	_	_
 11-12	amalan-amalané	_	_	_	_	_	_	_	SpaceAfter=No
 11	amalan-amalan	amal	NOUN	_	Number=Plur	9	obl	_	_
-12	é	é	PRON	_	_	11	nmod:poss	_	_
+12	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	_
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 32
@@ -329,7 +329,7 @@
 3	Bersaudara	saudara	PROPN	_	_	2	flat:name	_	_
 4	tiba	tiba	VERB	_	Voice=Act	0	root	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
-6	asta	asta	NOUN	_	_	4	obl	_	_
+6	asta	asta	NOUN	_	Number=Sing	4	obl	_	_
 7	istri-istri	istri	NOUN	_	Number=Plur	6	nmod	_	_
 8	punika	punika	DET	_	_	7	det	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -339,7 +339,7 @@
 13	Frederick	Frederick	PROPN	_	_	12	obj	_	_
 14	Haynes	Haynes	PROPN	_	_	13	flat:name	_	_
 15	dados	dados	VERB	_	Voice=Act	12	xcomp	_	_
-16	présidhèn	présidhèn	NOUN	_	_	15	obl	_	_
+16	présidhèn	présidhèn	NOUN	_	Number=Sing	15	obl	_	_
 17	perusahaan	usaha	NOUN	_	Number=Sing	16	nmod	_	_
 18	mau	mau	DET	_	_	17	det	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
@@ -349,7 +349,7 @@
 # text_id = Tiga tahun kemudian, Jockie bergabung kembali dengan God Bless.
 # text_en = Three years later, Jockie rejoins God Bless.
 1	Tiga	tiga	NUM	_	NumType=Card	2	nummod	_	_
-2	taun	taun	NOUN	_	_	6	obl:tmod	_	_
+2	taun	taun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 3	lajeng	lajeng	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Jockie	Jockie	PROPN	_	_	6	nsubj	_	_
@@ -364,13 +364,13 @@
 # text = Para penentang iki ngeklaim yèn biaya ékonomi kang diperlokaké kanggo melaksanakan Protokol Kyoto iso ngancik 300 milyar dollar AS, mligi disebabkan déning biaya ènergi.
 # text_id = Penentang mengklaim bahwa biaya ekonomi yang dibutuhkan untuk menerapkan Protokol Kyoto dapat mencapai 300 miliar dolar AS, khususnya karena biaya energi.
 # text_en = Opponents claim that the economic costs required to implement the Kyoto Protocol could be as high as $300 billion, mainly because of energy costs.
-1	Para	para	DET	_	_	2	det	_	_
+1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	penentang	tentang	NOUN	_	Number=Sing	4	nsubj	_	_
 3	iki	iki	DET	_	_	2	det	_	_
 4	ngeklaim	ngeklaim	VERB	_	_	0	root	_	_
 5	yèn	yèn	SCONJ	_	_	15	mark	_	_
 6	biaya	biaya	NOUN	_	Number=Sing	15	nsubj	_	_
-7	ékonomi	ékonomi	NOUN	_	_	6	nmod	_	_
+7	ékonomi	ékonomi	NOUN	_	Number=Sing	6	nmod	_	_
 8	kang	kang	PRON	_	_	9	nsubj	_	_
 9	diperlokaké	diperlokaké	VERB	_	_	6	acl:relcl	_	_
 10	kanggo	kanggo	SCONJ	_	_	11	mark	_	_
@@ -379,16 +379,16 @@
 13	Kyoto	Kyoto	PROPN	_	_	12	flat:name	_	_
 14	iso	iso	AUX	_	_	15	aux	_	_
 15	ngancik	ngancik	VERB	_	_	4	ccomp	_	_
-16	300	300	NUM	_	_	18	nummod	_	_
-17	milyar	milyar	NUM	_	_	16	flat	_	_
-18	dollar	dollar	NOUN	_	_	15	obl	_	_
+16	300	300	NUM	_	NumType=Card	18	nummod	_	_
+17	milyar	milyar	NUM	_	NumType=Card	16	flat	_	_
+18	dollar	dollar	NOUN	_	Number=Sing	15	obl	_	_
 19	AS	AS	PROPN	_	_	18	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	mligi	mligi	ADV	_	_	22	advmod	_	_
 22	disebabkan	sebab	VERB	_	Voice=Pass	15	advcl	_	_
 23	déning	déning	ADP	_	_	24	case	_	_
 24	biaya	biaya	NOUN	_	Number=Sing	22	obl	_	_
-25	ènergi	ènergi	NOUN	_	_	24	nmod	_	SpaceAfter=No
+25	ènergi	ènergi	NOUN	_	Number=Sing	24	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 36
@@ -409,10 +409,10 @@
 # text_en = Finally, in 1964, he was appointed as a Foreign Member of the Royal Society in London.
 1	Pungkasanipun	Pungkasanipun	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	taun	taun	NOUN	_	_	7	obl	_	_
-4	1964	1964	NUM	_	_	3	nummod	_	SpaceAfter=No
+3	taun	taun	NOUN	_	Number=Sing	7	obl:tmod	_	_
+4	1964	1964	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	piyambakipun	piyambakipun	PRON	_	_	7	nsubj	_	_
+6	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	dipunangkat	angkat	VERB	_	_	0	root	_	_
 8	minangka	minangka	ADP	_	_	9	case	_	_
 9	Anggota	Anggota	PROPN	_	_	7	obl	_	_
@@ -436,21 +436,21 @@
 7	TGV	TGV	PROPN	_	_	6	obl	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	6	punct	_	_
 9	iku	yaiku	AUX	_	_	10	cop	_	_
-10	sepur	sepur	NOUN	_	_	0	root	_	_
+10	sepur	sepur	NOUN	_	Number=Sing	0	root	_	_
 11	rikat	rikat	ADJ	_	_	10	amod	_	_
 12	Prancis	Prancis	PROPN	_	_	10	nmod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	basa	basa	NOUN	_	_	10	appos	_	_
+14	basa	basa	NOUN	_	Number=Sing	10	appos	_	_
 15	Prancis	Prancis	PROPN	_	_	14	nmod	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	14	punct	_	_
-17	train	train	X	_	_	14	nmod	_	_
-18	à	à	X	_	_	17	flat:foreign	_	_
-19	grande	grande	X	_	_	17	flat:foreign	_	_
-20	vitesse	vitesse	X	_	_	17	flat:foreign	_	SpaceAfter=No
+17	train	train	X	_	Foreign=Yes	14	nmod	_	_
+18	à	à	X	_	Foreign=Yes	17	flat:foreign	_	_
+19	grande	grande	X	_	Foreign=Yes	17	flat:foreign	_	_
+20	vitesse	vitesse	X	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	kang	kang	PRON	_	PronType=Rel	23	nsubj	_	_
 23	tegesé	tegesé	VERB	_	Voice=Act	17	acl:relcl	_	_
-24	sepur	sepur	NOUN	_	_	23	obl	_	_
+24	sepur	sepur	NOUN	_	Number=Sing	23	obl	_	_
 25	rikat	rikat	ADJ	_	_	24	amod	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	10	punct	_	_
@@ -459,17 +459,19 @@
 # text = Karyane kang paling wigati yaiku Trilogi Cinta(爱情的三部曲).
 # text_id = Karyanya yang paling penting adalah Love Trilogy (爱情 ).
 # text_en = His most important work is the Love Trilogy (爱情).
-1	Karyane	Karyane	PROPN	_	_	6	nsubj	_	_
-2	kang	kang	PRON	_	_	4	nsubj	_	_
-3	paling	paling	ADV	_	_	4	advmod	_	_
-4	wigati	wigati	ADJ	_	_	1	acl:relcl	_	_
-5	yaiku	yaiku	AUX	_	_	6	cop	_	_
-6	Trilogi	Trilogi	PROPN	_	_	0	root	_	_
-7	Cinta	Cinta	PROPN	_	_	6	flat:name	_	SpaceAfter=No
-8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-9	爱情的三部曲	爱情的三部曲	X	_	_	6	appos	_	SpaceAfter=No
-10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	6	punct	_	_
+1-2	Karyane	_	_	_	_	_	_	_	_
+1	Karya	karya	NOUN	_	Number=Sing	7	nsubj	_	_
+2	né	né	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
+3	kang	kang	PRON	_	_	5	nsubj	_	_
+4	paling	paling	ADV	_	_	5	advmod	_	_
+5	wigati	wigati	ADJ	_	_	1	acl:relcl	_	_
+6	yaiku	yaiku	AUX	_	_	7	cop	_	_
+7	Trilogi	Trilogi	PROPN	_	_	0	root	_	_
+8	Cinta	Cinta	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	爱情的三部曲	爱情的三部曲	X	_	Foreign=Yes	7	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 43
 # text = Kanthi ulah raga dikarepaké para prajurit dadi tangkas lan sregep ing perang.
@@ -479,7 +481,7 @@
 2	ulah	ulah	NOUN	_	Number=Sing	4	obl	_	_
 3	raga	raga	NOUN	_	Number=Sing	2	nmod	_	_
 4	dikarepaké	dikarepaké	VERB	_	_	0	root	_	_
-5	para	para	DET	_	_	6	det	_	_
+5	para	para	DET	_	Number=Plur	6	det	_	_
 6	prajurit	prajurit	NOUN	_	Number=Sing	7	nsubj	_	_
 7	dadi	dadi	VERB	_	_	4	ccomp	_	_
 8	tangkas	tangkas	ADJ	_	_	7	xcomp	_	_
@@ -503,9 +505,9 @@
 8	dados	dados	VERB	_	_	3	conj	_	_
 9	hit	hit	ADJ	_	_	8	xcomp	_	_
 10	angka	angka	NOUN	_	Number=Sing	9	obl	_	_
-11	1	1	NUM	_	_	10	nummod	_	_
-12	taun	taun	NOUN	_	_	8	obl:tmod	_	_
-13	1958	1958	NUM	_	_	12	nummod	_	SpaceAfter=No
+11	1	1	NUM	_	NumType=Card	10	nummod	_	_
+12	taun	taun	NOUN	_	Number=Sing	8	obl:tmod	_	_
+13	1958	1958	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 14	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 51
@@ -515,7 +517,7 @@
 1	Nganti	Nganti	ADP	_	_	4	case	_	_
 2	ing	ing	ADP	_	_	4	case	_	_
 3	sawijining	sawiji	DET	_	_	4	det	_	_
-4	dina	dina	NOUN	_	_	8	obl	_	SpaceAfter=No
+4	dina	dina	NOUN	_	Number=Sing	8	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	Pak	Pak	PROPN	_	_	8	nsubj	_	_
 7	Surya	Surya	PROPN	_	_	6	flat:name	_	_
@@ -528,12 +530,12 @@
 # text = Pesawat punika dipunsertifikasi perdana taun 1994.
 # text_id = Pesawat itu disertifikasi perdana tahun 1994.
 # text_en = The aircraft was first certified in 1994.
-1	Pesawat	pesawat	X	_	_	3	nsubj	_	_
+1	Pesawat	pesawat	X	_	Foreign=Yes	3	nsubj	_	_
 2	punika	punika	DET	_	_	1	det	_	_
 3	dipunsertifikasi	sertifikasi	VERB	_	_	0	root	_	_
 4	perdana	perdana	ADJ	_	_	3	amod	_	_
-5	taun	taun	NOUN	_	_	3	obl	_	_
-6	1994	1994	NUM	_	_	5	nummod	_	SpaceAfter=No
+5	taun	taun	NOUN	_	Number=Sing	3	obl:tmod	_	_
+6	1994	1994	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 53
@@ -553,9 +555,9 @@
 # text_id = Beliau terlahir dengan nama asli Joko Widodo.
 # text_en = He was born with the real name Joko Widodo.
 1-2	Panjenenganipun	_	_	_	_	_	_	_	_
-1	Panjenengan	panjenengan	PRON	_	_	3	nsubj	_	_
-2	ipun	ipun	PRON	_	_	1	nmod:poss	_	_
-3	miyos	miyos	VERB	_	_	0	root	_	_
+1	Panjenengan	panjenengan	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
+3	miyos	miyos	VERB	_	Voice=Pass	0	root	_	_
 4	kanthi	kanthi	ADP	_	_	5	case	_	_
 5	asma	asma	NOUN	_	Number=Sing	3	obl	_	_
 6	asli	asli	ADJ	_	_	5	amod	_	_
@@ -567,13 +569,13 @@
 # text = 1995-Ing Somalia, misi perdamaian PBB dipunpungkasi.
 # text_id = 1995-Di Somalia, misi perdamaian PBB diakhiri.
 # text_en = 1995-In Somalia, the UN peace mission was ended.
-1	1995	1995	NUM	_	_	9	obl:tmod	_	SpaceAfter=No
+1	1995	1995	NUM	_	NumType=Card	9	obl:tmod	_	SpaceAfter=No
 2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	Ing	Ing	ADP	_	_	4	case	_	_
 4	Somalia	Somalia	PROPN	_	_	9	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	misi	misi	NOUN	_	Number=Sing	9	nsubj	_	_
-7	perdamaian	perdamaian	X	_	_	6	nmod	_	_
+7	perdamaian	perdamaian	X	_	Foreign=Yes	6	nmod	_	_
 8	PBB	PBB	PROPN	_	_	6	nmod	_	_
 9	dipunpungkasi	pungkas	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
@@ -583,9 +585,9 @@
 # text_id = Dengan bantuan mereka semua, Count Dracula dapat dimusnahkan.
 # text_en = With the help of all of them, Count Dracula can be exterminated.
 1	Kanthi	Kanthi	ADP	_	_	2	case	_	_
-2	tetulung	tetulung	NOUN	_	_	9	obl	_	_
-3	kabèh	kabèh	DET	_	_	4	det	_	_
-4	mau	mau	X	_	_	2	nmod	_	SpaceAfter=No
+2	tetulung	tetulung	NOUN	_	Number=Sing	9	obl	_	_
+3	kabèh	kabèh	PRON	_	_	2	nmod:poss	_	_
+4	mau	mau	DET	_	_	3	det	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	Count	Count	PROPN	_	_	9	nsubj	_	_
 7	Dracula	Dracula	PROPN	_	_	6	flat:name	_	_
@@ -601,7 +603,7 @@
 2	Déné	déné	ADV	_	_	5	advmod	_	_
 3-4	piyambakipun	_	_	_	_	_	_	_	_
 3	piyambak	piyambak	PRON	_	_	5	nsubj	_	_
-4	ipun	ipun	PRON	_	_	3	nmod:poss	_	_
+4	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
 5	ngolah	ngolah	VERB	_	Voice=Act	0	root	_	_
 6	bahan	bahan	NOUN	_	Number=Sing	5	obj	_	_
 7	ingkang	ingkang	PRON	_	PronType=Rel	8	nsubj	_	_
@@ -613,7 +615,7 @@
 13	"	"	PUNCT	_	_	5	punct	_	_
 14-15	ngendikanipun	_	_	_	_	_	_	_	_
 14	ngendika	ngendika	PRON	_	_	5	parataxis	_	_
-15	nipun	ipun	PRON	_	_	14	nmod:poss	_	_
+15	nipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	_
 16	Endriartono	Endriartono	PROPN	_	_	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -638,8 +640,8 @@
 3	diri	diri	PRON	_	PronType=Prs	2	obj	_	_
 4	ana	ana	VERB	_	_	2	advcl	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
-6	tanggal	tanggal	NOUN	_	_	3	obl	_	_
-7	26	26	NUM	_	_	6	nummod	_	_
+6	tanggal	tanggal	NOUN	_	Number=Sing	3	obl	_	_
+7	26	26	NUM	_	NumType=Card	6	nummod	_	_
 8	September	September	PROPN	_	_	7	flat	_	_
 9	lan	lan	CCONJ	_	_	12	cc	_	_
 10	sakpungkasane	pungkasan	ADV	_	_	11	advmod	_	_
@@ -652,8 +654,8 @@
 # text_id = Pada tahun 1999, Danau Sentarum dikukuhkan menjadi taman nasional.
 # text_en = In 1999, Lake Sentarum was declared a national park.
 1	Nalika	Nalika	ADP	_	_	2	case	_	_
-2	taun	taun	NOUN	_	_	7	obl	_	_
-3	1999	1999	NUM	_	_	2	nummod	_	SpaceAfter=No
+2	taun	taun	NOUN	_	Number=Sing	7	obl:tmod	_	_
+3	1999	1999	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Danau	Danau	PROPN	_	_	7	nsubj	_	_
 6	Sentarum	Sentarum	PROPN	_	_	5	flat:name	_	_
@@ -668,18 +670,18 @@
 # text_id = Pada tahun 2006 lagu tersebut juga digunakan dalam sebagian episode serial TV Supernatural.
 # text_en = In 2006 the song was also used in several episodes of the TV series Supernatural.
 1	Nalika	Nalika	ADP	_	_	2	case	_	_
-2	taun	taun	NOUN	_	_	7	obl:tmod	_	_
-3	2006	2006	NUM	_	_	2	nummod	_	_
-4	lagu	lagu	NOUN	_	_	7	nsubj:pass	_	_
+2	taun	taun	NOUN	_	Number=Sing	7	obl:tmod	_	_
+3	2006	2006	NUM	_	NumType=Card	2	nummod	_	_
+4	lagu	lagu	NOUN	_	Number=Sing	7	nsubj:pass	_	_
 5	iki	iki	DET	_	_	4	det	_	_
 6	uga	uga	ADV	_	_	7	advmod	_	_
 7	digunakaké	guna	VERB	_	_	0	root	_	_
 8	ana	ana	VERB	_	_	7	advcl	_	_
 9	ing	ing	ADP	_	_	10	case	_	_
-10	sapérangan	pérang	NOUN	_	_	8	obl	_	_
-11	episode	episode	NOUN	_	_	10	nmod	_	_
+10	sapérangan	pérang	NOUN	_	Number=Sing	8	obl	_	_
+11	episode	episode	NOUN	_	Number=Sing	10	nmod	_	_
 12	ing	ing	ADP	_	_	13	case	_	_
-13	serial	serial	NOUN	_	_	11	nmod	_	_
+13	serial	serial	NOUN	_	Number=Sing	11	nmod	_	_
 14	TV	TV	PROPN	_	_	13	nmod	_	_
 15	Supernatural	Supernatural	PROPN	_	_	14	flat:name	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	7	punct	_	_
@@ -689,18 +691,18 @@
 # text_id = Sebagian besar lagu Shakur ditulis dengan kekerasan ghetto, rasisme, masalah sosial, dan terkadang konflik dengan rapper lain.
 # text_en = Most of Shakur’s songs are written with ghetto violence, racism, social issues, and sometimes conflicts with other rappers.
 1	Akèh-akèhe	akèh	DET	_	_	2	det	_	_
-2	lagu	lagu	NOUN	_	_	4	nsubj:pass	_	_
+2	lagu	lagu	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 3	Shakur	Shakur	PROPN	_	_	2	nmod	_	_
 4	dipunsèrat	sèrat	VERB	_	_	0	root	_	_
 5	nganggo	anggo	VERB	_	_	4	xcomp	_	_
-6	kekerasan	keras	NOUN	_	_	5	obl	_	_
+6	kekerasan	keras	NOUN	_	Number=Sing	5	obl	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
-8	ghetto	ghetto	X	_	_	6	nmod	_	SpaceAfter=No
+8	ghetto	ghetto	X	_	Foreign=Yes	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	rasisme	rasisme	X	_	_	8	conj	_	SpaceAfter=No
+10	rasisme	rasisme	X	_	Foreign=Yes	8	conj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	prakawis	prakawis	NOUN	_	_	8	conj	_	_
-13	sosial	sosial	NOUN	_	_	12	nmod	_	SpaceAfter=No
+12	prakawis	prakawis	NOUN	_	Number=Sing	8	conj	_	_
+13	sosial	sosial	NOUN	_	Number=Sing	12	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	lan	lan	CCONJ	_	_	17	cc	_	_
 16	kadang	kadang	ADV	_	_	17	advmod	_	_
@@ -717,15 +719,15 @@
 # text_id = Ini adalah jenis kanker paling umum yang diderita wanita.
 # text_en = This is the most common type of cancer that women suffer from.
 1	Iki	Iki	PRON	_	_	2	nsubj	_	_
-2	wujud	wujud	NOUN	_	_	0	root	_	_
-3	jinis	jinis	NOUN	_	_	2	nmod	_	_
-4	kanker	kanker	NOUN	_	_	3	nmod	_	_
+2	wujud	wujud	NOUN	_	Number=Sing	0	root	_	_
+3	jinis	jinis	NOUN	_	Number=Sing	2	nmod	_	_
+4	kanker	kanker	NOUN	_	Number=Sing	3	nmod	_	_
 5	paling	paling	ADV	_	_	6	advmod	_	_
 6	umum	umum	ADJ	_	_	3	amod	_	_
 7	kang	kang	PRON	_	PronType=Rel	8	nsubj:pass	_	_
 8	ditandhang	tandhang	VERB	_	_	6	advcl	_	_
-9	kaum	kaum	NOUN	_	_	8	obl:agent	_	_
-10	wanita	wanita	NOUN	_	_	9	nmod	_	SpaceAfter=No
+9	kaum	kaum	NOUN	_	Number=Sing	8	obl:agent	_	_
+10	wanita	wanita	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 79
@@ -742,9 +744,9 @@
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	limrahipun	limrah	ADV	_	_	11	advmod	_	_
 10	ing	ing	ADP	_	_	11	case	_	_
-11	film	film	NOUN	_	_	4	advcl	_	_
+11	film	film	NOUN	_	Number=Sing	4	advcl	_	_
 12	utawi	utawi	CCONJ	_	_	13	cc	_	_
-13	serial	serial	NOUN	_	_	11	conj	_	_
+13	serial	serial	NOUN	_	Number=Sing	11	conj	_	_
 14	House	House	PROPN	_	_	13	nmod	_	_
 15	of	of	PROPN	_	_	14	flat:foreign	_	_
 16	Mouse	Mouse	PROPN	_	_	14	flat:foreign	_	SpaceAfter=No
@@ -757,13 +759,13 @@
 1	Ushaidi	Ushaidi	PROPN	_	_	2	nsubj:pass	_	_
 2	diciptakake	cipta	VERB	_	_	0	root	_	_
 3	ing	ing	ADP	_	_	5	case	_	_
-4	pungkasan	pungkasan	NOUN	_	_	5	nmod	_	_
-5	taun	taun	NOUN	_	_	2	obl:tmod	_	_
-6	2007	2007	NUM	_	_	5	nummod	_	_
+4	pungkasan	pungkasan	NOUN	_	Number=Sing	5	nmod	_	_
+5	taun	taun	NOUN	_	Number=Sing	2	obl:tmod	_	_
+6	2007	2007	NUM	_	NumType=Card	5	nummod	_	_
 7	minangka	minangka	ADP	_	_	8	case	_	_
-8	respon	respon	NOUN	_	_	2	obl	_	_
+8	respon	respon	NOUN	_	Number=Sing	2	obl	_	_
 9	saking	saking	ADP	_	_	10	case	_	_
-10	huru-hara	huru-hara	NOUN	_	_	8	nmod	_	_
+10	huru-hara	huru-hara	NOUN	_	Number=Sing	8	nmod	_	_
 11	saksampunè	sampun	ADP	_	_	12	case	_	_
 12	pemilu	pemilu	NOUN	_	Number=Sing	10	nmod	_	_
 13	ingkang	ingkang	PRON	_	PronType=Rel	14	nsubj	_	_
@@ -779,7 +781,7 @@
 1	Star	Star	PROPN	_	_	4	nsubj	_	_
 2	Movies	Movies	PROPN	_	_	1	flat:name	_	_
 3	yaiku	yaiku	AUX	_	_	4	cop	_	_
-4	saluran	saluran	NOUN	_	_	0	root	_	_
+4	saluran	saluran	NOUN	_	Number=Sing	0	root	_	_
 5	mbayar	mbayar	VERB	_	_	4	acl	_	_
 6	kang	kang	PRON	_	PronType=Rel	7	nsubj	_	_
 7	pertama	pertama	ADJ	_	_	4	acl:relcl	_	_
@@ -791,17 +793,17 @@
 # text = 1920-Hongaria kicalan 71% teritori lan 63% populasi nalika Traktat Trianon dipuntapakastani ing Paris.
 # text_id = 1920-Hongaria kehilangan 71% wilayahnya dan 63% penduduknya ketika Perjanjian Trianon diratifikasi di Paris.
 # text_en = 1920-Hungary loses 71% of its territory and 63% of its population when the Treaty of Trianon is ratified in Paris.
-1	1920	1920	NUM	_	_	4	obl:tmod	_	SpaceAfter=No
+1	1920	1920	NUM	_	NumType=Card	4	obl:tmod	_	SpaceAfter=No
 2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	Hongaria	Hongaria	PROPN	_	_	4	nsubj:pass	_	_
 4	kicalan	ical	VERB	_	Voice=Pass	0	root	_	_
-5	71	71	NUM	_	_	6	nummod	_	SpaceAfter=No
+5	71	71	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
 6	%	%	SYM	_	_	4	obl	_	_
-7	teritori	teritori	NOUN	_	_	6	nmod	_	_
+7	teritori	teritori	NOUN	_	Number=Sing	6	nmod	_	_
 8	lan	lan	CCONJ	_	_	10	cc	_	_
-9	63	63	NUM	_	_	10	nummod	_	SpaceAfter=No
+9	63	63	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
 10	%	%	SYM	_	_	6	conj	_	_
-11	populasi	populasi	NOUN	_	_	10	nmod	_	_
+11	populasi	populasi	NOUN	_	Number=Sing	10	nmod	_	_
 12	nalika	nalika	SCONJ	_	_	15	mark	_	_
 13	Traktat	Traktat	PROPN	_	_	15	nsubj:pass	_	_
 14	Trianon	Trianon	PROPN	_	_	13	flat:name	_	_
@@ -819,9 +821,9 @@
 3	ESO	ESO	PROPN	_	_	5	obl	_	_
 4	piyambakipun	piyambak	PRON	_	_	5	nsubj	_	_
 5	ningali	tingal	VERB	_	Voice=Act	0	root	_	_
-6	perkembangan	perkembangan	NOUN	_	_	5	obj	_	_
+6	perkembangan	perkembangan	NOUN	_	Number=Sing	5	obj	_	_
 7	lan	lan	CCONJ	_	_	8	cc	_	_
-8	pembangunan	bangun	NOUN	_	_	6	conj	_	_
+8	pembangunan	bangun	NOUN	_	Number=Sing	6	conj	_	_
 9	Very	Very	PROPN	_	_	8	nmod	_	_
 10	Large	Large	PROPN	_	_	9	flat:name	_	_
 11	Telescope	Telescope	PROPN	_	_	8	flat:name	_	SpaceAfter=No
@@ -831,24 +833,24 @@
 # text = Panjenenganipun terus makarya dugi 2 taun salajengipun, liwat 3 operasi lan kemoterapi eksperimental lan remisi 10 wulan.
 # text_id = Dia terus bekerja sampai 2 tahun berikutnya, melalui 3 operasi dan kemoterapi eksperimental dan remisi 10 bulan.
 # text_en = He continued to work until the next 2 years, through 3 surgeries and experimental chemotherapy and a 10 month remission.
-1	Panjenenganipun	Panjenengan	PRON	_	_	3	nsubj	_	_
+1	Panjenenganipun	panjenengan	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	terus	terus	ADV	_	_	3	advmod	_	_
 3	makarya	karya	VERB	_	Voice=Act	0	root	_	_
 4	dugi	dugi	ADP	_	_	6	case	_	_
-5	2	2	NUM	_	_	6	nummod	_	_
-6	taun	taun	NOUN	_	_	3	obl	_	_
+5	2	2	NUM	_	NumType=Card	6	nummod	_	_
+6	taun	taun	NOUN	_	Number=Sing	3	obl	_	_
 7	salajengipun	lajeng	ADJ	_	_	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	liwat	liwat	ADP	_	_	11	case	_	_
-10	3	3	NUM	_	_	11	nummod	_	_
-11	operasi	operasi	NOUN	_	_	3	obl	_	_
+10	3	3	NUM	_	NumType=Card	11	nummod	_	_
+11	operasi	operasi	NOUN	_	Number=Sing	3	obl	_	_
 12	lan	lan	CCONJ	_	_	13	cc	_	_
-13	kemoterapi	kemoterapi	X	_	_	11	conj	_	_
-14	eksperimental	eksperimental	X	_	_	13	dep	_	_
+13	kemoterapi	kemoterapi	X	_	Foreign=Yes	11	conj	_	_
+14	eksperimental	eksperimental	X	_	Foreign=Yes	13	dep	_	_
 15	lan	lan	CCONJ	_	_	16	cc	_	_
-16	remisi	remisi	X	_	_	11	conj	_	_
-17	10	10	NUM	_	_	18	nummod	_	_
-18	wulan	wulan	NOUN	_	_	16	nmod	_	SpaceAfter=No
+16	remisi	remisi	X	_	Foreign=Yes	11	conj	_	_
+17	10	10	NUM	_	NumType=Card	18	nummod	_	_
+18	wulan	wulan	NOUN	_	Number=Sing	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 85
@@ -856,10 +858,10 @@
 # text_id = Iridium 33 adalah satelit komunikasi Iridium Amerika Serikat.
 # text_en = Iridium 33 is an Iridium communications satellite of the United States.
 1	Iridium	Iridium	PROPN	_	_	4	nsubj	_	_
-2	33	33	NUM	_	_	1	nummod	_	_
+2	33	33	NUM	_	NumType=Card	1	nummod	_	_
 3	iku	yaiku	AUX	_	_	4	cop	_	_
-4	satelit	satelit	NOUN	_	_	0	root	_	_
-5	komunikasi	komunikasi	NOUN	_	_	4	nmod	_	_
+4	satelit	satelit	NOUN	_	Number=Sing	0	root	_	_
+5	komunikasi	komunikasi	NOUN	_	Number=Sing	4	nmod	_	_
 6	Iridium	Iridium	PROPN	_	_	4	nmod	_	_
 7	Amérika	Amérika	PROPN	_	_	4	nmod	_	_
 8	Sarékat	Sarékat	PROPN	_	_	7	flat:foreign	_	SpaceAfter=No
@@ -881,10 +883,10 @@
 10	puntir	puntir	VERB	_	Voice=Act	9	acl	_	_
 11	ing	ing	ADP	_	_	12	case	_	_
 12	taun	taun	NOUN	_	Number=Sing	8	obl:tmod	_	_
-13	1750	1750	NUM	_	_	12	nummod	_	SpaceAfter=No
+13	1750	1750	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	8	punct	_	_
 15	nanging	nanging	CCONJ	_	_	17	cc	_	_
-16	piyambakipun	piyambakipun	PRON	_	_	17	nsubj	_	_
+16	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 17	gagal	gagal	VERB	_	Voice=Act	8	conj	_	_
 18-19	migunakaken	_	_	_	_	_	_	_	_
 18	migunaka	migunaka	VERB	_	Voice=Act	17	xcomp	_	_
@@ -931,8 +933,8 @@
 # text_en = In 2002 he opposed ‘unilateral’ military action by the United States in Iraq.
 1	Nalika	Nalika	ADP	_	_	2	case	_	_
 2	taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
-3	2002	2002	NUM	_	_	2	nummod	_	_
-4	panjenengané	panjenengané	PRON	_	_	5	nsubj	_	_
+3	2002	2002	NUM	_	NumType=Card	2	nummod	_	_
+4	panjenengané	panjenengané	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	nentang	nentang	VERB	_	Voice=Act	0	root	_	_
 6	aksi	aksi	NOUN	_	Number=Sing	5	obj	_	_
 7	militèr	militèr	NOUN	_	Number=Sing	6	nmod	_	_
@@ -955,12 +957,12 @@
 3	mau	mau	DET	_	_	2	det	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	namung	namung	ADV	_	_	7	advmod	_	_
-6	11	11	NUM	_	_	7	nummod	_	_
+6	11	11	NUM	_	NumType=Card	7	nummod	_	_
 7	tiyang	tiyang	NOUN	_	Number=Sing	0	root	_	_
 8	ingkang	ingkang	PRON	_	PronType=Rel	9	nsubj	_	_
 9	dipuntampi	dipuntampi	VERB	_	Voice=Pass	7	acl:relcl	_	_
 10	saking	saking	ADP	_	_	13	case	_	_
-11	2.396	2.396	NUM	_	_	13	nummod	_	_
+11	2.396	2.396	NUM	_	NumType=Card	13	nummod	_	_
 12	tiyang	tiyang	NOUN	_	Number=Sing	13	clf	_	_
 13	pelamar	lamar	NOUN	_	Number=Sing	9	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	9	punct	_	_
@@ -970,17 +972,17 @@
 # text_id = Timur 2, Timur 3, dan Barat 1-Barat 3 semuanya melayani penerbangan domestik.
 # text_en = East 2, East 3, and West 1-West 3 can serve domestic flights.
 1	Timur	timur	NOUN	_	Number=Sing	14	nsubj	_	_
-2	2	2	NUM	_	_	1	nummod	_	SpaceAfter=No
+2	2	2	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	Timur	timur	NOUN	_	Number=Sing	1	conj	_	_
-5	3	3	NUM	_	_	4	nummod	_	SpaceAfter=No
+5	3	3	NUM	_	NumType=Card	4	nummod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	lan	lan	CCONJ	_	_	8	cc	_	_
 8	Barat	Barat	NOUN	_	Number=Sing	1	conj	_	_
-9	1	1	NUM	_	_	8	nummod	_	SpaceAfter=No
+9	1	1	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
 10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	Barat	Barat	NOUN	_	Number=Sing	8	nmod	_	_
-12	3	3	NUM	_	_	11	nummod	_	_
+12	3	3	NUM	_	NumType=Card	11	nummod	_	_
 13	kabèh	kabèh	DET	_	_	1	det	_	_
 14	nglayani	nglayani	VERB	_	Voice=Act	0	root	_	_
 15	penerbangan	terbang	NOUN	_	Number=Sing	14	obj	_	_
@@ -1002,14 +1004,14 @@
 9	sedaya	daya	DET	_	_	10	det	_	_
 10	arah	arah	NOUN	_	Number=Sing	6	obl	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	all-aspect	all-aspect	X	_	_	10	appos	_	SpaceAfter=No
+12	all-aspect	all-aspect	X	_	Foreign=Yes	10	appos	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	ing	ing	ADP	_	_	17	case	_	_
 16	sedaya	daya	DET	_	_	17	det	_	_
 17	cuaca	cuaca	NOUN	_	Number=Sing	10	conj	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	all-weather	all-weather	X	_	_	17	appos	_	SpaceAfter=No
+19	all-weather	all-weather	X	_	Foreign=Yes	17	appos	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	19	punct	_	_
 21	sarta	sarta	CCONJ	_	_	23	cc	_	_
 22	ing	ing	ADP	_	_	23	case	_	_
@@ -1017,7 +1019,7 @@
 24	pengacauan	kacauan	NOUN	_	Number=Sing	23	nmod	_	_
 25	elektronis	elektronis	ADJ	_	_	24	amod	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	jamming	jamming	X	_	_	24	appos	_	SpaceAfter=No
+27	jamming	jamming	X	_	Foreign=Yes	24	appos	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1032,7 +1034,7 @@
 5	TV	TV	PROPN	_	_	3	obl	_	_
 6	nalika	nalika	ADP	_	_	7	case	_	_
 7	taun	taun	NOUN	_	Number=Sing	3	obl:tmod	_	_
-8	1948	1948	NUM	_	_	7	nummod	_	SpaceAfter=No
+8	1948	1948	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 94
@@ -1056,8 +1058,8 @@
 2	ayahi	ayah	NOUN	_	Number=Sing	4	nsubj	_	_
 3	pun	pun	PRON	_	_	2	nmod:poss	_	_
 4-5	mengajaknya	_	_	_	_	_	_	_	_
-4	mengajak	ajak	X	_	_	0	root	_	_
-5	nya	nya	X	_	_	4	obj	_	_
+4	mengajak	ajak	X	_	Foreign=Yes	0	root	_	_
+5	nya	nya	X	_	Foreign=Yes	4	obj	_	_
 6	mlebet	mlebet	VERB	_	Voice=Act	4	advcl	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
 8	tim	tim	NOUN	_	Number=Sing	4	obl	_	_
@@ -1080,7 +1082,7 @@
 # text = Tetandhingan pungkasane ana ing Seri A yaiku nalika klawan Inter Milan tanggal 4 April 2004.
 # text_id = Pertandingan terakhirnya di Seri A adalah melawan Inter Milan pada 4 April 2004.
 # text_en = His last match in Series A was against Inter Milan on April 4, 2004.
-1	Tetandhingan	tetandhingan	NOUN	_	_	10	nsubj	_	_
+1	Tetandhingan	tetandhingan	NOUN	_	Number=Sing	10	nsubj	_	_
 2-3	pungkasane	_	_	_	_	_	_	_	_
 2	pungkasan	pungkas	ADJ	_	_	1	amod	_	_
 3	e	e	PRON	_	_	1	nmod:poss	_	_
@@ -1090,13 +1092,13 @@
 7	A	A	PROPN	_	_	6	flat:name	_	_
 8	yaiku	yaiku	AUX	_	_	10	cop	_	_
 9	nalika	nalika	ADV	_	_	10	advmod	_	_
-10	klawan	klawan	X	_	_	0	root	_	_
+10	klawan	klawan	X	_	Foreign=Yes	0	root	_	_
 11	Inter	Inter	PROPN	_	_	10	obj	_	_
 12	Milan	Milan	PROPN	_	_	11	flat:name	_	_
 13	tanggal	tanggal	NOUN	_	Number=Sing	10	obl:tmod	_	_
-14	4	4	NUM	_	_	13	nummod	_	_
+14	4	4	NUM	_	NumType=Card	13	nummod	_	_
 15	April	April	PROPN	_	_	14	flat	_	_
-16	2004	2004	NUM	_	_	14	flat	_	SpaceAfter=No
+16	2004	2004	NUM	_	NumType=Card	14	flat	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 97
@@ -1105,7 +1107,7 @@
 # text_en = Limpakuwus, Banyumas Regency, Central Java.
 1	Limpakuwus	Limpakuwus	PROPN	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	kabupatèn	kabupatèn	X	_	_	1	nmod	_	_
+3	kabupatèn	kabupatèn	X	_	Foreign=Yes	1	nmod	_	_
 4	Banyumas	Banyumas	PROPN	_	_	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	Jawa	Jawa	PROPN	_	_	3	nmod	_	_
@@ -1116,7 +1118,7 @@
 # text = Dhèwèké yaiku anggota Senat Filipina.
 # text_id = Dia adalah anggota Senat Filipina.
 # text_en = He is a member of the Philippine Senate.
-1	Dhèwèké	dhèwèké	PRON	_	_	3	nsubj	_	_
+1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	yaiku	yaiku	AUX	_	_	3	cop	_	_
 3	anggota	anggota	NOUN	_	Number=Sing	0	root	_	_
 4	Senat	Senat	PROPN	_	_	3	nmod	_	_
