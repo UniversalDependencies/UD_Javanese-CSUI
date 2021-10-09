@@ -467,6 +467,37 @@
 25	ènergi	ènergi	NOUN	_	Number=Sing	24	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = 35
+# text = Yèn dideleng saka cara tindakané, eutanasia isa dibagi dadi telung kategori, yaiku eutanasia agresif, eutanasia non-agresif, lan eutanasia pasif.
+# text_id = Dilihat dari cara mereka bertindak, euthanasia dapat dibagi menjadi tiga kategori, yaitu euthanasia agresif, euthanasia non-agresif, dan euthanasia pasif.
+# text_en = Judging from the way they act, euthanasia can be divided into three categories, namely aggressive euthanasia, non-aggressive euthanasia, and passive euthanasia.
+1	Yèn	yèn	SCONJ	_	_	2	mark	_	_
+2	dideleng	deleng	VERB	_	Voice=Pass	10	advcl	_	_
+3	saka	saka	ADP	_	_	4	case	_	_
+4	cara	cara	NOUN	_	Number=Sing	2	obl	_	_
+5-6	tindakané	_	_	_	_	_	_	_	SpaceAfter=No
+5	tindakan	tindak	NOUN	_	Number=Sing	4	nmod	_	_
+6	é	é	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	eutanasia	eutanasia	X	_	Foreign=Yes	10	nsubj	_	_
+9	isa	isa	AUX	_	_	10	aux	_	_
+10	dibagi	bagi	VERB	_	Voice=Pass	0	root	_	_
+11	dadi	dadi	VERB	_	Voice=Act	10	xcomp	_	_
+12	telung	telung	NUM	_	_	13	nummod	_	_
+13	kategori	kategori	X	_	Foreign=Yes	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	yaiku	yaiku	AUX	_	_	16	cop	_	_
+16	eutanasia	eutanasia	X	_	Foreign=Yes	13	appos	_	_
+17	agresif	agresif	ADJ	_	_	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	eutanasia	eutanasia	X	_	Foreign=Yes	16	conj	_	_
+20	non-agresif	non-agresif	ADJ	_	_	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	lan	lan	CCONJ	_	_	23	cc	_	_
+23	eutanasia	eutanasia	X	_	Foreign=Yes	16	conj	_	_
+24	pasif	pasif	ADJ	_	_	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	10	punct	_	_
+
 # sent_id = 36
 # text = Allah wis ndokok aku ing Indonésia.
 # text_id = Tuhan telah menempatkan saya di Indonesia.
@@ -531,6 +562,48 @@
 26	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	10	punct	_	_
 
+# sent_id = 39
+# text = Padahal saat mau prajurit Acèh wis dipukul mundur olèh Portugis.
+# text_id = Padahal, saat itu tentara Aceh sudah dipukul mundur oleh Portugis. 
+# text_en = In fact, at that time the Acehnese troops had been repulsed by the Portuguese.
+1	Padahal	padahal	X	_	Foreign=Yes	2	dep	_	_
+2	saat	saat	X	_	Foreign=Yes	7	obl	_	_
+3	mau	mau	DET	_	PronType=Dem	2	det	_	_
+4	prajurit	prajurit	NOUN	_	Number=Sing	7	nsubj:pass	_	_
+5	Acèh	Acèh	PROPN	_	_	4	nmod	_	_
+6	wis	wis	AUX	_	_	7	aux	_	_
+7	dipukul	pukul	VERB	_	Voice=Pass	0	root	_	_
+8	mundur	mundur	VERB	_	Voice=Act	7	xcomp	_	_
+9	olèh	olèh	ADP	_	_	10	case	_	_
+10	Portugis	Portugis	PROPN	_	_	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 40
+# text = 647,5 Milyar posisi 31 Dhésèmber 2011.
+# text_id = 647,5 Miliar posisi 31 Desember 2011.
+# text_en = 647.5 Billion as of December 31, 2011.
+1	647,5	647,5	NUM	_	NumType=Card	2	nummod	_	_
+2	Milyar	Milyar	NOUN	_	Number=Sing	0	root	_	_
+3	posisi	posisi	NOUN	_	Number=Sing	2	nsubj	_	_
+4	31	31	NUM	_	_	3	obl:tmod	_	_
+5	Dhésèmber	Dhésèmber	PROPN	_	_	4	flat	_	_
+6	2011	2011	NUM	_	_	4	flat	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 41
+# text = Dhèwèké pernah njabat kepala Inspeksi Kebudayaan ing Sumatera.
+# text_id = Ia pernah menjabat sebagai Kepala Inspeksi Kebudayaan di Sumatera.
+# text_en = He has served as Head of Cultural Inspection in Sumatra.
+1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	pernah	pernah	ADV	_	_	3	advmod	_	_
+3	njabat	njabat	VERB	_	Voice=Act	0	root	_	_
+4	kepala	kepala	NOUN	_	Number=Sing	3	obl	_	_
+5	Inspeksi	Inspeksi	PROPN	_	_	4	nmod	_	_
+6	Kebudayaan	Kebudayaan	PROPN	_	_	5	flat:name	_	_
+7	ing	ing	ADP	_	_	8	case	_	_
+8	Sumatera	Sumatera	PROPN	_	_	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
 # sent_id = 42
 # text = Karyané kang paling wigati yaiku Trilogi Cinta(爱情的三部曲).
 # text_id = Karyanya yang paling penting adalah Love Trilogy (爱情 ).
@@ -567,6 +640,26 @@
 12	perang	perang	NOUN	_	Number=Sing	8	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
+# sent_id = 44
+# text = Ingkang kapisanan inggih punika "analisisipun babagan perilaku penabung rumah tangga".
+# text_id = Yang pertama adalah “analisis perilaku penabung rumah tangga”.
+# text_en = The first is “the behavior analysis of household savers”.
+1	Ingkang	ingkang	PRON	_	_	2	nsubj	_	_
+2	kapisanan	kapisanan	ADJ	_	NumType=Ord	6	csubj	_	_
+3	inggih	yaiku	AUX	_	_	6	cop	_	_
+4	punika	punika	DET	_	_	3	fixed	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6-7	analisisipun	_	_	_	_	_	_	_	_
+6	analisis	analisis	NOUN	_	Number=Sing	0	root	_	_
+7	ipun	ipun	DET	_	Definite=Def|PronType=Art	6	det	_	_
+8	babagan	babagan	ADP	_	_	9	case	_	_
+9	perilaku	perilaku	X	_	Foreign=Yes	6	nmod	_	_
+10	penabung	tabung	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	rumah	rumah	X	_	Foreign=Yes	9	flat:foreign	_	_
+12	tangga	tangga	X	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
 # sent_id = 45
 # text = Lagu punika dipunbektakaken déning Tommy Edwards lan dados hit angka 1 taun 1958!
 # text_id = Lagu tersebut dinyanyikan oleh Tommy Edwards dan menjadi hit nomor 1 pada tahun 1958!
@@ -585,6 +678,88 @@
 12	taun	taun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 13	1958	1958	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 14	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 46
+# text = EAT ngambakake aktivitasné kanti ngleboni tahap kontrak karo DHL Worldwide Express taun 1985.
+# text_id = EAT memperluas kegiatannya dengan menandatangani kontrak dengan DHL Worldwide Express pada tahun 1985.
+# text_en = EAT expanded its activities by signing a contract with DHL Worldwide Express in 1985.
+1	EAT	EAT	PROPN	_	_	2	nsubj	_	_
+2	ngambakake	ngambakake	VERB	_	Voice=Act	0	root	_	_
+3-4	aktivitasné	_	_	_	_	_	_	_	_
+3	aktivitas	aktivitas	NOUN	_	Number=Sing	2	obj	_	_
+4	né	é	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+5	kanti	kanti	SCONJ	_	_	6	mark	_	_
+6	ngleboni	ngleboni	VERB	_	Voice=Act	2	advcl	_	_
+7	tahap	tahap	X	_	Foreign=Yes	6	obj	_	_
+8	kontrak	kontrak	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	karo	karo	ADP	_	_	10	case	_	_
+10	DHL	DHL	PROPN	_	_	7	nmod	_	_
+11	Worldwide	Worldwide	PROPN	_	_	10	flat:name	_	_
+12	Express	Express	PROPN	_	_	10	flat:name	_	_
+13	taun	taun	NOUN	_	_	6	obl:tmod	_	_
+14	1985	1985	NUM	_	_	13	nummod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 47
+# text = Warnané putih lan transparan.
+# text_id = Warnanya putih dan transparan.
+# text_en = It is white and transparent.
+1-2	Warnané	_	_	_	_	_	_	_	_
+1	Warna	warna	NOUN	_	Number=Sing	3	nsubj	_	_
+2	né	é	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+3	putih	putih	ADJ	_	_	0	root	_	_
+4	lan	lan	CCONJ	_	_	5	cc	_	_
+5	transparan	transparan	ADJ	_	_	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 48
+# text = Sauntara ing Provinsi Papua, dikenal istilah Peraturan Laladan Khusus lan Peraturan Laladan Provinsi.
+# text_id = Sedangkan di Provinsi Papua dikenal dengan Peraturan Pertanahan Khusus dan Peraturan Pertanahan Provinsi.
+# text_en = Meanwhile, in Papua Province, it is known as the Special Land Regulations and Provincial Land Regulations.
+1	Sauntara	Sauntara	ADV	_	_	6	advmod	_	_
+2	ing	ing	ADP	_	_	3	case	_	_
+3	Provinsi	Provinsi	PROPN	_	_	6	obl	_	_
+4	Papua	Papua	PROPN	_	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	dikenal	kenal	VERB	_	Voice=Pass	0	root	_	_
+7	istilah	istilah	NOUN	_	Number=Sing	6	obl	_	_
+8	Peraturan	Peraturan	PROPN	_	_	7	nmod	_	_
+9	Laladan	Laladan	PROPN	_	_	8	flat:name	_	_
+10	Khusus	Khusus	PROPN	_	_	8	flat:name	_	_
+11	lan	lan	CCONJ	_	_	12	cc	_	_
+12	Peraturan	Peraturan	PROPN	_	_	8	conj	_	_
+13	Laladan	Laladan	PROPN	_	_	12	flat:name	_	_
+14	Provinsi	Provinsi	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 49
+# text = (BBC) 5 - Gjorge Ivanov mimpang pemilu présidhèn ing Makedonia.
+# text_id = (BBC) 5 - Gjorge Ivanov menjalankan pemilihan presiden Makedonia.
+# text_en = (BBC) 5 - Gjorge Ivanov runs the Macedonian presidential election.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	BBC	BBC	PROPN	_	_	8	obl	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	5	5	NUM	_	_	2	nummod	_	_
+5	-	-	PUNCT	_	_	2	punct	_	_
+6	Gjorge	Gjorge	PROPN	_	_	8	nsubj	_	_
+7	Ivanov	Ivanov	PROPN	_	_	6	flat:name	_	_
+8	mimpang	mimpang	VERB	_	Voice=Act	0	root	_	_
+9	pemilu	pemilu	NOUN	_	Number=Sing	8	obj	_	_
+10	présidhèn	présidhèn	NOUN	_	Number=Sing	9	nmod	_	_
+11	ing	ing	ADP	_	_	12	case	_	_
+12	Makedonia	Makedonia	NOUN	_	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 50
+# text = Piyambakipun tiyang warga nagari Argentina.
+# text_id = Dia adalah warga negara Argentina.
+# text_en = He is an Argentinian citizen.
+1	Piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tiyang	tiyang	NOUN	_	Number=Sing	0	root	_	_
+3	warga	warga	NOUN	_	Number=Sing	2	nmod	_	_
+4	nagari	ganagari	NOUN	_	Number=Sing	3	nmod	_	_
+5	Argentina	Argentina	PROPN	_	_	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 51
 # text = Nganti ing sawijining dina, Pak Surya ketemu karo Sarah.
@@ -975,7 +1150,7 @@
 # text_en = In the seventh year he must be redeemed without paying any ransom.
 1	Ing	Ing	ADP	_	_	2	case	_	_
 2	taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
-3	kapitu	kapitu	ADJ	_	_	2	amod	_	_
+3	kapitu	kapitu	ADJ	_	NumType=Ord	2	amod	_	_
 4	kudu	kudu	AUX	_	_	5	aux	_	_
 5	diluwari	diluwari	VERB	_	Voice=Pass	0	root	_	_
 6	tanpa	tanpa	SCONJ	_	_	7	mark	_	_
@@ -1069,29 +1244,31 @@
 4	gadhah	gadhah	VERB	_	Voice=Act	0	root	_	_
 5	kemampuan	mampu	NOUN	_	Number=Sing	4	obj	_	_
 6	nyergap	nyergap	VERB	_	Voice=Act	5	advcl	_	_
-7	sasaranipun	sasaranipun	NOUN	_	Number=Sing	6	obj	_	_
-8	saking	saking	ADP	_	_	10	case	_	_
-9	sedaya	daya	DET	_	_	10	det	_	_
-10	arah	arah	NOUN	_	Number=Sing	6	obl	_	_
-11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	all-aspect	all-aspect	X	_	Foreign=Yes	10	appos	_	SpaceAfter=No
-13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	17	punct	_	_
-15	ing	ing	ADP	_	_	17	case	_	_
-16	sedaya	daya	DET	_	_	17	det	_	_
-17	cuaca	cuaca	NOUN	_	Number=Sing	10	conj	_	_
-18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	all-weather	all-weather	X	_	Foreign=Yes	17	appos	_	SpaceAfter=No
-20	)	)	PUNCT	_	_	19	punct	_	_
-21	sarta	sarta	CCONJ	_	_	23	cc	_	_
-22	ing	ing	ADP	_	_	23	case	_	_
-23	tèngah	tèngah	NOUN	_	Number=Sing	10	conj	_	_
-24	pengacauan	kacauan	NOUN	_	Number=Sing	23	nmod	_	_
-25	elektronis	elektronis	ADJ	_	_	24	amod	_	_
-26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	jamming	jamming	X	_	Foreign=Yes	24	appos	_	SpaceAfter=No
-28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	4	punct	_	_
+7-8	sasaranipun	_	_	_	_	_	_	_	_
+7	sasaran	sasaran	NOUN	_	Number=Sing	6	obj	_	_
+8	ipun	ipun	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+9	saking	saking	ADP	_	_	11	case	_	_
+10	sedaya	daya	DET	_	PronType=Tot	11	det	_	_
+11	arah	arah	NOUN	_	Number=Sing	6	obl	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	all-aspect	all-aspect	X	_	Foreign=Yes	11	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	ing	ing	ADP	_	_	18	case	_	_
+17	sedaya	daya	DET	_	PronType=Tot	18	det	_	_
+18	cuaca	cuaca	NOUN	_	Number=Sing	11	conj	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	all-weather	all-weather	X	_	Foreign=Yes	18	appos	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	sarta	sarta	CCONJ	_	_	24	cc	_	_
+23	ing	ing	ADP	_	_	25	case	_	_
+24	tèngah	tèngah	NOUN	_	Number=Sing	25	nmod:lmod	_	_
+25	pengacauan	kacauan	NOUN	_	Number=Sing	11	conj	_	_
+26	elektronis	elektronis	X	_	Foreign=Yes	25	dep	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	jamming	jamming	X	_	Foreign=Yes	25	appos	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 93
 # text = ABC wiwit disiaraké ing TV nalika taun 1948.
