@@ -288,17 +288,17 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 26
-# text = Dibuka taun 2003, kanthi kapasitas 18.000 kursi.
+# text = Dipunbikak taun 2003, kanthi kapasitas 18.000 kursi.
 # text_id = Dibuka tahun 2003, dengan kapasitas 18.000 kursi.
 # text_en = Opened in 2003, with a capacity of 18000 seats.
-1	Dibuka	buka	VERB	_	Voice=Pass	0	root	_	_
+1	Dipunbikak	buka	VERB	_	Voice=Pass	0	root	_	_
 2	taun	taun	NOUN	_	Number=Sing	1	obl:tmod	_	_
 3	2003	2003	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	kanthi	kanthi	ADP	_	_	6	case	_	_
-6	kapasitas	kapasitas	NOUN	_	Number=Sing	1	obl	_	_
+6	kapasitas	kapasitas	X	_	Foreign=Yes	1	obl	_	_
 7	18.000	18.000	NUM	_	NumType=Card	8	nummod	_	_
-8	kursi	kursi	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
+8	kursi	kursi	X	_	Foreign=Yes	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 27
@@ -310,18 +310,18 @@
 3	She	She	PROPN	_	_	1	nmod	_	SpaceAfter=No
 4	"	"	PUNCT	_	_	3	punct	_	_
 5	dadi	dadi	VERB	_	Voice=Act	0	root	_	_
-6	puncak	puncak	NOUN	_	Number=Sing	5	obl	_	_
-7	tangga	tangga	NOUN	_	Number=Sing	6	nmod	_	_
+6	puncak	puncak	X	_	Foreign=Yes	5	obl	_	_
+7	tangga	tangga	X	_	Foreign=Yes	6	nmod	_	_
 8	lagu	lagu	NOUN	_	Number=Sing	7	nmod	_	_
 9	Britania	Britania	PROPN	_	_	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 28
 # text = Sawijining jalur kaping kalih, Jalur B, kanthi arah timurlaut dhateng baratdaya, dipunjadwalaken dipunbikak taun 2015.
-# text_id = Jalur kedua, Jalur B, menuju timur laut ke barat daya, dijadwalkan dibuka pada tahun 2015.
+# text_id = Sebuah jalur kedua, Jalur B, menuju timur laut ke barat daya, dijadwalkan dibuka pada tahun 2015.
 # text_en = A second line, Line B, heading northeast to southwest, is scheduled to open in 2015.
-1	Sawijining	Sawijining	ADV	_	_	15	advmod	_	_
-2	jalur	jalur	NOUN	_	Number=Sing	15	nsubj	_	_
+1	Sawijining	sawijining	DET	_	Definite=Ind|PronType=Art	2	advmod	_	_
+2	jalur	jalur	NOUN	_	Number=Sing	15	nsubj:pass	_	_
 3	kaping	kaping	NOUN	_	Number=Sing	2	nmod	_	_
 4	kalih	kalih	ADJ	_	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -344,27 +344,27 @@
 # text = Kapasitas seri 705 yaiku 75 penumpang.
 # text_id = Kapasitas seri 705 adalah 75 penumpang.
 # text_en = The capacity of the 705 series is 75 passengers.
-1	Kapasitas	kapasitas	NOUN	_	Number=Sing	6	nsubj	_	_
+1	Kapasitas	kapasitas	X	_	Foreign=Yes	6	nsubj	_	_
 2	seri	seri	NOUN	_	Number=Sing	1	nmod	_	_
 3	705	705	NUM	_	NumType=Card	2	nummod	_	_
 4	yaiku	yaiku	AUX	_	_	6	aux	_	_
 5	75	75	NUM	_	NumType=Card	6	nummod	_	_
-6	penumpang	tumpang	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+6	penumpang	tumpang	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 30
 # text = Status kelangkaan buah iki dianalisis nganggo kategori lan kriteria tumbuhan langka miturut IUCN Red List Categories 30 November 1994.
 # text_id = Status kelangkaan buah ini dianalisis menggunakan kategori dan kriteria tumbuhan langka menurut Kategori Red List IUCN 30 November 1994.
 # text_en = The rarity status of this fruit was analyzed using the category and criteria of rare plants according to the IUCN Red List Category on November 30, 1994.
-1	Status	status	NOUN	_	Number=Sing	5	nsubj:pass	_	_
-2	kelangkaan	langka	NOUN	_	Number=Sing	1	nmod	_	_
+1	Status	status	X	_	Foreign=Yes	5	nsubj:pass	_	_
+2	kelangkaan	langka	X	_	Foreign=Yes	1	flat:foreign	_	_
 3	buah	buah	NOUN	_	Number=Sing	2	nmod	_	_
 4	iki	iki	DET	_	_	1	det	_	_
-5	dianalisis	analisis	VERB	_	Voice=Pass	0	root	_	_
+5	dianalisis	analisis	X	_	Foreign=Yes	0	root	_	_
 6	nganggo	enggo	VERB	_	Voice=Act	5	xcomp	_	_
-7	kategori	kategori	NOUN	_	Number=Sing	6	obj	_	_
+7	kategori	kategori	X	_	Foreign=Yes	6	obj	_	_
 8	lan	lan	CCONJ	_	_	9	cc	_	_
-9	kriteria	kriteria	NOUN	_	Number=Sing	7	conj	_	_
+9	kriteria	kriteria	X	_	Foreign=Yes	7	conj	_	_
 10	tumbuhan	tumbuh	NOUN	_	Number=Sing	7	nmod	_	_
 11	langka	langka	ADJ	_	_	10	amod	_	_
 12	miturut	miturut	VERB	_	Voice=Act	7	acl	_	_
@@ -381,7 +381,7 @@
 # text = Saben makluk bakal mati lan ing akhirat bakal dihisab ngenani amalan-amalané.
 # text_id = Setiap makhluk akan mati dan di akhirat akan dimintai pertanggungjawaban atas perbuatannya.
 # text_en = Every creature will die and in the hereafter will be held responsibility for his actions.
-1	Saben	saben	DET	_	_	2	det	_	_
+1	Saben	saben	DET	_	PronType=Tot	2	det	_	_
 2	makluk	makluk	NOUN	_	Number=Sing	4	nsubj	_	_
 3	bakal	bakal	AUX	_	_	4	aux	_	_
 4	mati	mati	VERB	_	_	0	root	_	_
@@ -421,7 +421,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 33
-# text = Tiga taun lajeng, Jockie bergabung malih kaliyan God Bless.
+# text = Tiga taun lajeng, Jockie nggabung malih kaliyan God Bless.
 # text_id = Tiga tahun kemudian, Jockie bergabung kembali dengan God Bless.
 # text_en = Three years later, Jockie rejoins God Bless.
 1	Tiga	tiga	NUM	_	NumType=Card	2	nummod	_	_
@@ -429,7 +429,7 @@
 3	lajeng	lajeng	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Jockie	Jockie	PROPN	_	_	6	nsubj	_	_
-6	bergabung	gabung	VERB	_	Voice=Act	0	root	_	_
+6	nggabung	gabung	VERB	_	Voice=Act	0	root	_	_
 7	malih	malih	ADV	_	_	6	advmod	_	_
 8	kaliyan	kaliyan	ADP	_	_	9	case	_	_
 9	God	God	PROPN	_	_	6	obl	_	_
@@ -437,7 +437,7 @@
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 34
-# text = Para penentang iki ngeklaim yèn biaya ékonomi kang diperlokaké kanggo melaksanakan Protokol Kyoto isa ngancik 300 milyar dollar AS, mligi disebabkan déning biaya ènergi.
+# text = Para penentang iki ngeklaim yèn biaya ékonomi kang diperlokaké kanggo ngelaksanaken Protokol Kyoto isa ngancik 300 milyar dollar AS, mligi disebabken déning biaya ènergi.
 # text_id = Penentang mengklaim bahwa biaya ekonomi yang dibutuhkan untuk menerapkan Protokol Kyoto dapat mencapai 300 miliar dolar AS, khususnya karena biaya energi.
 # text_en = Opponents claim that the economic costs required to implement the Kyoto Protocol could be as high as $300 billion, mainly because of energy costs.
 1	Para	para	DET	_	Number=Plur	2	det	_	_
@@ -445,12 +445,12 @@
 3	iki	iki	DET	_	_	2	det	_	_
 4	ngeklaim	ngeklaim	VERB	_	_	0	root	_	_
 5	yèn	yèn	SCONJ	_	_	15	mark	_	_
-6	biaya	biaya	NOUN	_	Number=Sing	15	nsubj	_	_
+6	biaya	biaya	X	_	Foreign=Yes	15	nsubj	_	_
 7	ékonomi	ékonomi	NOUN	_	Number=Sing	6	nmod	_	_
 8	kang	kang	PRON	_	_	9	nsubj	_	_
 9	diperlokaké	diperlokaké	VERB	_	_	6	acl:relcl	_	_
 10	kanggo	kanggo	SCONJ	_	_	11	mark	_	_
-11	melaksanakan	laksana	VERB	_	Voice=Act	9	advcl	_	_
+11	ngelaksanaken	laksana	X	_	Foreign=Yes	9	advcl	_	_
 12	Protokol	Protokol	PROPN	_	_	11	obj	_	_
 13	Kyoto	Kyoto	PROPN	_	_	12	flat:name	_	_
 14	isa	isa	AUX	_	_	15	aux	_	_
@@ -461,15 +461,15 @@
 19	AS	AS	PROPN	_	_	18	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	mligi	mligi	ADV	_	_	22	advmod	_	_
-22	disebabkan	sebab	VERB	_	Voice=Pass	15	advcl	_	_
+22	disebabken	sebab	VERB	_	Voice=Pass	15	advcl	_	_
 23	déning	déning	ADP	_	_	24	case	_	_
-24	biaya	biaya	NOUN	_	Number=Sing	22	obl	_	_
+24	biaya	biaya	X	_	Foreign=Yes	22	obl	_	_
 25	ènergi	ènergi	NOUN	_	Number=Sing	24	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 35
 # text = Yèn dideleng saka cara tindakané, eutanasia isa dibagi dadi telung kategori, yaiku eutanasia agresif, eutanasia non-agresif, lan eutanasia pasif.
-# text_id = Dilihat dari cara mereka bertindak, euthanasia dapat dibagi menjadi tiga kategori, yaitu euthanasia agresif, euthanasia non-agresif, dan euthanasia pasif.
+# text_id = Jika dilihat dari cara mereka bertindak, euthanasia dapat dibagi menjadi tiga kategori, yaitu euthanasia agresif, euthanasia non-agresif, dan euthanasia pasif.
 # text_en = Judging from the way they act, euthanasia can be divided into three categories, namely aggressive euthanasia, non-aggressive euthanasia, and passive euthanasia.
 1	Yèn	yèn	SCONJ	_	_	2	mark	_	_
 2	dideleng	deleng	VERB	_	Voice=Pass	10	advcl	_	_
@@ -572,7 +572,7 @@
 4	prajurit	prajurit	NOUN	_	Number=Sing	7	nsubj:pass	_	_
 5	Acèh	Acèh	PROPN	_	_	4	nmod	_	_
 6	wis	wis	AUX	_	_	7	aux	_	_
-7	dipukul	pukul	VERB	_	Voice=Pass	0	root	_	_
+7	dipukul	pukul	X	_	Foreign=Yes	0	root	_	_
 8	mundur	mundur	VERB	_	Voice=Act	7	xcomp	_	_
 9	olèh	olèh	ADP	_	_	10	case	_	_
 10	Portugis	Portugis	PROPN	_	_	7	obl	_	SpaceAfter=No
@@ -595,9 +595,9 @@
 # text_id = Ia pernah menjabat sebagai Kepala Inspeksi Kebudayaan di Sumatera.
 # text_en = He has served as Head of Cultural Inspection in Sumatra.
 1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	pernah	pernah	ADV	_	_	3	advmod	_	_
+2	pernah	pernah	X	_	Foreign=Yes	3	dep	_	_
 3	njabat	njabat	VERB	_	Voice=Act	0	root	_	_
-4	kepala	kepala	NOUN	_	Number=Sing	3	obl	_	_
+4	kepala	kepala	X	_	Foreign=Yes	3	obl	_	_
 5	Inspeksi	Inspeksi	PROPN	_	_	4	nmod	_	_
 6	Kebudayaan	Kebudayaan	PROPN	_	_	5	flat:name	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
@@ -721,8 +721,8 @@
 3	Provinsi	Provinsi	PROPN	_	_	6	obl	_	_
 4	Papua	Papua	PROPN	_	_	3	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	dikenal	kenal	VERB	_	Voice=Pass	0	root	_	_
-7	istilah	istilah	NOUN	_	Number=Sing	6	obl	_	_
+6	dikenal	kenal	X	_	Foreign=Yes	0	root	_	_
+7	istilah	istilah	X	_	Foreign=Yes	6	obl	_	_
 8	Peraturan	Peraturan	PROPN	_	_	7	nmod	_	_
 9	Laladan	Laladan	PROPN	_	_	8	flat:name	_	_
 10	Khusus	Khusus	PROPN	_	_	8	flat:name	_	_
