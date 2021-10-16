@@ -287,6 +287,160 @@
 5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
+# sent_id = 16
+# text = Dina Abasa Bali adaté lumaku mligi ing tataran pamulangan.
+# text_id = Abasa Bali secara tradisional diadakan terutama di tingkat pendidikan.
+# text_en = Abasa Bali is traditionally held mainly at the education level.
+1	Dina	dina	NOUN	_	_	6	nsubj:pass	_	_
+2	Abasa	Abasa	PROPN	_	_	1	nmod	_	_
+3	Bali	Bali	PROPN	_	_	2	flat:name	_	_
+4-5	adaté	_	_	_	_	_	_	_	_
+4	adat	adat	NOUN	_	Number=Sing	6	obl	_	_
+5	é	é	DET	_	Definite=Def|PronType=Art	4	det	_	_
+6	lumaku	laku	VERB	_	Voice=Pass	0	root	_	_
+7	mligi	mligi	ADV	_	_	9	advmod	_	_
+8	ing	ing	ADP	_	_	9	case	_	_
+9	tataran	tatar	NOUN	_	_	6	obl	_	_
+10	pamulangan	ulang	NOUN	_	_	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 18
+# text = Pamarèntahanipun dipunandhapaken rakyat wonten ing revolusi people power (kekiyatan rakyat) ingkang dipunkenal kanthi nami Revolusi EDSA II.
+# text_id = Pemerintahannya berada di bawah rakyat dalam revolusi kekuatan rakyat yang dikenal sebagai Revolusi EDSA II.
+# text_en = The government came under the people in the people power revolution known as the EDSA II Revolution.
+1-2	Pamarèntahanipun	_	_	_	_	_	_	_	_
+1	Pamarèntahan	prèntah	NOUN	_	Number=Sing	3	nsubj:pass	_	_
+2	ipun	ipun	DET	_	_	1	det	_	_
+3	dipunandhapaken	andhap	VERB	_	Voice=Pass	0	root	_	_
+4	rakyat	rakyat	NOUN	_	Number=Sing	3	obl	_	_
+5	wonten	wonten	ADP	_	_	7	case	_	_
+6	ing	ing	ADP	_	_	7	case	_	_
+7	revolusi	revolusi	NOUN	_	Number=Sing	3	nmod	_	_
+8	people	people	X	_	Foreign=Yes	7	nmod	_	_
+9	power	power	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	kekiyatan	kiyat	NOUN	_	Number=Sing	8	appos	_	_
+12	rakyat	rakyat	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	11	punct	_	_
+14	ingkang	ingkang	PRON	_	PronType=Rel	15	nsubj:pass	_	_
+15	dipunkenal	kenal	VERB	_	Voice=Pass	7	acl:relcl	_	_
+16	kanthi	kanthi	ADP	_	_	17	case	_	_
+17	nami	nami	NOUN	_	Number=Sing	15	obl	_	_
+18	Revolusi	Revolusi	PROPN	_	_	17	nmod	_	_
+19	EDSA	EDSA	PROPN	_	_	18	flat:name	_	_
+20	II	II	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 19
+# text = Potter asring nggatosakèn kéwan-kéwan punika ngantos pinten-pinten jam lan ndamèl gambaripun.
+# text_id = Potter sering mengamati hewan-hewan ini selama berjam-jam dan membuat sketsanya.
+# text_en = Potter would often observe these animals for hours and sketch them.
+1	Potter	Potter	PROPN	_	_	3	nsubj	_	_
+2	asring	asring	ADV	_	_	3	advmod	_	_
+3	nggatosakèn	nggatosakèn	VERB	_	Voice=Act	0	root	_	_
+4	kéwan-kéwan	kéwan-kéwan	NOUN	_	Number=Sing	3	obj	_	_
+5	punika	punika	DET	_	_	4	det	_	_
+6	ngantos	ngantos	ADP	_	_	8	case	_	_
+7	pinten-pinten	pinten	DET	_	_	8	det	_	_
+8	jam	jam	NOUN	_	_	3	obl	_	_
+9	lan	lan	CCONJ	_	_	10	cc	_	_
+10	ndamèl	damèl	VERB	_	Voice=Act	3	conj	_	_
+11-12	gambaripun	_	_	_	_	_	_	_	SpaceAfter=No
+11	gambar	gambar	NOUN	_	_	10	obl	_	_
+12	ipun	ipun	PRON	_	_	11	nmod:poss	_	_
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 20
+# text = Nelson Mandela, Présidhèn Afrika Selatan.
+# text_id = Nelson Mandela, Presiden Afrika Selatan.
+# text_en = Nelson Mandela, President of South Africa.
+1	Nelson	Nelson	PROPN	_	_	0	root	_	_
+2	Mandela	Mandela	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	Présidhèn	Présidhèn	NOUN	_	_	1	appos	_	_
+5	Afrika	Afrika	PROPN	_	_	4	nmod	_	_
+6	Selatan	Selatan	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 21
+# text = Sastra dan Religiositas mimpanganken bebingah buku non-fiksi paling saé taun 1982.
+# text_id = Sastra dan Religiositas memenangkan penghargaan buku non-fiksi terbaik tahun 1982.
+1	Sastra	Sastra	PROPN	_	_	4	nsubj	_	_
+2	dan	dan	PROPN	_	_	1	flat:name	_	_
+3	Religiositas	Religiositas	PROPN	_	_	1	flat:name	_	_
+4	mimpanganken	mimpang	VERB	_	Voice=Act	0	root	_	_
+5	bebingah	bebingah	NOUN	_	_	4	obj	_	_
+6	buku	buku	NOUN	_	Number=Sing	5	nmod	_	_
+7	non-fiksi	non-fiksi	X	_	Foreign=Yes	5	dep	_	_
+8	paling	paling	ADV	_	_	9	advmod	_	_
+9	saé	saé	ADJ	_	_	6	amod	_	_
+10	taun	taun	NOUN	_	_	5	nmod:tmod	_	_
+11	1982	1982	NUM	_	_	10	nummod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 22
+# text = Lumantar Mantri Luar Negeri Alwi Shihab, Présidhèn gagal nyegah perkawis punika dhateng pulisi.
+# text_id = Melalui Menteri Luar Negeri Alwi Shihab, Presiden gagal menyampaikan hal tersebut kepada polisi.
+# text_en = Through Foreign Minister Alwi Shihab, the President failed to convey this to the police.
+1	Lumantar	Lumantar	ADP	_	_	2	case	_	_
+2	Mantri	Mantri	NOUN	_	_	9	obl	_	_
+3	Luar	Luar	NOUN	_	_	4	nmod:lmod	_	_
+4	Negeri	Negeri	NOUN	_	_	2	nmod	_	_
+5	Alwi	Alwi	PROPN	_	_	2	appos	_	_
+6	Shihab	Shihab	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	Présidhèn	Présidhèn	PROPN	_	_	9	nsubj	_	_
+9	gagal	gagal	VERB	_	Voice=Act	0	root	_	_
+10	nyegah	nyegah	VERB	_	Voice=Act	9	xcomp	_	_
+11	perkawis	perkawis	NOUN	_	_	10	obl	_	_
+12	punika	punika	DET	_	_	11	det	_	_
+13	dhateng	dhateng	ADP	_	_	14	case	_	_
+14	pulisi	pulisi	NOUN	_	_	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 23
+# text = Minangka Go-on Red, seranganipun inggih punika serangan kecepatan dhuwur lan rencangipun inggih punika Speedor.
+# text_id = Sebagai Go-on Red, serangannya adalah serangan kecepatan tinggi dan rekannya adalah Speedor.
+# text_en = As Go-on Red, his attacks are high speed attacks and his counterpart is Speedor.
+1	Minangka	Minangka	ADP	_	_	2	case	_	_
+2	Go-on	Go-on	PROPN	_	_	9	nmod	_	_
+3	Red	Red	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5-6	seranganipun	_	_	_	_	_	_	_	_
+5	serangan	serang	NOUN	_	_	9	nsubj	_	_
+6	ipun	ipun	PRON	_	_	5	nmod:poss	_	_
+7	inggih	yaiku	AUX	_	_	9	cop	_	_
+8	punika	punika	DET	_	_	7	fixed	_	_
+9	serangan	serang	NOUN	_	Number=Sing	0	root	_	_
+10	kecepatan	cepat	NOUN	_	Number=Sing	9	nmod	_	_
+11	dhuwur	dhuwur	ADJ	_	_	10	amod	_	_
+12	lan	lan	CCONJ	_	_	17	cc	_	_
+13-14	rencangipun	_	_	_	_	_	_	_	_
+13	rencang	rencang	NOUN	_	_	17	nsubj	_	_
+14	ipun	ipun	PRON	_	_	13	nmod:poss	_	_
+15	inggih	yaiku	AUX	_	_	17	cop	_	_
+16	punika	punika	DET	_	_	15	fixed	_	_
+17	Speedor	Speedor	PROPN	_	_	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 25
+# text = Nalika ing Jakarta, Robby kenalan banjur dadi "murid" Prajudi.
+# text_id = Selama di Jakarta, Robby berkenalan kemudian menjadi "murid" Prajudi.
+# text_en = While in Jakarta, Robby met and later became Prajudi's "student".
+1	Nalika	Nalika	ADP	_	_	3	case	_	_
+2	ing	ing	ADP	_	_	3	case	_	_
+3	Jakarta	Jakarta	PROPN	_	_	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Robby	Robby	PROPN	_	_	6	nsubj	_	_
+6	kenalan	kenal	VERB	_	Voice=Act	0	root	_	_
+7	banjur	banjur	ADV	_	_	8	advmod	_	_
+8	dadi	dadi	VERB	_	Voice=Act	6	advcl	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	murid	murid	NOUN	_	Number=Sing	8	obl	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	Prajudi	Prajudi	PROPN	_	_	10	nmod:poss	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
+
 # sent_id = 26
 # text = Dipunbikak taun 2003, kanthi 18.000 kursi.
 # text_id = Dibuka tahun 2003, dengan kapasitas 18.000 kursi.
