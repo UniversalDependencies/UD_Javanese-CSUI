@@ -291,7 +291,7 @@
 # text = Dina Abasa Bali adaté lumaku mligi ing tataran pamulangan.
 # text_id = Abasa Bali secara tradisional diadakan terutama di tingkat pendidikan.
 # text_en = Abasa Bali is traditionally held mainly at the education level.
-1	Dina	dina	NOUN	_	_	6	nsubj:pass	_	_
+1	Dina	dina	NOUN	_	Number=Sing	6	nsubj:pass	_	_
 2	Abasa	Abasa	PROPN	_	_	1	nmod	_	_
 3	Bali	Bali	PROPN	_	_	2	flat:name	_	_
 4-5	adaté	_	_	_	_	_	_	_	_
@@ -300,8 +300,8 @@
 6	lumaku	laku	VERB	_	Voice=Pass	0	root	_	_
 7	mligi	mligi	ADV	_	_	9	advmod	_	_
 8	ing	ing	ADP	_	_	9	case	_	_
-9	tataran	tatar	NOUN	_	_	6	obl	_	_
-10	pamulangan	ulang	NOUN	_	_	9	nmod	_	SpaceAfter=No
+9	tataran	tatar	NOUN	_	Number=Sing	6	obl	_	_
+10	pamulangan	ulang	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 18
@@ -342,11 +342,11 @@
 5	punika	punika	DET	_	_	4	det	_	_
 6	ngantos	ngantos	ADP	_	_	8	case	_	_
 7	pinten-pinten	pinten	DET	_	_	8	det	_	_
-8	jam	jam	NOUN	_	_	3	obl	_	_
+8	jam	jam	NOUN	_	Number=Sing	3	obl	_	_
 9	lan	lan	CCONJ	_	_	10	cc	_	_
 10	ndamèl	damèl	VERB	_	Voice=Act	3	conj	_	_
 11-12	gambaripun	_	_	_	_	_	_	_	SpaceAfter=No
-11	gambar	gambar	NOUN	_	_	10	obl	_	_
+11	gambar	gambar	NOUN	_	Number=Sing	10	obl	_	_
 12	ipun	ipun	PRON	_	_	11	nmod:poss	_	_
 13	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -357,7 +357,7 @@
 1	Nelson	Nelson	PROPN	_	_	0	root	_	_
 2	Mandela	Mandela	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	Présidhèn	Présidhèn	NOUN	_	_	1	appos	_	_
+4	Présidhèn	Présidhèn	NOUN	_	Number=Sing	1	appos	_	_
 5	Afrika	Afrika	PROPN	_	_	4	nmod	_	_
 6	Selatan	Selatan	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
@@ -369,12 +369,12 @@
 2	dan	dan	PROPN	_	_	1	flat:name	_	_
 3	Religiositas	Religiositas	PROPN	_	_	1	flat:name	_	_
 4	mimpanganken	mimpang	VERB	_	Voice=Act	0	root	_	_
-5	bebingah	bebingah	NOUN	_	_	4	obj	_	_
+5	bebingah	bebingah	NOUN	_	Number=Sing	4	obj	_	_
 6	buku	buku	NOUN	_	Number=Sing	5	nmod	_	_
 7	non-fiksi	non-fiksi	X	_	Foreign=Yes	5	dep	_	_
 8	paling	paling	ADV	_	_	9	advmod	_	_
 9	saé	saé	ADJ	_	_	6	amod	_	_
-10	taun	taun	NOUN	_	_	5	nmod:tmod	_	_
+10	taun	taun	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 11	1982	1982	NUM	_	_	10	nummod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -383,19 +383,19 @@
 # text_id = Melalui Menteri Luar Negeri Alwi Shihab, Presiden gagal menyampaikan hal tersebut kepada polisi.
 # text_en = Through Foreign Minister Alwi Shihab, the President failed to convey this to the police.
 1	Lumantar	Lumantar	ADP	_	_	2	case	_	_
-2	Mantri	Mantri	NOUN	_	_	9	obl	_	_
-3	Luar	Luar	NOUN	_	_	4	nmod:lmod	_	_
-4	Negeri	Negeri	NOUN	_	_	2	nmod	_	_
+2	Mantri	Mantri	NOUN	_	Number=Sing	9	obl	_	_
+3	Luar	Luar	NOUN	_	Number=Sing	4	nmod:lmod	_	_
+4	Negeri	Negeri	NOUN	_	Number=Sing	2	nmod	_	_
 5	Alwi	Alwi	PROPN	_	_	2	appos	_	_
 6	Shihab	Shihab	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	Présidhèn	Présidhèn	PROPN	_	_	9	nsubj	_	_
 9	gagal	gagal	VERB	_	Voice=Act	0	root	_	_
 10	nyegah	nyegah	VERB	_	Voice=Act	9	xcomp	_	_
-11	perkawis	perkawis	NOUN	_	_	10	obl	_	_
+11	perkawis	perkawis	NOUN	_	Number=Sing	10	obl	_	_
 12	punika	punika	DET	_	_	11	det	_	_
 13	dhateng	dhateng	ADP	_	_	14	case	_	_
-14	pulisi	pulisi	NOUN	_	_	10	obl	_	SpaceAfter=No
+14	pulisi	pulisi	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 23
@@ -407,7 +407,7 @@
 3	Red	Red	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5-6	seranganipun	_	_	_	_	_	_	_	_
-5	serangan	serang	NOUN	_	_	9	nsubj	_	_
+5	serangan	serang	NOUN	_	Number=Sing	9	nsubj	_	_
 6	ipun	ipun	PRON	_	_	5	nmod:poss	_	_
 7	inggih	yaiku	AUX	_	_	9	cop	_	_
 8	punika	punika	DET	_	_	7	fixed	_	_
@@ -416,7 +416,7 @@
 11	dhuwur	dhuwur	ADJ	_	_	10	amod	_	_
 12	lan	lan	CCONJ	_	_	17	cc	_	_
 13-14	rencangipun	_	_	_	_	_	_	_	_
-13	rencang	rencang	NOUN	_	_	17	nsubj	_	_
+13	rencang	rencang	NOUN	_	Number=Sing	17	nsubj	_	_
 14	ipun	ipun	PRON	_	_	13	nmod:poss	_	_
 15	inggih	yaiku	AUX	_	_	17	cop	_	_
 16	punika	punika	DET	_	_	15	fixed	_	_
@@ -525,7 +525,7 @@
 14	Dhaptar	Dhaftar	PROPN	_	_	13	flat:name	_	_
 15	Abang	Abang	PROPN	_	_	13	flat:name	_	_
 16	IUCN	IUCN	PROPN	_	_	13	flat:name	_	_
-17	tanggal	tanggal	NOUN	_	_	13	nmod:tmod	_	_
+17	tanggal	tanggal	NOUN	_	Number=Sing	13	nmod:tmod	_	_
 18	30	30	NUM	_	NumType=Card	17	nummod	_	_
 19	November	November	PROPN	_	_	18	flat	_	_
 20	1994	1994	NUM	_	NumType=Card	18	flat	_	SpaceAfter=No
@@ -854,7 +854,7 @@
 10	DHL	DHL	PROPN	_	_	7	nmod	_	_
 11	Worldwide	Worldwide	PROPN	_	_	10	flat:name	_	_
 12	Express	Express	PROPN	_	_	10	flat:name	_	_
-13	taun	taun	NOUN	_	_	6	obl:tmod	_	_
+13	taun	taun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 14	1985	1985	NUM	_	_	13	nummod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -905,7 +905,7 @@
 9	pemilu	pemilu	NOUN	_	Number=Sing	8	obj	_	_
 10	présidhèn	présidhèn	NOUN	_	Number=Sing	9	nmod	_	_
 11	ing	ing	ADP	_	_	12	case	_	_
-12	Makedonia	Makedonia	NOUN	_	_	9	nmod	_	SpaceAfter=No
+12	Makedonia	Makedonia	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 50
@@ -1033,7 +1033,7 @@
 3	urip	urip	VERB	_	Voice=Act	0	root	_	_
 4	ing	ing	ADP	_	_	5	case	_	_
 5	lingkungan	lingkungan	NOUN	_	Number=Sing	3	obl	_	_
-6	ekstrem	ekstrem	X	_	_	5	dep	_	SpaceAfter=No
+6	ekstrem	ekstrem	X	_	Foreign=Yes	5	dep	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 59
@@ -1068,6 +1068,117 @@
 9	taman	taman	NOUN	_	Number=Sing	8	obj	_	_
 10	nasional	nasional	ADJ	_	_	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 61
+# text = Hasan tegesé "gagah" ing Basa Arab.
+# text_id = Hasan dalam bahasa Arab artinya Tampan.
+# text_en = Hasan means "handsome" in Arabic.
+1	Hasan	Hasan	PROPN	_	_	2	nsubj	_	_
+2-3	tegesé	_	_	_	_	_	_	_	_
+2	teges	teges	NOUN	_	Number=Sing	0	root	_	_
+3	é	é	DET	_	_	2	det	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	gagah	gagah	ADJ	_	_	2	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	ing	ing	ADP	_	_	8	case	_	_
+8	Basa	Basa	NOUN	_	Number=Sing	2	nmod	_	_
+9	Arab	Arab	PROPN	_	_	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 62
+# text = Ananging, industri permata Dubai punika nglampahi dampak saking Perang Donya I, lajeng Depresi Gedhe ing taun 1920-an.
+# text_id = Namun, industri permata Dubai mengalami dampak dari Perang Dunia I, kemudian Depresi Hebat pada tahun 1920-an.
+# text_en = However, Dubai’s gem industry suffered the effects of World War I, then the Great Depression in the 1920s.
+1	Ananging	Ananging	ADV	_	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	industri	industri	NOUN	_	Number=Sing	7	nsubj	_	_
+4	permata	permata	NOUN	_	Number=Sing	3	nmod	_	_
+5	Dubai	Dubai	PROPN	_	_	3	nmod	_	_
+6	punika	punika	DET	_	_	3	det	_	_
+7	nglampahi	lampah	VERB	_	Voice=Act	0	root	_	_
+8	dampak	dampak	NOUN	_	Number=Sing	7	obj	_	_
+9	saking	saking	ADP	_	_	10	case	_	_
+10	Perang	Perang	PROPN	_	_	7	obl	_	_
+11	Donya	Donya	PROPN	_	_	10	flat:name	_	_
+12	I	I	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	lajeng	lajeng	ADV	_	_	15	advmod	_	_
+15	Depresi	Depresi	PROPN	_	_	10	conj	_	_
+16	Gedhe	Gedhe	PROPN	_	_	15	flat:name	_	_
+17	ing	ing	ADP	_	_	18	case	_	_
+18	taun	taun	NOUN	_	Number=Sing	15	nmod:tmod	_	_
+19	1920-an	1920	NUM	_	_	18	nummod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 63
+# text = Ing 24 Maret, dhèwèké nyétak rong gol nglawan Real Sociedad.
+# text_id = Pada 24 Maret, ia mencetak dua gol melawan Real Sociedad.
+# text_en = On March 24, he scored two goals against Real Sociedad.
+1	Ing	Ing	ADP	_	_	2	case	_	_
+2	24	24	NUM	_	_	6	obl:tmod	_	_
+3	Maret	Maret	PROPN	_	_	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	dhèwèké	dhèwèké	PRON	_	_	6	nsubj	_	_
+6	nyétak	nyétak	VERB	_	Voice=Act	0	root	_	_
+7	rong	rong	NUM	_	_	8	nummod	_	_
+8	gol	gol	NOUN	_	Number=Sing	6	obl	_	_
+9	nglawan	lawan	VERB	_	Voice=Act	6	advcl	_	_
+10	Real	Real	PROPN	_	_	9	obj	_	_
+11	Sociedad	Sociedad	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 64
+# text = Taun 1948, dhèwèké nglakokaké reorganisasi Persis kang ngalami kevakuman awit jaman pendudukan Jepang lan Perang Kemerdekaan.
+# text_id = Pada tahun 1948, ia melakukan reorganisasi Persis yang sempat vakum sejak pendudukan Jepang dan Perang Kemerdekaan.
+# text_en = In 1948, he undertook the reorganization of Persis which had been in a state of vacuum since the Japanese occupation and the War of Independence.
+1	Taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
+2	1948	1948	NUM	_	_	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	dhèwèké	dhèwèké	PRON	_	_	5	nsubj	_	_
+5	nglakokaké	laku	VERB	_	Voice=Act	0	root	_	_
+6	reorganisasi	reorganisasi	X	_	Foreign=Yes	5	obj	_	_
+7	Persis	Persis	PROPN	_	_	6	nmod	_	_
+8	kang	kang	PRON	_	PronType=Rel	9	nsubj	_	_
+9	ngalami	ngalami	VERB	_	Voice=Act	7	acl:relcl	_	_
+10	kevakuman	vakum	X	_	Foreign=Yes	9	obj	_	_
+11	awit	awit	ADP	_	_	12	case	_	_
+12	jaman	jaman	NOUN	_	Number=Sing	10	nmod	_	_
+13	pendudukan	duduk	X	_	Foreign=Yes	12	nmod	_	_
+14	Jepang	Jepang	PROPN	_	_	12	nmod	_	_
+15	lan	lan	CCONJ	_	_	16	cc	_	_
+16	Perang	Perang	PROPN	_	_	12	conj	_	_
+17	Kemerdekaan	Kemerdekaan	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 65
+# text = Maskapé iki ngoperasikaké jaringan penerbangan tumuju 50 tujuan ing 20 nagara, kalebu penerbangan jarak adoh tumuju Afrika Timur, Tengah, lan Barat.
+# text_id = Maskapai ini mengoperasikan jaringan penerbangan ke 50 tujuan di 20 negara, termasuk penerbangan jarak jauh ke Afrika Timur, Tengah, dan Barat.
+# text_en = The airline operates a network of flights to 50 destinations in 20 countries, including long -haul flights to East, Central, and West Africa.
+1	Maskapé	maskapé	NOUN	_	Number=Sing	3	nsubj	_	_
+2	iki	iki	DET	_	_	1	det	_	_
+3	ngoperasikaké	operasi	VERB	_	Voice=Act	0	root	_	_
+4	jaringan	jaring	X	_	Foreign=Yes	3	dep	_	_
+5	penerbangan	terbang	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	tumuju	tumuju	VERB	_	Voice=Act	3	advcl	_	_
+7	50	50	NUM	_	_	8	nummod	_	_
+8	tujuan	tujuan	X	_	Foreign=Yes	6	obl	_	_
+9	ing	ing	ADP	_	_	11	case	_	_
+10	20	20	NUM	_	_	11	nummod	_	_
+11	nagara	nagara	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	kalebu	kalebu	VERB	_	Voice=Act	6	advcl	_	_
+14	penerbangan	terbang	X	_	Foreign=Yes	13	obl	_	_
+15	jarak	jarak	NOUN	_	Number=Sing	14	nmod	_	_
+16	adoh	adoh	ADJ	_	_	15	amod	_	_
+17	tumuju	tumuju	VERB	_	Voice=Act	14	acl	_	_
+18	Afrika	Afrika	PROPN	_	_	17	obj	_	_
+19	Timur	Timur	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	Tengah	Tengah	PROPN	_	_	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	lan	lan	CCONJ	_	_	24	cc	_	_
+24	Barat	Barat	PROPN	_	_	19	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 76
 # text = Nalika taun 2006 lagu iki uga digunakaké ana ing sapérangan episode ing serial TV Supernatural.
@@ -1420,7 +1531,7 @@
 22	sarta	sarta	CCONJ	_	_	24	cc	_	_
 23	ing	ing	ADP	_	_	25	case	_	_
 24	tèngah	tèngah	NOUN	_	Number=Sing	25	nmod:lmod	_	_
-25	pengacauan	kacau	X	_	_	11	conj	_	_
+25	pengacauan	kacau	X	_	Foreign=Yes	11	conj	_	_
 26	elektronis	elektronis	X	_	Foreign=Yes	25	dep	_	_
 27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 28	jamming	jamming	X	_	Foreign=Yes	25	appos	_	SpaceAfter=No
@@ -1542,7 +1653,7 @@
 5	bapak	bapak	NOUN	_	Number=Sing	0	root	_	_
 6	ageng	ageng	ADJ	_	_	5	amod	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
-8	hidrostatika	hidrostatika	X	_	_	5	nmod	_	SpaceAfter=No
+8	hidrostatika	hidrostatika	X	_	Foreign=Yes	5	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 100
@@ -1555,14 +1666,14 @@
 4	umum	umum	ADJ	_	_	5	advmod	_	_
 5	dipuntingali	tingal	VERB	_	Voice=Pass	0	root	_	Level=Krama
 6	minangka	minangka	ADP	_	_	7	case	_	_
-7	protagonis	protagonis	X	_	_	5	obl	_	_
+7	protagonis	protagonis	X	_	Foreign=Yes	5	obl	_	_
 8	saking	saking	ADP	_	_	9	case	_	_
 9	gaya	gaya	NOUN	_	Number=Sing	7	nmod	_	_
 10	sastra	sastra	NOUN	_	Number=Sing	9	nmod	_	_
 11	ingkang	ingkang	PRON	_	PronType=Rel	12	nsubj	_	_
 12	dipunkenal	kenal	VERB	_	Voice=Pass	9	acl:relcl	_	Level=Krama
 13	minangka	minangka	ADP	_	_	14	case	_	_
-14	realisme	realisme	X	_	_	12	obl	_	_
+14	realisme	realisme	X	_	Foreign=Yes	12	obl	_	_
 15	magis	magis	ADJ	_	_	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	_
 
