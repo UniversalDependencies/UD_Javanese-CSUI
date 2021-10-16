@@ -21,11 +21,11 @@
     <tag name="AUX">27</tag><!-- yaiku, wis, isa, bakal, kedah, kudu, saged -->
     <tag name="CCONJ">26</tag><!-- lan, nanging, sarta, utawa, utawi -->
     <tag name="DET">45</tag><!-- punika, ipun, é, iki, para, mau, akèh, daya, jumlah, pinten -->
-    <tag name="NOUN">232</tag><!-- taun, sampah, présidhèn, rakyat, tanggal, tembang, tiyang, Barat, arah, basa -->
+    <tag name="NOUN">231</tag><!-- taun, sampah, présidhèn, rakyat, tanggal, tembang, tiyang, Barat, arah, basa -->
     <tag name="NUM">59</tag><!-- 3, 1, 11, 1920, 1948, 1994, 2, 10, 111, 12 -->
     <tag name="PART">4</tag><!-- ora, inggih, ya -->
     <tag name="PRON">63</tag><!-- ingkang, é, ipun, kang, piyambakipun, dhèwèké, kabèh, sing, aku, apa -->
-    <tag name="PROPN">199</tag><!-- Amérika, Arab, Perang, Prancis, Afrika, Allah, II, Indonésia, Iridium, Laladan -->
+    <tag name="PROPN">200</tag><!-- Amérika, Arab, Perang, Prancis, Afrika, Allah, II, Indonésia, Iridium, Laladan -->
     <tag name="PUNCT">183</tag><!-- ., ,, ", (, ), -, :, ', ?, ! -->
     <tag name="SCONJ">9</tag><!-- yèn, amarga, kanggo, kanggé, kanti, karo, nalika, tanpa -->
     <tag name="SYM">2</tag><!-- % -->
@@ -38,8 +38,8 @@
     <feat name="Definite" value="Ind" upos="DET">2</feat><!-- sawijining -->
     <feat name="Foreign" value="Yes" upos="X">44</feat><!-- eutanasia, penerbangan, Kekuwatan, Pesawat, all-aspect, all-weather, eksperimental, ekstrem, elektronis, etis -->
     <feat name="Number" value="Plur" upos="DET,NOUN">9</feat><!-- para, Karakter-karakter, amalan-amalan, bangsa-bangsa, istri-istri, putusan-putusan -->
-    <feat name="Number" value="Sing" upos="NOUN,PRON">255</feat><!-- taun, é, piyambakipun, sampah, né, nomer, présidhèn, rakyat, tanggal, tembang -->
-    <feat name="NumType" value="Card" upos="NUM">46</feat><!-- 3, 1, 11, 1994, 2, 10, 111, 12, 13, 14 -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON">254</feat><!-- taun, é, piyambakipun, sampah, né, nomer, présidhèn, rakyat, tanggal, tembang -->
+    <feat name="NumType" value="Card" upos="NUM">59</feat><!-- 3, 1, 11, 1948, 1994, 2, 10, 111, 12, 13 -->
     <feat name="NumType" value="Ord" upos="ADJ">2</feat><!-- kapisanan, kapitu -->
     <feat name="Person" value="1" upos="PRON">1</feat><!-- aku -->
     <feat name="Person" value="2" upos="PRON">2</feat><!-- Sira, mu -->

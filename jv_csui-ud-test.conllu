@@ -283,7 +283,7 @@
 1	Présidhèn	Présidhèn	PROPN	_	_	0	root	_	_
 2	Indonésia	Indonésia	PROPN	_	_	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	1974	1974	NUM	_	_	1	nmod:tmod	_	SpaceAfter=No
+4	1974	1974	NUM	_	NumType=Card	1	nmod:tmod	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -375,7 +375,7 @@
 8	paling	paling	ADV	_	_	9	advmod	_	_
 9	saé	saé	ADJ	_	_	6	amod	_	_
 10	taun	taun	NOUN	_	Number=Sing	5	nmod:tmod	_	_
-11	1982	1982	NUM	_	_	10	nummod	_	SpaceAfter=No
+11	1982	1982	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 22
@@ -637,7 +637,7 @@
 9	isa	isa	AUX	_	_	10	aux	_	_
 10	dibagi	bagi	VERB	_	Voice=Pass	0	root	_	_
 11	dadi	dadi	VERB	_	Voice=Act	10	xcomp	_	_
-12	telung	telung	NUM	_	_	13	nummod	_	_
+12	telung	telung	NUM	_	NumType=Card	13	nummod	_	_
 13	bagean	bagean	NOUN	_	Number=Sing	11	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	yaiku	yaiku	AUX	_	_	16	cop	_	_
@@ -741,9 +741,9 @@
 1	647,5	647,5	NUM	_	NumType=Card	2	nummod	_	_
 2	Milyar	Milyar	NOUN	_	Number=Sing	0	root	_	_
 3	ing	ing	ADP	_	_	4	case	_	_
-4	31	31	NUM	_	_	2	nsubj	_	_
+4	31	31	NUM	_	NumType=Card	2	nsubj	_	_
 5	Dhésèmber	Dhésèmber	PROPN	_	_	4	flat	_	_
-6	2011	2011	NUM	_	_	4	flat	_	SpaceAfter=No
+6	2011	2011	NUM	_	NumType=Card	4	flat	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 41
@@ -855,7 +855,7 @@
 11	Worldwide	Worldwide	PROPN	_	_	10	flat:name	_	_
 12	Express	Express	PROPN	_	_	10	flat:name	_	_
 13	taun	taun	NOUN	_	Number=Sing	6	obl:tmod	_	_
-14	1985	1985	NUM	_	_	13	nummod	_	SpaceAfter=No
+14	1985	1985	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 47
@@ -897,7 +897,7 @@
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	BBC	BBC	PROPN	_	_	8	obl	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
-4	5	5	NUM	_	_	2	nummod	_	_
+4	5	5	NUM	_	NumType=Card	2	nummod	_	_
 5	-	-	PUNCT	_	_	2	punct	_	_
 6	Gjorge	Gjorge	PROPN	_	_	8	nsubj	_	_
 7	Ivanov	Ivanov	PROPN	_	_	6	flat:name	_	_
@@ -905,7 +905,7 @@
 9	pemilu	pemilu	NOUN	_	Number=Sing	8	obj	_	_
 10	présidhèn	présidhèn	NOUN	_	Number=Sing	9	nmod	_	_
 11	ing	ing	ADP	_	_	12	case	_	_
-12	Makedonia	Makedonia	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+12	Makedonia	Makedonia	PROPN	_	_	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 50
@@ -1107,7 +1107,7 @@
 16	Gedhe	Gedhe	PROPN	_	_	15	flat:name	_	_
 17	ing	ing	ADP	_	_	18	case	_	_
 18	taun	taun	NOUN	_	Number=Sing	15	nmod:tmod	_	_
-19	1920-an	1920	NUM	_	_	18	nummod	_	SpaceAfter=No
+19	1920-an	1920	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 63
@@ -1115,12 +1115,12 @@
 # text_id = Pada 24 Maret, ia mencetak dua gol melawan Real Sociedad.
 # text_en = On March 24, he scored two goals against Real Sociedad.
 1	Ing	Ing	ADP	_	_	2	case	_	_
-2	24	24	NUM	_	_	6	obl:tmod	_	_
+2	24	24	NUM	_	NumType=Card	6	obl:tmod	_	_
 3	Maret	Maret	PROPN	_	_	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	dhèwèké	dhèwèké	PRON	_	_	6	nsubj	_	_
 6	nyétak	nyétak	VERB	_	Voice=Act	0	root	_	_
-7	rong	rong	NUM	_	_	8	nummod	_	_
+7	rong	rong	NUM	_	NumType=Card	8	nummod	_	_
 8	gol	gol	NOUN	_	Number=Sing	6	obl	_	_
 9	nglawan	lawan	VERB	_	Voice=Act	6	advcl	_	_
 10	Real	Real	PROPN	_	_	9	obj	_	_
@@ -1132,7 +1132,7 @@
 # text_id = Pada tahun 1948, ia melakukan reorganisasi Persis yang sempat vakum sejak pendudukan Jepang dan Perang Kemerdekaan.
 # text_en = In 1948, he undertook the reorganization of Persis which had been in a state of vacuum since the Japanese occupation and the War of Independence.
 1	Taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
-2	1948	1948	NUM	_	_	1	nummod	_	SpaceAfter=No
+2	1948	1948	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	dhèwèké	dhèwèké	PRON	_	_	5	nsubj	_	_
 5	nglakokaké	laku	VERB	_	Voice=Act	0	root	_	_
@@ -1160,10 +1160,10 @@
 4	jaringan	jaring	X	_	Foreign=Yes	3	dep	_	_
 5	penerbangan	terbang	X	_	Foreign=Yes	4	flat:foreign	_	_
 6	tumuju	tumuju	VERB	_	Voice=Act	3	advcl	_	_
-7	50	50	NUM	_	_	8	nummod	_	_
+7	50	50	NUM	_	NumType=Card	8	nummod	_	_
 8	tujuan	tujuan	X	_	Foreign=Yes	6	obl	_	_
 9	ing	ing	ADP	_	_	11	case	_	_
-10	20	20	NUM	_	_	11	nummod	_	_
+10	20	20	NUM	_	NumType=Card	11	nummod	_	_
 11	nagara	nagara	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	kalebu	kalebu	VERB	_	Voice=Act	6	advcl	_	_
