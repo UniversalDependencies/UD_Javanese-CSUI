@@ -5,7 +5,7 @@ UD Javanese-CSUI is a manually annotated dependency treebank in Javanese. The se
 
 # Introduction
 
-UD Javanese-CSUI is a gold standard dependency treebank for Javanese. This treebank does not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Hanacaraka)) and use the Latin writing system. Javanese has three language levels: Krama, Madya, and Ngoko. This treebanks consists of predominantly sentences of Krama and Ngoko.
+UD Javanese-CSUI is a gold standard dependency treebank for Javanese. This treebank does not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa)) and use the Latin writing system. Javanese has three language levels: Krama, Madya, and Ngoko. This treebanks consists of predominantly sentences of Krama and Ngoko.
 
 # Acknowledgments
 
