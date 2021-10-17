@@ -1,17 +1,15 @@
 # Summary
 
-UD Javanese-CSUI is a manually annotated dependency treebank. The sentences are taken from the Javanese Wikipedia and consists of X sentences and Y tokens.  
+UD Javanese-CSUI is a manually annotated dependency treebank in Javanese. The sentences are taken from the Javanese Wikipedia and consists of 100 sentences, 1349 tokens, and 1379 words.  
 
 
 # Introduction
 
-UD Javanese-CSUI is a gold standard dependency treebank for Javanese that manually annotated.
-
+UD Javanese-CSUI is a gold standard dependency treebank for Javanese. This treebank does not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Hanacaraka)) and use the Latin writing system. Javanese has three language levels: Krama, Madya, and Ngoko. This treebanks consists of predominantly sentences of Krama and Ngoko.
 
 # Acknowledgments
 
-* UD Javanese-CSUI built by Information Retrieval and Natural Language Processing (IR-NLP) Laboratory of Faculty of Computer Science, Universitas Indonesia. 
-
+* UD Javanese-CSUI built by the Javanese NLP Group at Information Retrieval and Natural Language Processing (IR-NLP) Laboratory of Faculty of Computer Science, Universitas Indonesia. 
 
 ## References
 
