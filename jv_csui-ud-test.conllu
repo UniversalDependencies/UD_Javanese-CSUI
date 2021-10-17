@@ -4,13 +4,13 @@
 # text_en = The residents came out with piles of garbage that had been separated between wet and dry waste in the trash; Cecep (17), his job is lighter because there is already garbage, no need to queue.
 1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	warga	warga	NOUN	_	Number=Sing	4	nsubj	_	_
-3	padha	padha	ADV	_	_	4	advmod	_	_
+3	padha	padha	ADV	_	_	4	advmod	_	Level=Ngoko
 4	metu	metu	VERB	_	Voice=Act	0	root	_	_
 5	karo	karo	SCONJ	_	_	6	mark	_	_
 6	nggowoni	gowo	VERB	_	Voice=Act	4	advcl	_	_
 7	sampah	sampah	NOUN	_	Number=Sing	6	obj	_	_
 8	sing	sing	PRON	_	PronType=Rel	10	nsubj:pass	_	_
-9	wis	wis	AUX	_	_	10	aux	_	_
+9	wis	wis	AUX	_	_	10	aux	_	Level=Ngoko
 10	dipisah	pisah	VERB	_	Voice=Pass	7	acl:relcl	_	_
 11-12	antarané	_	_	_	_	_	_	_	_
 11	antara	antara	NOUN	_	Number=Sing	12	nmod:lmod	_	_
@@ -36,14 +36,14 @@
 30	luwih	luwih	ADV	_	_	31	advmod	_	_
 31	énténg	énténg	ADV	_	_	4	parataxis	_	_
 32	amarga	amarga	SCONJ	_	_	34	mark	_	_
-33	wis	wis	AUX	_	_	34	aux	_	_
+33	wis	wis	AUX	_	_	34	aux	_	Level=Ngoko
 34	didèwèné	dèwè	VERB	_	Voice=Act	31	advcl	_	_
 35-36	sampahé	_	_	_	_	_	_	_	SpaceAfter=No
 35	sampah	sampah	NOUN	_	Number=Sing	34	nsubj	_	_
 36	é	é	DET	_	Definite=Def|PronType=Art	35	det	_	_
 37	,	,	PUNCT	_	_	40	punct	_	_
 38	dèwèé	dèwèé	PRON	_	Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
-39	ora	ora	PART	_	Polarity=Neg	40	advmod	_	_
+39	ora	ora	PART	_	Polarity=Neg	40	advmod	_	Level=Ngoko
 40	pèrlu	pèrlu	VERB	_	Voice=Act	34	advcl	_	_
 41	antri	antri	VERB	_	Voice=Act	40	xcomp	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	4	punct	_	_
@@ -89,8 +89,8 @@
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	ya	ya	PART	_	_	16	advmod	_	_
 13	gene	gene	PRON	_	PronType=Dem	16	obl	_	_
-14	ora	ora	PART	_	Polarity=Neg	16	advmod	_	_
-15	padha	padha	ADV	_	_	16	advmod	_	_
+14	ora	ora	PART	_	Polarity=Neg	16	advmod	_	Level=Ngoko
+15	padha	padha	ADV	_	_	16	advmod	_	Level=Ngoko
 16	syukur	syukur	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
 17	?	?	PUNCT	_	_	16	punct	_	_
 
@@ -357,7 +357,7 @@
 2	asring	asring	ADV	_	_	3	advmod	_	_
 3	nggatosakèn	nggatosakèn	VERB	_	Voice=Act	0	root	_	_
 4	kéwan-kéwan	kéwan-kéwan	NOUN	_	Number=Sing	3	obj	_	_
-5	punika	punika	DET	_	_	4	det	_	_
+5	punika	punika	DET	_	PronType=Dem	4	det	_	_
 6	ngantos	ngantos	ADP	_	_	8	case	_	_
 7	pinten-pinten	pinten	DET	_	_	8	det	_	_
 8	jam	jam	NOUN	_	Number=Sing	3	obl	_	_
@@ -453,7 +453,7 @@
 6	ing	ing	ADP	_	_	7	case	_	_
 7	sèl	sèl	NOUN	_	Number=Sing	4	obl	_	_
 8	kang	kang	PRON	_	PronType=Rel	9	nsubj	_	_
-9	padha	padha	ADJ	_	_	7	acl:relcl	_	_
+9	padha	padha	ADJ	_	_	7	acl:relcl	_	Level=Ngoko
 10	contohe	contohe	X	_	Foreign=Yes	4	nmod	_	_
 11	ing	ing	ADP	_	_	12	case	_	_
 12	Salmonella	Salmonella	PROPN	_	_	10	nmod	_	_
@@ -521,8 +521,8 @@
 # text_en = A second line, Line B, heading northeast to southwest, is scheduled to open in 2015.
 1	Sawijining	sawijining	DET	_	Definite=Ind|PronType=Art	2	advmod	_	_
 2	jalur	jalur	NOUN	_	Number=Sing	15	nsubj:pass	_	_
-3	kaping	kaping	NOUN	_	Number=Sing	2	nmod	_	_
-4	kalih	kalih	ADJ	_	_	3	amod	_	SpaceAfter=No
+3	kaping	kaping	NOUN	_	Number=Sing	2	nmod	_	Level=Krama
+4	kalih	kalih	ADJ	_	_	3	amod	_	Level=Krama|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	Jalur	Jalur	PROPN	_	_	2	appos	_	_
 7	B	B	PROPN	_	_	6	flat:name	_	SpaceAfter=No
@@ -558,7 +558,7 @@
 1	Kahanan	kahanan	NOUN	_	Number=Sing	5	nsubj:pass	_	_
 2	kekirangan	kekirangan	NOUN	_	Number=Sing	1	nmod	_	_
 3	buah	buah	NOUN	_	Number=Sing	2	nmod	_	_
-4	iki	iki	DET	_	PronType=Dem	1	det	_	_
+4	iki	iki	DET	_	PronType=Dem	1	det	_	Level=Ngoko
 5	diterangno	terang	VERB	_	Voice=Pass	0	root	_	_
 6	nggunakake	guna	VERB	_	Voice=Act	5	xcomp	_	_
 7	jinis	jinis	NOUN	_	Number=Sing	6	obj	_	_
@@ -583,12 +583,12 @@
 # text_en = Every creature will die and in the hereafter will be held responsibility for his actions.
 1	Saben	saben	DET	_	PronType=Tot	2	det	_	_
 2	makluk	makluk	NOUN	_	Number=Sing	4	nsubj	_	_
-3	bakal	bakal	AUX	_	_	4	aux	_	_
+3	bakal	bakal	AUX	_	_	4	aux	_	Level=Ngoko
 4	mati	mati	VERB	_	Voice=Act	0	root	_	_
 5	lan	lan	CCONJ	_	_	9	cc	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
 7	akhirat	akhirat	NOUN	_	Number=Sing	9	obl	_	_
-8	bakal	bakal	AUX	_	_	9	aux	_	_
+8	bakal	bakal	AUX	_	_	9	aux	_	Level=Ngoko
 9	dipertanggungjawabake	dipertanggungjawabake	VERB	_	Voice=Pass	4	conj	_	_
 10	ngenani	ngenani	ADP	_	_	11	case	_	_
 11-12	amalan-amalané	_	_	_	_	_	_	_	SpaceAfter=No
@@ -617,7 +617,7 @@
 15	dados	dados	VERB	_	Voice=Act	12	xcomp	_	_
 16	présidhèn	présidhèn	NOUN	_	Number=Sing	15	obl	_	_
 17	perusahaan	usaha	NOUN	_	Number=Sing	16	nmod	_	_
-18	mau	mau	DET	_	PronType=Dem	17	det	_	SpaceAfter=No
+18	mau	mau	DET	_	PronType=Dem	17	det	_	Level=Ngoko|SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 33
@@ -642,7 +642,7 @@
 # text_en = Opponents claim that the economic costs required to implement the Kyoto Protocol could be as high as $300 billion, mainly because of energy costs.
 1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	panantang	tantang	NOUN	_	Number=Sing	4	nsubj	_	_
-3	iki	iki	DET	_	PronType=Dem	2	det	_	_
+3	iki	iki	DET	_	PronType=Dem	2	det	_	Level=Ngoko
 4	mutusake	mutusake	VERB	_	Voice=Act	0	root	_	_
 5	yèn	yèn	SCONJ	_	_	15	mark	_	_
 6	beya	beya	NOUN	_	Number=Sing	15	nsubj	_	_
@@ -703,9 +703,9 @@
 # text_id = Tuhan telah menempatkan saya di Indonesia.
 # text_en = God has placed me in Indonesia.
 1	Allah	Allah	PROPN	_	_	3	nsubj	_	_
-2	wis	wis	AUX	_	_	3	aux	_	_
+2	wis	wis	AUX	_	_	3	aux	_	Level=Ngoko
 3	ndokok	ndokok	VERB	_	Voice=Act	0	root	_	_
-4	aku	aku	PRON	_	Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+4	aku	aku	PRON	_	Number=Sing|Person=1|PronType=Prs	3	obj	_	Level=Ngoko
 5	ing	ing	ADP	_	_	6	case	_	_
 6	Indonésia	Indonésia	PROPN	_	_	3	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
@@ -719,7 +719,7 @@
 3	taun	taun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 4	1964	1964	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Level=Krama
 7	dipunangkat	angkat	VERB	_	Voice=Pass	0	root	_	_
 8	minangka	minangka	ADP	_	_	9	case	_	_
 9	Anggota	Anggota	PROPN	_	_	7	obl	_	_
@@ -773,7 +773,7 @@
 5	wadya	wadya	NOUN	_	Number=Sing	9	nsubj:pass	_	_
 6	bala	bala	NOUN	_	Number=Sing	5	compound	_	_
 7	Acèh	Acèh	PROPN	_	_	5	nmod:poss	_	_
-8	wis	wis	AUX	_	_	9	aux	_	_
+8	wis	wis	AUX	_	_	9	aux	_	Level=Ngoko
 9	diantemi	antem	VERB	_	Voice=Pass	0	root	_	_
 10	bali	bali	VERB	_	Voice=Act	9	xcomp	_	_
 11	dening	dening	ADP	_	_	12	case	_	_
@@ -796,8 +796,8 @@
 # text = Dhèwèké wis tau njabat kepala Inspeksi Kebudayaan ing Sumatera.
 # text_id = Ia pernah menjabat sebagai Kepala Inspeksi Kebudayaan di Sumatera.
 # text_en = He has served as Head of Cultural Inspection in Sumatra.
-1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	wis	wis	AUX	_	_	4	aux	_	_
+1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Level=Ngoko
+2	wis	wis	AUX	_	_	4	aux	_	Level=Ngoko
 3	tau	tau	VERB	_	Voice=Pass	2	fixed	_	_
 4	njabat	njabat	VERB	_	Voice=Act	0	root	_	_
 5	kepala	kepala	X	_	Foreign=Yes	4	obl	_	_
@@ -958,7 +958,7 @@
 # text = Piyambakipun tiyang warga nagari Argentina.
 # text_id = Dia adalah warga negara Argentina.
 # text_en = He is an Argentinian citizen.
-1	Piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	Piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Level=Krama
 2	tiyang	tiyang	NOUN	_	Number=Sing	0	root	_	_
 3	warga	warga	NOUN	_	Number=Sing	2	nmod	_	_
 4	nagari	ganagari	NOUN	_	Number=Sing	3	nmod	_	_
@@ -1009,7 +1009,7 @@
 # text = Panjenenganipun miyos kanthi asma asli Joko Widodo.
 # text_id = Beliau terlahir dengan nama asli Joko Widodo.
 # text_en = He was born with the real name Joko Widodo.
-1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	_
+1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	Level=Krama
 2	miyos	miyos	VERB	_	Voice=Pass	0	root	_	_
 3	kanthi	kanthi	ADP	_	_	4	case	_	_
 4	asma	asma	NOUN	_	Number=Sing	2	obl	_	_
@@ -1040,7 +1040,7 @@
 1	Kanthi	Kanthi	ADP	_	_	2	case	_	_
 2	tetulung	tetulung	NOUN	_	Number=Sing	9	obl	_	_
 3	kabèh	kabèh	PRON	_	PronType=Tot	2	nmod:poss	_	_
-4	mau	mau	DET	_	PronType=Dem	3	det	_	SpaceAfter=No
+4	mau	mau	DET	_	PronType=Dem	3	det	_	Level=Ngoko|SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	Count	Count	PROPN	_	_	9	nsubj	_	_
 7	Dracula	Dracula	PROPN	_	_	6	flat:name	_	_
@@ -1054,7 +1054,7 @@
 # text_en = "Whereas he processes materials that are strategic for the benefit of the people," said Endriartono.
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Déné	déné	ADV	_	_	4	advmod	_	_
-3	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Level=Krama
 4	ngolah	ngolah	VERB	_	Voice=Act	0	root	_	_
 5	bahan	bahan	NOUN	_	Number=Sing	4	obj	_	_
 6	ingkang	ingkang	PRON	_	PronType=Rel	7	nsubj	_	_
@@ -1088,7 +1088,7 @@
 # text_en = Koizumi resigned on September 26 and was eventually replaced by Abe.
 1	Koizumi	Koizumi	PROPN	_	_	2	nsubj	_	_
 2	mundur	mundur	VERB	_	Voice=Act	0	root	_	_
-3	ana	ana	VERB	_	Voice=Act	2	advcl	_	_
+3	ana	ana	VERB	_	Voice=Act	2	advcl	_	Level=Ngoko
 4	ing	ing	ADP	_	_	5	case	_	_
 5	tanggal	tanggal	NOUN	_	Number=Sing	2	obl	_	_
 6	26	26	NUM	_	NumType=Card	5	nummod	_	_
@@ -1150,7 +1150,7 @@
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	lajeng	lajeng	ADV	_	_	15	advmod	_	_
 15	Depresi	Depresi	PROPN	_	_	10	conj	_	_
-16	Gedhe	Gedhe	PROPN	_	_	15	flat:name	_	_
+16	Gedhe	Gedhe	PROPN	_	_	15	flat:name	_	Level=Krama
 17	ing	ing	ADP	_	_	18	case	_	_
 18	taun	taun	NOUN	_	Number=Sing	15	nmod:tmod	_	_
 19	1920-an	1920	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
@@ -1164,7 +1164,7 @@
 2	24	24	NUM	_	NumType=Card	6	obl:tmod	_	_
 3	Maret	Maret	PROPN	_	_	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Level=Ngoko
 6	nyétak	nyétak	VERB	_	Voice=Act	0	root	_	_
 7	rong	rong	NUM	_	NumType=Card	8	nummod	_	_
 8	gol	gol	NOUN	_	Number=Sing	6	obl	_	_
@@ -1180,7 +1180,7 @@
 1	Taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 2	1948	1948	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Level=Ngoko
 5	nglakokaké	laku	VERB	_	Voice=Act	0	root	_	_
 6	reorganisasi	reorganisasi	X	_	Foreign=Yes	5	obj	_	_
 7	Persis	Persis	PROPN	_	_	6	nmod	_	_
@@ -1201,7 +1201,7 @@
 # text_id = Maskapai ini mengoperasikan jaringan penerbangan ke 50 tujuan di 20 negara, termasuk penerbangan jarak jauh ke Afrika Timur, Tengah, dan Barat.
 # text_en = The airline operates a network of flights to 50 destinations in 20 countries, including long -haul flights to East, Central, and West Africa.
 1	Maskapé	maskapé	NOUN	_	Number=Sing	3	nsubj	_	_
-2	iki	iki	DET	_	PronType=Dem	1	det	_	_
+2	iki	iki	DET	_	PronType=Dem	1	det	_	Level=Ngoko
 3	ngoperasikaké	operasi	VERB	_	Voice=Act	0	root	_	_
 4	jaringan	jaring	X	_	Foreign=Yes	3	dep	_	_
 5	penerbangan	terbang	X	_	Foreign=Yes	4	flat:foreign	_	_
@@ -1231,7 +1231,7 @@
 # text_id = Perusahaan ini adalah anggota European Low Fares Airline Association (ELFAA). 
 # text_en = The company is a member of the European Low Fares Airline Association (ELFAA).
 1	Maskapé	maskapé	NOUN	_	Number=Sing	3	nsubj	_	_
-2	iki	iki	DET	_	PronType=Dem	1	det	_	_
+2	iki	iki	DET	_	PronType=Dem	1	det	_	Level=Ngoko
 3	wujud	wujud	NOUN	_	Number=Sing	0	root	_	_
 4	anggota	anggota	NOUN	_	Number=Sing	3	nmod	_	_
 5	European	European	PROPN	_	_	4	nmod	_	_
@@ -1313,7 +1313,7 @@
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 72
-# text = Kelinci mangsuli, "Oh, iku swara manuk Crek-crek saka Gunung Crek-crek ing kana."
+# text = Kelinci mangsuli, "Oh, kuwi swara manuk Crek-crek saka Gunung Crek-crek ing kana."
 # text_id = Kelinci menjawab, “Oh, itu suara burung crek-crek dari gunung crek-crek di sana."
 # text-en = The rabbit replied, "Oh, it’s the sound of Crek-crek birds from Mount Crek-crek over there."
 1	Kelinci	Kelinci	X	_	Foreign=Yes	2	nsubj	_	_
@@ -1322,7 +1322,7 @@
 4	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 5	Oh	Oh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
-7	iku	iku	PRON	_	PronType=Dem	8	nsubj	_	_
+7	kuwi	kuwi	PRON	_	PronType=Dem	8	nsubj	_	_
 8	swara	swara	NOUN	_	Number=Sing	2	parataxis	_	_
 9	manuk	manuk	NOUN	_	Number=Sing	8	nmod:poss	_	_
 10	Crek-crek	Crek-crek	PROPN	_	_	9	nmod	_	_
@@ -1330,7 +1330,7 @@
 12	Gunung	Gunung	PROPN	_	_	8	nmod	_	_
 13	Crek-crek	Crek-crek	PROPN	_	_	12	flat:name	_	_
 14	ing	ing	ADP	_	_	15	case	_	_
-15	kana	kana	ADP	_	_	12	nmod	_	SpaceAfter=No
+15	kana	kana	PRON	_	PronType=Dem	12	nmod	_	Level=Ngoko|SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	8	punct	_	_
 
@@ -1387,13 +1387,13 @@
 # text = Panjenenganipun dipunkenal minangka panganggit haiku paling ageng, inggih punika wangun puisi ing 5-7-5 suku kata.
 # text_id = Ia dikenal sebagai penulis haiku terhebat, yang merupakan bentuk puisi dalam 5-7-5 suku kata.
 # text_en = He is known as the greatest haiku writer, which is a form of poetry in 5-7-5 syllables.
-1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Level=Krama
 2	dipunkenal	kenal	VERB	_	Voice=Pass	0	root	_	_
 3	minangka	minangka	ADP	_	_	4	case	_	_
 4	panganggit	anggit	NOUN	_	Number=Sing	2	obl	_	_
 5	haiku	haiku	X	_	Foreign=Yes	4	nmod	_	_
 6	paling	paling	ADV	_	_	7	advmod	_	_
-7	ageng	ageng	ADJ	_	_	4	amod	_	SpaceAfter=No
+7	ageng	ageng	ADJ	_	_	4	amod	_	Level=Krama|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	inggih	yaiku	AUX	_	_	11	aux	_	_
 10	punika	punika	DET	_	_	9	fixed	_	_
@@ -1410,17 +1410,17 @@
 21	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 76
-# text = Nalika taun 2006 lagu iki uga digunakaké ana ing sapérangan episode ing serial TV Supernatural.
+# text = Nalika taun 2006 tembang iki uga digunakaké ana ing sapérangan episode ing serial TV Supernatural.
 # text_id = Pada tahun 2006 lagu tersebut juga digunakan dalam sebagian episode serial TV Supernatural.
 # text_en = In 2006 the song was also used in several episodes of the TV series Supernatural.
 1	Nalika	Nalika	ADP	_	_	2	case	_	_
 2	taun	taun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	2006	2006	NUM	_	NumType=Card	2	nummod	_	_
-4	lagu	lagu	NOUN	_	Number=Sing	7	nsubj:pass	_	_
-5	iki	iki	DET	_	PronType=Dem	4	det	_	_
+4	tembang	tembang	NOUN	_	Number=Sing	7	nsubj:pass	_	_
+5	iki	iki	DET	_	PronType=Dem	4	det	_	Level=Ngoko
 6	uga	uga	ADV	_	_	7	advmod	_	_
 7	digunakaké	guna	VERB	_	Voice=Pass	0	root	_	_
-8	ana	ana	VERB	_	Voice=Act	7	advcl	_	_
+8	ana	ana	VERB	_	Voice=Act	7	advcl	_	Level=Ngoko
 9	ing	ing	ADP	_	_	10	case	_	_
 10	sapérangan	pérang	NOUN	_	Number=Sing	8	obl	_	_
 11	episode	episode	NOUN	_	Number=Sing	10	nmod	_	_
@@ -1462,7 +1462,7 @@
 # text = Iki wujud jinis kanker paling umum kang ditandhang kaum wanita.
 # text_id = Ini adalah jenis kanker paling umum yang diderita wanita.
 # text_en = This is the most common type of cancer that women suffer from.
-1	Iki	iki	PRON	_	PronType=Dem	2	nsubj	_	_
+1	Iki	iki	PRON	_	PronType=Dem	2	nsubj	_	Level=Ngoko
 2	wujud	wujud	NOUN	_	Number=Sing	0	root	_	_
 3	jinis	jinis	NOUN	_	Number=Sing	2	nmod	_	_
 4	kanker	kanker	NOUN	_	Number=Sing	3	nmod	_	_
@@ -1560,7 +1560,7 @@
 # text = Wonten ing ESO piyambakipun ningali perkembangan lan pembangunan Very Large Telescope.
 # text_id = Di ESO ia mengawasi pengembangan dan pembangunan Teleskop Sangat Besar.
 # text_en = At ESO he oversaw the development and building of the Very Large Telescope.
-1	Wonten	Wonten	VERB	_	Voice=Act	5	advcl	_	_
+1	Wonten	Wonten	VERB	_	Voice=Act	5	advcl	_	Level=Krama
 2	ing	ing	ADP	_	_	3	case	_	Level=Ngoko
 3	ESO	ESO	PROPN	_	_	1	obl	_	_
 4	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Level=Krama
@@ -1577,7 +1577,7 @@
 # text = Panjenenganipun terus makarya dugi 2 taun salajengipun, liwat 3 operasi lan kemoterapi eksperimental lan remisi 10 wulan.
 # text_id = Dia terus bekerja sampai 2 tahun berikutnya, melalui 3 operasi dan kemoterapi eksperimental dan remisi 10 bulan.
 # text_en = He continued to work until the next 2 years, through 3 surgeries and experimental chemotherapy and a 10 month remission.
-1	Panjenenganipun	panjenengan	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Level=Krama
 2	terus	terus	ADV	_	_	3	advmod	_	_
 3	makarya	karya	VERB	_	Voice=Act	0	root	_	_
 4	dugi	dugi	ADP	_	_	6	case	_	_
@@ -1630,7 +1630,7 @@
 13	1750	1750	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	8	punct	_	_
 15	nanging	nanging	CCONJ	_	_	17	cc	_	_
-16	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	17	nsubj	_	Level=Krama
 17	gagal	gagal	VERB	_	Voice=Act	8	conj	_	_
 18	migunakaken	migunakaken	VERB	_	Voice=Act	17	xcomp	_	_
 19	kanggé	kanggé	SCONJ	_	_	20	mark	_	_
@@ -1664,7 +1664,7 @@
 2	Liga	Liga	PROPN	_	_	1	nmod	_	_
 3	Arab	Arab	PROPN	_	_	2	flat:name	_	_
 4	mapan	mapan	VERB	_	Voice=Pass	0	root	_	_
-5	ana	ana	VERB	_	Voice=Act	4	advcl	_	_
+5	ana	ana	VERB	_	Voice=Act	4	advcl	_	Level=Ngoko
 6	ing	ing	ADP	_	_	7	case	_	_
 7	Kairo	Kairo	PROPN	_	_	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
@@ -1676,7 +1676,7 @@
 1	Nalika	Nalika	ADP	_	_	2	case	_	_
 2	taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	2002	2002	NUM	_	NumType=Card	2	nummod	_	_
-4	panjenengané	panjenengané	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	panjenengané	panjenengané	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Level=Ngoko
 5	nentang	nentang	VERB	_	Voice=Act	0	root	_	_
 6	aksi	aksi	NOUN	_	Number=Sing	5	obj	_	_
 7	militèr	militèr	NOUN	_	Number=Sing	6	nmod	_	_
@@ -1695,8 +1695,8 @@
 # text_id = Pada audisi tersebut, hanya 11 orang yang diterima dari 2.396 pendaftar.
 # text_en = At the audition, only 11 people were accepted out of 2,396 applicants.
 1	Ing	Ing	ADP	_	_	2	case	_	_
-2	audhisi	audhisi	NOUN	_	Number=Sing	9	obl	_	_
-3	mau	mau	DET	_	PronType=Dem	2	det	_	SpaceAfter=No
+2	audhisi	audhisi	X	_	Foreign=Yes	9	obl	_	_
+3	mau	mau	DET	_	PronType=Dem	2	det	_	Level=Ngoko|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	namung	namung	ADV	_	_	7	advmod	_	_
 6	11	11	NUM	_	NumType=Card	7	nummod	_	_
@@ -1802,7 +1802,7 @@
 2	ayah	ayah	NOUN	_	Number=Sing	4	nsubj	_	_
 3	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
 4	ngaturi	atur	VERB	_	Voice=Act	0	root	_	_
-5	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+5	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	Level=Krama
 6	mlebet	mlebet	VERB	_	Voice=Act	4	advcl	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
 8	tim	tim	NOUN	_	Number=Sing	4	obl	_	_
@@ -1832,7 +1832,7 @@
 2-3	pungkasané	_	_	_	_	_	_	_	_
 2	pungkasan	pungkas	ADJ	_	_	1	amod	_	_
 3	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
-4	ana	ana	VERB	_	Voice=Act	1	acl	_	_
+4	ana	ana	VERB	_	Voice=Act	1	acl	_	Level=Ngoko
 5	ing	ing	ADP	_	_	6	case	_	_
 6	Seri	Seri	PROPN	_	_	4	obl	_	_
 7	A	A	PROPN	_	_	6	flat:name	_	_
@@ -1864,9 +1864,9 @@
 # text = Dhèwèké yaiku anggota Senat Filipina.
 # text_id = Dia adalah anggota Senat Filipina.
 # text_en = He is a member of the Philippine Senate.
-1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Level=Ngoko
 2	yaiku	yaiku	AUX	_	_	3	cop	_	_
-3	anggota	anggota	NOUN	_	Number=Sing	0	root	_	_
+3	anggota	anggota	X	_	Foreign=Yes	0	root	_	_
 4	Senat	Senat	PROPN	_	_	3	nmod	_	_
 5	Filipina	Filipina	PROPN	_	_	4	flat:name	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
@@ -1877,10 +1877,10 @@
 # text_en = Galileo Galilei was a great figure in hydrostatics.
 1	Galileo	Galileo	PROPN	_	_	6	nsubj	_	_
 2	Galilei	Galilei	PROPN	_	_	1	flat:name	_	_
-3	inggih	inggih	PART	_	_	1	advmod:emph	_	_
-4	punika	punika	ADV	_	_	5	advmod	_	_
+3	inggih	yaiku	AUX	_	_	5	cop	_	_
+4	punika	punika	ADV	_	_	3	fixed	_	_
 5	bapak	bapak	NOUN	_	Number=Sing	0	root	_	_
-6	ageng	ageng	ADJ	_	_	5	amod	_	_
+6	ageng	ageng	ADJ	_	_	5	amod	_	Level=Krama
 7	ing	ing	ADP	_	_	8	case	_	_
 8	hidrostatika	hidrostatika	X	_	Foreign=Yes	5	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
