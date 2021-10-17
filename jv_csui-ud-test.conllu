@@ -224,7 +224,7 @@
 # text = Punika nampung tradhisi lawas saking aturan institusi gabungan ing Swiss.
 # text_id = Ini mengakomodasi tradisi lama aturan badan kolektif di Swiss.
 # text_en = It accommodates the long tradition of collective institutional rule in Switzerland.
-1	Punika	punika	PRON	_	_	2	nsubj	_	_
+1	Punika	punika	PRON	_	PronType=Dem	2	nsubj	_	_
 2	nampung	tampung	VERB	_	Voice=Act	0	root	_	_
 3	tradhisi	tradhisi	NOUN	_	Number=Sing	2	obj	_	_
 4	lawas	lawas	ADJ	_	_	3	amod	_	_
@@ -304,6 +304,24 @@
 10	pamulangan	ulang	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
+# sent_id = 17
+# text = ASP.NET bisa minangka ngekspos fungsi bisnis ing partner lumantar protokol web standar.
+# text_id = ASP.NET berfungsi sebagai pengekspos fungsi bisnis di mitra melalui protokol web standar.
+# text_en = ASP.NET functions as an expose of business functions in partners via standard web protocols.
+1	ASP.NET	ASP.NET	PROPN	_	_	2	nsubj	_	_
+2	bisa	bisa	VERB	_	Voice=Act	0	root	_	_
+3	minangka	minangka	ADP	_	_	4	case	_	_
+4	ngekspos	ngekspos	X	_	Foreign=Yes	2	obl	_	_
+5	fungsi	fungsi	X	_	Foreign=Yes	4	nmod	_	_
+6	bisnis	bisnis	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	ing	ing	ADP	_	_	8	case	_	_
+8	partner	partner	X	_	Foreign=Yes	5	nmod	_	_
+9	lumantar	lumantar	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	protokol	protokol	X	_	Foreign=Yes	8	flat:foreign	_	_
+11	web	web	X	_	Foreign=Yes	8	flat:foreign	_	_
+12	standar	standar	X	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = 18
 # text = Pamarèntahanipun dipunandhapaken rakyat wonten ing revolusi people power (kekiyatan rakyat) ingkang dipunkenal kanthi nami Revolusi EDSA II.
 # text_id = Pemerintahannya berada di bawah rakyat dalam revolusi kekuatan rakyat yang dikenal sebagai Revolusi EDSA II.
@@ -347,7 +365,7 @@
 10	ndamèl	damèl	VERB	_	Voice=Act	3	conj	_	_
 11-12	gambaripun	_	_	_	_	_	_	_	SpaceAfter=No
 11	gambar	gambar	NOUN	_	Number=Sing	10	obl	_	_
-12	ipun	ipun	PRON	_	_	11	nmod:poss	_	_
+12	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	_
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 20
@@ -408,7 +426,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5-6	seranganipun	_	_	_	_	_	_	_	_
 5	serangan	serang	NOUN	_	Number=Sing	9	nsubj	_	_
-6	ipun	ipun	PRON	_	_	5	nmod:poss	_	_
+6	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
 7	inggih	yaiku	AUX	_	_	9	cop	_	_
 8	punika	punika	DET	_	_	7	fixed	_	_
 9	serangan	serang	NOUN	_	Number=Sing	0	root	_	_
@@ -417,11 +435,39 @@
 12	lan	lan	CCONJ	_	_	17	cc	_	_
 13-14	rencangipun	_	_	_	_	_	_	_	_
 13	rencang	rencang	NOUN	_	Number=Sing	17	nsubj	_	_
-14	ipun	ipun	PRON	_	_	13	nmod:poss	_	_
+14	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
 15	inggih	yaiku	AUX	_	_	17	cop	_	_
 16	punika	punika	DET	_	_	15	fixed	_	_
 17	Speedor	Speedor	PROPN	_	_	9	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 24
+# text = Jumlah subunit isa macem-macem malah ing sèl kang padha contohe ing Salmonella kang jumlah subunita antara 3, 4, utawa 5.
+# text_id = Jumlah subunit dapat bervariasi bahkan dalam sel yang sama misalnya pada Salmonella dimana jumlah subunit antara 3, 4, atau 5.
+# text_en = The number of subunits can vary even within the same cell for example in Salmonella where the number of subunits is between 3, 4, or 5.
+1	Jumlah	jumlah	X	_	Foreign=Yes	4	nsubj	_	_
+2	subunit	subunit	X	_	Foreign=Yes	1	nmod	_	_
+3	isa	isa	AUX	_	_	4	aux	_	_
+4	macem-macem	macem	ADJ	_	_	0	root	_	_
+5	malah	malah	ADV	_	_	7	advmod	_	_
+6	ing	ing	ADP	_	_	7	case	_	_
+7	sèl	sèl	NOUN	_	Number=Sing	4	obl	_	_
+8	kang	kang	PRON	_	PronType=Rel	9	nsubj	_	_
+9	padha	padha	ADJ	_	_	7	acl:relcl	_	_
+10	contohe	contohe	X	_	Foreign=Yes	4	nmod	_	_
+11	ing	ing	ADP	_	_	12	case	_	_
+12	Salmonella	Salmonella	PROPN	_	_	10	nmod	_	_
+13	kang	kang	SCONJ	_	_	17	mark	_	_
+14	jumlah	jumlah	X	_	Foreign=Yes	17	nsubj	_	_
+15	subunita	subunita	X	_	Foreign=Yes	14	flat:foreign	_	_
+16	antara	antara	ADP	_	_	17	case	_	_
+17	3	3	NUM	_	_	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	4	4	NUM	_	_	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	utawa	utawa	CCONJ	_	_	22	cc	_	_
+22	5	5	NUM	_	_	17	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 25
 # text = Nalika ing Jakarta, Robby kenalan banjur dadi "murid" Prajudi.
@@ -512,7 +558,7 @@
 1	Kahanan	kahanan	NOUN	_	Number=Sing	5	nsubj:pass	_	_
 2	kekirangan	kekirangan	NOUN	_	Number=Sing	1	nmod	_	_
 3	buah	buah	NOUN	_	Number=Sing	2	nmod	_	_
-4	iki	iki	DET	_	_	1	det	_	_
+4	iki	iki	DET	_	PronType=Dem	1	det	_	_
 5	diterangno	terang	VERB	_	Voice=Pass	0	root	_	_
 6	nggunakake	guna	VERB	_	Voice=Act	5	xcomp	_	_
 7	jinis	jinis	NOUN	_	Number=Sing	6	obj	_	_
@@ -538,7 +584,7 @@
 1	Saben	saben	DET	_	PronType=Tot	2	det	_	_
 2	makluk	makluk	NOUN	_	Number=Sing	4	nsubj	_	_
 3	bakal	bakal	AUX	_	_	4	aux	_	_
-4	mati	mati	VERB	_	_	0	root	_	_
+4	mati	mati	VERB	_	Voice=Act	0	root	_	_
 5	lan	lan	CCONJ	_	_	9	cc	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
 7	akhirat	akhirat	NOUN	_	Number=Sing	9	obl	_	_
@@ -563,7 +609,7 @@
 7	istri-istri	istri	NOUN	_	Number=Plur	6	nmod	_	_
 8	punika	punika	DET	_	_	7	det	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	ingkang	ingkang	PRON	_	_	12	nsubj	_	_
+10	ingkang	ingkang	PRON	_	PronType=Rel	12	nsubj	_	_
 11	lajeng	lajeng	ADV	_	_	12	advmod	_	_
 12	ngangkat	ngangkat	VERB	_	Voice=Act	7	acl:relcl	_	_
 13	Frederick	Frederick	PROPN	_	_	12	obj	_	_
@@ -595,20 +641,20 @@
 # text_id = Penentang mengklaim bahwa biaya ekonomi yang dibutuhkan untuk menerapkan Protokol Kyoto dapat mencapai 300 miliar dolar AS, khususnya karena biaya energi.
 # text_en = Opponents claim that the economic costs required to implement the Kyoto Protocol could be as high as $300 billion, mainly because of energy costs.
 1	Para	para	DET	_	Number=Plur	2	det	_	_
-2	panantang	tentang	NOUN	_	Number=Sing	4	nsubj	_	_
-3	iki	iki	DET	_	_	2	det	_	_
+2	panantang	tantang	NOUN	_	Number=Sing	4	nsubj	_	_
+3	iki	iki	DET	_	PronType=Dem	2	det	_	_
 4	mutusake	mutusake	VERB	_	Voice=Act	0	root	_	_
 5	yèn	yèn	SCONJ	_	_	15	mark	_	_
 6	beya	beya	NOUN	_	Number=Sing	15	nsubj	_	_
 7	ékonomi	ékonomi	NOUN	_	Number=Sing	6	nmod	_	_
-8	kang	kang	PRON	_	_	9	nsubj	_	_
-9	diperlokaké	diperlokaké	VERB	_	_	6	acl:relcl	_	_
+8	kang	kang	PRON	_	PronType=Rel	9	nsubj	_	_
+9	diperlokaké	diperlokaké	VERB	_	Voice=Pass	6	acl:relcl	_	_
 10	kanggo	kanggo	SCONJ	_	_	11	mark	_	_
 11	nindak	tindak	VERB	_	Voice=Act	9	advcl	_	_
 12	Protokol	Protokol	PROPN	_	_	11	obj	_	_
 13	Kyoto	Kyoto	PROPN	_	_	12	flat:name	_	_
 14	isa	isa	AUX	_	_	15	aux	_	_
-15	ngancik	ngancik	VERB	_	_	4	ccomp	_	_
+15	ngancik	ngancik	VERB	_	Voice=Act	4	ccomp	_	_
 16	300	300	NUM	_	NumType=Card	18	nummod	_	_
 17	milyar	milyar	NUM	_	NumType=Card	16	flat	_	_
 18	dollar	dollar	NOUN	_	Number=Sing	15	obl	_	_
@@ -674,7 +720,7 @@
 4	1964	1964	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-7	dipunangkat	angkat	VERB	_	_	0	root	_	_
+7	dipunangkat	angkat	VERB	_	Voice=Pass	0	root	_	_
 8	minangka	minangka	ADP	_	_	9	case	_	_
 9	Anggota	Anggota	PROPN	_	_	7	obl	_	_
 10	Asing	Asing	PROPN	_	_	9	flat:name	_	_
@@ -768,7 +814,7 @@
 1-2	Karyané	_	_	_	_	_	_	_	_
 1	Karya	karya	NOUN	_	Number=Sing	7	nsubj	_	_
 2	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
-3	kang	kang	PRON	_	_	5	nsubj	_	_
+3	kang	kang	PRON	_	PronType=Rel	5	nsubj	_	_
 4	paling	paling	ADV	_	_	5	advmod	_	_
 5	wigati	wigati	ADJ	_	_	1	acl:relcl	_	_
 6	yaiku	yaiku	AUX	_	_	7	cop	_	_
@@ -786,10 +832,10 @@
 1	Kanthi	Kanthi	ADP	_	_	2	case	_	_
 2	ulah	ulah	NOUN	_	Number=Sing	4	obl	_	_
 3	raga	raga	NOUN	_	Number=Sing	2	nmod	_	_
-4	dikarepaké	dikarepaké	VERB	_	_	0	root	_	_
+4	dikarepaké	dikarepaké	VERB	_	Voice=Pass	0	root	_	_
 5	para	para	DET	_	Number=Plur	6	det	_	_
 6	prajurit	prajurit	NOUN	_	Number=Sing	7	nsubj	_	_
-7	dadi	dadi	VERB	_	_	4	ccomp	_	_
+7	dadi	dadi	VERB	_	Voice=Act	4	ccomp	_	_
 8	tangkas	tangkas	ADJ	_	_	7	xcomp	_	_
 9	lan	lan	CCONJ	_	_	10	cc	_	_
 10	sregep	sregep	ADJ	_	_	8	conj	_	_
@@ -801,7 +847,7 @@
 # text = Ingkang kapisanan inggih punika "analisisipun babagan tumindak ngirit kluwarga".
 # text_id = Yang pertama adalah “analisis perilaku penabung rumah tangga”.
 # text_en = The first is “the behavior analysis of household savers”.
-1	Ingkang	ingkang	PRON	_	_	2	nsubj	_	_
+1	Ingkang	ingkang	PRON	_	PronType=Rel	2	nsubj	_	_
 2	kapisanan	kapisanan	ADJ	_	NumType=Ord	6	csubj	_	_
 3	inggih	yaiku	AUX	_	_	6	cop	_	_
 4	punika	punika	DET	_	_	3	fixed	_	_
@@ -827,7 +873,7 @@
 5	Tommy	Tommy	PROPN	_	_	3	obl:agent	_	_
 6	Edwards	Edwards	PROPN	_	_	5	flat:name	_	_
 7	lan	lan	CCONJ	_	_	8	cc	_	_
-8	dados	dados	VERB	_	_	3	conj	_	_
+8	dados	dados	VERB	_	Voice=Act	3	conj	_	_
 9	nomer	angka	NOUN	_	Number=Sing	8	obl	_	_
 10	1	1	NUM	_	NumType=Card	9	nummod	_	_
 11	sing	sing	PRON	_	PronType=Rel	12	nsubj	_	_
@@ -1042,14 +1088,14 @@
 # text_en = Koizumi resigned on September 26 and was eventually replaced by Abe.
 1	Koizumi	Koizumi	PROPN	_	_	2	nsubj	_	_
 2	mundur	mundur	VERB	_	Voice=Act	0	root	_	_
-3	ana	ana	VERB	_	_	2	advcl	_	_
+3	ana	ana	VERB	_	Voice=Act	2	advcl	_	_
 4	ing	ing	ADP	_	_	5	case	_	_
 5	tanggal	tanggal	NOUN	_	Number=Sing	2	obl	_	_
 6	26	26	NUM	_	NumType=Card	5	nummod	_	_
 7	September	September	PROPN	_	_	6	flat	_	_
 8	lan	lan	CCONJ	_	_	10	cc	_	_
 9	sakpungkasane	pungkasan	ADV	_	_	10	advmod	_	_
-10	digantiake	ganti	VERB	_	_	2	conj	_	_
+10	digantiake	ganti	VERB	_	Voice=Pass	2	conj	_	_
 11	Abe	Abe	PROPN	_	_	10	obl:agent	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1118,7 +1164,7 @@
 2	24	24	NUM	_	NumType=Card	6	obl:tmod	_	_
 3	Maret	Maret	PROPN	_	_	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	dhèwèké	dhèwèké	PRON	_	_	6	nsubj	_	_
+5	dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	nyétak	nyétak	VERB	_	Voice=Act	0	root	_	_
 7	rong	rong	NUM	_	NumType=Card	8	nummod	_	_
 8	gol	gol	NOUN	_	Number=Sing	6	obl	_	_
@@ -1134,7 +1180,7 @@
 1	Taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 2	1948	1948	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	dhèwèké	dhèwèké	PRON	_	_	5	nsubj	_	_
+4	dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	nglakokaké	laku	VERB	_	Voice=Act	0	root	_	_
 6	reorganisasi	reorganisasi	X	_	Foreign=Yes	5	obj	_	_
 7	Persis	Persis	PROPN	_	_	6	nmod	_	_
@@ -1155,7 +1201,7 @@
 # text_id = Maskapai ini mengoperasikan jaringan penerbangan ke 50 tujuan di 20 negara, termasuk penerbangan jarak jauh ke Afrika Timur, Tengah, dan Barat.
 # text_en = The airline operates a network of flights to 50 destinations in 20 countries, including long -haul flights to East, Central, and West Africa.
 1	Maskapé	maskapé	NOUN	_	Number=Sing	3	nsubj	_	_
-2	iki	iki	DET	_	_	1	det	_	_
+2	iki	iki	DET	_	PronType=Dem	1	det	_	_
 3	ngoperasikaké	operasi	VERB	_	Voice=Act	0	root	_	_
 4	jaringan	jaring	X	_	Foreign=Yes	3	dep	_	_
 5	penerbangan	terbang	X	_	Foreign=Yes	4	flat:foreign	_	_
@@ -1180,6 +1226,189 @@
 24	Barat	Barat	PROPN	_	_	19	conj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
+# sent_id = 66
+# text = Maskapé iki wujud anggota European Low Fares Airline Association (ELFAA).
+# text_id = Perusahaan ini adalah anggota European Low Fares Airline Association (ELFAA). 
+# text_en = The company is a member of the European Low Fares Airline Association (ELFAA).
+1	Maskapé	maskapé	NOUN	_	Number=Sing	3	nsubj	_	_
+2	iki	iki	DET	_	PronType=Dem	1	det	_	_
+3	wujud	wujud	NOUN	_	Number=Sing	0	root	_	_
+4	anggota	anggota	NOUN	_	Number=Sing	3	nmod	_	_
+5	European	European	PROPN	_	_	4	nmod	_	_
+6	Low	Low	PROPN	_	_	5	flat:foreign	_	_
+7	Fares	Fares	PROPN	_	_	5	flat:foreign	_	_
+8	Airline	Airline	PROPN	_	_	5	flat:foreign	_	_
+9	Association	Association	PROPN	_	_	5	flat:foreign	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	ELFAA	ELFAA	PROPN	_	_	5	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 67
+# text = Ing taun 1970-an, Aznavour sukses ing Britania Raya.
+# text_id = Pada tahun 1970-an, Aznavour sukses di Inggris.
+# text_en = In the 1970s, Aznavour was successful in the United Kingdom.
+1	Ing	Ing	ADP	_	_	2	case	_	_
+2	taun	taun	NUM	_	_	6	obl:tmod	_	_
+3	1970-an	1970-an	NUM	_	_	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	Aznavour	Aznavour	PROPN	_	_	6	nsubj	_	_
+6	sukses	sukses	ADJ	_	_	0	root	_	_
+7	ing	ing	ADP	_	_	8	case	_	_
+8	Britania	Britania	PROPN	_	_	6	obl	_	_
+9	Raya	Raya	PROPN	_	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 68
+# text = Bapaké yaiku pengacara.
+# text_id = Ayahnya adalah seorang pengacara.
+# text_en = His father was a lawyer.
+1-2	Bapaké	_	_	_	_	_	_	_	_
+1	Bapak	bapak	NOUN	_	Number=Sing	4	nsubj	_	_
+2	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
+3	yaiku	yaiku	AUX	_	_	4	cop	_	_
+4	pengacara	pengacara	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 69
+# text = Nganggo perawatan kang apik, kurang saka 1% mati.
+# text_id = Dengan perawatan yang baik, kurang dari 1% mati
+# text_en = With good treatment, less than 1% die.
+1	Nganggo	Nganggo	ADP	_	_	2	case	_	_
+2	perawatan	rawat	X	_	Foreign=Yes	10	obl	_	_
+3	kang	kang	PRON	_	PronType=Rel	4	nsubj	_	_
+4	apik	apik	ADJ	_	_	2	acl:relcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	kurang	kurang	ADV	_	_	9	advmod	_	_
+7	saka	saka	ADP	_	_	9	case	_	_
+8	1	1	NUM	_	_	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	_	_	10	obl	_	_
+10	mati	mati	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 70
+# text = Tanggal 17 September, panjupukan gambar ing Pasadena.
+# text_id = Pada 17 September, pemotretan di Pasadena.
+# text_en = On September 17, a photo shoot in Pasadena.
+1	Tanggal	tanggal	NOUN	_	Number=Sing	5	obl:tmod	_	_
+2	17	17	NUM	_	_	1	nummod	_	_
+3	September	September	PROPN	_	_	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	panjupukan	jupuk	NOUN	_	Number=Sing	0	root	_	_
+6	gambar	gambar	NOUN	_	Number=Sing	5	nmod	_	_
+7	ing	ing	ADP	_	_	8	case	_	_
+8	Pasadena	Pasadena	PROPN	_	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 71
+# text = Burger vegetarian kadang-kadang dadi panganan vegan.
+# text_id = Burger vegetarian terkadang merupakan makanan vegan.
+# text_en = Vegetarian burgers are sometimes a vegan meal.
+1	Burger	burger	X	_	Foreign=Yes	4	nsubj	_	_
+2	vegetarian	vegetarian	X	_	Foreign=Yes	1	flat:foreign	_	_
+3	kadang-kadang	kadang	ADV	_	_	4	advmod	_	_
+4	dadi	dadi	VERB	_	Voice=Act	0	root	_	_
+5	panganan	pangan	NOUN	_	Number=Sing	4	obl	_	_
+6	vegan	vegan	X	_	Foreign=Yes	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 72
+# text = Kelinci mangsuli, "Oh, iku swara manuk Crek-crek saka Gunung Crek-crek ing kana."
+# text_id = Kelinci menjawab, “Oh, itu suara burung crek-crek dari gunung crek-crek di sana."
+# text-en = The rabbit replied, "Oh, it’s the sound of Crek-crek birds from Mount Crek-crek over there."
+1	Kelinci	Kelinci	X	_	Foreign=Yes	2	nsubj	_	_
+2	mangsuli	mangsuli	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+5	Oh	Oh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	iku	iku	PRON	_	PronType=Dem	8	nsubj	_	_
+8	swara	swara	NOUN	_	Number=Sing	2	parataxis	_	_
+9	manuk	manuk	NOUN	_	Number=Sing	8	nmod:poss	_	_
+10	Crek-crek	Crek-crek	PROPN	_	_	9	nmod	_	_
+11	saka	saka	ADP	_	_	12	case	_	_
+12	Gunung	Gunung	PROPN	_	_	8	nmod	_	_
+13	Crek-crek	Crek-crek	PROPN	_	_	12	flat:name	_	_
+14	ing	ing	ADP	_	_	15	case	_	_
+15	kana	kana	ADP	_	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 73
+# text = Pira-pira dhoktrin mbédakaké antarané penembak runduk (sniper) lan penembak jitu (marksman, sharpshooter, utawa designated marksman).
+# text_id = Beberapa doktrin membedakan antara penembak runduk (sniper) dan penembak jitu (marksman, sharpshooter, atau penembak jitu yang ditunjuk).
+# text_en = Several doctrines distinguish between a sniper and a marksman, sharpshooter, or designated marksman.
+1	Pira-pira	pira-pira	DET	_	Number=Plur	2	det	_	_
+2	dhoktrin	dhoktrin	X	_	Foreign=Yes	3	nsubj	_	_
+3	mbédakaké	béda	VERB	_	Voice=Act	0	root	_	_
+4-5	antarané	_	_	_	_	_	_	_	_
+4	antara	antara	NOUN	_	Number=Sing	6	nmod:lmod	_	_
+5	né	é	DET	_	_	4	det	_	_
+6	penembak	tembak	NOUN	_	Number=Sing	3	obl	_	_
+7	runduk	runduk	ADJ	_	_	6	amod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	sniper	sniper	X	_	Foreign=Yes	6	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	lan	lan	CCONJ	_	_	12	cc	_	_
+12	penembak	tembak	NOUN	_	Number=Sing	6	conj	_	_
+13	jitu	jitu	X	_	Foreign=Yes	12	dep	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	marksman	marksman	X	_	Foreign=Yes	12	appos	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	sharpshooter	sharpshooter	X	_	Foreign=Yes	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	utawa	utawa	CCONJ	_	_	20	cc	_	_
+20	designated	designated	X	_	Foreign=Yes	15	conj	_	_
+21	marksman	marksman	X	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 74
+# text = Penambahan poin 75% ing turnamèn paling apik ing lumah suket 12 wulan sakdurunge.
+# text_id = Penambahan 75% poin di turnamen terbaik di rumput 12 bulan sebelumnya.
+# text_en = Addition of 75% points in the best tournament on the grass the previous 12 months.
+1	Penambahan	tambah	X	_	Foreign=Yes	0	root	_	_
+2	poin	poin	X	_	Foreign=Yes	1	nmod	_	_
+3	75	75	NUM	_	_	4	nummod	_	SpaceAfter=No
+4	%	%	SYM	_	_	1	nmod	_	_
+5	ing	ing	ADP	_	_	6	case	_	_
+6	turnamèn	turnamèn	X	_	Foreign=Yes	1	nmod	_	_
+7	paling	paling	ADV	_	_	8	advmod	_	_
+8	apik	apik	ADJ	_	_	6	amod	_	_
+9	ing	ing	ADP	_	_	10	case	_	_
+10	lumah	lumah	X	_	Foreign=Yes	6	nmod	_	_
+11	suket	suket	NOUN	_	Number=Sing	10	nmod	_	_
+12	12	12	NUM	_	_	13	nummod	_	_
+13	wulan	wulan	NOUN	_	Number=Sing	1	nmod:tmod	_	_
+14	sakdurunge	sakdurunge	ADV	_	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 75
+# text = Panjenenganipun dipunkenal minangka panganggit haiku paling ageng, inggih punika wangun puisi ing 5-7-5 suku kata.
+# text_id = Ia dikenal sebagai penulis haiku terhebat, yang merupakan bentuk puisi dalam 5-7-5 suku kata.
+# text_en = He is known as the greatest haiku writer, which is a form of poetry in 5-7-5 syllables.
+1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	dipunkenal	kenal	VERB	_	Voice=Pass	0	root	_	_
+3	minangka	minangka	ADP	_	_	4	case	_	_
+4	panganggit	anggit	NOUN	_	Number=Sing	2	obl	_	_
+5	haiku	haiku	X	_	Foreign=Yes	4	nmod	_	_
+6	paling	paling	ADV	_	_	7	advmod	_	_
+7	ageng	ageng	ADJ	_	_	4	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	inggih	yaiku	AUX	_	_	11	aux	_	_
+10	punika	punika	DET	_	_	9	fixed	_	_
+11	wangun	wangun	NOUN	_	Number=Sing	5	appos	_	_
+12	puisi	puisi	X	_	Foreign=Yes	11	nmod	_	_
+13	ing	ing	ADP	_	_	19	case	_	_
+14	5	5	NUM	_	_	19	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	7	7	NUM	_	_	14	flat	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	5	5	NUM	_	_	14	flat	_	_
+19	suku	suku	NOUN	_	Number=Sing	11	nmod	_	_
+20	kata	kata	NOUN	_	Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+
 # sent_id = 76
 # text = Nalika taun 2006 lagu iki uga digunakaké ana ing sapérangan episode ing serial TV Supernatural.
 # text_id = Pada tahun 2006 lagu tersebut juga digunakan dalam sebagian episode serial TV Supernatural.
@@ -1188,10 +1417,10 @@
 2	taun	taun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	2006	2006	NUM	_	NumType=Card	2	nummod	_	_
 4	lagu	lagu	NOUN	_	Number=Sing	7	nsubj:pass	_	_
-5	iki	iki	DET	_	_	4	det	_	_
+5	iki	iki	DET	_	PronType=Dem	4	det	_	_
 6	uga	uga	ADV	_	_	7	advmod	_	_
-7	digunakaké	guna	VERB	_	_	0	root	_	_
-8	ana	ana	VERB	_	_	7	advcl	_	_
+7	digunakaké	guna	VERB	_	Voice=Pass	0	root	_	_
+8	ana	ana	VERB	_	Voice=Act	7	advcl	_	_
 9	ing	ing	ADP	_	_	10	case	_	_
 10	sapérangan	pérang	NOUN	_	Number=Sing	8	obl	_	_
 11	episode	episode	NOUN	_	Number=Sing	10	nmod	_	_
@@ -1202,15 +1431,15 @@
 16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 77
-# text = Akèh-akèhe lagu Shakur dipunsèrat nganggo kekerasan ing ghetto, rasisme, prakawis sosial, lan kadang padudoné kaliyan rapper sanès.
+# text = Akèh-akèhe tembang Shakur dipunsèrat nganggo kekerasan ing ghetto, rasisme, prakawis sosial, lan kadang padudoné kaliyan rapper sanès.
 # text_id = Sebagian besar lagu Shakur ditulis dengan kekerasan ghetto, rasisme, masalah sosial, dan terkadang konflik dengan rapper lain.
 # text_en = Most of Shakur’s songs are written with ghetto violence, racism, social issues, and sometimes conflicts with other rappers.
 1	Akèh-akèhe	akèh	DET	_	_	2	det	_	_
-2	lagu	lagu	NOUN	_	Number=Sing	4	nsubj:pass	_	_
+2	tembang	tembang	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 3	Shakur	Shakur	PROPN	_	_	2	nmod	_	_
-4	dipunsèrat	sèrat	VERB	_	_	0	root	_	_
-5	nganggo	anggo	VERB	_	_	4	xcomp	_	_
-6	kekerasan	keras	NOUN	_	Number=Sing	5	obl	_	_
+4	dipunsèrat	sèrat	VERB	_	Voice=Pass	0	root	_	_
+5	nganggo	anggo	ADP	_	_	6	case	_	_
+6	kekerasan	keras	X	_	Foreign=Yes	4	obl	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
 8	ghetto	ghetto	X	_	Foreign=Yes	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -1222,7 +1451,7 @@
 15	lan	lan	CCONJ	_	_	17	cc	_	_
 16	kadang	kadang	ADV	_	_	17	advmod	_	_
 17-18	padudoné	_	_	_	_	_	_	_	_
-17	padudon	padu	VERB	_	_	8	conj	_	_
+17	padudon	padu	VERB	_	Voice=Act	8	conj	_	_
 18	é	é	DET	_	Definite=Def|PronType=Art	17	det	_	_
 19	kaliyan	kaliyan	ADP	_	_	20	case	_	_
 20	rapper	rapper	X	_	Foreign=Yes	17	obl	_	_
@@ -1233,14 +1462,14 @@
 # text = Iki wujud jinis kanker paling umum kang ditandhang kaum wanita.
 # text_id = Ini adalah jenis kanker paling umum yang diderita wanita.
 # text_en = This is the most common type of cancer that women suffer from.
-1	Iki	iki	PRON	_	_	2	nsubj	_	_
+1	Iki	iki	PRON	_	PronType=Dem	2	nsubj	_	_
 2	wujud	wujud	NOUN	_	Number=Sing	0	root	_	_
 3	jinis	jinis	NOUN	_	Number=Sing	2	nmod	_	_
 4	kanker	kanker	NOUN	_	Number=Sing	3	nmod	_	_
 5	paling	paling	ADV	_	_	6	advmod	_	_
 6	umum	umum	ADJ	_	_	3	amod	_	_
 7	kang	kang	PRON	_	PronType=Rel	8	nsubj:pass	_	_
-8	ditandhang	tandhang	VERB	_	_	6	advcl	_	_
+8	ditandhang	tandhang	VERB	_	Voice=Pass	6	advcl	_	_
 9	kaum	kaum	NOUN	_	Number=Sing	8	obl:agent	_	_
 10	wanita	wanita	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
@@ -1252,8 +1481,8 @@
 1	Karakter-karakter	karakter	NOUN	_	Number=Plur	4	nsubj	_	_
 2	punika	punika	DET	_	_	1	det	_	_
 3	namung	namung	ADV	_	_	4	advmod	_	_
-4	muncul	muncul	VERB	_	_	0	root	_	_
-5	ingkang	ingkang	PRON	_	_	6	nsubj	_	_
+4	muncul	muncul	VERB	_	Voice=Pass	0	root	_	_
+5	ingkang	ingkang	PRON	_	PronType=Rel	6	nsubj	_	_
 6	sakêdhepan	kêdhep	ADV	_	_	4	advmod	_	_
 7	kemawon	kemawon	ADV	_	_	6	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
@@ -1272,7 +1501,7 @@
 # text_id = Ushaidi diciptakan pada akhir 2007 sebagai tanggapan atas kerusuhan setelah pemilu yang terjadi di Kenya.
 # text_en = Ushaidi was created in late 2007 in response to the post-election unrest in Kenya.
 1	Ushaidi	Ushaidi	PROPN	_	_	2	nsubj:pass	_	_
-2	diciptakake	cipta	VERB	_	_	0	root	_	_
+2	diciptakake	cipta	VERB	_	Voice=Pass	0	root	_	_
 3	ing	ing	ADP	_	_	5	case	_	_
 4	pungkasan	pungkasan	NOUN	_	Number=Sing	5	nmod	_	_
 5	taun	taun	NOUN	_	Number=Sing	2	obl:tmod	_	_
@@ -1284,7 +1513,7 @@
 11	saksampunè	sampun	ADP	_	_	12	case	_	_
 12	pemilu	pemilu	NOUN	_	Number=Sing	10	nmod	_	_
 13	ingkang	ingkang	PRON	_	PronType=Rel	14	nsubj	_	_
-14	kèdadosan	dados	VERB	_	_	12	acl:relcl	_	_
+14	kèdadosan	dados	VERB	_	Voice=Pass	12	acl:relcl	_	_
 15	ing	ing	ADP	_	_	16	case	_	_
 16	Kenya	Kenya	PROPN	_	_	14	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
@@ -1297,7 +1526,7 @@
 2	Movies	Movies	PROPN	_	_	1	flat:name	_	_
 3	yaiku	yaiku	AUX	_	_	4	cop	_	_
 4	saluran	saluran	NOUN	_	Number=Sing	0	root	_	_
-5	mbayar	mbayar	VERB	_	_	4	acl	_	_
+5	mbayar	mbayar	VERB	_	Voice=Act	4	acl	_	_
 6	kang	kang	PRON	_	PronType=Rel	7	nsubj	_	_
 7	pertama	pertama	ADJ	_	_	4	acl:relcl	_	_
 8	ing	ing	ADP	_	_	9	case	_	_
@@ -1331,10 +1560,10 @@
 # text = Wonten ing ESO piyambakipun ningali perkembangan lan pembangunan Very Large Telescope.
 # text_id = Di ESO ia mengawasi pengembangan dan pembangunan Teleskop Sangat Besar.
 # text_en = At ESO he oversaw the development and building of the Very Large Telescope.
-1	Wonten	Wonten	VERB	_	_	5	advcl	_	_
+1	Wonten	Wonten	VERB	_	Voice=Act	5	advcl	_	_
 2	ing	ing	ADP	_	_	3	case	_	Level=Ngoko
 3	ESO	ESO	PROPN	_	_	1	obl	_	_
-4	piyambakipun	piyambak	PRON	_	_	5	nsubj	_	Level=Krama
+4	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Level=Krama
 5	ningali	tingal	VERB	_	Voice=Act	0	root	_	_
 6	perkembangan	perkembangan	NOUN	_	Number=Sing	5	obj	_	_
 7	lan	lan	CCONJ	_	_	8	cc	_	_
@@ -1424,7 +1653,7 @@
 6	tanpa	tanpa	SCONJ	_	_	7	mark	_	_
 7	mbayar	mbayar	VERB	_	Voice=Act	5	advcl	_	_
 8	tebusan	tebus	NOUN	_	Number=Sing	7	obj	_	_
-9	apa-apa	apa	PRON	_	_	8	nmod	_	SpaceAfter=No
+9	apa-apa	apa	PRON	_	PronType=Rel	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 88
@@ -1435,7 +1664,7 @@
 2	Liga	Liga	PROPN	_	_	1	nmod	_	_
 3	Arab	Arab	PROPN	_	_	2	flat:name	_	_
 4	mapan	mapan	VERB	_	Voice=Pass	0	root	_	_
-5	ana	ana	VERB	_	_	4	advcl	_	_
+5	ana	ana	VERB	_	Voice=Act	4	advcl	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
 7	Kairo	Kairo	PROPN	_	_	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
@@ -1603,7 +1832,7 @@
 2-3	pungkasané	_	_	_	_	_	_	_	_
 2	pungkasan	pungkas	ADJ	_	_	1	amod	_	_
 3	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
-4	ana	ana	VERB	_	_	1	acl	_	_
+4	ana	ana	VERB	_	Voice=Act	1	acl	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
 6	Seri	Seri	PROPN	_	_	4	obl	_	_
 7	A	A	PROPN	_	_	6	flat:name	_	_
