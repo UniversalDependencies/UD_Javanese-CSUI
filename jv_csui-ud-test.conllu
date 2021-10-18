@@ -14,7 +14,7 @@
 10	dipisah	pisah	VERB	_	Voice=Pass	7	acl:relcl	_	_
 11-12	antarané	_	_	_	_	_	_	_	_
 11	antara	antara	NOUN	_	Number=Sing	12	nmod:lmod	_	_
-12	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obl	_	Level=Ngoko
+12	né	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	10	obl	_	Level=Ngoko
 13	sampah	sampah	NOUN	_	Number=Sing	12	nmod	_	_
 14	tèlès	tèlès	ADJ	_	_	13	amod	_	_
 15	lan	lan	CCONJ	_	_	16	cc	_	_
@@ -32,7 +32,7 @@
 27	,	,	PUNCT	_	_	25	punct	_	_
 28-29	gawéané	_	_	_	_	_	_	_	_
 28	gawéan	gawé	NOUN	_	Number=Sing	31	nsubj	_	_
-29	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	28	nmod:poss	_	Level=Ngoko
+29	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	28	nmod:poss	_	Level=Ngoko
 30	luwih	luwih	ADV	_	_	31	advmod	_	_
 31	énténg	énténg	ADV	_	_	4	parataxis	_	_
 32	amarga	amarga	SCONJ	_	_	34	mark	_	_
@@ -40,10 +40,10 @@
 34	didèwèné	dèwè	VERB	_	Voice=Act	31	advcl	_	_
 35-36	sampahé	_	_	_	_	_	_	_	SpaceAfter=No
 35	sampah	sampah	NOUN	_	Number=Sing	34	nsubj	_	_
-36	é	é	DET	_	Definite=Def|PronType=Art	35	det	_	Level=Ngoko
+36	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	35	det	_	Level=Ngoko
 37	,	,	PUNCT	_	_	40	punct	_	_
-38	dèwèé	dèwèé	PRON	_	Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
-39	ora	ora	PART	_	Polarity=Neg	40	advmod	_	Level=Ngoko
+38	dèwèé	dèwèé	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	40	nsubj	_	Level=Ngoko
+39	ora	ora	PART	_	Polarity=Neg|Polite=Infm	40	advmod	_	Level=Ngoko
 40	pèrlu	pèrlu	VERB	_	Voice=Act	34	advcl	_	_
 41	antri	antri	VERB	_	Voice=Act	40	xcomp	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	4	punct	_	_
@@ -55,20 +55,20 @@
 1	Pramila	Pramila	ADV	_	_	13	advmod	_	_
 2-3	putranipun	_	_	_	_	_	_	_	_
 2	putra	putra	NOUN	_	Number=Sing	13	nsubj	_	_
-3	nipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	Level=Krama
+3	nipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nmod:poss	_	Level=Krama
 4	ingkang	ingkang	PRON	_	PronType=Rel	5	nsubj	_	_
 5	asma	asma	VERB	_	Voice=Act	2	acl:relcl	_	_
 6	Drestarastra	Drestarastra	PROPN	_	_	5	obl	_	SpaceAfter=No
 7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8-9	ramanipun	_	_	_	_	_	_	_	_
 8	rama	rama	NOUN	_	Number=Sing	6	nmod	_	_
-9	nipun	ipun	DET	_	Definite=Def|PronType=Art	8	det	_	Level=Krama
+9	nipun	ipun	DET	_	Definite=Def|Polite=Form|PronType=Art	8	det	_	Level=Krama
 10	para	para	DET	_	Number=Plur	11	det	_	_
 11	Korawa	Korawa	PROPN	_	_	8	nmod:poss	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13-14	miyosipun	_	_	_	_	_	_	_	_
 13	miyos	miyos	VERB	_	Voice=Pass	0	root	_	_
-14	ipun	ipun	DET	_	Definite=Def|PronType=Art	13	det	_	Level=Krama
+14	ipun	ipun	DET	_	Definite=Def|Polite=Form|PronType=Art	13	det	_	Level=Krama
 15	wuta	wuta	ADJ	_	_	13	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -89,7 +89,7 @@
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	ya	ya	PART	_	_	16	advmod	_	_
 13	gene	gene	PRON	_	PronType=Dem	16	obl	_	_
-14	ora	ora	PART	_	Polarity=Neg	16	advmod	_	Level=Ngoko
+14	ora	ora	PART	_	Polarity=Neg|Polite=Infm	16	advmod	_	Level=Ngoko
 15	padha	padha	ADV	_	_	16	advmod	_	Level=Ngoko
 16	syukur	syukur	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
 17	?	?	PUNCT	_	_	16	punct	_	_
@@ -100,7 +100,7 @@
 # text_en = Found there in the form of stone inscriptions.
 1-2	Temoné	_	_	_	_	_	_	_	_
 1	Temon	temu	NOUN	_	Number=Sing	5	nsubj	_	_
-2	é	é	DET	_	Definite=Def|PronType=Art	1	det	_	Level=Ngoko
+2	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
 3	ing	ing	ADP	_	_	4	case	_	_
 4	kana	kana	PRON	_	PronType=Dem	5	obl	_	_
 5	wujud	wujud	VERB	_	Voice=Act	0	root	_	_
@@ -125,7 +125,7 @@
 11	radio	radio	NOUN	_	Number=Sing	7	conj	_	_
 12	umum	umum	ADJ	_	_	11	amod	_	_
 13	ingkang	ingkang	PRON	_	PronType=Rel	15	nsubj	_	_
-14	saged	saged	AUX	_	_	15	aux	_	Level=Krama
+14	saged	saged	AUX	_	Polite=Form	15	aux	_	Level=Krama
 15	dipunoperasikaken	operasi	VERB	_	Voice=Pass	7	acl:relcl	_	_
 16	ing	ing	ADP	_	_	17	case	_	_
 17	Prancis	Prancis	PROPN	_	_	15	nmod	_	SpaceAfter=No
@@ -149,7 +149,7 @@
 # text_id = Kriteria ini harus diterapkan pada konsekuensi yang timbul dari keputusan etis.
 # text_en = These criteria should be applied to the consequences arising from ethical decisions.
 1	Kriteria	kriteria	X	_	Foreign=Yes	4	nsubj:pass	_	_
-2	punika	punika	DET	_	PronType=Dem	1	det	_	Level=Krama
+2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 3	kedah	kedah	AUX	_	_	4	aux	_	_
 4	dipunterapaken	terap	VERB	_	Voice=Pass	0	root	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
@@ -169,7 +169,7 @@
 2	nyebut	sebut	VERB	_	Voice=Act	0	root	_	_
 3-4	dhèknèné	_	_	_	_	_	_	_	_
 3	dhèknè	dhèknè	PRON	_	PronType=Prs|Reflex=Yes	1	obj	_	_
-4	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Level=Ngoko
+4	né	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
 5	minangka	minangka	ADP	_	_	7	case	_	_
 6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	rasul	rasul	NOUN	_	Number=Sing	3	obl	_	_
@@ -191,7 +191,7 @@
 # text_en = His name is mentioned 27 times in the Qur'an.
 1-2	Jenengé	_	_	_	_	_	_	_	_
 1	Jeneng	jeneng	NOUN	_	Number=Sing	3	nsubj	_	_
-2	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+2	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	disebutake	sebut	VERB	_	Voice=Pass	0	root	_	_
 4	kaping	kaping	NOUN	_	Number=Sing	3	obl	_	_
 5	27	27	NUM	_	NumType=Card	4	nummod	_	_
@@ -244,7 +244,7 @@
 2	Al-Lahab	Al-Lahab	PROPN	_	_	1	nmod	_	_
 3	utawa	utawa	CCONJ	_	_	4	cc	_	_
 4	Al-Masad	Al-Masad	PROPN	_	_	1	conj	_	_
-5	iku	yaiku	AUX	_	_	6	cop	_	Level=Ngoko
+5	iku	yaiku	AUX	_	Polite=Infm	6	cop	_	Level=Ngoko
 6	surat	surat	NOUN	_	Number=Sing	0	root	_	_
 7	nomer	nomer	NOUN	_	Number=Sing	6	nmod	_	_
 8	111	111	NUM	_	NumType=Card	7	nummod	_	_
@@ -262,8 +262,8 @@
 4	Association	Asscociation	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	Rigoletto	Rigoletto	PROPN	_	_	9	nsubj	_	_
-7	inggih	yaiku	AUX	_	_	9	aux	_	Level=Krama
-8	punika	punika	DET	_	PronType=Dem	7	fixed	_	Level=Krama
+7	inggih	yaiku	AUX	_	Polite=Form	9	aux	_	Level=Krama
+8	punika	punika	DET	_	Polite=Form|PronType=Dem	7	fixed	_	Level=Krama
 9	opera	opera	NOUN	_	Number=Sing	0	root	_	_
 10	nomer	nomer	NOUN	_	Number=Sing	9	nmod	_	_
 11	9	9	NUM	_	NumType=Card	10	nummod	_	_
@@ -296,7 +296,7 @@
 3	Bali	Bali	PROPN	_	_	2	flat:name	_	_
 4-5	adaté	_	_	_	_	_	_	_	_
 4	adat	adat	NOUN	_	Number=Sing	6	obl	_	_
-5	é	é	DET	_	Definite=Def|PronType=Art	4	det	_	Level=Ngoko
+5	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	Level=Ngoko
 6	lumaku	laku	VERB	_	Voice=Pass	0	root	_	_
 7	mligi	mligi	ADV	_	_	9	advmod	_	_
 8	ing	ing	ADP	_	_	9	case	_	_
@@ -331,7 +331,7 @@
 2	ipun	ipun	DET	_	_	1	det	_	Level=Krama
 3	dipunandhapaken	andhap	VERB	_	Voice=Pass	0	root	_	_
 4	rakyat	rakyat	NOUN	_	Number=Sing	3	obl	_	_
-5	wonten	wonten	VERB	_	_	3	advcl	_	Level=Krama
+5	wonten	wonten	VERB	_	Polite=Form|Voice=Act	3	advcl	_	Level=Krama
 6	ing	ing	ADP	_	_	7	case	_	_
 7	revolusi	revolusi	NOUN	_	Number=Sing	3	nmod	_	_
 8	people	people	X	_	Foreign=Yes	7	nmod	_	_
@@ -357,7 +357,7 @@
 2	asring	asring	ADV	_	_	3	advmod	_	_
 3	nggatosakèn	nggatosakèn	VERB	_	Voice=Act	0	root	_	_
 4	kéwan-kéwan	kéwan-kéwan	NOUN	_	Number=Sing	3	obj	_	_
-5	punika	punika	DET	_	PronType=Dem	4	det	_	Level=Krama
+5	punika	punika	DET	_	Polite=Form|PronType=Dem	4	det	_	Level=Krama
 6	ngantos	ngantos	ADP	_	_	8	case	_	_
 7	pinten-pinten	pinten	DET	_	Number=Plur	8	det	_	Level=Krama
 8	jam	jam	NOUN	_	Number=Sing	3	obl	_	_
@@ -365,7 +365,7 @@
 10	ndamèl	damèl	VERB	_	Voice=Act	3	conj	_	_
 11-12	gambaripun	_	_	_	_	_	_	_	SpaceAfter=No
 11	gambar	gambar	NOUN	_	Number=Sing	10	obl	_	_
-12	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	Level=Krama
+12	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	11	nmod:poss	_	Level=Krama
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 20
@@ -411,7 +411,7 @@
 9	gagal	gagal	VERB	_	Voice=Act	0	root	_	_
 10	nyegah	nyegah	VERB	_	Voice=Act	9	xcomp	_	_
 11	perkawis	perkawis	NOUN	_	Number=Sing	10	obl	_	_
-12	punika	punika	DET	_	PronType=Dem	11	det	_	Level=Krama
+12	punika	punika	DET	_	Polite=Form|PronType=Dem	11	det	_	Level=Krama
 13	dhateng	dhateng	ADP	_	_	14	case	_	_
 14	pulisi	pulisi	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
@@ -426,18 +426,18 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5-6	seranganipun	_	_	_	_	_	_	_	_
 5	serangan	serang	NOUN	_	Number=Sing	9	nsubj	_	_
-6	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
-7	inggih	yaiku	AUX	_	_	9	cop	_	Level=Krama
-8	punika	punika	DET	_	PronType=Dem	7	fixed	_	Level=Krama
+6	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	5	nmod:poss	_	_
+7	inggih	yaiku	AUX	_	Polite=Form	9	cop	_	Level=Krama
+8	punika	punika	DET	_	Polite=Form|PronType=Dem	7	fixed	_	Level=Krama
 9	serangan	serang	NOUN	_	Number=Sing	0	root	_	_
 10	kecepatan	cepat	NOUN	_	Number=Sing	9	nmod	_	_
 11	dhuwur	dhuwur	ADJ	_	_	10	amod	_	_
 12	lan	lan	CCONJ	_	_	17	cc	_	_
 13-14	rencangipun	_	_	_	_	_	_	_	_
 13	rencang	rencang	NOUN	_	Number=Sing	17	nsubj	_	_
-14	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	Level=Krama
-15	inggih	yaiku	AUX	_	_	17	cop	_	Level=Krama
-16	punika	punika	DET	_	PronType=Dem	15	fixed	_	Level=Krama
+14	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	13	nmod:poss	_	Level=Krama
+15	inggih	yaiku	AUX	_	Polite=Form	17	cop	_	Level=Krama
+16	punika	punika	DET	_	Polite=Form|PronType=Dem	15	fixed	_	Level=Krama
 17	Speedor	Speedor	PROPN	_	_	9	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -447,13 +447,13 @@
 # text_en = The number of subunits can vary even within the same cell for example in Salmonella where the number of subunits is between 3, 4, or 5.
 1	Jumlah	jumlah	X	_	Foreign=Yes	4	nsubj	_	_
 2	subunit	subunit	X	_	Foreign=Yes	1	nmod	_	_
-3	isa	isa	AUX	_	_	4	aux	_	Level=Ngoko
+3	isa	isa	AUX	_	Polite=Infm	4	aux	_	Level=Ngoko
 4	macem-macem	macem	ADJ	_	_	0	root	_	_
 5	malah	malah	ADV	_	_	7	advmod	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
 7	sèl	sèl	NOUN	_	Number=Sing	4	obl	_	_
 8	kang	kang	PRON	_	PronType=Rel	9	nsubj	_	_
-9	padha	padha	ADJ	_	_	7	acl:relcl	_	Level=Ngoko
+9	padha	padha	ADJ	_	Polite=Infm	7	acl:relcl	_	Level=Ngoko
 10	contohe	contohe	X	_	Foreign=Yes	4	nmod	_	_
 11	ing	ing	ADP	_	_	12	case	_	_
 12	Salmonella	Salmonella	PROPN	_	_	10	nmod	_	_
@@ -521,8 +521,8 @@
 # text_en = A second line, Line B, heading northeast to southwest, is scheduled to open in 2015.
 1	Sawijining	sawijining	DET	_	Definite=Ind|PronType=Art	2	advmod	_	_
 2	jalur	jalur	NOUN	_	Number=Sing	15	nsubj:pass	_	_
-3	kaping	kaping	NOUN	_	Number=Sing	2	nmod	_	Level=Krama
-4	kalih	kalih	ADJ	_	_	3	amod	_	Level=Krama|SpaceAfter=No
+3	kaping	kaping	NOUN	_	Number=Sing|Polite=Form	2	nmod	_	Level=Krama
+4	kalih	kalih	ADJ	_	Polite=Form	3	amod	_	Level=Krama|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	Jalur	Jalur	PROPN	_	_	2	appos	_	_
 7	B	B	PROPN	_	_	6	flat:name	_	SpaceAfter=No
@@ -546,7 +546,7 @@
 1	Kekuwatan	kuwat	NOUN	_	Number=Sing	6	nsubj	_	_
 2	seri	seri	X	_	Foreign=Yes	1	nmod	_	_
 3	705	705	NUM	_	NumType=Card	2	nummod	_	_
-4	yaiku	yaiku	AUX	_	_	6	aux	_	Level=Ngoko
+4	yaiku	yaiku	AUX	_	Polite=Infm	6	aux	_	Level=Ngoko
 5	75	75	NUM	_	NumType=Card	6	nummod	_	_
 6	penumpang	tumpang	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -558,7 +558,7 @@
 1	Kahanan	kahanan	NOUN	_	Number=Sing	5	nsubj:pass	_	_
 2	kekirangan	kekirangan	NOUN	_	Number=Sing	1	nmod	_	_
 3	buah	buah	NOUN	_	Number=Sing	2	nmod	_	_
-4	iki	iki	DET	_	PronType=Dem	1	det	_	Level=Ngoko
+4	iki	iki	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
 5	diterangno	terang	VERB	_	Voice=Pass	0	root	_	_
 6	nggunakake	guna	VERB	_	Voice=Act	5	xcomp	_	_
 7	jinis	jinis	NOUN	_	Number=Sing	6	obj	_	_
@@ -593,7 +593,7 @@
 10	ngenani	ngenani	ADP	_	_	11	case	_	_
 11-12	amalan-amalané	_	_	_	_	_	_	_	SpaceAfter=No
 11	amalan-amalan	amal	NOUN	_	Number=Plur	9	obl	_	_
-12	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	Level=Ngoko
+12	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	11	nmod:poss	_	Level=Ngoko
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 32
@@ -607,7 +607,7 @@
 5	ing	ing	ADP	_	_	6	case	_	_
 6	asta	asta	NOUN	_	Number=Sing	4	obl	_	_
 7	istri-istri	istri	NOUN	_	Number=Plur	6	nmod	_	_
-8	punika	punika	DET	_	PronType=Dem	7	det	_	Level=Krama|SpaceAfter=No
+8	punika	punika	DET	_	Polite=Form|PronType=Dem	7	det	_	Level=Krama|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	ingkang	ingkang	PRON	_	PronType=Rel	12	nsubj	_	_
 11	lajeng	lajeng	ADV	_	_	12	advmod	_	_
@@ -642,7 +642,7 @@
 # text_en = Opponents claim that the economic costs required to implement the Kyoto Protocol could be as high as $300 billion, mainly because of energy costs.
 1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	panantang	tantang	NOUN	_	Number=Sing	4	nsubj	_	_
-3	iki	iki	DET	_	PronType=Dem	2	det	_	Level=Ngoko
+3	iki	iki	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko
 4	mutusake	mutusake	VERB	_	Voice=Act	0	root	_	_
 5	yèn	yèn	SCONJ	_	_	15	mark	_	_
 6	beya	beya	NOUN	_	Number=Sing	15	nsubj	_	_
@@ -653,7 +653,7 @@
 11	nindak	tindak	VERB	_	Voice=Act	9	advcl	_	_
 12	Protokol	Protokol	PROPN	_	_	11	obj	_	_
 13	Kyoto	Kyoto	PROPN	_	_	12	flat:name	_	_
-14	isa	isa	AUX	_	_	15	aux	_	Level=Ngoko
+14	isa	isa	AUX	_	Polite=Infm	15	aux	_	Level=Ngoko
 15	ngancik	ngancik	VERB	_	Voice=Act	4	ccomp	_	_
 16	300	300	NUM	_	NumType=Card	18	nummod	_	_
 17	milyar	milyar	NUM	_	NumType=Card	16	flat	_	_
@@ -677,16 +677,16 @@
 4	cara	cara	NOUN	_	Number=Sing	2	obl	_	_
 5-6	tumindaké	_	_	_	_	_	_	_	SpaceAfter=No
 5	tumindak	tumindak	NOUN	_	Number=Sing	4	nmod	_	_
-6	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	Level=Ngoko
+6	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nmod:poss	_	Level=Ngoko
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	eutanasia	eutanasia	X	_	Foreign=Yes	10	nsubj	_	_
-9	isa	isa	AUX	_	_	10	aux	_	Level=Ngoko
+9	isa	isa	AUX	_	Polite=Infm	10	aux	_	Level=Ngoko
 10	dibagi	bagi	VERB	_	Voice=Pass	0	root	_	_
 11	dadi	dadi	VERB	_	Voice=Act	10	xcomp	_	_
 12	telung	telung	NUM	_	NumType=Card	13	nummod	_	_
 13	bagean	bagean	NOUN	_	Number=Sing	11	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
-15	yaiku	yaiku	AUX	_	_	16	cop	_	Level=Ngoko
+15	yaiku	yaiku	AUX	_	Polite=Infm	16	cop	_	Level=Ngoko
 16	eutanasia	eutanasia	X	_	Foreign=Yes	13	appos	_	_
 17	agresif	agresif	ADJ	_	_	16	amod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -719,7 +719,7 @@
 3	taun	taun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 4	1964	1964	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Level=Krama
+6	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	7	nsubj	_	Level=Krama
 7	dipunangkat	angkat	VERB	_	Voice=Pass	0	root	_	_
 8	minangka	minangka	ADP	_	_	9	case	_	_
 9	Anggota	Anggota	PROPN	_	_	7	obl	_	_
@@ -742,7 +742,7 @@
 6	dicekak	dicekak	VERB	_	Voice=Pass	1	acl	_	_
 7	TGV	TGV	PROPN	_	_	6	obl	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	6	punct	_	_
-9	iku	yaiku	AUX	_	_	10	cop	_	Level=Ngoko
+9	iku	yaiku	AUX	_	Polite=Infm	10	cop	_	Level=Ngoko
 10	sepur	sepur	NOUN	_	Number=Sing	0	root	_	_
 11	rikat	rikat	ADJ	_	_	10	amod	_	_
 12	Prancis	Prancis	PROPN	_	_	10	nmod	_	_
@@ -796,7 +796,7 @@
 # text = Dhèwèké wis tau njabat kepala Inspeksi Kebudayaan ing Sumatera.
 # text_id = Ia pernah menjabat sebagai Kepala Inspeksi Kebudayaan di Sumatera.
 # text_en = He has served as Head of Cultural Inspection in Sumatra.
-1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Level=Ngoko
+1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
 2	wis	wis	AUX	_	_	4	aux	_	Level=Ngoko
 3	tau	tau	VERB	_	Voice=Pass	2	fixed	_	_
 4	njabat	njabat	VERB	_	Voice=Act	0	root	_	_
@@ -813,11 +813,11 @@
 # text_en = His most important work is the Love Trilogy (爱情).
 1-2	Karyané	_	_	_	_	_	_	_	_
 1	Karya	karya	NOUN	_	Number=Sing	7	nsubj	_	_
-2	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+2	né	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	kang	kang	PRON	_	PronType=Rel	5	nsubj	_	_
 4	paling	paling	ADV	_	_	5	advmod	_	_
 5	wigati	wigati	ADJ	_	_	1	acl:relcl	_	_
-6	yaiku	yaiku	AUX	_	_	7	cop	_	Level=Ngoko
+6	yaiku	yaiku	AUX	_	Polite=Infm	7	cop	_	Level=Ngoko
 7	Trilogi	Trilogi	PROPN	_	_	0	root	_	_
 8	Cinta	Cinta	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
@@ -849,12 +849,12 @@
 # text_en = The first is “the behavior analysis of household savers”.
 1	Ingkang	ingkang	PRON	_	PronType=Rel	2	nsubj	_	_
 2	kapisanan	kapisanan	ADJ	_	NumType=Ord	6	csubj	_	_
-3	inggih	yaiku	AUX	_	_	6	cop	_	Level=Krama
-4	punika	punika	DET	_	PronType=Dem	3	fixed	_	Level=Krama
+3	inggih	yaiku	AUX	_	Polite=Form	6	cop	_	Level=Krama
+4	punika	punika	DET	_	Polite=Form|PronType=Dem	3	fixed	_	Level=Krama
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6-7	analisisipun	_	_	_	_	_	_	_	_
 6	analisis	analisis	NOUN	_	Number=Sing	0	root	_	_
-7	ipun	ipun	DET	_	Definite=Def|PronType=Art	6	det	_	Level=Krama
+7	ipun	ipun	DET	_	Definite=Def|Polite=Form|PronType=Art	6	det	_	Level=Krama
 8	babagan	babagan	ADP	_	_	9	case	_	_
 9	tumindak	tindak	NOUN	_	Number=Sing	6	nmod	_	_
 10	ngirit	irit	VERB	_	Voice=Act	9	acl	_	_
@@ -867,7 +867,7 @@
 # text_id = Lagu tersebut dinyanyikan oleh Tommy Edwards dan menjadi hit nomor 1 pada tahun 1958!
 # text_en = The song was sung by Tommy Edwards and became a number 1 hit in 1958!
 1	Tembang	tembang	NOUN	_	Number=Sing	3	nsubj:pass	_	_
-2	punika	punika	DET	_	PronType=Dem	1	det	_	Level=Krama
+2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 3	dipunbektakaken	dipunbektakaken	VERB	_	Voice=Pass	0	root	_	_
 4	déning	déning	ADP	_	_	5	case	_	_
 5	Tommy	Tommy	PROPN	_	_	3	obl:agent	_	_
@@ -891,7 +891,7 @@
 2	ngambakake	ngambakake	VERB	_	Voice=Act	0	root	_	_
 3-4	kegiyatané	_	_	_	_	_	_	_	_
 3	kegiyatan	kegiyatan	NOUN	_	Number=Sing	2	obj	_	_
-4	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	Level=Ngoko
+4	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
 5	kanti	kanti	SCONJ	_	_	6	mark	_	_
 6	ngleboni	ngleboni	VERB	_	Voice=Act	2	advcl	_	_
 7	tataran	tataran	NOUN	_	Number=Sing	6	obj	_	_
@@ -910,7 +910,7 @@
 # text_en = It is white and transparent.
 1-2	Warnané	_	_	_	_	_	_	_	_
 1	Warna	warna	NOUN	_	Number=Sing	3	nsubj	_	_
-2	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+2	né	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	putih	putih	ADJ	_	_	0	root	_	_
 4	lan	lan	CCONJ	_	_	5	cc	_	_
 5	bening	bening	ADJ	_	_	3	conj	_	SpaceAfter=No
@@ -958,7 +958,7 @@
 # text = Piyambakipun tiyang warga nagari Argentina.
 # text_id = Dia adalah warga negara Argentina.
 # text_en = He is an Argentinian citizen.
-1	Piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Level=Krama
+1	Piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	Level=Krama
 2	tiyang	tiyang	NOUN	_	Number=Sing	0	root	_	Level=Krama
 3	warga	warga	NOUN	_	Number=Sing	2	nmod	_	_
 4	nagari	ganagari	NOUN	_	Number=Sing	3	nmod	_	_
@@ -986,7 +986,7 @@
 # text_id = Pesawat itu disertifikasi perdana tahun 1994.
 # text_en = The aircraft was first certified in 1994.
 1	Pesawat	pesawat	X	_	Foreign=Yes	3	nsubj:pass	_	_
-2	punika	punika	DET	_	PronType=Dem	1	det	_	Level=Krama
+2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 3	dipunsertifikasi	sertifikasi	VERB	_	Voice=Pass	0	root	_	_
 4	perdana	perdana	ADJ	_	_	3	amod	_	_
 5	taun	taun	NOUN	_	Number=Sing	3	obl:tmod	_	_
@@ -1009,7 +1009,7 @@
 # text = Panjenenganipun miyos kanthi asma asli Joko Widodo.
 # text_id = Beliau terlahir dengan nama asli Joko Widodo.
 # text_en = He was born with the real name Joko Widodo.
-1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	Level=Krama
+1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj:pass	_	Level=Krama
 2	miyos	miyos	VERB	_	Voice=Pass	0	root	_	_
 3	kanthi	kanthi	ADP	_	_	4	case	_	_
 4	asma	asma	NOUN	_	Number=Sing	2	obl	_	_
@@ -1039,12 +1039,12 @@
 # text_en = With the help of all of them, Count Dracula can be exterminated.
 1	Kanthi	Kanthi	ADP	_	_	2	case	_	_
 2	tetulung	tetulung	NOUN	_	Number=Sing	9	obl	_	_
-3	kabèh	kabèh	PRON	_	PronType=Tot	2	nmod:poss	_	Level=Ngoko
+3	kabèh	kabèh	PRON	_	Polite=Infm|PronType=Tot	2	nmod:poss	_	Level=Ngoko
 4	mau	mau	DET	_	PronType=Dem	3	det	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	Count	Count	PROPN	_	_	9	nsubj	_	_
 7	Dracula	Dracula	PROPN	_	_	6	flat:name	_	_
-8	isa	isa	AUX	_	_	9	aux	_	Level=Ngoko
+8	isa	isa	AUX	_	Polite=Infm	9	aux	_	Level=Ngoko
 9	dirantas	rantas	VERB	_	Voice=Pass	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -1054,7 +1054,7 @@
 # text_en = "Whereas he processes materials that are strategic for the benefit of the people," said Endriartono.
 1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2	Déné	déné	ADV	_	_	4	advmod	_	_
-3	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Level=Krama
+3	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	4	nsubj	_	Level=Krama
 4	ngolah	ngolah	VERB	_	Voice=Act	0	root	_	_
 5	bahan	bahan	NOUN	_	Number=Sing	4	obj	_	_
 6	ingkang	ingkang	PRON	_	PronType=Rel	7	nsubj	_	_
@@ -1066,7 +1066,7 @@
 12	"	"	PUNCT	_	_	4	punct	_	_
 13-14	ngendikanipun	_	_	_	_	_	_	_	_
 13	ngendika	ngendika	VERB	_	Voice=Act	4	parataxis	_	_
-14	nipun	ipun	DET	_	Definite=Def|PronType=Art	13	det	_	Level=Krama
+14	nipun	ipun	DET	_	Definite=Def|Polite=Form|PronType=Art	13	det	_	Level=Krama
 15	Endriartono	Endriartono	PROPN	_	_	13	nsubj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -1075,7 +1075,7 @@
 # text_id = Euryarchaeota dapat bertahan hidup di lingkungan ekstrem.
 # text_en = Euryarchaeota can survive in extreme environments.
 1	Euryarchaeota	Euryarchaeota	PROPN	_	_	3	nsubj	_	_
-2	isa	isa	AUX	_	_	3	aux	_	Level=Ngoko
+2	isa	isa	AUX	_	Polite=Infm	3	aux	_	Level=Ngoko
 3	urip	urip	VERB	_	Voice=Act	0	root	_	_
 4	ing	ing	ADP	_	_	5	case	_	_
 5	lingkungan	lingkungan	NOUN	_	Number=Sing	3	obl	_	_
@@ -1088,7 +1088,7 @@
 # text_en = Koizumi resigned on September 26 and was eventually replaced by Abe.
 1	Koizumi	Koizumi	PROPN	_	_	2	nsubj	_	_
 2	mundur	mundur	VERB	_	Voice=Act	0	root	_	_
-3	ana	ana	VERB	_	Voice=Act	2	advcl	_	Level=Ngoko
+3	ana	ana	VERB	_	Polite=Infm|Voice=Act	2	advcl	_	Level=Ngoko
 4	ing	ing	ADP	_	_	5	case	_	_
 5	tanggal	tanggal	NOUN	_	Number=Sing	2	obl	_	_
 6	26	26	NUM	_	NumType=Card	5	nummod	_	_
@@ -1122,7 +1122,7 @@
 1	Hasan	Hasan	PROPN	_	_	2	nsubj	_	_
 2-3	tegesé	_	_	_	_	_	_	_	_
 2	teges	teges	NOUN	_	Number=Sing	0	root	_	_
-3	é	é	DET	_	Definite=Def|PronType=Art	2	det	_	Level=Ngoko
+3	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	2	det	_	Level=Ngoko
 4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	gagah	gagah	ADJ	_	_	2	nmod	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	5	punct	_	_
@@ -1140,7 +1140,7 @@
 3	industri	industri	NOUN	_	Number=Sing	7	nsubj	_	_
 4	permata	permata	NOUN	_	Number=Sing	3	nmod	_	_
 5	Dubai	Dubai	PROPN	_	_	3	nmod	_	_
-6	punika	punika	DET	_	PronType=Dem	3	det	_	Level=Krama
+6	punika	punika	DET	_	Polite=Form|PronType=Dem	3	det	_	Level=Krama
 7	nglampahi	lampah	VERB	_	Voice=Act	0	root	_	_
 8	dampak	dampak	NOUN	_	Number=Sing	7	obj	_	_
 9	saking	saking	ADP	_	_	10	case	_	_
@@ -1164,7 +1164,7 @@
 2	24	24	NUM	_	NumType=Card	6	obl:tmod	_	_
 3	Maret	Maret	PROPN	_	_	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Level=Ngoko
+5	dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	6	nsubj	_	Level=Ngoko
 6	nyétak	nyétak	VERB	_	Voice=Act	0	root	_	_
 7	rong	rong	NUM	_	NumType=Card	8	nummod	_	_
 8	gol	gol	NOUN	_	Number=Sing	6	obl	_	_
@@ -1180,7 +1180,7 @@
 1	Taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 2	1948	1948	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Level=Ngoko
+4	dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nsubj	_	Level=Ngoko
 5	nglakokaké	laku	VERB	_	Voice=Act	0	root	_	_
 6	reorganisasi	reorganisasi	X	_	Foreign=Yes	5	obj	_	_
 7	Persis	Persis	PROPN	_	_	6	nmod	_	_
@@ -1201,7 +1201,7 @@
 # text_id = Maskapai ini mengoperasikan jaringan penerbangan ke 50 tujuan di 20 negara, termasuk penerbangan jarak jauh ke Afrika Timur, Tengah, dan Barat.
 # text_en = The airline operates a network of flights to 50 destinations in 20 countries, including long -haul flights to East, Central, and West Africa.
 1	Maskapé	maskapé	NOUN	_	Number=Sing	3	nsubj	_	_
-2	iki	iki	DET	_	PronType=Dem	1	det	_	Level=Ngoko
+2	iki	iki	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
 3	ngoperasikaké	operasi	VERB	_	Voice=Act	0	root	_	_
 4	jaringan	jaring	X	_	Foreign=Yes	3	dep	_	_
 5	penerbangan	terbang	X	_	Foreign=Yes	4	flat:foreign	_	_
@@ -1215,7 +1215,7 @@
 13	kalebu	kalebu	VERB	_	Voice=Act	6	advcl	_	_
 14	penerbangan	terbang	X	_	Foreign=Yes	13	obl	_	_
 15	jarak	jarak	NOUN	_	Number=Sing	14	nmod	_	_
-16	adoh	adoh	ADJ	_	_	15	amod	_	Level=Ngoko
+16	adoh	adoh	ADJ	_	Polite=Infm	15	amod	_	Level=Ngoko
 17	tumuju	tumuju	VERB	_	Voice=Act	14	acl	_	_
 18	Afrika	Afrika	PROPN	_	_	17	obj	_	_
 19	Timur	Timur	PROPN	_	_	18	flat:name	_	SpaceAfter=No
@@ -1231,7 +1231,7 @@
 # text_id = Perusahaan ini adalah anggota European Low Fares Airline Association (ELFAA). 
 # text_en = The company is a member of the European Low Fares Airline Association (ELFAA).
 1	Maskapé	maskapé	NOUN	_	Number=Sing	3	nsubj	_	_
-2	iki	iki	DET	_	PronType=Dem	1	det	_	Level=Ngoko
+2	iki	iki	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
 3	wujud	wujud	NOUN	_	Number=Sing	0	root	_	_
 4	anggota	anggota	NOUN	_	Number=Sing	3	nmod	_	_
 5	European	European	PROPN	_	_	4	nmod	_	_
@@ -1265,8 +1265,8 @@
 # text_en = His father was a lawyer.
 1-2	Bapaké	_	_	_	_	_	_	_	_
 1	Bapak	bapak	NOUN	_	Number=Sing	4	nsubj	_	_
-2	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	Level=Ngoko
-3	yaiku	yaiku	AUX	_	_	4	cop	_	Level=Ngoko
+2	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+3	yaiku	yaiku	AUX	_	Polite=Infm	4	cop	_	Level=Ngoko
 4	pengacara	pengacara	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1343,7 +1343,7 @@
 3	mbédakaké	béda	VERB	_	Voice=Act	0	root	_	_
 4-5	antarané	_	_	_	_	_	_	_	_
 4	antara	antara	NOUN	_	Number=Sing	5	nmod:lmod	_	_
-5	né	é	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nmod	_	Level=Ngoko
+5	né	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	6	nmod	_	Level=Ngoko
 6	penembak	tembak	NOUN	_	Number=Sing	3	obl	_	_
 7	runduk	runduk	ADJ	_	_	6	amod	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -1387,7 +1387,7 @@
 # text = Panjenenganipun dipunkenal minangka panganggit haiku paling ageng, inggih punika wangun puisi ing 5-7-5 suku kata.
 # text_id = Ia dikenal sebagai penulis haiku terhebat, yang merupakan bentuk puisi dalam 5-7-5 suku kata.
 # text_en = He is known as the greatest haiku writer, which is a form of poetry in 5-7-5 syllables.
-1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Level=Krama
+1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	Level=Krama
 2	dipunkenal	kenal	VERB	_	Voice=Pass	0	root	_	_
 3	minangka	minangka	ADP	_	_	4	case	_	_
 4	panganggit	anggit	NOUN	_	Number=Sing	2	obl	_	_
@@ -1395,8 +1395,8 @@
 6	paling	paling	ADV	_	_	7	advmod	_	_
 7	ageng	ageng	ADJ	_	_	4	amod	_	Level=Krama|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
-9	inggih	yaiku	AUX	_	_	11	aux	_	Level=Krama
-10	punika	punika	DET	_	PronType=Dem	9	fixed	_	Level=Krama
+9	inggih	yaiku	AUX	_	Polite=Form	11	aux	_	Level=Krama
+10	punika	punika	DET	_	Polite=Form|PronType=Dem	9	fixed	_	Level=Krama
 11	wangun	wangun	NOUN	_	Number=Sing	5	appos	_	_
 12	puisi	puisi	X	_	Foreign=Yes	11	nmod	_	_
 13	ing	ing	ADP	_	_	19	case	_	_
@@ -1417,10 +1417,10 @@
 2	taun	taun	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	2006	2006	NUM	_	NumType=Card	2	nummod	_	_
 4	tembang	tembang	NOUN	_	Number=Sing	7	nsubj:pass	_	_
-5	iki	iki	DET	_	PronType=Dem	4	det	_	Level=Ngoko
+5	iki	iki	DET	_	Polite=Infm|PronType=Dem	4	det	_	Level=Ngoko
 6	uga	uga	ADV	_	_	7	advmod	_	_
 7	digunakaké	guna	VERB	_	Voice=Pass	0	root	_	_
-8	ana	ana	VERB	_	Voice=Act	7	advcl	_	Level=Ngoko
+8	ana	ana	VERB	_	Polite=Infm|Voice=Act	7	advcl	_	Level=Ngoko
 9	ing	ing	ADP	_	_	10	case	_	_
 10	sapérangan	pérang	NOUN	_	Number=Sing	8	obl	_	_
 11	episode	episode	NOUN	_	Number=Sing	10	nmod	_	_
@@ -1434,7 +1434,7 @@
 # text = Akèh-akèhe tembang Shakur dipunsèrat nganggo kekerasan ing ghetto, rasisme, prakawis sosial, lan kadang padudoné kaliyan rapper sanès.
 # text_id = Sebagian besar lagu Shakur ditulis dengan kekerasan ghetto, rasisme, masalah sosial, dan terkadang konflik dengan rapper lain.
 # text_en = Most of Shakur’s songs are written with ghetto violence, racism, social issues, and sometimes conflicts with other rappers.
-1	Akèh-akèhe	akèh	DET	_	Number=Plur	2	det	_	Level=Ngoko
+1	Akèh-akèhe	akèh	DET	_	Number=Plur|Polite=Infm	2	det	_	Level=Ngoko
 2	tembang	tembang	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 3	Shakur	Shakur	PROPN	_	_	2	nmod	_	_
 4	dipunsèrat	sèrat	VERB	_	Voice=Pass	0	root	_	_
@@ -1452,7 +1452,7 @@
 16	kadang	kadang	ADV	_	_	17	advmod	_	_
 17-18	padudoné	_	_	_	_	_	_	_	_
 17	padudon	padu	VERB	_	Voice=Act	8	conj	_	_
-18	é	é	DET	_	Definite=Def|PronType=Art	17	det	_	Level=Ngoko
+18	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	17	det	_	Level=Ngoko
 19	kaliyan	kaliyan	ADP	_	_	20	case	_	_
 20	rapper	rapper	X	_	Foreign=Yes	17	obl	_	_
 21	sanès	sanès	ADJ	_	_	20	amod	_	SpaceAfter=No
@@ -1479,7 +1479,7 @@
 # text_id = Karakter ini hanya muncul sesekali, biasanya dalam film atau serial House of Mouse.
 # text_en = These characters only appear occasionally, usually in a movie or House of Mouse  series.
 1	Karakter-karakter	karakter	NOUN	_	Number=Plur	4	nsubj	_	_
-2	punika	punika	DET	_	PronType=Dem	1	det	_	Level=Krama
+2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 3	namung	namung	ADV	_	_	4	advmod	_	_
 4	muncul	muncul	VERB	_	Voice=Pass	0	root	_	_
 5	ingkang	ingkang	PRON	_	PronType=Rel	6	nsubj	_	_
@@ -1524,7 +1524,7 @@
 # text_en = Star Movies was the first paid channel in India.
 1	Star	Star	PROPN	_	_	4	nsubj	_	_
 2	Movies	Movies	PROPN	_	_	1	flat:name	_	_
-3	yaiku	yaiku	AUX	_	_	4	cop	_	Level=Ngoko
+3	yaiku	yaiku	AUX	_	Polite=Infm	4	cop	_	Level=Ngoko
 4	saluran	saluran	NOUN	_	Number=Sing	0	root	_	_
 5	mbayar	mbayar	VERB	_	Voice=Act	4	acl	_	_
 6	kang	kang	PRON	_	PronType=Rel	7	nsubj	_	_
@@ -1560,10 +1560,10 @@
 # text = Wonten ing ESO piyambakipun ningali perkembangan lan pembangunan Very Large Telescope.
 # text_id = Di ESO ia mengawasi pengembangan dan pembangunan Teleskop Sangat Besar.
 # text_en = At ESO he oversaw the development and building of the Very Large Telescope.
-1	Wonten	Wonten	VERB	_	Voice=Act	5	advcl	_	Level=Krama
+1	Wonten	Wonten	VERB	_	Polite=Form|Voice=Act	5	advcl	_	Level=Krama
 2	ing	ing	ADP	_	_	3	case	_	_
 3	ESO	ESO	PROPN	_	_	1	obl	_	_
-4	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Level=Krama
+4	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	5	nsubj	_	Level=Krama
 5	ningali	tingal	VERB	_	Voice=Act	0	root	_	_
 6	perkembangan	perkembangan	NOUN	_	Number=Sing	5	obj	_	_
 7	lan	lan	CCONJ	_	_	8	cc	_	_
@@ -1577,7 +1577,7 @@
 # text = Panjenenganipun terus makarya dugi 2 taun salajengipun, liwat 3 operasi lan kemoterapi eksperimental lan remisi 10 wulan.
 # text_id = Dia terus bekerja sampai 2 tahun berikutnya, melalui 3 operasi dan kemoterapi eksperimental dan remisi 10 bulan.
 # text_en = He continued to work until the next 2 years, through 3 surgeries and experimental chemotherapy and a 10 month remission.
-1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Level=Krama
+1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	3	nsubj	_	Level=Krama
 2	terus	terus	ADV	_	_	3	advmod	_	_
 3	makarya	karya	VERB	_	Voice=Act	0	root	_	_
 4	dugi	dugi	ADP	_	_	6	case	_	_
@@ -1603,7 +1603,7 @@
 # text_en = Iridium 33 is an Iridium communications satellite of the United States.
 1	Iridium	Iridium	PROPN	_	_	4	nsubj	_	_
 2	33	33	NUM	_	NumType=Card	1	nummod	_	_
-3	iku	yaiku	AUX	_	_	4	cop	_	Level=Ngoko
+3	iku	yaiku	AUX	_	Polite=Infm	4	cop	_	Level=Ngoko
 4	satelit	satelit	NOUN	_	Number=Sing	0	root	_	_
 5	komunikasi	komunikasi	NOUN	_	Number=Sing	4	nmod	_	_
 6	Iridium	Iridium	PROPN	_	_	4	nmod	_	_
@@ -1630,7 +1630,7 @@
 13	1750	1750	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	8	punct	_	_
 15	nanging	nanging	CCONJ	_	_	17	cc	_	_
-16	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	17	nsubj	_	Level=Krama
+16	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	17	nsubj	_	Level=Krama
 17	gagal	gagal	VERB	_	Voice=Act	8	conj	_	_
 18	migunakaken	migunakaken	VERB	_	Voice=Act	17	xcomp	_	_
 19	kanggé	kanggé	SCONJ	_	_	20	mark	_	_
@@ -1664,7 +1664,7 @@
 2	Liga	Liga	PROPN	_	_	1	nmod	_	_
 3	Arab	Arab	PROPN	_	_	2	flat:name	_	_
 4	mapan	mapan	VERB	_	Voice=Pass	0	root	_	_
-5	ana	ana	VERB	_	Voice=Act	4	advcl	_	Level=Ngoko
+5	ana	ana	VERB	_	Polite=Infm|Voice=Act	4	advcl	_	Level=Ngoko
 6	ing	ing	ADP	_	_	7	case	_	_
 7	Kairo	Kairo	PROPN	_	_	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
@@ -1676,7 +1676,7 @@
 1	Nalika	Nalika	ADP	_	_	2	case	_	_
 2	taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	2002	2002	NUM	_	NumType=Card	2	nummod	_	_
-4	panjenengané	panjenengané	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Level=Ngoko
+4	panjenengané	panjenengané	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nsubj	_	Level=Ngoko
 5	nentang	nentang	VERB	_	Voice=Act	0	root	_	_
 6	aksi	aksi	NOUN	_	Number=Sing	5	obj	_	_
 7	militèr	militèr	NOUN	_	Number=Sing	6	nmod	_	_
@@ -1725,7 +1725,7 @@
 10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	Barat	Barat	NOUN	_	Number=Sing	8	nmod	_	_
 12	3	3	NUM	_	NumType=Card	11	nummod	_	_
-13	kabèh	kabèh	PRON	_	PronType=Tot	1	nmod	_	Level=Ngoko
+13	kabèh	kabèh	PRON	_	Polite=Infm|PronType=Tot	1	nmod	_	Level=Ngoko
 14	nglayani	nglayani	VERB	_	Voice=Act	0	root	_	_
 15	penerbangan	penerbangan	X	_	Foreign=Yes	14	obj	_	_
 16	domestik	domestik	X	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
@@ -1736,23 +1736,23 @@
 # text_id = Rudal tersebut juga memiliki kemampuan untuk menyergap targetnya dari segala arah (all-aspect), di segala cuaca (all-weather) dan di tengah-tengah electronic jamming (jamming).
 # text_en = The missile also has the ability to ambush its target from all directions (all-aspect), in all weather (all-weather) and in the midst of electronic jamming (jamming).
 1	Rudal	Rudal	NOUN	_	Number=Sing	4	nsubj	_	_
-2	punika	punika	DET	_	PronType=Dem	1	det	_	Level=Krama
+2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 3	ugi	ugi	ADV	_	_	4	advmod	_	_
 4	gadhah	gadhah	VERB	_	Voice=Act	0	root	_	_
 5	kemampuan	mampu	NOUN	_	Number=Sing	4	obj	_	_
 6	nyergap	nyergap	VERB	_	Voice=Act	5	advcl	_	_
 7-8	sasaranipun	_	_	_	_	_	_	_	_
 7	sasaran	sasaran	NOUN	_	Number=Sing	6	obj	_	_
-8	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	Level=Krama
+8	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	7	nmod:poss	_	Level=Krama
 9	saking	saking	ADP	_	_	11	case	_	_
-10	sedaya	sedaya	DET	_	PronType=Tot	11	det	_	Level=Krama
+10	sedaya	sedaya	DET	_	Polite=Form|PronType=Tot	11	det	_	Level=Krama
 11	arah	arah	NOUN	_	Number=Sing	6	obl	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	all-aspect	all-aspect	X	_	Foreign=Yes	11	appos	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	ing	ing	ADP	_	_	18	case	_	_
-17	sedaya	sedaya	DET	_	PronType=Tot	18	det	_	Level=Krama
+17	sedaya	sedaya	DET	_	Polite=Form|PronType=Tot	18	det	_	Level=Krama
 18	cuaca	cuaca	NOUN	_	Number=Sing	11	conj	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	all-weather	all-weather	X	_	Foreign=Yes	18	appos	_	SpaceAfter=No
@@ -1800,15 +1800,15 @@
 1	Lajeng	Lajeng	ADV	_	_	4	advmod	_	_
 2-3	ayahipun	_	_	_	_	_	_	_	_
 2	ayah	ayah	NOUN	_	Number=Sing	4	nsubj	_	_
-3	ipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	Level=Krama
+3	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nmod:poss	_	Level=Krama
 4	ngaturi	atur	VERB	_	Voice=Act	0	root	_	_
-5	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	Level=Krama
+5	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	4	obj	_	Level=Krama
 6	mlebet	mlebet	VERB	_	Voice=Act	4	advcl	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
 8	tim	tim	NOUN	_	Number=Sing	4	obl	_	_
 9-10	gadahanipun	_	_	_	_	_	_	_	_
 9	gadaha	gadaha	NOUN	_	Number=Sing	8	nmod	_	_
-10	nipun	ipun	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	Level=Krama
+10	nipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	8	nmod:poss	_	Level=Krama
 11	piyambak	piyambak	DET	_	PronType=Emp	9	det	_	_
 12	ingkang	ingkang	PRON	_	PronType=Rel	13	nsubj	_	_
 13	ndherek	dherek	VERB	_	Voice=Act	8	acl:relcl	_	_
@@ -1831,12 +1831,12 @@
 1	Tetandhingan	tandhing	NOUN	_	Number=Sing	10	nsubj	_	_
 2-3	pungkasané	_	_	_	_	_	_	_	_
 2	pungkasan	pungkas	ADJ	_	_	1	amod	_	_
-3	é	é	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	Level=Ngoko
-4	ana	ana	VERB	_	Voice=Act	1	acl	_	Level=Ngoko
+3	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+4	ana	ana	VERB	_	Polite=Infm|Voice=Act	1	acl	_	Level=Ngoko
 5	ing	ing	ADP	_	_	6	case	_	_
 6	Seri	Seri	PROPN	_	_	4	obl	_	_
 7	A	A	PROPN	_	_	6	flat:name	_	_
-8	yaiku	yaiku	AUX	_	_	10	cop	_	Level=Ngoko
+8	yaiku	yaiku	AUX	_	Polite=Infm	10	cop	_	Level=Ngoko
 9	nalika	nalika	ADV	_	_	10	advmod	_	_
 10	nglawan	lawan	VERB	_	Voice=Act	0	root	_	_
 11	Inter	Inter	PROPN	_	_	10	obj	_	_
@@ -1864,8 +1864,8 @@
 # text = Dhèwèké yaiku anggota Senat Filipina.
 # text_id = Dia adalah anggota Senat Filipina.
 # text_en = He is a member of the Philippine Senate.
-1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Level=Ngoko
-2	yaiku	yaiku	AUX	_	_	3	cop	_	Level=Ngoko
+1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nsubj	_	Level=Ngoko
+2	yaiku	yaiku	AUX	_	Polite=Infm	3	cop	_	Level=Ngoko
 3	anggota	anggota	X	_	Foreign=Yes	0	root	_	_
 4	Senat	Senat	PROPN	_	_	3	nmod	_	_
 5	Filipina	Filipina	PROPN	_	_	4	flat:name	_	SpaceAfter=No
@@ -1877,8 +1877,8 @@
 # text_en = Galileo Galilei was a great figure in hydrostatics.
 1	Galileo	Galileo	PROPN	_	_	6	nsubj	_	_
 2	Galilei	Galilei	PROPN	_	_	1	flat:name	_	_
-3	inggih	yaiku	AUX	_	_	5	cop	_	Level=Krama
-4	punika	punika	DET	_	PronType=Dem	3	fixed	_	Level=Krama
+3	inggih	yaiku	AUX	_	Polite=Form	5	cop	_	Level=Krama
+4	punika	punika	DET	_	Polite=Form|PronType=Dem	3	fixed	_	Level=Krama
 5	bapak	bapak	NOUN	_	Number=Sing	0	root	_	_
 6	ageng	ageng	ADJ	_	_	5	amod	_	Level=Krama
 7	ing	ing	ADP	_	_	8	case	_	_

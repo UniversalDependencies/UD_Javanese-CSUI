@@ -34,7 +34,7 @@
     <tag name="X">81</tag><!-- eutanasia, jumlah, marksman, terbang, Kelinci, all-aspect, all-weather, anggota, audhisi, bisnis -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="20">
+  <feats unique="22">
     <feat name="Definite" value="Def" upos="DET">9</feat><!-- é, ipun, nipun -->
     <feat name="Definite" value="Ind" upos="DET">2</feat><!-- sawijining -->
     <feat name="Foreign" value="Yes" upos="X">81</feat><!-- eutanasia, penerbangan, jumlah, marksman, Burger, Kelinci, Kriteria, Penambahan, Pesawat, all-aspect -->
@@ -46,6 +46,8 @@
     <feat name="Person" value="2" upos="PRON">2</feat><!-- Sira, mu -->
     <feat name="Person" value="3" upos="PRON">34</feat><!-- é, piyambakipun, ipun, né, dhèwèké, Panjenenganipun, nipun, dèwèé, panjenengané -->
     <feat name="Polarity" value="Neg" upos="PART">2</feat><!-- ora -->
+    <feat name="Polite" value="Form" upos="ADJ,AUX,DET,NOUN,PRON,VERB">48</feat><!-- punika, ipun, inggih, piyambakipun, nipun, Panjenenganipun, sedaya, wonten, kalih, kaping -->
+    <feat name="Polite" value="Infm" upos="ADJ,AUX,DET,PART,PRON,VERB">54</feat><!-- é, yaiku, iki, isa, né, ana, dhèwèké, iku, kabèh, ora -->
     <feat name="PronType" value="Art" upos="DET">11</feat><!-- é, ipun, nipun, sawijining -->
     <feat name="PronType" value="Dem" upos="DET,PRON">30</feat><!-- punika, iki, mau, kana, gene, kuwi, semana -->
     <feat name="PronType" value="Emp" upos="DET">1</feat><!-- piyambak -->
@@ -53,7 +55,7 @@
     <feat name="PronType" value="Rel" upos="PRON">24</feat><!-- ingkang, kang, sing, apa-apa -->
     <feat name="PronType" value="Tot" upos="DET,PRON">5</feat><!-- kabèh, sedaya, Saben -->
     <feat name="Reflex" value="Yes" upos="PRON">1</feat><!-- dhèknè -->
-    <feat name="Voice" value="Act" upos="VERB">87</feat><!-- dadi, ana, dados, gagal, mati, mbayar, nglawan, tumuju, Ngudhunaké, Wonten -->
+    <feat name="Voice" value="Act" upos="VERB">88</feat><!-- dadi, ana, dados, gagal, mati, mbayar, nglawan, tumuju, wonten, Ngudhunaké -->
     <feat name="Voice" value="Pass" upos="VERB">49</feat><!-- dipunkenal, dipunbikak, miyos, diantemi, dibagi, dicekak, diciptakake, didangu, dideleng, digantiake -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
