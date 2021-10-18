@@ -59,11 +59,12 @@
     <feat name="Voice" value="Pass" upos="VERB">49</feat><!-- dipunkenal, dipunbikak, miyos, diantemi, dibagi, dicekak, diciptakake, didangu, dideleng, digantiake -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="39">
+  <deps unique="40">
     <dep name="acl">8</dep>
     <dep name="acl:relcl">20</dep>
     <dep name="advcl">26</dep>
-    <dep name="advmod">48</dep>
+    <dep name="advmod">47</dep>
+    <dep name="advmod:emph">1</dep>
     <dep name="amod">31</dep>
     <dep name="appos">15</dep>
     <dep name="aux">18</dep>

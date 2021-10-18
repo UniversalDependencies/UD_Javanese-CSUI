@@ -87,7 +87,7 @@
 9	ing	ing	ADP	_	_	10	case	_	_
 10	donya	donya	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
-12	ya	ya	PART	_	_	16	advmod	_	_
+12	ya	ya	PART	_	_	16	advmod:emph	_	_
 13	gene	gene	PRON	_	PronType=Dem	16	obl	_	_
 14	ora	ora	PART	_	Polarity=Neg|Polite=Infm	16	advmod	_	Level=Ngoko
 15	padha	padha	ADV	_	Polite=Infm	16	advmod	_	Level=Ngoko
