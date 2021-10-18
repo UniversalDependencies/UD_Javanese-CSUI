@@ -9,7 +9,7 @@ UD Javanese-CSUI is a gold standard dependency treebank for Javanese, the region
 
 The sentences were taken from [OPUS](https://opus.nlpl.eu/), the open source parallel corpus, especially from the Javanese section of the WikiMatrix v1 corpus. The sentences in this corpus do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa)) and use the Roman writing system. We conducted manual correction to some sentences from OPUS, especially for sentences that contain more Indonesian words than Javanese words.
 
-Javanese has three language levels: Krama, Madya, and Ngoko. In this initial version of the Javanese dependency treebank, it consists of predominantly sentences of Ngoko and Krama.
+Javanese has three language levels: Krama, Madya, and Ngoko. In this initial version of the Javanese dependency treebank, the sentences are predominantly of Ngoko and Krama languages.
 
 # Acknowledgments
 
