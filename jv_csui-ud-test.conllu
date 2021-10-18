@@ -4,13 +4,13 @@
 # text_en = The residents came out with piles of garbage that had been separated between wet and dry waste in the trash; Cecep (17), his job is lighter because there is already garbage, no need to queue.
 1	Para	para	DET	_	Number=Plur	2	det	_	_
 2	warga	warga	NOUN	_	Number=Sing	4	nsubj	_	_
-3	padha	padha	ADV	_	_	4	advmod	_	Level=Ngoko
+3	padha	padha	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
 4	metu	metu	VERB	_	Voice=Act	0	root	_	_
 5	karo	karo	SCONJ	_	_	6	mark	_	_
 6	nggowoni	gowo	VERB	_	Voice=Act	4	advcl	_	_
 7	sampah	sampah	NOUN	_	Number=Sing	6	obj	_	_
 8	sing	sing	PRON	_	PronType=Rel	10	nsubj:pass	_	_
-9	wis	wis	AUX	_	_	10	aux	_	Level=Ngoko
+9	wis	wis	AUX	_	Polite=Infm	10	aux	_	Level=Ngoko
 10	dipisah	pisah	VERB	_	Voice=Pass	7	acl:relcl	_	_
 11-12	antarané	_	_	_	_	_	_	_	_
 11	antara	antara	NOUN	_	Number=Sing	12	nmod:lmod	_	_
@@ -36,7 +36,7 @@
 30	luwih	luwih	ADV	_	_	31	advmod	_	_
 31	énténg	énténg	ADV	_	_	4	parataxis	_	_
 32	amarga	amarga	SCONJ	_	_	34	mark	_	_
-33	wis	wis	AUX	_	_	34	aux	_	Level=Ngoko
+33	wis	wis	AUX	_	Polite=Infm	34	aux	_	Level=Ngoko
 34	didèwèné	dèwè	VERB	_	Voice=Act	31	advcl	_	_
 35-36	sampahé	_	_	_	_	_	_	_	SpaceAfter=No
 35	sampah	sampah	NOUN	_	Number=Sing	34	nsubj	_	_
@@ -90,7 +90,7 @@
 12	ya	ya	PART	_	_	16	advmod	_	_
 13	gene	gene	PRON	_	PronType=Dem	16	obl	_	_
 14	ora	ora	PART	_	Polarity=Neg|Polite=Infm	16	advmod	_	Level=Ngoko
-15	padha	padha	ADV	_	_	16	advmod	_	Level=Ngoko
+15	padha	padha	ADV	_	Polite=Infm	16	advmod	_	Level=Ngoko
 16	syukur	syukur	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
 17	?	?	PUNCT	_	_	16	punct	_	_
 
@@ -102,7 +102,7 @@
 1	Temon	temu	NOUN	_	Number=Sing	5	nsubj	_	_
 2	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
 3	ing	ing	ADP	_	_	4	case	_	_
-4	kana	kana	PRON	_	PronType=Dem	5	obl	_	_
+4	kana	kana	PRON	_	Polite=Infm|PronType=Dem	5	obl	_	Level=Ngoko
 5	wujud	wujud	VERB	_	Voice=Act	0	root	_	_
 6	prasasti	prasasti	NOUN	_	Number=Sing	5	obl	_	_
 7	watu	watu	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
@@ -328,7 +328,7 @@
 # text_en = The government came under the people in the people power revolution known as the EDSA II Revolution.
 1-2	Pamarèntahanipun	_	_	_	_	_	_	_	_
 1	Pamarèntahan	prèntah	NOUN	_	Number=Sing	3	nsubj:pass	_	_
-2	ipun	ipun	DET	_	_	1	det	_	Level=Krama
+2	ipun	ipun	DET	_	Definite=Def|Polite=Form|PronType=Art	1	det	_	Level=Krama
 3	dipunandhapaken	andhap	VERB	_	Voice=Pass	0	root	_	_
 4	rakyat	rakyat	NOUN	_	Number=Sing	3	obl	_	_
 5	wonten	wonten	VERB	_	Polite=Form|Voice=Act	3	advcl	_	Level=Krama
@@ -359,7 +359,7 @@
 4	kéwan-kéwan	kéwan-kéwan	NOUN	_	Number=Sing	3	obj	_	_
 5	punika	punika	DET	_	Polite=Form|PronType=Dem	4	det	_	Level=Krama
 6	ngantos	ngantos	ADP	_	_	8	case	_	_
-7	pinten-pinten	pinten	DET	_	Number=Plur	8	det	_	Level=Krama
+7	pinten-pinten	pinten	DET	_	Number=Plur|Polite=Form	8	det	_	Level=Krama
 8	jam	jam	NOUN	_	Number=Sing	3	obl	_	_
 9	lan	lan	CCONJ	_	_	10	cc	_	_
 10	ndamèl	damèl	VERB	_	Voice=Act	3	conj	_	_
@@ -583,12 +583,12 @@
 # text_en = Every creature will die and in the hereafter will be held responsibility for his actions.
 1	Saben	saben	DET	_	PronType=Tot	2	det	_	_
 2	makluk	makluk	NOUN	_	Number=Sing	4	nsubj	_	_
-3	bakal	bakal	AUX	_	_	4	aux	_	Level=Ngoko
+3	bakal	bakal	AUX	_	Polite=Infm	4	aux	_	Level=Ngoko
 4	mati	mati	VERB	_	Voice=Act	0	root	_	_
 5	lan	lan	CCONJ	_	_	9	cc	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
 7	akhirat	akhirat	NOUN	_	Number=Sing	9	obl	_	_
-8	bakal	bakal	AUX	_	_	9	aux	_	Level=Ngoko
+8	bakal	bakal	AUX	_	Polite=Infm	9	aux	_	Level=Ngoko
 9	dipertanggungjawabake	dipertanggungjawabake	VERB	_	Voice=Pass	4	conj	_	_
 10	ngenani	ngenani	ADP	_	_	11	case	_	_
 11-12	amalan-amalané	_	_	_	_	_	_	_	SpaceAfter=No
@@ -703,9 +703,9 @@
 # text_id = Tuhan telah menempatkan saya di Indonesia.
 # text_en = God has placed me in Indonesia.
 1	Allah	Allah	PROPN	_	_	3	nsubj	_	_
-2	wis	wis	AUX	_	_	3	aux	_	Level=Ngoko
+2	wis	wis	AUX	_	Polite=Infm	3	aux	_	Level=Ngoko
 3	ndokok	ndokok	VERB	_	Voice=Act	0	root	_	_
-4	aku	aku	PRON	_	Number=Sing|Person=1|PronType=Prs	3	obj	_	Level=Ngoko
+4	aku	aku	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	3	obj	_	Level=Ngoko
 5	ing	ing	ADP	_	_	6	case	_	_
 6	Indonésia	Indonésia	PROPN	_	_	3	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
@@ -773,7 +773,7 @@
 5	wadya	wadya	NOUN	_	Number=Sing	9	nsubj:pass	_	_
 6	bala	bala	NOUN	_	Number=Sing	5	compound	_	_
 7	Acèh	Acèh	PROPN	_	_	5	nmod:poss	_	_
-8	wis	wis	AUX	_	_	9	aux	_	Level=Ngoko
+8	wis	wis	AUX	_	Polite=Infm	9	aux	_	Level=Ngoko
 9	diantemi	antem	VERB	_	Voice=Pass	0	root	_	_
 10	bali	bali	VERB	_	Voice=Act	9	xcomp	_	_
 11	dening	dening	ADP	_	_	12	case	_	_
@@ -797,7 +797,7 @@
 # text_id = Ia pernah menjabat sebagai Kepala Inspeksi Kebudayaan di Sumatera.
 # text_en = He has served as Head of Cultural Inspection in Sumatra.
 1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
-2	wis	wis	AUX	_	_	4	aux	_	Level=Ngoko
+2	wis	wis	AUX	_	Polite=Infm	4	aux	_	Level=Ngoko
 3	tau	tau	VERB	_	Voice=Pass	2	fixed	_	_
 4	njabat	njabat	VERB	_	Voice=Act	0	root	_	_
 5	kepala	kepala	X	_	Foreign=Yes	4	obl	_	_
@@ -959,7 +959,7 @@
 # text_id = Dia adalah warga negara Argentina.
 # text_en = He is an Argentinian citizen.
 1	Piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	Level=Krama
-2	tiyang	tiyang	NOUN	_	Number=Sing	0	root	_	Level=Krama
+2	tiyang	tiyang	NOUN	_	Number=Sing|Polite=Form	0	root	_	Level=Krama
 3	warga	warga	NOUN	_	Number=Sing	2	nmod	_	_
 4	nagari	ganagari	NOUN	_	Number=Sing	3	nmod	_	_
 5	Argentina	Argentina	PROPN	_	_	3	nmod	_	SpaceAfter=No
@@ -1330,7 +1330,7 @@
 12	Gunung	Gunung	PROPN	_	_	8	nmod	_	_
 13	Crek-crek	Crek-crek	PROPN	_	_	12	flat:name	_	_
 14	ing	ing	ADP	_	_	15	case	_	_
-15	kana	kana	PRON	_	PronType=Dem	12	nmod	_	Level=Ngoko|SpaceAfter=No
+15	kana	kana	PRON	_	Polite=Infm|PronType=Dem	12	nmod	_	Level=Ngoko|SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	8	punct	_	_
 
@@ -1393,8 +1393,8 @@
 4	panganggit	anggit	NOUN	_	Number=Sing	2	obl	_	_
 5	haiku	haiku	X	_	Foreign=Yes	4	nmod	_	_
 6	paling	paling	ADV	_	_	7	advmod	_	_
-7	ageng	ageng	ADJ	_	_	4	amod	_	Level=Krama|SpaceAfter=No
-8	,	,	PUNCT	_	_	11	punct	_	_
+7	ageng	ageng	ADJ	_	Polite=Form	4	amod	_	Level=Krama|SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	Level=Krama
 9	inggih	yaiku	AUX	_	Polite=Form	11	aux	_	Level=Krama
 10	punika	punika	DET	_	Polite=Form|PronType=Dem	9	fixed	_	Level=Krama
 11	wangun	wangun	NOUN	_	Number=Sing	5	appos	_	_
@@ -1462,7 +1462,7 @@
 # text = Iki wujud jinis kanker paling umum kang ditandhang kaum wanita.
 # text_id = Ini adalah jenis kanker paling umum yang diderita wanita.
 # text_en = This is the most common type of cancer that women suffer from.
-1	Iki	iki	PRON	_	PronType=Dem	2	nsubj	_	Level=Ngoko
+1	Iki	iki	PRON	_	Polite=Infm|PronType=Dem	2	nsubj	_	Level=Ngoko
 2	wujud	wujud	NOUN	_	Number=Sing	0	root	_	_
 3	jinis	jinis	NOUN	_	Number=Sing	2	nmod	_	_
 4	kanker	kanker	NOUN	_	Number=Sing	3	nmod	_	_
@@ -1700,12 +1700,12 @@
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	namung	namung	ADV	_	_	7	advmod	_	_
 6	11	11	NUM	_	NumType=Card	7	nummod	_	_
-7	tiyang	tiyang	NOUN	_	Number=Sing	0	root	_	Level=Krama
+7	tiyang	tiyang	NOUN	_	Number=Sing|Polite=Form	0	root	_	Level=Krama
 8	ingkang	ingkang	PRON	_	PronType=Rel	9	nsubj	_	_
 9	dipuntampi	tampi	VERB	_	Voice=Pass	7	acl:relcl	_	_
 10	saking	saking	ADP	_	_	13	case	_	_
 11	2.396	2.396	NUM	_	NumType=Card	13	nummod	_	_
-12	tiyang	tiyang	NOUN	_	Number=Sing	13	clf	_	Level=Krama
+12	tiyang	tiyang	NOUN	_	Number=Sing|Polite=Form	13	clf	_	Level=Krama
 13	pelamar	lamar	NOUN	_	Number=Sing	9	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -1880,7 +1880,7 @@
 3	inggih	yaiku	AUX	_	Polite=Form	5	cop	_	Level=Krama
 4	punika	punika	DET	_	Polite=Form|PronType=Dem	3	fixed	_	Level=Krama
 5	bapak	bapak	NOUN	_	Number=Sing	0	root	_	_
-6	ageng	ageng	ADJ	_	_	5	amod	_	Level=Krama
+6	ageng	ageng	ADJ	_	Polite=Form	5	amod	_	Level=Krama
 7	ing	ing	ADP	_	_	8	case	_	_
 8	hidrostatika	hidrostatika	X	_	Foreign=Yes	5	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
@@ -1893,14 +1893,14 @@
 2	Márquez	Márquez	PROPN	_	_	1	flat:name	_	_
 3	kanthi	kanthi	ADP	_	_	4	case:adv	_	_
 4	umum	umum	ADJ	_	_	5	advmod	_	_
-5	dipuntingali	tingal	VERB	_	Voice=Pass	0	root	_	Level=Krama
+5	dipuntingali	tingal	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
 6	minangka	minangka	ADP	_	_	7	case	_	_
 7	protagonis	protagonis	X	_	Foreign=Yes	5	obl	_	_
 8	saking	saking	ADP	_	_	9	case	_	_
 9	gaya	gaya	NOUN	_	Number=Sing	7	nmod	_	_
 10	sastra	sastra	NOUN	_	Number=Sing	9	nmod	_	_
 11	ingkang	ingkang	PRON	_	PronType=Rel	12	nsubj	_	_
-12	dipunkenal	kenal	VERB	_	Voice=Pass	9	acl:relcl	_	Level=Krama
+12	dipunkenal	kenal	VERB	_	Polite=Form|Voice=Pass	9	acl:relcl	_	Level=Krama
 13	minangka	minangka	ADP	_	_	14	case	_	_
 14	realisme	realisme	X	_	Foreign=Yes	12	obl	_	_
 15	magis	magis	ADJ	_	_	14	amod	_	SpaceAfter=No

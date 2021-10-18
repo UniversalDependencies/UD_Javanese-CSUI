@@ -35,7 +35,7 @@
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="22">
-    <feat name="Definite" value="Def" upos="DET">9</feat><!-- é, ipun, nipun -->
+    <feat name="Definite" value="Def" upos="DET">10</feat><!-- é, ipun, nipun -->
     <feat name="Definite" value="Ind" upos="DET">2</feat><!-- sawijining -->
     <feat name="Foreign" value="Yes" upos="X">81</feat><!-- eutanasia, penerbangan, jumlah, marksman, Burger, Kelinci, Kriteria, Penambahan, Pesawat, all-aspect -->
     <feat name="Number" value="Plur" upos="DET,NOUN">12</feat><!-- para, Akèh-akèhe, Karakter-karakter, Pira-pira, amalan-amalan, bangsa-bangsa, istri-istri, pinten-pinten, putusan-putusan -->
@@ -46,9 +46,9 @@
     <feat name="Person" value="2" upos="PRON">2</feat><!-- Sira, mu -->
     <feat name="Person" value="3" upos="PRON">34</feat><!-- é, piyambakipun, ipun, né, dhèwèké, Panjenenganipun, nipun, dèwèé, panjenengané -->
     <feat name="Polarity" value="Neg" upos="PART">2</feat><!-- ora -->
-    <feat name="Polite" value="Form" upos="ADJ,AUX,DET,NOUN,PRON,VERB">48</feat><!-- punika, ipun, inggih, piyambakipun, nipun, Panjenenganipun, sedaya, wonten, kalih, kaping -->
-    <feat name="Polite" value="Infm" upos="ADJ,AUX,DET,PART,PRON,VERB">54</feat><!-- é, yaiku, iki, isa, né, ana, dhèwèké, iku, kabèh, ora -->
-    <feat name="PronType" value="Art" upos="DET">11</feat><!-- é, ipun, nipun, sawijining -->
+    <feat name="Polite" value="Form" upos="ADJ,AUX,DET,NOUN,PRON,VERB">57</feat><!-- punika, ipun, inggih, piyambakipun, nipun, Panjenenganipun, tiyang, ageng, sedaya, wonten -->
+    <feat name="Polite" value="Infm" upos="ADJ,ADV,AUX,DET,PART,PRON,VERB">67</feat><!-- é, yaiku, iki, isa, né, wis, ana, dhèwèké, iku, padha -->
+    <feat name="PronType" value="Art" upos="DET">12</feat><!-- é, ipun, nipun, sawijining -->
     <feat name="PronType" value="Dem" upos="DET,PRON">30</feat><!-- punika, iki, mau, kana, gene, kuwi, semana -->
     <feat name="PronType" value="Emp" upos="DET">1</feat><!-- piyambak -->
     <feat name="PronType" value="Prs" upos="PRON">38</feat><!-- é, piyambakipun, ipun, né, dhèwèké, Panjenenganipun, nipun, Sira, aku, dhèknè -->
