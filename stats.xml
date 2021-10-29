@@ -15,49 +15,49 @@
   <fusions unique="41" /><!-- antarané, Bapaké, Jenengé, Karyané, Pamarèntahanipun, Temoné, Umurku, Warnané, adaté, amalan-amalané, analisisipun, ayahipun, contohé, dhuwurmu, dhèknèné -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">77</tag><!-- pungkasan, ageng, umum, apik, kapisanan, langka, lokal, pertama, pungkas, rikat -->
-    <tag name="ADP">186</tag><!-- ing, minangka, nalika, kanthi, saka, saking, déning, kaliyan, karo, Nganti -->
+    <tag name="ADJ">78</tag><!-- pungkas, ageng, umum, apik, kapisanan, langka, lokal, pertama, rikat, salah -->
+    <tag name="ADP">185</tag><!-- ing, minangka, nalika, kanthi, saka, saking, déning, kaliyan, karo, Nganti -->
     <tag name="ADV">65</tag><!-- paling, lajeng, kadang, keno, uga, ugi, banjur, kurang, malih, mligi -->
     <tag name="AUX">37</tag><!-- yaiku, inggih, wis, bisa, saged, bakal, kedah, kudu, pengen -->
     <tag name="CCONJ">51</tag><!-- lan, utawa, nanging, karo, sarta, utawi -->
     <tag name="DET">70</tag><!-- punika, é, iki, ipun, akèh, mau, para, satunggal, sawiji, sedaya -->
     <tag name="INTJ">1</tag><!-- Oh -->
-    <tag name="NOUN">391</tag><!-- taun, tanggal, usaha, kaping, sampah, tembang, tiyang, basa, gelar, présidhèn -->
+    <tag name="NOUN">390</tag><!-- taun, tanggal, usaha, kaping, sampah, tembang, tiyang, basa, gelar, présidhèn -->
     <tag name="NUM">112</tag><!-- 3, 1, 5, 11, 12, 1994, 2006, 1101, 17, 1920 -->
     <tag name="PART">8</tag><!-- ora, boten, pun, ya -->
-    <tag name="PRON">107</tag><!-- ingkang, é, ipun, kang, piyambakipun, dhèwèké, panjenenganipun, opo, aku, kabèh -->
+    <tag name="PRON">108</tag><!-- ingkang, é, ipun, kang, piyambakipun, dhèwèké, panjenenganipun, opo, aku, kabèh -->
     <tag name="PROPN">333</tag><!-- Perang, Amérika, présidhèn, AS, Arab, II, IKEA, Inggris, Prancis, Sarékat -->
     <tag name="PUNCT">301</tag><!-- ., ,, ", (, ), -, :, ?, ', ! -->
-    <tag name="SCONJ">24</tag><!-- amargi, nalika, tanpa, yèn, amarga, bilih, kaliyan, kang, kanggo, kanggé -->
+    <tag name="SCONJ">23</tag><!-- amargi, nalika, tanpa, yèn, amarga, bilih, kaliyan, kanggo, kanggé, kanti -->
     <tag name="SYM">4</tag><!-- % -->
     <tag name="VERB">196</tag><!-- dadi, dados, ana, kenal, wonten, olèh, operasi, tingal, deleng, eliminasi -->
-    <tag name="X">98</tag><!-- eutanasia, semifinalis, jumlah, marksman, subunit, terbang, turnamèn, Kelinci, all-aspect, all-weather -->
+    <tag name="X">99</tag><!-- eutanasia, semifinalis, jumlah, marksman, subunit, terbang, turnamèn, Kelinci, all-aspect, all-weather -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="27">
     <feat name="Abbr" value="Yes" upos="AUX">5</feat><!-- isa -->
-    <feat name="Definite" value="Def" upos="DET">12</feat><!-- é, ipun, nipun -->
-    <feat name="Definite" value="Ind" upos="DET">6</feat><!-- sawijining, satunggaling, seorang -->
-    <feat name="Foreign" value="Yes" upos="X">97</feat><!-- eutanasia, penerbangan, semifinalis, jumlah, marksman, subunit, turnamèn, Burger, Kelinci, Kriteria -->
+    <feat name="Definite" value="Def" upos="DET">13</feat><!-- é, ipun, nipun, ing -->
+    <feat name="Definite" value="Ind" upos="DET">5</feat><!-- sawijining, satunggaling -->
+    <feat name="Foreign" value="Yes" upos="X">98</feat><!-- eutanasia, penerbangan, semifinalis, jumlah, marksman, subunit, turnamèn, Burger, Kelinci, Kriteria -->
     <feat name="Mood" value="Ind" upos="VERB">154</feat><!-- dados, dipunkenal, olèh, wonten, dipuneliminasi, dipunsebat, gadhah, gagal, kapisah, ketingal -->
     <feat name="Number" value="Plur" upos="DET,NOUN">18</feat><!-- para, akèh, sapérangan, Akèh-akèhe, Karakter-karakter, Pira-pira, amalan-amalan, bangsa-bangsa, istri-istri, pinten-pinten -->
-    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">388</feat><!-- taun, ipun, piyambakipun, é, né, perusahaan, tanggal, kaping, sampah, tembang -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON">387</feat><!-- taun, ipun, piyambakipun, é, né, perusahaan, tanggal, kaping, sampah, tembang -->
     <feat name="NumType" value="Card" upos="NUM">112</feat><!-- 3, 1, 5, 11, 12, 1994, 2006, 1101, 17, 1948 -->
     <feat name="NumType" value="Ord" upos="ADJ">3</feat><!-- kapisanan, kapitu, pertama -->
     <feat name="Person" value="1" upos="PRON">3</feat><!-- aku, ku -->
     <feat name="Person" value="2" upos="PRON">2</feat><!-- Sira, mu -->
     <feat name="Person" value="3" upos="PRON">50</feat><!-- ipun, piyambakipun, é, né, dhèwèké, panjenenganipun, nipun, Piyambaké, dhèwèé, panjenengané -->
     <feat name="Polarity" value="Neg" upos="PART">6</feat><!-- ora, boten, mboten -->
-    <feat name="Polite" value="Elev" upos="ADP,NOUN,PRON,SCONJ,VERB">19</feat><!-- nalika, panjenenganipun, asma, asta, dipuntapakastani, miyos, ngendika, panjenengané -->
-    <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,SCONJ,VERB">195</feat><!-- punika, ingkang, ipun, piyambakipun, inggih, saking, dados, lajeng, nipun, tiyang -->
-    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,SCONJ,VERB">203</feat><!-- lan, é, kang, yaiku, iki, dadi, né, isa, wis, ana -->
-    <feat name="PronType" value="Art" upos="DET">18</feat><!-- é, ipun, sawijining, nipun, satunggaling, seorang -->
+    <feat name="Polite" value="Elev" upos="ADP,NOUN,PRON,SCONJ,VERB">22</feat><!-- nalika, panjenenganipun, asma, asta, dipuntapakastani, miyos, ngendika, panjenengané -->
+    <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,SCONJ,VERB">204</feat><!-- punika, ingkang, ipun, piyambakipun, pungkasan, inggih, saking, kaliyan, dados, lajeng -->
+    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,SCONJ,VERB">234</feat><!-- lan, é, kang, yaiku, iki, dadi, né, isa, utawa, wis -->
+    <feat name="PronType" value="Art" upos="DET">18</feat><!-- é, ipun, sawijining, nipun, satunggaling, ing -->
     <feat name="PronType" value="Dem" upos="DET,PRON">43</feat><!-- punika, iki, mau, iku, kana, gene, kuwi, ngene, semana -->
     <feat name="PronType" value="Emp" upos="DET">1</feat><!-- piyambak -->
     <feat name="PronType" value="Ind" upos="DET">12</feat><!-- para, akèh, sapérangan, Akèh-akèhe, Pira-pira, pinten-pinten -->
     <feat name="PronType" value="Int" upos="ADV">4</feat><!-- Keno, sepira -->
     <feat name="PronType" value="Prs" upos="PRON">56</feat><!-- ipun, piyambakipun, é, né, dhèwèké, panjenenganipun, aku, nipun, Piyambaké, Sira -->
-    <feat name="PronType" value="Rel" upos="PRON">42</feat><!-- ingkang, kang, opo, sing, apa-apa -->
+    <feat name="PronType" value="Rel" upos="PRON">43</feat><!-- ingkang, kang, opo, sing, apa-apa -->
     <feat name="PronType" value="Tot" upos="DET,PRON">5</feat><!-- kabèh, sedaya, Saben -->
     <feat name="Reflex" value="Yes" upos="PRON">1</feat><!-- dhèknè -->
     <feat name="Voice" value="Act" upos="VERB">131</feat><!-- dadi, ana, dados, olèh, wonten, gadhah, gagal, mati, mbayar, nggayuh -->
@@ -65,15 +65,15 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="40">
-    <dep name="acl">18</dep>
-    <dep name="acl:relcl">31</dep>
+    <dep name="acl">19</dep>
+    <dep name="acl:relcl">30</dep>
     <dep name="advcl">37</dep>
     <dep name="advmod">77</dep>
     <dep name="advmod:emph">2</dep>
     <dep name="amod">53</dep>
     <dep name="appos">24</dep>
     <dep name="aux">22</dep>
-    <dep name="case">183</dep>
+    <dep name="case">182</dep>
     <dep name="case:adv">2</dep>
     <dep name="cc">51</dep>
     <dep name="ccomp">2</dep>
@@ -82,23 +82,23 @@
     <dep name="conj">68</dep>
     <dep name="cop">15</dep>
     <dep name="csubj">1</dep>
-    <dep name="dep">7</dep>
+    <dep name="dep">8</dep>
     <dep name="det">61</dep>
     <dep name="discourse">1</dep>
     <dep name="fixed">11</dep>
     <dep name="flat">19</dep>
     <dep name="flat:foreign">21</dep>
     <dep name="flat:name">113</dep>
-    <dep name="mark">24</dep>
-    <dep name="nmod">215</dep>
+    <dep name="mark">23</dep>
+    <dep name="nmod">214</dep>
     <dep name="nmod:lmod">9</dep>
     <dep name="nmod:poss">34</dep>
     <dep name="nmod:tmod">5</dep>
-    <dep name="nsubj">148</dep>
-    <dep name="nsubj:pass">30</dep>
+    <dep name="nsubj">145</dep>
+    <dep name="nsubj:pass">33</dep>
     <dep name="nummod">89</dep>
     <dep name="obj">53</dep>
-    <dep name="obl">138</dep>
+    <dep name="obl">140</dep>
     <dep name="obl:agent">6</dep>
     <dep name="obl:tmod">40</dep>
     <dep name="parataxis">8</dep>
