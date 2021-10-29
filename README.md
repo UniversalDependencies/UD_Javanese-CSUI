@@ -18,7 +18,7 @@ Javanese has three language levels: Krama, Madya, and Ngoko. In this initial ver
 
 ## References
 
-Note: a paper about the development of this treebank will come soon ;-)
+Note: a paper about the development of this treebank is coming soon ;-)
 
 
 # Changelog
