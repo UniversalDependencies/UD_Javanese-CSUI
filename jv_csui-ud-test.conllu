@@ -1,17 +1,17 @@
 # sent_id = 1
-# text = Para warga padha metu karo nggowoni sampah sing wis dipisah antarané sampah tèlès lan sampah garing ing sajroning bak sampah; Cecep (17), gawéané luwih énténg amarga wis didèwèné sampahé, dèwèé ora pèrlu antri.
-# text_id = Para warga keluar dengan membawa tumpukan sampah yang sudah dipisahkan antara sampah basah dan sampah kering di dalam tempat sampah; Cecep (17), pekerjaannya lebih ringan karena sudah ada sampahnya, tidak perlu antri.
-# text_en = The residents came out with piles of garbage that had been separated between wet and dry waste in the trash; Cecep (17), his job is lighter because there is already garbage, no need to queue.
+# text =	Para warga padha metu karo nggawani sampah sing wis dipisah antarané sampah tèlès lan sampah garing ing sajroning bak sampah; Cecep (17), gawéané luwih énténg amarga wis didhèwèkaké sampahé, dhèwèé ora pèrlu antri.
+# text_id = Para warga keluar dengan membawa tumpukan sampah yang sudah dipisahkan antara sampah basah dan sampah kering di dalam tempat sampah; Cecep (17), pekerjaannya lebih ringan karena sudah dipisahkan sampahnya, tidak perlu antri.
+# text_en = The residents came out with piles of garbage that had been separated between wet and dry waste in the trash; Cecep (17), his work is lighter because the garbage has been separated, no need to queue
 1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	warga	warga	NOUN	_	Number=Sing	4	nsubj	_	_
 3	padha	padha	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
-4	metu	metu	VERB	_	Voice=Act	0	root	_	Level=Ngoko
+4	metu	metu	VERB	_	Mood=Ind|Voice=Act	0	root	_	Level=Ngoko
 5	karo	karo	SCONJ	_	_	6	mark	_	Level=Ngoko
-6	nggowoni	gowo	VERB	_	Voice=Act	4	advcl	_	Level=Ngoko
+6	nggawani	gawa	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	Level=Ngoko
 7	sampah	sampah	NOUN	_	Number=Sing	6	obj	_	_
 8	sing	sing	PRON	_	PronType=Rel	10	nsubj:pass	_	Level=Ngoko
 9	wis	wis	AUX	_	Polite=Infm	10	aux	_	Level=Ngoko
-10	dipisah	pisah	VERB	_	Voice=Pass	7	acl:relcl	_	_
+10	dipisah	pisah	VERB	_	Mood=Ind|Voice=Pass	7	acl:relcl	_	_
 11-12	antarané	_	_	_	_	_	_	_	_
 11	antara	antara	NOUN	_	Number=Sing	12	nmod:lmod	_	_
 12	né	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	10	obl	_	Level=Ngoko
@@ -37,15 +37,15 @@
 31	énténg	énténg	ADV	_	_	4	parataxis	_	_
 32	amarga	amarga	SCONJ	_	_	34	mark	_	_
 33	wis	wis	AUX	_	Polite=Infm	34	aux	_	Level=Ngoko
-34	didèwèné	dèwè	VERB	_	Voice=Act	31	advcl	_	_
+34	didhèwèkaké	dhèwè	VERB	_	Mood=Ind|Voice=Act	31	advcl	_	_
 35-36	sampahé	_	_	_	_	_	_	_	SpaceAfter=No
 35	sampah	sampah	NOUN	_	Number=Sing	34	nsubj	_	_
 36	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	35	det	_	Level=Ngoko
 37	,	,	PUNCT	_	_	40	punct	_	_
-38	dèwèé	dèwèé	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	40	nsubj	_	Level=Ngoko
+38	dhèwèé	dhèwè	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	40	nsubj	_	Level=Ngoko
 39	ora	ora	PART	_	Polarity=Neg|Polite=Infm	40	advmod	_	Level=Ngoko
-40	pèrlu	pèrlu	VERB	_	Voice=Act	34	advcl	_	_
-41	antri	antri	VERB	_	Voice=Act	40	xcomp	_	SpaceAfter=No
+40	pèrlu	pèrlu	VERB	_	Mood=Ind|Voice=Act	34	advcl	_	_
+41	antri	antri	VERB	_	Mood=Ind|Voice=Act	40	xcomp	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 2
@@ -67,21 +67,21 @@
 11	Korawa	Korawa	PROPN	_	_	8	nmod:poss	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13-14	miyosipun	_	_	_	_	_	_	_	_
-13	miyos	miyos	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
+13	miyos	miyos	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 14	ipun	ipun	DET	_	Definite=Def|Polite=Form|PronType=Art	13	det	_	Level=Krama
 15	wuta	wuta	ADJ	_	_	13	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 3
 # text = Sira banjur didangu sarupaning kabungahan paparinging Allah nalika ing donya, ya gene ora padha syukur?
-# text_id = Dan ketika Anda ditanya tentang sukacita Allah di dunia, mengapa mereka tidak bersyukur?
-# text_en = And when you are asked about God's joy in the world, why are they not grateful?
+# text_id = Kemudian anda ditanya tentang berkah Allah di dunia, mengapa mereka tidak bersyukur?
+# text_en = Then you are asked about God's blessings in the world, why are they not grateful?
 1	Sira	sira	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj:pass	_	_
 2	banjur	banjur	ADV	_	_	3	advmod	_	_
-3	didangu	dangu	VERB	_	Voice=Pass	16	advcl	_	Level=Krama
+3	didangu	dangu	VERB	_	Mood=Ind|Voice=Pass	16	advcl	_	Level=Krama
 4	sarupaning	rupa	NOUN	_	Number=Sing	3	obl	_	_
 5	kabungahan	bungah	NOUN	_	Number=Sing	4	nmod	_	_
-6	paparinging	paring	VERB	_	Voice=Pass	4	acl:relcl	_	_
+6	paparinging	paring	VERB	_	Mood=Ind|Voice=Pass	4	acl:relcl	_	_
 7	Allah	Allah	PROPN	_	_	6	obl	_	_
 8	nalika	nalika	ADP	_	_	10	case	_	_
 9	ing	ing	ADP	_	_	10	case	_	_
@@ -91,7 +91,7 @@
 13	gene	gene	PRON	_	PronType=Dem	16	obl	_	_
 14	ora	ora	PART	_	Polarity=Neg|Polite=Infm	16	advmod	_	Level=Ngoko
 15	padha	padha	ADV	_	Polite=Infm	16	advmod	_	Level=Ngoko
-16	syukur	syukur	VERB	_	Voice=Act	0	root	_	SpaceAfter=No
+16	syukur	syukur	VERB	_	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No
 17	?	?	PUNCT	_	_	16	punct	_	_
 
 # sent_id = 4
@@ -103,7 +103,7 @@
 2	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
 3	ing	ing	ADP	_	_	4	case	_	_
 4	kana	kana	PRON	_	Polite=Infm|PronType=Dem	5	obl	_	Level=Ngoko
-5	wujud	wujud	VERB	_	Voice=Act	0	root	_	_
+5	wujud	wujud	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	prasasti	prasasti	NOUN	_	Number=Sing	5	obl	_	_
 7	watu	watu	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
@@ -112,7 +112,7 @@
 # text = Sadèrèngipun Perang Dunia II, 14 radio komersial lan 12 radio umum ingkang saged dipunoperasikaken ing Prancis.
 # text_id = Sebelum Perang Dunia II, 14 radio komersial dan 12 radio publik dapat dioperasikan di Prancis.
 # Prior to World War II, 14 commercial and 12 public radios could be operated in France.
-1	Sadèrèngipun	sadèrèngipun	ADP	_	_	2	case	_	_
+1	Sadèrèngipun	dèrèng	ADP	_	_	2	case	_	_
 2	Perang	Perang	PROPN	_	_	15	obl	_	_
 3	Dunia	Dunia	PROPN	_	_	2	flat:name	_	_
 4	II	II	PROPN	_	_	2	flat:name	_	SpaceAfter=No
@@ -126,19 +126,19 @@
 12	umum	umum	ADJ	_	_	11	amod	_	_
 13	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	15	nsubj	_	Level=Krama
 14	saged	saged	AUX	_	Polite=Form	15	aux	_	Level=Krama
-15	dipunoperasikaken	operasi	VERB	_	Polite=Form|Voice=Pass	7	acl:relcl	_	Level=Krama
+15	dipunoperasikaken	operasi	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	7	acl:relcl	_	Level=Krama
 16	ing	ing	ADP	_	_	17	case	_	_
 17	Prancis	Prancis	PROPN	_	_	15	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 6
-# text = Semono uga ing sakjumlah perkutut kagem Bapak.
+# text = Semana uga ing sapérangan perkutut kagem Bapak.
 # text_id = Hal yang sama berlaku untuk sejumlah perkutut untuk Anda.
 # text_en = The same goes for a number of pigeons for you.
-1	Semono	semono	ADJ	_	_	0	root	_	_
+1	Semana	semana	ADJ	_	_	0	root	_	_
 2	uga	uga	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
 3	ing	ing	ADP	_	_	5	case	_	_
-4	sakjumlah	jumlah	DET	_	Number=Plur|PronType=Ind	5	det	_	_
+4	sapérangan	pérang	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	perkutut	perkutut	NOUN	_	Number=Sing	1	obl	_	_
 6	kagem	kagem	ADP	_	_	7	case	_	_
 7	Bapak	Bapak	PROPN	_	_	1	obl	_	SpaceAfter=No
@@ -151,11 +151,11 @@
 1	Kriteria	kriteria	X	_	Foreign=Yes	4	nsubj:pass	_	_
 2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 3	kedah	kedah	AUX	_	Polite=Form	4	aux	_	Level=Krama
-4	dipunterapaken	terap	VERB	_	Voice=Pass	0	root	_	_
+4	dipunterapaken	terap	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 5	ing	ing	ADP	_	_	6	case	_	_
 6	konsekuensi-konsekuensi	konsekuensi	X	_	Foreign=Yes	4	obl	_	_
 7	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	8	nsubj	_	Level=Krama
-8	timbul	timbul	VERB	_	Voice=Act	6	acl:relcl	_	_
+8	timbul	timbul	VERB	_	Mood=Ind|Voice=Act	6	acl:relcl	_	_
 9	saking	saking	ADP	_	Polite=Form	10	case	_	Level=Krama
 10	putusan-putusan	putus	NOUN	_	Number=Plur	8	obl	_	_
 11	etis	etis	X	_	Foreign=Yes	10	dep	_	SpaceAfter=No
@@ -186,13 +186,13 @@
 18	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 9
-# text = Jenengé disebutake kaping 27 ing Al-Quran.
+# text = Jenengé disebutaké kaping 27 ing Al-Quran.
 # text_id = Namanya disebut sebanyak 27 kali dalam Al-Qur'an.
 # text_en = His name is mentioned 27 times in the Qur'an.
 1-2	Jenengé	_	_	_	_	_	_	_	_
 1	Jeneng	jeneng	NOUN	_	Number=Sing|Polite=Infm	3	nsubj	_	Level=Ngoko
 2	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
-3	disebutake	sebut	VERB	_	Voice=Pass	0	root	_	_
+3	disebutaké	sebut	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 4	kaping	kaping	NOUN	_	Number=Sing	3	obl	_	_
 5	27	27	NUM	_	NumType=Card	4	nummod	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
@@ -205,19 +205,19 @@
 # text_en = Example: how tall are you?
 1	Tuladha	tuladha	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	_
-3	sepira	sepira	ADV	_	_	4	advmod	_	_
+3	sepira	pira	ADV	_	Polite=Infm|PronType=Int	4	advmod	_	Level=Ngoko
 4-5	dhuwurmu	_	_	_	_	_	_	_	SpaceAfter=No
 4	dhuwur	dhuwur	NOUN	_	Number=Sing	1	parataxis	_	_
-5	mu	mu	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nmod:poss	_	_
+5	mu	mu	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nmod:poss	_	Level=Ngoko
 6	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 11
 # text = Ngudhunaké tekanan darah.
 # text_id = Menurunkan tekanan darah.
 # text_en = Lowering blood pressure.
-1	Ngudhunaké	mudhun	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-2	tekanan	tekan	NOUN	_	Number=Sing	1	obl	_	_
-3	darah	darah	NOUN	_	Number=Sing	2	nmod	_	SpaceAfter=No
+1	Ngudhunaké	udhun	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
+2	tekanan	tekan	X	_	Foreign=Yes	1	obl	_	_
+3	darah	darah	X	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 12
@@ -225,7 +225,7 @@
 # text_id = Ini mengakomodasi tradisi lama aturan badan kolektif di Swiss.
 # text_en = It accommodates the long tradition of collective institutional rule in Switzerland.
 1	Punika	punika	PRON	_	Polite=Form|PronType=Dem	2	nsubj	_	Level=Krama
-2	nampung	tampung	VERB	_	Voice=Act	0	root	_	_
+2	nampung	tampung	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	tradhisi	tradhisi	NOUN	_	Number=Sing	2	obj	_	_
 4	lawas	lawas	ADJ	_	_	3	amod	_	_
 5	saking	saking	ADP	_	Polite=Form	6	case	_	Level=Krama
@@ -256,7 +256,7 @@
 # text = Miturut American Opera Association, Rigoletto inggih punika opera nomer 9 ingkang paling asring dipuntontonaken ing Amérika Utara.
 # text_id = Menurut American Opera Association, Rigoletto adalah opera ke-9 yang paling sering dimainkan di Amerika Utara.
 # text_en = According to the American Opera Association, Rigoletto is the 9th most played opera in North America.
-1	Miturut	Miturut	ADP	_	Polite=Form	2	case	_	Level=Krama
+1	Miturut	turut	ADP	_	Polite=Form	2	case	_	Level=Krama
 2	American	American	PROPN	_	_	10	nmod	_	_
 3	Opera	Opera	PROPN	_	_	2	flat:name	_	_
 4	Association	Asscociation	PROPN	_	_	2	flat:name	_	SpaceAfter=No
@@ -270,7 +270,7 @@
 12	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	14	nsubj	_	Level=Krama
 13	paling	paling	ADV	_	_	14	advmod	_	_
 14	asring	asring	ADJ	_	_	9	acl:relcl	_	_
-15	dipuntontonaken	tonton	VERB	_	Voice=Pass	14	xcomp	_	_
+15	dipuntontonaken	tonton	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	14	xcomp	_	Level=Krama
 16	ing	ing	ADP	_	_	17	case	_	_
 17	Amérika	Amérika	PROPN	_	_	15	obl	_	_
 18	Utara	Utara	PROPN	_	_	17	flat:name	_	SpaceAfter=No
@@ -297,7 +297,7 @@
 4-5	adaté	_	_	_	_	_	_	_	_
 4	adat	adat	NOUN	_	Number=Sing	6	obl	_	_
 5	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	Level=Ngoko
-6	lumaku	laku	VERB	_	Voice=Pass	0	root	_	_
+6	lumaku	laku	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 7	mligi	mligi	ADV	_	_	9	advmod	_	_
 8	ing	ing	ADP	_	_	9	case	_	_
 9	tataran	tatar	NOUN	_	Number=Sing	6	obl	_	_
@@ -305,33 +305,33 @@
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 17
-# text = ASP.NET bisa minangka ngekspos fungsi bisnis ing partner lumantar protokol web standar.
+# text = ASP.NET saged minangka mêdhar piguna bisnis ing partner lumantar protokol web standar.
 # text_id = ASP.NET berfungsi sebagai pengekspos fungsi bisnis di mitra melalui protokol web standar.
 # text_en = ASP.NET functions as an expose of business functions in partners via standard web protocols.
 1	ASP.NET	ASP.NET	PROPN	_	_	2	nsubj	_	_
-2	bisa	bisa	VERB	_	Voice=Act	0	root	_	_
+2	saged	saged	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	minangka	minangka	ADP	_	_	4	case	_	_
-4	ngekspos	ngekspos	X	_	Foreign=Yes	2	obl	_	_
-5	fungsi	fungsi	X	_	Foreign=Yes	4	nmod	_	_
+4	mêdhar	wêdhar	NOUN	_	Number=Sing	2	obl	_	_
+5	piguna	guna	NOUN	_	Number=Sing	4	nmod	_	_
 6	bisnis	bisnis	X	_	Foreign=Yes	5	flat:foreign	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
 8	partner	partner	X	_	Foreign=Yes	5	nmod	_	_
-9	lumantar	lumantar	X	_	Foreign=Yes	8	flat:foreign	_	_
-10	protokol	protokol	X	_	Foreign=Yes	8	flat:foreign	_	_
+9	lumantar	lantar	ADP	_	_	10	case	_	_
+10	protokol	protokol	X	_	Foreign=Yes	8	nmod	_	_
 11	web	web	X	_	Foreign=Yes	8	flat:foreign	_	_
 12	standar	standar	X	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 18
-# text = Pamarèntahanipun dipunandhapaken rakyat wonten ing revolusi people power (kekiyatan rakyat) ingkang dipunkenal kanthi nami Revolusi EDSA II.
-# text_id = Pemerintahannya berada di bawah rakyat dalam revolusi kekuatan rakyat yang dikenal sebagai Revolusi EDSA II.
+# text = Pamarèntahanipun dipunlèngsèraken rakyat wonten ing revolusi people power (kekiyatan rakyat) ingkang dipunkenal kanthi jejuluk Revolusi EDSA II.
+# text_id = Pemerintahannya digulingkan rakyat dalam revolusi kekuatan rakyat yang dikenal sebagai Revolusi EDSA II.
 # text_en = The government came under the people in the people power revolution known as the EDSA II Revolution.
 1-2	Pamarèntahanipun	_	_	_	_	_	_	_	_
 1	Pamarèntahan	prèntah	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 2	ipun	ipun	DET	_	Definite=Def|Polite=Form|PronType=Art	1	det	_	Level=Krama
-3	dipunandhapaken	andhap	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
+3	dipunlèngsèraken	lèngsèr	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 4	rakyat	rakyat	NOUN	_	Number=Sing	3	obl	_	_
-5	wonten	wonten	VERB	_	Polite=Form|Voice=Act	3	advcl	_	Level=Krama
+5	wonten	wonten	VERB	_	Mood=Ind|Polite=Form|Voice=Act	3	advcl	_	Level=Krama
 6	ing	ing	ADP	_	_	7	case	_	_
 7	revolusi	revolusi	NOUN	_	Number=Sing	3	nmod	_	_
 8	people	people	X	_	Foreign=Yes	7	nmod	_	_
@@ -341,9 +341,9 @@
 12	rakyat	rakyat	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	11	punct	_	_
 14	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	15	nsubj:pass	_	Level=Krama
-15	dipunkenal	kenal	VERB	_	Voice=Pass	7	acl:relcl	_	_
+15	dipunkenal	kenal	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	7	acl:relcl	_	Level=Krama
 16	kanthi	kanthi	ADP	_	_	17	case	_	_
-17	nami	nami	NOUN	_	Number=Sing|Polite=Form	15	obl	_	Level=Krama
+17	jejuluk	juluk	NOUN	_	Number=Sing|Polite=Form	15	obl	_	Level=Krama
 18	Revolusi	Revolusi	PROPN	_	_	17	nmod	_	_
 19	EDSA	EDSA	PROPN	_	_	18	flat:name	_	_
 20	II	II	PROPN	_	_	18	flat:name	_	SpaceAfter=No
@@ -355,14 +355,14 @@
 # text_en = Potter would often observe these animals for hours and sketch them.
 1	Potter	Potter	PROPN	_	_	3	nsubj	_	_
 2	asring	asring	ADV	_	_	3	advmod	_	_
-3	nggatosakèn	nggatosakèn	VERB	_	Polite=Form|Voice=Act	0	root	_	Level=Krama
+3	nggatosakèn	nggatosakèn	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 4	kéwan-kéwan	kéwan-kéwan	NOUN	_	Number=Sing	3	obj	_	_
 5	punika	punika	DET	_	Polite=Form|PronType=Dem	4	det	_	Level=Krama
 6	ngantos	ngantos	ADP	_	Polite=Form	8	case	_	Level=Krama
 7	pinten-pinten	pinten	DET	_	Number=Plur|Polite=Form|PronType=Ind	8	det	_	Level=Krama
 8	jam	jam	NOUN	_	Number=Sing	3	obl	_	_
 9	lan	lan	CCONJ	_	_	10	cc	_	_
-10	ndamèl	damèl	VERB	_	Polite=Form|Voice=Act	3	conj	_	Level=Krama
+10	ndamèl	damèl	VERB	_	Mood=Ind|Polite=Form|Voice=Act	3	conj	_	Level=Krama
 11-12	gambaripun	_	_	_	_	_	_	_	SpaceAfter=No
 11	gambar	gambar	NOUN	_	Number=Sing	10	obl	_	_
 12	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	11	nmod:poss	_	Level=Krama
@@ -386,7 +386,7 @@
 1	Sastra	Sastra	PROPN	_	_	4	nsubj	_	_
 2	dan	dan	PROPN	_	_	1	flat:name	_	_
 3	Religiositas	Religiositas	PROPN	_	_	1	flat:name	_	_
-4	mimpanganken	mimpang	VERB	_	Polite=Form|Voice=Act	0	root	_	Level=Krama
+4	mimpanganken	mimpang	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 5	bebingah	bebingah	NOUN	_	Number=Sing	4	obj	_	_
 6	buku	buku	NOUN	_	Number=Sing	5	nmod	_	_
 7	non-fiksi	non-fiksi	X	_	Foreign=Yes	5	dep	_	_
@@ -408,8 +408,8 @@
 6	Shihab	Shihab	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	Présidhèn	Présidhèn	PROPN	_	_	9	nsubj	_	_
-9	gagal	gagal	VERB	_	Voice=Act	0	root	_	_
-10	nyegah	nyegah	VERB	_	Voice=Act	9	xcomp	_	_
+9	gagal	gagal	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+10	nyegah	nyegah	VERB	_	Mood=Ind|Voice=Act	9	xcomp	_	_
 11	perkawis	perkawis	NOUN	_	Number=Sing	10	obl	_	_
 12	punika	punika	DET	_	Polite=Form|PronType=Dem	11	det	_	Level=Krama
 13	dhateng	dhateng	ADP	_	_	14	case	_	_
@@ -442,7 +442,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 24
-# text = Jumlah subunit isa macem-macem malah ing sèl kang padha contohe ing Salmonella kang jumlah subunit antara 3, 4, utawa 5.
+# text = Jumlah subunit isa macem-macem malah ing sèl kang padha contohé ing Salmonella kang jumlah subunit antara 3, 4, utawa 5.
 # text_id = Jumlah subunit dapat bervariasi bahkan dalam sel yang sama misalnya pada Salmonella dimana jumlah subunit antara 3, 4, atau 5.
 # text_en = The number of subunits can vary even within the same cell for example in Salmonella where the number of subunits is between 3, 4, or 5.
 1	Jumlah	jumlah	X	_	Foreign=Yes	4	nsubj	_	_
@@ -454,20 +454,22 @@
 7	sèl	sèl	NOUN	_	Number=Sing	4	obl	_	_
 8	kang	kang	PRON	_	PronType=Rel	9	nsubj	_	_
 9	padha	padha	ADJ	_	Polite=Infm	7	acl:relcl	_	Level=Ngoko
-10	contohe	contohe	NOUN	_	Number=Sing	4	nmod	_	_
-11	ing	ing	ADP	_	_	12	case	_	_
-12	Salmonella	Salmonella	PROPN	_	_	10	nmod	_	_
-13	kang	kang	SCONJ	_	_	17	mark	_	_
-14	jumlah	jumlah	X	_	Foreign=Yes	17	nsubj	_	_
-15	subunit	subunit	X	_	Foreign=Yes	14	flat:foreign	_	_
-16	antara	antara	ADP	_	_	17	case	_	_
-17	3	3	NUM	_	NumType=Card	12	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	4	4	NUM	_	NumType=Card	17	conj	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
-21	utawa	utawa	CCONJ	_	_	22	cc	_	_
-22	5	5	NUM	_	NumType=Card	17	conj	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	4	punct	_	_
+10-11	contohé	_	_	_	_	_	_	_	_
+10	contoh	contoh	NOUN	_	Number=Sing	4	nmod	_	_
+11	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	10	det	_	_
+12	ing	ing	ADP	_	_	13	case	_	_
+13	Salmonella	Salmonella	PROPN	_	_	10	nmod	_	_
+14	kang	kang	SCONJ	_	_	18	mark	_	_
+15	jumlah	jumlah	X	_	Foreign=Yes	18	nsubj	_	_
+16	subunit	subunit	X	_	Foreign=Yes	15	flat:foreign	_	_
+17	antara	antara	ADP	_	_	18	case	_	_
+18	3	3	NUM	_	NumType=Card	13	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	4	4	NUM	_	NumType=Card	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	utawa	utawa	CCONJ	_	_	23	cc	_	_
+23	5	5	NUM	_	NumType=Card	18	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 25
 # text = Nalika ing Jakarta, Robby kenalan banjur dadi "murid" Prajudi.
@@ -478,7 +480,7 @@
 3	Jakarta	Jakarta	PROPN	_	_	6	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	Robby	Robby	PROPN	_	_	6	nsubj	_	_
-6	kenalan	kenal	VERB	_	Voice=Act	0	root	_	_
+6	kenalan	kenal	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	banjur	banjur	ADV	_	_	8	advmod	_	_
 8	dadi	dadi	VERB	_	Polite=Infm|Voice=Act	6	advcl	_	Level=Ngoko
 9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
@@ -533,8 +535,8 @@
 12	dhateng	dhateng	ADP	_	_	13	case	_	_
 13	baratdaya	baratdaya	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	dipunjadwalaken	jadwal	VERB	_	Voice=Pass	0	root	_	_
-16	dipunbikak	mbukak	VERB	_	Polite=Form|Voice=Pass	15	xcomp	_	Level=Krama
+15	dipunjadwalaken	jadwal	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
+16	dipunbikak	mbukak	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	15	xcomp	_	Level=Krama
 17	taun	taun	NOUN	_	Number=Sing	16	obl:tmod	_	_
 18	2015	2015	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	15	punct	_	_
@@ -559,14 +561,14 @@
 2	kekirangan	kekirangan	NOUN	_	Number=Sing	1	nmod	_	_
 3	buah	buah	NOUN	_	Number=Sing	2	nmod	_	_
 4	iki	iki	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
-5	diterangno	terang	VERB	_	Voice=Pass	0	root	_	_
+5	diterangno	terang	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	nggunakake	guna	VERB	_	Polite=Infm|Voice=Act	5	xcomp	_	Level=Ngoko
 7	jinis	jinis	NOUN	_	Number=Sing	6	obj	_	_
 8	lan	lan	CCONJ	_	Polite=Infm	9	cc	_	Level=Ngoko
 9	pathokan	pathok	NOUN	_	Number=Sing|Polite=Infm	7	conj	_	Level=Ngoko
 10	tanduran	tanduran	NOUN	_	Number=Sing|Polite=Infm	7	nmod	_	Level=Ngoko
 11	langka	langka	ADJ	_	_	10	amod	_	_
-12	miturut	miturut	VERB	_	Voice=Act	7	acl	_	_
+12	miturut	miturut	VERB	_	Mood=Ind|Voice=Act	7	acl	_	_
 13	Jinis	Jinis	PROPN	_	_	12	obl	_	Level=Ngoko
 14	Dhaptar	Dhaftar	PROPN	_	_	13	flat:name	_	Level=Ngoko
 15	Abang	Abang	PROPN	_	_	13	flat:name	_	Level=Ngoko
@@ -589,7 +591,7 @@
 6	ing	ing	ADP	_	_	7	case	_	_
 7	akhirat	akhirat	NOUN	_	Number=Sing	9	obl	_	_
 8	bakal	bakal	AUX	_	Polite=Infm	9	aux	_	Level=Ngoko
-9	dipertanggungjawabake	dipertanggungjawabake	VERB	_	Voice=Pass	4	conj	_	_
+9	dipertanggungjawabake	dipertanggungjawabake	VERB	_	Mood=Ind|Voice=Pass	4	conj	_	_
 10	ngenani	ngenani	ADP	_	_	11	case	_	_
 11-12	amalan-amalané	_	_	_	_	_	_	_	SpaceAfter=No
 11	amalan-amalan	amal	NOUN	_	Number=Plur	9	obl	_	_
@@ -611,10 +613,10 @@
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	12	nsubj	_	Level=Krama
 11	lajeng	lajeng	ADV	_	Polite=Form	12	advmod	_	Level=Krama
-12	ngangkat	ngangkat	VERB	_	Voice=Act	7	acl:relcl	_	_
+12	ngangkat	ngangkat	VERB	_	Mood=Ind|Voice=Act	7	acl:relcl	_	_
 13	Frederick	Frederick	PROPN	_	_	12	obj	_	_
 14	Haynes	Haynes	PROPN	_	_	13	flat:name	_	_
-15	dados	dados	VERB	_	Polite=Form|Voice=Act	12	xcomp	_	Level=Krama
+15	dados	dados	VERB	_	Mood=Ind|Polite=Form|Voice=Act	12	xcomp	_	Level=Krama
 16	présidhèn	présidhèn	NOUN	_	Number=Sing	15	obl	_	_
 17	perusahaan	usaha	NOUN	_	Number=Sing	16	nmod	_	_
 18	mau	mau	DET	_	Polite=Infm|PronType=Dem	17	det	_	Level=Ngoko|SpaceAfter=No
@@ -629,7 +631,7 @@
 3	lajeng	lajeng	ADV	_	Polite=Form	2	advmod	_	Level=Krama|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Jockie	Jockie	PROPN	_	_	6	nsubj	_	_
-6	nggabung	gabung	VERB	_	Voice=Act	0	root	_	_
+6	nggabung	gabung	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	malih	malih	ADV	_	Polite=Form	6	advmod	_	Level=Krama
 8	kaliyan	kaliyan	ADP	_	Polite=Form	9	case	_	Level=Krama
 9	God	God	PROPN	_	_	6	obl	_	_
@@ -650,18 +652,18 @@
 8	kang	kang	PRON	_	Polite=Infm|PronType=Rel	9	nsubj	_	Level=Ngoko
 9	diperlokaké	diperlokaké	VERB	_	Polite=Infm|Voice=Pass	6	acl:relcl	_	Level=Ngoko
 10	kanggo	kanggo	SCONJ	_	Polite=Infm	11	mark	_	Level=Ngoko
-11	nindak	tindak	VERB	_	Polite=Form|Voice=Act	9	advcl	_	Level=Krama
+11	nindak	tindak	VERB	_	Mood=Ind|Polite=Form|Voice=Act	9	advcl	_	Level=Krama
 12	Protokol	Protokol	PROPN	_	_	11	obj	_	_
 13	Kyoto	Kyoto	PROPN	_	_	12	flat:name	_	_
 14	isa	bisa	AUX	_	Abbr=Yes|Polite=Infm	15	aux	_	Level=Ngoko
-15	ngancik	ngancik	VERB	_	Voice=Act	4	ccomp	_	_
+15	ngancik	ngancik	VERB	_	Mood=Ind|Voice=Act	4	ccomp	_	_
 16	300	300	NUM	_	NumType=Card	18	nummod	_	_
 17	milyar	milyar	NUM	_	NumType=Card	16	flat	_	_
 18	dollar	dollar	NOUN	_	Number=Sing	15	obl	_	_
 19	AS	AS	PROPN	_	_	18	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	mligi	mligi	ADV	_	Polite=Form	22	advmod	_	Level=Krama
-22	disebabake	sebab	VERB	_	Voice=Pass	15	advcl	_	_
+22	disebabake	sebab	VERB	_	Mood=Ind|Voice=Pass	15	advcl	_	_
 23	déning	déning	ADP	_	Polite=Infm	24	case	_	Level=Ngoko
 24	beya	beya	NOUN	_	Number=Sing	22	obl	_	_
 25	ènergi	ènergi	NOUN	_	Number=Sing	24	nmod	_	SpaceAfter=No
@@ -681,7 +683,7 @@
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	eutanasia	eutanasia	X	_	Foreign=Yes	10	nsubj	_	_
 9	isa	bisa	AUX	_	Abbr=Yes|Polite=Infm	10	aux	_	Level=Ngoko
-10	dibagi	bagi	VERB	_	Voice=Pass	0	root	_	_
+10	dibagi	bagi	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 11	dadi	dadi	VERB	_	Polite=Infm|Voice=Act	10	xcomp	_	Level=Ngoko
 12	telung	telung	NUM	_	NumType=Card|Polite=Infm	13	nummod	_	Level=Ngoko
 13	bagean	bagean	NOUN	_	Number=Sing	11	obl	_	SpaceAfter=No
@@ -720,7 +722,7 @@
 4	1964	1964	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	7	nsubj	_	Level=Krama
-7	dipunangkat	angkat	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
+7	dipunangkat	angkat	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 8	minangka	minangka	ADP	_	_	9	case	_	_
 9	Anggota	Anggota	PROPN	_	_	7	obl	_	_
 10	Asing	Asing	PROPN	_	_	9	flat:name	_	_
@@ -739,7 +741,7 @@
 3	Grande	Grande	PROPN	_	_	1	flat:name	_	_
 4	Vitesse	Vitesse	PROPN	_	_	1	flat:name	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	dicekak	dicekak	VERB	_	Voice=Pass	1	acl	_	_
+6	dicekak	dicekak	VERB	_	Mood=Ind|Voice=Pass	1	acl	_	_
 7	TGV	TGV	PROPN	_	_	6	obl	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	6	punct	_	_
 9	iku	yaiku	AUX	_	Polite=Infm	10	cop	_	Level=Ngoko
@@ -756,7 +758,7 @@
 20	vitesse	vitesse	X	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	kang	kang	PRON	_	Polite=Infm|PronType=Rel	23	nsubj	_	Level=Ngoko
-23	tegesé	tegesé	VERB	_	Voice=Act	17	acl:relcl	_	_
+23	tegesé	tegesé	VERB	_	Mood=Ind|Voice=Act	17	acl:relcl	_	_
 24	sepur	sepur	NOUN	_	Number=Sing	23	obl	_	_
 25	rikat	rikat	ADJ	_	_	24	amod	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -799,7 +801,7 @@
 1	Dhèwèké	dhèwèké	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
 2	wis	wis	AUX	_	Polite=Infm	4	aux	_	Level=Ngoko
 3	tau	tau	VERB	_	Polite=Infm|Voice=Pass	2	fixed	_	Level=Ngoko
-4	njabat	njabat	VERB	_	Voice=Act	0	root	_	_
+4	njabat	njabat	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	kepala	kepala	X	_	Foreign=Yes	4	obl	_	_
 6	Inspeksi	Inspeksi	PROPN	_	_	5	nmod	_	_
 7	Kebudayaan	Kebudayaan	PROPN	_	_	6	flat:name	_	_
@@ -832,7 +834,7 @@
 1	Kanthi	Kanthi	ADP	_	Polite=Infm	2	case	_	Level=Ngoko
 2	ulah	ulah	NOUN	_	Number=Sing	4	obl	_	_
 3	raga	raga	NOUN	_	Number=Sing	2	nmod	_	_
-4	dikarepaké	dikarepaké	VERB	_	Voice=Pass	0	root	_	_
+4	dikarepaké	dikarepaké	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	para	para	DET	_	Number=Plur|PronType=Ind	6	det	_	_
 6	prajurit	prajurit	NOUN	_	Number=Sing	7	nsubj	_	_
 7	dadi	dadi	VERB	_	Polite=Infm|Voice=Act	4	ccomp	_	Level=Ngoko
@@ -857,7 +859,7 @@
 7	ipun	ipun	DET	_	Definite=Def|Polite=Form|PronType=Art	6	det	_	Level=Krama
 8	babagan	babagan	ADP	_	_	9	case	_	_
 9	tumindak	tindak	NOUN	_	Number=Sing	6	nmod	_	_
-10	ngirit	irit	VERB	_	Voice=Act	9	acl	_	_
+10	ngirit	irit	VERB	_	Mood=Ind|Voice=Act	9	acl	_	_
 11	kluwarga	kluwarga	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
@@ -868,7 +870,7 @@
 # text_en = The song was sung by Tommy Edwards and became a number 1 hit in 1958!
 1	Tembang	tembang	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
-3	dipunbektakaken	dipunbektakaken	VERB	_	Voice=Pass	0	root	_	_
+3	dipunbektakaken	dipunbektakaken	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 4	déning	déning	ADP	_	Polite=Infm	5	case	_	Level=Ngoko
 5	Tommy	Tommy	PROPN	_	_	3	obl:agent	_	_
 6	Edwards	Edwards	PROPN	_	_	5	flat:name	_	_
@@ -888,12 +890,12 @@
 # text_id = EAT memperluas kegiatannya dengan menandatangani kontrak dengan DHL Worldwide Express pada tahun 1985.
 # text_en = EAT expanded its activities by signing a contract with DHL Worldwide Express in 1985.
 1	EAT	EAT	PROPN	_	_	2	nsubj	_	_
-2	ngambakake	ngambakake	VERB	_	Voice=Act	0	root	_	Level=Madya
+2	ngambakake	ngambakake	VERB	_	Mood=Ind|Voice=Act	0	root	_	Level=Madya
 3-4	kegiyatané	_	_	_	_	_	_	_	_
 3	kegiyatan	kegiyatan	NOUN	_	Number=Sing	2	obj	_	_
 4	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
 5	kanti	kanti	SCONJ	_	Polite=Infm	6	mark	_	Level=Ngoko
-6	ngleboni	ngleboni	VERB	_	Voice=Act	2	advcl	_	_
+6	ngleboni	ngleboni	VERB	_	Mood=Ind|Voice=Act	2	advcl	_	_
 7	tataran	tataran	NOUN	_	Number=Sing	6	obj	_	_
 8	kontrak	kontrak	X	_	Foreign=Yes	7	flat:foreign	_	_
 9	karo	karo	ADP	_	Polite=Infm	10	case	_	Level=Ngoko
@@ -925,7 +927,7 @@
 3	Provinsi	Provinsi	PROPN	_	_	6	obl	_	_
 4	Papua	Papua	PROPN	_	_	3	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	dingerteni	ngerti	VERB	_	Voice=Pass	0	root	_	_
+6	dingerteni	ngerti	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 7	sebutan	sebutan	NOUN	_	Number=Sing	6	obl	_	_
 8	Peraturan	Peraturan	PROPN	_	_	7	nmod	_	_
 9	Laladan	Laladan	PROPN	_	_	8	flat:name	_	_
@@ -947,7 +949,7 @@
 5	-	-	PUNCT	_	_	2	punct	_	_
 6	Gjorge	Gjorge	PROPN	_	_	8	nsubj	_	_
 7	Ivanov	Ivanov	PROPN	_	_	6	flat:name	_	_
-8	mimpang	mimpang	VERB	_	Polite=Form|Voice=Act	0	root	_	Level=Krama
+8	mimpang	mimpang	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 9	pemilu	pemilu	NOUN	_	Number=Sing	8	obj	_	_
 10	présidhèn	présidhèn	NOUN	_	Number=Sing	9	nmod	_	_
 11	ing	ing	ADP	_	_	12	case	_	_
@@ -985,9 +987,9 @@
 # text = Pesawat punika dipunsertifikasi kapisan taun 1994.
 # text_id = Pesawat itu disertifikasi perdana tahun 1994.
 # text_en = The aircraft was first certified in 1994.
-1	Pesawat	pesawat	X	_	_	3	nsubj	_	_
+1	Pesawat	pesawat	X	_	_	3	nsubj:pass	_	_
 2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
-3	dipunsertifikasi	sertifikasi	VERB	_	Polite=Form	0	root	_	Level=Krama
+3	dipunsertifikasi	sertifikasi	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 4	kapisan	kapisan	ADJ	_	_	3	amod	_	_
 5	taun	taun	NOUN	_	_	3	obl	_	_
 6	1994	1994	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
@@ -1000,7 +1002,7 @@
 1	Israèl	israèl	PROPN	_	_	4	nsubj	_	_
 2	lan	lan	CCONJ	_	Polite=Infm	3	cc	_	Level=Ngoko
 3	Arab	Arab	PROPN	_	_	1	conj	_	_
-4	sarujuk	sarujuk	VERB	_	Voice=Act	0	root	_	_
+4	sarujuk	sarujuk	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	gencatan	gencatan	NOUN	_	Number=Sing	4	obl	_	_
 6	senjata	senjata	NOUN	_	Number=Sing	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
@@ -1030,7 +1032,7 @@
 6	misi	misi	NOUN	_	Number=Sing	9	nsubj:pass	_	_
 7	perdamaian	perdamaian	X	_	Foreign=Yes	6	nmod	_	_
 8	PBB	PBB	PROPN	_	_	6	nmod	_	_
-9	dipunpungkasi	pungkas	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama|SpaceAfter=No
+9	dipunpungkasi	pungkas	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 56
@@ -1087,7 +1089,7 @@
 # text_id = Koizumi mengundurkan diri pada tanggal 26 September dan akhirnya digantikan oleh Abe.
 # text_en = Koizumi resigned on September 26 and was eventually replaced by Abe.
 1	Koizumi	Koizumi	PROPN	_	_	2	nsubj	_	_
-2	mundur	mundur	VERB	_	Voice=Act	0	root	_	_
+2	mundur	mundur	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	ana	ana	VERB	_	Polite=Infm|Voice=Act	2	advcl	_	Level=Ngoko
 4	ing	ing	ADP	_	_	5	case	_	_
 5	tanggal	tanggal	NOUN	_	Number=Sing	2	obl	_	_
@@ -1141,7 +1143,7 @@
 4	permata	permata	NOUN	_	Number=Sing	3	nmod	_	_
 5	Dubai	Dubai	PROPN	_	_	3	nmod	_	_
 6	punika	punika	DET	_	Polite=Form|PronType=Dem	3	det	_	Level=Krama
-7	nglampahi	lampah	VERB	_	Polite=Form|Voice=Act	0	root	_	Level=Krama
+7	nglampahi	lampah	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 8	dampak	dampak	NOUN	_	Number=Sing	7	obj	_	_
 9	saking	saking	ADP	_	Polite=Form	10	case	_	Level=Krama
 10	Perang	Perang	PROPN	_	_	7	obl	_	_
@@ -1168,7 +1170,7 @@
 6	nyétak	nyétak	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 7	rong	rong	NUM	_	NumType=Card|Polite=Infm	8	nummod	_	Level=Ngoko
 8	gol	gol	NOUN	_	Number=Sing	6	obl	_	_
-9	nglawan	lawan	VERB	_	Voice=Act	6	advcl	_	_
+9	nglawan	lawan	VERB	_	Mood=Ind|Voice=Act	6	advcl	_	_
 10	Real	Real	PROPN	_	_	9	obj	_	_
 11	Sociedad	Sociedad	PROPN	_	_	10	flat:name	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
@@ -1185,7 +1187,7 @@
 6	reorganisasi	reorganisasi	X	_	Foreign=Yes	5	obj	_	_
 7	Persis	Persis	PROPN	_	_	6	nmod	_	_
 8	kang	ingkang	PRON	_	Polite=Form|PronType=Rel	9	nsubj	_	Level=Krama
-9	ngalami	ngalami	VERB	_	Voice=Act	7	acl:relcl	_	_
+9	ngalami	ngalami	VERB	_	Mood=Ind|Voice=Act	7	acl:relcl	_	_
 10	kevakuman	vakum	X	_	Foreign=Yes	9	obj	_	_
 11	awit	awit	ADP	_	_	12	case	_	Level=Ngoko
 12	jaman	jaman	NOUN	_	Number=Sing	10	nmod	_	Level=Ngoko
@@ -1205,7 +1207,7 @@
 3	ngoperasikaké	operasi	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 4	jaringan	jaring	X	_	Foreign=Yes	3	dep	_	_
 5	penerbangan	terbang	X	_	Foreign=Yes	4	flat:foreign	_	_
-6	tumuju	tumuju	VERB	_	Voice=Act	3	advcl	_	_
+6	tumuju	tumuju	VERB	_	Mood=Ind|Voice=Act	3	advcl	_	_
 7	50	50	NUM	_	NumType=Card	8	nummod	_	_
 8	tujuan	tujuan	X	_	Foreign=Yes	6	obl	_	_
 9	ing	ing	ADP	_	_	11	case	_	_
@@ -1216,7 +1218,7 @@
 14	penerbangan	terbang	X	_	Foreign=Yes	13	obl	_	_
 15	jarak	jarak	NOUN	_	Number=Sing	14	nmod	_	_
 16	adoh	adoh	ADJ	_	Polite=Infm	15	amod	_	Level=Ngoko
-17	tumuju	tumuju	VERB	_	Voice=Act	14	acl	_	_
+17	tumuju	tumuju	VERB	_	Mood=Ind|Voice=Act	14	acl	_	_
 18	Afrika	Afrika	PROPN	_	_	17	obj	_	_
 19	Timur	Timur	PROPN	_	_	18	flat:name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
@@ -1317,7 +1319,7 @@
 # text_id = Kelinci menjawab, “Oh, itu suara burung crek-crek dari gunung crek-crek di sana."
 # text-en = The rabbit replied, "Oh, it’s the sound of Crek-crek birds from Mount Crek-crek over there."
 1	Kelinci	Kelinci	X	_	Foreign=Yes	2	nsubj	_	_
-2	mangsuli	mangsuli	VERB	_	Polite=Form|Voice=Act	0	root	_	Level=Krama|SpaceAfter=No
+2	mangsuli	mangsuli	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 5	Oh	Oh	INTJ	_	_	8	discourse	_	SpaceAfter=No
@@ -1388,7 +1390,7 @@
 # text_id = Ia dikenal sebagai penulis haiku terhebat, yang merupakan bentuk puisi dalam 5-7-5 suku kata.
 # text_en = He is known as the greatest haiku writer, which is a form of poetry in 5-7-5 syllables.
 1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|Polite=Elev|PronType=Prs	2	nsubj	_	Level=KramaInggil
-2	dipunkenal	kenal	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
+2	dipunkenal	kenal	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 3	minangka	minangka	ADP	_	_	4	case	_	_
 4	panganggit	anggit	NOUN	_	Number=Sing	2	obl	_	_
 5	haiku	haiku	X	_	Foreign=Yes	4	nmod	_	_
@@ -1437,7 +1439,7 @@
 1	Akèh-akèhe	akèh	DET	_	Number=Plur|Polite=Infm|PronType=Ind	2	det	_	Level=Ngoko
 2	tembang	tembang	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 3	Shakur	Shakur	PROPN	_	_	2	nmod	_	_
-4	dipunsèrat	sèrat	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
+4	dipunsèrat	sèrat	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 5	nganggo	anggo	ADP	_	Polite=Infm	6	case	_	Level=Ngoko
 6	kekerasan	keras	X	_	Foreign=Yes	4	obl	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
@@ -1451,7 +1453,7 @@
 15	lan	lan	CCONJ	_	Polite=Infm	17	cc	_	Level=Ngoko
 16	kadang	kadang	ADV	_	_	17	advmod	_	_
 17-18	padudoné	_	_	_	_	_	_	_	_
-17	padudon	padu	VERB	_	Voice=Act	8	conj	_	_
+17	padudon	padu	VERB	_	Mood=Ind|Voice=Act	8	conj	_	_
 18	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	17	det	_	Level=Ngoko
 19	kaliyan	kaliyan	ADP	_	Polite=Form	20	case	_	Level=Krama
 20	rapper	rapper	X	_	Foreign=Yes	17	obl	_	_
@@ -1469,7 +1471,7 @@
 5	paling	paling	ADV	_	_	6	advmod	_	_
 6	umum	umum	ADJ	_	_	3	amod	_	_
 7	kang	kang	PRON	_	Polite=Infm|PronType=Rel	8	nsubj:pass	_	Level=Ngoko
-8	ditandhang	tandhang	VERB	_	Voice=Pass	6	advcl	_	_
+8	ditandhang	tandhang	VERB	_	Mood=Ind|Voice=Pass	6	advcl	_	_
 9	kaum	kaum	NOUN	_	Number=Sing	8	obl:agent	_	_
 10	wanita	wanita	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
@@ -1481,7 +1483,7 @@
 1	Karakter-karakter	karakter	NOUN	_	Number=Plur	4	nsubj	_	_
 2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 3	namung	namung	ADV	_	Polite=Form	4	advmod	_	Level=Krama
-4	muncul	muncul	VERB	_	Voice=Pass	0	root	_	_
+4	muncul	muncul	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	6	nsubj	_	Level=Krama
 6	sakêdhepan	kêdhep	ADV	_	_	4	advmod	_	_
 7	kemawon	kemawon	ADV	_	Polite=Form	6	advmod	_	Level=Krama|SpaceAfter=No
@@ -1501,7 +1503,7 @@
 # text_id = Ushaidi diciptakan pada akhir 2007 sebagai tanggapan atas kerusuhan setelah pemilu yang terjadi di Kenya.
 # text_en = Ushaidi was created in late 2007 in response to the post-election unrest in Kenya.
 1	Ushaidi	Ushaidi	PROPN	_	_	2	nsubj:pass	_	_
-2	diciptakake	cipta	VERB	_	Voice=Pass	0	root	_	_
+2	diciptakake	cipta	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 3	ing	ing	ADP	_	_	5	case	_	_
 4	pungkasan	pungkasan	NOUN	_	Number=Sing	5	nmod	_	_
 5	taun	taun	NOUN	_	Number=Sing	2	obl:tmod	_	_
@@ -1513,7 +1515,7 @@
 11	saksampunè	sampun	ADP	_	Polite=Form	12	case	_	Level=Krama
 12	pemilu	pemilu	NOUN	_	Number=Sing	10	nmod	_	_
 13	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	14	nsubj	_	Level=Krama
-14	kèdadosan	dados	VERB	_	Polite=Form|Voice=Pass	12	acl:relcl	_	Level=Krama
+14	kèdadosan	dados	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	12	acl:relcl	_	Level=Krama
 15	ing	ing	ADP	_	_	16	case	_	_
 16	Kenya	Kenya	PROPN	_	_	14	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
@@ -1526,7 +1528,7 @@
 2	Movies	Movies	PROPN	_	_	1	flat:name	_	_
 3	yaiku	yaiku	AUX	_	Polite=Infm	4	cop	_	Level=Ngoko
 4	saluran	saluran	NOUN	_	Number=Sing	0	root	_	_
-5	mbayar	mbayar	VERB	_	Voice=Act	4	acl	_	_
+5	mbayar	mbayar	VERB	_	Mood=Ind|Voice=Act	4	acl	_	_
 6	kang	kang	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	Level=Ngoko
 7	pertama	pertama	ADJ	_	_	4	acl:relcl	_	_
 8	ing	ing	ADP	_	_	9	case	_	_
@@ -1540,7 +1542,7 @@
 1	1920	1920	NUM	_	NumType=Card	4	obl:tmod	_	SpaceAfter=No
 2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	Hongaria	Hongaria	PROPN	_	_	4	nsubj:pass	_	_
-4	kicalan	ical	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
+4	kicalan	ical	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 5	71	71	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
 6	%	%	SYM	_	_	4	obl	_	_
 7	teritori	teritori	NOUN	_	Number=Sing	6	nmod	_	_
@@ -1551,7 +1553,7 @@
 12	nalika	nalika	SCONJ	_	Polite=Elev	15	mark	_	Level=KramaInggil
 13	Traktat	Traktat	PROPN	_	_	15	nsubj:pass	_	_
 14	Trianon	Trianon	PROPN	_	_	13	flat:name	_	_
-15	dipuntapakastani	tapakasta	VERB	_	Polite=Elev|Voice=Pass	4	advcl	_	Level=KramaInggil
+15	dipuntapakastani	tapakasta	VERB	_	Mood=Ind|Polite=Elev|Voice=Pass	4	advcl	_	Level=KramaInggil
 16	ing	ing	ADP	_	Polite=Infm	17	case	_	Level=Ngoko
 17	Paris	Paris	PROPN	_	_	15	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
@@ -1560,11 +1562,11 @@
 # text = Wonten ing ESO piyambakipun ningali perkembangan lan pembangunan Very Large Telescope.
 # text_id = Di ESO ia mengawasi pengembangan dan pembangunan Teleskop Sangat Besar.
 # text_en = At ESO he oversaw the development and building of the Very Large Telescope.
-1	Wonten	Wonten	VERB	_	Polite=Form|Voice=Act	5	advcl	_	Level=Krama
+1	Wonten	Wonten	VERB	_	Mood=Ind|Polite=Form|Voice=Act	5	advcl	_	Level=Krama
 2	ing	ing	ADP	_	Polite=Infm	3	case	_	Level=Ngoko
 3	ESO	ESO	PROPN	_	_	1	obl	_	_
 4	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	5	nsubj	_	Level=Krama
-5	ningali	tingal	VERB	_	Polite=Form|Voice=Act	0	root	_	Level=Krama
+5	ningali	tingal	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 6	perkembangan	perkembangan	NOUN	_	Number=Sing	5	obj	_	_
 7	lan	lan	CCONJ	_	Polite=Infm	8	cc	_	Level=Ngoko
 8	pembangunan	bangun	NOUN	_	Number=Sing	6	conj	_	_
@@ -1579,7 +1581,7 @@
 # text_en = He continued to work until the next 2 years, through 3 surgeries and experimental chemotherapy and a 10 month remission.
 1	Panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|Polite=Elev|PronType=Prs	3	nsubj	_	Level=KramaInggil
 2	terus	terus	ADV	_	Polite=Infm	3	advmod	_	Level=Ngoko
-3	makarya	karya	VERB	_	Voice=Act	0	root	_	_
+3	makarya	karya	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	dugi	dugi	ADP	_	Polite=Form	6	case	_	Level=Krama
 5	2	2	NUM	_	NumType=Card	6	nummod	_	_
 6	taun	taun	NOUN	_	Number=Sing	3	obl	_	_
@@ -1620,24 +1622,24 @@
 3	John	John	PROPN	_	_	1	appos	_	_
 4	Michell	Michell	PROPN	_	_	3	flat:name	_	_
 5	kanthi	kanthi	ADP	_	Polite=Infm	6	case:adv	_	Level=Ngoko
-6	kapisah	kapisah	VERB	_	Voice=Pass	8	advcl	_	_
+6	kapisah	kapisah	VERB	_	Mood=Ind|Voice=Pass	8	advcl	_	_
 7	ugi	ugi	ADV	_	Polite=Form	8	advmod	_	Level=Krama
-8	manggihaken	manggihaken	VERB	_	Polite=Form|Voice=Act	0	root	_	Level=Krama
+8	manggihaken	manggihaken	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 9	timbangan	timbang	NOUN	_	Number=Sing	8	obj	_	_
-10	puntir	puntir	VERB	_	Voice=Act	9	acl	_	_
+10	puntir	puntir	VERB	_	Mood=Ind|Voice=Act	9	acl	_	_
 11	ing	ing	ADP	_	_	12	case	_	_
 12	taun	taun	NOUN	_	Number=Sing	8	obl:tmod	_	_
 13	1750	1750	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	8	punct	_	_
 15	nanging	nanging	CCONJ	_	Polite=Infm	17	cc	_	Level=Ngoko
 16	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	17	nsubj	_	Level=Krama
-17	gagal	gagal	VERB	_	Voice=Act	8	conj	_	_
+17	gagal	gagal	VERB	_	Mood=Ind|Voice=Act	8	conj	_	_
 18	migunakaken	migunakaken	VERB	_	Polite=Infm|Voice=Act	17	xcomp	_	Level=Ngoko
 19	kanggé	kanggé	SCONJ	_	Polite=Form	20	mark	_	Level=Krama
-20	ngukur	ngukur	VERB	_	Voice=Act	18	advcl	_	_
+20	ngukur	ngukur	VERB	_	Mood=Ind|Voice=Act	18	advcl	_	_
 21	medan	medan	NOUN	_	Number=Sing	20	obj	_	_
 22	daya	daya	NOUN	_	Number=Sing	21	nmod	_	_
-23	tarik	tarik	VERB	_	Voice=Act	22	acl	_	_
+23	tarik	tarik	VERB	_	Mood=Ind|Voice=Act	22	acl	_	_
 24	bumi	bumi	NOUN	_	Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -1649,9 +1651,9 @@
 2	taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	kapitu	kapitu	ADJ	_	NumType=Ord|Polite=Form	2	amod	_	Level=Krama
 4	kudu	kudu	AUX	_	Polite=Infm	5	aux	_	Level=Ngoko
-5	diluwari	diluwari	VERB	_	Voice=Pass	0	root	_	_
+5	diluwari	diluwari	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	tanpa	tanpa	SCONJ	_	_	7	mark	_	_
-7	mbayar	mbayar	VERB	_	Voice=Act	5	advcl	_	_
+7	mbayar	mbayar	VERB	_	Mood=Ind|Voice=Act	5	advcl	_	_
 8	tebusan	tebus	NOUN	_	Number=Sing	7	obj	_	_
 9	apa-apa	apa	PRON	_	PronType=Rel	8	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
@@ -1663,7 +1665,7 @@
 1	Markas	markas	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 2	Liga	Liga	PROPN	_	_	1	nmod	_	_
 3	Arab	Arab	PROPN	_	_	2	flat:name	_	_
-4	mapan	mapan	VERB	_	Voice=Pass	0	root	_	_
+4	mapan	mapan	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	ana	ana	VERB	_	Polite=Infm|Voice=Act	4	advcl	_	Level=Ngoko
 6	ing	ing	ADP	_	_	7	case	_	_
 7	Kairo	Kairo	PROPN	_	_	5	obl	_	SpaceAfter=No
@@ -1677,7 +1679,7 @@
 2	taun	taun	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	2002	2002	NUM	_	NumType=Card	2	nummod	_	_
 4	panjenengané	panjenengané	PRON	_	Number=Sing|Person=3|Polite=Elev|PronType=Prs	5	nsubj	_	Level=KramaInggil
-5	nentang	nentang	VERB	_	Voice=Act	0	root	_	_
+5	nentang	nentang	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	aksi	aksi	NOUN	_	Number=Sing	5	obj	_	_
 7	militèr	militèr	NOUN	_	Number=Sing	6	nmod	_	_
 8	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -1702,7 +1704,7 @@
 6	11	11	NUM	_	NumType=Card	7	nummod	_	_
 7	tiyang	tiyang	NOUN	_	Number=Sing|Polite=Form	0	root	_	Level=Krama
 8	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	9	nsubj	_	Level=Krama
-9	dipuntampi	tampi	VERB	_	Voice=Pass	7	acl:relcl	_	_
+9	dipuntampi	tampi	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	7	acl:relcl	_	Level=Krama
 10	saking	saking	ADP	_	_	13	case	_	_
 11	2.396	2.396	NUM	_	NumType=Card	13	nummod	_	_
 12	tiyang	tiyang	NOUN	_	Number=Sing|Polite=Form	13	clf	_	Level=Krama
@@ -1726,7 +1728,7 @@
 11	Barat	Barat	NOUN	_	Number=Sing	8	nmod	_	_
 12	3	3	NUM	_	NumType=Card	11	nummod	_	_
 13	kabèh	kabèh	PRON	_	Polite=Infm|PronType=Tot	1	nmod	_	Level=Ngoko
-14	nglayani	nglayani	VERB	_	Voice=Act	0	root	_	_
+14	nglayani	nglayani	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 15	penerbangan	penerbangan	X	_	Foreign=Yes	14	obj	_	_
 16	domestik	domestik	X	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	14	punct	_	_
@@ -1738,9 +1740,9 @@
 1	Rudal	Rudal	NOUN	_	Number=Sing	4	nsubj	_	_
 2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 3	ugi	ugi	ADV	_	Polite=Form	4	advmod	_	Level=Krama
-4	gadhah	gadhah	VERB	_	Voice=Act	0	root	_	_
+4	gadhah	gadhah	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	kemampuan	mampu	NOUN	_	Number=Sing	4	obj	_	_
-6	nyergap	nyergap	VERB	_	Voice=Act	5	advcl	_	_
+6	nyergap	nyergap	VERB	_	Mood=Ind|Voice=Act	5	advcl	_	_
 7-8	sasaranipun	_	_	_	_	_	_	_	_
 7	sasaran	sasaran	NOUN	_	Number=Sing	6	obj	_	_
 8	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	7	nmod:poss	_	Level=Krama
@@ -1772,8 +1774,8 @@
 # text_id = ABC mulai ditayangkan di TV pada tahun 1948.
 # text_en = ABC began airing on TV in 1948.
 1	ABC	ABC	PROPN	_	_	2	nsubj	_	_
-2	wiwit	wiwit	VERB	_	Voice=Act	0	root	_	_
-3	disiaraké	disiaraké	VERB	_	Voice=Pass	2	xcomp	_	_
+2	wiwit	wiwit	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+3	disiaraké	disiaraké	VERB	_	Mood=Ind|Voice=Pass	2	xcomp	_	_
 4	ing	ing	ADP	_	_	5	case	_	_
 5	TV	TV	PROPN	_	_	3	obl	_	_
 6	nalika	nalika	ADP	_	Polite=Elev	7	case	_	Level=KramaInggil
@@ -1801,9 +1803,9 @@
 2-3	ayahipun	_	_	_	_	_	_	_	_
 2	ayah	ayah	NOUN	_	Number=Sing	4	nsubj	_	_
 3	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nmod:poss	_	Level=Krama
-4	ngaturi	atur	VERB	_	Voice=Act	0	root	_	_
+4	ngaturi	atur	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	4	obj	_	Level=Krama
-6	mlebet	mlebet	VERB	_	Polite=Form|Voice=Act	4	advcl	_	Level=Krama
+6	mlebet	mlebet	VERB	_	Mood=Ind|Polite=Form|Voice=Act	4	advcl	_	Level=Krama
 7	ing	ing	ADP	_	_	8	case	_	_
 8	tim	tim	NOUN	_	Number=Sing	4	obl	_	_
 9-10	gadahanipun	_	_	_	_	_	_	_	_
@@ -1811,7 +1813,7 @@
 10	nipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	8	nmod:poss	_	Level=Krama
 11	piyambak	piyambak	DET	_	Polite=Form|PronType=Emp	9	det	_	Level=Krama
 12	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	13	nsubj	_	Level=Krama
-13	ndherek	dherek	VERB	_	Polite=Form|Voice=Act	8	acl:relcl	_	Level=Krama
+13	ndherek	dherek	VERB	_	Mood=Ind|Polite=Form|Voice=Act	8	acl:relcl	_	Level=Krama
 14	lomba	lomba	NOUN	_	Number=Sing	13	obj	_	_
 15	ing	ing	ADP	_	_	16	case	_	_
 16	ajang	ajang	NOUN	_	Number=Sing	14	obl	_	_
@@ -1838,7 +1840,7 @@
 7	A	A	PROPN	_	_	6	flat:name	_	_
 8	yaiku	yaiku	AUX	_	Polite=Infm	10	cop	_	Level=Ngoko
 9	nalika	nalika	SCONJ	_	Polite=Elev	10	mark	_	Level=KramaInggil
-10	nglawan	lawan	VERB	_	Voice=Act	0	root	_	_
+10	nglawan	lawan	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 11	Inter	Inter	PROPN	_	_	10	obj	_	_
 12	Milan	Milan	PROPN	_	_	11	flat:name	_	_
 13	tanggal	tanggal	NOUN	_	Number=Sing	10	obl:tmod	_	_
@@ -1893,14 +1895,14 @@
 2	Márquez	Márquez	PROPN	_	_	1	flat:name	_	_
 3	kanthi	kanthi	ADP	_	Polite=Form	4	case:adv	_	Level=Ngoko
 4	umum	umum	ADJ	_	_	5	advmod	_	_
-5	dipuntingali	tingal	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
+5	dipuntingali	tingal	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 6	minangka	minangka	ADP	_	_	7	case	_	_
 7	protagonis	protagonis	X	_	Foreign=Yes	5	obl	_	_
 8	saking	saking	ADP	_	Polite=Form	9	case	_	Level=Krama
 9	gaya	gaya	NOUN	_	Number=Sing	7	nmod	_	_
 10	sastra	sastra	NOUN	_	Number=Sing	9	nmod	_	_
 11	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	12	nsubj	_	Level=Krama
-12	dipunkenal	kenal	VERB	_	Polite=Form|Voice=Pass	9	acl:relcl	_	Level=Krama
+12	dipunkenal	kenal	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	9	acl:relcl	_	Level=Krama
 13	minangka	minangka	ADP	_	_	14	case	_	_
 14	realisme	realisme	X	_	Foreign=Yes	12	obl	_	_
 15	magis	magis	ADJ	_	_	14	amod	_	SpaceAfter=No
@@ -1916,12 +1918,12 @@
 4	punika	punika	DET	_	Polite=Form|PronType=Dem	3	det	_	Level=Krama
 5	3	3	NUM	_	NumType=Card	6	nummod	_	_
 6	rookie	rookie	X	_	Foreign=Yes	7	nsubj:pass	_	_
-7	dipuneliminasi	eliminasi	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama|SpaceAfter=No
+7	dipuneliminasi	eliminasi	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	kaliyan	kaliyan	SCONJ	_	Polite=Form	12	mark	_	Level=Krama
 10	Skip	Skip	PROPN	_	_	12	nsubj:pass	_	_
 11	Sheffield	Sheffield	PROPN	_	_	10	flat:name	_	_
-12	dipuneliminasi	eliminasi	VERB	_	Polite=Form|Voice=Pass	7	advcl	_	Level=Krama
+12	dipuneliminasi	eliminasi	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	7	advcl	_	Level=Krama
 13	amargi	amargi	SCONJ	_	_	21	mark	_	_
 14	ing	ing	ADP	_	_	15	case	_	_
 15	pertandhingan	tandhing	NOUN	_	Number=Sing	21	nmod	_	_
@@ -1942,7 +1944,7 @@
 # text_en = Jamaica last reached semi-finals in 2004 Ukraine last reached semi-finals in 2007 Mexico, Russia and Colombia last reached semi-finals in 2008.
 1	Jamaika	Jamaika	PROPN	_	_	3	nsubj	_	_
 2	pungkasan	pungkasan	ADJ	_	_	3	advmod	_	_
-3	olèh	olèh	VERB	_	Voice=Act	0	root	_	_
+3	olèh	olèh	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	panggonan	panggonan	NOUN	_	Number=Sing	3	obj	_	_
 5	semifinalis	semifinalis	X	_	Foreign=Yes	4	amod	_	_
 6	taun	taun	NOUN	_	_	3	obl:tmod	_	_
@@ -1950,7 +1952,7 @@
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	Ukraina	Ukraina	PROPN	_	_	11	nsubj	_	_
 10	pungkasan	pungkasan	ADJ	_	_	11	advmod	_	_
-11	olèh	olèh	VERB	_	Voice=Act	3	conj	_	_
+11	olèh	olèh	VERB	_	Mood=Ind|Voice=Act	3	conj	_	_
 12	panggonan	panggonan	NOUN	_	Number=Sing	11	obj	_	_
 13	semifinalis	semifinalis	X	_	Foreign=Yes	12	amod	_	_
 14	taun	taun	NOUN	_	_	11	obl:tmod	_	_
@@ -1962,7 +1964,7 @@
 20	lan	lan	CCONJ	_	_	21	cc	_	_
 21	Kolombia	Kolombia	PROPN	_	_	17	conj	_	_
 22	pungkasan	pungkasan	ADJ	_	_	23	advmod	_	_
-23	olèh	olèh	VERB	_	Voice=Act	3	conj	_	_
+23	olèh	olèh	VERB	_	Mood=Ind|Voice=Act	3	conj	_	_
 24	panggonan	panggonan	NOUN	_	Number=Sing	23	obj	_	_
 25	semifinalis	semifinalis	X	_	Foreign=Yes	24	amod	_	_
 26	taun	taun	NOUN	_	_	23	obl:tmod	_	_
@@ -1977,7 +1979,7 @@
 2	Dodge	Dodge	PROPN	_	_	1	nmod	_	_
 3	Bersaudara	saudara	PROPN	_	_	2	flat:name	_	_
 4	pun	pun	PART	_	_	1	advmod:emph	_	_
-5	ngerembag	rembag	VERB	_	Voice=Act	0	root	_	_
+5	ngerembag	rembag	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	sukses	sukses	NOUN	_	Number=Sing	5	obj	_	_
 7	amargi	amargi	SCONJ	_	_	9	mark	_	_
 8-9	kualitasipun	_	_	_	_	_	_	_	_
@@ -1989,7 +1991,7 @@
 13	perusahaan	usaha	NOUN	_	Number=Sing	16	nsubj	_	_
 14	punika	punika	DET	_	Polite=Form|PronType=Dem	13	det	_	Level=Krama
 15	enggal	enggal	ADV	_	_	16	advmod	_	_
-16	dados	dados	VERB	_	Polite=Form|Voice=Act	5	conj	_	Level=Krama
+16	dados	dados	VERB	_	Mood=Ind|Polite=Form|Voice=Act	5	conj	_	Level=Krama
 17	perusahaan	usaha	NOUN	_	Number=Sing	16	obl	_	_
 18	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	21	obl	_	Level=Krama
 19-20	penjualanipun	_	_	_	_	_	_	_	_
@@ -2010,7 +2012,7 @@
 1	Bab	bab	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 2	iki	iki	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 3	iso	iso	ADV	_	_	4	advmod	_	_
-4	dideleng	deleng	VERB	_	Voice=Pass	0	root	_	_
+4	dideleng	deleng	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
 6	toko-toko	toko	NOUN	_	Number=Plur	4	obl	_	_
 7	IKEA	IKEA	PROPN	_	_	6	nmod	_	_
@@ -2020,31 +2022,31 @@
 10	katalog	katalog	X	_	Foreign=Yes	6	conj	_	_
 11	é	é	DET	_	Definite=Def|PronType=Art	10	nmod:poss	_	Level=Ngoko
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	mbentuk	mbentuk	VERB	_	Voice=Act	4	advcl	_	_
+13	mbentuk	mbentuk	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
 14	pitakonan	takon	NOUN	_	_	13	obj	_	_
 15	koyo	koyo	SCONJ	_	_	21	mark	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	21	punct	_	_
 17	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
-18	Keno	keno	ADV	_	_	21	obl	_	_
+18	Keno	keno	ADV	_	PronType=Int	21	advmod	_	_
 19	opo	opo	PRON	_	PronType=Rel	18	fixed	_	_
 20	IKEA	IKEA	PROPN	_	_	21	nsubj	_	_
-21	ngadol	ngadol	VERB	_	Voice=Act	14	acl	_	_
+21	ngadol	ngadol	VERB	_	Mood=Ind|Voice=Act	14	acl	_	_
 22	tanpa	tanpa	SCONJ	_	_	23	mark	_	_
-23	ngrakit	ngrakit	VERB	_	Voice=Act	21	advcl	_	SpaceAfter=No
+23	ngrakit	ngrakit	VERB	_	Mood=Ind|Voice=Act	21	advcl	_	SpaceAfter=No
 24	?	?	PUNCT	_	_	21	punct	_	SpaceAfter=No
 25	"	"	PUNCT	_	_	21	punct	_	_
 26	utawa	utawa	CCONJ	_	_	31	cc	_	_
 27	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
-28	Keno	keno	ADV	_	_	31	obl	_	_
+28	Keno	keno	ADV	_	PronType=Int	31	advmod	_	_
 29	opo	opo	PRON	_	PronType=Rel	28	fixed	_	_
 30	IKEA	IKEA	PROPN	_	_	31	nsubj	_	_
-31	nggawé	nggawé	VERB	_	Voice=Act	21	conj	_	_
+31	nggawé	nggawé	VERB	_	Mood=Ind|Voice=Act	21	conj	_	_
 32	akèh-akèhan	akèh-akèhan	ADV	_	_	31	advmod	_	SpaceAfter=No
 33	?	?	PUNCT	_	_	31	punct	_	SpaceAfter=No
 34	"	"	PUNCT	_	_	31	punct	_	_
 35	utawa	utawa	CCONJ	_	_	40	cc	_	_
 36	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
-37	Keno	keno	ADV	_	_	40	obl	_	_
+37	Keno	keno	ADV	_	PronType=Int	40	advmod	_	_
 38	opo	opo	PRON	_	PronType=Rel	37	fixed	_	_
 39	ora	ora	PART	_	Polarity=Neg|Polite=Infm	40	advmod	_	Level=Ngoko
 40	biyasa	biyasa	ADJ	_	_	31	conj	_	SpaceAfter=No
@@ -2066,10 +2068,10 @@
 8	3	3	NUM	_	NumType=Card	9	nummod	_	_
 9	obahan	obahan	NOUN	_	_	5	nmod	_	_
 10	kang	kang	PRON	_	Polite=Infm|PronType=Rel	11	nsubj:pass	_	Level=Ngoko
-11	kapisah	pisah	VERB	_	Voice=Pass	9	acl:relcl	_	SpaceAfter=No
+11	kapisah	pisah	VERB	_	Mood=Ind|Voice=Pass	9	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	14	nsubj:pass	_	Level=Krama
-14	dipunwontenaken	wonten	VERB	_	Polite=Form|Voice=Pass	5	acl:relcl	_	Level=Krama
+14	dipunwontenaken	wonten	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	5	acl:relcl	_	Level=Krama
 15	taun	taun	NOUN	_	_	14	obl:tmod	_	_
 16	1100	1100	NUM	_	NumType=Card	15	nummod	_	_
 17	lan	lan	CCONJ	_	_	18	cc	_	_
@@ -2086,7 +2088,7 @@
 # text_id = Sejak lahir pada akhir tahun 2006 Fakultas di Universitas Hasanuddin telah menambah 1 bentuk pengembangan Fakultas Pertanian dan Kehutanan yaitu Fakultas Kehutanan.
 # text_en = Since its birth at the end of 2006 the Faculty at Hasanuddin University has added one form of development to the Faculty of Agriculture and Forestry, namely the Faculty of Forestry.
 1	Wiwit	wiwit	SCONJ	_	_	2	mark	_	_
-2	lair	lair	VERB	_	Voice=Act	11	advcl	_	_
+2	lair	lair	VERB	_	Mood=Ind|Voice=Act	11	advcl	_	_
 3	ing	ing	ADP	_	_	5	case	_	_
 4	pungkasan	pungkasan	ADJ	_	_	5	amod	_	_
 5	taun	taun	NOUN	_	_	2	obl:tmod	_	_
@@ -2095,7 +2097,7 @@
 8	ing	ing	ADP	_	_	9	case	_	_
 9	Universitas	Universitas	PROPN	_	_	7	obl	_	_
 10	Hasanuddin	Hasanuddin	PROPN	_	_	9	flat:name	_	_
-11	nambah	nambah	VERB	_	Voice=Act	0	root	_	_
+11	nambah	nambah	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 12	1	1	NUM	_	NumType=Card	13	nummod	_	_
 13	wujud	wujud	NOUN	_	Number=Sing	11	obj	_	_
 14	pamekaran	pamekaran	NOUN	_	_	13	nmod	_	_
@@ -2120,18 +2122,18 @@
 5	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 6	pertama	pertama	ADJ	_	NumType=Ord	7	amod	_	_
 7	kali	kali	NOUN	_	Number=Sing	8	obl	_	_
-8	dipunsebat	dipunsebat	VERB	_	Voice=Pass	1	appos	_	_
+8	dipunsebat	dipunsebat	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	1	appos	_	Level=Krama
 9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	GESTAPA	GESTAPA	PROPN	_	_	8	obl	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	8	punct	_	_
-13	wiwit	wiwit	VERB	_	Voice=Act	0	root	_	_
+13	wiwit	wiwit	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 14	populer	populer	ADJ	_	_	13	advmod	_	_
 15	saksampunè	sampun	SCONJ	_	_	17	mark	_	_
 16-17	pimpinanipun	_	_	_	_	_	_	_	_
 16	pimpinan	pimpin	NOUN	_	Number=Sing	18	nsubj:pass	_	_
 17	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	16	nmod:poss	_	Level=Krama
-18	dipunjabat	dipunjabat	VERB	_	Voice=Pass	13	advcl	_	_
+18	dipunjabat	dipunjabat	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	13	advcl	_	Level=Krama
 19	déning	déning	ADP	_	_	20	case	_	_
 20	Hermann	Hermann	PROPN	_	_	17	obl:agent	_	_
 21	Göring	Göring	PROPN	_	_	20	flat:name	_	SpaceAfter=No
@@ -2157,7 +2159,7 @@
 1	LMU	LMU	PROPN	_	_	4	nsubj	_	_
 2	wekdal	wekdal	NOUN	_	_	4	obl	_	_
 3	punika	punika	DET	_	Polite=Form|PronType=Dem	2	det	_	Level=Krama
-4	gadhah	gadhah	VERB	_	Voice=Act	0	root	_	_
+4	gadhah	gadhah	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	36	36	NUM	_	NumType=Card	6	nummod	_	_
 6	fasilitas	fasilitas	NOUN	_	Number=Sing	4	obj	_	_
 7	akademis	akademis	ADJ	_	_	6	amod	_	SpaceAfter=No
@@ -2188,7 +2190,7 @@
 1	Présidhèn	présidhèn	PROPN	_	_	4	nsubj	_	_
 2	Abraham	Abraham	PROPN	_	_	1	flat:name	_	_
 3	Lincoln	Lincoln	PROPN	_	_	1	flat:name	_	_
-4	kapilih	pilih	VERB	_	Voice=Pass	0	root	_	_
+4	kapilih	pilih	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	malih	malih	ADV	_	_	4	advmod	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
 7	taun	taun	NOUN	_	_	4	obl:tmod	_	_
@@ -2201,7 +2203,7 @@
 14	Amérika	Amérika	PROPN	_	_	13	nmod	_	_
 15	Sarékat	Sarékat	PROPN	_	_	14	flat:name	_	_
 16	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	17	nsubj	_	Level=Krama
-17	njalaraké	njalaraké	VERB	_	Voice=Act	12	acl	_	_
+17	njalaraké	njalaraké	VERB	_	Mood=Ind|Voice=Act	12	acl	_	_
 18	pungkasaning	pungkasaning	NOUN	_	_	17	obj	_	_
 19	Perang	Perang	PROPN	_	_	18	nmod	_	_
 20	Sadhèrèk	Sadhèrèk	PROPN	_	_	19	flat:name	_	SpaceAfter=No
@@ -2217,7 +2219,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	kulawarga	kulawarga	NOUN	_	_	7	nsubj	_	_
 6	punika	punika	DET	_	Polite=Form|PronType=Dem	5	det	_	Level=Krama
-7	kapanggih	kapanggih	VERB	_	Voice=Act	0	root	_	_
+7	kapanggih	kapanggih	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 8	kaliyan	kaliyan	ADP	_	_	10	case	_	_
 9	seorang	orang	DET	_	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
 10	vikaris	vikaris	X	_	Foreign=Yes	7	obl	_	_
@@ -2251,7 +2253,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	AS	AS	PROPN	_	_	8	nsubj	_	_
 7	wis	wis	AUX	_	_	8	aux	_	_
-8	sumadya	sumadya	VERB	_	Voice=Act	0	root	_	_
+8	sumadya	sumadya	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 9	dana	dana	NOUN	_	_	8	obj	_	_
 10	ora	ora	PART	_	Polarity=Neg	14	advmod	_	_
 11	kurang	kurang	ADV	_	_	14	advmod	_	_
@@ -2264,7 +2266,7 @@
 18	iku	iku	PRON	_	PronType=Dem	17	det	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	_
 20	nganti	nganti	SCONJ	_	_	21	mark	_	_
-21	nggawa	nggawa	VERB	_	Voice=Act	8	advcl	_	_
+21	nggawa	nggawa	VERB	_	Mood=Ind|Voice=Act	8	advcl	_	_
 22	implikasi	implikasi	NOUN	_	Number=Sing	21	obj	_	_
 23	ing	ing	ADP	_	_	24	case	_	_
 24	tingkat	tingkat	NOUN	_	Number=Sing	22	nmod	_	_
@@ -2283,13 +2285,13 @@
 # text_en = This is marked by Maldini's success in winning third place in the Ballon d'Or event by France Football magazine in 1994 and 2003.
 1	Bab	bab	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 2	punika	punika	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
-3	dipuntandhani	tandhani	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
+3	dipuntandhani	tandhani	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
 4	kanthi	kanthi	ADP	_	_	5	case	_	_
 5-6	kasuksesanipun	_	_	_	_	_	_	_	_
 5	kasuksesan	sukses	NOUN	_	Number=Sing	3	obl	_	_
 6	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	5	nmod:poss	_	Level=Krama
 7	Maldini	Maldini	PROPN	_	_	5	nmod	_	_
-8	ngrebut	rebut	VERB	_	Voice=Act	5	acl	_	_
+8	ngrebut	rebut	VERB	_	Mood=Ind|Voice=Act	5	acl	_	_
 9	peringkat	peringkat	NOUN	_	Number=Sing	8	obj	_	_
 10	tiga	tiga	NUM	_	NumType=Card	9	nummod	_	_
 11	ing	ing	ADP	_	_	12	case	_	_
@@ -2316,7 +2318,7 @@
 2	1998	1998	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	Agum	Agum	PROPN	_	_	5	nsubj	_	_
-5	olih	olih	VERB	_	Voice=Act	0	root	_	_
+5	olih	olih	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	gelar	gelar	NOUN	_	Number=Sing	5	obj	_	_
 7	master	master	X	_	Foreign=Yes	6	nmod	_	_
 8	saka	saka	ADP	_	_	9	case	_	_
@@ -2328,8 +2330,8 @@
 14	sawijining	sawiji	DET	_	Definite=Ind|PronType=Art	15	det	_	_
 15	organisasi	organisasi	NOUN	_	Number=Sing	9	appos	_	_
 16	kang	kang	PRON	_	Polite=Infm|PronType=Rel	17	nsubj:pass	_	Level=Ngoko
-17	dilarang	larang	VERB	_	Voice=Pass	15	acl	_	_
-18	beroperasi	operasi	VERB	_	Voice=Act	17	xcomp	_	_
+17	dilarang	larang	VERB	_	Mood=Ind|Voice=Pass	15	acl	_	_
+18	beroperasi	operasi	VERB	_	Mood=Ind|Voice=Act	17	xcomp	_	_
 19	karo	karo	ADP	_	_	20	case	_	_
 20	Dikti	Dikti	PROPN	_	_	17	obl:agent	_	_
 21	Depdiknas	Depdiknas	PROPN	_	_	20	flat:name	_	_
@@ -2338,7 +2340,7 @@
 24	2005	2005	NUM	_	NumType=Card	23	nummod	_	_
 25	kerana	kerana	ADP	_	_	26	case	_	_
 26	kasus	kasus	NOUN	_	Number=Sing	17	obl	_	_
-27	adol	adol	VERB	_	Voice=Act	26	acl	_	_
+27	adol	adol	VERB	_	Mood=Ind|Voice=Act	26	acl	_	_
 28	gelar	gelar	NOUN	_	Number=Sing	27	obj	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -2369,10 +2371,10 @@
 21	kala	kala	NOUN	_	Number=Sing	20	fixed	_	_
 22	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	24	nsubj	_	Level=Krama
 23	ugi	ugi	ADV	_	_	24	advmod	_	_
-24	ndhérék	ndhérék	VERB	_	Voice=Act	5	conj	_	_
-25	mendhet	mendhet	VERB	_	Voice=Act	24	xcomp	_	_
+24	ndhérék	ndhérék	VERB	_	Mood=Ind|Voice=Act	5	conj	_	_
+25	mendhet	mendhet	VERB	_	Mood=Ind|Voice=Act	24	xcomp	_	_
 26	pérangan	pérangan	NOUN	_	_	25	obj	_	_
-27	wonten	wonten	VERB	_	Polite=Form|Voice=Act	26	acl	_	Level=Krama
+27	wonten	wonten	VERB	_	Mood=Ind|Polite=Form|Voice=Act	26	acl	_	Level=Krama
 28	ing	ing	ADP	_	_	30	case	_	_
 29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	seminari	seminari	NOUN	_	_	27	obl	_	SpaceAfter=No
@@ -2396,7 +2398,7 @@
 10	Interest	Interest	PROPN	_	_	8	flat:name	_	_
 11	Group	Group	PROPN	_	_	8	flat:name	_	_
 12	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	13	nsubj	_	Level=Krama
-13	dipundhapuk	dhapuk	VERB	_	Polite=Form|Voice=Pass	7	acl:relcl	_	Level=Krama
+13	dipundhapuk	dhapuk	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	7	acl:relcl	_	Level=Krama
 14	déning	déning	ADP	_	_	15	case	_	_
 15	Intel	Intel	PROPN	_	_	13	obl:agent	_	_
 16	Corporation	Corporation	PROPN	_	_	15	flat:name	_	_
@@ -2415,12 +2417,12 @@
 1	Permainan	main	NOUN	_	Number=Sing	9	nsubj	_	_
 2	kibor	kibor	X	_	Foreign=Yes	1	nmod	_	_
 3	kang	kang	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	Level=Ngoko
-4	dadi	dadi	VERB	_	Polite=Form|Voice=Act	1	acl:relcl	_	Level=Ngoko
+4	dadi	dadi	VERB	_	Mood=Ind|Polite=Form|Voice=Act	1	acl:relcl	_	Level=Ngoko
 5	suara	suara	NOUN	_	Number=Sing	4	obl	_	_
 6	khas	khas	ADJ	_	_	5	amod	_	_
 7	The	The	PROPN	_	_	5	nmod	_	_
 8	Doors	Doors	PROPN	_	_	7	flat:name	_	_
-9	asalipun	asalipun	VERB	_	Voice=Act	0	root	_	_
+9	asalipun	asalipun	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	saka	saka	ADP	_	_	11	case	_	_
 11	organ	organ	NOUN	_	Number=Sing	9	obl	_	_
 12	combo	combo	X	_	Foreign=Yes	11	amod	_	_
@@ -2443,7 +2445,7 @@
 # text_id = Wolfson mengatakan bahwa “jika Ensiklopedia Yahudi dalam bahasa modern direncanakan terlebih dahulu saat ini, maka pilihan jatuh pada bahasa Inggris.
 # text_en = Wolfson said that “if the Jewish Encyclopedia in modern languages was planned in advance at this time, the choice fell on English.
 1	Wolfson	Wolfson	PROPN	_	_	2	nsubj	_	_
-2	ngendikan	ngendik	VERB	_	Voice=Act	0	root	_	_
+2	ngendikan	ngendik	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	manawi	manawi	SCONJ	_	_	21	mark	_	_
 4	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
 5	bilih	bilih	SCONJ	_	_	12	mark	_	_
@@ -2453,7 +2455,7 @@
 9	ing	ing	ADP	_	_	10	case	_	_
 10	basa	basa	NOUN	_	_	7	nmod	_	_
 11	modern	modern	ADJ	_	_	10	amod	_	_
-12	dipunrencanakaken	rencana	VERB	_	Polite=Form|Voice=Pass	21	advcl	_	Level=Krama
+12	dipunrencanakaken	rencana	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	21	advcl	_	Level=Krama
 13	kawiwitan	kawiwitan	ADJ	_	_	15	amod	_	_
 14	ing	ing	ADP	_	_	15	case	_	_
 15	wanci	wanci	NOUN	_	_	12	obl	_	_
@@ -2462,7 +2464,7 @@
 18	mila	mila	SCONJ	_	_	21	mark	_	_
 19	pilihan	pilih	NOUN	_	Number=Sing	21	nsubj	_	_
 20	punika	punika	DET	_	Polite=Form|PronType=Dem	19	det	_	Level=Krama
-21	tiba	tiba	VERB	_	Voice=Act	2	parataxis	_	_
+21	tiba	tiba	VERB	_	Mood=Ind|Voice=Act	2	parataxis	_	_
 22	ing	ing	ADP	_	_	23	case	_	_
 23	basa	basa	NOUN	_	_	21	obl	_	_
 24	Inggris	Inggris	PROPN	_	_	23	nmod	_	SpaceAfter=No
@@ -2473,24 +2475,24 @@
 # text_id = Dia menjabat sebagai presiden pada tahun 2001 setelah kudeta tak berdarah yang disebut Revolusi EDSA II yang menggulingkan Presiden Joseph Estrada di tengah tuduhan korupsi.
 # text_en = He took office as president in 2001 after a bloodless coup called the EDSA II Revolution that toppled President Joseph Estrada amid allegations of corruption.
 1	Piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	Level=Krama
-2	nggayuh	nggayuh	VERB	_	Voice=Act	0	root	_	_
+2	nggayuh	nggayuh	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	kalungguhan	kalungguhan	NOUN	_	_	2	obj	_	_
 4	minangka	minangka	ADP	_	_	5	case	_	_
 5	présidhèn	présidhèn	NOUN	_	_	2	obl	_	_
 6	ing	ing	ADP	_	_	7	case	_	_
 7	taun	taun	NOUN	_	_	2	obl:tmod	_	_
 8	2001	2001	NUM	_	NumType=Card	7	nummod	_	_
-9	ngèlampahi	ngèlampahi	VERB	_	Voice=Act	2	advcl	_	_
+9	ngèlampahi	ngèlampahi	VERB	_	Mood=Ind|Voice=Act	2	advcl	_	_
 10	kudeta	kudeta	NOUN	_	Number=Sing	9	obj	_	_
 11	boten	boten	PART	_	Polarity=Neg|Polite=Form	12	advmod	_	Level=Krama
-12	rahan	rahan	VERB	_	Voice=Act	10	acl	_	_
+12	rahan	rahan	VERB	_	Mood=Ind|Voice=Act	10	acl	_	_
 13	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	14	nsubj	_	Level=Krama
-14	dipunsebat	sebat	VERB	_	Polite=Form|Voice=Pass	10	acl:relcl	_	Level=Krama
+14	dipunsebat	sebat	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	10	acl:relcl	_	Level=Krama
 15	Revolusi	Revolusi	PROPN	_	_	14	obl	_	_
 16	EDSA	EDSA	PROPN	_	_	15	flat:name	_	_
 17	II	II	PROPN	_	_	15	flat:name	_	_
 18	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	19	nsubj	_	Level=Krama
-19	nggulingakèn	guling	VERB	_	Voice=Act	15	acl	_	_
+19	nggulingakèn	guling	VERB	_	Mood=Ind|Voice=Act	15	acl	_	_
 20	Présidhèn	Présidhèn	PROPN	_	_	19	obj	_	_
 21	Joseph	Joseph	PROPN	_	_	20	flat:name	_	_
 22	Estrada	Estrada	PROPN	_	_	20	flat:name	_	_
@@ -2518,7 +2520,7 @@
 12	lan	lan	CCONJ	_	_	15	cc	_	_
 13	prototipe	prototipe	NOUN	_	Number=Sing	15	nsubj	_	_
 14	pungkasan	pungkas	ADJ	_	_	13	amod	_	_
-15	nglakokaé	nglakokaé	VERB	_	Voice=Act	4	conj	_	_
+15	nglakokaé	nglakokaé	VERB	_	Mood=Ind|Voice=Act	4	conj	_	_
 16	penerbangan	terbang	NOUN	_	Number=Sing	15	obj	_	_
 17	ing	ing	ADP	_	_	18	case	_	_
 18	tanggal	tanggal	NOUN	_	Number=Sing	15	obl:tmod	_	_
@@ -2539,7 +2541,7 @@
 6	utami	utami	ADJ	_	_	3	amod	_	_
 7	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	9	nsubj	_	Level=Krama
 8	kadang-kala	kadang-kala	ADV	_	_	9	advmod	_	_
-9	ketingal	tingal	VERB	_	Voice=Pass	2	acl:relcl	_	_
+9	ketingal	tingal	VERB	_	Mood=Ind|Voice=Pass	2	acl:relcl	_	_
 10	tanpa	tanpa	ADP	_	_	11	case	_	_
 11	piranti	piranti	NOUN	_	Number=Sing	9	obl	_	_
 12	tambahan	tambahan	ADJ	_	_	11	amod	_	_
@@ -2557,12 +2559,12 @@
 24	kaliyan	kaliyan	ADP	_	_	25	case	_	_
 25	bumi	bumi	NOUN	_	Number=Sing	23	obl	_	_
 26	saged	saged	AUX	_	_	27	aux	_	_
-27	ketingal	ketingal	VERB	_	Voice=Pass	2	parataxis	_	_
+27	ketingal	ketingal	VERB	_	Mood=Ind|Voice=Pass	2	parataxis	_	_
 28	tanpa	tanpa	ADP	_	_	29	case	_	_
 29	bantuan	bantu	NOUN	_	Number=Sing	27	obl	_	_
 30	teknis	teknis	ADJ	_	_	29	amod	_	SpaceAfter=No
 31	;	;	PUNCT	_	_	32	punct	_	_
-32	pirsani	pirsani	VERB	_	Voice=Act	27	appos	_	_
+32	pirsani	pirsani	VERB	_	Mood=Ind|Voice=Act	27	appos	_	_
 33	99942	99942	NUM	_	NumType=Card	34	nummod	_	_
 34	Apophis	Apophis	PROPN	_	_	32	obj	_	SpaceAfter=No
 35	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
@@ -2573,7 +2575,7 @@
 # text_id = Dia berkata bahwa orang tuanya tidak bisa datang kemari.
 # text_en = He said that his parents couldn't come here.
 1	Piyambaké	piyambaké	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	Level=Krama
-2	criyos	criyos	VERB	_	Voice=Act	0	root	_	Level=Madya
+2	criyos	criyos	VERB	_	Mood=Ind|Voice=Act	0	root	_	Level=Madya
 3	yen	yen	SCONJ	_	Polite=Infm	9	mark	_	Level=Ngoko
 4	tiyang	tiyang	NOUN	_	Polite=Form	9	nsubj	_	Level=Krama
 5-6	sepuhé	_	_	_	_	_	_	_	_
@@ -2590,7 +2592,7 @@
 # text_id = Bronx menerima gelombang besar imigran Irlandia, Jerman, Yahudi, dan Italia setelah populasi pedesaannya meledak antara pertengahan abad ke-19 dan ke-20.
 # text_en = The Bronx received a large influx of Irish, German, Jewish, and Italian immigrants after its rural population exploded between the mid-19th and 20th centuries.
 1	Bronx	Bronx	PROPN	_	_	2	nsubj	_	_
-2	éntuk	éntuk	VERB	_	Voice=Act	0	root	_	_
+2	éntuk	éntuk	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	akèh	akèh	DET	_	Number=Plur|Polite=Infm|PronType=Ind	4	det	_	_
 4	arus	arus	X	_	Foreign=Yes	2	obj	_	_
 5	imigran	imigran	X	_	Foreign=Yes	4	nmod	_	_
@@ -2629,7 +2631,7 @@
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	Niall	Niall	PROPN	_	_	10	nsubj	_	_
 9	tau	tau	ADV	_	_	10	advmod	_	_
-10	ngomong	omong	VERB	_	Voice=Act	0	root	_	_
+10	ngomong	omong	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 11	kaya	kaya	ADP	_	_	12	case	_	_
 12	ngene	ngene	PRON	_	PronType=Dem	10	obl	_	SpaceAfter=No
 13	:	:	PUNCT	_	_	10	punct	_	_
@@ -2642,7 +2644,7 @@
 19	lan	lan	CCONJ	_	_	21	cc	_	_
 20	aku	aku	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	22	nsubj	_	Level=Ngoko
 21	pengen	pengen	AUX	_	_	22	aux	_	_
-22	duwé	duwé	VERB	_	Voice=Act	18	conj	_	_
+22	duwé	duwé	VERB	_	Mood=Ind|Voice=Act	18	conj	_	_
 23	jeneng	jeneng	NOUN	_	Number=Sing|Polite=Infm	22	obj	_	Level=Ngoko
 24	gedhé	gedhé	ADJ	_	Polite=Infm	23	amod	_	Level=Ngoko
 25	kaya	kaya	ADP	_	_	26	case	_	_
@@ -2657,7 +2659,7 @@
 # text_id = Sharapova meraih gelar pertamanya pada tahun 2006 dan gelar ke-11 dalam karirnya di turnamen Tier 1, Pacific Life Open di Indian Wells, California di mana ia menjadi unggulan ke-3.
 # text_en = Sharapova won her first title in 2006 and her 11th career title at the Tier 1, Pacific Life Open tournament in Indian Wells, California where she was seeded 3rd.
 1	Sharapova	Sharapova	PROPN	_	_	2	nsubj	_	_
-2	nggayuh	nggayuh	VERB	_	Voice=Act	0	root	_	_
+2	nggayuh	nggayuh	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	gelar	gelar	NOUN	_	Number=Sing	2	obj	_	_
 4-5	sepindhaipun	_	_	_	_	_	_	_	_
 4	sepindha	sepindhai	ADJ	_	_	3	amod	_	_
@@ -2689,7 +2691,7 @@
 29	ing	ing	ADP	_	_	30	case	_	_
 30	pundi	pundi	NOUN	_	Number=Sing	32	obl	_	_
 31	panjenenganipun	panjenenganipun	PRON	_	Number=Sing|Person=3|Polite=Elev|PronType=Prs	32	nsubj	_	Level=KramaInggil
-32	dados	dados	VERB	_	Polite=Form|Voice=Act	17	acl	_	_
+32	dados	dados	VERB	_	Mood=Ind|Polite=Form|Voice=Act	17	acl	_	_
 33	unggulan	unggul	NOUN	_	Number=Sing	32	obl	_	_
 34	kaping	kaping	NOUN	_	Number=Sing	33	nmod	_	_
 35	3	3	NUM	_	NumType=Card	34	nummod	_	SpaceAfter=No
@@ -2704,19 +2706,19 @@
 3	taun	taun	NOUN	_	Number=Sing	6	obl:tmod	_	_
 4	1980	1980	NUM	_	NumType=Card	3	nummod	_	_
 5	Eddie	Eddie	PROPN	_	_	6	nsubj	_	_
-6	malih	malih	VERB	_	Voice=Act	0	root	_	_
+6	malih	malih	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	ing	ing	ADP	_	_	8	case	_	_
 8	Éropah	Éropah	PROPN	_	_	6	obl	_	_
 9	lan	lan	CCONJ	_	_	12	cc	_	_
 10	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	12	nsubj	_	Level=Krama
 11	lajeng	lajeng	ADV	_	_	12	advmod	_	_
-12	ndirikaken	diri	VERB	_	Voice=Act	6	conj	_	_
+12	ndirikaken	diri	VERB	_	Mood=Ind|Voice=Act	6	conj	_	_
 13	tim	tim	NOUN	_	Number=Sing	12	obj	_	_
 14	Eddie	Eddie	PROPN	_	_	13	nmod	_	_
 15	Jordan	Jordan	PROPN	_	_	14	flat:name	_	_
 16	Racing	Racing	PROPN	_	_	14	flat:name	_	_
 17	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	18	nsubj	_	Level=Krama
-18	mandhap	mandhap	VERB	_	_	13	acl:relcl	_	_
+18	mandhap	mandhap	VERB	_	Mood=Ind|Voice=Act	13	acl:relcl	_	_
 19	ing	ing	ADP	_	_	20	case	_	_
 20	kejuaraan	juara	NOUN	_	Number=Sing	18	obl	_	_
 21	Formula	Formula	PROPN	_	_	20	nmod	_	_
