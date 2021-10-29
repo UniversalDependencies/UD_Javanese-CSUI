@@ -13,10 +13,12 @@ Javanese has three language levels: Krama, Madya, and Ngoko. In this initial ver
 # Acknowledgments
 
 * UD Javanese-CSUI was developed by the **Javanese NLP Research Group** at Information Retrieval and Natural Language Processing ([IR-NLP](https://ir.cs.ui.ac.id)) Laboratory of Faculty of Computer Science, Universitas Indonesia. 
+* We are greatful to the many people who made this dataset possible: Ika Alfina, Dipta Tanaya, Putri Rizqiyah, Arlisa Yuliawati, Sri Hartati Wijono, and Arawinda Dinakaramani.
+
 
 ## References
 
-* (citation)
+Note: a paper about the development of this treebank will come soon ;-)
 
 
 # Changelog
