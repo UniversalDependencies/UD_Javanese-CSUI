@@ -1,14 +1,14 @@
 # Summary
 
-UD Javanese-CSUI is a dependency treebank in Javanese, a regional language in Indonesia with more than 80 million users. The original sentences were taken from [OPUS](https://opus.nlpl.eu/), especially from the WikiMatrix v1 corpus. We revised the sentences that contained more Indonesian words than Javanese words and manually annotated them. The current version of this treebank consists of 125 sentences, and 2061 words.  
+UD Javanese-CSUI is a dependency treebank in Javanese, a regional language in Indonesia with more than 60 million users. The original sentences were taken from [OPUS](https://opus.nlpl.eu/), especially from the WikiMatrix v1 corpus. We revised the sentences that contained more Indonesian words than Javanese words and manually annotated them. The current version of this treebank consists of 125 sentences, and 2061 words.  
 
 # Introduction
 
-UD Javanese-CSUI is a gold standard dependency treebank for Javanese, the regional language that has the most users in Indonesia (more than 80 million native speakers in 2007). 
+UD Javanese-CSUI is a gold standard dependency treebank for Javanese, the regional language that has the most users in Indonesia (more than 60 million native speakers). 
 
-The sentences were taken from [OPUS](https://opus.nlpl.eu/), the open-source parallel corpus, especially from the Javanese section of the WikiMatrix v1 corpus. The sentences in this corpus do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa)) and use the Roman writing system. In addition, we revised sentences that contained more Indonesian words than Javanese words.
+The sentences were taken from [OPUS](https://opus.nlpl.eu/), the open-source parallel corpus, especially from the Javanese section of the WikiMatrix v1 corpus. The sentences in this corpus do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa)) and use the Roman writing system. Since we observed that some sentences contained more Indonesian words than Javanese words, we also revised them.
 
-Javanese has three language levels: Krama, Madya, and Ngoko. In this initial version of the Javanese dependency treebank, the sentences are predominantly Ngoko and Krama languages.
+Javanese has several language levels, such as Krama, Krama Inggil, and Ngoko. In this initial version of the Javanese dependency treebank, the sentences are predominantly Ngoko and Krama languages.
 
 # Acknowledgments
 
