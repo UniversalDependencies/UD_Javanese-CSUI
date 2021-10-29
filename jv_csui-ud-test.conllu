@@ -5,9 +5,9 @@
 1	Para	para	DET	_	Number=Plur|PronType=Ind	2	det	_	_
 2	warga	warga	NOUN	_	Number=Sing	4	nsubj	_	_
 3	padha	padha	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
-4	metu	metu	VERB	_	Mood=Ind|Voice=Act	0	root	_	Level=Ngoko
-5	karo	karo	SCONJ	_	_	6	mark	_	Level=Ngoko
-6	nggawani	gawa	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	Level=Ngoko
+4	metu	metu	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
+5	karo	karo	SCONJ	_	Polite=Infm	6	mark	_	Level=Ngoko
+6	nggawani	gawa	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	advcl	_	Level=Ngoko
 7	sampah	sampah	NOUN	_	Number=Sing	6	obj	_	_
 8	sing	sing	PRON	_	Polite=Infm|PronType=Rel	10	nsubj:pass	_	Level=Ngoko
 9	wis	wis	AUX	_	Polite=Infm	10	aux	_	Level=Ngoko
@@ -442,7 +442,7 @@
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 24
-# text = Jumlah subunit isa macem-macem malah ing sèl kang padha contohé ing Salmonella kang jumlah subunit antara 3, 4, utawa 5.
+# text = Jumlah subunit isa macem-macem malah ing sèl kang padha contoné ing Salmonella kang jumlah subunit antara 3, 4, utawa 5.
 # text_id = Jumlah subunit dapat bervariasi bahkan dalam sel yang sama misalnya pada Salmonella dimana jumlah subunit antara 3, 4, atau 5.
 # text_en = The number of subunits can vary even within the same cell for example in Salmonella where the number of subunits is between 3, 4, or 5.
 1	Jumlah	jumlah	X	_	Foreign=Yes	4	nsubj	_	_
@@ -454,9 +454,9 @@
 7	sèl	sèl	NOUN	_	Number=Sing	4	obl	_	_
 8	kang	kang	PRON	_	Polite=Infm|PronType=Rel	9	nsubj	_	Level=Ngoko
 9	padha	padha	ADJ	_	Polite=Infm	7	acl:relcl	_	Level=Ngoko
-10-11	contohé	_	_	_	_	_	_	_	_
-10	contoh	contoh	NOUN	_	Number=Sing	4	nmod	_	_
-11	é	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	10	det	_	_
+10-11	contoné	_	_	_	_	_	_	_	_
+10	conto	contoh	NOUN	_	Number=Sing	4	nmod	_	_
+11	né	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	10	det	_	_
 12	ing	ing	ADP	_	_	13	case	_	_
 13	Salmonella	Salmonella	PROPN	_	_	10	nmod	_	_
 14	kang	kang	PRON	_	Polite=Infm|PronType=Rel	18	obl	_	Level=Ngoko
@@ -890,7 +890,7 @@
 # text_id = EAT memperluas kegiatannya dengan menandatangani kontrak dengan DHL Worldwide Express pada tahun 1985.
 # text_en = EAT expanded its activities by signing a contract with DHL Worldwide Express in 1985.
 1	EAT	EAT	PROPN	_	_	2	nsubj	_	_
-2	ngambakake	ngambakake	VERB	_	Mood=Ind|Voice=Act	0	root	_	Level=Madya
+2	ngambakake	ngambakake	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3-4	kegiyatané	_	_	_	_	_	_	_	_
 3	kegiyatan	kegiyatan	NOUN	_	Number=Sing	2	obj	_	_
 4	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
@@ -1553,7 +1553,7 @@
 12	nalika	nalika	SCONJ	_	Polite=Elev	15	mark	_	Level=KramaInggil
 13	Traktat	Traktat	PROPN	_	_	15	nsubj:pass	_	_
 14	Trianon	Trianon	PROPN	_	_	13	flat:name	_	_
-15	dipuntapakastani	tapakasta	VERB	_	Mood=Ind|Polite=Elev|Voice=Pass	4	advcl	_	Level=KramaInggil
+15	dipuntapakastani	tapakasta	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	4	advcl	_	Level=Krama
 16	ing	ing	ADP	_	Polite=Infm	17	case	_	Level=Ngoko
 17	Paris	Paris	PROPN	_	_	15	obl	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
@@ -1909,7 +1909,7 @@
 16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 101
-# text = Dados ing dalu punika 3 rookie dipuneliminasi, kaliyan Skip Sheffield dipuneliminasi amargi ing pertandhingan pro, urutané ing pungkasan pertandhingan iku.
+# text = Dados ing dalu punika 3 rookie dipuneliminasi, kaliyan Skip Sheffield dipuneliminasi amargi ing pertandhingan pro, urutané sing pungkasan pertandhingan iku.
 # text_id = Jadi malam itu 3 pemula tersingkir, dengan Skip Sheffield tersingkir karena dalam pemilihan pro, urutannya yaitu yang terakhir dalam pemilihan itu.
 # text_en = So that night 3 rookies were eliminated, with Skip Sheffield getting knocked out because in the pro vote, his ranking was last in that election.
 1	Dados	dados	ADV	_	Polite=Form	7	advmod	_	Level=Krama
@@ -1932,7 +1932,7 @@
 18-19	urutané	_	_	_	_	_	_	_	_
 18	urutan	urutan	NOUN	_	_	21	nsubj	_	_
 19	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	18	nmod:poss	_	_
-20	ing	ing	DET	_	Definite=Def|PronType=Art	21	det	_	_
+20	sing	sing	DET	_	Definite=Def|PronType=Art	21	det	_	_
 21	pungkasan	pungkas	ADJ	_	Polite=Form	12	advcl	_	Level=Krama
 22	pertandhingan	tandhing	NOUN	_	_	21	obl	_	_
 23	iku	iku	DET	_	Polite=Infm|PronType=Dem	22	det	_	Level=Ngoko|SpaceAfter=No
@@ -2006,12 +2006,12 @@
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 104
-# text = Bab iki iso dideleng ing toko-toko IKEA lan ing katalogé, mbentuk pitakonan koyo: "Keno opo IKEA ngadol tanpa ngrakit?" utawa "Keno opo IKEA nggawé akèh-akèhan?" utawa "Keno opo ora biyasa?".
-# text_id = Ini dapat dilihat di toko-toko IKEA dan di katalog, membentuk pertanyaan seperti: "Mengapa IKEA menjual tanpa dirakit?" atau "Mengapa IKEA menghasilkan begitu banyak?" atau “Mengapa tidak terbiasa?”.
+# text = Bab iki isa dideleng ing toko-toko IKEA lan ing katalogé, marakake pitakonan kaya: "Kena apa IKEA ngadol tanpa ngrakit?" utawa "Kena apa IKEA nggawé akèh-akèhan?" utawa "Kena apa ora biyasa?".
+# text_id = Ini dapat dilihat di toko-toko IKEA dan di katalog, menimbulkan pertanyaan seperti: "Mengapa IKEA menjual tanpa dirakit?" atau "Mengapa IKEA menghasilkan begitu banyak?" atau “Mengapa tidak terbiasa?”.
 # text_en = This can be seen in IKEA stores and in catalogs, forming questions such as: "Why does IKEA sell unassembled?" or "Why does IKEA make so much?" or “Why not get used to it?”.
 1	Bab	bab	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 2	iki	iki	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
-3	iso	iso	ADV	_	_	4	advmod	_	_
+3	isa	isa	AUX	_	Polite=Infm	4	aux	_	Level=Ngoko
 4	dideleng	deleng	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
 6	toko-toko	toko	NOUN	_	Number=Plur	4	obl	_	_
@@ -2022,13 +2022,13 @@
 10	katalog	katalog	X	_	Foreign=Yes	6	conj	_	_
 11	é	é	DET	_	Definite=Def|PronType=Art	10	nmod:poss	_	Level=Ngoko
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	mbentuk	mbentuk	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
+13	marakake	marakake	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
 14	pitakonan	takon	NOUN	_	_	13	obj	_	_
-15	koyo	koyo	SCONJ	_	_	21	mark	_	SpaceAfter=No
+15	kaya	kaya	SCONJ	_	_	21	mark	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	21	punct	_	_
 17	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
-18	Keno	keno	ADV	_	PronType=Int	21	advmod	_	_
-19	opo	opo	PRON	_	PronType=Rel	18	fixed	_	_
+18	Kena	kena	ADV	_	PronType=Int	21	advmod	_	_
+19	apa	apa	PRON	_	PronType=Rel	18	fixed	_	_
 20	IKEA	IKEA	PROPN	_	_	21	nsubj	_	_
 21	ngadol	ngadol	VERB	_	Mood=Ind|Voice=Act	14	acl	_	_
 22	tanpa	tanpa	SCONJ	_	_	23	mark	_	_
@@ -2037,8 +2037,8 @@
 25	"	"	PUNCT	_	_	21	punct	_	_
 26	utawa	utawa	CCONJ	_	Polite=Infm	31	cc	_	Level=Ngoko
 27	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
-28	Keno	keno	ADV	_	PronType=Int	31	advmod	_	_
-29	opo	opo	PRON	_	PronType=Rel	28	fixed	_	_
+28	Kena	kena	ADV	_	PronType=Int	31	advmod	_	_
+29	apa	apa	PRON	_	PronType=Rel	28	fixed	_	_
 30	IKEA	IKEA	PROPN	_	_	31	nsubj	_	_
 31	nggawé	nggawé	VERB	_	Mood=Ind|Voice=Act	21	conj	_	_
 32	akèh-akèhan	akèh-akèhan	ADV	_	_	31	advmod	_	SpaceAfter=No
@@ -2046,8 +2046,8 @@
 34	"	"	PUNCT	_	_	31	punct	_	_
 35	utawa	utawa	CCONJ	_	Polite=Infm	40	cc	_	Level=Ngoko
 36	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
-37	Keno	keno	ADV	_	PronType=Int	40	advmod	_	_
-38	opo	opo	PRON	_	PronType=Rel	37	fixed	_	_
+37	Kena	kena	ADV	_	PronType=Int	40	advmod	_	_
+38	apa	apa	PRON	_	PronType=Rel	37	fixed	_	_
 39	ora	ora	PART	_	Polarity=Neg|Polite=Infm	40	advmod	_	Level=Ngoko
 40	biyasa	biyasa	ADJ	_	_	31	conj	_	SpaceAfter=No
 41	?	?	PUNCT	_	_	40	punct	_	SpaceAfter=No
@@ -2332,7 +2332,7 @@
 16	kang	kang	PRON	_	Polite=Infm|PronType=Rel	17	nsubj:pass	_	Level=Ngoko
 17	dilarang	larang	VERB	_	Mood=Ind|Voice=Pass	15	acl	_	_
 18	beroperasi	operasi	VERB	_	Mood=Ind|Voice=Act	17	xcomp	_	_
-19	karo	karo	ADP	_	_	20	case	_	_
+19	karo	karo	ADP	_	Polite=Infm	20	case	_	Level=Ngoko
 20	Dikti	Dikti	PROPN	_	_	17	obl:agent	_	_
 21	Depdiknas	Depdiknas	PROPN	_	_	20	flat:name	_	_
 22	ing	ing	ADP	_	_	23	case	_	_
@@ -2575,7 +2575,7 @@
 # text_id = Dia berkata bahwa orang tuanya tidak bisa datang kemari.
 # text_en = He said that his parents couldn't come here.
 1	Piyambaké	piyambaké	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	Level=Krama
-2	criyos	criyos	VERB	_	Mood=Ind|Voice=Act	0	root	_	Level=Madya
+2	criyos	criyos	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 3	yen	yen	SCONJ	_	Polite=Infm	9	mark	_	Level=Ngoko
 4	tiyang	tiyang	NOUN	_	Polite=Form	9	nsubj	_	Level=Krama
 5-6	sepuhé	_	_	_	_	_	_	_	_
