@@ -50,7 +50,7 @@
     <feat name="Polarity" value="Neg" upos="PART">6</feat><!-- ora, boten, mboten -->
     <feat name="Polite" value="Elev" upos="ADP,NOUN,PRON,SCONJ,VERB">21</feat><!-- nalika, panjenenganipun, asma, asta, miyos, ngendika, panjenengané -->
     <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,SCONJ,VERB">209</feat><!-- punika, ingkang, ipun, piyambakipun, pungkasan, inggih, saking, kaliyan, dados, lajeng -->
-    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,SCONJ,VERB">251</feat><!-- lan, é, kang, yaiku, saka, iki, né, dadi, isa, iku -->
+    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PART,PRON,SCONJ,VERB">252</feat><!-- lan, é, kang, yaiku, saka, iki, né, dadi, isa, iku -->
     <feat name="PronType" value="Art" upos="DET">18</feat><!-- é, ipun, sawijining, nipun, satunggaling, né, sing -->
     <feat name="PronType" value="Dem" upos="DET,PRON">43</feat><!-- punika, iki, mau, iku, kana, gene, kuwi, ngene, semana -->
     <feat name="PronType" value="Emp" upos="DET">1</feat><!-- piyambak -->

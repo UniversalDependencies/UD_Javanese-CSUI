@@ -2366,7 +2366,7 @@
 16	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	1924	1924	NUM	_	NumType=Card	15	flat	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	24	punct	_	_
-19	nanging	nanging	CCONJ	_	_	24	cc	_	_
+19	nanging	nanging	CCONJ	_	Polite=Infm	24	cc	_	Level=Ngoko
 20	kadang	kadang	ADV	_	_	24	advmod	_	_
 21	kala	kala	NOUN	_	Number=Sing	20	fixed	_	_
 22	piyambakipun	piyambakipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	24	nsubj	_	Level=Krama
