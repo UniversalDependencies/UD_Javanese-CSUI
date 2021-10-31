@@ -2019,7 +2019,7 @@
 # text_en = This can be seen in IKEA stores and in catalogs, forming questions such as: "Why does IKEA sell unassembled?" or "Why does IKEA make so much?" or “Why not get used to it?”.
 1	Bab	bab	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 2	iki	iki	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
-3	isa	isa	AUX	_	Polite=Infm	4	aux	_	Level=Ngoko
+3	isa	bisa	AUX	_	Abbr=Yes|Polite=Infm	4	aux	_	Level=Ngoko
 4	dideleng	deleng	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	ing	ing	ADP	_	_	6	case	_	_
 6	toko-toko	toko	NOUN	_	Number=Plur	4	obl	_	_
@@ -2368,8 +2368,8 @@
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	lan	lan	CCONJ	_	Polite=Infm	12	cc	_	Level=Ngoko
 12	akuntan	akuntan	NOUN	_	Number=Sing	5	conj	_	_
-13	antawis	antawis	ADP	_	Polite=Form	14	case	_	Level=Krama
-14	taun	taun	NOUN	_	Number=Sing	5	nmod	_	_
+13	antawis	antawis	NOUN	_	Number=Sing|Polite=Form	14	nmod:lmod	_	Level=Krama
+14	taun	taun	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 15	1922	1922	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
 16	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	1924	1924	NUM	_	NumType=Card	15	flat	_	SpaceAfter=No
@@ -2617,9 +2617,9 @@
 15	pedésaan	désa	NOUN	_	Number=Sing	14	nmod	_	_
 16	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nmod:poss	_	Level=Ngoko
 17	meledak	ledak	X	_	Foreign=Yes	2	advcl	_	_
-18	antawis	antawis	ADP	_	Polite=Form	20	case	_	Level=Krama
-19	pertengahan	tengah	NOUN	_	Number=Sing	20	nmod:lmod	_	_
-20	abad	abad	NOUN	_	Number=Sing	17	nmod	_	_
+18	antawis	antawis	NOUN	_	Number=Sing|Polite=Form	19	nmod:lmod	_	Level=Krama
+19	pertengahan	tengah	NOUN	_	Number=Sing	17	obl	_	_
+20	abad	abad	NOUN	_	Number=Sing	19	nmod	_	_
 21	kaping	kaping	NOUN	_	Number=Sing	20	nmod	_	_
 22	19	19	NUM	_	NumType=Card	21	nummod	_	_
 23	lan	lan	CCONJ	_	Polite=Infm	24	cc	_	Level=Ngoko
