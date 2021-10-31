@@ -350,19 +350,19 @@
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = 19
-# text = Potter asring nggatosakèn kéwan-kéwan punika ngantos pinten-pinten jam lan ndamèl gambaripun.
+# text = Potter asring nggatosakèn kéwan-kéwan punika ngantos pinten-pinten jam lan damèl gambaripun.
 # text_id = Potter sering mengamati hewan-hewan ini selama berjam-jam dan membuat sketsanya.
 # text_en = Potter would often observe these animals for hours and sketch them.
 1	Potter	Potter	PROPN	_	_	3	nsubj	_	_
 2	asring	asring	ADV	_	_	3	advmod	_	_
-3	nggatosakèn	nggatosakèn	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
+3	nggatosakèn	gatos	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 4	kéwan-kéwan	kéwan-kéwan	NOUN	_	Number=Sing	3	obj	_	_
 5	punika	punika	DET	_	Polite=Form|PronType=Dem	4	det	_	Level=Krama
 6	ngantos	ngantos	ADP	_	Polite=Form	8	case	_	Level=Krama
 7	pinten-pinten	pinten	DET	_	Number=Plur|Polite=Form|PronType=Ind	8	det	_	Level=Krama
 8	jam	jam	NOUN	_	Number=Sing	3	obl	_	_
 9	lan	lan	CCONJ	_	Polite=Infm	10	cc	_	Level=Ngoko
-10	ndamèl	damèl	VERB	_	Mood=Ind|Polite=Form|Voice=Act	3	conj	_	Level=Krama
+10	damèl	damèl	VERB	_	Mood=Ind|Polite=Form|Voice=Act	3	conj	_	Level=Krama
 11-12	gambaripun	_	_	_	_	_	_	_	SpaceAfter=No
 11	gambar	gambar	NOUN	_	Number=Sing	10	obl	_	_
 12	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	11	nmod:poss	_	Level=Krama
@@ -381,13 +381,14 @@
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 21
-# text = Sastra dan Religiositas mimpanganken bebingah buku non-fiksi paling saé taun 1982.
+# text = Sastra dan Religiositas mimpangaken bebingah buku non-fiksi paling saé taun 1982.
 # text_id = Sastra dan Religiositas memenangkan penghargaan buku non-fiksi terbaik tahun 1982.
+# text_en = Literature and Religiosity was awarded the best non-fiction book of 1982.
 1	Sastra	Sastra	PROPN	_	_	4	nsubj	_	_
 2	dan	dan	PROPN	_	_	1	flat:name	_	_
 3	Religiositas	Religiositas	PROPN	_	_	1	flat:name	_	_
-4	mimpanganken	mimpang	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
-5	bebingah	bebingah	NOUN	_	Number=Sing	4	obj	_	_
+4	mimpangaken	mimpang	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
+5	bebingah	bingah	NOUN	_	Number=Sing	4	obj	_	_
 6	buku	buku	NOUN	_	Number=Sing	5	nmod	_	_
 7	non-fiksi	non-fiksi	X	_	Foreign=Yes	5	dep	_	_
 8	paling	paling	ADV	_	_	9	advmod	_	_
@@ -397,10 +398,10 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 22
-# text = Lumantar Mantri Luar Negeri Alwi Shihab, Présidhèn gagal nyegah perkawis punika dhateng pulisi.
+# text = Lumantar Mantri Luar Negeri Alwi Shihab, Présidhèn gagal nyegah prekawis punika dhateng pulisi.
 # text_id = Melalui Menteri Luar Negeri Alwi Shihab, Presiden gagal menyampaikan hal tersebut kepada polisi.
 # text_en = Through Foreign Minister Alwi Shihab, the President failed to convey this to the police.
-1	Lumantar	Lumantar	ADP	_	_	2	case	_	_
+1	Lumantar	lantar	ADP	_	_	2	case	_	_
 2	Mantri	Mantri	NOUN	_	Number=Sing	9	obl	_	_
 3	Luar	Luar	NOUN	_	Number=Sing	4	nmod:lmod	_	_
 4	Negeri	Negeri	NOUN	_	Number=Sing	2	nmod	_	_
@@ -409,15 +410,15 @@
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	Présidhèn	Présidhèn	PROPN	_	_	9	nsubj	_	_
 9	gagal	gagal	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-10	nyegah	nyegah	VERB	_	Mood=Ind|Voice=Act	9	xcomp	_	_
-11	perkawis	perkawis	NOUN	_	Number=Sing	10	obl	_	_
+10	nyegah	cegah	VERB	_	Mood=Ind|Voice=Act	9	xcomp	_	_
+11	prekawis	prekawis	NOUN	_	Number=Sing	10	obl	_	_
 12	punika	punika	DET	_	Polite=Form|PronType=Dem	11	det	_	Level=Krama
 13	dhateng	dhateng	ADP	_	_	14	case	_	_
 14	pulisi	pulisi	NOUN	_	Number=Sing	10	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 23
-# text = Minangka Go-on Red, seranganipun inggih punika serangan kecepatan dhuwur lan rencangipun inggih punika Speedor.
+# text = Minangka Go-on Red, seranganipun inggih punika serangan ingkang rikat sanget lan rencangipun inggih punika Speedor.
 # text_id = Sebagai Go-on Red, serangannya adalah serangan kecepatan tinggi dan rekannya adalah Speedor.
 # text_en = As Go-on Red, his attacks are high speed attacks and his counterpart is Speedor.
 1	Minangka	Minangka	ADP	_	_	2	case	_	_
@@ -430,46 +431,49 @@
 7	inggih	inggih	AUX	_	Polite=Form	9	cop	_	Level=Krama
 8	punika	punika	DET	_	Polite=Form|PronType=Dem	7	fixed	_	Level=Krama
 9	serangan	serang	NOUN	_	Number=Sing	0	root	_	_
-10	kecepatan	cepat	NOUN	_	Number=Sing	9	nmod	_	_
-11	dhuwur	dhuwur	ADJ	_	_	10	amod	_	_
-12	lan	lan	CCONJ	_	Polite=Infm	17	cc	_	Level=Ngoko
-13-14	rencangipun	_	_	_	_	_	_	_	_
-13	rencang	rencang	NOUN	_	Number=Sing	17	nsubj	_	_
-14	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	13	nmod:poss	_	Level=Krama
-15	inggih	inggih	AUX	_	Polite=Form	17	cop	_	Level=Krama
-16	punika	punika	DET	_	Polite=Form|PronType=Dem	15	fixed	_	Level=Krama
-17	Speedor	Speedor	PROPN	_	_	9	conj	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	9	punct	_	_
+10	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	11	nsubj	_	Level=Krama
+11	rikat	rikat	ADJ	_	_	9	acl:relcl	_	_
+12	sanget	sanget	ADV	_	_	11	advmod	_	_
+13	lan	lan	CCONJ	_	Polite=Infm	18	cc	_	Level=Ngoko
+14-15	rencangipun	_	_	_	_	_	_	_	_
+14	rencang	rencang	NOUN	_	Number=Sing	18	nsubj	_	_
+15	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	14	nmod:poss	_	Level=Krama
+16	inggih	inggih	AUX	_	Polite=Form	18	cop	_	Level=Krama
+17	punika	punika	DET	_	Polite=Form|PronType=Dem	16	fixed	_	Level=Krama
+18	Speedor	Speedor	PROPN	_	_	9	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 24
-# text = Jumlah subunit isa macem-macem malah ing sèl kang padha contoné ing Salmonella kang jumlah subunit antara 3, 4, utawa 5.
+# text = Gunggung subunit isa macem-macem malah ning sèl kang padha contoné ning Salmonella kang gunggung subunité antara 3, 4, utawa 5.
 # text_id = Jumlah subunit dapat bervariasi bahkan dalam sel yang sama misalnya pada Salmonella dimana jumlah subunit antara 3, 4, atau 5.
 # text_en = The number of subunits can vary even within the same cell for example in Salmonella where the number of subunits is between 3, 4, or 5.
-1	Jumlah	jumlah	X	_	Foreign=Yes	4	nsubj	_	_
+1	Gunggung	gunggung	NOUN	_	Number=Sing	4	nsubj	_	_
 2	subunit	subunit	X	_	Foreign=Yes	1	nmod	_	_
 3	isa	bisa	AUX	_	Abbr=Yes|Polite=Infm	4	aux	_	Level=Ngoko
 4	macem-macem	macem	ADJ	_	_	0	root	_	_
 5	malah	malah	ADV	_	_	7	advmod	_	_
-6	ing	ing	ADP	_	_	7	case	_	_
+6	ning	ning	ADP	_	_	7	case	_	_
 7	sèl	sèl	NOUN	_	Number=Sing	4	obl	_	_
 8	kang	kang	PRON	_	Polite=Infm|PronType=Rel	9	nsubj	_	Level=Ngoko
 9	padha	padha	ADJ	_	Polite=Infm	7	acl:relcl	_	Level=Ngoko
 10-11	contoné	_	_	_	_	_	_	_	_
 10	conto	contoh	NOUN	_	Number=Sing	4	nmod	_	_
 11	né	é	DET	_	Definite=Def|Polite=Infm|PronType=Art	10	det	_	_
-12	ing	ing	ADP	_	_	13	case	_	_
+12	ning	ning	ADP	_	_	13	case	_	_
 13	Salmonella	Salmonella	PROPN	_	_	10	nmod	_	_
-14	kang	kang	PRON	_	Polite=Infm|PronType=Rel	18	obl	_	Level=Ngoko
-15	jumlah	jumlah	X	_	Foreign=Yes	18	nsubj	_	_
-16	subunit	subunit	X	_	Foreign=Yes	15	flat:foreign	_	_
-17	antara	antara	NOUN	_	Number=Sing|Polite=Infm	18	nmod:lmod	_	Level=Ngoko
-18	3	3	NUM	_	NumType=Card	13	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	_
-20	4	4	NUM	_	NumType=Card	18	conj	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	23	punct	_	_
-22	utawa	utawa	CCONJ	_	Polite=Infm	23	cc	_	Level=Ngoko
-23	5	5	NUM	_	NumType=Card	18	conj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	4	punct	_	_
+14	kang	kang	PRON	_	Polite=Infm|PronType=Rel	19	obl	_	Level=Ngoko
+15	gunggung	gunggung	NOUN	_	Number=Sing	19	nsubj	_	_
+16-17	subunité	_	_	_	_	_	_	_	_
+16	subunit	subunit	X	_	Foreign=Yes	15	nmod	_	_
+17	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	16	nmod:poss	_	_
+18	antara	antara	NOUN	_	Number=Sing|Polite=Infm	19	nmod:lmod	_	Level=Ngoko
+19	3	3	NUM	_	NumType=Card	13	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	4	4	NUM	_	NumType=Card	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	utawa	utawa	CCONJ	_	Polite=Infm	24	cc	_	Level=Ngoko
+24	5	5	NUM	_	NumType=Card	19	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 25
 # text = Nalika ing Jakarta, Robby kenalan banjur dadi "murid" Prajudi.
@@ -503,7 +507,7 @@
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 27
-# text = Tembang "She" dadi ndhuwur bagan tembang Britania.
+# text = Tembang "She" dadi puncak tangga tembang Britania.
 # tex_id = Lagu "She" menjadi puncak tangga lagu Britania.
 # text_en = The song "She" tops the UK charts.
 1	Tembang	tembang	NOUN	_	Number=Sing	5	nsubj	_	_
@@ -511,18 +515,18 @@
 3	She	She	PROPN	_	_	1	nmod	_	SpaceAfter=No
 4	"	"	PUNCT	_	_	3	punct	_	_
 5	dadi	dadi	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-6	ndhuwur	ndhuwur	NOUN	_	Number=Sing|Polite=Infm	5	obl	_	Level=Ngoko
-7	bagan	bagan	NOUN	_	Number=Sing	6	nmod	_	_
+6	puncak	puncak	NOUN	_	Number=Sing|Polite=Infm	5	obl	_	Level=Ngoko
+7	tangga	tangga	NOUN	_	Number=Sing	6	nmod	_	_
 8	tembang	tembang	NOUN	_	Number=Sing	7	nmod	_	_
 9	Britania	Britania	PROPN	_	_	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 28
-# text = Sawijining jalur kaping kalih, Jalur B, kanthi arah timurlaut dhateng baratdaya, dipunjadwalaken dipunbikak taun 2015.
+# text = Sawijining jalur kaping kalih, Jalur B, kanthi arah lor wetan dumugi kidul kulon, dipunjadwalaken dipunbikak taun 2015.
 # text_id = Sebuah jalur kedua, Jalur B, menuju timur laut ke barat daya, dijadwalkan dibuka pada tahun 2015.
 # text_en = A second line, Line B, heading northeast to southwest, is scheduled to open in 2015.
 1	Sawijining	sawijining	DET	_	Definite=Ind|Polite=Infm|PronType=Art	2	advmod	_	Level=Ngoko
-2	jalur	jalur	NOUN	_	Number=Sing	15	nsubj:pass	_	_
+2	jalur	jalur	NOUN	_	Number=Sing	17	nsubj:pass	_	_
 3	kaping	kaping	NOUN	_	Number=Sing|Polite=Form	2	nmod	_	Level=Krama
 4	kalih	kalih	ADJ	_	Polite=Form	3	amod	_	Level=Krama|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -531,48 +535,50 @@
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	kanthi	kanthi	ADP	_	_	10	case	_	_
 10	arah	arah	NOUN	_	Number=Sing	2	nmod	_	_
-11	timurlaut	timurlaut	NOUN	_	Number=Sing	10	nmod	_	_
-12	dhateng	dhateng	ADP	_	_	13	case	_	_
-13	baratdaya	baratdaya	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	_
-15	dipunjadwalaken	jadwal	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
-16	dipunbikak	mbukak	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	15	xcomp	_	Level=Krama
-17	taun	taun	NOUN	_	Number=Sing	16	obl:tmod	_	_
-18	2015	2015	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	15	punct	_	_
+11	lor	lor	NOUN	_	Number=Sing	10	nmod	_	_
+12	wetan	wetan	NOUN	_	Number=Sing	11	compound	_	_
+13	dumugi	dumugi	ADP	_	_	14	case	_	_
+14	kidul	kidul	NOUN	_	Number=Sing	11	nmod	_	_
+15	kulon	kulon	NOUN	_	Number=Sing	14	compound	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	dipunjadwalaken	jadwal	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
+18	dipunbikak	bikak	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	17	xcomp	_	Level=Krama
+19	taun	taun	NOUN	_	Number=Sing	18	obl:tmod	_	_
+20	2015	2015	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 29
-# text = Kekuwatan seri 705 yaiku 75 penumpang.
+# text = Momotan seri 705 yaiku 75 penumpang.
 # text_id = Kapasitas seri 705 adalah 75 penumpang.
 # text_en = The capacity of the 705 series is 75 passengers.
-1	Kekuwatan	kuwat	NOUN	_	Number=Sing	6	nsubj	_	_
+1	Momotan	momot	NOUN	_	Number=Sing	6	nsubj	_	_
 2	seri	seri	X	_	Foreign=Yes	1	nmod	_	_
 3	705	705	NUM	_	NumType=Card	2	nummod	_	_
 4	yaiku	yaiku	AUX	_	Polite=Infm	6	aux	_	Level=Ngoko
 5	75	75	NUM	_	NumType=Card	6	nummod	_	_
-6	penumpang	tumpang	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
+6	penumpang	penumpang	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 30
-# text = Kahanan kekirangan buah iki diterangno nggunakake jinis lan pathokan tanduran langka miturut Jinis Dhaptar Abang IUCN tanggal 30 November 1994.
-# text_id = Status kelangkaan buah ini dianalisis menggunakan kategori dan kriteria tumbuhan langka menurut Kategori Red List IUCN 30 November 1994.
+# text = Kahanan kekirangan woh iki diterangna nggunakake jinis lan pathokan tanduran langka miturut IUCN Red List Category tanggal 30 November 1994.
+# text_id = Status kelangkaan buah ini dianalisis menggunakan kategori dan kriteria tumbuhan langka menurut IUCN Red List Category 30 November 1994.
 # text_en = The rarity status of this fruit was analyzed using the category and criteria of rare plants according to the IUCN Red List Category on November 30, 1994.
 1	Kahanan	kahanan	NOUN	_	Number=Sing	5	nsubj:pass	_	_
-2	kekirangan	kekirangan	NOUN	_	Number=Sing	1	nmod	_	_
-3	buah	buah	NOUN	_	Number=Sing	2	nmod	_	_
+2	kekirangan	kirang	NOUN	_	Number=Sing	1	nmod	_	_
+3	woh	woh	NOUN	_	Number=Sing	2	nmod	_	_
 4	iki	iki	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
-5	diterangno	terang	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
+5	diterangna	terang	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	nggunakake	guna	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	5	xcomp	_	Level=Ngoko
 7	jinis	jinis	NOUN	_	Number=Sing	6	obj	_	_
 8	lan	lan	CCONJ	_	Polite=Infm	9	cc	_	Level=Ngoko
 9	pathokan	pathok	NOUN	_	Number=Sing|Polite=Infm	7	conj	_	Level=Ngoko
-10	tanduran	tanduran	NOUN	_	Number=Sing|Polite=Infm	7	nmod	_	Level=Ngoko
+10	tanduran	tandur	NOUN	_	Number=Sing|Polite=Infm	7	nmod	_	Level=Ngoko
 11	langka	langka	ADJ	_	_	10	amod	_	_
 12	miturut	miturut	VERB	_	Mood=Ind|Voice=Act	7	acl	_	_
-13	Jinis	Jinis	PROPN	_	_	12	obl	_	Level=Ngoko
-14	Dhaptar	Dhaftar	PROPN	_	_	13	flat:name	_	Level=Ngoko
-15	Abang	Abang	PROPN	_	_	13	flat:name	_	Level=Ngoko
-16	IUCN	IUCN	PROPN	_	_	13	flat:name	_	_
+13	IUCN	IUCN	PROPN	_	_	12	obl	_	Level=Ngoko
+14	Red	Red	PROPN	_	_	13	flat:name	_	Level=Ngoko
+15	List	List	PROPN	_	_	13	flat:name	_	Level=Ngoko
+16	Category	Category	PROPN	_	_	13	flat:name	_	_
 17	tanggal	tanggal	NOUN	_	Number=Sing	13	nmod:tmod	_	_
 18	30	30	NUM	_	NumType=Card	17	nummod	_	_
 19	November	November	PROPN	_	_	18	flat	_	_
@@ -580,7 +586,7 @@
 21	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 31
-# text = Saben makluk bakal mati lan ing akhirat bakal dipertanggungjawabake ngenani amalan-amalané.
+# text = Saben makluk bakal mati lan ing akhirat bakal dijaluki tanggung jawab prakara amalan-amalané.
 # text_id = Setiap makhluk akan mati dan di akhirat akan dimintai pertanggungjawaban atas perbuatannya.
 # text_en = Every creature will die and in the hereafter will be held responsibility for his actions.
 1	Saben	saben	DET	_	Polite=Infm|PronType=Tot	2	det	_	Level=Ngoko
@@ -591,12 +597,14 @@
 6	ing	ing	ADP	_	_	7	case	_	_
 7	akhirat	akhirat	NOUN	_	Number=Sing	9	obl	_	_
 8	bakal	bakal	AUX	_	Polite=Infm	9	aux	_	Level=Ngoko
-9	dipertanggungjawabake	dipertanggungjawabake	VERB	_	Mood=Ind|Voice=Pass	4	conj	_	_
-10	ngenani	ngenani	ADP	_	_	11	case	_	_
-11-12	amalan-amalané	_	_	_	_	_	_	_	SpaceAfter=No
-11	amalan-amalan	amal	NOUN	_	Number=Plur	9	obl	_	_
-12	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	11	nmod:poss	_	Level=Ngoko
-13	.	.	PUNCT	_	_	4	punct	_	_
+9	dijaluki	jaluk	VERB	_	Mood=Ind|Voice=Pass	4	conj	_	_
+10	tanggung	tanggung	NOUN	_	Number=Sing	9	obl	_	_
+11	jawab	jawab	VERB	_	Mood=Ind|Voice=Act	10	acl	_	_
+12	prakara	prakara	NOUN	_	Number=Sing	9	obl	_	_
+13-14	amalan-amalané	_	_	_	_	_	_	_	SpaceAfter=No
+13	amalan-amalan	amal	NOUN	_	Number=Plur	12	obl	_	_
+14	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	13	nmod:poss	_	Level=Ngoko
+15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = 32
 # text = Perusahaan Dodge Bersaudara tiba ing asta istri-istri punika, ingkang lajeng ngangkat Frederick Haynes dados présidhèn perusahaan mau.
@@ -613,7 +621,7 @@
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	12	nsubj	_	Level=Krama
 11	lajeng	lajeng	ADV	_	Polite=Form	12	advmod	_	Level=Krama
-12	ngangkat	ngangkat	VERB	_	Mood=Ind|Voice=Act	7	acl:relcl	_	_
+12	ngangkat	angkat	VERB	_	Mood=Ind|Voice=Act	7	acl:relcl	_	_
 13	Frederick	Frederick	PROPN	_	_	12	obj	_	_
 14	Haynes	Haynes	PROPN	_	_	13	flat:name	_	_
 15	dados	dados	VERB	_	Mood=Ind|Polite=Form|Voice=Act	12	xcomp	_	Level=Krama
@@ -650,13 +658,13 @@
 6	beya	beya	NOUN	_	Number=Sing	15	nsubj	_	_
 7	ékonomi	ékonomi	NOUN	_	Number=Sing	6	nmod	_	_
 8	kang	kang	PRON	_	Polite=Infm|PronType=Rel	9	nsubj	_	Level=Ngoko
-9	diperlokaké	diperlokaké	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	6	acl:relcl	_	Level=Ngoko
+9	diperlokaké	perlo	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	6	acl:relcl	_	Level=Ngoko
 10	kanggo	kanggo	SCONJ	_	Polite=Infm	11	mark	_	Level=Ngoko
 11	nindak	tindak	VERB	_	Mood=Ind|Polite=Form|Voice=Act	9	advcl	_	Level=Krama
 12	Protokol	Protokol	PROPN	_	_	11	obj	_	_
 13	Kyoto	Kyoto	PROPN	_	_	12	flat:name	_	_
 14	isa	bisa	AUX	_	Abbr=Yes|Polite=Infm	15	aux	_	Level=Ngoko
-15	ngancik	ngancik	VERB	_	Mood=Ind|Voice=Act	4	ccomp	_	_
+15	ngancik	kancik	VERB	_	Mood=Ind|Voice=Act	4	ccomp	_	_
 16	300	300	NUM	_	NumType=Card	18	nummod	_	_
 17	milyar	milyar	NUM	_	NumType=Card	16	flat	_	_
 18	dollar	dollar	NOUN	_	Number=Sing	15	obl	_	_
@@ -741,7 +749,7 @@
 3	Grande	Grande	PROPN	_	_	1	flat:name	_	_
 4	Vitesse	Vitesse	PROPN	_	_	1	flat:name	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	dicekak	dicekak	VERB	_	Mood=Ind|Voice=Pass	1	acl	_	_
+6	dicekak	cekak	VERB	_	Mood=Ind|Voice=Pass	1	acl	_	_
 7	TGV	TGV	PROPN	_	_	6	obl	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	6	punct	_	_
 9	iku	yaiku	AUX	_	Polite=Infm	10	cop	_	Level=Ngoko
@@ -890,7 +898,7 @@
 # text_id = EAT memperluas kegiatannya dengan menandatangani kontrak dengan DHL Worldwide Express pada tahun 1985.
 # text_en = EAT expanded its activities by signing a contract with DHL Worldwide Express in 1985.
 1	EAT	EAT	PROPN	_	_	2	nsubj	_	_
-2	ngambakake	ngambakake	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+2	ngambakake	ngambak	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3-4	kegiyatané	_	_	_	_	_	_	_	_
 3	kegiyatan	kegiyatan	NOUN	_	Number=Sing	2	obj	_	_
 4	é	é	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
