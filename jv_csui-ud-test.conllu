@@ -1336,6 +1336,672 @@
 10	mriki	mriki	ADV	_	Polite=Form	9	advmod	_	Level=Krama|SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
+# sent_id = suwadji-2013-1
+# text = Balai Bahasa Provinsi DIY dumugi samangke taksih angleksanakaken visi lan misi ingkang sampun dipuntemtokaken, inggih menika andadosaken punjering informasi ingkang lengkap lan dados layanan ingkang sae ing bab basa lan sastra, mliginipun wonten Daerah Istimewa Yogyakarta utawi saged ugi wonten Indonesia.
+# text_id = Balai Bahasa Provinsi DIY sampai saat ini masih menjalankan visi dan misi yang telah ditetapkan, yaitu menyediakan pusat informasi yang komprehensif dan pelayanan yang baik dalam hal bahasa dan sastra, khususnya di Daerah Istimewa Yogyakarta atau mungkin Indonesia.
+# text_en = The DIY Provincial Language Center to date is still implementing the vision and mission that has been set, which is to provide a comprehensive information center and a good service in terms of language and literature, especially in the Special Region of Yogyakarta or possibly Indonesia.
+1	Balai	balai	PROPN	_	_	8	nsubj	_	_
+2	Bahasa	Bahasa	PROPN	_	_	1	flat:name	_	_
+3	Provinsi	Provinsi	PROPN	_	_	1	flat:name	_	_
+4	DIY	DIY	PROPN	_	_	1	flat:name	_	_
+5	dumugi	dugi	ADP	_	Polite=Form	6	case	_	Level=Krama
+6	samangke	samangke	NOUN	_	Polite=Form	8	obl:tmod	_	Level=Krama
+7	taksih	taksih	DET	_	_	6	det	_	_
+8	angleksanakaken	leksana	VERB	_	Voice=Act	0	root	_	_
+9	visi	visi	NOUN	_	Number=Sing	8	obj	_	_
+10	lan	lan	CCONJ	_	_	11	cc	_	_
+11	misi	misi	NOUN	_	Number=Sing	9	conj	_	_
+12	ingkang	ingkang	PRON	_	Polite=Form	14	nsubj:pass	_	Level=Krama
+13	sampun	sampun	AUX	_	Polite=Form	14	aux	_	Level=Krama
+14	dipuntemtokaken	temtu	VERB	_	Polite=Form|Voice=Pass	9	acl:relcl	_	Level=Krama|SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	inggih	inggih	AUX	_	Polite=Form	18	cop	_	Level=Krama
+17	menika	menika	DET	_	Polite=Form	16	fixed	_	Level=Krama
+18	andadosaken	dados	VERB	_	Polite=Form|Voice=Act	14	advcl	_	Level=Krama
+19	punjering	punjering	NOUN	_	_	18	obj	_	_
+20	informasi	informasi	NOUN	_	Number=Sing	19	nmod	_	_
+21	ingkang	ingkang	PRON	_	Polite=Form	22	nsubj	_	Level=Krama
+22	lengkap	lengkap	ADJ	_	_	19	acl:relcl	_	_
+23	lan	lan	CCONJ	_	_	24	cc	_	_
+24	dados	dados	VERB	_	Polite=Form|Voice=Act	18	conj	_	Level=Krama
+25	layanan	layan	NOUN	_	Number=Sing	24	obl	_	_
+26	ingkang	ingkang	PRON	_	Polite=Form	27	nsubj	_	Level=Krama
+27	sae	sae	ADJ	_	Polite=Form	25	acl:relcl	_	Level=Krama
+28	ing	ing	ADP	_	_	29	case	_	_
+29	bab	bab	NOUN	_	Number=Sing	27	obl	_	_
+30	basa	basa	NOUN	_	_	29	nmod	_	_
+31	lan	lan	CCONJ	_	_	32	cc	_	_
+32	sastra	sastra	NOUN	_	Number=Sing	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	mliginipun	mliginipun	ADV	_	_	35	advmod	_	_
+35	wonten	wonten	VERB	_	Polite=Form|Voice=Act	24	advcl	_	Level=Krama
+36	Daerah	Daerah	PROPN	_	_	35	obl	_	_
+37	Istimewa	Istimewa	PROPN	_	_	36	flat:name	_	_
+38	Yogyakarta	Yogyakarta	PROPN	_	_	36	flat:name	_	_
+39	utawi	utawi	CCONJ	_	Polite=Form	42	cc	_	Level=Krama
+40	saged	saged	AUX	_	Polite=Form	42	aux	_	Level=Krama
+41	ugi	ugi	ADV	_	Polite=Form	42	advmod	_	Level=Krama
+42	wonten	wonten	VERB	_	Polite=Form|Voice=Act	35	conj	_	Level=Krama
+43	Indonesia	Indonesia	PROPN	_	_	42	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = suwadji-2013-2
+# text = Buku-buku ingkang kacithak kadosta buku ingkang asesirah Ngoko Krama anggitanipun Suwadji menika ngemot bab tembung-tembung ngoko ingkang wonten kramanipun, krama inggilipun, utawi krama andhapipun.
+# text_id = Buku-buku yang diterbitkan seperti buku Ngoko Krama karya Suwadji berisi tentang kata ngoko yang mengandung krama, krama tinggi, atau krama rendah.
+# text_en = Books published such as the book entitled Ngoko Krama by Suwadji contain about the words ngoko in the krama, high krama, or low krama.
+1	Buku-buku	buku	NOUN	_	Number=Plur	14	nsubj	_	_
+2	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	3	nsubj:pass	_	Level=Krama
+3	kacithak	cithak	VERB	_	Voice=Pass	1	acl:relcl	_	_
+4	kadosta	kados	ADP	_	Polite=Form	5	case	_	Level=Krama
+5	buku	buku	NOUN	_	Number=Sing	3	obl	_	_
+6	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	7	nsubj	_	Level=Krama
+7	asesirah	sesirah	VERB	_	Voice=Act	5	acl:relcl	_	_
+8	Ngoko	Ngoko	PROPN	_	_	7	obl	_	_
+9	Krama	Krama	PROPN	_	_	8	flat:name	_	_
+10-11	anggitanipun	_	_	_	_	_	_	_	_
+10	anggitan	anggit	NOUN	_	Number=Sing	8	nmod	_	_
+11	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	10	nmod:poss	_	Level=Krama
+12	Suwadji	Suwadji	PROPN	_	_	10	nmod:poss	_	_
+13	menika	menika	DET	_	Polite=Form	10	det	_	Level=Krama
+14	ngemot	ngemot	VERB	_	Voice=Act	0	root	_	_
+15	bab	bab	NOUN	_	Number=Sing	14	obl	_	_
+16	tembung-tembung	tembung	NOUN	_	Number=Plur	15	nmod	_	_
+17	ngoko	ngoko	NOUN	_	_	16	nmod	_	_
+18	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	19	nsubj	_	Level=Krama
+19	wonten	wonten	VERB	_	Polite=Form	14	advcl	_	Level=Krama
+20-21	kramanipun	_	_	_	_	_	_	_	SpaceAfter=No
+20	krama	krama	NOUN	_	Number=Sing	19	obl	_	_
+21	nipun	ipun	DET	_	Polite=Form|PronType=Dem	20	det	_	Level=Krama
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	krama	krama	NOUN	_	_	20	conj	_	_
+24-25	inggilipun	_	_	_	_	_	_	_	SpaceAfter=No
+24	inggil	inggil	NOUN	_	Number=Sing|Polite=Form	23	nmod	_	Level=Krama
+25	ipun	ipun	DET	_	Polite=Form|PronType=Dem	23	det	_	Level=Krama
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	utawi	utawi	CCONJ	_	Polite=Form	28	cc	_	Level=Krama
+28	krama	krama	NOUN	_	_	20	conj	_	_
+29-30	andhapipun	_	_	_	_	_	_	_	SpaceAfter=No
+29	andhap	andhap	NOUN	_	Number=Sing|Polite=Form	28	nmod	_	Level=Krama
+30	ipun	ipun	DET	_	Polite=Form|PronType=Dem	28	det	_	Level=Krama
+31	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = suwadji-2013-3
+# text = Inggih awit saking bab punika, basa Jawi lajeng ketingal boten kados samestinipun.
+# text_id = Nah karena itu, bahasa Jawa kemudian terlihat tidak sebagaimana mestinya.
+# text_en = Well because of this, the Javanese language then looks not as it should be.
+1	Inggih	Inggih	INTJ	_	Polite=Form	10	discourse	_	Level=Krama
+2	awit	awit	ADP	_	Polite=Form	4	case	_	Level=Krama
+3	saking	saking	ADP	_	Polite=Form	2	fixed	_	Level=Krama
+4	bab	bab	NOUN	_	Number=Sing	10	obl	_	_
+5	punika	punika	DET	_	Polite=Form	4	det	_	Level=Krama|SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	basa	basa	NOUN	_	_	10	nsubj:pass	_	_
+8	Jawi	Jawi	PROPN	_	_	7	nmod	_	_
+9	lajeng	lajeng	ADV	_	Polite=Form	10	advmod	_	Level=Krama
+10	ketingal	tingal	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
+11	boten	boten	PART	_	Polarity=Neg|Polite=Form	12	advmod	_	Level=Krama
+12	kados	kados	VERB	_	Polite=Form	10	xcomp	_	Level=Krama
+13	samestinipun	samestinipun	ADV	_	Polite=Form	12	advmod	_	Level=Krama|SpaceAfter=No
+14	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = suwadji-2013-4
+# text = Malah, saperangan masyarakat, mliginipun para nem-neman, sami ajrih ngginakaken basa Jawi, kuwatos menawi dados gegujenganipun tiyang sanes.
+# text_id = Bahkan, sebagian orang, terutama anak muda, takut menggunakan bahasa Jawa, khawatir akan kesalahan orang lain.
+# text_en = In fact, some people, especially young people, are afraid to use the Javanese language, worried that it will be the fault of others.
+1	Malah	malah	ADV	_	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	saperangan	saperangan	DET	_	_	4	det	_	_
+4	masyarakat	masyarakat	NOUN	_	Number=Sing	10	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	mliginipun	mliginipun	ADV	_	Polite=Form	8	advmod	_	Level=Krama
+7	para	para	DET	_	_	8	det	_	_
+8	nem-neman	nem-neman	NOUN	_	Polite=Form	4	nmod	_	Level=Krama|SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	sami	sami	ADJ	_	Polite=Form	0	root	_	Level=Krama
+11	ajrih	ajrih	SCONJ	_	Polite=Form	12	mark	_	Level=Krama
+12	ngginakaken	ngginakaken	VERB	_	Polite=Form|Voice=Act	10	advcl	_	Level=Krama
+13	basa	basa	NOUN	_	_	12	obj	_	_
+14	Jawi	Jawi	PROPN	_	_	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	kuwatos	kuwatos	ADJ	_	Polite=Form	10	advcl	_	Level=Krama
+17	menawi	menawi	SCONJ	_	Polite=Form	18	mark	_	Level=Krama
+18	dados	dados	VERB	_	Polite=Form|Voice=Act	16	advcl	_	Level=Krama
+19-20	gegujenganipun	_	_	_	_	_	_	_	_
+19	gegujengan	gegujeng	NOUN	_	Number=Sing	18	obl	_	_
+20	nipun	ipun	DET	_	Polite=Form|PronType=Dem	19	det	_	Level=Krama
+21	tiyang	tiyang	NOUN	_	Polite=Form	19	nmod:poss	_	Level=Krama
+22	sanes	sanes	ADJ	_	Polite=Form	21	amod	_	Level=Krama|SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = suwadji-2013-5
+# text = Umpaminipun, tembung sumur, gelas, lan kursi.
+# text_id = Misalnya kata sumur, gelas, dan kursi.
+# text_en = For example, the words well, glass, and chair.
+1-2	Umpaminipun	_	_	_	_	_	_	_	SpaceAfter=No
+1	Umpami	umpami	NOUN	_	Number=Sing|Polite=Form	0	root	_	Level=Krama
+2	nipun	ipun	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	tembung	tembung	NOUN	_	_	1	nmod	_	_
+5	sumur	sumur	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	gelas	gelas	NOUN	_	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	lan	lan	CCONJ	_	_	10	cc	_	_
+10	kursi	kursi	NOUN	_	Number=Sing	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = suwadji-2013-6
+# text = Apa tegesé tembung ngoko?
+# text_id = Apa artinya kata ngoko?
+# text_en = What does the meaning of ngoko word?
+1	Apa	apa	PRON	_	Polite=Infm	2	nsubj	_	Level=Ngoko
+2-3	tegesé	_	_	_	_	_	_	_	_
+2	teges	teges	NOUN	_	Number=Sing	0	root	_	_
+3	é	é	DET	_	Polite=Infm	2	det	_	Level=Ngoko
+4	tembung	tembung	NOUN	_	_	2	obl	_	_
+5	ngoko	ngoko	NOUN	_	_	4	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = suwadji-2013-7
+# text = Lire, yen tembung ngoko kena tegesé ora ngurmati, tembung krama mengku teges ngurmati utawa luwih ngajeni.
+# text_id = Adapun, jika kata ngoko berarti tidak menghormati, kata krama memiliki arti menghormati atau lebih menghargai.
+# text_en = Meanwhile, if the ngoko word means disrespect, the word krama means respect or more respect
+1	Lire	Lire	ADV	_	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	yen	yen	SCONJ	_	Polite=Infm	7	mark	_	Level=Ngoko
+4	tembung	tembung	NOUN	_	_	10	nsubj	_	_
+5	ngoko	ngoko	NOUN	_	_	4	nmod	_	_
+6	kena	kena	AUX	_	Polite=Infm	7	aux	_	Level=Ngoko
+7-8	tegesé	_	_	_	_	_	_	_	_
+7	teges	teges	NOUN	_	_	0	root	_	_
+8	é	é	DET	_	Polite=Infm	7	det	_	Level=Ngoko
+9	ora	ora	PART	_	Polite=Infm	10	advmod	_	Level=Ngoko
+10	ngurmati	ngurmati	VERB	_	Voice=Act	7	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	tembung	tembung	NOUN	_	_	14	obl	_	_
+13	krama	krama	NOUN	_	_	12	nmod	_	_
+14	mengku	mengku	VERB	_	Voice=Act	7	advcl	_	_
+15	teges	teges	NOUN	_	_	14	obl	_	_
+16	ngurmati	ngurmati	VERB	_	Voice=Act	12	advcl	_	_
+17	utawa	utawa	CCONJ	_	Polite=Infm	18	cc	_	Level=Ngoko
+18	luwih	luwih	ADV	_	_	19	advmod	_	_
+19	ngajeni	ngajeni	VERB	_	Voice=Act	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = suwadji-2013-8
+# text = Cethané meneh tembung béda karo basa.
+# text_id = Lebih jelasnya kata berbeda dengan bahasa.
+# text_en = More specifically, words are different from language.
+1	Cethané	Cethané	ADJ	_	Polite=Infm	3	amod	_	Level=Ngoko
+2	meneh	meneh	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
+3	tembung	tembung	NOUN	_	_	4	nsubj	_	_
+4	béda	beda	VERB	_	Polite=Infm	0	root	_	Level=Ngoko
+5	karo	karo	CCONJ	_	Polite=Infm	6	cc	_	Level=Ngoko
+6	basa	basa	NOUN	_	_	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = suwadji-2013-9
+# text = Adhédhasar undha-usuk panganggoné, sing pokok basa Jawa dipilahké dadi rong tataran, yaiku basa ngoko lan basa krama.
+# text_id = Berdasarkan kaidah pemakaiannya, bahasa utama Jawa dibagi menjadi dua tingkatan, yaitu bahasa ngoko dan bahasa krama.
+# text_en = Based on the rules of use, the main language of Java is divided into two levels, namely the ngoko language and the krama language.
+1	Adhédhasar	Adhédhasar	ADV	_	_	2	advmod	_	_
+2	undha-usuk	undha-usuk	NOUN	_	_	3	nmod	_	_
+3-4	panganggoné	_	_	_	_	_	_	_	SpaceAfter=No
+3	panganggo	panganggo	NOUN	_	Polite=Infm	10	nmod	_	Level=Ngoko
+4	né	né	DET	_	Polite=Infm	3	det	_	Level=Ngoko
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	sing	sing	PRON	_	Polite=Infm	7	nsubj	_	Level=Ngoko
+7	pokok	pokok	ADV	_	_	8	advmod	_	_
+8	basa	basa	NOUN	_	_	10	nsubj:pass	_	_
+9	Jawa	Jawa	PROPN	_	_	8	nmod	_	_
+10	dipilahké	pilah	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
+11	dadi	dadi	VERB	_	Polite=Infm	10	advcl	_	Level=Ngoko
+12	rong	rong	NUM	_	Polite=Infm	13	nummod	_	Level=Ngoko
+13	tataran	tataran	NOUN	_	_	8	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	yaiku	yaiku	AUX	_	Polite=Infm	10	cop	_	Level=Ngoko
+16	basa	basa	NOUN	_	_	13	appos	_	_
+17	ngoko	ngoko	NOUN	_	_	16	nmod	_	_
+18	lan	lan	CCONJ	_	_	19	cc	_	_
+19	basa	basa	NOUN	_	_	16	conj	_	_
+20	krama	krama	NOUN	_	_	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = suwadji-2013-10
+# text = Tembung ngoko iku cacahé akèh banget, malah kena diarani akèh dhéwé ing antarané tembung-tembung liyané.
+# text_id = Kata ngoko itu jumlahnya sangat banyak, bahkan bisa disebut paling banyak di antara kata-kata lainnya.
+# text_en = The number of ngoko word is very large, it can even be said to be the most among the otherwords.
+1	Tembung	Tembung	NOUN	_	_	4	nsubj	_	_
+2	ngoko	ngoko	NOUN	_	_	1	nmod	_	_
+3	iku	yaiku	AUX	_	Polite=Infm	4	cop	_	Level=Ngoko
+4-5	cacahé	_	_	_	_	_	_	_	_
+4	cacah	cacah	NOUN	_	_	0	root	_	_
+5	é	é	DET	_	Polite=Infm	4	det	_	Level=Ngoko
+6	akèh	akèh	ADJ	_	Polite=Infm	4	amod	_	Level=Ngoko
+7	banget	banget	ADV	_	Polite=Infm	6	advmod	_	Level=Ngoko|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	malah	malah	ADV	_	_	6	advmod	_	_
+10	kena	kena	AUX	_	Polite=Infm	11	aux	_	Level=Ngoko
+11	diarani	aran	VERB	_	Polite=Infm	4	ccomp	_	Level=Ngoko
+12	akèh	akèh	ADJ	_	Polite=Infm	11	amod	_	Level=Ngoko
+13	dhéwé	dhéwé	ADV	_	Polite=Infm	12	advmod	_	Level=Ngoko
+14	ing	ing	ADP	_	_	15	case	_	_
+15-16	antarané	_	_	_	_	_	_	_	_
+15	antara	antara	NOUN	_	_	12	nmod:lmod	_	_
+16	né	né	PRON	_	Polite=Infm	15	nmod	_	Level=Ngoko
+17	tembung-tembung	tembung	NOUN	_	Number=Plur	15	nmod	_	_
+18-19	liyané	_	_	_	_	_	_	_	SpaceAfter=No
+18	liya	liya	ADJ	_	Polite=Infm	17	amod	_	Level=Ngoko
+19	né	é	PRON	_	Polite=Infm	18	nmod	_	Level=Ngoko
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = suwadji-2013-11
+# text = Saperangan bisa dititeni sarana titikan kaya sing wis diterangake ing dhuwur, dene tembung krama sing liyane ditentokake adhe-dhasar panganggepe masyarakat.
+# text_id = Sebagian bisa ditandai dengan poin seperti yang sudah diterangkan di atas, sedangkan kata krama yang lainnya ditentukan berdasarkan anggapan masyarakat.
+# text_en = Some can be marked with points as explained above, while others are determined based on public opinion.
+1	Saperangan	saperangan	NOUN	_	_	3	nsubj:pass	_	_
+2	bisa	bisa	AUX	_	Polite=Infm	3	aux	_	Level=Ngoko
+3	dititeni	titen	VERB	Polite=Infm	Voice=Pass	0	root	_	Level=Ngoko
+4	sarana	sarana	ADP	_	_	5	case	_	_
+5	titikan	titikan	NOUN	_	_	3	obl	_	_
+6	kaya	kaya	SCONJ	_	Polite=Infm	9	mark	_	Level=Ngoko
+7	sing	sing	PRON	_	Polite=Infm|PronType=Rel	9	nsubj:pass	_	Level=Ngoko
+8	wis	wis	AUX	_	Polite=Infm	9	aux	_	Level=Ngoko
+9	diterangake	terang	VERB	_	Polite=Infm|Voice=Pass	5	acl	_	Level=Ngoko
+10	ing	ing	ADP	_	_	11	case	_	_
+11	dhuwur	dhuwur	NOUN	_	Polite=Infm	9	obl	_	Level=Ngoko|SpaceAfter=No
+12	,	,	PUNCT	_	_	19	punct	_	_
+13	dene	dene	SCONJ	_	Polite=Infm	19	mark	_	Level=Ngoko
+14	tembung	tembung	NOUN	_	_	19	nsubj:pass	_	_
+15	krama	krama	NOUN	_	_	14	nmod	_	_
+16	sing	sing	PRON	_	Polite=Infm|PronType=Rel	17	nsubj	_	Level=Ngoko
+17-18	liyane	_	_	_	_	_	_	_	_
+17	liya	liya	ADJ	_	Polite=Infm	14	acl:relcl	_	Level=Ngoko
+18	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	17	det	_	Level=Ngoko
+19	ditentokake	tentu	VERB	Polite=Infm	Voice=Pass	3	conj	_	Level=Ngoko
+20	adhe-dhasar	dhasar	VERB	_	_	19	advcl	_	_
+21-22	panganggepe	_	_	_	_	_	_	_	_
+21	panganggep	anggep	NOUN	_	_	20	obl	_	_
+22	e	e	DET	_	Polite=Infm	21	det	_	Level=Ngoko
+23	masyarakat	masyarakat	NOUN	_	Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = suwadji-2013-12
+# text = Tetelune dianggep ora mathuk yen dianggo guneman ing basa Jawa sing samestine awit ana tembung liyane sing dianggep luwih mapan utawa luwih becik.
+# text_id = Ketiganya dianggap tidak sesuai jika dipakai bicara dalam bahasa Jawa yang semestinya karena ada kata lainnya yang dianggap lebih baku atau lebih baik.
+# text_en = All three are considered inappropriate if used to speak in proper Javanese language because there are other words that are considered more standard or better.
+1-2	Tetelune	_	_	_	_	_	_	_	_
+1	Tetelu	telu	NUM	_	NumType=Card	3	nsubj:pass	_	_
+2	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
+3	dianggep	anggep	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
+4	ora	ora	PART	_	Polarity=Neg|Polite=Infm	5	advmod	_	Level=Ngoko
+5	mathuk	mathuk	ADJ	_	_	3	xcomp	_	_
+6	yen	yen	SCONJ	_	Polite=Infm	7	mark	_	Level=Ngoko
+7	dianggo	anggo	VERB	_	Polite=Infm|Voice=Pass	5	advcl	_	Level=Ngoko
+8	guneman	guneman	VERB	_	Polite=Infm	7	xcomp	_	Level=Ngoko
+9	ing	ing	ADP	_	_	10	case	_	_
+10	basa	basa	NOUN	_	_	8	obl	_	_
+11	Jawa	Jawa	PROPN	_	_	10	nmod	_	_
+12	sing	sing	PRON	_	Polite=Infm|PronType=Rel	10	nmod	_	Level=Ngoko
+13	samestine	mesti	ADV	_	Polite=Infm	12	advmod	_	Level=Ngoko
+14	awit	awit	SCONJ	_	_	15	mark	_	_
+15	ana	ana	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	3	advcl	_	Level=Ngoko
+16	tembung	tembung	NOUN	_	_	15	nsubj	_	_
+17-18	liyane	_	_	_	_	_	_	_	_
+17	liya	liya	ADJ	_	Polite=Infm	16	amod	_	Level=Ngoko
+18	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	16	det	_	Level=Ngoko
+19	sing	sing	PRON	_	Polite=Infm|PronType=Rel	20	nsubj:pass	_	Level=Ngoko
+20	dianggep	anggep	VERB	_	Polite=Infm|Voice=Pass	16	acl:relcl	_	Level=Ngoko
+21	luwih	luwih	ADV	_	_	22	advmod	_	_
+22	mapan	mapan	ADJ	_	_	20	xcomp	_	_
+23	utawa	utawa	CCONJ	_	Polite=Infm	25	cc	_	Level=Ngoko
+24	luwih	luwih	ADV	_	_	25	advmod	_	_
+25	becik	becik	ADJ	_	_	22	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = suwadji-2013-13
+# text = Mula saka iku, cacahe tembunge winates, upamane, ing tembung-tembung sing mretelakake pakaryan (sare, dhahar, wungu), perangane awak (grana, asta, rikma), tata pernah (panjenengan, rayi, eyang), barang darbe utawa panganggo (dalem, asma, lancingan).
+# text_id = Maka dari itu, jumlah katanya terbatas, contohnya, pada kata-kata yang menjelaskan pekerjaan (tidur, makan, bangun), bagian tubuh (hidung, tangan, rambut), kedudukan (kamu, adik, eyang), barang kepemilikan atau pakaian (rumah, nama, celana pendek).
+# text_en = Therefore, the number of words is limited, for example, in words that describe occupation (sleep, eat, wake up), body parts (nose, hands, hair), position (you, younger sibling, grandparent), property or clothes (house, name, shorts).
+1	Mula	mula	ADV	_	_	3	advmod	_	_
+2	saka	saka	ADP	_	Polite=Infm	3	case	_	Level=Ngoko
+3	iku	iku	PRON	_	Polite=Infm|PronType=Dem	9	obl	_	Level=Ngoko|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5-6	cacahe	_	_	_	_	_	_	_	_
+5	cacah	cacah	NOUN	_	_	9	nsubj	_	_
+6	e	e	PRON	_	Polite=Infm	5	nmod:poss	_	Level=Ngoko
+7-8	tembunge	_	_	_	_	_	_	_	_
+7	tembung	tembung	NOUN	_	_	5	nmod	_	_
+8	e	e	PRON	_	Polite=Infm	7	nmod:poss	_	Level=Ngoko
+9	winates	winates	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko|SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11-12	upamane	_	_	_	_	_	_	_	SpaceAfter=No
+11	upama	upama	NOUN	_	Polite=Infm	9	obl	_	Level=Ngoko
+12	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	11	det	_	Level=Ngoko
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	ing	ing	ADP	_	_	15	case	_	_
+15	tembung-tembung	tembung	NOUN	_	Number=Plur	11	nmod	_	_
+16	sing	sing	PRON	_	Polite=Infm|PronType=Rel	17	nsubj	_	Level=Ngoko
+17	mretelakake	mretelakake	VERB	_	_	15	acl:relcl	_	_
+18	pakaryan	pakaryan	NOUN	_	_	17	obj	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	sare	sare	VERB	_	Polite=Elev	18	appos	_	Level=KramaInggil|SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	dhahar	dhahar	VERB	_	Polite=Elev	20	conj	_	Level=KramaInggil|SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	wungu	wungu	VERB	_	Polite=Elev	20	conj	_	Level=KramaInggil|SpaceAfter=No
+25	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27-28	perangane	_	_	_	_	_	_	_	_
+27	perangan	perangan	NOUN	_	_	18	conj	_	_
+28	e	e	PRON	_	Polite=Infm	27	nmod:poss	_	Level=Ngoko
+29	awak	awak	NOUN	_	_	27	nmod	_	Level=Ngoko
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	grana	grana	NOUN	_	Polite=Elev	27	appos	_	Level=KramaInggil|SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	asta	asta	NOUN	_	Polite=Elev	31	conj	_	Level=KramaInggil|SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	rikma	rikma	NOUN	_	Polite=Form	31	conj	_	Level=Krama|SpaceAfter=No
+36	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	tata	tata	NOUN	_	_	18	conj	_	_
+39	pernah	pernah	NOUN	_	_	38	nmod	_	_
+40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	panjenengan	panjenengan	NOUN	_	Polite=Elev	38	appos	_	Level=KramaInggil|SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	rayi	rayi	NOUN	_	Polite=Elev	41	conj	_	Level=KramaInggil|SpaceAfter=No
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	eyang	eyang	NOUN	_	Polite=Form	41	conj	_	Level=Krama|SpaceAfter=No
+46	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	barang	barang	NOUN	_	Number=Sing	18	conj	_	_
+49	darbe	darbe	NOUN	_	_	48	nmod	_	_
+50	utawa	utawa	CCONJ	_	Polite=Infm	51	cc	_	Level=Ngoko
+51	panganggo	anggo	NOUN	_	Polite=Infm	48	conj	_	Level=Ngoko
+52	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
+53	dalem	dalem	NOUN	_	Polite=Elev	48	appos	_	Level=KramaInggil|SpaceAfter=No
+54	,	,	PUNCT	_	_	55	punct	_	_
+55	asma	asma	NOUN	_	Number=Sing|Polite=Elev	53	conj	_	Level=KramaInggil|SpaceAfter=No
+56	,	,	PUNCT	_	_	57	punct	_	_
+57	lancingan	lancingan	NOUN	_	Polite=Elev	53	conj	_	Level=KramaInggil|SpaceAfter=No
+58	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = suwadji-2013-14
+# text = Mung bae, beda carane.
+# text_id = Hanya saja, beda caranya.
+# text_en = It's just, how different.
+1	Mung	mung	ADV	_	_	4	advmod	_	_
+2	bae	bae	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	beda	beda	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
+5-6	carane	_	_	_	_	_	_	_	SpaceAfter=No
+5	cara	cara	NOUN	_	_	4	nsubj	_	_
+6	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	5	det	_	Level=Ngoko
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = suwadji-2013-15
+# text = Contone: matur, nyuwun, lan nyaosi.
+# text_id = Contohnya: berterima kasih, meminta, dan memberi.
+# text_en = For example: thank, ask, and give.
+1-2	Contone	_	_	_	_	_	_	_	SpaceAfter=No
+1	Conto	conto	PROPN	_	_	4	nsubj	_	_
+2	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	matur	matur	VERB	_	Polite=Form|Voice=Act	0	root	_	Level=Krama|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	nyuwun	nyuwun	VERB	_	Polite=Form|Voice=Act	4	conj	_	Level=Krama|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	lan	lan	CCONJ	_	Polite=Infm	9	cc	_	Level=Ngoko
+9	nyaosi	nyaosi	VERB	_	Polite=Form|Voice=Act	4	conj	_	Level=Krama|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = suwadji-2013-16
+# text = Mula saka iku, basa krama kena dibedakake antarane sing alus lan sing kurang alus.
+# text_id = Oleh karena itu, bahasa sopan santun dapat dibedakan antara yang lembut dan yang kurang lembut.
+# text_en = Therefore, polite language can be distinguished between soft and less gentle.
+1	Mula	mula	NOUN	_	Number=Sing	8	obl	_	_
+2	saka	saka	ADP	_	Polite=Infm	3	case	_	Level=Ngoko
+3	iku	iku	PRON	_	Polite=Infm	1	nmod	_	Level=Ngoko|SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	basa	basa	NOUN	_	_	8	nsubj:pass	_	_
+6	krama	krama	ADJ	_	_	5	amod	_	_
+7	kena	kena	AUX	_	Polite=Infm	8	aux	_	Level=Ngoko
+8	dibedakake	beda	VERB	Polite=Infm	Voice=Pass	0	root	_	Level=Ngoko
+9-10	antarane	_	_	_	_	_	_	_	_
+9	antara	antara	NOUN	_	_	10	nmod:lmod	_	_
+10	ne	ne	PRON	_	Polite=Infm	8	obl	_	Level=Ngoko
+11	sing	sing	PRON	_	Polite=Infm	12	nsubj	_	Level=Ngoko
+12	alus	alus	ADJ	_	_	8	advcl	_	_
+13	lan	lan	CCONJ	_	_	16	cc	_	_
+14	sing	sing	PRON	_	Polite=Infm	16	nsubj	_	Level=Ngoko
+15	kurang	kurang	ADV	_	Polite=Infm	16	advmod	_	Level=Ngoko
+16	alus	alus	ADJ	_	_	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = suwadji-2013-17
+# text = Ing pamulangan basa krama dipilah-pilahake dadi telung tataran, yaiku, saka ngisor mendhuwur, wredha krama, kramantara, lan mudha krama.
+# text_id = Dalam pembelajaran bahasa krama dibagi menjadi tiga tahap, yaitu dari bawah ke atas, wredha krama, kramantara, dan mudha krama.
+# text_en = In learning the krama language, it is divided into three stages, namely from the bottom up, wredha krama, kramantara, and mudha krama.
+1	Ing	ing	ADP	_	_	2	case	_	_
+2	pamulangan	pamulangan	NOUN	_	_	5	obl	_	_
+3	basa	basa	NOUN	_	_	2	nmod	_	_
+4	krama	krama	ADJ	_	_	3	amod	_	_
+5	dipilah-pilahake	pilah	VERB	_	Voice=Pass	0	root	_	_
+6	dadi	dadi	VERB	_	Polite=Infm|Voice=Act	5	advcl	_	Level=Ngoko
+7	telung	telung	NUM	_	Polite=Infm	8	nummod	_	Level=Ngoko
+8	tataran	tataran	NOUN	_	_	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	yaiku	yaiku	AUX	_	_	16	cop	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	saka	saka	ADP	_	Polite=Infm	13	case	_	Level=Ngoko
+13	ngisor	ngisor	NOUN	_	Polite=Infm	8	acl	_	Level=Ngoko
+14	mendhuwur	mendhuwur	NOUN	_	Polite=Infm	13	nmod	_	Level=Ngoko|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	wredha	wredha	ADJ	_	_	13	advcl	_	_
+17	krama	krama	ADJ	_	_	16	compound	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	kramantara	kramantara	ADJ	_	_	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	lan	lan	CCONJ	_	_	22	cc	_	_
+22	mudha	mudha	ADJ	_	_	16	conj	_	_
+23	krama	krama	ADJ	_	_	22	compound	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = suwadji-2013-18
+# text = Rancake masyarakat wis padha ngerti sing diarani tembung-tembung iku, nanging sing akeh dhewe dimangerteni yaiku tembung ngoko.
+# text_id = Banyak orang sudah tahu apa itu kata-kata, tapi yang banyak mereka tahu adalah kata ngoko.
+# text_en = Many people already know what the words are, but what many of them know is the word ngoko.
+1	Rancake	rancake	DET	_	Polite=Infm	2	det	_	Level=Ngoko
+2	masyarakat	masyarakat	NOUN	_	Number=Sing	5	nsubj	_	_
+3	wis	wis	AUX	_	Polite=Infm	5	aux	_	Level=Ngoko
+4	padha	padha	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
+5	ngerti	ngerti	VERB	_	Polite=Infm	0	root	_	Level=Ngoko
+6	sing	sing	PRON	_	Polite=Infm	7	nsubj:pass	_	Level=Ngoko
+7	diarani	aran	VERB	_	Polite=Infm	5	xcomp	_	Level=Ngoko
+8	tembung-tembung	tembung	NOUN	_	_	7	obl	_	_
+9	iku	iku	DET	_	Polite=Infm	8	det	_	Level=Ngoko|SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	nanging	nanging	CCONJ	_	_	13	cc	_	_
+12	sing	sing	PRON	_	Polite=Infm	13	nsubj	_	Level=Ngoko
+13	akeh	akeh	ADJ	_	Polite=Infm	5	conj	_	Level=Ngoko
+14	dhewe	dhewe	PRON	_	Polite=Infm	15	nsubj:pass	_	Level=Ngoko
+15	dimangerteni	mangerti	VERB	Polite=Infm	Voice=Pass	13	advcl	_	Level=Ngoko
+16	yaiku	yaiku	AUX	_	_	17	cop	_	_
+17	tembung	tembung	NOUN	_	_	13	obl	_	_
+18	ngoko	ngoko	ADJ	_	_	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = suwadji-2013-19
+# text = Bab iku jumbuh karo arane tembung krama inggil, yaiku krama kanggo aweh pakurmatan marang wong sing dikarepake kanthi cara ngluhurake wong iku (inggil: dhuwur, luhur).
+# text_id = Hal ini sesuai dengan nama kata krama inggil, yaitu krama untuk menghormati orang yang dikehendaki dengan meninggikan orang tersebut (tinggi: tinggi, tinggi).
+# text_en = This is in accordance with the name of the word krama inggil, namely krama to honor the desired person by elevating that person (height: high, high).
+1	Bab	bab	NOUN	_	Number=Sing|Polite=Infm	3	nsubj	_	_
+2	iku	iku	DET	_	Polite=Infm	1	det	_	Level=Ngoko
+3	jumbuh	jumbuh	ADJ	_	_	0	root	_	_
+4	karo	karo	ADP	_	Polite=Infm	5	case	_	Level=Ngoko
+5	arane	aran	NOUN	_	Polite=Infm	3	obl	_	Level=Ngoko
+6	tembung	tembung	NOUN	_	_	5	nmod	_	_
+7	krama	krama	NOUN	_	_	6	nmod	_	_
+8	inggil	inggil	ADJ	_	_	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	yaiku	yaiku	AUX	_	_	11	cop	_	_
+11	krama	krama	NOUN	_	_	7	acl	_	_
+12	kanggo	kanggo	SCONJ	_	Polite=Infm	13	mark	_	Level=Ngoko
+13	aweh	aweh	VERB	_	Polite=Infm|Voice=Act	11	acl	_	Level=Ngoko
+14	pakurmatan	pakurmatan	NOUN	_	_	13	obj	_	_
+15	marang	marang	ADP	_	Polite=Infm	16	case	_	Level=Ngoko
+16	wong	wong	NOUN	_	Polite=Infm	13	obl	_	Level=Ngoko
+17	sing	sing	PRON	_	Polite=Infm	18	nsubj:pass	_	Level=Ngoko
+18	dikarepake	karep	VERB	_	Polite=Infm	16	acl:relcl	_	Level=Ngoko
+19	kanthi	kanthi	ADP	_	_	20	case	_	_
+20	cara	cara	NOUN	_	Number=Sing	18	obl	_	_
+21	ngluhurake	ngluhurake	VERB	_	Polite=Infm|Voice=Act	20	acl	_	Level=Ngoko
+22	wong	wong	NOUN	_	Polite=Infm	21	obl	_	Level=Ngoko
+23	iku	iku	DET	_	Polite=Infm	22	det	_	Level=Ngoko
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	inggil	inggil	ADJ	_	Polite=Form	21	advcl	_	Level=Krama|SpaceAfter=No
+26	:	:	PUNCT	_	_	25	punct	_	_
+27	dhuwur	dhuwur	ADJ	_	Polite=Infm	25	advcl	_	Level=Ngoko|SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	luhur	luhur	ADJ	_	_	27	conj	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = suwadji-2013-20
+# text = Cacahe tataran pancen kepetung akeh.
+# text_id = Jumlah tahapan sangat banyak.
+# text_en = The number of stages is extensive.
+1	Cacahe	cacahe	NOUN	_	Polite=Infm	5	nsubj	_	Level=Ngoko
+2	tataran	tataran	NOUN	_	_	1	nmod	_	_
+3	pancen	pancen	ADV	_	_	5	advmod	_	_
+4	kepetung	kepetung	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
+5	akeh	akeh	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = suwadji-2013-21
+# text = Mung baé perlu dimangerteni yen tembung basa ing pasrawungan padha tegesé karo tembung krama.
+# text_id = Hanya saja perlu dimengerti jika kata bahasa di pergaulan sama artinya dengan kata krama.
+# text_en = It is only necessary to note that the language word in the encounter has the same meaning as the word manners.
+1	Mung	Mung	ADV	_	_	4	advmod	_	_
+2	baé	baé	ADV	_	_	1	advmod	_	_
+3	perlu	perlu	VERB	_	Voice=Act	4	advcl	_	_
+4	dimangerteni	ngerti	VERB	_	Polite=Infm	0	root	_	Level=Ngoko
+5	yen	yen	SCONJ	_	Polite=Infm	6	mark	_	Level=Ngoko
+6	tembung	tembung	NOUN	_	_	10	nsubj	_	_
+7	basa	basa	NOUN	_	_	6	nmod	_	_
+8	ing	ing	ADP	_	_	9	case	_	_
+9	pasrawungan	pasrawungan	NOUN	_	_	6	nmod	_	_
+10	padha	padha	ADJ	_	Polite=Infm	11	amod	_	Level=Ngoko
+11-12	tegesé	_	_	_	_	_	_	_	_
+11	teges	teges	NOUN	_	_	4	ccomp	_	_
+12	é	é	DET	_	Polite=Infm	11	det	_	Level=Ngoko
+13	karo	karo	CCONJ	_	Polite=Infm	14	cc	_	Level=Ngoko
+14	tembung	tembung	NOUN	_	_	6	conj	_	_
+15	krama	krama	NOUN	_	_	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = suwadji-2013-22
+# text = Wujude tembung krama andhap uga ora beda karo wujude tembung krama inggil sing wis diterangake ing dhuwur.
+# text_id = Bentuk kata sopan santun rendah juga tidak berbeda dengan bentuk kata sopan santun tinggi yang telah dijelaskan di atas.
+# text_en = The form of the word low manners is also no different from the form of the word high manners that has been described above.
+1-2	Wujude	_	_	_	_	_	_	_	_
+1	Wujud	cara	NOUN	_	_	8	nsubj	_	_
+2	e	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
+3	tembung	tembung	NOUN	_	_	1	nmod:poss	_	_
+4	krama	krama	NOUN	_	_	3	nmod	_	_
+5	andhap	andhap	ADJ	_	_	4	amod	_	_
+6	uga	uga	ADV	_	Polite=Infm	8	advmod	_	Level=Ngoko
+7	ora	ora	PART	_	Polite=Infm	8	advmod	_	Level=Ngoko
+8	beda	beda	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
+9	karo	karo	ADP	_	Polite=Infm	10	case	_	Level=Ngoko
+10-11	wujude	_	_	_	_	_	_	_	_
+10	wujud	cara	NOUN	_	_	8	obl	_	_
+11	e	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	10	det	_	Level=Ngoko
+12	tembung	tembung	NOUN	_	_	10	nmod:poss	_	_
+13	krama	krama	NOUN	_	_	12	nmod	_	_
+14	inggil	inggil	ADJ	_	_	13	amod	_	_
+15	sing	sing	PRON	_	Polite=Infm	17	nsubj	_	Level=Ngoko
+16	wis	wis	AUX	_	Polite=Infm	17	aux	_	Level=Ngoko
+17	diterangake	terang	VERB	_	Polite=Infm|Voice=Pass	12	acl:relcl	_	Level=Ngoko
+18	ing	ing	ADP	_	_	19	case	_	_
+19	dhuwur	dhuwur	NOUN	_	Polite=Infm	17	obl	_	Level=Ngoko|SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = suwadji-2013-23
+# text = Semono uga ancas panggonane ora beda karo tembung sing pantes kinurmatan utawa ingajenan.
+# text_id = Demikian pula tujuan dari tempat tidak berbeda dengan kata yang layak untuk dihormati atau dipuja.
+# text_en = Likewise the purpose of a place is no different from the word worthy of respect or veneration.
+1	Semono	semono	ADV	_	_	7	advmod	_	_
+2	uga	uga	ADV	_	Polite=Infm	1	compound	_	Level=Ngoko
+3	ancas	ancas	NOUN	_	_	7	nsubj	_	_
+4-5	panggonane	_	_	_	_	_	_	_	_
+4	panggonan	panggonan	NOUN	_	_	3	nmod	_	_
+5	e	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	Level=Ngoko
+6	ora	ora	PART	_	Polite=Infm	7	advmod	_	Level=Ngoko
+7	beda	beda	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
+8	karo	karo	ADP	_	Polite=Infm	9	case	_	Level=Ngoko
+9	tembung	tembung	NOUN	_	_	7	obl	_	_
+10	sing	sing	PRON	_	Polite=Infm	11	nsubj	_	Level=Ngoko
+11	pantes	pantes	ADJ	_	_	9	acl:relcl	_	_
+12	kinurmatan	kinurmatan	NOUN	_	_	11	obl	_	_
+13	utawa	utawa	CCONJ	_	Polite=Infm	14	cc	_	Level=Ngoko
+14	ingajenan	ingajenan	NOUN	_	_	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = suwadji-2013-24
+# text = Mung bae, beda carane.
+# text_id = Hanya saja, betapa berbedanya.
+# text_en = It's just, how different.
+1	Mung	mung	ADV	_	_	4	advmod	_	_
+2	bae	bae	ADV	_	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	beda	beda	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
+5-6	carane	_	_	_	_	_	_	_	SpaceAfter=No
+5	cara	cara	NOUN	_	_	4	nsubj	_	_
+6	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	5	det	_	Level=Ngoko
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = suwadji-2013-25
+# text = Tembung krama inggil digunakake kanggo ngluhurake wong sing dikarepake, dene tembung krama andhap digunakake kanggo ngasorake dhiri pribadine wong sing guneman utawa sing ngurmati (andhap: cendhek, asor).
+# text_id = Kata sopan santun digunakan untuk meninggikan orang yang dikehendaki, sedangkan kata sopan santun rendah digunakan untuk merendahkan diri pribadi orang yang berbicara atau yang menghormati (rendah: rendah, rendah hati).
+# text_en = The word courtesy is used to elevate the desired person, while the word low manners is used to humble the person who speaks or respects (low: low, humble).
+1	Tembung	tembung	NOUN	_	_	4	nsubj:pass	_	_
+2	krama	krama	NOUN	_	_	1	nmod	_	_
+3	inggil	inggil	ADJ	_	_	2	amod	_	_
+4	digunakake	digunakake	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
+5	kanggo	kanggo	SCONJ	_	Polite=Infm	6	mark	_	Level=Ngoko
+6	ngluhurake	luhur	VERB	_	Voice=Act	4	advcl	_	_
+7	wong	wong	NOUN	_	Polite=Infm	6	obj	_	Level=Ngoko
+8	sing	sing	PRON	_	Polite=Infm	9	nsubj:pass	_	Level=Ngoko
+9	dikarepake	karep	VERB	_	Polite=Infm|Voice=Pass	7	acl:relcl	_	Level=Ngoko|SpaceAfter=No
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	dene	dene	SCONJ	_	Polite=Infm	15	mark	_	Level=Ngoko
+12	tembung	tembung	NOUN	_	_	15	nsubj:pass	_	_
+13	krama	krama	NOUN	_	_	12	nmod	_	_
+14	andhap	andhap	ADJ	_	_	13	amod	_	_
+15	digunakake	digunakake	VERB	_	Polite=Infm|Voice=Pass	4	advcl	_	Level=Ngoko
+16	kanggo	kanggo	SCONJ	_	Polite=Infm	17	mark	_	Level=Ngoko
+17	ngasorake	ngasor	VERB	_	Polite=Infm|Voice=Act	15	advcl	_	Level=Ngoko
+18	dhiri	dhiri	NOUN	_	_	17	obj	_	_
+19-20	pribadine	_	_	_	_	_	_	_	_
+19	pribadi	pribadi	NOUN	_	_	18	nmod	_	_
+20	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	19	det	_	Level=Ngoko
+21	wong	wong	NOUN	_	Polite=Infm	18	nmod:poss	_	Level=Ngoko
+22	sing	sing	PRON	_	Polite=Infm	23	nsubj	_	Level=Ngoko
+23	guneman	guneman	VERB	_	Polite=Infm|Voice=Act	21	acl:relcl	_	Level=Ngoko
+24	utawa	utawa	CCONJ	_	Polite=Infm	26	cc	_	Level=Ngoko
+25	sing	sing	PRON	_	Polite=Infm	26	nsubj	_	Level=Ngoko
+26	ngurmati	ngurmati	VERB	_	Voice=Act	23	conj	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	andhap	andhap	ADJ	_	Polite=Form	21	appos	_	Level=Krama|SpaceAfter=No
+29	:	:	PUNCT	_	_	28	punct	_	_
+30	cendhek	cendhek	ADJ	_	Polite=Infm	28	advcl	_	Level=Ngoko|SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	asor	asor	ADJ	_	Polite=Infm	30	conj	_	Level=Ngoko|SpaceAfter=No
+33	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	4	punct	_	_
+
 # sent_id = opus-wiki-1
 # text =	Para warga padha metu karo nggawani sampah sing wis dipisah antarané sampah tèlès lan sampah garing ing sajroning bak sampah; Cecep (17), gawéané luwih énténg amarga wis didhèwèkaké sampahé, dhèwèé ora pèrlu antri.
 # text_id = Para warga keluar dengan membawa tumpukan sampah yang sudah dipisahkan antara sampah basah dan sampah kering di dalam tempat sampah; Cecep (17), pekerjaannya lebih ringan karena sudah dipisahkan sampahnya, tidak perlu antri.
@@ -5001,671 +5667,66 @@
 27	1990	1990	NUM	_	_	26	nummod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	3	punct	_	_
 
-# sent_id = suwadji-2013-1
-# text = Balai Bahasa Provinsi DIY dumugi samangke taksih angleksanakaken visi lan misi ingkang sampun dipuntemtokaken, inggih menika andadosaken punjering informasi ingkang lengkap lan dados layanan ingkang sae ing bab basa lan sastra, mliginipun wonten Daerah Istimewa Yogyakarta utawi saged ugi wonten Indonesia.
-# text_id = Balai Bahasa Provinsi DIY sampai saat ini masih menjalankan visi dan misi yang telah ditetapkan, yaitu menyediakan pusat informasi yang komprehensif dan pelayanan yang baik dalam hal bahasa dan sastra, khususnya di Daerah Istimewa Yogyakarta atau mungkin Indonesia.
-# text_en = The DIY Provincial Language Center to date is still implementing the vision and mission that has been set, which is to provide a comprehensive information center and a good service in terms of language and literature, especially in the Special Region of Yogyakarta or possibly Indonesia.
-1	Balai	balai	PROPN	_	_	8	nsubj	_	_
-2	Bahasa	Bahasa	PROPN	_	_	1	flat:name	_	_
-3	Provinsi	Provinsi	PROPN	_	_	1	flat:name	_	_
-4	DIY	DIY	PROPN	_	_	1	flat:name	_	_
-5	dumugi	dugi	ADP	_	Polite=Form	6	case	_	Level=Krama
-6	samangke	samangke	NOUN	_	Polite=Form	8	obl:tmod	_	Level=Krama
-7	taksih	taksih	DET	_	_	6	det	_	_
-8	angleksanakaken	leksana	VERB	_	Voice=Act	0	root	_	_
-9	visi	visi	NOUN	_	Number=Sing	8	obj	_	_
-10	lan	lan	CCONJ	_	_	11	cc	_	_
-11	misi	misi	NOUN	_	Number=Sing	9	conj	_	_
-12	ingkang	ingkang	PRON	_	Polite=Form	14	nsubj:pass	_	Level=Krama
-13	sampun	sampun	AUX	_	Polite=Form	14	aux	_	Level=Krama
-14	dipuntemtokaken	temtu	VERB	_	Polite=Form|Voice=Pass	9	acl:relcl	_	Level=Krama|SpaceAfter=No
-15	,	,	PUNCT	_	_	14	punct	_	_
-16	inggih	inggih	AUX	_	Polite=Form	18	cop	_	Level=Krama
-17	menika	menika	DET	_	Polite=Form	16	fixed	_	Level=Krama
-18	andadosaken	dados	VERB	_	Polite=Form|Voice=Act	14	advcl	_	Level=Krama
-19	punjering	punjering	NOUN	_	_	18	obj	_	_
-20	informasi	informasi	NOUN	_	Number=Sing	19	nmod	_	_
-21	ingkang	ingkang	PRON	_	Polite=Form	22	nsubj	_	Level=Krama
-22	lengkap	lengkap	ADJ	_	_	19	acl:relcl	_	_
-23	lan	lan	CCONJ	_	_	24	cc	_	_
-24	dados	dados	VERB	_	Polite=Form|Voice=Act	18	conj	_	Level=Krama
-25	layanan	layan	NOUN	_	Number=Sing	24	obl	_	_
-26	ingkang	ingkang	PRON	_	Polite=Form	27	nsubj	_	Level=Krama
-27	sae	sae	ADJ	_	Polite=Form	25	acl:relcl	_	Level=Krama
-28	ing	ing	ADP	_	_	29	case	_	_
-29	bab	bab	NOUN	_	Number=Sing	27	obl	_	_
-30	basa	basa	NOUN	_	_	29	nmod	_	_
-31	lan	lan	CCONJ	_	_	32	cc	_	_
-32	sastra	sastra	NOUN	_	Number=Sing	30	conj	_	SpaceAfter=No
-33	,	,	PUNCT	_	_	35	punct	_	_
-34	mliginipun	mliginipun	ADV	_	_	35	advmod	_	_
-35	wonten	wonten	VERB	_	Polite=Form|Voice=Act	24	advcl	_	Level=Krama
-36	Daerah	Daerah	PROPN	_	_	35	obl	_	_
-37	Istimewa	Istimewa	PROPN	_	_	36	flat:name	_	_
-38	Yogyakarta	Yogyakarta	PROPN	_	_	36	flat:name	_	_
-39	utawi	utawi	CCONJ	_	Polite=Form	42	cc	_	Level=Krama
-40	saged	saged	AUX	_	Polite=Form	42	aux	_	Level=Krama
-41	ugi	ugi	ADV	_	Polite=Form	42	advmod	_	Level=Krama
-42	wonten	wonten	VERB	_	Polite=Form|Voice=Act	35	conj	_	Level=Krama
-43	Indonesia	Indonesia	PROPN	_	_	42	obl	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	8	punct	_	_
+# sent_id = opus-wiki-151
+# text = Nanging, pidhato tanggel jawab punika dipuntolak malih lan akhiripun dipunputusaken biih ing tanggal 7 Maret 1967 badhe dipunadani Sidang Istimewa MPRS.
+# text_id = Namun pidato pertanggungjawaban itu ditolak lagi dan akhirnya diputuskan bahwa pada tanggal 7 Maret 1967 akan diadakan Sidang Istimewa MPRS.
+# text_en = However, the accountability speech was rejected again and it was finally decided that on March 7, 1967 a special session of the MPRS would be held.
+1	Nanging	nanging	ADV	_	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	7	punct	_	_
+3	pidhato	pidhato	NOUN	_	_	7	nsubj	_	_
+4	tanggel	tanggel	VERB	_	_	3	acl	_	_
+5	jawab	jawab	VERB	_	_	4	compound	_	_
+6	punika	punika	DET	_	_	3	det	_	_
+7	dipuntolak	tolak	VERB	_	Voice=Pass	0	root	_	_
+8	malih	malih	ADV	_	_	7	advmod	_	_
+9	lan	lan	CCONJ	_	_	11	cc	_	_
+10	akhiripun	akhir	ADV	_	_	11	advmod	_	_
+11	dipunputusaken	putus	VERB	_	Voice=Pass	7	conj	_	_
+12	biih	biih	SCONJ	_	_	19	mark	_	_
+13	ing	ing	ADP	_	_	14	case	_	_
+14	tanggal	tanggal	NOUN	_	_	19	obl:tmod	_	_
+15	7	7	NUM	_	_	14	nummod	_	_
+16	Maret	maret	PROPN	_	_	15	flat	_	_
+17	1967	1967	NUM	_	_	15	flat	_	_
+18	badhe	badhe	AUX	_	_	19	aux	_	_
+19	dipunadani	ada	VERB	_	_	11	advcl	_	_
+20	Sidang	sidang	PROPN	_	_	19	obl	_	_
+21	Istimewa	istimewa	PROPN	_	_	20	flat:name	_	_
+22	MPRS	mprs	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = suwadji-2013-2
-# text = Buku-buku ingkang kacithak kadosta buku ingkang asesirah Ngoko Krama anggitanipun Suwadji menika ngemot bab tembung-tembung ngoko ingkang wonten kramanipun, krama inggilipun, utawi krama andhapipun.
-# text_id = Buku-buku yang diterbitkan seperti buku Ngoko Krama karya Suwadji berisi tentang kata ngoko yang mengandung krama, krama tinggi, atau krama rendah.
-# text_en = Books published such as the book entitled Ngoko Krama by Suwadji contain about the words ngoko in the krama, high krama, or low krama.
-1	Buku-buku	buku	NOUN	_	Number=Plur	14	nsubj	_	_
-2	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	3	nsubj:pass	_	Level=Krama
-3	kacithak	cithak	VERB	_	Voice=Pass	1	acl:relcl	_	_
-4	kadosta	kados	ADP	_	Polite=Form	5	case	_	Level=Krama
-5	buku	buku	NOUN	_	Number=Sing	3	obl	_	_
-6	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	7	nsubj	_	Level=Krama
-7	asesirah	sesirah	VERB	_	Voice=Act	5	acl:relcl	_	_
-8	Ngoko	Ngoko	PROPN	_	_	7	obl	_	_
-9	Krama	Krama	PROPN	_	_	8	flat:name	_	_
-10-11	anggitanipun	_	_	_	_	_	_	_	_
-10	anggitan	anggit	NOUN	_	Number=Sing	8	nmod	_	_
-11	ipun	ipun	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	10	nmod:poss	_	Level=Krama
-12	Suwadji	Suwadji	PROPN	_	_	10	nmod:poss	_	_
-13	menika	menika	DET	_	Polite=Form	10	det	_	Level=Krama
-14	ngemot	ngemot	VERB	_	Voice=Act	0	root	_	_
-15	bab	bab	NOUN	_	Number=Sing	14	obl	_	_
-16	tembung-tembung	tembung	NOUN	_	Number=Plur	15	nmod	_	_
-17	ngoko	ngoko	NOUN	_	_	16	nmod	_	_
-18	ingkang	ingkang	PRON	_	Polite=Form|PronType=Rel	19	nsubj	_	Level=Krama
-19	wonten	wonten	VERB	_	Polite=Form	14	advcl	_	Level=Krama
-20-21	kramanipun	_	_	_	_	_	_	_	SpaceAfter=No
-20	krama	krama	NOUN	_	Number=Sing	19	obl	_	_
-21	nipun	ipun	DET	_	Polite=Form|PronType=Dem	20	det	_	Level=Krama
-22	,	,	PUNCT	_	_	23	punct	_	_
-23	krama	krama	NOUN	_	_	20	conj	_	_
-24-25	inggilipun	_	_	_	_	_	_	_	SpaceAfter=No
-24	inggil	inggil	NOUN	_	Number=Sing|Polite=Form	23	nmod	_	Level=Krama
-25	ipun	ipun	DET	_	Polite=Form|PronType=Dem	23	det	_	Level=Krama
-26	,	,	PUNCT	_	_	28	punct	_	_
-27	utawi	utawi	CCONJ	_	Polite=Form	28	cc	_	Level=Krama
-28	krama	krama	NOUN	_	_	20	conj	_	_
-29-30	andhapipun	_	_	_	_	_	_	_	SpaceAfter=No
-29	andhap	andhap	NOUN	_	Number=Sing|Polite=Form	28	nmod	_	Level=Krama
-30	ipun	ipun	DET	_	Polite=Form|PronType=Dem	28	det	_	Level=Krama
-31	.	.	PUNCT	_	_	14	punct	_	_
-
-# sent_id = suwadji-2013-3
-# text = Inggih awit saking bab punika, basa Jawi lajeng ketingal boten kados samestinipun.
-# text_id = Nah karena itu, bahasa Jawa kemudian terlihat tidak sebagaimana mestinya.
-# text_en = Well because of this, the Javanese language then looks not as it should be.
-1	Inggih	Inggih	INTJ	_	Polite=Form	10	discourse	_	Level=Krama
-2	awit	awit	ADP	_	Polite=Form	4	case	_	Level=Krama
-3	saking	saking	ADP	_	Polite=Form	2	fixed	_	Level=Krama
-4	bab	bab	NOUN	_	Number=Sing	10	obl	_	_
-5	punika	punika	DET	_	Polite=Form	4	det	_	Level=Krama|SpaceAfter=No
-6	,	,	PUNCT	_	_	10	punct	_	_
-7	basa	basa	NOUN	_	_	10	nsubj:pass	_	_
-8	Jawi	Jawi	PROPN	_	_	7	nmod	_	_
-9	lajeng	lajeng	ADV	_	Polite=Form	10	advmod	_	Level=Krama
-10	ketingal	tingal	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
-11	boten	boten	PART	_	Polarity=Neg|Polite=Form	12	advmod	_	Level=Krama
-12	kados	kados	VERB	_	Polite=Form	10	xcomp	_	Level=Krama
-13	samestinipun	samestinipun	ADV	_	Polite=Form	12	advmod	_	Level=Krama|SpaceAfter=No
-14	.	.	PUNCT	_	_	10	punct	_	_
-
-# sent_id = suwadji-2013-4
-# text = Malah, saperangan masyarakat, mliginipun para nem-neman, sami ajrih ngginakaken basa Jawi, kuwatos menawi dados gegujenganipun tiyang sanes.
-# text_id = Bahkan, sebagian orang, terutama anak muda, takut menggunakan bahasa Jawa, khawatir akan kesalahan orang lain.
-# text_en = In fact, some people, especially young people, are afraid to use the Javanese language, worried that it will be the fault of others.
-1	Malah	malah	ADV	_	_	10	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	saperangan	saperangan	DET	_	_	4	det	_	_
-4	masyarakat	masyarakat	NOUN	_	Number=Sing	10	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	8	punct	_	_
-6	mliginipun	mliginipun	ADV	_	Polite=Form	8	advmod	_	Level=Krama
-7	para	para	DET	_	_	8	det	_	_
-8	nem-neman	nem-neman	NOUN	_	Polite=Form	4	nmod	_	Level=Krama|SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
-10	sami	sami	ADJ	_	Polite=Form	0	root	_	Level=Krama
-11	ajrih	ajrih	SCONJ	_	Polite=Form	12	mark	_	Level=Krama
-12	ngginakaken	ngginakaken	VERB	_	Polite=Form|Voice=Act	10	advcl	_	Level=Krama
-13	basa	basa	NOUN	_	_	12	obj	_	_
-14	Jawi	Jawi	PROPN	_	_	13	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	kuwatos	kuwatos	ADJ	_	Polite=Form	10	advcl	_	Level=Krama
-17	menawi	menawi	SCONJ	_	Polite=Form	18	mark	_	Level=Krama
-18	dados	dados	VERB	_	Polite=Form|Voice=Act	16	advcl	_	Level=Krama
-19-20	gegujenganipun	_	_	_	_	_	_	_	_
-19	gegujengan	gegujeng	NOUN	_	Number=Sing	18	obl	_	_
-20	nipun	ipun	DET	_	Polite=Form|PronType=Dem	19	det	_	Level=Krama
-21	tiyang	tiyang	NOUN	_	Polite=Form	19	nmod:poss	_	Level=Krama
-22	sanes	sanes	ADJ	_	Polite=Form	21	amod	_	Level=Krama|SpaceAfter=No
-23	.	.	PUNCT	_	_	10	punct	_	_
-
-# sent_id = suwadji-2013-5
-# text = Umpaminipun, tembung sumur, gelas, lan kursi.
-# text_id = Misalnya kata sumur, gelas, dan kursi.
-# text_en = For example, the words well, glass, and chair.
-1-2	Umpaminipun	_	_	_	_	_	_	_	SpaceAfter=No
-1	Umpami	umpami	NOUN	_	Number=Sing|Polite=Form	0	root	_	Level=Krama
-2	nipun	ipun	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
-3	,	,	PUNCT	_	_	1	punct	_	_
-4	tembung	tembung	NOUN	_	_	1	nmod	_	_
-5	sumur	sumur	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
-7	gelas	gelas	NOUN	_	Number=Sing	5	conj	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	_
-9	lan	lan	CCONJ	_	_	10	cc	_	_
-10	kursi	kursi	NOUN	_	Number=Sing	5	conj	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	_
-
-# sent_id = suwadji-2013-6
-# text = Apa tegesé tembung ngoko?
-# text_id = Apa artinya kata ngoko?
-# text_en = What does the meaning of ngoko word?
-1	Apa	apa	PRON	_	Polite=Infm	2	nsubj	_	Level=Ngoko
-2-3	tegesé	_	_	_	_	_	_	_	_
-2	teges	teges	NOUN	_	Number=Sing	0	root	_	_
-3	é	é	DET	_	Polite=Infm	2	det	_	Level=Ngoko
-4	tembung	tembung	NOUN	_	_	2	obl	_	_
-5	ngoko	ngoko	NOUN	_	_	4	nmod	_	SpaceAfter=No
-6	?	?	PUNCT	_	_	2	punct	_	_
-
-# sent_id = suwadji-2013-7
-# text = Lire, yen tembung ngoko kena tegesé ora ngurmati, tembung krama mengku teges ngurmati utawa luwih ngajeni.
-# text_id = Adapun, jika kata ngoko berarti tidak menghormati, kata krama memiliki arti menghormati atau lebih menghargai.
-# text_en = Meanwhile, if the ngoko word means disrespect, the word krama means respect or more respect
-1	Lire	Lire	ADV	_	_	7	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	yen	yen	SCONJ	_	Polite=Infm	7	mark	_	Level=Ngoko
-4	tembung	tembung	NOUN	_	_	10	nsubj	_	_
-5	ngoko	ngoko	NOUN	_	_	4	nmod	_	_
-6	kena	kena	AUX	_	Polite=Infm	7	aux	_	Level=Ngoko
-7-8	tegesé	_	_	_	_	_	_	_	_
-7	teges	teges	NOUN	_	_	0	root	_	_
-8	é	é	DET	_	Polite=Infm	7	det	_	Level=Ngoko
-9	ora	ora	PART	_	Polite=Infm	10	advmod	_	Level=Ngoko
-10	ngurmati	ngurmati	VERB	_	Voice=Act	7	advcl	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	_
-12	tembung	tembung	NOUN	_	_	14	obl	_	_
-13	krama	krama	NOUN	_	_	12	nmod	_	_
-14	mengku	mengku	VERB	_	Voice=Act	7	advcl	_	_
-15	teges	teges	NOUN	_	_	14	obl	_	_
-16	ngurmati	ngurmati	VERB	_	Voice=Act	12	advcl	_	_
-17	utawa	utawa	CCONJ	_	Polite=Infm	18	cc	_	Level=Ngoko
-18	luwih	luwih	ADV	_	_	19	advmod	_	_
-19	ngajeni	ngajeni	VERB	_	Voice=Act	16	conj	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	7	punct	_	_
-
-# sent_id = suwadji-2013-8
-# text = Cethané meneh tembung béda karo basa.
-# text_id = Lebih jelasnya kata berbeda dengan bahasa.
-# text_en = More specifically, words are different from language.
-1	Cethané	Cethané	ADJ	_	Polite=Infm	3	amod	_	Level=Ngoko
-2	meneh	meneh	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
-3	tembung	tembung	NOUN	_	_	4	nsubj	_	_
-4	béda	beda	VERB	_	Polite=Infm	0	root	_	Level=Ngoko
-5	karo	karo	CCONJ	_	Polite=Infm	6	cc	_	Level=Ngoko
-6	basa	basa	NOUN	_	_	3	conj	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	4	punct	_	_
-
-# sent_id = suwadji-2013-9
-# text = Adhédhasar undha-usuk panganggoné, sing pokok basa Jawa dipilahké dadi rong tataran, yaiku basa ngoko lan basa krama.
-# text_id = Berdasarkan kaidah pemakaiannya, bahasa utama Jawa dibagi menjadi dua tingkatan, yaitu bahasa ngoko dan bahasa krama.
-# text_en = Based on the rules of use, the main language of Java is divided into two levels, namely the ngoko language and the krama language.
-1	Adhédhasar	Adhédhasar	ADV	_	_	2	advmod	_	_
-2	undha-usuk	undha-usuk	NOUN	_	_	3	nmod	_	_
-3-4	panganggoné	_	_	_	_	_	_	_	SpaceAfter=No
-3	panganggo	panganggo	NOUN	_	Polite=Infm	10	nmod	_	Level=Ngoko
-4	né	né	DET	_	Polite=Infm	3	det	_	Level=Ngoko
-5	,	,	PUNCT	_	_	3	punct	_	_
-6	sing	sing	PRON	_	Polite=Infm	7	nsubj	_	Level=Ngoko
-7	pokok	pokok	ADV	_	_	8	advmod	_	_
-8	basa	basa	NOUN	_	_	10	nsubj:pass	_	_
-9	Jawa	Jawa	PROPN	_	_	8	nmod	_	_
-10	dipilahké	pilah	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
-11	dadi	dadi	VERB	_	Polite=Infm	10	advcl	_	Level=Ngoko
-12	rong	rong	NUM	_	Polite=Infm	13	nummod	_	Level=Ngoko
-13	tataran	tataran	NOUN	_	_	8	obl	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	_
-15	yaiku	yaiku	AUX	_	Polite=Infm	10	cop	_	Level=Ngoko
-16	basa	basa	NOUN	_	_	13	appos	_	_
-17	ngoko	ngoko	NOUN	_	_	16	nmod	_	_
-18	lan	lan	CCONJ	_	_	19	cc	_	_
-19	basa	basa	NOUN	_	_	16	conj	_	_
-20	krama	krama	NOUN	_	_	19	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	10	punct	_	_
-
-# sent_id = suwadji-2013-10
-# text = Tembung ngoko iku cacahé akèh banget, malah kena diarani akèh dhéwé ing antarané tembung-tembung liyané.
-# text_id = Kata ngoko itu jumlahnya sangat banyak, bahkan bisa disebut paling banyak di antara kata-kata lainnya.
-# text_en = The number of ngoko word is very large, it can even be said to be the most among the otherwords.
-1	Tembung	Tembung	NOUN	_	_	4	nsubj	_	_
-2	ngoko	ngoko	NOUN	_	_	1	nmod	_	_
-3	iku	yaiku	AUX	_	Polite=Infm	4	cop	_	Level=Ngoko
-4-5	cacahé	_	_	_	_	_	_	_	_
-4	cacah	cacah	NOUN	_	_	0	root	_	_
-5	é	é	DET	_	Polite=Infm	4	det	_	Level=Ngoko
-6	akèh	akèh	ADJ	_	Polite=Infm	4	amod	_	Level=Ngoko
-7	banget	banget	ADV	_	Polite=Infm	6	advmod	_	Level=Ngoko|SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	_
-9	malah	malah	ADV	_	_	6	advmod	_	_
-10	kena	kena	AUX	_	Polite=Infm	11	aux	_	Level=Ngoko
-11	diarani	aran	VERB	_	Polite=Infm	4	ccomp	_	Level=Ngoko
-12	akèh	akèh	ADJ	_	Polite=Infm	11	amod	_	Level=Ngoko
-13	dhéwé	dhéwé	ADV	_	Polite=Infm	12	advmod	_	Level=Ngoko
-14	ing	ing	ADP	_	_	15	case	_	_
-15-16	antarané	_	_	_	_	_	_	_	_
-15	antara	antara	NOUN	_	_	12	nmod:lmod	_	_
-16	né	né	PRON	_	Polite=Infm	15	nmod	_	Level=Ngoko
-17	tembung-tembung	tembung	NOUN	_	Number=Plur	15	nmod	_	_
-18-19	liyané	_	_	_	_	_	_	_	SpaceAfter=No
-18	liya	liya	ADJ	_	Polite=Infm	17	amod	_	Level=Ngoko
-19	né	é	PRON	_	Polite=Infm	18	nmod	_	Level=Ngoko
-20	.	.	PUNCT	_	_	4	punct	_	_
-
-# sent_id = suwadji-2013-11
-# text = Saperangan bisa dititeni sarana titikan kaya sing wis diterangake ing dhuwur, dene tembung krama sing liyane ditentokake adhe-dhasar panganggepe masyarakat.
-# text_id = Sebagian bisa ditandai dengan poin seperti yang sudah diterangkan di atas, sedangkan kata krama yang lainnya ditentukan berdasarkan anggapan masyarakat.
-# text_en = Some can be marked with points as explained above, while others are determined based on public opinion.
-1	Saperangan	saperangan	NOUN	_	_	3	nsubj:pass	_	_
-2	bisa	bisa	AUX	_	Polite=Infm	3	aux	_	Level=Ngoko
-3	dititeni	titen	VERB	Polite=Infm	Voice=Pass	0	root	_	Level=Ngoko
-4	sarana	sarana	ADP	_	_	5	case	_	_
-5	titikan	titikan	NOUN	_	_	3	obl	_	_
-6	kaya	kaya	SCONJ	_	Polite=Infm	9	mark	_	Level=Ngoko
-7	sing	sing	PRON	_	Polite=Infm|PronType=Rel	9	nsubj:pass	_	Level=Ngoko
-8	wis	wis	AUX	_	Polite=Infm	9	aux	_	Level=Ngoko
-9	diterangake	terang	VERB	_	Polite=Infm|Voice=Pass	5	acl	_	Level=Ngoko
-10	ing	ing	ADP	_	_	11	case	_	_
-11	dhuwur	dhuwur	NOUN	_	Polite=Infm	9	obl	_	Level=Ngoko|SpaceAfter=No
-12	,	,	PUNCT	_	_	19	punct	_	_
-13	dene	dene	SCONJ	_	Polite=Infm	19	mark	_	Level=Ngoko
-14	tembung	tembung	NOUN	_	_	19	nsubj:pass	_	_
-15	krama	krama	NOUN	_	_	14	nmod	_	_
-16	sing	sing	PRON	_	Polite=Infm|PronType=Rel	17	nsubj	_	Level=Ngoko
-17-18	liyane	_	_	_	_	_	_	_	_
-17	liya	liya	ADJ	_	Polite=Infm	14	acl:relcl	_	Level=Ngoko
-18	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	17	det	_	Level=Ngoko
-19	ditentokake	tentu	VERB	Polite=Infm	Voice=Pass	3	conj	_	Level=Ngoko
-20	adhe-dhasar	dhasar	VERB	_	_	19	advcl	_	_
-21-22	panganggepe	_	_	_	_	_	_	_	_
-21	panganggep	anggep	NOUN	_	_	20	obl	_	_
-22	e	e	DET	_	Polite=Infm	21	det	_	Level=Ngoko
-23	masyarakat	masyarakat	NOUN	_	Number=Sing	21	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	3	punct	_	_
-
-# sent_id = suwadji-2013-12
-# text = Tetelune dianggep ora mathuk yen dianggo guneman ing basa Jawa sing samestine awit ana tembung liyane sing dianggep luwih mapan utawa luwih becik.
-# text_id = Ketiganya dianggap tidak sesuai jika dipakai bicara dalam bahasa Jawa yang semestinya karena ada kata lainnya yang dianggap lebih baku atau lebih baik.
-# text_en = All three are considered inappropriate if used to speak in proper Javanese language because there are other words that are considered more standard or better.
-1-2	Tetelune	_	_	_	_	_	_	_	_
-1	Tetelu	telu	NUM	_	NumType=Card	3	nsubj:pass	_	_
-2	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
-3	dianggep	anggep	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
-4	ora	ora	PART	_	Polarity=Neg|Polite=Infm	5	advmod	_	Level=Ngoko
-5	mathuk	mathuk	ADJ	_	_	3	xcomp	_	_
-6	yen	yen	SCONJ	_	Polite=Infm	7	mark	_	Level=Ngoko
-7	dianggo	anggo	VERB	_	Polite=Infm|Voice=Pass	5	advcl	_	Level=Ngoko
-8	guneman	guneman	VERB	_	Polite=Infm	7	xcomp	_	Level=Ngoko
-9	ing	ing	ADP	_	_	10	case	_	_
-10	basa	basa	NOUN	_	_	8	obl	_	_
-11	Jawa	Jawa	PROPN	_	_	10	nmod	_	_
-12	sing	sing	PRON	_	Polite=Infm|PronType=Rel	10	nmod	_	Level=Ngoko
-13	samestine	mesti	ADV	_	Polite=Infm	12	advmod	_	Level=Ngoko
-14	awit	awit	SCONJ	_	_	15	mark	_	_
-15	ana	ana	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	3	advcl	_	Level=Ngoko
-16	tembung	tembung	NOUN	_	_	15	nsubj	_	_
-17-18	liyane	_	_	_	_	_	_	_	_
-17	liya	liya	ADJ	_	Polite=Infm	16	amod	_	Level=Ngoko
-18	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	16	det	_	Level=Ngoko
-19	sing	sing	PRON	_	Polite=Infm|PronType=Rel	20	nsubj:pass	_	Level=Ngoko
-20	dianggep	anggep	VERB	_	Polite=Infm|Voice=Pass	16	acl:relcl	_	Level=Ngoko
-21	luwih	luwih	ADV	_	_	22	advmod	_	_
-22	mapan	mapan	ADJ	_	_	20	xcomp	_	_
-23	utawa	utawa	CCONJ	_	Polite=Infm	25	cc	_	Level=Ngoko
-24	luwih	luwih	ADV	_	_	25	advmod	_	_
-25	becik	becik	ADJ	_	_	22	conj	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	3	punct	_	_
-
-# sent_id = suwadji-2013-13
-# text = Mula saka iku, cacahe tembunge winates, upamane, ing tembung-tembung sing mretelakake pakaryan (sare, dhahar, wungu), perangane awak (grana, asta, rikma), tata pernah (panjenengan, rayi, eyang), barang darbe utawa panganggo (dalem, asma, lancingan).
-# text_id = Maka dari itu, jumlah katanya terbatas, contohnya, pada kata-kata yang menjelaskan pekerjaan (tidur, makan, bangun), bagian tubuh (hidung, tangan, rambut), kedudukan (kamu, adik, eyang), barang kepemilikan atau pakaian (rumah, nama, celana pendek).
-# text_en = Therefore, the number of words is limited, for example, in words that describe occupation (sleep, eat, wake up), body parts (nose, hands, hair), position (you, younger sibling, grandparent), property or clothes (house, name, shorts).
-1	Mula	mula	ADV	_	_	3	advmod	_	_
-2	saka	saka	ADP	_	Polite=Infm	3	case	_	Level=Ngoko
-3	iku	iku	PRON	_	Polite=Infm|PronType=Dem	9	obl	_	Level=Ngoko|SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5-6	cacahe	_	_	_	_	_	_	_	_
-5	cacah	cacah	NOUN	_	_	9	nsubj	_	_
-6	e	e	PRON	_	Polite=Infm	5	nmod:poss	_	Level=Ngoko
-7-8	tembunge	_	_	_	_	_	_	_	_
-7	tembung	tembung	NOUN	_	_	5	nmod	_	_
-8	e	e	PRON	_	Polite=Infm	7	nmod:poss	_	Level=Ngoko
-9	winates	winates	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko|SpaceAfter=No
-10	,	,	PUNCT	_	_	9	punct	_	_
-11-12	upamane	_	_	_	_	_	_	_	SpaceAfter=No
-11	upama	upama	NOUN	_	Polite=Infm	9	obl	_	Level=Ngoko
-12	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	11	det	_	Level=Ngoko
-13	,	,	PUNCT	_	_	11	punct	_	_
-14	ing	ing	ADP	_	_	15	case	_	_
-15	tembung-tembung	tembung	NOUN	_	Number=Plur	11	nmod	_	_
-16	sing	sing	PRON	_	Polite=Infm|PronType=Rel	17	nsubj	_	Level=Ngoko
-17	mretelakake	mretelakake	VERB	_	_	15	acl:relcl	_	_
-18	pakaryan	pakaryan	NOUN	_	_	17	obj	_	_
-19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-20	sare	sare	VERB	_	Polite=Elev	18	appos	_	Level=KramaInggil|SpaceAfter=No
-21	,	,	PUNCT	_	_	22	punct	_	_
-22	dhahar	dhahar	VERB	_	Polite=Elev	20	conj	_	Level=KramaInggil|SpaceAfter=No
-23	,	,	PUNCT	_	_	24	punct	_	_
-24	wungu	wungu	VERB	_	Polite=Elev	20	conj	_	Level=KramaInggil|SpaceAfter=No
-25	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	27	punct	_	_
-27-28	perangane	_	_	_	_	_	_	_	_
-27	perangan	perangan	NOUN	_	_	18	conj	_	_
-28	e	e	PRON	_	Polite=Infm	27	nmod:poss	_	Level=Ngoko
-29	awak	awak	NOUN	_	_	27	nmod	_	Level=Ngoko
-30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-31	grana	grana	NOUN	_	Polite=Elev	27	appos	_	Level=KramaInggil|SpaceAfter=No
-32	,	,	PUNCT	_	_	33	punct	_	_
-33	asta	asta	NOUN	_	Polite=Elev	31	conj	_	Level=KramaInggil|SpaceAfter=No
-34	,	,	PUNCT	_	_	35	punct	_	_
-35	rikma	rikma	NOUN	_	Polite=Form	31	conj	_	Level=Krama|SpaceAfter=No
-36	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
-37	,	,	PUNCT	_	_	38	punct	_	_
-38	tata	tata	NOUN	_	_	18	conj	_	_
-39	pernah	pernah	NOUN	_	_	38	nmod	_	_
-40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
-41	panjenengan	panjenengan	NOUN	_	Polite=Elev	38	appos	_	Level=KramaInggil|SpaceAfter=No
-42	,	,	PUNCT	_	_	43	punct	_	_
-43	rayi	rayi	NOUN	_	Polite=Elev	41	conj	_	Level=KramaInggil|SpaceAfter=No
-44	,	,	PUNCT	_	_	45	punct	_	_
-45	eyang	eyang	NOUN	_	Polite=Form	41	conj	_	Level=Krama|SpaceAfter=No
-46	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
-47	,	,	PUNCT	_	_	48	punct	_	_
-48	barang	barang	NOUN	_	Number=Sing	18	conj	_	_
-49	darbe	darbe	NOUN	_	_	48	nmod	_	_
-50	utawa	utawa	CCONJ	_	Polite=Infm	51	cc	_	Level=Ngoko
-51	panganggo	anggo	NOUN	_	Polite=Infm	48	conj	_	Level=Ngoko
-52	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
-53	dalem	dalem	NOUN	_	Polite=Elev	48	appos	_	Level=KramaInggil|SpaceAfter=No
-54	,	,	PUNCT	_	_	55	punct	_	_
-55	asma	asma	NOUN	_	Number=Sing|Polite=Elev	53	conj	_	Level=KramaInggil|SpaceAfter=No
-56	,	,	PUNCT	_	_	57	punct	_	_
-57	lancingan	lancingan	NOUN	_	Polite=Elev	53	conj	_	Level=KramaInggil|SpaceAfter=No
-58	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
-59	.	.	PUNCT	_	_	9	punct	_	_
-
-# sent_id = suwadji-2013-14
-# text = Mung bae, beda carane.
-# text_id = Hanya saja, beda caranya.
-# text_en = It's just, how different.
-1	Mung	mung	ADV	_	_	4	advmod	_	_
-2	bae	bae	ADV	_	_	1	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
-4	beda	beda	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
-5-6	carane	_	_	_	_	_	_	_	SpaceAfter=No
-5	cara	cara	NOUN	_	_	4	nsubj	_	_
-6	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	5	det	_	Level=Ngoko
-7	.	.	PUNCT	_	_	4	punct	_	_
-
-# sent_id = suwadji-2013-15
-# text = Contone: matur, nyuwun, lan nyaosi.
-# text_id = Contohnya: berterima kasih, meminta, dan memberi.
-# text_en = For example: thank, ask, and give.
-1-2	Contone	_	_	_	_	_	_	_	SpaceAfter=No
-1	Conto	conto	PROPN	_	_	4	nsubj	_	_
-2	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
-3	:	:	PUNCT	_	_	1	punct	_	_
-4	matur	matur	VERB	_	Polite=Form|Voice=Act	0	root	_	Level=Krama|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	nyuwun	nyuwun	VERB	_	Polite=Form|Voice=Act	4	conj	_	Level=Krama|SpaceAfter=No
-7	,	,	PUNCT	_	_	9	punct	_	_
-8	lan	lan	CCONJ	_	Polite=Infm	9	cc	_	Level=Ngoko
-9	nyaosi	nyaosi	VERB	_	Polite=Form|Voice=Act	4	conj	_	Level=Krama|SpaceAfter=No
-10	.	.	PUNCT	_	_	4	punct	_	_
-
-# sent_id = suwadji-2013-16
-# text = Mula saka iku, basa krama kena dibedakake antarane sing alus lan sing kurang alus.
-# text_id = Oleh karena itu, bahasa sopan santun dapat dibedakan antara yang lembut dan yang kurang lembut.
-# text_en = Therefore, polite language can be distinguished between soft and less gentle.
-1	Mula	mula	NOUN	_	Number=Sing	8	obl	_	_
-2	saka	saka	ADP	_	Polite=Infm	3	case	_	Level=Ngoko
-3	iku	iku	PRON	_	Polite=Infm	1	nmod	_	Level=Ngoko|SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	_
-5	basa	basa	NOUN	_	_	8	nsubj:pass	_	_
-6	krama	krama	ADJ	_	_	5	amod	_	_
-7	kena	kena	AUX	_	Polite=Infm	8	aux	_	Level=Ngoko
-8	dibedakake	beda	VERB	Polite=Infm	Voice=Pass	0	root	_	Level=Ngoko
-9-10	antarane	_	_	_	_	_	_	_	_
-9	antara	antara	NOUN	_	_	10	nmod:lmod	_	_
-10	ne	ne	PRON	_	Polite=Infm	8	obl	_	Level=Ngoko
-11	sing	sing	PRON	_	Polite=Infm	12	nsubj	_	Level=Ngoko
-12	alus	alus	ADJ	_	_	8	advcl	_	_
-13	lan	lan	CCONJ	_	_	16	cc	_	_
-14	sing	sing	PRON	_	Polite=Infm	16	nsubj	_	Level=Ngoko
-15	kurang	kurang	ADV	_	Polite=Infm	16	advmod	_	Level=Ngoko
-16	alus	alus	ADJ	_	_	12	conj	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	8	punct	_	_
-
-# sent_id = suwadji-2013-17
-# text = Ing pamulangan basa krama dipilah-pilahake dadi telung tataran, yaiku, saka ngisor mendhuwur, wredha krama, kramantara, lan mudha krama.
-# text_id = Dalam pembelajaran bahasa krama dibagi menjadi tiga tahap, yaitu dari bawah ke atas, wredha krama, kramantara, dan mudha krama.
-# text_en = In learning the krama language, it is divided into three stages, namely from the bottom up, wredha krama, kramantara, and mudha krama.
-1	Ing	ing	ADP	_	_	2	case	_	_
-2	pamulangan	pamulangan	NOUN	_	_	5	obl	_	_
-3	basa	basa	NOUN	_	_	2	nmod	_	_
-4	krama	krama	ADJ	_	_	3	amod	_	_
-5	dipilah-pilahake	pilah	VERB	_	Voice=Pass	0	root	_	_
-6	dadi	dadi	VERB	_	Polite=Infm|Voice=Act	5	advcl	_	Level=Ngoko
-7	telung	telung	NUM	_	Polite=Infm	8	nummod	_	Level=Ngoko
-8	tataran	tataran	NOUN	_	_	6	obl	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	_
-10	yaiku	yaiku	AUX	_	_	16	cop	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	_	_
-12	saka	saka	ADP	_	Polite=Infm	13	case	_	Level=Ngoko
-13	ngisor	ngisor	NOUN	_	Polite=Infm	8	acl	_	Level=Ngoko
-14	mendhuwur	mendhuwur	NOUN	_	Polite=Infm	13	nmod	_	Level=Ngoko|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	wredha	wredha	ADJ	_	_	13	advcl	_	_
-17	krama	krama	ADJ	_	_	16	compound	_	SpaceAfter=No
+# sent_id = opus-wiki-152
+# text = Tanggal 12 Januari 2006, Pram dikabarke wis rong minggu lara ning omahe ing Bojong Gede, Bogor, lan terus dirawat ing rumah sakit.
+# text_id  = Pada 12 Januari 2006, Pram dilaporkan sakit selama dua minggu di rumahnya di Bojong Gede, Bogor, dan terus dirawat di rumah sakit.
+# text_en  = On January 12, 2006, Pram was reported to have been ill for two weeks at his home in Bojong Gede, Bogor, and continues to be hospitalized.
+1	Tanggal	tanggal	NOUN	_	_	7	obl:tmod	_	_
+2	12	12	NUM	_	_	1	nummod	_	_
+3	Januari	januari	PROPN	_	_	2	flat	_	_
+4	2006	2006	NUM	_	_	2	flat	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	Pram	pram	PROPN	_	_	7	nsubj	_	_
+7	dikabarke	kabar	VERB	_	Voice=Pass	0	root	_	_
+8	wis	wis	AUX	_	_	10	aux	_	_
+9	rong	rong	NUM	_	_	10	nummod	_	_
+10	minggu	minggu	NOUN	_	_	11	obl:tmod	_	_
+11	lara	lara	ADJ	_	_	7	xcomp	_	_
+12	ning	ning	ADP	_	_	13	case	_	_
+13-14	omahe	_	_	_	_	_	_	_	_
+13	omah	omah	NOUN	_	_	11	obl	_	_
+14	e	e	PRON	_	_	13	nmod:poss	_	Level=Ngoko
+15	ing	ing	ADP	_	_	16	case	_	_
+16	Bojong	bojong	PROPN	_	_	11	obl	_	_
+17	Gede	gede	PROPN	_	_	16	flat:name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	kramantara	kramantara	ADJ	_	_	16	conj	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	_
-21	lan	lan	CCONJ	_	_	22	cc	_	_
-22	mudha	mudha	ADJ	_	_	16	conj	_	_
-23	krama	krama	ADJ	_	_	22	compound	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	5	punct	_	_
-
-# sent_id = suwadji-2013-18
-# text = Rancake masyarakat wis padha ngerti sing diarani tembung-tembung iku, nanging sing akeh dhewe dimangerteni yaiku tembung ngoko.
-# text_id = Banyak orang sudah tahu apa itu kata-kata, tapi yang banyak mereka tahu adalah kata ngoko.
-# text_en = Many people already know what the words are, but what many of them know is the word ngoko.
-1	Rancake	rancake	DET	_	Polite=Infm	2	det	_	Level=Ngoko
-2	masyarakat	masyarakat	NOUN	_	Number=Sing	5	nsubj	_	_
-3	wis	wis	AUX	_	Polite=Infm	5	aux	_	Level=Ngoko
-4	padha	padha	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
-5	ngerti	ngerti	VERB	_	Polite=Infm	0	root	_	Level=Ngoko
-6	sing	sing	PRON	_	Polite=Infm	7	nsubj:pass	_	Level=Ngoko
-7	diarani	aran	VERB	_	Polite=Infm	5	xcomp	_	Level=Ngoko
-8	tembung-tembung	tembung	NOUN	_	_	7	obl	_	_
-9	iku	iku	DET	_	Polite=Infm	8	det	_	Level=Ngoko|SpaceAfter=No
-10	,	,	PUNCT	_	_	5	punct	_	_
-11	nanging	nanging	CCONJ	_	_	13	cc	_	_
-12	sing	sing	PRON	_	Polite=Infm	13	nsubj	_	Level=Ngoko
-13	akeh	akeh	ADJ	_	Polite=Infm	5	conj	_	Level=Ngoko
-14	dhewe	dhewe	PRON	_	Polite=Infm	15	nsubj:pass	_	Level=Ngoko
-15	dimangerteni	mangerti	VERB	Polite=Infm	Voice=Pass	13	advcl	_	Level=Ngoko
-16	yaiku	yaiku	AUX	_	_	17	cop	_	_
-17	tembung	tembung	NOUN	_	_	13	obl	_	_
-18	ngoko	ngoko	ADJ	_	_	17	amod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	5	punct	_	_
-
-# sent_id = suwadji-2013-19
-# text = Bab iku jumbuh karo arane tembung krama inggil, yaiku krama kanggo aweh pakurmatan marang wong sing dikarepake kanthi cara ngluhurake wong iku (inggil: dhuwur, luhur).
-# text_id = Hal ini sesuai dengan nama kata krama inggil, yaitu krama untuk menghormati orang yang dikehendaki dengan meninggikan orang tersebut (tinggi: tinggi, tinggi).
-# text_en = This is in accordance with the name of the word krama inggil, namely krama to honor the desired person by elevating that person (height: high, high).
-1	Bab	bab	NOUN	_	Number=Sing|Polite=Infm	3	nsubj	_	_
-2	iku	iku	DET	_	Polite=Infm	1	det	_	Level=Ngoko
-3	jumbuh	jumbuh	ADJ	_	_	0	root	_	_
-4	karo	karo	ADP	_	Polite=Infm	5	case	_	Level=Ngoko
-5	arane	aran	NOUN	_	Polite=Infm	3	obl	_	Level=Ngoko
-6	tembung	tembung	NOUN	_	_	5	nmod	_	_
-7	krama	krama	NOUN	_	_	6	nmod	_	_
-8	inggil	inggil	ADJ	_	_	7	amod	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	11	punct	_	_
-10	yaiku	yaiku	AUX	_	_	11	cop	_	_
-11	krama	krama	NOUN	_	_	7	acl	_	_
-12	kanggo	kanggo	SCONJ	_	Polite=Infm	13	mark	_	Level=Ngoko
-13	aweh	aweh	VERB	_	Polite=Infm|Voice=Act	11	acl	_	Level=Ngoko
-14	pakurmatan	pakurmatan	NOUN	_	_	13	obj	_	_
-15	marang	marang	ADP	_	Polite=Infm	16	case	_	Level=Ngoko
-16	wong	wong	NOUN	_	Polite=Infm	13	obl	_	Level=Ngoko
-17	sing	sing	PRON	_	Polite=Infm	18	nsubj:pass	_	Level=Ngoko
-18	dikarepake	karep	VERB	_	Polite=Infm	16	acl:relcl	_	Level=Ngoko
-19	kanthi	kanthi	ADP	_	_	20	case	_	_
-20	cara	cara	NOUN	_	Number=Sing	18	obl	_	_
-21	ngluhurake	ngluhurake	VERB	_	Polite=Infm|Voice=Act	20	acl	_	Level=Ngoko
-22	wong	wong	NOUN	_	Polite=Infm	21	obl	_	Level=Ngoko
-23	iku	iku	DET	_	Polite=Infm	22	det	_	Level=Ngoko
-24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	inggil	inggil	ADJ	_	Polite=Form	21	advcl	_	Level=Krama|SpaceAfter=No
-26	:	:	PUNCT	_	_	25	punct	_	_
-27	dhuwur	dhuwur	ADJ	_	Polite=Infm	25	advcl	_	Level=Ngoko|SpaceAfter=No
-28	,	,	PUNCT	_	_	29	punct	_	_
-29	luhur	luhur	ADJ	_	_	27	conj	_	SpaceAfter=No
-30	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	3	punct	_	_
-
-# sent_id = suwadji-2013-20
-# text = Cacahe tataran pancen kepetung akeh.
-# text_id = Jumlah tahapan sangat banyak.
-# text_en = The number of stages is extensive.
-1	Cacahe	cacahe	NOUN	_	Polite=Infm	5	nsubj	_	Level=Ngoko
-2	tataran	tataran	NOUN	_	_	1	nmod	_	_
-3	pancen	pancen	ADV	_	_	5	advmod	_	_
-4	kepetung	kepetung	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
-5	akeh	akeh	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko|SpaceAfter=No
-6	.	.	PUNCT	_	_	5	punct	_	_
-
-# sent_id = suwadji-2013-21
-# text = Mung baé perlu dimangerteni yen tembung basa ing pasrawungan padha tegesé karo tembung krama.
-# text_id = Hanya saja perlu dimengerti jika kata bahasa di pergaulan sama artinya dengan kata krama.
-# text_en = It is only necessary to note that the language word in the encounter has the same meaning as the word manners.
-1	Mung	Mung	ADV	_	_	4	advmod	_	_
-2	baé	baé	ADV	_	_	1	advmod	_	_
-3	perlu	perlu	VERB	_	Voice=Act	4	advcl	_	_
-4	dimangerteni	ngerti	VERB	_	Polite=Infm	0	root	_	Level=Ngoko
-5	yen	yen	SCONJ	_	Polite=Infm	6	mark	_	Level=Ngoko
-6	tembung	tembung	NOUN	_	_	10	nsubj	_	_
-7	basa	basa	NOUN	_	_	6	nmod	_	_
-8	ing	ing	ADP	_	_	9	case	_	_
-9	pasrawungan	pasrawungan	NOUN	_	_	6	nmod	_	_
-10	padha	padha	ADJ	_	Polite=Infm	11	amod	_	Level=Ngoko
-11-12	tegesé	_	_	_	_	_	_	_	_
-11	teges	teges	NOUN	_	_	4	ccomp	_	_
-12	é	é	DET	_	Polite=Infm	11	det	_	Level=Ngoko
-13	karo	karo	CCONJ	_	Polite=Infm	14	cc	_	Level=Ngoko
-14	tembung	tembung	NOUN	_	_	6	conj	_	_
-15	krama	krama	NOUN	_	_	14	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	4	punct	_	_
-
-# sent_id = suwadji-2013-22
-# text = Wujude tembung krama andhap uga ora beda karo wujude tembung krama inggil sing wis diterangake ing dhuwur.
-# text_id = Bentuk kata sopan santun rendah juga tidak berbeda dengan bentuk kata sopan santun tinggi yang telah dijelaskan di atas.
-# text_en = The form of the word low manners is also no different from the form of the word high manners that has been described above.
-1-2	Wujude	_	_	_	_	_	_	_	_
-1	Wujud	cara	NOUN	_	_	8	nsubj	_	_
-2	e	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
-3	tembung	tembung	NOUN	_	_	1	nmod:poss	_	_
-4	krama	krama	NOUN	_	_	3	nmod	_	_
-5	andhap	andhap	ADJ	_	_	4	amod	_	_
-6	uga	uga	ADV	_	Polite=Infm	8	advmod	_	Level=Ngoko
-7	ora	ora	PART	_	Polite=Infm	8	advmod	_	Level=Ngoko
-8	beda	beda	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
-9	karo	karo	ADP	_	Polite=Infm	10	case	_	Level=Ngoko
-10-11	wujude	_	_	_	_	_	_	_	_
-10	wujud	cara	NOUN	_	_	8	obl	_	_
-11	e	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	10	det	_	Level=Ngoko
-12	tembung	tembung	NOUN	_	_	10	nmod:poss	_	_
-13	krama	krama	NOUN	_	_	12	nmod	_	_
-14	inggil	inggil	ADJ	_	_	13	amod	_	_
-15	sing	sing	PRON	_	Polite=Infm	17	nsubj	_	Level=Ngoko
-16	wis	wis	AUX	_	Polite=Infm	17	aux	_	Level=Ngoko
-17	diterangake	terang	VERB	_	Polite=Infm|Voice=Pass	12	acl:relcl	_	Level=Ngoko
-18	ing	ing	ADP	_	_	19	case	_	_
-19	dhuwur	dhuwur	NOUN	_	Polite=Infm	17	obl	_	Level=Ngoko|SpaceAfter=No
-20	.	.	PUNCT	_	_	8	punct	_	_
-
-# sent_id = suwadji-2013-23
-# text = Semono uga ancas panggonane ora beda karo tembung sing pantes kinurmatan utawa ingajenan.
-# text_id = Demikian pula tujuan dari tempat tidak berbeda dengan kata yang layak untuk dihormati atau dipuja.
-# text_en = Likewise the purpose of a place is no different from the word worthy of respect or veneration.
-1	Semono	semono	ADV	_	_	7	advmod	_	_
-2	uga	uga	ADV	_	Polite=Infm	1	compound	_	Level=Ngoko
-3	ancas	ancas	NOUN	_	_	7	nsubj	_	_
-4-5	panggonane	_	_	_	_	_	_	_	_
-4	panggonan	panggonan	NOUN	_	_	3	nmod	_	_
-5	e	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	Level=Ngoko
-6	ora	ora	PART	_	Polite=Infm	7	advmod	_	Level=Ngoko
-7	beda	beda	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
-8	karo	karo	ADP	_	Polite=Infm	9	case	_	Level=Ngoko
-9	tembung	tembung	NOUN	_	_	7	obl	_	_
-10	sing	sing	PRON	_	Polite=Infm	11	nsubj	_	Level=Ngoko
-11	pantes	pantes	ADJ	_	_	9	acl:relcl	_	_
-12	kinurmatan	kinurmatan	NOUN	_	_	11	obl	_	_
-13	utawa	utawa	CCONJ	_	Polite=Infm	14	cc	_	Level=Ngoko
-14	ingajenan	ingajenan	NOUN	_	_	12	conj	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	7	punct	_	_
-
-# sent_id = suwadji-2013-24
-# text = Mung bae, beda carane.
-# text_id = Hanya saja, betapa berbedanya.
-# text_en = It's just, how different.
-1	Mung	mung	ADV	_	_	4	advmod	_	_
-2	bae	bae	ADV	_	_	4	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	_
-4	beda	beda	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
-5-6	carane	_	_	_	_	_	_	_	SpaceAfter=No
-5	cara	cara	NOUN	_	_	4	nsubj	_	_
-6	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	5	det	_	Level=Ngoko
-7	.	.	PUNCT	_	_	4	punct	_	_
-
-# sent_id = suwadji-2013-25
-# text = Tembung krama inggil digunakake kanggo ngluhurake wong sing dikarepake, dene tembung krama andhap digunakake kanggo ngasorake dhiri pribadine wong sing guneman utawa sing ngurmati (andhap: cendhek, asor).
-# text_id = Kata sopan santun digunakan untuk meninggikan orang yang dikehendaki, sedangkan kata sopan santun rendah digunakan untuk merendahkan diri pribadi orang yang berbicara atau yang menghormati (rendah: rendah, rendah hati).
-# text_en = The word courtesy is used to elevate the desired person, while the word low manners is used to humble the person who speaks or respects (low: low, humble).
-1	Tembung	tembung	NOUN	_	_	4	nsubj:pass	_	_
-2	krama	krama	NOUN	_	_	1	nmod	_	_
-3	inggil	inggil	ADJ	_	_	2	amod	_	_
-4	digunakake	digunakake	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
-5	kanggo	kanggo	SCONJ	_	Polite=Infm	6	mark	_	Level=Ngoko
-6	ngluhurake	luhur	VERB	_	Voice=Act	4	advcl	_	_
-7	wong	wong	NOUN	_	Polite=Infm	6	obj	_	Level=Ngoko
-8	sing	sing	PRON	_	Polite=Infm	9	nsubj:pass	_	Level=Ngoko
-9	dikarepake	karep	VERB	_	Polite=Infm|Voice=Pass	7	acl:relcl	_	Level=Ngoko|SpaceAfter=No
-10	,	,	PUNCT	_	_	4	punct	_	_
-11	dene	dene	SCONJ	_	Polite=Infm	15	mark	_	Level=Ngoko
-12	tembung	tembung	NOUN	_	_	15	nsubj:pass	_	_
-13	krama	krama	NOUN	_	_	12	nmod	_	_
-14	andhap	andhap	ADJ	_	_	13	amod	_	_
-15	digunakake	digunakake	VERB	_	Polite=Infm|Voice=Pass	4	advcl	_	Level=Ngoko
-16	kanggo	kanggo	SCONJ	_	Polite=Infm	17	mark	_	Level=Ngoko
-17	ngasorake	ngasor	VERB	_	Polite=Infm|Voice=Act	15	advcl	_	Level=Ngoko
-18	dhiri	dhiri	NOUN	_	_	17	obj	_	_
-19-20	pribadine	_	_	_	_	_	_	_	_
-19	pribadi	pribadi	NOUN	_	_	18	nmod	_	_
-20	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	19	det	_	Level=Ngoko
-21	wong	wong	NOUN	_	Polite=Infm	18	nmod:poss	_	Level=Ngoko
-22	sing	sing	PRON	_	Polite=Infm	23	nsubj	_	Level=Ngoko
-23	guneman	guneman	VERB	_	Polite=Infm|Voice=Act	21	acl:relcl	_	Level=Ngoko
-24	utawa	utawa	CCONJ	_	Polite=Infm	26	cc	_	Level=Ngoko
-25	sing	sing	PRON	_	Polite=Infm	26	nsubj	_	Level=Ngoko
-26	ngurmati	ngurmati	VERB	_	Voice=Act	23	conj	_	_
-27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	andhap	andhap	ADJ	_	Polite=Form	21	appos	_	Level=Krama|SpaceAfter=No
-29	:	:	PUNCT	_	_	28	punct	_	_
-30	cendhek	cendhek	ADJ	_	Polite=Infm	28	advcl	_	Level=Ngoko|SpaceAfter=No
-31	,	,	PUNCT	_	_	32	punct	_	_
-32	asor	asor	ADJ	_	Polite=Infm	30	conj	_	Level=Ngoko|SpaceAfter=No
-33	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	4	punct	_	_
+19	Bogor	bogor	PROPN	_	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	lan	lan	CCONJ	_	_	23	cc	_	_
+22	terus	terus	ADV	_	_	23	advmod	_	_
+23	dirawat	rawat	VERB	_	Voice=Pass	11	conj	_	_
+24	ing	ing	ADP	_	_	25	case	_	_
+25	rumah	rumah	NOUN	_	_	23	obl	_	_
+26	sakit	sakit	ADJ	_	_	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = solopos-2022-1
 # text = Mbah Wiro Bengah isih katon gagah.
@@ -15084,65 +15145,4 @@
 18	ati	ati	NOUN	_	Number=Sing	17	nmod	_	_
 19	e	e	PRON	_	_	18	nmod:poss	_	_
 20	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
-
-# sent_id = opus-wiki-151
-# text = Nanging, pidhato tanggel jawab punika dipuntolak malih lan akhiripun dipunputusaken biih ing tanggal 7 Maret 1967 badhe dipunadani Sidang Istimewa MPRS.
-# text_id = Namun pidato pertanggungjawaban itu ditolak lagi dan akhirnya diputuskan bahwa pada tanggal 7 Maret 1967 akan diadakan Sidang Istimewa MPRS.
-# text_en = However, the accountability speech was rejected again and it was finally decided that on March 7, 1967 a special session of the MPRS would be held.
-1	Nanging	nanging	ADV	_	_	7	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	7	punct	_	_
-3	pidhato	pidhato	NOUN	_	_	7	nsubj	_	_
-4	tanggel	tanggel	VERB	_	_	3	acl	_	_
-5	jawab	jawab	VERB	_	_	4	compound	_	_
-6	punika	punika	DET	_	_	3	det	_	_
-7	dipuntolak	tolak	VERB	_	Voice=Pass	0	root	_	_
-8	malih	malih	ADV	_	_	7	advmod	_	_
-9	lan	lan	CCONJ	_	_	11	cc	_	_
-10	akhiripun	akhir	ADV	_	_	11	advmod	_	_
-11	dipunputusaken	putus	VERB	_	Voice=Pass	7	conj	_	_
-12	biih	biih	SCONJ	_	_	19	mark	_	_
-13	ing	ing	ADP	_	_	14	case	_	_
-14	tanggal	tanggal	NOUN	_	_	19	obl:tmod	_	_
-15	7	7	NUM	_	_	14	nummod	_	_
-16	Maret	maret	PROPN	_	_	15	flat	_	_
-17	1967	1967	NUM	_	_	15	flat	_	_
-18	badhe	badhe	AUX	_	_	19	aux	_	_
-19	dipunadani	ada	VERB	_	_	11	advcl	_	_
-20	Sidang	sidang	PROPN	_	_	19	obl	_	_
-21	Istimewa	istimewa	PROPN	_	_	20	flat:name	_	_
-22	MPRS	mprs	PROPN	_	_	20	flat:name	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	7	punct	_	_
-
-# sent_id = opus-wiki-152
-# text = Tanggal 12 Januari 2006, Pram dikabarke wis rong minggu lara ning omahe ing Bojong Gede, Bogor, lan terus dirawat ing rumah sakit.
-# text_id  = Pada 12 Januari 2006, Pram dilaporkan sakit selama dua minggu di rumahnya di Bojong Gede, Bogor, dan terus dirawat di rumah sakit.
-# text_en  = On January 12, 2006, Pram was reported to have been ill for two weeks at his home in Bojong Gede, Bogor, and continues to be hospitalized.
-1	Tanggal	tanggal	NOUN	_	_	7	obl:tmod	_	_
-2	12	12	NUM	_	_	1	nummod	_	_
-3	Januari	januari	PROPN	_	_	2	flat	_	_
-4	2006	2006	NUM	_	_	2	flat	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
-6	Pram	pram	PROPN	_	_	7	nsubj	_	_
-7	dikabarke	kabar	VERB	_	Voice=Pass	0	root	_	_
-8	wis	wis	AUX	_	_	10	aux	_	_
-9	rong	rong	NUM	_	_	10	nummod	_	_
-10	minggu	minggu	NOUN	_	_	11	obl:tmod	_	_
-11	lara	lara	ADJ	_	_	7	xcomp	_	_
-12	ning	ning	ADP	_	_	13	case	_	_
-13-14	omahe	_	_	_	_	_	_	_	_
-13	omah	omah	NOUN	_	_	11	obl	_	_
-14	e	e	PRON	_	_	13	nmod:poss	_	Level=Ngoko
-15	ing	ing	ADP	_	_	16	case	_	_
-16	Bojong	bojong	PROPN	_	_	11	obl	_	_
-17	Gede	gede	PROPN	_	_	16	flat:name	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	_
-19	Bogor	bogor	PROPN	_	_	16	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	23	punct	_	_
-21	lan	lan	CCONJ	_	_	23	cc	_	_
-22	terus	terus	ADV	_	_	23	advmod	_	_
-23	dirawat	rawat	VERB	_	Voice=Pass	11	conj	_	_
-24	ing	ing	ADP	_	_	25	case	_	_
-25	rumah	rumah	NOUN	_	_	23	obl	_	_
-26	sakit	sakit	ADJ	_	_	25	amod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	7	punct	_	_
 
