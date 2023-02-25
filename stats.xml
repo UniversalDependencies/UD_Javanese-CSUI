@@ -11,7 +11,7 @@
     <test><sentences>732</sentences><tokens>10561</tokens><words>11026</words><fused>462</fused></test>
   </size>
   <lemmas unique="3076" /><!-- ., ,, e, ing, lan, kang, sing, ora, ana, aku, iku, wis, bisa, taun, ( -->
-  <forms unique="3335" /><!-- ., ,, ing, e, lan, ne, kang, sing, ora, ana, iku, (, ), aku, taun -->
+  <forms unique="3334" /><!-- ., ,, ing, e, lan, ne, kang, sing, ora, ana, iku, (, ), aku, taun -->
   <fusions unique="298" /><!-- ujare, liyane, anake, sijine, wargane, antarané, carane, panggaweyane, adhine, anakmu, awake, kakangku, sawahe, tegese, warsane -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
@@ -36,7 +36,7 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="29">
     <feat name="Abbr" value="Yes" upos="ADV,AUX,PART,PRON">12</feat><!-- isa, ra, ki, pa -->
-    <feat name="Definite" value="Def" upos="DET">249</feat><!-- e, ne, é, ipun, nipun, ane, ee, né, saindhenge, sing -->
+    <feat name="Definite" value="Def" upos="DET">249</feat><!-- e, ne, é, ipun, nipun, ane, né, saindhenge, sing -->
     <feat name="Definite" value="Ind" upos="DET">9</feat><!-- sawijining, satunggaling -->
     <feat name="Foreign" value="Yes" upos="X">112</feat><!-- rock, eutanasia, penerbangan, semifinalis, marksman, subunit, turnamèn, 51st, Burger, Kelinci -->
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, njagakke, nyemayani, pethiki -->
@@ -52,7 +52,7 @@
     <feat name="Polite" value="Elev" upos="ADP,NOUN,PRON,SCONJ,VERB">43</feat><!-- nalika, panjenenganipun, asma, asta, dhahar, ngendika, saknalika, dalem, grana, lancingan -->
     <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">416</feat><!-- ingkang, punika, ipun, piyambakipun, inggih, aku, dados, kaliyan, saking, lajeng -->
     <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">2250</feat><!-- e, ne, lan, kang, sing, ora, iku, ana, bisa, dadi -->
-    <feat name="PronType" value="Art" upos="DET">258</feat><!-- e, ne, sawijining, é, ipun, nipun, satunggaling, ane, ee, né -->
+    <feat name="PronType" value="Art" upos="DET">258</feat><!-- e, ne, sawijining, é, ipun, nipun, satunggaling, ane, né, saindhenge -->
     <feat name="PronType" value="Dem" upos="DET,PRON">109</feat><!-- iku, punika, iki, semana, kuwi, mau, ngene, nipun, ipun, kana -->
     <feat name="PronType" value="Emp" upos="DET">3</feat><!-- dhewe, piyambak -->
     <feat name="PronType" value="Ind" upos="DET">12</feat><!-- para, akèh, sapérangan, Akèh-akèhe, Pira-pira, pinten-pinten -->

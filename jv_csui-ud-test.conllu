@@ -12662,7 +12662,7 @@
 3	medeni	medeni	VERB	_	Voice=Act	1	acl:relcl	_	_
 4-5	isine	_	_	_	_	_	_	_	_
 4	isi	isi	NOUN	_	Number=Sing	1	nmod	_	_
-5	ee	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	Level=Ngoko
+5	ne	e	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	Level=Ngoko
 6	mung	mung	ADV	_	Polite=Infm	7	advmod	_	Level=Ngoko
 7	wedi	wedi	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko|SpaceAfter=No
 8	,	,	PUNCT	_	_	15	punct	_	_
