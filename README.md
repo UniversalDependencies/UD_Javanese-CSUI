@@ -17,8 +17,8 @@ Javanese has several language levels, such as Krama, Krama Inggil, and Ngoko. In
 
 # Acknowledgments
 
-* UD Javanese-CSUI was developed by the **Javanese NLP Research Group** at Information Retrieval and Natural Language Processing ([IR-NLP](https://ir.cs.ui.ac.id)) Laboratory of Faculty of Computer Science, Universitas Indonesia. 
-* We are greatful to the many people who made this dataset possible: Ika Alfina, Dipta Tanaya, Putri Rizqiyah, Arlisa Yuliawati, Sri Hartati Wijono, and Arawinda Dinakaramani.
+* UD Javanese-CSUI was developed by the [Information Retrieval and Natural Language Processing (IR-NLP)](https://ir.cs.ui.ac.id) Laboratory of Faculty of Computer Science, Universitas Indonesia. 
+* We are greatful to the many people who made this dataset possible: Ika Alfina, Arlisa Yuliawati, Dipta Tanaya, Arawinda Dinakaramani, Putri Rizqiyah, and Sri Hartati Wijono.
 
 
 ## References
