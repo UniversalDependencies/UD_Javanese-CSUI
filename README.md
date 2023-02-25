@@ -8,8 +8,8 @@ UD Javanese-CSUI is dependency treebank for Javanese, the regional language that
 
 The original sentences were taken from several resources: 
 1. Javanese reference grammar books (125 sents)
-2. [OPUS](https://opus.nlpl.eu/), especially from the Javanese section of the WikiMatrix v1 corpus) (152 sents)
-2. Ooline news (Solopos) (155 sents)
+2. [OPUS](https://opus.nlpl.eu/), especially from the Javanese section of the WikiMatrix v1 corpus (152 sents)
+2. Online news (Solopos) (155 sents)
 
 The sentences in this corpus do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa)) and use the Roman writing system. 
 
@@ -28,7 +28,7 @@ Note: a paper about the development of this treebank is coming soon ;-)
 
 # Changelog
 
-* 2023-05-01 v2.12
+* 2023-05-15 v2.12
   * Added 600+ sentences.
 
 * 2021-11-15 v2.9
@@ -40,7 +40,7 @@ Note: a paper about the development of this treebank is coming soon ;-)
 Data available since: UD v2.9
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: nonfiction fiction wiki news grammar-examples
+Genre: nonfiction grammar-examples wiki news fiction
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
