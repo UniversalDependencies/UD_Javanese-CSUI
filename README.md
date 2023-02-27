@@ -9,7 +9,7 @@ UD Javanese-CSUI is dependency treebank for Javanese, the regional language that
 The original sentences were taken from several resources: 
 1. Javanese reference grammar books (125 sents)
 2. [OPUS](https://opus.nlpl.eu/), especially from the Javanese section of the WikiMatrix v1 corpus (152 sents)
-2. Online news (Solopos) (155 sents)
+2. Online news (Solopos) (455 sents)
 
 The sentences in this corpus do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa)) and use the Roman writing system. 
 
