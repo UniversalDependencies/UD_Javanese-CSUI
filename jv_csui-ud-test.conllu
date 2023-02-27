@@ -13,8 +13,8 @@
 
 # sent_id = wedhawati-2001-2
 # text = Ing wayah sore biasane Siti sinau, kangmase maca koran, lan adhine dolan neng pekarangan.
-# text_id = Pada waktu sore biasanya Siti belajar, kakaknya membaca surat kabar, dan adiknya bermain di halaman.
-# text_en = In the afternoon, Siti usually studies, her sister reads the newspaper, and her sister plays in the yard.
+# text_id = Pada waktu sore biasanya Siti belajar, kakak laki-lakinya membaca surat kabar, dan adiknya bermain di halaman.
+# text_en = In the afternoon, Siti usually studies, her older brother reads the newspaper, and her younger sibling plays in the yard.
 1	Ing	_	ADP	_	_	2	case	_	_
 2	wayah	_	NOUN	_	Number=Sing	6	obl	_	_
 3	sore	_	NOUN	_	Number=Sing	2	nmod	_	_
@@ -381,12 +381,12 @@
 
 # sent_id = wedhawati-2001-30
 # text = Wis bengi,kok durung mulih-mulih.
-# text_id = Sudah malam, kok belum juga pulang.
+# text_id = Sudah malam, mengapa belum juga pulang.
 # text_en = It's late, why aren't you home yet?
 1	Wis	_	AUX	_	_	2	aux	_	_
 2	bengi	_	NOUN	_	Polite=Infm	0	root	_	Level=Ngoko|SpaceAfter=No
 3	,	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
-4	kok	_	PART	_	_	6	advmod	_	_
+4	kok	_	ADV	_	_	6	advmod	_	_
 5	durung	_	PART	_	Polite=Infm	6	advmod	_	Level=Ngoko
 6	mulih-mulih	_	VERB	_	Polite=Infm	2	advcl	_	Level=Ngoko|SpaceAfter=No
 7	.	_	PUNCT	_	_	2	punct	_	_
@@ -761,7 +761,7 @@
 10	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = wedhawati-2001-60
-# text = Aku karo dheweke kuwi isih ana sesambungan kulawarga.
+# text = Aku karo dheweke kuwi isih ana sesambungan kula warga.
 # text_id = Saya dengan dia itu masih ada hubungan keluarga.
 # text_en = I have a family relationship with him.
 1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
@@ -771,8 +771,9 @@
 5	isih	_	ADV	_	_	6	advmod	_	_
 6	ana	_	VERB	_	_	0	root	_	_
 7	sesambungan	_	NOUN	_	Number=Sing	6	obl	_	_
-8	kulawarga	_	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	_	_	6	punct	_	_
+8	kula	_	NOUN	_	Number=Sing|Typo=Yes	7	nmod	_	_
+9	warga	_	X	_	_	8	goeswith	_	SpaceAfter=No
+10	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = wedhawati-2001-61
 # text = Sarasehan bisa dadi wadhah tukar kawruh antarane para rawuh.
@@ -5621,7 +5622,7 @@
 15	kados	_	VERB	_	Polite=Form	7	advcl	_	Level=Krama
 16	ta	_	PART	_	_	15	advmod	_	SpaceAfter=No
 17	:	_	PUNCT	_	_	15	punct	_	_
-18	ASAS	_	PROPN	_	_	15	list	_	SpaceAfter=No
+18	ASAS	_	PROPN	_	_	15	obl	_	SpaceAfter=No
 19	,	_	PUNCT	_	_	20	punct	_	_
 20	MnemoniC	_	PROPN	_	_	18	conj	_	SpaceAfter=No
 21	,	_	PUNCT	_	_	22	punct	_	_
@@ -6933,7 +6934,7 @@
 10	unjukan	_	NOUN	_	Number=Sing|Polite=Form	5	conj	_	Level=Krama
 11	kanthi	_	ADP	_	_	12	case	_	_
 12	lega	_	ADJ	_	_	4	advmod	_	_
-13	lila	_	ADJ	_	_	12	dep	_	SpaceAfter=No
+13	lila	_	ADJ	_	_	12	compound	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = solopos-2022-60
@@ -10514,7 +10515,7 @@
 4	semilak	_	VERB	_	Voice=Act	1	acl:relcl	_	_
 5	warna	_	NOUN	_	Number=Sing	4	obl	_	_
 6	blachu	_	ADJ	_	_	5	amod	_	_
-7	sajak	_	ADJ	_	_	6	dep	_	_
+7	sajak	_	ADJ	_	_	6	compound	_	_
 8	wis	_	AUX	_	_	9	aux	_	_
 9	kangen	_	VERB	_	Voice=Act	0	root	_	_
 10	karo	_	ADP	_	_	11	case	_	_
@@ -10760,7 +10761,7 @@
 # text_en = "Why are you still going, Ndhuk?"
 1	“	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Hla	_	INTJ	_	_	5	discourse	_	_
-3	kok	_	PART	_	_	5	advmod:emph	_	_
+3	kok	_	ADV	_	_	5	advmod	_	_
 4	tetep	_	ADV	_	_	5	advmod	_	_
 5	mangkat	_	VERB	_	Voice=Act	0	root	_	_
 6	ta	_	PART	_	_	5	advmod:emph	_	SpaceAfter=No
@@ -11369,7 +11370,7 @@
 2-3	Awakmu	_	_	_	_	_	_	_	_
 2	Awak	_	NOUN	_	Number=Sing|Polite=Infm	6	nsubj	_	Level=Ngoko
 3	mu	_	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
-4	kok	_	PART	_	_	6	advmod:emph	_	_
+4	kok	_	ADV	_	_	6	advmod	_	_
 5	sansaya	_	ADV	_	_	6	advmod	_	_
 6	anget	_	ADJ	_	_	0	root	_	SpaceAfter=No
 7	,	_	PUNCT	_	_	8	punct	_	_
@@ -11452,7 +11453,7 @@
 # text_en = "Don't push yourself, Ndhuk.
 1	Aja	_	PART	_	Polarity=Neg|Polite=Infm	2	advmod	_	Level=Ngoko
 2	ditekadi	_	VERB	_	Polite=Infm|Voice=Pass	0	root	_	_
-3	hlo	_	PART	_	_	2	advmod:emph	_	SpaceAfter=No
+3	hlo	_	INTJ	_	_	2	discourse	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	3	punct	_	_
 5	Ndhuk	_	PROPN	_	_	2	vocative	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	2	punct	_	_
@@ -11723,7 +11724,7 @@
 3	isin	_	ADJ	_	_	2	xcomp	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	2	punct	_	_
 5	ngapa	_	ADV	_	_	9	advmod	_	_
-6	kok	_	PART	_	_	9	advmod:emph	_	_
+6	kok	_	ADV	_	_	9	advmod	_	_
 7	Pak	_	PROPN	_	_	9	nsubj	_	_
 8	Badhi	_	PROPN	_	_	7	flat:name	_	_
 9	ngomong	_	VERB	_	Polite=Infm|Voice=Act	2	advcl	_	Level=Ngoko
@@ -12271,7 +12272,7 @@
 26	.	_	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-320
-# text = Budayawan Ponorogo, Gondo Puspito, mratelakake beksan Krido Warok diripta pisanan taun 1996.
+# text = Budayawan Ponorogo, Gondo Puspito, mratelakake beksan Krido Warok diripta pisanan taunn 1996.
 # text_id = Budayawan Ponorogo, Gondo Puspito, mengatakan Krido Warok pertama kali diciptakan pada tahun 1996.
 # text_en = Ponorogo culturalist, Gondo Puspito, said that Krido Warok was first created in 1996.
 1	Budayawan	_	PROPN	_	_	7	nsubj	_	_
@@ -12286,7 +12287,7 @@
 10	Warok	_	PROPN	_	_	9	flat:name	_	_
 11	diripta	_	VERB	_	Voice=Pass	7	xcomp	_	_
 12	pisanan	_	ADP	_	_	13	case	_	_
-13	taun	_	NOUN	_	Number=Sing	11	obl:tmod	_	_
+13	taunn	_	X	_	Typo=Yes	11	dep	_	CorrectForm=tahun
 14	1996	_	NUM	_	_	13	nummod	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
@@ -13028,12 +13029,12 @@
 
 # sent_id = solopos-2022-356
 # text = “Lha, kok wis ditembung ki. Piye ta, Mbah. Aku urung sreg.”
-# text_id = "Lho, kok sudah disampaikan, aku belum sreg."
-# text_en = "Why did you say that Grandma, I'm not happy."
+# text_id = "Lho, mengapa sudah disampaikan. Bagaimana bisa, Mbah. Aku tidak suka."
+# text_en = "Oh, how come it's already been said? How come, Grandma. I don't like it."
 1	“	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	Lha	_	INTJ	_	_	6	discourse	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	6	punct	_	_
-4	kok	_	PART	_	_	6	advmod	_	_
+4	kok	_	ADV	_	_	6	advmod	_	_
 5	wis	_	AUX	_	Polite=Infm	6	aux	_	Level=Ngoko
 6	ditembung	_	VERB	_	Voice=Pass	0	root	_	_
 7	ki	_	PRON	_	Abbr=Yes	6	obl	_	SpaceAfter=No
@@ -13204,7 +13205,7 @@
 3	melu	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Polite=Infm
 4	mari	_	PRON	_	_	3	obl	_	SpaceAfter=No
 5	;	_	PUNCT	_	_	3	punct	_	_
-6	kok	_	PART	_	_	8	advmod	_	_
+6	kok	_	ADV	_	_	8	advmod	_	_
 7	kaya	_	ADP	_	_	8	case	_	_
 8	ngene	_	PRON	_	Polite=Infm|PronType=Dem	3	parataxis	_	Level=Ngoko|SpaceAfter=No
 9	?	_	PUNCT	_	_	8	punct	_	SpacesAfter=\n
@@ -13317,12 +13318,12 @@
 
 # sent_id = solopos-2022-370
 # text = Mbahmu kok ceguk bar kuwi meneng.
-# text_id = Nenekmu kok minum setelah itu diam
+# text_id = Nenekmu mengapa minum setelah itu diam
 # text_en = Your grandma drunk then she was silent
 1-2	Mbahmu	_	_	_	_	_	_	_	_
 1	Mbah	_	NOUN	_	Number=Sing	7	nsubj	_	_
 2	mu	_	PRON	_	Number=Sing|Person=2|PronType=Prs	1	nmod:poss	_	_
-3	kok	_	PART	_	_	4	advmod	_	_
+3	kok	_	ADV	_	_	4	advmod	_	_
 4	ceguk	_	VERB	_	Voice=Act	7	advcl	_	_
 5	bar	_	NOUN	_	Number=Sing|Polite=Infm	4	obl	_	Level=Ngoko
 6	kuwi	_	DET	_	_	5	det	_	_
@@ -13894,7 +13895,7 @@
 4	durung	_	PART	_	Polarity=Neg|Polite=Infm	6	advmod	_	Level=Ngoko
 5	dak	_	PRON	_	_	6	nsubj	_	_
 6	wujudi	_	VERB	_	Voice=Act	1	acl:relcl	_	_
-7	kok	_	PART	_	_	10	advmod	_	_
+7	kok	_	ADV	_	_	10	advmod	_	_
 8	Simbah	_	PROPN	_	_	10	nsubj	_	_
 9	wus	_	AUX	_	Polite=Infm	10	aux	_	Level=Ngoko
 10	kapundhut	_	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
@@ -13911,7 +13912,7 @@
 2	Ya	_	PART	_	_	6	advmod	_	_
 3	Allah	_	PROPN	_	_	6	nsubj	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	3	punct	_	_
-5	kok	_	PART	_	_	6	advmod	_	_
+5	kok	_	ADV	_	_	6	advmod	_	_
 6	tega	_	ADJ	_	_	0	root	_	_
 7	ninggalake	_	VERB	_	Polite=Infm|Voice=Act	6	advcl	_	Level=Ngoko
 8	aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
@@ -14604,7 +14605,7 @@
 6	katon	_	VERB	_	Voice=Pass	0	root	_	_
 7	pulih	_	ADJ	_	_	6	advmod	_	_
 8	nanging	_	CCONJ	_	_	13	cc	_	_
-9	kok	_	PART	_	_	13	discourse	_	_
+9	kok	_	ADV	_	_	13	advmod	_	_
 10	Mbah	_	NOUN	_	Number=Sing	13	nsubj	_	_
 11	Uti	_	NOUN	_	Number=Sing	10	nmod	_	_
 12	sansaya	_	ADV	_	_	13	advmod	_	_
@@ -14706,7 +14707,7 @@
 1	Kena	_	ADV	_	PronType=Int	5	advmod	_	_
 2	ngapa	_	PRON	_	PronType=Rel	1	fixed	_	_
 3	Simbah	_	NOUN	_	Number=Sing	5	nsubj	_	_
-4	kok	_	PART	_	_	5	discourse	_	_
+4	kok	_	ADV	_	_	5	advmod	_	_
 5	tega	_	ADJ	_	_	0	root	_	_
 6	lunga	_	VERB	_	Voice=Act	5	xcomp	_	_
 7	ninggalake	_	VERB	_	Voice=Act	5	xcomp	_	_
@@ -14752,7 +14753,7 @@
 # text_id = Kakek kembali menemui aku di sini.
 # text_en = Grandpa came back to meet me here.
 1	Simbah	_	NOUN	_	Number=Sing	4	nsubj	_	_
-2	kok	_	PART	_	_	4	discourse	_	_
+2	kok	_	ADV	_	_	4	advmod	_	_
 3	bali	_	ADV	_	Polite=Infm	4	advmod	_	_
 4	mrepegi	_	VERB	_	Polite=Form|Voice=Act	0	root	_	_
 5	aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	_
