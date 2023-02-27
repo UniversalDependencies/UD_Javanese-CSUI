@@ -23,16 +23,15 @@ Javanese has several language levels, such as Krama, Krama Inggil, and Ngoko. In
 
 ## References
 
-Note: a paper about the development of this treebank is coming soon ;-)
-
+Coming soon ;-)
 
 # Changelog
 
 * 2023-05-15 v2.12
-  * Added 600+ sentences.
+  * Added 607 sentences (became 732 sentences).
 
 * 2021-11-15 v2.9
-  * Initial release in Universal Dependencies.
+  * Initial release in Universal Dependencies with 125 sentences.
 
 
 <pre>
@@ -41,11 +40,11 @@ Data available since: UD v2.9
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction grammar-examples wiki news fiction
-Lemmas: manual native
-UPOS: manual native
+Lemmas: not available
+UPOS: automatic with corrections
 XPOS: not available
-Features: manual native
-Relations: manual native
+Features: automatic with corrections
+Relations: automatic with corrections
 Contributors: Alfina, Ika; Yuliawati, Arlisa; Tanaya, Dipta; Dinakaramani, Arawinda; Rizqiyah, Putri;  Wijono, Sri Hartati;
 Contributing: elsewhere
 Contact: ika.alfina@cs.ui.ac.id

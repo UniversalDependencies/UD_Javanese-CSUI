@@ -10,28 +10,28 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>732</sentences><tokens>10561</tokens><words>11025</words><fused>461</fused></test>
   </size>
-  <lemmas unique="3075" /><!-- ., ,, e, ing, lan, kang, sing, ora, ana, aku, iku, wis, bisa, taun, ( -->
+  <lemmas unique="0" /><!--  -->
   <forms unique="3332" /><!-- ., ,, ing, e, lan, ne, kang, sing, ora, ana, iku, (, ), aku, taun -->
   <fusions unique="297" /><!-- ujare, liyane, anake, sijine, wargane, antarané, carane, panggaweyane, adhine, anakmu, awake, kakangku, sawahe, tegese, warsane -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">524</tag><!-- liya, salah, akeh, apik, bingung, pungkas, bungah, cilik, pinter, tuwa -->
-    <tag name="ADP">616</tag><!-- ing, saka, kaya, kanthi, nalika, minangka, karo, dening, marang, déning -->
-    <tag name="ADV">568</tag><!-- uga, banjur, isih, padha, maneh, mung, wae, luwih, malah, paling -->
-    <tag name="AUX">225</tag><!-- wis, bisa, yaiku, kudu, lagi, inggih, arep, bakal, mesthi, saged -->
-    <tag name="CCONJ">270</tag><!-- lan, utawa, nanging, sarta, karo, utawi, tur, uga, ning, saha -->
-    <tag name="DET">565</tag><!-- e, iku, kuwi, iki, punika, mau, para, kabeh, é, ipun -->
-    <tag name="INTJ">49</tag><!-- ya, gek, lha, Hla, oh, sir, ta, ayo, dasar, halah -->
-    <tag name="NOUN">2332</tag><!-- taun, wong, warga, tembang, basa, tembung, bocah, tanggal, kampung, beksan -->
-    <tag name="NUM">310</tag><!-- siji, 15, rong, 16, 1, 3, 6, 2022, 1946, 7 -->
-    <tag name="PART">142</tag><!-- ora, kok, durung, boten, mbok, ta, aja, dudu, ya, hlo -->
-    <tag name="PRON">688</tag><!-- kang, sing, e, aku, ingkang, apa, ku, é, mu, dheweke -->
-    <tag name="PROPN">1322</tag><!-- Solo, Jawa, Simbah, bapak, kampung, suweng, Ponorogo, cublak, Badhi, Indonesia -->
-    <tag name="PUNCT">1678</tag><!-- ., ,, (, ), ", ”, /, “, ?, - -->
-    <tag name="SCONJ">220</tag><!-- yen, kanggo, kaya, nalika, amarga, supaya, nganti, karo, jalar, manawa -->
-    <tag name="SYM">11</tag><!-- %, $ -->
-    <tag name="VERB">1385</tag><!-- ana, dadi, gawe, gambar, duwe, ujar, eling, katon, wonten, anggo -->
-    <tag name="X">120</tag><!-- rock, eutanasia, semifinalis, arbitrase, marksman, subunit, terbang, turnamen, all-aspect, all-weather -->
+    <tag name="ADJ">524</tag><!-- _ -->
+    <tag name="ADP">616</tag><!-- _ -->
+    <tag name="ADV">568</tag><!-- _ -->
+    <tag name="AUX">225</tag><!-- _ -->
+    <tag name="CCONJ">270</tag><!-- _ -->
+    <tag name="DET">565</tag><!-- _ -->
+    <tag name="INTJ">49</tag><!-- _ -->
+    <tag name="NOUN">2332</tag><!-- _ -->
+    <tag name="NUM">310</tag><!-- _ -->
+    <tag name="PART">142</tag><!-- _ -->
+    <tag name="PRON">688</tag><!-- _ -->
+    <tag name="PROPN">1322</tag><!-- _ -->
+    <tag name="PUNCT">1678</tag><!-- _ -->
+    <tag name="SCONJ">220</tag><!-- _ -->
+    <tag name="SYM">11</tag><!-- _ -->
+    <tag name="VERB">1385</tag><!-- _ -->
+    <tag name="X">120</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="28">
