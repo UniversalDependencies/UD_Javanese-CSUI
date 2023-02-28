@@ -462,7 +462,7 @@
 # text_en = My sister brought a shopping cart.
 1-2	Adikku	_	_	_	_	_	_	_	_
 1	Adik	_	NOUN	_	Number=Sing	3	nsubj	_	_
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	nggawa	_	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 4	kranjang	_	NOUN	_	Number=Sing	3	obj	_	_
 5	blanjan	_	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
@@ -477,7 +477,7 @@
 3	komputer	_	NOUN	_	Number=Sing	2	obj	_	_
 4-5	adhikku	_	_	_	_	_	_	_	SpaceAfter=No
 4	adhik	_	NOUN	_	Number=Sing	2	iobj	_	_
-5	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nmod:poss	_	_
+5	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	4	nmod:poss	_	Level=Ngoko
 6	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = wedhawati-2001-38
@@ -658,7 +658,7 @@
 # text_en = Did you eat my gethuk?
 1-2	Gethukku	_	_	_	_	_	_	_	_
 1	Gethuk	_	NOUN	_	Number=Sing	4	obj	_	_
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3-4	kokpangan	_	_	_	_	_	_	_	_
 3	kok	_	PRON	_	Number=Sing|Person=2	4	nsubj	_	_
 4	pangan	_	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
@@ -685,7 +685,7 @@
 # text_en = My lost book has been found.
 1-2	Bukuku	_	_	_	_	_	_	_	_
 1	Buku	_	NOUN	_	Number=Sing	6	nsubj:pass	_	_
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	sing	_	PRON	_	_	4	nsubj	_	_
 4	ilang	_	VERB	_	Voice=Act	1	acl:relcl	_	_
 5	wis	_	AUX	_	Polite=Infm	6	aux	_	Level=Ngoko
@@ -1035,7 +1035,7 @@
 # text_en = My head is repeatedly dizzy from lack of sleep.
 1-2	Sirahku	_	_	_	_	_	_	_	_
 1	Sirah	_	NOUN	_	Number=Sing|Polite=Infm	3	nsubj	_	Level=Ngoko
-2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	ngelu-ngelu	_	ADJ	_	_	0	root	_	_
 4	jalaran	_	SCONJ	_	_	7	mark	_	_
 5	kerep	_	ADV	_	_	7	advmod	_	_
@@ -1052,7 +1052,7 @@
 3	obat	_	NOUN	_	Number=Sing	2	nmod	_	_
 4-5	sirahku	_	_	_	_	_	_	_	_
 4	sirah	_	NOUN	_	Number=Sing|Polite=Infm	6	nsubj	_	Level=Ngoko
-5	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	4	nmod:poss	_	_
+5	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	4	nmod:poss	_	Level=Ngoko
 6	mumat-mumet	_	ADJ	_	_	0	root	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
 
@@ -5991,7 +5991,7 @@
 10	"	_	PUNCT	_	_	3	punct	_	_
 11-12	semaurku	_	_	_	_	_	_	_	_
 11	semaur	_	VERB	_	Polite=Infm|Voice=Act	3	parataxis	_	Level=Ngoko
-12	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+12	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	11	nsubj	_	Level=Ngoko
 13	ora	_	PART	_	Polarity=Neg|Polite=Infm	14	advmod	_	Level=Ngoko
 14	kalah	_	ADJ	_	_	11	advcl	_	_
 15	sengit	_	ADJ	_	_	14	advmod	_	SpaceAfter=No
@@ -6003,7 +6003,7 @@
 # text_en = My often unexpected comments made Lek Wiro Begah giggle.
 1-2	Sauranku	_	_	_	_	_	_	_	_
 1	Sauran	_	NOUN	_	Number=Sing	8	nsubj	_	_
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	sing	_	PRON	_	_	6	nsubj:pass	_	_
 4	kerep	_	ADV	_	_	6	advmod	_	_
 5	ora	_	PART	_	Polarity=Neg|Polite=Infm	6	advmod	_	Level=Ngoko
@@ -11813,7 +11813,7 @@
 20	amarga	_	SCONJ	_	Polite=Infm	21	mark	_	Level=Ngoko
 21-22	tumindakku	_	_	_	_	_	_	_	SpaceAfter=No
 21	tumindak	_	NOUN	_	Number=Sing	18	advcl	_	_
-22	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	21	nmod:poss	_	_
+22	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	21	nmod:poss	_	Level=Ngoko
 23	.	_	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-298
@@ -12021,7 +12021,7 @@
 6	,	_	PUNCT	_	_	10	punct	_	_
 7-8	jamanku	_	_	_	_	_	_	_	_
 7	jaman	_	NOUN	_	Number=Sing	10	nsubj	_	_
-8	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
+8	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	7	nmod:poss	_	Level=Ngoko
 9	isih	_	ADV	_	_	10	advmod	_	_
 10	SMA	_	PROPN	_	_	4	acl	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	3	punct	_	SpacesAfter=\n
@@ -12334,7 +12334,7 @@
 # text_en = As best I could, I took care of the people in the household and at that time, Grandpa was already critical.
 1-2	Sabisaku	_	_	_	_	_	_	_	_
 1	Sabisa	_	NOUN	_	Number=Sing	4	obl	_	_
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
 4	ngopeni	_	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 5	wong	_	NOUN	_	Polite=Infm	4	obj	_	Level=Ngoko
@@ -12355,7 +12355,7 @@
 1	"	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 2-3	Bisaku	_	_	_	_	_	_	_	_
 2	Bisa	_	AUX	_	Polite=Infm	4	aux	_	Level=Ngoko
-3	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
 4	ngewangi	_	VERB	_	Voice=Act	0	root	_	_
 5	ya	_	INTJ	_	_	4	discourse	_	_
 6	ngene	_	PRON	_	Polite=Infm	4	obl	_	Level=Ngoko
@@ -12403,7 +12403,7 @@
 2	maneh	_	ADV	_	_	6	advmod	_	_
 3-4	anggonku	_	_	_	_	_	_	_	_
 3	anggon	_	NOUN	_	Polite=Infm	6	nsubj	_	Level=Ngoko
-4	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nmod:poss	_	_
+4	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
 5	ora	_	PART	_	Polarity=Neg|Polite=Infm	6	advmod	_	Level=Ngoko
 6	nangis	_	VERB	_	Voice=Act	0	root	_	_
 7	lan	_	CCONJ	_	Polite=Infm	10	cc	_	Level=Ngoko
@@ -12515,7 +12515,7 @@
 # text_en = My prayer is for Grandpa to be given a beautiful place in God's presence.
 1-2	Dongaku	_	_	_	_	_	_	_	_
 1	Donga	_	NOUN	_	Number=Sing	5	obl	_	_
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	muga	_	INTJ	_	Polite=Infm	5	discourse	_	Level=Ngoko
 4	Simbah	_	PROPN	_	_	5	nsubj	_	_
 5	pinaringan	_	VERB	_	Polite=Form|Voice=Act	0	root	_	Level=Krama
@@ -12546,7 +12546,7 @@
 11	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	10	det	_	Level=Ngoko
 12-13	kakangku	_	_	_	_	_	_	_	SpaceAfter=No
 12	kakang	_	NOUN	_	Number=Sing	10	nmod:poss	_	_
-13	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nmod:poss	_	_
+13	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	12	nmod:poss	_	Level=Ngoko
 14	.	_	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-332
@@ -12714,7 +12714,7 @@
 7	esuk	_	NOUN	_	Polite=Infm	8	obl:tmod	_	Level=Ngoko
 8-9	rasaku	_	_	_	_	_	_	_	_
 8	rasa	_	VERB	_	Voice=Act	0	root	_	_
-9	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+9	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	8	nsubj	_	Level=Ngoko
 10	kaya	_	SCONJ	_	_	12	mark	_	_
 11	kumleyang	_	NOUN	_	Number=Sing	12	nsubj	_	_
 12	tumeka	_	VERB	_	Voice=Act	8	xcomp	_	_
@@ -12752,7 +12752,7 @@
 5	wong	_	NOUN	_	Polite=Infm	4	obj	_	Level=Ngoko
 6-7	tuwaku	_	_	_	_	_	_	_	_
 6	tuwa	_	ADJ	_	_	5	amod	_	_
-7	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	_
+7	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	5	nmod:poss	_	Level=Ngoko
 8	iku	_	DET	_	_	5	det	_	_
 9	ora	_	PART	_	Polarity=Neg|Polite=Infm	10	advmod	_	Level=Ngoko
 10	tega	_	ADJ	_	_	4	advcl	_	SpaceAfter=No
@@ -12797,7 +12797,7 @@
 7	ngrumat	_	VERB	_	Voice=Act	6	advcl	_	_
 8-9	ibuku	_	_	_	_	_	_	_	_
 8	ibu	_	NOUN	_	Number=Sing	7	obj	_	_
-9	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nmod:poss	_	_
+9	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	8	nmod:poss	_	Level=Ngoko
 10	aneng	_	ADP	_	_	11	case	_	_
 11	omah	_	NOUN	_	Polite=Infm	7	obl	_	Level=Ngoko
 12-13	sijine	_	_	_	_	_	_	_	SpaceAfter=No
@@ -13062,7 +13062,7 @@
 6	mangkene	_	DET	_	_	5	det	_	_
 7-8	pangajabku	_	_	_	_	_	_	_	_
 7	pangajab	_	NOUN	_	Number=Sing	6	nsubj	_	_
-8	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
+8	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	7	nmod:poss	_	Level=Ngoko
 9	supaya	_	SCONJ	_	Polite=Infm	12	mark	_	Level=Ngoko
 10	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	12	nsubj	_	Level=Ngoko
 11	bisa	_	AUX	_	Polite=Infm	12	aux	_	Level=Ngoko
@@ -13444,7 +13444,7 @@
 # text_en = I feel calm and happy that Grandpa is recovering.
 1-2	Rasaku	_	_	_	_	_	_	_	_
 1	Rasa	_	VERB	_	Voice=Act	0	root	_	_
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nsubj	_	Level=Ngoko
 3	ayem	_	ADJ	_	_	1	xcomp	_	_
 4	lan	_	CCONJ	_	Polite=Infm	5	cc	_	Level=NGoko
 5	bungah	_	ADJ	_	_	3	conj	_	_
@@ -13463,7 +13463,7 @@
 # text_en = My heart seemed to be able to speak aloud during the Friday sermon, and tears continued to flow down my cheeks.
 1-2	Bathinku	_	_	_	_	_	_	_	_
 1	Bathin	_	NOUN	_	Number=Sing	5	nsubj	_	_
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	kaya-kaya	_	SCONJ	_	_	5	mark	_	_
 4	bisa	_	AUX	_	_	5	aux	_	_
 5	ngucap	_	VERB	_	Voice=Act	0	root	_	_
@@ -13945,7 +13945,7 @@
 # text_en = I answered halfheartedly.
 1-2	Wangsulanku	_	_	_	_	_	_	_	_
 1	Wangsulan	_	NOUN	_	Number=Sing|Polite=Form	0	root	_	Level=Krama
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nsubj	_	Level=Ngoko
 3	karo	_	ADP	_	Polite=Infm	5	case	_	Level=Ngoko
 4	setengah	_	NUM	_	_	5	nummod	_	_
 5	mbrebes	_	VERB	_	Voice=Act	1	advcl	_	SpaceAfter=No
@@ -14295,7 +14295,7 @@
 16	dadi	_	VERB	_	Voice=Act	14	advcl	_	_
 17-18	angen-angenku	_	_	_	_	_	_	_	_
 17	angen-angen	_	NOUN	_	Number=Sing	16	obl	_	_
-18	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nmod:poss	_	_
+18	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	17	nmod:poss	_	Level=Ngoko
 19	kanggo	_	SCONJ	_	Polite=Infm	20	mark	_	_
 20	mujudake	_	VERB	_	Voice=Act	17	acl	_	_
 21	kabahagyan	_	NOUN	_	Number=Sing	20	obj	_	_
@@ -14304,7 +14304,7 @@
 24	ing	_	ADP	_	_	25	case	_	_
 25-26	kulawargaku	_	_	_	_	_	_	_	SpaceAfter=No
 25	kulawarga	_	NOUN	_	Number=Sing	23	obl	_	_
-26	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nmod:poss	_	_
+26	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	25	nmod:poss	_	Level=Ngoko
 27	.	_	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-417
@@ -14364,7 +14364,7 @@
 # text_en = I feel that Grandpa is such a peaceful person, it feels like a different sleep at night.
 1-2	Rumangsaku	_	_	_	_	_	_	_	_
 1	Rumangsa	_	VERB	_	Voice=Act	0	root	_	_
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nsubj	_	Level=Ngoko
 3	Simbah	_	NOUN	_	Number=Sing	5	nsubj	_	_
 4	kaya	_	ADP	_	_	5	case	_	_
 5	wong	_	NOUN	_	Number=Sing	1	ccomp	_	_
@@ -14418,7 +14418,7 @@
 5	wong	_	NOUN	_	Number=Sing	3	nmod:poss	_	_
 6-7	tuwaku	_	_	_	_	_	_	_	_
 6	tuwa	_	ADJ	_	_	5	amod	_	_
-7	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	_
+7	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	5	nmod:poss	_	Level=Ngoko
 8	kang	_	PRON	_	_	9	nsubj	_	_
 9	wektu	_	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 10	iku	_	DET	_	_	9	det	_	_
@@ -14536,7 +14536,7 @@
 24	dadi	_	VERB	_	Voice=Act	22	acl:relcl	_	_
 25-26	angen-angenku	_	_	_	_	_	_	_	SpaceAfter=No
 25	angen-angen	_	NOUN	_	Number=Sing	24	obl	_	_
-26	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nmod:poss	_	_
+26	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	25	nmod:poss	_	Level=Ngoko
 27	.	_	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-426
@@ -14739,7 +14739,7 @@
 1	Eling-eling	_	VERB	_	_	0	root	_	_
 2-3	sedulur-sedulurku	_	_	_	_	_	_	_	_
 2	sedulur-sedulur	_	NOUN	_	Number=Plur	5	nsubj:pass	_	_
-3	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+3	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	2	nmod:poss	_	Level=Ngoko
 4	nora	_	PART	_	Polarity=Neg	5	advmod	_	_
 5	dibandhani	_	VERB	_	Voice=Pass	1	advcl	_	_
 6	kaya	_	ADP	_	_	7	case	_	_
@@ -14829,12 +14829,12 @@
 # text_en = I asked, and then my brother just shook his head, apparently confused.
 1-2	Pitakonku	_	_	_	_	_	_	_	SpaceAfter=No
 1	Pitakon	_	VERB	_	Voice=Act	0	root	_	_
-2	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nsubj	_	Level=Ngoko
 3	,	_	PUNCT	_	_	1	punct	_	_
 4	banjur	_	ADV	_	_	8	advmod	_	_
 5-6	kakangku	_	_	_	_	_	_	_	_
 5	kakang	_	NOUN	_	Number=Sing	8	nsubj	_	_
-6	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	_
+6	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	5	nmod:poss	_	Level=Ngoko
 7	amung	_	ADV	_	_	8	advmod	_	_
 8	gedheg-gedheg	_	VERB	_	Voice=Act	1	advcl	_	_
 9	sajake	_	ADV	_	_	10	advmod	_	_
@@ -14872,7 +14872,7 @@
 5	suwe	_	ADJ	_	_	9	advcl	_	_
 6-7	omahku	_	_	_	_	_	_	_	_
 6	omah	_	NOUN	_	Polite=Infm	9	nsubj	_	_
-7	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	6	nmod:poss	_	_
+7	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	6	nmod:poss	_	Level=Ngoko
 8	wus	_	AUX	_	_	9	aux	_	_
 9	kebak	_	ADJ	_	_	0	root	_	_
 10	rame	_	ADJ	_	_	9	advcl	_	_
@@ -14900,7 +14900,7 @@
 12	lan	_	CCONJ	_	_	13	cc	_	_
 13-14	kakangku	_	_	_	_	_	_	_	SpaceAfter=No
 13	kakang	_	NOUN	_	Number=Sing	7	conj	_	_
-14	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nmod:poss	_	_
+14	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	13	nmod:poss	_	Level=Ngoko
 15	.	_	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-444
@@ -15057,7 +15057,7 @@
 7	nggugah	_	VERB	_	Voice=Act	5	advcl	_	_
 8-9	kakangku	_	_	_	_	_	_	_	SpaceAfter=No
 8	kakang	_	NOUN	_	Number=Sing	7	obj	_	_
-9	ku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nmod:poss	_	_
+9	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	8	nmod:poss	_	Level=Ngoko
 10	.	_	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-452
