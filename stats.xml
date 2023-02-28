@@ -16,16 +16,16 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">524</tag><!-- _ -->
-    <tag name="ADP">616</tag><!-- _ -->
+    <tag name="ADP">617</tag><!-- _ -->
     <tag name="ADV">580</tag><!-- _ -->
     <tag name="AUX">225</tag><!-- _ -->
     <tag name="CCONJ">270</tag><!-- _ -->
-    <tag name="DET">565</tag><!-- _ -->
+    <tag name="DET">564</tag><!-- _ -->
     <tag name="INTJ">50</tag><!-- _ -->
-    <tag name="NOUN">2331</tag><!-- _ -->
+    <tag name="NOUN">2330</tag><!-- _ -->
     <tag name="NUM">310</tag><!-- _ -->
     <tag name="PART">129</tag><!-- _ -->
-    <tag name="PRON">688</tag><!-- _ -->
+    <tag name="PRON">689</tag><!-- _ -->
     <tag name="PROPN">1322</tag><!-- _ -->
     <tag name="PUNCT">1678</tag><!-- _ -->
     <tag name="SCONJ">220</tag><!-- _ -->
@@ -42,7 +42,7 @@
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, njagakke, nyemayani, pethiki -->
     <feat name="Mood" value="Ind" upos="VERB">227</feat><!-- dadi, ana, dados, ngangkat, dipunkenal, mangsuli, melu, olèh, wonten, adol -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">43</feat><!-- bocah-bocah, para, akèh, tembung-tembung, Sawah-sawah, kita, sapérangan, Akèh-akèhe, Buku-buku, Karakter-karakter -->
-    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2387</feat><!-- aku, taun, e, ku, ne, warga, tembang, basa, tanggal, tembung -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2386</feat><!-- aku, taun, e, ku, ne, warga, tembang, basa, tanggal, tembung -->
     <feat name="NumType" value="Card" upos="NUM">194</feat><!-- 16, 6, 2022, 1, 1946, 3, 17, 10, 1948, 5 -->
     <feat name="NumType" value="Ord" upos="ADJ">4</feat><!-- kapisanan, kapitu, katiga, pertama -->
     <feat name="Person" value="1" upos="PRON">102</feat><!-- aku, ku, dak, kita, Kula -->
@@ -75,7 +75,7 @@
     <dep name="amod">191</dep>
     <dep name="appos">89</dep>
     <dep name="aux">186</dep>
-    <dep name="case">607</dep>
+    <dep name="case">608</dep>
     <dep name="case:adv">10</dep>
     <dep name="cc">270</dep>
     <dep name="ccomp">19</dep>
@@ -86,7 +86,7 @@
     <dep name="csubj">16</dep>
     <dep name="csubj:pass">1</dep>
     <dep name="dep">2</dep>
-    <dep name="det">549</dep>
+    <dep name="det">548</dep>
     <dep name="discourse">50</dep>
     <dep name="fixed">16</dep>
     <dep name="flat">76</dep>
