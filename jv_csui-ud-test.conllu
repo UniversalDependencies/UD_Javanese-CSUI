@@ -1826,7 +1826,7 @@
 11	nanging	_	CCONJ	_	_	13	cc	_	_
 12	sing	_	PRON	_	Polite=Infm	13	nsubj	_	Level=Ngoko
 13	akeh	_	ADJ	_	Polite=Infm	5	conj	_	Level=Ngoko
-14	dhewe	_	PRON	_	Polite=Infm	15	nsubj:pass	_	Level=Ngoko
+14	dhewe	_	PRON	_	Number=Plur|Person=3|Polite=Infm|PronType=Prs	15	nsubj:pass	_	Level=Ngoko
 15	dimangerteni	_	VERB	Polite=Infm	Voice=Pass	13	advcl	_	Level=Ngoko
 16	yaiku	_	AUX	_	Polite=Infm	17	cop	_	Level=Ngoko
 17	tembung	_	NOUN	_	Number=Sing	13	obl	_	_
@@ -2004,7 +2004,7 @@
 34	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-1
-# text =	Para warga padha metu karo nggawani sampah sing wis dipisah antarane sampah teles lan sampah garing ing sajroning bak sampah; Cecep (17), gaweane luwih enteng amarga wis didhewekake sampahe, dhewee ora perlu antri.
+# text =	Para warga padha metu karo nggawani sampah sing wis dipisah antarane sampah teles lan sampah garing ing sajroning bak sampah; Cecep (17), gaweane luwih enteng amarga wis didhewekake sampahe, dheweke ora perlu antri.
 # text_id = Para warga keluar dengan membawa tumpukan sampah yang sudah dipisahkan antara sampah basah dan sampah kering di dalam tempat sampah; Cecep (17), pekerjaannya lebih ringan karena sudah dipisahkan sampahnya, tidak perlu antri.
 # text_en = The residents came out with piles of garbage that had been separated between wet and dry waste in the trash; Cecep (17), his work is lighter because the garbage has been separated, no need to queue
 1	Para	_	DET	_	Number=Plur|PronType=Ind	2	det	_	_
@@ -2047,7 +2047,7 @@
 35	sampah	_	NOUN	_	Number=Sing	34	nsubj	_	_
 36	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	35	det	_	Level=Ngoko
 37	,	_	PUNCT	_	_	40	punct	_	_
-38	dhewee	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	40	nsubj	_	Level=Ngoko
+38	dheweke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	40	nsubj	_	Level=Ngoko
 39	ora	_	PART	_	Polarity=Neg|Polite=Infm	40	advmod	_	Level=Ngoko
 40	perlu	_	VERB	_	Mood=Ind|Voice=Act	34	advcl	_	_
 41	antri	_	VERB	_	Mood=Ind|Voice=Act	40	xcomp	_	SpaceAfter=No
@@ -5852,7 +5852,7 @@
 5	celuk	_	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 6	dhukun	_	NOUN	_	Number=Sing	5	obj	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	5	punct	_	_
-8	Aku	_	PROPN	_	_	9	nsubj:pass	_	_
+8	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	9	nsubj:pass	_	_
 9	kelingan	_	VERB	_	Voice=Pass	5	parataxis	_	_
 10	karo	_	ADP	_	Polite=Infm	11	case	_	Level=Ngoko
 11-12	welingmu	_	_	_	_	_	_	_	_
@@ -5897,7 +5897,7 @@
 # text = Aku aweh saran mangkono ya merga ana grup WA gecer ngunggah tembung dhukun kerep dadi rasanan.
 # text_id = Saya kasih saran ya karena ada grup WA yang mengupload kata dukun sering menjadi rasanan.
 # text_en = I suggest because there is a small WA group that uploads the word shaman often becomes a feeling.
-1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	2	nsubj	_	Level=Ngoko
 2	aweh	_	VERB	_	Voice=Act	0	root	_	_
 3	saran	_	NOUN	_	Number=Sing	2	obj	_	_
 4	mangkono	_	DET	_	_	3	det	_	_
@@ -5980,7 +5980,7 @@
 # text_id = “Saya ingin mengadakan pesta perkawinan anak saya ada di gedung, Lek,” jawab saya tak kalah geram.
 # text_en = "I want to have wedding party for my children in the building, Lek ," I replied no less furiously.
 1	"	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
-2	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	3	nsubj	_	Level=Ngoko
 3	kepengin	_	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 4	mantu	_	VERB	_	Voice=Act	3	xcomp	_	_
 5	ana	_	VERB	_	Voice=Act	4	advcl	_	_
@@ -6097,7 +6097,7 @@
 # text = Aku lan Wiro Bengah pancen kudu endha saka parapan sirik.
 # text_id = Wiro Bengah dan saya benar-benar perlu mengakhiri anggapan sirik.
 # text_en = Wiro Bengah and I really need to be amazed by the envious parapan .
-1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	7	nsubj	_	Level=Ngoko
 2	lan	_	CCONJ	_	Polite=Infm	3	cc	_	Level=Ngoko
 3	Wiro	_	PROPN	_	_	1	conj	_	_
 4	Bengah	_	PROPN	_	_	3	flat:name	_	_
@@ -6685,7 +6685,7 @@
 11-12	budayane	_	_	_	_	_	_	_	_
 11	budaya	_	NOUN	_	Number=Sing	10	nmod	_	_
 12	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	11	nmod:poss	_	Level=Ngoko
-13	dhewe	_	PRON	_	Polite=Infm	11	nmod:poss	_	Level=Ngoko
+13	dhewe	_	DET	_	Polite=Infm|PronType=Emp	11	det	_	Level=Ngoko
 14	marang	_	ADP	_	_	15	case	_	_
 15	United	_	PROPN	_	_	5	obl	_	_
 16	Nations	_	PROPN	_	_	15	flat:name	_	_
@@ -7551,7 +7551,7 @@
 7-8	leluhure	_	_	_	_	_	_	_	_
 7	leluhur	_	NOUN	_	Number=Sing	5	nmod	_	_
 8	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	7	det	_	Level=Ngoko
-9	dhewe-dhewe	_	PRON	_	Polite=Infm	5	nmod:poss	_	Level=Ngoko|SpaceAfter=No
+9	dhewe-dhewe	_	DET	_	Polite=Infm|PronType=Emp	7	det	_	Level=Ngoko|SpaceAfter=No
 10	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = solopos-2022-95
@@ -8230,7 +8230,7 @@
 16-17	sujarahe	_	_	_	_	_	_	_	_
 16	sujarah	_	NOUN	_	Number=Sing	15	obj	_	_
 17	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	16	nmod:poss	_	Level=Ngoko
-18	dhewe	_	PRON	_	_	16	nmod	_	SpaceAfter=No
+18	dhewe	_	DET	_	Polite=Infm|PronType=Emp	16	det	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = solopos-2022-121
@@ -9678,7 +9678,7 @@
 22-23	tanggane	_	_	_	_	_	_	_	_
 22	tangga	_	NOUN	_	Number=Sing	21	nmod	_	_
 23	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	21	nmod:poss	_	Level=Ngoko
-24	dhewe	_	PRON	_	Polite=Infm	21	nmod	_	Level=Ngoko|SpaceAfter=No
+24	dhewe	_	DET	_	Polite=Infm|PronType=Emp	21	det	_	Level=Ngoko|SpaceAfter=No
 25	.	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = solopos-2022-186
@@ -11123,7 +11123,7 @@
 3	tekan	_	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 4	sawah	_	NOUN	_	Number=Sing	3	obj	_	_
 5	pinggir	_	NOUN	_	Number=Sing	4	nmod	_	_
-6	dhewe	_	PRON	_	_	4	nmod	_	SpaceAfter=No
+6	dhewe	_	DET	_	Polite=Infm|PronType=Emp	4	det	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = solopos-2022-260
@@ -12018,7 +12018,7 @@
 # text = Aku sekolah kakehan ragat lan terus gawe susah.
 # text_id = Saya sekolah terlalu banyak biaya dan terus membuat masalah.
 # text_en = I go to school spending too much money and making trouble.
-1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	2	nsubj	_	Level=Ngoko
 2	sekolah	_	VERB	_	Voice=Act	0	root	_	_
 3	kakehan	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
 4	ragat	_	ADJ	_	_	2	amod	_	_
@@ -12052,7 +12052,7 @@
 # text = Aku lan Bapak kaya nora bisa polah maneh kepiye carane amrih kabeh padha sehat.
 # text_id = Ayah dan aku seperti tidak bisa berusaha bagaimana menjaga semua orang tetap sehat.
 # text_en = My father and I can't seem to figure out how to keep everyone healthy.
-1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	7	nsubj	_	Level=Ngoko
 2	lan	_	CCONJ	_	Polite=Infm	3	cc	_	Level=Ngoko
 3	Bapak	_	PROPN	_	_	1	conj	_	_
 4	kaya	_	SCONJ	_	_	7	mark	_	_
@@ -12099,7 +12099,7 @@
 2-3	kasrakahane	_	_	_	_	_	_	_	_
 2	kasrakahan	_	NOUN	_	Number=Sing	9	obl	_	_
 3	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	2	det	_	Level=Ngoko
-4	dhewe	_	PRON	_	Polite=Infm	2	nmod:poss	_	Level=Ngoko|SpaceAfter=No
+4	dhewe	_	DET	_	Polite=Infm|PronType=Emp	2	det	_	Level=Ngoko|SpaceAfter=No
 5	,	_	PUNCT	_	_	9	punct	_	_
 6	wong-wong	_	NOUN	_	Polite=Infm	9	nsubj	_	Level=Ngoko
 7	iku	_	DET	_	Polite=Infm|PronType=Dem	6	det	_	Level=Ngoko
@@ -12232,7 +12232,7 @@
 # text = Aku ora sadhar nalika tabuh 10.34 awan aku lunga sedhela tuku janganan lan lawuh, ya ing wektu iku Simbah sakaratul maut lan nilapake aku.
 # text_id = Saya tidak menyadari bahwa pada pukul 10:34 siang saya pergi untuk membeli sayuran dan lauk pauk, saat itulah Kakek sakaratul maut dan meninggalkan saya.
 # text_en = I didn't realize that at 10:34 am I went to buy food and side dishes, that's when Grandpa passed away and left me.
-1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	3	nsubj	_	Level=Ngoko
 2	ora	_	PART	_	Polarity=Neg|Polite=Infm	3	advmod	_	Level=Ngoko
 3	sadhar	_	VERB	_	Voice=Act	0	root	_	_
 4	nalika	_	ADP	_	Polite=Elev	5	case	_	Level=KramaInggil
@@ -12296,7 +12296,7 @@
 # text = Aku kang wus lemes, nangis ana ing ngarep lawang kanthi dituntun mlaku tekan ngarepe Simbah.
 # text_id = Aku sudah lemah, menangis di depan pintu saat aku dituntun untuk berjalan di depan Kakek.
 # text_en = I was already weak, crying at the door as I was led to walk in front of Grandpa.
-1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	6	nsubj	_	Level=Ngoko
 2	kang	_	PRON	_	Polite=Infm	4	nsubj	_	Level=Ngoko
 3	wus	_	AUX	_	Polite=Infm	4	aux	_	Level=Ngoko
 4	lemes	_	ADJ	_	_	1	acl:relcl	_	SpaceAfter=No
@@ -12494,7 +12494,7 @@
 35-36	senenge	_	_	_	_	_	_	_	_
 35	seneng	_	NOUN	_	Number=Sing	34	obj	_	_
 36	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	35	nmod:poss	_	Level=Ngoko
-37	dhewe	_	DET	_	PronType=Emp	35	nmod	_	SpaceAfter=No
+37	dhewe	_	DET	_	Polite=Infm|PronType=Emp	35	nmod	_	Level=Ngoko|SpaceAfter=No
 38	.	_	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-330
@@ -13001,7 +13001,7 @@
 # text = Aku kang katilap rumangsa getun, kelangan lan rumangsa gawe dosa gedhe.
 # text_id = Saya yang kehilangan merasa menyesal, tersesat dan merasa telah melakukan dosa besar.
 # text_en = I felt sorry, lost and felt that I had committed a grave sin.
-1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj:pass	_	_
+1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	7	nsubj:pass	_	Level=Ngoko
 2	kang	_	PRON	_	Polite=Infm	3	nsubj	_	Level=Ngoko
 3	katilap	_	VERB	_	Voice=Act	1	acl:relcl	_	_
 4	rumangsa	_	NOUN	_	Number=Sing	3	obl	_	_
@@ -13032,7 +13032,7 @@
 11	,	_	PUNCT	_	_	9	punct	_	_
 12	Mbah	_	PROPN	_	_	9	vocative	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	9	punct	_	_
-14	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	16	nsubj	_	Level=Ngoko
 15	urung	_	ADV	_	Polite=Infm	16	advmod	_	Level=Ngoko
 16	sreg	_	ADJ	_	_	6	parataxis	_	SpaceAfter=No
 17	.	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
@@ -13366,7 +13366,7 @@
 # text = Aku saguh nukokake kanggo kowe, nanging sing lungsuran wae tur rada murah, piye?
 # text_id = Saya sanggup membelikannya untuk kamu, tetapi yang bekas dan agak murah, bagaimana?"
 # text_en = I can buy it for you, but it is a second hand and a bit cheap, how about that?"
-1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	3	nsubj	_	Level=Ngoko
 2	saguh	_	ADV	_	_	3	advmod	_	_
 3	nukokake	_	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 4	kanggo	_	ADP	_	Polite=Infm	5	case	_	Level=Ngoko
@@ -14245,7 +14245,7 @@
 # text = Aku akeh sambat yen ana garapan sekolah aku mesthi kangelan amarga nora nduwe laptop.
 # text_id = Saya banyak mengeluh ketika ada tugas sekolah saya selalu kesulitan karena tidak punya laptop.
 # text_en = I complain a lot when I have school assignments I always have trouble because I have no laptop.
-1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	3	nsubj	_	Level=Ngoko
 2	akeh	_	ADV	_	_	3	advmod	_	_
 3	sambat	_	VERB	_	Voice=Act	0	root	_	_
 4	yen	_	SCONJ	_	_	5	mark	_	_
@@ -14375,8 +14375,8 @@
 # text = Aku dhewe bingung, Pak, gek Simbah lara, kabeh gek kaya ngono, iki kepiye?
 # text_id = Saya sendiri bingung, Pak, Kakek sakit, semuanya seperti itu, ini bagaimana?
 # text_en = I'm confused sir, my grandfather is sick, everything is like that, what's wrong?
-1	Aku	_	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	dhewe	_	PRON	_	_	1	nmod	_	_
+1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	3	nsubj	_	Level=Ngoko
+2	dhewe	_	DET	_	Polite=Infm|PronType=Emp	1	nmod	_	Level=Ngoko
 3	bingung	_	ADJ	_	_	0	root	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	3	punct	_	_
 5	Pak	_	NOUN	_	Number=Sing	3	vocative	_	SpaceAfter=No
