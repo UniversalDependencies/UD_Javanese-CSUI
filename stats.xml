@@ -17,12 +17,12 @@
   <tags unique="17">
     <tag name="ADJ">532</tag><!-- _ -->
     <tag name="ADP">617</tag><!-- _ -->
-    <tag name="ADV">586</tag><!-- _ -->
+    <tag name="ADV">595</tag><!-- _ -->
     <tag name="AUX">225</tag><!-- _ -->
     <tag name="CCONJ">270</tag><!-- _ -->
-    <tag name="DET">573</tag><!-- _ -->
+    <tag name="DET">572</tag><!-- _ -->
     <tag name="INTJ">50</tag><!-- _ -->
-    <tag name="NOUN">2320</tag><!-- _ -->
+    <tag name="NOUN">2312</tag><!-- _ -->
     <tag name="NUM">310</tag><!-- _ -->
     <tag name="PART">126</tag><!-- _ -->
     <tag name="PRON">686</tag><!-- _ -->
@@ -42,7 +42,7 @@
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, njagakke, nyemayani, pethiki -->
     <feat name="Mood" value="Ind" upos="VERB">1343</feat><!-- ana, dadi, ujar, nganggo, gawe, katon, nggambarake, duwe, kelingan, wonten -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">61</feat><!-- para, akeh, bocah-bocah, tembung-tembung, Sawah-sawah, awake, kita, saperangan, Akeh-akehe, Buku-buku -->
-    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2605</feat><!-- aku, taun, e, ne, ku, warga, wong, tembang, basa, dheweke -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2597</feat><!-- aku, taun, e, ne, ku, warga, wong, tembang, basa, dheweke -->
     <feat name="NumType" value="Card" upos="NUM">194</feat><!-- 16, 6, 2022, 1, 1946, 3, 17, 10, 1948, 5 -->
     <feat name="NumType" value="Ord" upos="ADJ">4</feat><!-- kapisanan, kapitu, katiga, pertama -->
     <feat name="Person" value="1" upos="PRON">116</feat><!-- aku, ku, dak, tak, kula, awake, kita -->
@@ -50,10 +50,10 @@
     <feat name="Person" value="3" upos="PRON">163</feat><!-- e, ne, dheweke, piyambakipun, ipun, panjenenganipun, panjenengan, nipun, piyambake, dhewe -->
     <feat name="Polarity" value="Neg" upos="PART">99</feat><!-- ora, durung, mboten, nora, ra, aja, boten, dudu -->
     <feat name="Polite" value="Elev" upos="ADP,NOUN,PRON,SCONJ,VERB">52</feat><!-- nalika, panjenenganipun, panjenengan, asma, asta, dhahar, ngendika, saknalika, dalem, grana -->
-    <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">409</feat><!-- ingkang, punika, ipun, piyambakipun, inggih, wonten, dados, kaliyan, saking, lajeng -->
-    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">2806</feat><!-- e, ing, lan, ne, kang, sing, ora, iku, aku, ana -->
+    <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">410</feat><!-- ingkang, punika, ipun, piyambakipun, inggih, wonten, dados, kaliyan, saking, lajeng -->
+    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">2846</feat><!-- ing, e, lan, ne, kang, sing, ora, iku, aku, ana -->
     <feat name="PronType" value="Art" upos="DET">267</feat><!-- e, ne, sawijining, ipun, nipun, sing, satunggaling -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">138</feat><!-- kuwi, iku, punika, iki, semana, mau, ngene, kana, kasebut, gene -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">165</feat><!-- kuwi, iki, iku, punika, semana, mau, ngene, kana, kasebut, gene -->
     <feat name="PronType" value="Emp" upos="DET">10</feat><!-- dhewe, dhewe-dhewe, piyambak -->
     <feat name="PronType" value="Ind" upos="DET">20</feat><!-- para, akeh, saperangan, Akeh-akehe, Pira-pira, pinten-pinten -->
     <feat name="PronType" value="Int" upos="ADV">5</feat><!-- Kena, sepira -->
@@ -70,7 +70,7 @@
     <dep name="acl">95</dep>
     <dep name="acl:relcl">198</dep>
     <dep name="advcl">404</dep>
-    <dep name="advmod">750</dep>
+    <dep name="advmod">758</dep>
     <dep name="advmod:emph">8</dep>
     <dep name="amod">192</dep>
     <dep name="appos">89</dep>
@@ -86,7 +86,7 @@
     <dep name="csubj">16</dep>
     <dep name="csubj:pass">1</dep>
     <dep name="dep">3</dep>
-    <dep name="det">554</dep>
+    <dep name="det">553</dep>
     <dep name="discourse">50</dep>
     <dep name="fixed">16</dep>
     <dep name="flat">76</dep>
@@ -95,7 +95,7 @@
     <dep name="goeswith">1</dep>
     <dep name="iobj">5</dep>
     <dep name="mark">219</dep>
-    <dep name="nmod">987</dep>
+    <dep name="nmod">986</dep>
     <dep name="nmod:lmod">29</dep>
     <dep name="nmod:poss">215</dep>
     <dep name="nmod:tmod">16</dep>
@@ -105,7 +105,7 @@
     <dep name="obj">356</dep>
     <dep name="obl">665</dep>
     <dep name="obl:agent">22</dep>
-    <dep name="obl:tmod">121</dep>
+    <dep name="obl:tmod">115</dep>
     <dep name="parataxis">65</dep>
     <dep name="punct">1678</dep>
     <dep name="root">732</dep>

@@ -15,7 +15,7 @@
 # text = Ing wayah sore biasane Siti sinau, kangmase maca koran, lan adhine dolan neng pekarangan.
 # text_id = Pada waktu sore biasanya Siti belajar, kakak laki-lakinya membaca surat kabar, dan adiknya bermain di halaman.
 # text_en = In the afternoon, Siti usually studies, her older brother reads the newspaper, and her younger sibling plays in the yard.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	wayah	_	NOUN	_	Number=Sing	6	obl	_	_
 3	sore	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	biasane	_	ADV	_	_	6	advmod	_	_
@@ -115,7 +115,7 @@
 # text_en = The younger generation is now more accustomed to speaking Indonesian than Javanese.
 1	Generasi	_	NOUN	_	Number=Sing	5	nsubj:pass	_	_
 2	mudha	_	ADJ	_	_	1	amod	_	_
-3	saiki	_	ADV	_	_	1	advmod	_	_
+3	saiki	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
 4	luwih	_	ADV	_	_	5	advmod	_	_
 5	kulina	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	ngomong	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	5	advcl	_	Level=Ngoko
@@ -887,7 +887,7 @@
 # text_id = Tahun ini pemerintah menaikkan harga bensin.
 # text_en = This year the government raised gasoline prices.
 1	Taun	_	NOUN	_	Number=Sing	4	obl:tmod	_	_
-2	iki	_	DET	_	_	1	det	_	_
+2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 3	pamarentah	_	NOUN	_	Number=Sing	4	nsubj	_	_
 4	ngundhakake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 5	rega	_	NOUN	_	Number=Sing|Polite=Infm	4	obj	_	Level=Ngoko
@@ -1061,7 +1061,7 @@
 # text_id = Anak sekarang jika disuruh belajar pada umumnya tidak bersemangat.
 # text_en = Today's children when asked to learn are generally not enthusiastic.
 1	Bocah	_	NOUN	_	Number=Sing	7	nsubj	_	_
-2	saiki	_	DET	_	_	1	det	_	_
+2	saiki	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
 3	yen	_	SCONJ	_	Polite=Infm	4	mark	_	Level=Ngoko
 4	dikon	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	7	advcl	_	Level=Ngoko
 5	sinau	_	VERB	_	Mood=Ind|Voice=Act	4	xcomp	_	_
@@ -1263,7 +1263,7 @@
 # text = Saiki dheweke rada kuru amarga kurang mangan.
 # text_id = Sekarang dia agak kurus karena kurang makan.
 # text_en = Now he's a bit thin from not eating enough.
-1	Saiki	_	ADV	_	_	4	advmod	_	_
+1	Saiki	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
 2	dheweke	_	PRON	Number=Sing|Person=3|Polite=Infm|PronType=Prs	Polite=Infm	4	nsubj	_	Level=Ngoko
 3	rada	_	ADV	_	_	4	advmod	_	_
 4	kuru	_	ADJ	_	_	0	root	_	_
@@ -1434,7 +1434,7 @@
 2	awit	_	ADP	_	Polite=Form	4	case	_	Level=Krama
 3	saking	_	ADP	_	Polite=Form	2	fixed	_	Level=Krama
 4	bab	_	NOUN	_	Number=Sing	10	obl	_	_
-5	punika	_	DET	_	Polite=Form	4	det	_	Level=Krama|SpaceAfter=No
+5	punika	_	DET	_	Polite=Form|PronType=Dem	4	det	_	Level=Krama|SpaceAfter=No
 6	,	_	PUNCT	_	_	10	punct	_	_
 7	basa	_	NOUN	_	Number=Sing	10	nsubj:pass	_	_
 8	Jawi	_	PROPN	_	_	7	nmod	_	_
@@ -1784,7 +1784,7 @@
 # text = Ing pamulangan basa krama dipilah-pilahake dadi telung tataran, yaiku, saka ngisor mendhuwur, wredha krama, kramantara, lan mudha krama.
 # text_id = Dalam pembelajaran bahasa krama dibagi menjadi tiga tahap, yaitu dari bawah ke atas, wredha krama, kramantara, dan mudha krama.
 # text_en = In learning the krama language, it is divided into three stages, namely from the bottom up, wredha krama, kramantara, and mudha krama.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	Level=Ngoko
 2	pamulangan	_	NOUN	_	Number=Sing	5	obl	_	_
 3	basa	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	krama	_	ADJ	_	_	3	amod	_	_
@@ -3039,7 +3039,7 @@
 # text_en = 1995-In Somalia, the UN peace mission was ended.
 1	1995	_	NUM	_	NumType=Card	9	obl:tmod	_	SpaceAfter=No
 2	-	_	PUNCT	_	_	1	punct	_	SpaceAfter=No
-3	Ing	_	ADP	_	_	4	case	_	_
+3	Ing	_	ADP	_	Polite=Infm	4	case	_	_
 4	Somalia	_	PROPN	_	_	9	obl	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	9	punct	_	_
 6	misi	_	NOUN	_	Number=Sing	9	nsubj:pass	_	_
@@ -3175,7 +3175,7 @@
 # text = Ing 24 Maret, dheweke nyetak rong gol nglawan Real Sociedad.
 # text_id = Pada 24 Maret, ia mencetak dua gol melawan Real Sociedad.
 # text_en = On March 24, he scored two goals against Real Sociedad.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	24	_	NUM	_	NumType=Card	6	obl:tmod	_	_
 3	Maret	_	PROPN	_	_	2	flat	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	2	punct	_	_
@@ -3263,7 +3263,7 @@
 # text = Ing taun 1970-an, Aznavour sukses ing Britania Raya.
 # text_id = Pada tahun 1970-an, Aznavour sukses di Inggris.
 # text_en = In the 1970s, Aznavour was successful in the United Kingdom.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	taun	_	NUM	_	NumType=Card|Polite=Infm	6	obl:tmod	_	Level=Ngoko
 3	1970-an	_	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	2	punct	_	_
@@ -3660,7 +3660,7 @@
 # text = Ing taun kapitu kudu diluwari tanpa mbayar tebusan apa-apa.
 # text_id = Pada tahun ketujuh ia harus ditebus tanpa membayar tebusan apapun.
 # text_en = In the seventh year he must be redeemed without paying any ransom.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	taun	_	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	kapitu	_	ADJ	_	NumType=Ord|Polite=Form	2	amod	_	Level=Krama
 4	kudu	_	AUX	_	Polite=Infm	5	aux	_	Level=Ngoko
@@ -3709,7 +3709,7 @@
 # text = Ing audhisi mau, namung 11 tiyang ingkang dipuntampi saking 2.396 tiyang pelamar.
 # text_id = Pada audisi tersebut, hanya 11 orang yang diterima dari 2.396 pendaftar.
 # text_en = At the audition, only 11 people were accepted out of 2,396 applicants.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	audhisi	_	X	_	Foreign=Yes	9	obl	_	_
 3	mau	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko|SpaceAfter=No
 4	,	_	PUNCT	_	_	7	punct	_	_
@@ -4226,7 +4226,7 @@
 # text = Ing taun 1882, kulawarga punika kapanggih kaliyan seorang vikaris lokal, Canon Hardwicke Rawnsley, ingkang kuwatos sanget babagan efek indhustri lan turisme ing Distrik Lake.
 # text_id = Pada tahun 1882, keluarga tersebut bertemu dengan seorang pendeta lokal, Canon Hardwicke Rawnsley, yang sangat prihatin dengan dampak industri dan pariwisata di Lake District.
 # text_en = In 1882, the family met a local pastor, Canon Hardwicke Rawnsley, who was very concerned about the impact of industry and tourism on the Lake District.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	taun	_	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	1882	_	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	2	punct	_	_
@@ -4697,7 +4697,7 @@
 # text = Ing wiwit taun 1980 Eddie malih ing eropah lan piyambakipun lajeng ndirikaken tim Eddie Jordan Racing ingkang mandhap ing kejuaraan Formula 3 Inggris.
 # text_id = Pada awal 1980-an Eddie kembali ke Eropa dan kemudian mendirikan tim Eddie Jordan Racing yang kemudian memenangkan kejuaraan Formula 3 Inggris.
 # text_en = In the early 1980s Eddie returned to Europe and later founded the Eddie Jordan Racing team which went on to win the British Formula 3 championship.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	wiwit	_	NOUN	_	Number=Sing	3	nmod:lmod	_	_
 3	taun	_	NOUN	_	Number=Sing	6	obl:tmod	_	_
 4	1980	_	NUM	_	NumType=Card	3	nummod	_	_
@@ -4753,7 +4753,7 @@
 # text = Ing balapan salajengipun ing Italia, Force India punika cetak poin kaliyan finish P4 nglampahi Adrian Sutil, ingkang ugi nyerat lap tercepat ing wanci lomba.
 # text_id = Pada balapan berikutnya di Italia, Force India mencetak poin dengan finis P4 melalui Adrian Sutil yang juga mencatatkan lap tercepat pada balapan tersebut.
 # text_en = In the next race in Italy, Force India scored points by finishing P4 through Adrian Sutil who also recorded the fastest lap in the race.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	balapan	_	NOUN	_	Number=Sing	10	obl	_	_
 3	salajengipun	_	ADJ	_	Polite=Form	2	amod	_	Level=Krama
 4	ing	_	ADP	_	Polite=Infm	5	case	_	_
@@ -4997,7 +4997,7 @@
 # text = Ing Oktober 2010, Otoritas Palestina nyekel dheweke amarga diduga ngolok-olok marang Islam ing Facebook lan ing postingan blog; Penangkapane entuk perhatian internasional.
 # text_id = Pada bulan Oktober 2010, Otoritas Palestina menangkapnya karena diduga menghina Islam di Facebook dan di posting blog; Penangkapannya mendapat perhatian internasional.
 # text_en = In October 2010, the Palestinian Authority arrested him for allegedly insulting Islam on Facebook and in blog posts; His arrest received international attention.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	Oktober	_	PROPN	_	_	7	obl:tmod	_	_
 3	2010	_	NUM	_	_	2	flat	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	2	punct	_	_
@@ -5073,7 +5073,7 @@
 # text = Ing pertengahan akir 1990an, prakara kaya I Love Lucy, The Mary Tyler Moore Show, lan prakara kang saiki ditayangake ing TV Land biteen ditayangake ing Nick at Nite.
 # text_id = Pada pertengahan hingga akhir 1990-an, acara seperti I Love Lucy, The Mary Tyler Moore Show, dan acara yang sekarang ditayangkan di TV Land Biteen ditayangkan di Nick at Nite.
 # text_en = In the mid-to-late 1990s, shows such as I Love Lucy, The Mary Tyler Moore Show, and the now-airing show Land Biteen aired on Nick at Nite.
-1	Ing	_	ADP	_	_	4	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	4	case	_	_
 2	pertengahan	_	NOUN	_	Number=Sing	4	nmod	_	_
 3	akir	_	NOUN	_	Number=Sing	4	nmod	_	_
 4	1990an	_	NOUN	_	Number=Sing	27	obl:tmod	_	SpaceAfter=No
@@ -5093,7 +5093,7 @@
 18	lan	_	CCONJ	_	Polite=Infm	19	cc	_	Level=Ngoko
 19	prakara	_	NOUN	_	Number=Plur	8	conj	_	_
 20	kang	_	PRON	_	Polite=Infm|PronType=Rel	22	nsubj:pass	_	Level=Ngoko
-21	saiki	_	NOUN	_	Number=Sing|Polite=Infm	22	obl:tmod	_	Level=Ngoko
+21	saiki	_	ADV	_	Polite=Infm	22	advmod	_	Level=Ngoko
 22	ditayangake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	19	acl:relcl	_	Level=Ngoko
 23	ing	_	ADP	_	Polite=Infm	24	case	_	_
 24	TV	_	PROPN	_	_	22	obl	_	_
@@ -5158,7 +5158,7 @@
 11	banjur	_	ADV	_	_	15	advmod	_	_
 12	sasampune	_	ADV	_	_	15	advmod	_	_
 13	masjid	_	NOUN	_	Number=Sing	15	nsubj:pass	_	_
-14	iki	_	DET	_	_	13	det	_	_
+14	iki	_	DET	_	Polite=Infm|PronType=Dem	13	det	_	Level=Ngoko
 15	dipindahake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	8	parataxis	_	Level=Ngoko
 16	ing	_	ADP	_	Polite=Infm	17	case	_	_
 17	dalan	_	PROPN	_	_	15	obl	_	_
@@ -5542,7 +5542,7 @@
 21	kasamekta	_	VERB	_	Mood=Ind|Voice=Act	17	acl:relcl	_	SpaceAfter=No
 22	,	_	PUNCT	_	_	25	punct	_	_
 23	inggih	_	AUX	_	Polite=Form	25	cop	_	Level=Krama
-24	punika	_	DET	_	Polite=Form	23	fixed	_	Level=Krama
+24	punika	_	DET	_	Polite=Form|PronType=Dem	23	fixed	_	Level=Krama
 25	peso	_	PROPN	_	_	18	nmod	_	_
 26	Argentina	_	PROPN	_	_	25	nmod	_	SpaceAfter=No
 27	,	_	PUNCT	_	_	28	punct	_	_
@@ -5677,7 +5677,7 @@
 3	pidhato	_	NOUN	_	Number=Sing	7	nsubj	_	_
 4	tanggel	_	VERB	_	Mood=Ind|Voice=Act	3	acl	_	_
 5	jawab	_	VERB	_	Mood=Ind|Voice=Act	4	compound	_	_
-6	punika	_	DET	_	_	3	det	_	_
+6	punika	_	DET	_	Polite=Form|PronType=Dem	3	det	_	_
 7	dipuntolak	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 8	malih	_	ADV	_	_	7	advmod	_	_
 9	lan	_	CCONJ	_	Polite=Infm	11	cc	_	Level=Ngoko
@@ -5746,7 +5746,7 @@
 # text_id = Malam ini, di meja kopi yang tersendat, dia mengenakan celana dalam putih.
 # text_en = Tonight, at the choked coffee table, she is wearing white panties.
 1	Sore	_	NOUN	_	Number=Sing	11	obl:tmod	_	_
-2	iki	_	DET	_	Polite=Infm	1	det	_	Level=Ngoko|SpaceAfter=No
+2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko|SpaceAfter=No
 3	,	_	PUNCT	_	_	1	punct	_	_
 4	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	11	advcl	_	Level=Ngoko
 5	ing	_	ADP	_	Polite=Infm	6	case	_	_
@@ -5965,7 +5965,7 @@
 17	mangsa	_	NOUN	_	Number=Sing	15	obl	_	_
 18	udan	_	NOUN	_	Number=Sing|Polite=Infm	17	nmod	_	Level=Ngoko
 19	ngene	_	DET	_	Polite=Infm	17	det	_	Level=Ngoko
-20	iki	_	DET	_	Polite=Infm	17	det	_	Level=Ngoko|SpaceAfter=No
+20	iki	_	DET	_	Polite=Infm|PronType=Dem	17	det	_	Level=Ngoko|SpaceAfter=No
 21	?	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 22	"	_	PUNCT	_	_	2	punct	_	_
 23	pitakone	_	VERB	_	Mood=Ind|Voice=Act	2	parataxis	_	_
@@ -6008,7 +6008,7 @@
 4	kerep	_	ADV	_	_	6	advmod	_	_
 5	ora	_	PART	_	Polarity=Neg|Polite=Infm	6	advmod	_	Level=Ngoko
 6	keduga	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	1	acl:relcl	_	Level=Ngoko
-7	iki	_	DET	_	_	1	det	_	_
+7	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 8	ndadekake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 9	Lek	_	PROPN	_	_	12	nsubj	_	_
 10	Wiro	_	PROPN	_	_	9	flat:name	_	_
@@ -6052,7 +6052,7 @@
 5	ngene	_	VERB	Polite=Infm	Voice=Act	9	advcl	_	Level=Ngoko
 6	iki	_	PRON	_	_	5	obj	_	SpaceAfter=No
 7	,	_	PUNCT	_	_	9	punct	_	_
-8	isa	_	AUX	_	Abbr=Yes	9	aux	_	_
+8	isa	_	AUX	_	Abbr=Yes|Polite=Infm	9	aux	_	Level=Ngoko
 9	ana	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	las-lasan	_	NUM	_	_	11	nummod	_	_
 11-12	gunggunge	_	_	_	_	_	_	_	_
@@ -6508,7 +6508,7 @@
 1	Nganti	_	SCONJ	_	Polite=Infm	2	mark	_	Level=Ngoko
 2	tekan	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	8	advcl	_	Level=Ngoko
 3	dina	_	NOUN	_	Number=Sing|Polite=Infm	2	obl	_	Level=Ngoko
-4	iki	_	DET	_	Polite=Infm	3	det	_	Level=Ngoko|SpaceAfter=No
+4	iki	_	DET	_	Polite=Infm|PronType=Dem	3	det	_	Level=Ngoko|SpaceAfter=No
 5	,	_	PUNCT	_	_	2	punct	_	_
 6	wus	_	AUX	_	Polite=Infm	8	aux	_	Level=Ngoko
 7	ora	_	PART	_	Polarity=Neg|Polite=Infm	8	advmod	_	Level=Ngoko
@@ -6617,7 +6617,7 @@
 2	kandha	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 3	tembang	_	NOUN	_	Number=Sing	7	nsubj:pass	_	_
 4	dhaerah	_	NOUN	_	Number=Sing	7	nmod	_	_
-5	saiki	_	NOUN	_	Number=Sing|Polite=Infm	7	obl:tmod	_	Level=Ngoko
+5	saiki	_	ADV	_	Polite=Infm	7	advmod	_	Level=Ngoko
 6	sansaya	_	ADV	_	_	7	advmod	_	_
 7	diugemi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	2	xcomp	_	Level=Ngoko|SpaceAfter=No
 8	.	_	PUNCT	_	_	2	punct	_	_
@@ -6754,7 +6754,7 @@
 4	kang	_	PRON	_	Polite=Infm	5	nsubj	_	Level=Ngoko
 5	kondhang	_	ADJ	_	_	3	acl:relcl	_	_
 6	kaya	_	ADP	_	_	7	case	_	_
-7	saiki	_	NOUN	_	Number=Sing	5	obl:tmod	_	SpaceAfter=No
+7	saiki	_	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko|SpaceAfter=No
 8	,	_	PUNCT	_	_	9	punct	_	_
 9	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 10	saperangan	_	DET	_	_	11	det	_	_
@@ -6851,7 +6851,7 @@
 # text = Ing pagelaran reyog iku paragane nggunakake topeng awujud sirah singa barong kang dadi simbole Kertabhumi.
 # text_id = Dalam pertunjukan reyok itu pemainnya menggunakan topeng berbentuk kepala singa barong yang merupakan simbol Kertabhumi.
 # text_en = In the rickety show, the player wear masks in the shape of the head of a lion barong which is a symbol of Kertabhumi .
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	pagelaran	_	NOUN	_	Number=Sing	7	obl	_	_
 3	reyog	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	iku	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko
@@ -6880,7 +6880,7 @@
 2	utawa	_	CCONJ	_	Polite=Infm	3	cc	_	Level=Ngoko
 3	Lebaran	_	PROPN	_	_	1	conj	_	_
 4	taun	_	NOUN	_	Number=Sing	1	obl:tmod	_	_
-5	iki	_	DET	_	Polite=Infm	4	det	_	Level=Ngoko
+5	iki	_	DET	_	Polite=Infm|PronType=Dem	4	det	_	Level=Ngoko
 6	pancen	_	ADV	_	_	7	advmod	_	_
 7	mirunggan	_	ADJ	_	_	0	root	_	_
 8	tumrape	_	ADP	_	Polite=Infm	9	case	_	Level=Ngoko
@@ -7015,7 +7015,7 @@
 # text = Ing emperan digawe panggung, sisih mburi dipasangi kaya dene spanduk saka plastik.
 # text_id = Di teras dibuat panggung, bagian belakang dipasang seperti spanduk dari plastik.
 # text_en = On the terrace there is a stage, the back is installed like a plastic banner.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	emperan	_	NOUN	_	Number=Sing	3	obl	_	_
 3	digawe	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 4	panggung	_	NOUN	_	Number=Sing	3	obl	_	SpaceAfter=No
@@ -7056,7 +7056,7 @@
 # text = Ing ngisor tratag iku ditata meja lan kursi.
 # text_id = Di bawah tenda diatur meja dan kursi.
 # text_en = Under the tent are arranged tables and chairs.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	ngisor	_	NOUN	_	Number=Sing|Polite=Infm	5	obl	_	Level=Ngoko
 3	tratag	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	iku	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko
@@ -7259,7 +7259,7 @@
 # text_en = From these canals the farmers depended their livelihood.
 1	Saka	_	ADP	_	Polite=Infm	2	case	_	Level=Ngoko
 2	kalen	_	NOUN	_	Number=Sing	6	obl	_	_
-3	iki	_	DET	_	Polite=Infm	2	det	_	Level=Ngoko
+3	iki	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko
 4	warga	_	NOUN	_	Number=Sing	6	nsubj	_	_
 5	tani	_	NOUN	_	Number=Sing	4	nmod	_	_
 6	nggantungake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
@@ -7435,7 +7435,7 @@
 # text = Ing Desa Kaliwungu, Kabupaten Semarang, uga ginelar adicara tradhisi nyadran ing pasareyan Sidorejo, Dusun Kalikendang.
 # text_id = Di Desa Kaliwungu, Kabupaten Semarang, juga ada upacara adat nyadran di pemakaman Sidorejo di Dusun Kalikendang.
 # text_en = In Kaliwungu Village , Semarang Regency, there is also a traditional nyadran ceremony at the Sidorejo cemetery in Kalikendang Hamlet .
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	Desa	_	PROPN	_	_	9	obl	_	_
 3	Kaliwungu	_	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	2	punct	_	_
@@ -7471,7 +7471,7 @@
 10	isih	_	ADV	_	Polite=Infm	11	advmod	_	Level=Ngoko
 11	dileluri	_	VERB	Polite=Infm	Voice=Pass	4	advcl	_	Level=Ngoko
 12	nganti	_	ADP	_	Polite=Infm	13	case	_	Level=Ngoko
-13	saiki	_	NOUN	_	Number=Sing|Polite=Infm	11	obl:tmod	_	Level=Ngoko|SpaceAfter=No
+13	saiki	_	ADV	_	Polite=Infm	11	advmod	_	Level=Ngoko|SpaceAfter=No
 14	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = solopos-2022-91
@@ -7968,7 +7968,7 @@
 17	Kutha	_	PROPN	_	_	15	nsubj:pass	_	_
 18	Solo	_	PROPN	_	_	17	flat:name	_	_
 19	tekan	_	ADP	_	Polite=Infm	20	case	_	Level=Ngoko
-20	saiki	_	NOUN	_	Number=Sing|Polite=Infm	15	obl:tmod	_	Level=Ngoko|SpaceAfter=No
+20	saiki	_	ADV	_	Polite=Infm	15	advmod	_	Level=Ngoko|SpaceAfter=No
 21	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = solopos-2022-111
@@ -8031,7 +8031,7 @@
 15	kanggo	_	SCONJ	_	Polite=Infm	16	mark	_	Level=Ngoko
 16	njaga	_	VERB	_	Mood=Ind|Voice=Act	11	acl	_	_
 17	kampung	_	NOUN	_	Number=Sing	16	obj	_	_
-18	iki	_	DET	_	Polite=Infm	17	det	_	Level=Ngoko
+18	iki	_	DET	_	Polite=Infm|PronType=Dem	17	det	_	Level=Ngoko
 19	ajeg	_	ADJ	_	_	20	advmod	_	_
 20	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	32	ccomp	_	SpaceAfter=No
 21	,	_	PUNCT	_	_	22	punct	_	_
@@ -8245,7 +8245,7 @@
 6	,	_	PUNCT	_	_	7	punct	_	_
 7	bocah-bocah	_	NOUN	_	Number=Plur|Polite=Infm	10	nsubj	_	Level=Ngoko
 8	nom	_	ADJ	_	Polite=Infm	7	amod	_	Level=Ngoko
-9	saiki	_	NOUN	_	Number=Sing|Polite=Infm	7	nmod	_	Level=Ngoko
+9	saiki	_	ADV	_	Polite=Infm	7	advmod	_	Level=Ngoko
 10	gelem	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 11	sinau	_	VERB	_	Mood=Ind|Voice=Act	10	xcomp	_	_
 12	maneh	_	ADV	_	Polite=Infm	11	advmod	_	Level=Ngoko|SpaceAfter=No
@@ -8430,7 +8430,7 @@
 # text = Ing gambaran iku uga ana sato kewan kayata kebo, pithik, bebek, lan uga wong tani sing lagi manen pari.
 # text_id = Pada gambar tersebut juga terdapat hewan seperti kerbau, ayam, bebek, dan juga petani yang sedang memanen padi.
 # text_en = In the picture there are also animals such as buffalo, chickens, ducks, and also farmers who are harvesting rice.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	gambaran	_	NOUN	_	Number=Sing	5	obl	_	_
 3	iku	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko
 4	uga	_	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
@@ -8496,7 +8496,7 @@
 # text = Ing babaran Kemis (17/1/2019) menika kapacak bab lagu metal.
 # text_id = Pada edisi Kamis (17/1/2019) itu terdapat bab tentang lagu metal.
 # text_en = In the Thursday edition (17/1/2019) there are chapter about metal song.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	babaran	_	NOUN	_	Number=Sing	12	obl	_	_
 3	Kemis	_	PROPN	_	_	2	nmod	_	_
 4	(	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
@@ -8720,7 +8720,7 @@
 4	,	_	PUNCT	_	_	2	punct	_	_
 5	grup	_	NOUN	_	Number=Sing	8	nsubj	_	_
 6	musik	_	NOUN	_	Number=Sing	5	nmod	_	_
-7	iki	_	DET	_	Polite=Infm	5	det	_	Level=Ngoko
+7	iki	_	DET	_	Polite=Infm|PronType=Dem	5	det	_	Level=Ngoko
 8	duwe	_	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
 9	rong	_	NUM	_	Polite=Infm	10	nummod	_	Level=Ngoko
 10	album	_	NOUN	_	Number=Sing	8	obj	_	_
@@ -8870,7 +8870,7 @@
 # text = Ing taun 2012, Makam tau kolaborasi utawa tembayatan kalawan grup gamelan Etnomusikologi ISI Solo nalika pentas ing pambukaning Rock in Solo (RIS).
 # text_id = Pada tahun 2012, Makam pernah berkolaborasi atau berkolaborasi dengan grup gamelan Etnomusikologi ISI Solo saat tampil pada pembukaan Rock in Solo (RIS).
 # text_en = In 2012, Makam had collaborated or collaborated with the Ethnomusicology gamelan group ISI Solo when performing at the opening of Rock in Solo (RIS).
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	taun	_	NOUN	_	Number=Sing	7	obl:tmod	_	_
 3	2012	_	NUM	_	NumType=Card	2	nummod	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	2	punct	_	_
@@ -8949,7 +8949,7 @@
 # text = Ing pepanthan musik liyane, gitaris grup musik Bandoso, Agung, uga duwe angkah gawe lagu adhedhasar naskah Jawa.
 # text_id = Di grup musik lain, gitaris grup musik Bandoso, Agung, juga memiliki kemampuan membuat lagu berdasarkan aksara Jawa.
 # text_en = In another music group, the guitarist of the Bandoso music group, Agung, also has the ability to compose songs based on Javanese script.
-1	Ing	_	ADP	_	_	2	case	_	_
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	_
 2	pepanthan	_	NOUN	_	Number=Sing	15	obl	_	_
 3	musik	_	NOUN	_	Number=Sing	2	nmod	_	_
 4-5	liyane	_	_	_	_	_	_	_	SpaceAfter=No
@@ -9638,7 +9638,7 @@
 # text_id = Tanggal ini selanjutnya diperingati sebagai hari jadi Pemerintah Kota Solo.
 # text_en = This date is then commemorated as the anniversary of the Solo City Government.
 1	Tanggal	_	NOUN	_	Number=Sing	4	nsubj:pass	_	_
-2	iki	_	DET	_	Polite=Infm	1	det	_	Level=Ngoko
+2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
 3	sabanjure	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
 4	dipengeti	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	minangka	_	ADP	_	_	6	case	_	_
@@ -9889,7 +9889,7 @@
 5	Gerjen	_	PROPN	_	_	4	flat:name	_	SpaceAfter=No
 6	,	_	PUNCT	_	_	7	punct	_	_
 7	kampung	_	NOUN	_	Number=Sing	9	nsubj:pass	_	_
-8	iki	_	DET	_	Polite=Infm	7	det	_	Level=Ngoko
+8	iki	_	DET	_	Polite=Infm|PronType=Dem	7	det	_	Level=Ngoko
 9	manggon	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	4	acl	_	Level=Ngoko
 10	ing	_	ADP	_	Polite=Infm	11	case	_	_
 11	Jl.	_	PROPN	_	_	9	obl	_	_
@@ -9990,7 +9990,7 @@
 # text = Ing kampung kuwi, wargane padha gawe samir.
 # text_id = Di desa itu, penduduk desa membuat samir.
 # text_en = In that village, the villagers make samir.
-1	Ing	_	ADP	_	_	2	case	_	Level=Ngoko
+1	Ing	_	ADP	_	Polite=Infm	2	case	_	Level=Ngoko
 2	kampung	_	NOUN	_	Number=Sing	8	obl	_	_
 3	kuwi	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko|SpaceAfter=No
 4	,	_	PUNCT	_	_	2	punct	_	_
@@ -10114,7 +10114,7 @@
 # text_id = “Desa ini adalah tempat tinggal kuluk atau pembuat topi pernikahan pria tradisional Jawa.
 # text_en = “This village is the residence of the kuluk or traditional Javanese male wedding hat maker."
 1	Kampung	_	NOUN	_	Number=Sing	4	nsubj	_	_
-2	iki	_	DET	_	_	1	det	_	_
+2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 3	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 4	papan	_	NOUN	_	Number=Sing	3	xcomp	_	_
 5-6	panggonane	_	_	_	_	_	_	_	_
@@ -10136,7 +10136,7 @@
 # text_id = Desa ini terletak di sebelah barat Blodiran, RT 003/RW 006,” kata Nursalim.
 # text_en = This village is located west of Blodiran, RT 003/RW 006,” said Nursalim.
 1	Kampung	_	NOUN	_	Number=Sing	4	nsubj:pass	_	_
-2	iki	_	DET	_	_	1	det	_	_
+2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 3	penere	_	ADV	_	_	4	advmod	_	_
 4	mapan	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 5	ing	_	ADP	_	Polite=Infm	6	case	_	_
@@ -10276,7 +10276,7 @@
 # text_id = Bulan ini hanya penjahitan yang tenang, mesin tidak digunakan.
 # text_en = This month only quiet sewing, the machine is not used.
 1	Sasi	_	NOUN	_	Number=Sing	5	obl:tmod	_	_
-2	iki	_	DET	_	_	1	det	_	_
+2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 3	wae	_	ADV	_	_	4	advmod	_	_
 4	jahitan	_	NOUN	_	Number=Sing	5	nsubj	_	_
 5	sepi	_	ADJ	_	_	0	root	_	SpaceAfter=No
@@ -10295,7 +10295,7 @@
 2	sing	_	PRON	_	Polite=Infm	4	nsubj	_	_
 3	suwe	_	ADJ	_	_	4	advmod	_	_
 4	ditinggalke	_	VERB	_	Mood=Ind|Voice=Pass	1	acl:relcl	_	_
-5	saiki	_	NOUN	_	Number=Sing	6	obl:tmod	_	_
+5	saiki	_	ADV	_	Polite=Infm	6	obl:tmod	_	Level=Ngoko
 6	dilakoni	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	_
 7	maneh	_	ADV	_	_	6	advmod	_	SpaceAfter=No
 8	,	_	PUNCT	_	_	6	punct	_	_
@@ -11285,7 +11285,7 @@
 # text_id = Hari ini sama seperti dua hari yang lalu.
 # text_en = Today is the same as two days ago.
 1	Dina	_	NOUN	_	Number=Sing|Polite=Infm	3	nsubj	_	Level=Ngoko
-2	iki	_	DET	_	Polite=Infm	1	det	_	Level=Ngoko
+2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
 3	padha	_	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
 4	wae	_	ADV	_	_	3	advmod	_	_
 5	kaya	_	ADP	_	Polite=Infm	7	case	_	Level=Ngoko
@@ -11763,7 +11763,7 @@
 2	kuwi	_	PRON	_	Polite=Infm	6	obl	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	2	punct	_	_
 4	beksan	_	NOUN	_	Number=Sing	6	nsubj	_	_
-5	iki	_	DET	_	Polite=Infm	4	det	_	Level=Ngoko
+5	iki	_	DET	_	Polite=Infm|PronType=Dem	4	det	_	Level=Ngoko
 6	digawe	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	kanggo	_	SCONJ	_	Polite=Infm	8	mark	_	Level=Ngoko
 8	nggenepi	_	VERB	_	Mood=Ind|Voice=Act	6	advcl	_	_
@@ -12347,7 +12347,7 @@
 4	ngewangi	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	ya	_	INTJ	_	_	4	discourse	_	_
 6	ngene	_	PRON	_	Polite=Infm	4	obl	_	Level=Ngoko
-7	iki	_	DET	_	_	6	det	_	SpaceAfter=No
+7	iki	_	DET	_	Polite=Infm|PronType=Dem	6	det	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	4	punct	_	_
 9	Ben	_	SCONJ	_	_	11	mark	_	_
 10	kowe	_	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	11	nsubj	_	Level=Ngoko
@@ -12757,7 +12757,7 @@
 5	rikala	_	NOUN	_	Number=Sing	3	obl:tmod	_	_
 6	semana	_	DET	_	Polite=Infm|PronType=Dem	5	det	_	Level=Ngoko
 7	nganti	_	ADP	_	Polite=Infm	8	case	_	Level=Ngoko
-8	saiki	_	NOUN	_	Number=Sing	3	obl:tmod	_	_
+8	saiki	_	ADV	_	Polite=Infm	3	advmod	_	Level=Ngoko
 9	tetep	_	ADV	_	_	10	advmod	_	_
 10	awet	_	ADJ	_	_	0	root	_	_
 11	lan	_	CCONJ	_	Polite=Infm	13	cc	_	Level=Ngoko
@@ -13803,7 +13803,7 @@
 # text_id = Kalimat ini mengandung pelajaran bagi mereka yang berakal, akan menemukan ketenangan hati dan kehidupan yang hakiki.
 # text_en = This sentence contains a lesson for those who have sense, will find peace of mind and true life.
 1	Ukara	_	NOUN	_	Number=Sing	3	nsubj	_	_
-2	iki	_	DET	_	Polite=Infm	1	det	_	Level=Ngoko
+2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
 3	ngandhut	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	piwulang	_	NOUN	_	Number=Sing	3	obl	_	_
 5	sapa	_	PRON	_	Polite=Infm	4	nmod	_	Level=Ngoko
@@ -13984,7 +13984,7 @@
 2	Geladhen	_	NOUN	_	Number=Sing	0	root	_	_
 3	keprajuritan	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	warok	_	NOUN	_	Number=Sing	3	nmod	_	_
-5	iki	_	DET	_	_	2	det	_	_
+5	iki	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	_
 6	sing	_	PRON	_	Polite=Infm	7	nsubj	_	_
 7	didadekake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	2	acl:relcl	_	_
 8	beksan	_	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
@@ -14022,7 +14022,7 @@
 # text_id = Tarian ini diciptakan untuk melengkapi festival kesenian Reyog Ponorogo.
 # text_en = This dance was created to complement the Reyog Ponorogo arts festival.
 1	Beksan	_	NOUN	_	Number=Sing	3	nsubj:pass	_	_
-2	iki	_	DET	_	_	1	det	_	_
+2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 3	digawe	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 4	kanggo	_	SCONJ	_	Polite=Infm	5	mark	_	_
 5	nggenepi	_	VERB	_	Mood=Ind|Voice=Act	3	advcl	_	_
@@ -14074,7 +14074,7 @@
 14	ati	_	NOUN	_	Number=Sing	13	obj	_	_
 15	nyawang	_	VERB	_	Mood=Ind|Voice=Act	12	advcl	_	_
 16	lakon	_	NOUN	_	Number=Sing	15	obj	_	_
-17	iki	_	DET	_	_	16	det	_	SpaceAfter=No
+17	iki	_	DET	_	Polite=Infm|PronType=Dem	16	det	_	SpaceAfter=No
 18	.	_	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-406
@@ -14238,7 +14238,7 @@
 9	urip	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	5	conj	_	Level=Ngoko
 10	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	9	advcl	_	_
 11	donya	_	NOUN	_	Number=Sing	10	obl	_	_
-12	iki	_	DET	_	_	11	det	_	SpaceAfter=No
+12	iki	_	DET	_	Polite=Infm|PronType=Dem	11	det	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-415
@@ -14939,7 +14939,7 @@
 8	kahana	_	NOUN	_	Number=Sing	10	nsubj	_	_
 9	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	8	det	_	Level=Ngoko
 10	ngene	_	PRON	_	_	3	advcl	_	_
-11	iki	_	DET	_	_	10	det	_	_
+11	iki	_	DET	_	Polite=Infm|PronType=Dem	10	det	_	_
 12	kabeh	_	PRON	_	_	10	nmod	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 14	“	_	PUNCT	_	_	3	punct	_	SpaceAfter=\n
