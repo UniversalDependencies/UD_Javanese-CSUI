@@ -1321,16 +1321,16 @@
 7	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = wedhawati-2001-100
-# text = Piyambaké criyos yen tiyang sepuhé mboten saged tindak mriki.
+# text = Piyambake criyos yen tiyang sepuhe mboten saged tindak mriki.
 # text_id = Dia berkata bahwa orang tuanya tidak bisa datang kemari.
 # text_en = He said that his parents couldn't come here.
-1	Piyambaké	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	Level=Krama
+1	Piyambake	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	Level=Krama
 2	criyos	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 3	yen	_	SCONJ	_	Polite=Infm	9	mark	_	Level=Ngoko
 4	tiyang	_	NOUN	_	Polite=Form	9	nsubj	_	Level=Krama
-5-6	sepuhé	_	_	_	_	_	_	_	_
+5-6	sepuhe	_	_	_	_	_	_	_	_
 5	sepuh	_	ADJ	_	Polite=Form	4	amod	_	Level=Krama
-6	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nmod:poss	_	Level=Ngoko
+6	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nmod:poss	_	Level=Ngoko
 7	mboten	_	PART	_	Polarity=Neg	9	advmod	_	_
 8	saged	_	AUX	_	Polite=Form	9	aux	_	Level=Krama
 9	tindak	_	VERB	_	Polite=Form	2	parataxis	_	Level=Krama
@@ -1492,19 +1492,19 @@
 11	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = suwadji-2013-6
-# text = Apa tegesé tembung ngoko?
+# text = Apa tegese tembung ngoko?
 # text_id = Apa artinya kata ngoko?
 # text_en = What does the meaning of ngoko word?
 1	Apa	_	PRON	_	Polite=Infm	2	nsubj	_	Level=Ngoko
-2-3	tegesé	_	_	_	_	_	_	_	_
+2-3	tegese	_	_	_	_	_	_	_	_
 2	teges	_	NOUN	_	Number=Sing	0	root	_	_
-3	é	_	DET	_	Polite=Infm	2	det	_	Level=Ngoko
+3	e	_	DET	_	Polite=Infm	2	det	_	Level=Ngoko
 4	tembung	_	NOUN	_	Number=Sing	2	obl	_	_
 5	ngoko	_	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
 6	?	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = suwadji-2013-7
-# text = Lire, yen tembung ngoko kena tegesé ora ngurmati, tembung krama mengku teges ngurmati utawa luwih ngajeni.
+# text = Lire, yen tembung ngoko kena tegese ora ngurmati, tembung krama mengku teges ngurmati utawa luwih ngajeni.
 # text_id = Adapun, jika kata ngoko berarti tidak menghormati, kata krama memiliki arti menghormati atau lebih menghargai.
 # text_en = Meanwhile, if the ngoko word means disrespect, the word krama means respect or more respect
 1	Lire	_	ADV	_	_	7	advmod	_	SpaceAfter=No
@@ -1513,9 +1513,9 @@
 4	tembung	_	NOUN	_	Number=Sing	10	nsubj	_	_
 5	ngoko	_	NOUN	_	Number=Sing	4	nmod	_	_
 6	kena	_	AUX	_	Polite=Infm	7	aux	_	Level=Ngoko
-7-8	tegesé	_	_	_	_	_	_	_	_
+7-8	tegese	_	_	_	_	_	_	_	_
 7	teges	_	NOUN	_	Number=Sing	0	root	_	_
-8	é	_	DET	_	Polite=Infm	7	det	_	Level=Ngoko
+8	e	_	DET	_	Polite=Infm	7	det	_	Level=Ngoko
 9	ora	_	PART	_	Polite=Infm	10	advmod	_	Level=Ngoko
 10	ngurmati	_	VERB	_	Voice=Act	7	advcl	_	SpaceAfter=No
 11	,	_	PUNCT	_	_	12	punct	_	_
@@ -1530,32 +1530,32 @@
 20	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = suwadji-2013-8
-# text = Cethané meneh tembung béda karo basa.
+# text = Cethane meneh tembung beda karo basa.
 # text_id = Lebih jelasnya kata berbeda dengan bahasa.
 # text_en = More specifically, words are different from language.
-1	Cethané	_	ADJ	_	Polite=Infm	3	amod	_	Level=Ngoko
+1	Cethane	_	ADJ	_	Polite=Infm	3	amod	_	Level=Ngoko
 2	meneh	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
 3	tembung	_	NOUN	_	Number=Sing	4	nsubj	_	_
-4	béda	_	VERB	_	Polite=Infm	0	root	_	Level=Ngoko
+4	beda	_	VERB	_	Polite=Infm	0	root	_	Level=Ngoko
 5	karo	_	CCONJ	_	Polite=Infm	6	cc	_	Level=Ngoko
 6	basa	_	NOUN	_	Number=Sing	3	conj	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = suwadji-2013-9
-# text = Adhédhasar undha-usuk panganggoné, sing pokok basa Jawa dipilahké dadi rong tataran, yaiku basa ngoko lan basa krama.
+# text = Adhedhasar undha-usuk panganggone, sing pokok basa Jawa dipilahke dadi rong tataran, yaiku basa ngoko lan basa krama.
 # text_id = Berdasarkan kaidah pemakaiannya, bahasa utama Jawa dibagi menjadi dua tingkatan, yaitu bahasa ngoko dan bahasa krama.
 # text_en = Based on the rules of use, the main language of Java is divided into two levels, namely the ngoko language and the krama language.
-1	Adhédhasar	_	ADV	_	_	2	advmod	_	_
+1	Adhedhasar	_	ADV	_	_	2	advmod	_	_
 2	undha-usuk	_	NOUN	_	Number=Sing	3	nmod	_	_
-3-4	panganggoné	_	_	_	_	_	_	_	SpaceAfter=No
+3-4	panganggone	_	_	_	_	_	_	_	SpaceAfter=No
 3	panganggo	_	NOUN	_	Polite=Infm	10	nmod	_	Level=Ngoko
-4	né	_	DET	_	Polite=Infm	3	det	_	Level=Ngoko
+4	ne	_	DET	_	Polite=Infm	3	det	_	Level=Ngoko
 5	,	_	PUNCT	_	_	3	punct	_	_
 6	sing	_	PRON	_	Polite=Infm	7	nsubj	_	Level=Ngoko
 7	pokok	_	ADV	_	_	8	advmod	_	_
 8	basa	_	NOUN	_	Number=Sing	10	nsubj:pass	_	_
 9	Jawa	_	PROPN	_	_	8	nmod	_	_
-10	dipilahké	_	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
+10	dipilahke	_	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 11	dadi	_	VERB	_	Polite=Infm	10	advcl	_	Level=Ngoko
 12	rong	_	NUM	_	Polite=Infm	13	nummod	_	Level=Ngoko
 13	tataran	_	NOUN	_	Number=Sing	8	obl	_	SpaceAfter=No
@@ -1569,15 +1569,15 @@
 21	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = suwadji-2013-10
-# text = Tembung ngoko iku cacahé akèh banget, malah kena diarani akèh dhéwé ing antarané tembung-tembung liyané.
+# text = Tembung ngoko iku cacahe akèh banget, malah kena diarani akèh dhewe ing antarane tembung-tembung liyane.
 # text_id = Kata ngoko itu jumlahnya sangat banyak, bahkan bisa disebut paling banyak di antara kata-kata lainnya.
 # text_en = The number of ngoko word is very large, it can even be said to be the most among the otherwords.
 1	Tembung	_	NOUN	_	Number=Sing	4	nsubj	_	_
 2	ngoko	_	NOUN	_	Number=Sing	1	nmod	_	_
 3	iku	_	AUX	_	Polite=Infm	4	cop	_	Level=Ngoko
-4-5	cacahé	_	_	_	_	_	_	_	_
+4-5	cacahe	_	_	_	_	_	_	_	_
 4	cacah	_	NOUN	_	Number=Sing	0	root	_	_
-5	é	_	DET	_	Polite=Infm	4	det	_	Level=Ngoko
+5	e	_	DET	_	Polite=Infm	4	det	_	Level=Ngoko
 6	akèh	_	ADJ	_	Polite=Infm	4	amod	_	Level=Ngoko
 7	banget	_	ADV	_	Polite=Infm	6	advmod	_	Level=Ngoko|SpaceAfter=No
 8	,	_	PUNCT	_	_	9	punct	_	_
@@ -1585,15 +1585,15 @@
 10	kena	_	AUX	_	Polite=Infm	11	aux	_	Level=Ngoko
 11	diarani	_	VERB	_	Polite=Infm	4	ccomp	_	Level=Ngoko
 12	akèh	_	ADJ	_	Polite=Infm	11	amod	_	Level=Ngoko
-13	dhéwé	_	ADV	_	Polite=Infm	12	advmod	_	Level=Ngoko
+13	dhewe	_	ADV	_	Polite=Infm	12	advmod	_	Level=Ngoko
 14	ing	_	ADP	_	Polite=Infm	15	case	_	_
-15-16	antarané	_	_	_	_	_	_	_	_
+15-16	antarane	_	_	_	_	_	_	_	_
 15	antara	_	NOUN	_	Number=Sing	12	nmod:lmod	_	_
-16	né	_	PRON	_	Polite=Infm	15	nmod	_	Level=Ngoko
+16	ne	_	PRON	_	Polite=Infm	15	nmod	_	Level=Ngoko
 17	tembung-tembung	_	NOUN	_	Number=Plur	15	nmod	_	_
-18-19	liyané	_	_	_	_	_	_	_	SpaceAfter=No
+18-19	liyane	_	_	_	_	_	_	_	SpaceAfter=No
 18	liya	_	ADJ	_	Polite=Infm	17	amod	_	Level=Ngoko
-19	né	_	PRON	_	Polite=Infm	18	nmod	_	Level=Ngoko
+19	ne	_	PRON	_	Polite=Infm	18	nmod	_	Level=Ngoko
 20	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = suwadji-2013-11
@@ -1881,11 +1881,11 @@
 6	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = suwadji-2013-21
-# text = Mung baé perlu dimangerteni yen tembung basa ing pasrawungan padha tegesé karo tembung krama.
+# text = Mung bae perlu dimangerteni yen tembung basa ing pasrawungan padha tegese karo tembung krama.
 # text_id = Hanya saja perlu dimengerti jika kata bahasa di pergaulan sama artinya dengan kata krama.
 # text_en = It is only necessary to note that the language word in the encounter has the same meaning as the word manners.
 1	Mung	_	ADV	_	_	4	advmod	_	_
-2	baé	_	ADV	_	_	1	advmod	_	_
+2	bae	_	ADV	_	_	1	advmod	_	_
 3	perlu	_	VERB	_	Voice=Act	4	advcl	_	_
 4	dimangerteni	_	VERB	_	Polite=Infm	0	root	_	Level=Ngoko
 5	yen	_	SCONJ	_	Polite=Infm	6	mark	_	Level=Ngoko
@@ -1894,9 +1894,9 @@
 8	ing	_	ADP	_	Polite=Infm	9	case	_	_
 9	pasrawungan	_	NOUN	_	Number=Sing	6	nmod	_	_
 10	padha	_	ADJ	_	Polite=Infm	11	amod	_	Level=Ngoko
-11-12	tegesé	_	_	_	_	_	_	_	_
+11-12	tegese	_	_	_	_	_	_	_	_
 11	teges	_	NOUN	_	Number=Sing	4	ccomp	_	_
-12	é	_	DET	_	Polite=Infm	11	det	_	Level=Ngoko
+12	e	_	DET	_	Polite=Infm	11	det	_	Level=Ngoko
 13	karo	_	CCONJ	_	Polite=Infm	14	cc	_	Level=Ngoko
 14	tembung	_	NOUN	_	Number=Sing	6	conj	_	_
 15	krama	_	NOUN	_	Number=Sing	14	nmod	_	SpaceAfter=No
@@ -2004,7 +2004,7 @@
 34	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-1
-# text =	Para warga padha metu karo nggawani sampah sing wis dipisah antarané sampah tèlès lan sampah garing ing sajroning bak sampah; Cecep (17), gawéané luwih énténg amarga wis didhèwèkaké sampahé, dhèwèé ora pèrlu antri.
+# text =	Para warga padha metu karo nggawani sampah sing wis dipisah antarane sampah tèlès lan sampah garing ing sajroning bak sampah; Cecep (17), gaweane luwih enteng amarga wis didhèwèkake sampahe, dhèwèe ora pèrlu antri.
 # text_id = Para warga keluar dengan membawa tumpukan sampah yang sudah dipisahkan antara sampah basah dan sampah kering di dalam tempat sampah; Cecep (17), pekerjaannya lebih ringan karena sudah dipisahkan sampahnya, tidak perlu antri.
 # text_en = The residents came out with piles of garbage that had been separated between wet and dry waste in the trash; Cecep (17), his work is lighter because the garbage has been separated, no need to queue
 1	Para	_	DET	_	Number=Plur|PronType=Ind	2	det	_	_
@@ -2017,9 +2017,9 @@
 8	sing	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj:pass	_	Level=Ngoko
 9	wis	_	AUX	_	Polite=Infm	10	aux	_	Level=Ngoko
 10	dipisah	_	VERB	_	Mood=Ind|Voice=Pass	7	acl:relcl	_	_
-11-12	antarané	_	_	_	_	_	_	_	_
+11-12	antarane	_	_	_	_	_	_	_	_
 11	antara	_	NOUN	_	Number=Sing|Polite=Infm	12	nmod:lmod	_	Level=Ngoko
-12	né	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	10	obl	_	Level=Ngoko
+12	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	10	obl	_	Level=Ngoko
 13	sampah	_	NOUN	_	Number=Sing	12	nmod	_	_
 14	tèlès	_	ADJ	_	_	13	amod	_	_
 15	lan	_	CCONJ	_	Polite=Infm	16	cc	_	Level=Ngoko
@@ -2035,19 +2035,19 @@
 25	17	_	NUM	_	NumType=Card	23	nmod	_	SpaceAfter=No
 26	)	_	PUNCT	_	_	25	punct	_	SpaceAfter=No
 27	,	_	PUNCT	_	_	25	punct	_	_
-28-29	gawéané	_	_	_	_	_	_	_	_
-28	gawéan	_	NOUN	_	Number=Sing	31	nsubj	_	_
-29	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	28	nmod:poss	_	Level=Ngoko
+28-29	gaweane	_	_	_	_	_	_	_	_
+28	gawean	_	NOUN	_	Number=Sing	31	nsubj	_	_
+29	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	28	nmod:poss	_	Level=Ngoko
 30	luwih	_	ADV	_	_	31	advmod	_	_
-31	énténg	_	ADV	_	_	4	parataxis	_	_
+31	enteng	_	ADV	_	_	4	parataxis	_	_
 32	amarga	_	SCONJ	_	_	34	mark	_	_
 33	wis	_	AUX	_	Polite=Infm	34	aux	_	Level=Ngoko
-34	didhèwèkaké	_	VERB	_	Mood=Ind|Voice=Act	31	advcl	_	_
-35-36	sampahé	_	_	_	_	_	_	_	SpaceAfter=No
+34	didhèwèkake	_	VERB	_	Mood=Ind|Voice=Act	31	advcl	_	_
+35-36	sampahe	_	_	_	_	_	_	_	SpaceAfter=No
 35	sampah	_	NOUN	_	Number=Sing	34	nsubj	_	_
-36	é	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	35	det	_	Level=Ngoko
+36	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	35	det	_	Level=Ngoko
 37	,	_	PUNCT	_	_	40	punct	_	_
-38	dhèwèé	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	40	nsubj	_	Level=Ngoko
+38	dhèwèe	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	40	nsubj	_	Level=Ngoko
 39	ora	_	PART	_	Polarity=Neg|Polite=Infm	40	advmod	_	Level=Ngoko
 40	pèrlu	_	VERB	_	Mood=Ind|Voice=Act	34	advcl	_	_
 41	antri	_	VERB	_	Mood=Ind|Voice=Act	40	xcomp	_	SpaceAfter=No
@@ -2100,12 +2100,12 @@
 17	?	_	PUNCT	_	_	16	punct	_	_
 
 # sent_id = opus-wiki-4
-# text = Temoné ing kana wujud prasasti watu.
+# text = Temone ing kana wujud prasasti watu.
 # text_id = Ditemukan di sana berupa prasasti batu.
 # text_en = Found there in the form of stone inscriptions.
-1-2	Temoné	_	_	_	_	_	_	_	_
+1-2	Temone	_	_	_	_	_	_	_	_
 1	Temon	_	NOUN	_	Number=Sing	5	nsubj	_	_
-2	é	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
+2	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
 3	ing	_	ADP	_	Polite=Infm	4	case	_	_
 4	kana	_	PRON	_	Polite=Infm|PronType=Dem	5	obl	_	Level=Ngoko
 5	wujud	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -2137,13 +2137,13 @@
 18	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = opus-wiki-6
-# text = Semana uga ing sapérangan perkutut kagem Bapak.
+# text = Semana uga ing saperangan perkutut kagem Bapak.
 # text_id = Hal yang sama berlaku untuk sejumlah perkutut untuk Anda.
 # text_en = The same goes for a number of pigeons for you.
 1	Semana	_	ADJ	_	_	0	root	_	_
 2	uga	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
 3	ing	_	ADP	_	Polite=Infm	5	case	_	_
-4	sapérangan	_	DET	_	Number=Plur|PronType=Ind	5	det	_	_
+4	saperangan	_	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	perkutut	_	NOUN	_	Number=Sing	1	obl	_	_
 6	kagem	_	ADP	_	_	7	case	_	_
 7	Bapak	_	PROPN	_	_	1	obl	_	SpaceAfter=No
@@ -2191,13 +2191,13 @@
 18	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-9
-# text = Jenengé disebutaké kaping 27 ing Al-Quran.
+# text = Jenenge disebutake kaping 27 ing Al-Quran.
 # text_id = Namanya disebut sebanyak 27 kali dalam Al-Qur'an.
 # text_en = His name is mentioned 27 times in the Qur'an.
-1-2	Jenengé	_	_	_	_	_	_	_	_
+1-2	Jenenge	_	_	_	_	_	_	_	_
 1	Jeneng	_	NOUN	_	Number=Sing|Polite=Infm	3	nsubj	_	Level=Ngoko
-2	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
-3	disebutaké	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
+2	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+3	disebutake	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 4	kaping	_	NOUN	_	Number=Sing	3	obl	_	_
 5	27	_	NUM	_	NumType=Card	4	nummod	_	_
 6	ing	_	ADP	_	Polite=Infm	7	case	_	_
@@ -2217,10 +2217,10 @@
 6	?	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-11
-# text = Ngudhunaké tekanan darah.
+# text = Ngudhunake tekanan darah.
 # text_id = Menurunkan tekanan darah.
 # text_en = Lowering blood pressure.
-1	Ngudhunaké	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
+1	Ngudhunake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 2	tekanan	_	NOUN	_	Number=Sing	1	obl	_	_
 3	darah	_	NOUN	_	Number=Sing	2	flat:foreign	_	SpaceAfter=No
 4	.	_	PUNCT	_	_	1	punct	_	_
@@ -2258,7 +2258,7 @@
 11	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = opus-wiki-14
-# text = Miturut American Opera Association, Rigoletto inggih punika opera nomer 9 ingkang paling asring dipuntontonaken ing Amérika Utara.
+# text = Miturut American Opera Association, Rigoletto inggih punika opera nomer 9 ingkang paling asring dipuntontonaken ing Amerika Utara.
 # text_id = Menurut American Opera Association, Rigoletto adalah opera ke-9 yang paling sering dimainkan di Amerika Utara.
 # text_en = According to the American Opera Association, Rigoletto is the 9th most played opera in North America.
 1	Miturut	_	ADP	_	Polite=Form	2	case	_	Level=Krama
@@ -2277,31 +2277,31 @@
 14	asring	_	ADJ	_	_	9	acl:relcl	_	_
 15	dipuntontonaken	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	14	xcomp	_	Level=Krama
 16	ing	_	ADP	_	Polite=Infm	17	case	_	_
-17	Amérika	_	PROPN	_	_	15	obl	_	_
+17	Amerika	_	PROPN	_	_	15	obl	_	_
 18	Utara	_	PROPN	_	_	17	flat:name	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = opus-wiki-15
-# text = Présidhèn Indonésia (1974).
+# text = Presidhèn Indonesia (1974).
 # text_id = Presiden Indonesia (1974).
 # text_en = President of Indonesia (1974).
-1	Présidhèn	_	PROPN	_	_	0	root	_	_
-2	Indonésia	_	PROPN	_	_	1	flat:name	_	_
+1	Presidhèn	_	PROPN	_	_	0	root	_	_
+2	Indonesia	_	PROPN	_	_	1	flat:name	_	_
 3	(	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	1974	_	NUM	_	NumType=Card	1	nmod:tmod	_	SpaceAfter=No
 5	)	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = opus-wiki-16
-# text = Dina Abasa Bali adaté lumaku mligi ing tataran pamulangan.
+# text = Dina Abasa Bali adate lumaku mligi ing tataran pamulangan.
 # text_id = Abasa Bali secara tradisional diadakan terutama di tingkat pendidikan.
 # text_en = Abasa Bali is traditionally held mainly at the education level.
 1	Dina	_	NOUN	_	Number=Sing	6	nsubj:pass	_	_
 2	Abasa	_	PROPN	_	_	1	nmod	_	_
 3	Bali	_	PROPN	_	_	2	flat:name	_	_
-4-5	adaté	_	_	_	_	_	_	_	_
+4-5	adate	_	_	_	_	_	_	_	_
 4	adat	_	NOUN	_	Number=Sing	6	obl	_	_
-5	é	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	Level=Ngoko
+5	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	Level=Ngoko
 6	lumaku	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 7	mligi	_	ADV	_	_	9	advmod	_	_
 8	ing	_	ADP	_	Polite=Infm	9	case	_	_
@@ -2355,13 +2355,13 @@
 21	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = opus-wiki-19
-# text = Potter asring nggatosakèn kéwan-kéwan punika ngantos pinten-pinten jam lan damèl gambaripun.
+# text = Potter asring nggatosakèn kewan-kewan punika ngantos pinten-pinten jam lan damèl gambaripun.
 # text_id = Potter sering mengamati hewan-hewan ini selama berjam-jam dan membuat sketsanya.
 # text_en = Potter would often observe these animals for hours and sketch them.
 1	Potter	_	PROPN	_	_	3	nsubj	_	_
 2	asring	_	ADV	_	_	3	advmod	_	_
 3	nggatosakèn	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
-4	kéwan-kéwan	_	NOUN	_	Number=Sing	3	obj	_	_
+4	kewan-kewan	_	NOUN	_	Number=Sing	3	obj	_	_
 5	punika	_	DET	_	Polite=Form|PronType=Dem	4	det	_	Level=Krama
 6	ngantos	_	ADP	_	Polite=Form	8	case	_	Level=Krama
 7	pinten-pinten	_	DET	_	Number=Plur|Polite=Form|PronType=Ind	8	det	_	Level=Krama
@@ -2374,19 +2374,19 @@
 13	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = opus-wiki-20
-# text = Nelson Mandela, Présidhèn Afrika Selatan.
+# text = Nelson Mandela, Presidhèn Afrika Selatan.
 # text_id = Nelson Mandela, Presiden Afrika Selatan.
 # text_en = Nelson Mandela, President of South Africa.
 1	Nelson	_	PROPN	_	_	0	root	_	_
 2	Mandela	_	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	1	punct	_	_
-4	Présidhèn	_	NOUN	_	Number=Sing	1	appos	_	_
+4	Presidhèn	_	NOUN	_	Number=Sing	1	appos	_	_
 5	Afrika	_	PROPN	_	_	4	nmod	_	_
 6	Selatan	_	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = opus-wiki-21
-# text = Sastra dan Religiositas mimpangaken bebingah buku non-fiksi paling saé taun 1982.
+# text = Sastra dan Religiositas mimpangaken bebingah buku non-fiksi paling sae taun 1982.
 # text_id = Sastra dan Religiositas memenangkan penghargaan buku non-fiksi terbaik tahun 1982.
 # text_en = Literature and Religiosity was awarded the best non-fiction book of 1982.
 1	Sastra	_	PROPN	_	_	4	nsubj	_	_
@@ -2397,13 +2397,13 @@
 6	buku	_	NOUN	_	Number=Sing	5	nmod	_	_
 7	non-fiksi	_	X	_	Foreign=Yes	5	amod	_	_
 8	paling	_	ADV	_	_	9	advmod	_	_
-9	saé	_	ADJ	_	_	6	amod	_	_
+9	sae	_	ADJ	_	_	6	amod	_	_
 10	taun	_	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 11	1982	_	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-22
-# text = Lumantar Mantri Luar Negeri Alwi Shihab, Présidhèn gagal nyegah prekawis punika dhateng pulisi.
+# text = Lumantar Mantri Luar Negeri Alwi Shihab, Presidhèn gagal nyegah prekawis punika dhateng pulisi.
 # text_id = Melalui Menteri Luar Negeri Alwi Shihab, Presiden gagal menyampaikan hal tersebut kepada polisi.
 # text_en = Through Foreign Minister Alwi Shihab, the President failed to convey this to the police.
 1	Lumantar	_	ADP	_	_	2	case	_	_
@@ -2413,7 +2413,7 @@
 5	Alwi	_	PROPN	_	_	2	appos	_	_
 6	Shihab	_	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	,	_	PUNCT	_	_	2	punct	_	_
-8	Présidhèn	_	PROPN	_	_	9	nsubj	_	_
+8	Presidhèn	_	PROPN	_	_	9	nsubj	_	_
 9	gagal	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	nyegah	_	VERB	_	Mood=Ind|Voice=Act	9	xcomp	_	_
 11	prekawis	_	NOUN	_	Number=Sing	10	obl	_	_
@@ -2449,7 +2449,7 @@
 19	.	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = opus-wiki-24
-# text = Gunggung subunit isa macem-macem malah ning sèl kang padha contoné ning Salmonella kang gunggung subunité antara 3, 4, utawa 5.
+# text = Gunggung subunit isa macem-macem malah ning sèl kang padha contone ning Salmonella kang gunggung subunite antara 3, 4, utawa 5.
 # text_id = Jumlah subunit dapat bervariasi bahkan dalam sel yang sama misalnya pada Salmonella dimana jumlah subunit antara 3, 4, atau 5.
 # text_en = The number of subunits can vary even within the same cell for example in Salmonella where the number of subunits is between 3, 4, or 5.
 1	Gunggung	_	NOUN	_	Number=Sing	4	nsubj	_	_
@@ -2461,16 +2461,16 @@
 7	sèl	_	NOUN	_	Number=Sing	4	obl	_	_
 8	kang	_	PRON	_	Polite=Infm|PronType=Rel	9	nsubj	_	Level=Ngoko
 9	padha	_	ADJ	_	Polite=Infm	7	acl:relcl	_	Level=Ngoko
-10-11	contoné	_	_	_	_	_	_	_	_
+10-11	contone	_	_	_	_	_	_	_	_
 10	conto	_	NOUN	_	Number=Sing	4	nmod	_	_
-11	né	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	10	det	_	_
+11	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	10	det	_	_
 12	ning	_	ADP	_	_	13	case	_	_
 13	Salmonella	_	PROPN	_	_	10	nmod	_	_
 14	kang	_	PRON	_	Polite=Infm|PronType=Rel	19	obl	_	Level=Ngoko
 15	gunggung	_	NOUN	_	Number=Sing	19	nsubj	_	_
-16-17	subunité	_	_	_	_	_	_	_	_
+16-17	subunite	_	_	_	_	_	_	_	_
 16	subunit	_	X	_	Foreign=Yes	15	nmod	_	_
-17	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	16	nmod:poss	_	_
+17	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	16	nmod:poss	_	_
 18	antara	_	NOUN	_	Number=Sing|Polite=Infm	19	nmod:lmod	_	Level=Ngoko
 19	3	_	NUM	_	NumType=Card	13	acl:relcl	_	SpaceAfter=No
 20	,	_	PUNCT	_	_	21	punct	_	_
@@ -2591,7 +2591,7 @@
 21	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = opus-wiki-31
-# text = Saben makluk bakal mati lan ing akhirat bakal dijaluki tanggung jawab prakara amalan-amalané.
+# text = Saben makluk bakal mati lan ing akhirat bakal dijaluki tanggung jawab prakara amalan-amalane.
 # text_id = Setiap makhluk akan mati dan di akhirat akan dimintai pertanggungjawaban atas perbuatannya.
 # text_en = Every creature will die and in the hereafter will be held responsibility for his actions.
 1	Saben	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	Level=Ngoko
@@ -2606,13 +2606,13 @@
 10	tanggung	_	NOUN	_	Number=Sing	9	obl	_	_
 11	jawab	_	VERB	_	Mood=Ind|Voice=Act	10	acl	_	_
 12	prakara	_	NOUN	_	Number=Sing	9	obl	_	_
-13-14	amalan-amalané	_	_	_	_	_	_	_	SpaceAfter=No
+13-14	amalan-amalane	_	_	_	_	_	_	_	SpaceAfter=No
 13	amalan-amalan	_	NOUN	_	Number=Plur	12	obl	_	_
-14	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	13	nmod:poss	_	Level=Ngoko
+14	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	13	nmod:poss	_	Level=Ngoko
 15	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-32
-# text = Perusahaan Dodge Bersaudara tiba ing asta istri-istri punika, ingkang lajeng ngangkat Frederick Haynes dados présidhèn perusahaan mau.
+# text = Perusahaan Dodge Bersaudara tiba ing asta istri-istri punika, ingkang lajeng ngangkat Frederick Haynes dados presidhèn perusahaan mau.
 # text_id = Perusahaan Dodge bersaudara jatuh ke tangan istri-istri ini, yang kemudian menunjuk Frederick Haynes sebagai presiden perusahaan.
 # text_en = The Dodge brothers' company fell into the hands of these wives, who then appointed Frederick Haynes as president of the company.
 1	Perusahaan	_	NOUN	_	Number=Sing	4	nsubj	_	_
@@ -2630,7 +2630,7 @@
 13	Frederick	_	PROPN	_	_	12	obj	_	_
 14	Haynes	_	PROPN	_	_	13	flat:name	_	_
 15	dados	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	12	xcomp	_	Level=Krama
-16	présidhèn	_	NOUN	_	Number=Sing	15	obl	_	_
+16	presidhèn	_	NOUN	_	Number=Sing	15	obl	_	_
 17	perusahaan	_	NOUN	_	Number=Sing	16	nmod	_	_
 18	mau	_	DET	_	Polite=Infm|PronType=Dem	17	det	_	Level=Ngoko|SpaceAfter=No
 19	.	_	PUNCT	_	_	4	punct	_	_
@@ -2652,7 +2652,7 @@
 11	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = opus-wiki-34
-# text = Para panantang iki mutusake yèn beya ékonomi kang diperlokaké kanggo nindak Protokol Kyoto isa ngancik 300 milyar dollar AS, mligi disebabake déning beya ènergi.
+# text = Para panantang iki mutusake yèn beya ekonomi kang diperlokake kanggo nindak Protokol Kyoto isa ngancik 300 milyar dollar AS, mligi disebabake dening beya ènergi.
 # text_id = Penentang mengklaim bahwa biaya ekonomi yang dibutuhkan untuk menerapkan Protokol Kyoto dapat mencapai 300 miliar dolar AS, khususnya karena biaya energi.
 # text_en = Opponents claim that the economic costs required to implement the Kyoto Protocol could be as high as $300 billion, mainly because of energy costs.
 1	Para	_	DET	_	Number=Plur|PronType=Ind	2	det	_	_
@@ -2661,9 +2661,9 @@
 4	mutusake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 5	yèn	_	SCONJ	_	Polite=Infm	15	mark	_	Level=Ngoko
 6	beya	_	NOUN	_	Number=Sing	15	nsubj	_	_
-7	ékonomi	_	NOUN	_	Number=Sing	6	nmod	_	_
+7	ekonomi	_	NOUN	_	Number=Sing	6	nmod	_	_
 8	kang	_	PRON	_	Polite=Infm|PronType=Rel	9	nsubj	_	Level=Ngoko
-9	diperlokaké	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	6	acl:relcl	_	Level=Ngoko
+9	diperlokake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	6	acl:relcl	_	Level=Ngoko
 10	kanggo	_	SCONJ	_	Polite=Infm	11	mark	_	Level=Ngoko
 11	nindak	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	9	advcl	_	Level=Krama
 12	Protokol	_	PROPN	_	_	11	obj	_	_
@@ -2677,22 +2677,22 @@
 20	,	_	PUNCT	_	_	22	punct	_	_
 21	mligi	_	ADV	_	Polite=Form	22	advmod	_	Level=Krama
 22	disebabake	_	VERB	_	Mood=Ind|Voice=Pass	15	advcl	_	_
-23	déning	_	ADP	_	Polite=Infm	24	case	_	Level=Ngoko
+23	dening	_	ADP	_	Polite=Infm	24	case	_	Level=Ngoko
 24	beya	_	NOUN	_	Number=Sing	22	obl	_	_
 25	ènergi	_	NOUN	_	Number=Sing	24	nmod	_	SpaceAfter=No
 26	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-35
-# text = Yèn dideleng saka cara tumindaké, eutanasia isa dibagi dadi telung bagean, yaiku eutanasia agresif, eutanasia non-agresif, lan eutanasia pasif.
+# text = Yèn dideleng saka cara tumindake, eutanasia isa dibagi dadi telung bagean, yaiku eutanasia agresif, eutanasia non-agresif, lan eutanasia pasif.
 # text_id = Jika dilihat dari cara mereka bertindak, euthanasia dapat dibagi menjadi tiga kategori, yaitu euthanasia agresif, euthanasia non-agresif, dan euthanasia pasif.
 # text_en = Judging from the way they act, euthanasia can be divided into three categories, namely aggressive euthanasia, non-aggressive euthanasia, and passive euthanasia.
 1	Yèn	_	SCONJ	_	Polite=Infm	2	mark	_	Level=Ngoko
 2	dideleng	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	10	advcl	_	Level=Ngoko
 3	saka	_	ADP	_	Polite=Infm	4	case	_	Level=Ngoko
 4	cara	_	NOUN	_	Number=Sing	2	obl	_	_
-5-6	tumindaké	_	_	_	_	_	_	_	SpaceAfter=No
+5-6	tumindake	_	_	_	_	_	_	_	SpaceAfter=No
 5	tumindak	_	NOUN	_	Number=Sing	4	nmod	_	_
-6	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nmod:poss	_	Level=Ngoko
+6	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nmod:poss	_	Level=Ngoko
 7	,	_	PUNCT	_	_	2	punct	_	_
 8	eutanasia	_	X	_	Foreign=Yes	10	nsubj	_	_
 9	isa	_	AUX	_	Abbr=Yes|Polite=Infm	10	aux	_	Level=Ngoko
@@ -2714,7 +2714,7 @@
 25	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = opus-wiki-36
-# text = Allah wis ndokok aku ing Indonésia.
+# text = Allah wis ndokok aku ing Indonesia.
 # text_id = Tuhan telah menempatkan saya di Indonesia.
 # text_en = God has placed me in Indonesia.
 1	Allah	_	PROPN	_	_	3	nsubj	_	_
@@ -2722,7 +2722,7 @@
 3	ndokok	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 4	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	3	obj	_	Level=Ngoko
 5	ing	_	ADP	_	Polite=Infm	6	case	_	_
-6	Indonésia	_	PROPN	_	_	3	obl	_	SpaceAfter=No
+6	Indonesia	_	PROPN	_	_	3	obl	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = opus-wiki-37
@@ -2746,7 +2746,7 @@
 15	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = opus-wiki-38
-# text = Train à Grande Vitesse (dicekak TGV) iku sepur rikat Prancis (basa Prancis: train à grande vitesse, kang tegesé sepur rikat).
+# text = Train à Grande Vitesse (dicekak TGV) iku sepur rikat Prancis (basa Prancis: train à grande vitesse, kang tegese sepur rikat).
 # text_id = Kereta Grande Vitesse (disingkat TGV) adalah sebuah kereta api Prancis (bahasa Prancis: train grande vitesse, yang berarti kereta api).
 # text_en = The Grande Vitesse train (abbreviated as TGV) is a French railway (French: train grande vitesse, which means train).
 1	Train	_	PROPN	_	_	10	nsubj	_	_
@@ -2771,7 +2771,7 @@
 20	vitesse	_	X	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
 21	,	_	PUNCT	_	_	23	punct	_	_
 22	kang	_	PRON	_	Polite=Infm|PronType=Rel	23	nsubj	_	Level=Ngoko
-23	tegesé	_	VERB	_	Mood=Ind|Voice=Act	17	acl:relcl	_	_
+23	tegese	_	VERB	_	Mood=Ind|Voice=Act	17	acl:relcl	_	_
 24	sepur	_	NOUN	_	Number=Sing	23	obl	_	_
 25	rikat	_	ADJ	_	_	24	amod	_	SpaceAfter=No
 26	)	_	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -2796,22 +2796,22 @@
 13	.	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = opus-wiki-40
-# text = 647,5 Milyar ing 31 Dhésèmber 2011.
+# text = 647,5 Milyar ing 31 Dhesèmber 2011.
 # text_id = 647,5 Miliar posisi 31 Desember 2011.
 # text_en = 647.5 Billion as of December 31, 2011.
 1	647,5	_	NUM	_	NumType=Card	2	nummod	_	_
 2	Milyar	_	NOUN	_	Number=Sing	0	root	_	_
 3	ing	_	ADP	_	Polite=Infm	4	case	_	_
 4	31	_	NUM	_	NumType=Card	2	nsubj	_	_
-5	Dhésèmber	_	PROPN	_	_	4	flat	_	_
+5	Dhesèmber	_	PROPN	_	_	4	flat	_	_
 6	2011	_	NUM	_	NumType=Card	4	flat	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-41
-# text = Dhèwèké wis tau njabat kepala Inspeksi Kebudayaan ing Sumatera.
+# text = Dhèwèke wis tau njabat kepala Inspeksi Kebudayaan ing Sumatera.
 # text_id = Ia pernah menjabat sebagai Kepala Inspeksi Kebudayaan di Sumatera.
 # text_en = He has served as Head of Cultural Inspection in Sumatra.
-1	Dhèwèké	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
+1	Dhèwèke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
 2	wis	_	AUX	_	Polite=Infm	4	aux	_	Level=Ngoko
 3	tau	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	2	fixed	_	Level=Ngoko
 4	njabat	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -2823,12 +2823,12 @@
 10	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-42
-# text = Karyané kang paling wigati yaiku Trilogi Cinta(爱情的三部曲).
+# text = Karyane kang paling wigati yaiku Trilogi Cinta(爱情的三部曲).
 # text_id = Karyanya yang paling penting adalah Love Trilogy (爱情 ).
 # text_en = His most important work is the Love Trilogy (爱情).
-1-2	Karyané	_	_	_	_	_	_	_	_
+1-2	Karyane	_	_	_	_	_	_	_	_
 1	Karya	_	NOUN	_	Number=Sing	7	nsubj	_	_
-2	né	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+2	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	kang	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	Level=Ngoko
 4	paling	_	ADV	_	_	5	advmod	_	_
 5	wigati	_	ADJ	_	Polite=Infm	1	acl:relcl	_	Level=Ngoko
@@ -2841,13 +2841,13 @@
 12	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = opus-wiki-43
-# text = Kanthi ulah raga dikarepaké para prajurit dadi tangkas lan sregep ing perang.
+# text = Kanthi ulah raga dikarepake para prajurit dadi tangkas lan sregep ing perang.
 # text_id = Dengan berolahraga diharapkan para prajurit menjadi lincah dan kuat dalam pertempuran.
 # text_en = By exercising, it is hoped that the soldiers will become agile and strong in battle.
 1	Kanthi	_	ADP	_	Polite=Infm	2	case	_	Level=Ngoko
 2	ulah	_	NOUN	_	Number=Sing	4	obl	_	_
 3	raga	_	NOUN	_	Number=Sing	2	nmod	_	_
-4	dikarepaké	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
+4	dikarepake	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	6	det	_	_
 6	prajurit	_	NOUN	_	Number=Sing	7	nsubj	_	_
 7	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	ccomp	_	Level=Ngoko
@@ -2878,13 +2878,13 @@
 13	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = opus-wiki-45
-# text = Tembang punika dipunbektakaken déning Tommy Edwards lan dados nomer 1 sing misuwur ing taun 1958!
+# text = Tembang punika dipunbektakaken dening Tommy Edwards lan dados nomer 1 sing misuwur ing taun 1958!
 # text_id = Lagu tersebut dinyanyikan oleh Tommy Edwards dan menjadi hit nomor 1 pada tahun 1958!
 # text_en = The song was sung by Tommy Edwards and became a number 1 hit in 1958!
 1	Tembang	_	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 2	punika	_	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 3	dipunbektakaken	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
-4	déning	_	ADP	_	Polite=Infm	5	case	_	Level=Ngoko
+4	dening	_	ADP	_	Polite=Infm	5	case	_	Level=Ngoko
 5	Tommy	_	PROPN	_	_	3	obl:agent	_	_
 6	Edwards	_	PROPN	_	_	5	flat:name	_	_
 7	lan	_	CCONJ	_	Polite=Infm	8	cc	_	Level=Ngoko
@@ -2899,14 +2899,14 @@
 16	!	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = opus-wiki-46
-# text = EAT ngambakake kegiyatané kanti ngleboni tataran kontrak karo DHL Worldwide Express taun 1985.
+# text = EAT ngambakake kegiyatane kanti ngleboni tataran kontrak karo DHL Worldwide Express taun 1985.
 # text_id = EAT memperluas kegiatannya dengan menandatangani kontrak dengan DHL Worldwide Express pada tahun 1985.
 # text_en = EAT expanded its activities by signing a contract with DHL Worldwide Express in 1985.
 1	EAT	_	PROPN	_	_	2	nsubj	_	_
 2	ngambakake	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-3-4	kegiyatané	_	_	_	_	_	_	_	_
+3-4	kegiyatane	_	_	_	_	_	_	_	_
 3	kegiyatan	_	NOUN	_	Number=Sing	2	obj	_	_
-4	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
+4	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
 5	kanti	_	SCONJ	_	Polite=Infm	6	mark	_	Level=Ngoko
 6	ngleboni	_	VERB	_	Mood=Ind|Voice=Act	2	advcl	_	_
 7	tataran	_	NOUN	_	Number=Sing	6	obj	_	_
@@ -2920,12 +2920,12 @@
 15	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = opus-wiki-47
-# text = Warnané putih lan bening.
+# text = Warnane putih lan bening.
 # text_id = Warnanya putih dan transparan.
 # text_en = It is white and transparent.
-1-2	Warnané	_	_	_	_	_	_	_	_
+1-2	Warnane	_	_	_	_	_	_	_	_
 1	Warna	_	NOUN	_	Number=Sing	3	nsubj	_	_
-2	né	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+2	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	putih	_	ADJ	_	_	0	root	_	_
 4	lan	_	CCONJ	_	Polite=Infm	5	cc	_	Level=Ngoko
 5	bening	_	ADJ	_	_	3	conj	_	SpaceAfter=No
@@ -2952,7 +2952,7 @@
 15	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = opus-wiki-49
-# text = (BBC) 5 - Gjorge Ivanov mimpang pemilu présidhèn ing Makedonia.
+# text = (BBC) 5 - Gjorge Ivanov mimpang pemilu presidhèn ing Makedonia.
 # text_id = (BBC) 5 - Gjorge Ivanov menjalankan pemilihan presiden Makedonia.
 # text_en = (BBC) 5 - Gjorge Ivanov runs the Macedonian presidential election.
 1	(	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -2964,7 +2964,7 @@
 7	Ivanov	_	PROPN	_	_	6	flat:name	_	_
 8	mimpang	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 9	pemilu	_	NOUN	_	Number=Sing	8	obj	_	_
-10	présidhèn	_	NOUN	_	Number=Sing	9	nmod	_	_
+10	presidhèn	_	NOUN	_	Number=Sing	9	nmod	_	_
 11	ing	_	ADP	_	Polite=Infm	12	case	_	_
 12	Makedonia	_	PROPN	_	_	9	nmod	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	8	punct	_	_
@@ -3064,17 +3064,17 @@
 10	.	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = opus-wiki-57
-# text = "Déné piyambakipun ngolah bakal ingkang strategis kanggé kapentingan rakyat," ngendikanipun Endriartono.
+# text = "Dene piyambakipun ngolah bakal ingkang strategis kangge kapentingan rakyat," ngendikanipun Endriartono.
 # text_id = "Padahal dia mengolah bahan yang strategis untuk kepentingan rakyat," kata Endriartono.
 # text_en = "Whereas he processes materials that are strategic for the benefit of the people," said Endriartono.
 1	"	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
-2	Déné	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
+2	Dene	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
 3	piyambakipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	4	nsubj	_	Level=Krama
 4	ngolah	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 5	bakal	_	NOUN	_	Number=Sing	4	obj	_	_
 6	ingkang	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	Level=Krama
 7	strategis	_	ADJ	_	_	5	acl:relcl	_	_
-8	kanggé	_	ADP	_	Polite=Form	9	case	_	Level=Krama
+8	kangge	_	ADP	_	Polite=Form	9	case	_	Level=Krama
 9	kapentingan	_	NOUN	_	Number=Sing	7	obl	_	_
 10	rakyat	_	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
 11	,	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -3115,7 +3115,7 @@
 12	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-60
-# text = Nalika taun 1999, Danau Sentarum dikukuhaké dadi taman nasional.
+# text = Nalika taun 1999, Danau Sentarum dikukuhake dadi taman nasional.
 # text_id = Pada tahun 1999, Danau Sentarum dikukuhkan menjadi taman nasional.
 # text_en = In 1999, Lake Sentarum was declared a national park.
 1	Nalika	_	ADP	_	_	2	case	_	_
@@ -3124,20 +3124,20 @@
 4	,	_	PUNCT	_	_	2	punct	_	_
 5	Danau	_	PROPN	_	_	7	nsubj:pass	_	_
 6	Sentarum	_	PROPN	_	_	5	flat:name	_	_
-7	dikukuhaké	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
+7	dikukuhake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 8	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	7	xcomp	_	Level=Ngoko
 9	taman	_	NOUN	_	Number=Sing	8	obj	_	_
 10	nasional	_	ADJ	_	_	9	amod	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = opus-wiki-61
-# text = Hasan tegesé "gagah" ing Basa Arab.
+# text = Hasan tegese "gagah" ing Basa Arab.
 # text_id = Hasan dalam bahasa Arab artinya Tampan.
 # text_en = Hasan means "handsome" in Arabic.
 1	Hasan	_	PROPN	_	_	2	nsubj	_	_
-2-3	tegesé	_	_	_	_	_	_	_	_
+2-3	tegese	_	_	_	_	_	_	_	_
 2	teges	_	NOUN	_	Number=Sing	0	root	_	_
-3	é	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	2	det	_	Level=Ngoko
+3	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	2	det	_	Level=Ngoko
 4	"	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	gagah	_	ADJ	_	_	2	nmod	_	SpaceAfter=No
 6	"	_	PUNCT	_	_	5	punct	_	_
@@ -3172,15 +3172,15 @@
 20	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = opus-wiki-63
-# text = Ing 24 Maret, dhèwèké nyétak rong gol nglawan Real Sociedad.
+# text = Ing 24 Maret, dhèwèke nyetak rong gol nglawan Real Sociedad.
 # text_id = Pada 24 Maret, ia mencetak dua gol melawan Real Sociedad.
 # text_en = On March 24, he scored two goals against Real Sociedad.
 1	Ing	_	ADP	_	_	2	case	_	_
 2	24	_	NUM	_	NumType=Card	6	obl:tmod	_	_
 3	Maret	_	PROPN	_	_	2	flat	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	2	punct	_	_
-5	dhèwèké	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	6	nsubj	_	Level=Ngoko
-6	nyétak	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
+5	dhèwèke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	6	nsubj	_	Level=Ngoko
+6	nyetak	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 7	rong	_	NUM	_	NumType=Card|Polite=Infm	8	nummod	_	Level=Ngoko
 8	gol	_	NOUN	_	Number=Sing	6	obl	_	_
 9	nglawan	_	VERB	_	Mood=Ind|Voice=Act	6	advcl	_	_
@@ -3189,14 +3189,14 @@
 12	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = opus-wiki-64
-# text = Taun 1948, dhèwèké nglakokaké reorganisasi Persis kang ngalami kevakuman awit jaman pendudukan Jepang lan Perang Kemerdekaan.
+# text = Taun 1948, dhèwèke nglakokake reorganisasi Persis kang ngalami kevakuman awit jaman pendudukan Jepang lan Perang Kemerdekaan.
 # text_id = Pada tahun 1948, ia melakukan reorganisasi Persis yang sempat vakum sejak pendudukan Jepang dan Perang Kemerdekaan.
 # text_en = In 1948, he undertook the reorganization of Persis which had been in a state of vacuum since the Japanese occupation and the War of Independence.
 1	Taun	_	NOUN	_	Number=Sing|Polite=Infm	5	obl:tmod	_	Level=Ngoko
 2	1948	_	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	1	punct	_	_
-4	dhèwèké	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nsubj	_	Level=Ngoko
-5	nglakokaké	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
+4	dhèwèke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nsubj	_	Level=Ngoko
+5	nglakokake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 6	reorganisasi	_	X	_	Foreign=Yes	5	obj	_	_
 7	Persis	_	PROPN	_	_	6	nmod	_	_
 8	kang	_	PRON	_	Polite=Form|PronType=Rel	9	nsubj	_	Level=Krama
@@ -3212,12 +3212,12 @@
 18	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = opus-wiki-65
-# text = Maskapé iki ngoperasikaké jaringan penerbangan tumuju 50 tujuan ing 20 nagara, kalebu penerbangan jarak adoh tumuju Afrika Timur, Tengah, lan Barat.
+# text = Maskape iki ngoperasikake jaringan penerbangan tumuju 50 tujuan ing 20 nagara, kalebu penerbangan jarak adoh tumuju Afrika Timur, Tengah, lan Barat.
 # text_id = Maskapai ini mengoperasikan jaringan penerbangan ke 50 tujuan di 20 negara, termasuk penerbangan jarak jauh ke Afrika Timur, Tengah, dan Barat.
 # text_en = The airline operates a network of flights to 50 destinations in 20 countries, including long -haul flights to East, Central, and West Africa.
-1	Maskapé	_	NOUN	_	Number=Sing	3	nsubj	_	_
+1	Maskape	_	NOUN	_	Number=Sing	3	nsubj	_	_
 2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
-3	ngoperasikaké	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
+3	ngoperasikake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 4	jaringan	_	X	_	Foreign=Yes	3	obj	_	_
 5	penerbangan	_	X	_	Foreign=Yes	4	flat:foreign	_	_
 6	tumuju	_	VERB	_	Mood=Ind|Voice=Act	3	advcl	_	_
@@ -3242,10 +3242,10 @@
 25	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = opus-wiki-66
-# text = Maskapé iki wujud anggota European Low Fares Airline Association (ELFAA).
+# text = Maskape iki wujud anggota European Low Fares Airline Association (ELFAA).
 # text_id = Perusahaan ini adalah anggota European Low Fares Airline Association (ELFAA). 
 # text_en = The company is a member of the European Low Fares Airline Association (ELFAA).
-1	Maskapé	_	NOUN	_	Number=Sing	3	nsubj	_	_
+1	Maskape	_	NOUN	_	Number=Sing	3	nsubj	_	_
 2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
 3	wujud	_	NOUN	_	Number=Sing	0	root	_	_
 4	anggota	_	NOUN	_	Number=Sing	3	nmod	_	_
@@ -3275,12 +3275,12 @@
 10	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = opus-wiki-68
-# text = Bapaké yaiku pengacara.
+# text = Bapake yaiku pengacara.
 # text_id = Ayahnya adalah seorang pengacara.
 # text_en = His father was a lawyer.
-1-2	Bapaké	_	_	_	_	_	_	_	_
+1-2	Bapake	_	_	_	_	_	_	_	_
 1	Bapak	_	NOUN	_	Number=Sing	4	nsubj	_	_
-2	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+2	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	yaiku	_	AUX	_	Polite=Infm	4	cop	_	Level=Ngoko
 4	pengacara	_	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
@@ -3350,15 +3350,15 @@
 17	"	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = opus-wiki-73
-# text = Pira-pira dhoktrin mbédakaké antarané penembak runduk (sniper) lan penembak jitu (marksman, sharpshooter, utawa designated marksman).
+# text = Pira-pira dhoktrin mbedakake antarane penembak runduk (sniper) lan penembak jitu (marksman, sharpshooter, utawa designated marksman).
 # text_id = Beberapa doktrin membedakan antara penembak runduk (sniper) dan penembak jitu (marksman, sharpshooter, atau penembak jitu yang ditunjuk).
 # text_en = Several doctrines distinguish between a sniper and a marksman, sharpshooter, or designated marksman.
 1	Pira-pira	_	DET	_	Number=Plur|Polite=Infm|PronType=Ind	2	det	_	Level=Ngoko
 2	dhoktrin	_	X	_	Foreign=Yes	3	nsubj	_	_
-3	mbédakaké	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-4-5	antarané	_	_	_	_	_	_	_	_
+3	mbedakake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
+4-5	antarane	_	_	_	_	_	_	_	_
 4	antara	_	NOUN	_	Number=Sing|Polite=Infm	5	nmod:lmod	_	Level=Ngoko
-5	né	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	6	nmod	_	Level=Ngoko
+5	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	6	nmod	_	Level=Ngoko
 6	penembak	_	NOUN	_	Number=Sing	3	obl	_	_
 7	runduk	_	ADJ	_	_	6	amod	_	_
 8	(	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -3425,7 +3425,7 @@
 21	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-76
-# text = Nalika taun 2006 tembang iki uga digunakaké ana ing sapérangan episode ing serial TV Supernatural.
+# text = Nalika taun 2006 tembang iki uga digunakake ana ing saperangan episode ing serial TV Supernatural.
 # text_id = Pada tahun 2006 lagu tersebut juga digunakan dalam sebagian episode serial TV Supernatural.
 # text_en = In 2006 the song was also used in several episodes of the TV series Supernatural.
 1	Nalika	_	ADP	_	Polite=Elev	2	case	_	Level=KramaInggil
@@ -3434,10 +3434,10 @@
 4	tembang	_	NOUN	_	Number=Sing	7	nsubj:pass	_	_
 5	iki	_	DET	_	Polite=Infm|PronType=Dem	4	det	_	Level=Ngoko
 6	uga	_	ADV	_	Polite=Infm	7	advmod	_	Level=Ngoko
-7	digunakaké	_	VERB	Polite=Infm	Voice=Pass	0	root	_	Level=Ngoko
+7	digunakake	_	VERB	Polite=Infm	Voice=Pass	0	root	_	Level=Ngoko
 8	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	7	advcl	_	Level=Ngoko
 9	ing	_	ADP	_	Polite=Infm	10	case	_	_
-10	sapérangan	_	NOUN	_	Number=Sing	8	obl	_	_
+10	saperangan	_	NOUN	_	Number=Sing	8	obl	_	_
 11	episode	_	NOUN	_	Number=Sing	10	nmod	_	_
 12	ing	_	ADP	_	Polite=Infm	13	case	_	_
 13	serial	_	NOUN	_	Number=Sing	11	nmod	_	_
@@ -3446,7 +3446,7 @@
 16	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = opus-wiki-77
-# text = Akèh-akèhe tembang Shakur dipunsèrat nganggo kekerasan ing ghetto, rasisme, prakawis sosial, lan kadang padudoné kaliyan rapper sanès.
+# text = Akèh-akèhe tembang Shakur dipunsèrat nganggo kekerasan ing ghetto, rasisme, prakawis sosial, lan kadang padudone kaliyan rapper sanès.
 # text_id = Sebagian besar lagu Shakur ditulis dengan kekerasan ghetto, rasisme, masalah sosial, dan terkadang konflik dengan rapper lain.
 # text_en = Most of Shakur’s songs are written with ghetto violence, racism, social issues, and sometimes conflicts with other rappers.
 1	Akèh-akèhe	_	DET	_	Number=Plur|Polite=Infm|PronType=Ind	2	det	_	Level=Ngoko
@@ -3465,9 +3465,9 @@
 14	,	_	PUNCT	_	_	17	punct	_	_
 15	lan	_	CCONJ	_	Polite=Infm	17	cc	_	Level=Ngoko
 16	kadang	_	ADV	_	_	17	advmod	_	_
-17-18	padudoné	_	_	_	_	_	_	_	_
+17-18	padudone	_	_	_	_	_	_	_	_
 17	padudon	_	VERB	_	Mood=Ind|Voice=Act	8	conj	_	_
-18	é	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	17	det	_	Level=Ngoko
+18	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	17	det	_	Level=Ngoko
 19	kaliyan	_	ADP	_	Polite=Form	20	case	_	Level=Krama
 20	rapper	_	X	_	Foreign=Yes	17	obl	_	_
 21	sanès	_	ADJ	_	_	20	amod	_	SpaceAfter=No
@@ -3613,7 +3613,7 @@
 19	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = opus-wiki-85
-# text = Iridium 33 iku satelit komunikasi Iridium Amérika Sarékat.
+# text = Iridium 33 iku satelit komunikasi Iridium Amerika Sarekat.
 # text_id = Iridium 33 adalah satelit komunikasi Iridium Amerika Serikat.
 # text_en = Iridium 33 is an Iridium communications satellite of the United States.
 1	Iridium	_	PROPN	_	_	4	nsubj	_	_
@@ -3622,12 +3622,12 @@
 4	satelit	_	NOUN	_	Number=Sing	0	root	_	_
 5	komunikasi	_	NOUN	_	Number=Sing	4	nmod	_	_
 6	Iridium	_	PROPN	_	_	4	nmod	_	_
-7	Amérika	_	PROPN	_	_	4	nmod	_	_
-8	Sarékat	_	PROPN	_	_	7	flat:foreign	_	SpaceAfter=No
+7	Amerika	_	PROPN	_	_	4	nmod	_	_
+8	Sarekat	_	PROPN	_	_	7	flat:foreign	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-86
-# text = Geolog Inggris John Michell kanthi kapisah ugi manggihaken timbangan puntir ing taun 1750, nanging piyambakipun gagal migunakaken kanggé ngukur medan daya tarik bumi.
+# text = Geolog Inggris John Michell kanthi kapisah ugi manggihaken timbangan puntir ing taun 1750, nanging piyambakipun gagal migunakaken kangge ngukur medan daya tarik bumi.
 # text_id = Ahli geologi Inggris John Michell secara terpisah juga menemukan skala torsional pada tahun 1750, tetapi ia gagal menggunakannya untuk mengukur medan gravitasi bumi.
 # text_en = British geologist John Michell separately also discovered torsional scales in 1750, but he failed to use them to measure the earth’s gravitational field.
 1	Geolog	_	NOUN	_	Number=Sing	8	nsubj	_	_
@@ -3648,7 +3648,7 @@
 16	piyambakipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	17	nsubj	_	Level=Krama
 17	gagal	_	VERB	_	Mood=Ind|Voice=Act	8	conj	_	_
 18	migunakaken	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	17	xcomp	_	Level=Ngoko
-19	kanggé	_	SCONJ	_	Polite=Form	20	mark	_	Level=Krama
+19	kangge	_	SCONJ	_	Polite=Form	20	mark	_	Level=Krama
 20	ngukur	_	VERB	_	Mood=Ind|Voice=Act	18	advcl	_	_
 21	medan	_	NOUN	_	Number=Sing	20	obj	_	_
 22	daya	_	NOUN	_	Number=Sing	21	nmod	_	_
@@ -3685,22 +3685,22 @@
 8	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-89
-# text = Nalika taun 2002 panjenengané nentang aksi militèr 'sepihak' déning Amérika Sarékat ing Irak.
+# text = Nalika taun 2002 panjenengane nentang aksi militèr 'sepihak' dening Amerika Sarekat ing Irak.
 # text_id = Pada tahun 2002 ia menentang aksi militer 'sepihak' oleh Amerika Serikat di Irak.
 # text_en = In 2002 he opposed ‘unilateral’ military action by the United States in Iraq.
 1	Nalika	_	ADP	_	Polite=Elev	2	case	_	Level=KramaInggil
 2	taun	_	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	2002	_	NUM	_	NumType=Card	2	nummod	_	_
-4	panjenengané	_	PRON	_	Number=Sing|Person=3|Polite=Elev|PronType=Prs	5	nsubj	_	Level=KramaInggil
+4	panjenengane	_	PRON	_	Number=Sing|Person=3|Polite=Elev|PronType=Prs	5	nsubj	_	Level=KramaInggil
 5	nentang	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	aksi	_	NOUN	_	Number=Sing	5	obj	_	_
 7	militèr	_	NOUN	_	Number=Sing	6	nmod	_	_
 8	'	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	sepihak	_	ADJ	_	_	6	amod	_	SpaceAfter=No
 10	'	_	PUNCT	_	_	9	punct	_	_
-11	déning	_	ADP	_	Polite=Infm	12	case	_	Level=Ngoko
-12	Amérika	_	PROPN	_	_	6	nmod	_	_
-13	Sarékat	_	PROPN	_	_	12	flat:name	_	_
+11	dening	_	ADP	_	Polite=Infm	12	case	_	Level=Ngoko
+12	Amerika	_	PROPN	_	_	6	nmod	_	_
+13	Sarekat	_	PROPN	_	_	12	flat:name	_	_
 14	ing	_	ADP	_	Polite=Infm	15	case	_	_
 15	Irak	_	PROPN	_	_	6	nmod	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	5	punct	_	_
@@ -3783,12 +3783,12 @@
 30	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-93
-# text = ABC wiwit disiaraké ing TV nalika taun 1948.
+# text = ABC wiwit disiarake ing TV nalika taun 1948.
 # text_id = ABC mulai ditayangkan di TV pada tahun 1948.
 # text_en = ABC began airing on TV in 1948.
 1	ABC	_	PROPN	_	_	2	nsubj	_	_
 2	wiwit	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-3	disiaraké	_	VERB	_	Mood=Ind|Voice=Pass	2	xcomp	_	_
+3	disiarake	_	VERB	_	Mood=Ind|Voice=Pass	2	xcomp	_	_
 4	ing	_	ADP	_	Polite=Infm	5	case	_	_
 5	TV	_	PROPN	_	_	3	obl	_	_
 6	nalika	_	ADP	_	Polite=Elev	7	case	_	Level=KramaInggil
@@ -3809,7 +3809,7 @@
 7	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-95
-# text = Lajeng ayahipun ngaturi piyambakipun mlebet ing tim gadahanipun piyambak ingkang ndherek lomba ing ajang Formula Three Euroseries lan F3 lokal Éropah.
+# text = Lajeng ayahipun ngaturi piyambakipun mlebet ing tim gadahanipun piyambak ingkang ndherek lomba ing ajang Formula Three Euroseries lan F3 lokal eropah.
 # text_id = Kemudian ayahnya mengundangnya untuk bergabung dengan tim milik pribadinya yang turun di ajang Formula Tiga Euroseries dan F3 lokal di Eropa.
 # text_en = Then his father invited him to join his privately owned team that competed in Formula Three Euroseries and local F3 in Europe.
 1	Lajeng	_	ADV	_	Polite=Form	4	advmod	_	Level=Krama
@@ -3836,17 +3836,17 @@
 20	lan	_	CCONJ	_	Polite=Infm	21	cc	_	Level=Ngoko
 21	F3	_	PROPN	_	_	17	conj	_	_
 22	lokal	_	ADJ	_	_	21	amod	_	_
-23	Éropah	_	PROPN	_	_	21	nmod	_	SpaceAfter=No
+23	eropah	_	PROPN	_	_	21	nmod	_	SpaceAfter=No
 24	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-96
-# text = Tetandhingan pungkasané ana ing Seri A yaiku nalika nglawan Inter Milan tanggal 4 April 2004.
+# text = Tetandhingan pungkasane ana ing Seri A yaiku nalika nglawan Inter Milan tanggal 4 April 2004.
 # text_id = Pertandingan terakhirnya di Seri A adalah melawan Inter Milan pada 4 April 2004.
 # text_en = His last match in Series A was against Inter Milan on April 4, 2004.
 1	Tetandhingan	_	NOUN	_	Number=Sing	10	nsubj	_	_
-2-3	pungkasané	_	_	_	_	_	_	_	_
+2-3	pungkasane	_	_	_	_	_	_	_	_
 2	pungkasan	_	ADJ	_	Polite=Form	1	amod	_	Level=Krama
-3	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+3	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 4	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	1	acl	_	Level=Ngoko
 5	ing	_	ADP	_	Polite=Infm	6	case	_	_
 6	Seri	_	PROPN	_	_	4	obl	_	_
@@ -3876,10 +3876,10 @@
 8	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = opus-wiki-98
-# text = Dhèwèké yaiku anggota Senat Filipina.
+# text = Dhèwèke yaiku anggota Senat Filipina.
 # text_id = Dia adalah anggota Senat Filipina.
 # text_en = He is a member of the Philippine Senate.
-1	Dhèwèké	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nsubj	_	Level=Ngoko
+1	Dhèwèke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nsubj	_	Level=Ngoko
 2	yaiku	_	AUX	_	Polite=Infm	3	cop	_	Level=Ngoko
 3	anggota	_	X	_	Foreign=Yes	0	root	_	_
 4	Senat	_	PROPN	_	_	3	nmod	_	_
@@ -3922,7 +3922,7 @@
 16	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = opus-wiki-101
-# text = Dados ing dalu punika 3 rookie dipuneliminasi, kaliyan Skip Sheffield dipuneliminasi amargi ing pertandhingan pro, urutané sing pungkasan pertandhingan iku.
+# text = Dados ing dalu punika 3 rookie dipuneliminasi, kaliyan Skip Sheffield dipuneliminasi amargi ing pertandhingan pro, urutane sing pungkasan pertandhingan iku.
 # text_id = Jadi malam itu 3 pemula tersingkir, dengan Skip Sheffield tersingkir karena dalam pemilihan pro, urutannya yaitu yang terakhir dalam pemilihan itu.
 # text_en = So that night 3 rookies were eliminated, with Skip Sheffield getting knocked out because in the pro vote, his ranking was last in that election.
 1	Dados	_	ADV	_	Polite=Form	7	advmod	_	Level=Krama
@@ -3942,9 +3942,9 @@
 15	pertandhingan	_	NOUN	_	Number=Sing	21	nmod	_	_
 16	pro	_	X	_	Foreign=Yes	15	amod	_	SpaceAfter=No
 17	,	_	PUNCT	_	_	21	punct	_	_
-18-19	urutané	_	_	_	_	_	_	_	_
+18-19	urutane	_	_	_	_	_	_	_	_
 18	urutan	_	NOUN	_	Number=Sing	21	nsubj	_	_
-19	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	18	nmod:poss	_	_
+19	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	18	nmod:poss	_	_
 20	sing	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	21	det	_	Level=Ngoko
 21	pungkasan	_	ADJ	_	Polite=Form	12	advcl	_	Level=Krama
 22	pertandhingan	_	NOUN	_	Number=Sing	21	obl	_	_
@@ -3985,7 +3985,7 @@
 28	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = opus-wiki-103
-# text = Perusahaan Dodge Bersaudara pun ngerembag sukses amargi kualitasipun saé , lan perusahaan punika enggal dados perusahaan ingkang penjualanipun ageng ing pasar AS taun 1916.
+# text = Perusahaan Dodge Bersaudara pun ngerembag sukses amargi kualitasipun sae , lan perusahaan punika enggal dados perusahaan ingkang penjualanipun ageng ing pasar AS taun 1916.
 # text_id = Dodge bersaudara juga menikmati kesuksesan karena kualitasnya yang baik, dan perusahaan tersebut segera menjadi perusahaan dengan penjualan besar di pasar AS pada tahun 1916.
 # text_en = The Dodge brothers also enjoyed success due to their good quality, and the company soon became a major selling company in the US market in 1916.
 1	Perusahaan	_	NOUN	_	Number=Sing	5	nsubj	_	_
@@ -3998,7 +3998,7 @@
 8-9	kualitasipun	_	_	_	_	_	_	_	_
 8	kualitas	_	NOUN	_	Number=Sing	10	nsubj	_	_
 9	ipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	8	nmod:poss	_	Level=Krama
-10	saé	_	ADJ	_	_	5	advcl	_	_
+10	sae	_	ADJ	_	_	5	advcl	_	_
 11	,	_	PUNCT	_	_	16	punct	_	_
 12	lan	_	CCONJ	_	Polite=Infm	16	cc	_	Level=Ngoko
 13	perusahaan	_	NOUN	_	Number=Sing	16	nsubj	_	_
@@ -4019,7 +4019,7 @@
 27	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = opus-wiki-104
-# text = Bab iki isa dideleng ing toko-toko IKEA lan ing katalogé, marakake pitakonan kaya: "Kena apa IKEA ngadol tanpa ngrakit?" utawa "Kena apa IKEA nggawé akèh-akèhan?" utawa "Kena apa ora biyasa?".
+# text = Bab iki isa dideleng ing toko-toko IKEA lan ing kataloge, marakake pitakonan kaya: "Kena apa IKEA ngadol tanpa ngrakit?" utawa "Kena apa IKEA nggawe akèh-akèhan?" utawa "Kena apa ora biyasa?".
 # text_id = Ini dapat dilihat di toko-toko IKEA dan di katalog, menimbulkan pertanyaan seperti: "Mengapa IKEA menjual tanpa dirakit?" atau "Mengapa IKEA menghasilkan begitu banyak?" atau “Mengapa tidak terbiasa?”.
 # text_en = This can be seen in IKEA stores and in catalogs, forming questions such as: "Why does IKEA sell unassembled?" or "Why does IKEA make so much?" or “Why not get used to it?”.
 1	Bab	_	NOUN	_	Number=Sing	4	nsubj:pass	_	_
@@ -4031,9 +4031,9 @@
 7	IKEA	_	PROPN	_	_	6	nmod	_	_
 8	lan	_	CCONJ	_	Polite=Infm	10	cc	_	Level=Ngoko
 9	ing	_	ADP	_	Polite=Infm	10	case	_	_
-10-11	katalogé	_	_	_	_	_	_	_	SpaceAfter=No
+10-11	kataloge	_	_	_	_	_	_	_	SpaceAfter=No
 10	katalog	_	X	_	Foreign=Yes	6	conj	_	_
-11	é	_	DET	_	Definite=Def|PronType=Art	10	nmod:poss	_	Level=Ngoko
+11	e	_	DET	_	Definite=Def|PronType=Art	10	nmod:poss	_	Level=Ngoko
 12	,	_	PUNCT	_	_	13	punct	_	_
 13	marakake	_	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
 14	pitakonan	_	NOUN	_	Number=Sing	13	obj	_	_
@@ -4053,7 +4053,7 @@
 28	Kena	_	ADV	_	PronType=Int	31	advmod	_	_
 29	apa	_	PRON	_	PronType=Rel	28	fixed	_	_
 30	IKEA	_	PROPN	_	_	31	nsubj	_	_
-31	nggawé	_	VERB	_	Mood=Ind|Voice=Act	21	conj	_	_
+31	nggawe	_	VERB	_	Mood=Ind|Voice=Act	21	conj	_	_
 32	akèh-akèhan	_	ADV	_	_	31	advmod	_	SpaceAfter=No
 33	?	_	PUNCT	_	_	31	punct	_	SpaceAfter=No
 34	"	_	PUNCT	_	_	31	punct	_	_
@@ -4068,7 +4068,7 @@
 43	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-105
-# text = Perang Salib 1101 yaiku perang salib saka 3 obahan kang kapisah, ingkang dipunwontenaken taun 1100 lan 1101 sawisé kasuksèsan Perang Salib Kapisan .
+# text = Perang Salib 1101 yaiku perang salib saka 3 obahan kang kapisah, ingkang dipunwontenaken taun 1100 lan 1101 sawise kasuksèsan Perang Salib Kapisan .
 # text_id = Perang Salib 1101 adalah perang salib 3 gerakan terpisah, yang diselenggarakan pada tahun 1100 dan 1101 setelah keberhasilan Perang Salib Pertama.
 # text_en = The Crusade of 1101 was a crusade of 3 separate movements, held in 1100 and 1101 after the success of the First Crusade.
 1	Perang	_	PROPN	_	_	5	nsubj	_	_
@@ -4089,7 +4089,7 @@
 16	1100	_	NUM	_	NumType=Card	15	nummod	_	_
 17	lan	_	CCONJ	_	Polite=Infm	18	cc	_	Level=Ngoko
 18	1101	_	NUM	_	NumType=Card	16	conj	_	_
-19	sawisé	_	ADP	_	_	20	case	_	_
+19	sawise	_	ADP	_	_	20	case	_	_
 20	kasuksèsan	_	NOUN	_	Number=Sing	14	obl	_	_
 21	Perang	_	PROPN	_	_	20	nmod	_	_
 22	Salib	_	PROPN	_	_	21	flat:name	_	_
@@ -4125,7 +4125,7 @@
 23	.	_	PUNCT	_	_	11	punct	_	_
 
 # sent_id = opus-wiki-107
-# text = Asma "GESTAPO" (pertama kali dipunsebat "GESTAPA") wiwit populer saksampunè pimpinanipun dipunjabat déning Hermann Göring, (Panglima "Luftwaffe", Angkatan Udara Jerman) taun 1934.
+# text = Asma "GESTAPO" (pertama kali dipunsebat "GESTAPA") wiwit populer saksampunè pimpinanipun dipunjabat dening Hermann Göring, (Panglima "Luftwaffe", Angkatan Udara Jerman) taun 1934.
 # text_id = nama "GESTAPO" (pertama disebut sebagai "GESTAPA") populer dengan kepemimpinan oleh Hermann Göring, (Komandan "Luftwaffe", Angkatan Udara Jerman) pada tahun 1934.
 # text_en = the name of "GESTAPO" (first referred to as "GESTAPA") was popular with leadership by Hermann Göring, (Commander of "Luftwaffe", German Air Force) in 1934.
 1	Asma	_	NOUN	_	Number=Sing|Polite=Form	13	nsubj	_	Level=Krama
@@ -4147,7 +4147,7 @@
 16	pimpinan	_	NOUN	_	Number=Sing	18	nsubj:pass	_	_
 17	ipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	16	nmod:poss	_	Level=Krama
 18	dipunjabat	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	13	advcl	_	Level=Krama
-19	déning	_	ADP	_	_	20	case	_	_
+19	dening	_	ADP	_	_	20	case	_	_
 20	Hermann	_	PROPN	_	_	17	obl:agent	_	_
 21	Göring	_	PROPN	_	_	20	flat:name	_	SpaceAfter=No
 22	,	_	PUNCT	_	_	24	punct	_	_
@@ -4166,7 +4166,7 @@
 35	.	_	PUNCT	_	_	13	punct	_	_
 
 # sent_id = opus-wiki-108
-# text = LMU wekdal punika gadhah 36 fasilitas akademis, atletik, administratif lan acara saliyané 12 gedhong perumahan mahasiswa lan 6 komplèks apartemèn ing aréa kampus.
+# text = LMU wekdal punika gadhah 36 fasilitas akademis, atletik, administratif lan acara saliyane 12 gedhong perumahan mahasiswa lan 6 komplèks apartemèn ing area kampus.
 # text_id = LMU saat ini memiliki 36 fasilitas akademik, atletik, administrasi dan acara di samping 12 gedung perumahan mahasiswa dan 6 kompleks apartemen di area kampus.
 # text_en = LMU currently has 36 academic, athletic, administrative and events facilities in addition to 12 student housing buildings and 6 apartment complexes on campus.
 1	LMU	_	PROPN	_	_	4	nsubj	_	_
@@ -4182,7 +4182,7 @@
 11	administratif	_	ADJ	_	_	7	conj	_	_
 12	lan	_	CCONJ	_	Polite=Infm	13	cc	_	Level=Ngoko
 13	acara	_	ADV	_	_	7	conj	_	_
-14	saliyané	_	ADP	_	_	16	case	_	_
+14	saliyane	_	ADP	_	_	16	case	_	_
 15	12	_	NUM	_	NumType=Card	16	nummod	_	_
 16	gedhong	_	NOUN	_	Number=Sing	4	obl	_	_
 17	perumahan	_	NOUN	_	Number=Sing	16	nmod	_	_
@@ -4192,15 +4192,15 @@
 21	komplèks	_	NOUN	_	Number=Sing	16	conj	_	_
 22	apartemèn	_	NOUN	_	Number=Sing	21	nmod	_	_
 23	ing	_	ADP	_	Polite=Infm	24	case	_	_
-24	aréa	_	NOUN	_	Number=Sing	4	obl	_	_
+24	area	_	NOUN	_	Number=Sing	4	obl	_	_
 25	kampus	_	NOUN	_	Number=Sing	24	nmod	_	SpaceAfter=No
 26	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-109
-# text = Présidhèn Abraham Lincoln kapilih malih ing taun 1864, ing tengah-tengah kamenangan militèr Amérika Sarékat ingkang njalaraké pungkasaning Perang Sadhèrèk.
+# text = Presidhèn Abraham Lincoln kapilih malih ing taun 1864, ing tengah-tengah kamenangan militèr Amerika Sarekat ingkang njalarake pungkasaning Perang Sadhèrèk.
 # text_id = Presiden Abraham Lincoln terpilih kembali pada tahun 1864, di tengah kemenangan militer Amerika Serikat yang menyebabkan berakhirnya Perang Saudara.
 # text_en = President Abraham Lincoln was re-elected in 1864, amid the military victories of the United States that led to the end of the Civil War.
-1	Présidhèn	_	PROPN	_	_	4	nsubj	_	_
+1	Presidhèn	_	PROPN	_	_	4	nsubj	_	_
 2	Abraham	_	PROPN	_	_	1	flat:name	_	_
 3	Lincoln	_	PROPN	_	_	1	flat:name	_	_
 4	kapilih	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
@@ -4213,10 +4213,10 @@
 11	tengah-tengah	_	NOUN	_	Number=Sing	12	nmod:lmod	_	_
 12	kamenangan	_	NOUN	_	Number=Sing	4	obl	_	_
 13	militèr	_	NOUN	_	Number=Sing	12	nmod	_	_
-14	Amérika	_	PROPN	_	_	13	nmod	_	_
-15	Sarékat	_	PROPN	_	_	14	flat:name	_	_
+14	Amerika	_	PROPN	_	_	13	nmod	_	_
+15	Sarekat	_	PROPN	_	_	14	flat:name	_	_
 16	ingkang	_	PRON	_	Polite=Form|PronType=Rel	17	nsubj	_	Level=Krama
-17	njalaraké	_	VERB	_	Mood=Ind|Voice=Act	12	acl	_	_
+17	njalarake	_	VERB	_	Mood=Ind|Voice=Act	12	acl	_	_
 18	pungkasaning	_	NOUN	_	Number=Sing	17	obj	_	_
 19	Perang	_	PROPN	_	_	18	nmod	_	_
 20	Sadhèrèk	_	PROPN	_	_	19	flat:name	_	SpaceAfter=No
@@ -4256,13 +4256,13 @@
 28	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = opus-wiki-111
-# text = Nganti pertengahan 1986 baé, AS wis sumadya dana ora kurang sak milyar dollar (aji nalika iku) nganti nggawa implikasi ing tingkat pulitik antarané Washington karo Tel-Aviv.
+# text = Nganti pertengahan 1986 bae, AS wis sumadya dana ora kurang sak milyar dollar (aji nalika iku) nganti nggawa implikasi ing tingkat pulitik antarane Washington karo Tel-Aviv.
 # text_id = Pada pertengahan 1986 saja, AS telah menyediakan tidak kurang dari satu miliar dolar (aji pada saat itu) untuk membawa implikasi pada tingkat politik antara Washington dan Tel-Aviv.
 # text_en = By mid-1986 alone, the US had provided no less than a billion dollars (aji at the time) to carry out implications at the political level between Washington and Tel-Aviv.
 1	Nganti	_	ADP	_	Polite=Infm	2	case	_	Level=Ngoko
 2	pertengahan	_	NOUN	_	Number=Sing	8	obl:tmod	_	_
 3	1986	_	NUM	_	NumType=Card	2	nummod	_	_
-4	baé	_	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	bae	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	2	punct	_	_
 6	AS	_	PROPN	_	_	8	nsubj	_	_
 7	wis	_	AUX	_	_	8	aux	_	_
@@ -4284,9 +4284,9 @@
 23	ing	_	ADP	_	Polite=Infm	24	case	_	_
 24	tingkat	_	NOUN	_	Number=Sing	22	nmod	_	_
 25	pulitik	_	NOUN	_	Number=Sing	24	nmod	_	_
-26-27	antarané	_	_	_	_	_	_	_	_
+26-27	antarane	_	_	_	_	_	_	_	_
 26	antara	_	NOUN	_	Number=Sing|Polite=Infm	27	nmod:lmod	_	Level=Ngoko
-27	né	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	28	nmod	_	_
+27	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	28	nmod	_	_
 28	Washington	_	PROPN	_	_	22	nmod	_	_
 29	karo	_	CCONJ	_	Polite=Infm	30	cc	_	Level=Ngoko
 30	Tel-Aviv	_	PROPN	_	_	28	conj	_	SpaceAfter=No
@@ -4358,7 +4358,7 @@
 29	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = opus-wiki-114
-# text = Piyambakipun salah satunggaling tiyang buruh pelabuhan, tukang watu, lan akuntan antawis taun 1922-1924, nanging kadang kala piyambakipun ugi ndhérék mendhet pérangan wonten ing "seminari" penulis.
+# text = Piyambakipun salah satunggaling tiyang buruh pelabuhan, tukang watu, lan akuntan antawis taun 1922-1924, nanging kadang kala piyambakipun ugi ndherek mendhet perangan wonten ing "seminari" penulis.
 # text_id = Dia adalah seorang pekerja pelabuhan, tukang batu, dan akuntan antara tahun 1922-1924, tetapi kadang-kadang dia juga mengambil bagian dalam "seminari" penulis.
 # text_en = He was a porter, mason, and accountant between 1922-1924, but occasionally he also took part in writer's "seminary".
 1	Piyambakipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	5	nsubj	_	Level=Krama
@@ -4384,9 +4384,9 @@
 21	kala	_	NOUN	_	Number=Sing	20	fixed	_	_
 22	piyambakipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	24	nsubj	_	Level=Krama
 23	ugi	_	ADV	_	Polite=Form	24	advmod	_	Level=Krama
-24	ndhérék	_	VERB	_	Mood=Ind|Voice=Act	5	conj	_	_
+24	ndherek	_	VERB	_	Mood=Ind|Voice=Act	5	conj	_	_
 25	mendhet	_	VERB	_	Mood=Ind|Voice=Act	24	xcomp	_	_
-26	pérangan	_	NOUN	_	Number=Sing	25	obj	_	_
+26	perangan	_	NOUN	_	Number=Sing	25	obj	_	_
 27	wonten	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	26	acl	_	Level=Krama
 28	ing	_	ADP	_	Polite=Infm	30	case	_	_
 29	"	_	PUNCT	_	_	30	punct	_	SpaceAfter=No
@@ -4396,7 +4396,7 @@
 33	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = opus-wiki-115
-# text = Standar bus PCI punika pangembanganipun déning konsorsium PCI Special Interest Group ingkang dipundhapuk déning Intel Corporation lan perusahaan sanèsipun nalika taun 1992.
+# text = Standar bus PCI punika pangembanganipun dening konsorsium PCI Special Interest Group ingkang dipundhapuk dening Intel Corporation lan perusahaan sanèsipun nalika taun 1992.
 # text_id = Standar bus PCI dikembangkan oleh konsorsium PCI Special Interest Groups yang didirikan oleh Intel Corporation dan perusahaan lain pada tahun 1992.
 # text_en = The PCI bus standard was developed by the PCI Special Interest Groups consortium founded by Intel Corporation and other companies in 1992.
 1	Standar	_	NOUN	_	Number=Sing	5	nsubj	_	_
@@ -4404,7 +4404,7 @@
 3	PCI	_	PROPN	_	_	2	nmod	_	_
 4	punika	_	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 5	pangembanganipun	_	NOUN	_	Number=Sing	0	root	_	_
-6	déning	_	ADP	_	_	7	case	_	_
+6	dening	_	ADP	_	_	7	case	_	_
 7	konsorsium	_	NOUN	_	Number=Sing	5	nmod	_	_
 8	PCI	_	PROPN	_	_	7	nmod	_	_
 9	Special	_	PROPN	_	_	8	flat:name	_	_
@@ -4412,7 +4412,7 @@
 11	Group	_	PROPN	_	_	8	flat:name	_	_
 12	ingkang	_	PRON	_	Polite=Form|PronType=Rel	13	nsubj:pass	_	Level=Krama
 13	dipundhapuk	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	7	acl:relcl	_	Level=Krama
-14	déning	_	ADP	_	_	15	case	_	_
+14	dening	_	ADP	_	_	15	case	_	_
 15	Intel	_	PROPN	_	_	13	obl:agent	_	_
 16	Corporation	_	PROPN	_	_	15	flat:name	_	_
 17	lan	_	CCONJ	_	Polite=Infm	18	cc	_	Level=Ngoko
@@ -4484,14 +4484,14 @@
 25	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-118
-# text = Piyambakipun nggayuh kalungguhan minangka présidhèn ing taun 2001 ngèlampahi kudeta boten rahan ingkang dipunsebat Revolusi EDSA II ingkang nggulingakèn Présidhèn Joseph Estrada ing tengah-tengah tuduhan korupsi.
+# text = Piyambakipun nggayuh kalungguhan minangka presidhèn ing taun 2001 ngèlampahi kudeta boten rahan ingkang dipunsebat Revolusi EDSA II ingkang nggulingakèn Presidhèn Joseph Estrada ing tengah-tengah tuduhan korupsi.
 # text_id = Dia menjabat sebagai presiden pada tahun 2001 setelah kudeta tak berdarah yang disebut Revolusi EDSA II yang menggulingkan Presiden Joseph Estrada di tengah tuduhan korupsi.
 # text_en = He took office as president in 2001 after a bloodless coup called the EDSA II Revolution that toppled President Joseph Estrada amid allegations of corruption.
 1	Piyambakipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	Level=Krama
 2	nggayuh	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	kalungguhan	_	NOUN	_	Number=Sing	2	obj	_	_
 4	minangka	_	ADP	_	_	5	case	_	_
-5	présidhèn	_	NOUN	_	Number=Sing	2	obl	_	_
+5	presidhèn	_	NOUN	_	Number=Sing	2	obl	_	_
 6	ing	_	ADP	_	Polite=Infm	7	case	_	_
 7	taun	_	NOUN	_	Number=Sing	2	obl:tmod	_	_
 8	2001	_	NUM	_	NumType=Card	7	nummod	_	_
@@ -4506,7 +4506,7 @@
 17	II	_	PROPN	_	_	15	flat:name	_	_
 18	ingkang	_	PRON	_	Polite=Form|PronType=Rel	19	nsubj	_	Level=Krama
 19	nggulingakèn	_	VERB	_	Mood=Ind|Voice=Act	15	acl	_	_
-20	Présidhèn	_	PROPN	_	_	19	obj	_	_
+20	Presidhèn	_	PROPN	_	_	19	obj	_	_
 21	Joseph	_	PROPN	_	_	20	flat:name	_	_
 22	Estrada	_	PROPN	_	_	20	flat:name	_	_
 23	ing	_	ADP	_	Polite=Infm	25	case	_	_
@@ -4516,7 +4516,7 @@
 27	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-119
-# text = Pamaburan kapisanan ing tanggal 23 November 1987 saka plataran Calverton Grumman lan prototipe pungkasan nglakokaé penerbangan ing tanggal 9 Fèbruari 1990.
+# text = Pamaburan kapisanan ing tanggal 23 November 1987 saka plataran Calverton Grumman lan prototipe pungkasan nglakokae penerbangan ing tanggal 9 Fèbruari 1990.
 # text_id = Penerbangan pertama berlangsung pada 23 November 1987 dari halaman Calverton Grumman dan prototipe terakhir melakukan penerbangan pada 9 Februari 1990.
 # text_en = The first flight took place on November 23, 1987 from the Calverton Grumman yard and the final prototype took flight on February 9, 1990.
 1	Pamaburan	_	NOUN	_	Number=Sing	4	nsubj	_	_
@@ -4533,7 +4533,7 @@
 12	lan	_	CCONJ	_	Polite=Infm	15	cc	_	Level=Ngoko
 13	prototipe	_	NOUN	_	Number=Sing	15	nsubj	_	_
 14	pungkasan	_	ADJ	_	_	13	amod	_	Level=Krama
-15	nglakokaé	_	VERB	_	Mood=Ind|Voice=Act	4	conj	_	_
+15	nglakokae	_	VERB	_	Mood=Ind|Voice=Act	4	conj	_	_
 16	penerbangan	_	NOUN	_	Number=Sing	15	obj	_	_
 17	ing	_	ADP	_	Polite=Infm	18	case	_	_
 18	tanggal	_	NOUN	_	Number=Sing	15	obl:tmod	_	_
@@ -4543,7 +4543,7 @@
 22	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-120
-# text = Vesta wujud sabuk asteroid paling utami ingkang kadang-kala ketingal tanpa piranti tambahan (ing sapérangan kadadosan ingkang cekap langka, asteroid ingkang cedhak kaliyan bumi saged ketingal tanpa bantuan teknis; pirsani 99942 Apophis).
+# text = Vesta wujud sabuk asteroid paling utami ingkang kadang-kala ketingal tanpa piranti tambahan (ing saperangan kadadosan ingkang cekap langka, asteroid ingkang cedhak kaliyan bumi saged ketingal tanpa bantuan teknis; pirsani 99942 Apophis).
 # text_id = Vesta adalah sabuk asteroid paling menonjol yang terkadang terlihat dengan mata telanjang (dalam beberapa kasus yang cukup jarang, asteroid yang dekat dengan Bumi dapat dilihat tanpa bantuan teknis; lihat 99942 Apophis).
 # text_en = Vesta is the most prominent asteroid belt sometimes visible to the naked eye (in some fairly rare cases, asteroids close to Earth can be seen without technical assistance; see 99942 Apophis).
 1	Vesta	_	PROPN	_	_	2	nsubj	_	_
@@ -4560,7 +4560,7 @@
 12	tambahan	_	ADJ	_	_	11	amod	_	_
 13	(	_	PUNCT	_	_	27	punct	_	SpaceAfter=No
 14	ing	_	ADP	_	Polite=Infm	16	case	_	_
-15	sapérangan	_	DET	_	Number=Plur|PronType=Ind	16	det	_	_
+15	saperangan	_	DET	_	Number=Plur|PronType=Ind	16	det	_	_
 16	kadadosan	_	NOUN	_	Number=Sing	27	obl	_	_
 17	ingkang	_	PRON	_	Polite=Form|PronType=Rel	19	nsubj	_	Level=Krama
 18	cekap	_	ADV	_	_	19	advmod	_	_
@@ -4584,11 +4584,11 @@
 36	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-121
-# text = Bronx éntuk akèh arus imigran Irlandia, Jerman, Yahudi lan Italia sawisé pedunungan pedésaané meledak antawis pertengahan abad kaping 19 lan 20.
+# text = Bronx entuk akèh arus imigran Irlandia, Jerman, Yahudi lan Italia sawise pedunungan pedesaane meledak antawis pertengahan abad kaping 19 lan 20.
 # text_id = Bronx menerima gelombang besar imigran Irlandia, Jerman, Yahudi, dan Italia setelah populasi pedesaannya meledak antara pertengahan abad ke-19 dan ke-20.
 # text_en = The Bronx received a large influx of Irish, German, Jewish, and Italian immigrants after its rural population exploded between the mid-19th and 20th centuries.
 1	Bronx	_	PROPN	_	_	2	nsubj	_	_
-2	éntuk	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+2	entuk	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	akèh	_	DET	_	Number=Plur|Polite=Infm|PronType=Ind	4	det	_	_
 4	arus	_	X	_	Foreign=Yes	2	obj	_	_
 5	imigran	_	X	_	Foreign=Yes	4	nmod	_	_
@@ -4599,11 +4599,11 @@
 10	Yahudi	_	PROPN	_	_	6	conj	_	_
 11	lan	_	CCONJ	_	Polite=Infm	12	cc	_	Level=Ngoko
 12	Italia	_	PROPN	_	_	6	conj	_	_
-13	sawisé	_	SCONJ	_	_	17	mark	_	_
+13	sawise	_	SCONJ	_	_	17	mark	_	_
 14	pedunungan	_	NOUN	_	Number=Sing	17	nsubj	_	_
-15-16	pedésaané	_	_	_	_	_	_	_	_
-15	pedésaan	_	NOUN	_	Number=Sing	14	nmod	_	_
-16	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	15	nmod:poss	_	Level=Ngoko
+15-16	pedesaane	_	_	_	_	_	_	_	_
+15	pedesaan	_	NOUN	_	Number=Sing	14	nmod	_	_
+16	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	15	nmod:poss	_	Level=Ngoko
 17	meledak	_	X	_	Foreign=Yes	2	advcl	_	_
 18	antawis	_	NOUN	_	Number=Sing|Polite=Form	19	nmod:lmod	_	Level=Krama
 19	pertengahan	_	NOUN	_	Number=Sing	17	obl	_	_
@@ -4615,7 +4615,7 @@
 25	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-122
-# text = Pas jamane audisi The X Factor, Niall tau ngomong kaya ngene: “Umurku 16 taun lan aku pengen duwé jeneng gedhé kaya Beyonce lan Justin Bieber.
+# text = Pas jamane audisi The X Factor, Niall tau ngomong kaya ngene: “Umurku 16 taun lan aku pengen duwe jeneng gedhe kaya Beyonce lan Justin Bieber.
 # text_id = Selama audisi untuk The X Factor, Niall pernah mengatakan sesuatu seperti: “Saya berusia 16 tahun dan saya ingin memiliki nama besar seperti Beyonce dan Justin Bieber.
 # text_en = During an audition for The X Factor, Niall once said something like: “I'm 16 years old and I want to have big names like Beyonce and Justin Bieber.
 1	Pas	_	ADP	_	_	2	case	_	_
@@ -4640,9 +4640,9 @@
 19	lan	_	CCONJ	_	Polite=Infm	21	cc	_	Level=Ngoko
 20	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	22	nsubj	_	Level=Ngoko
 21	pengen	_	AUX	_	_	22	aux	_	_
-22	duwé	_	VERB	_	Mood=Ind|Voice=Act	18	conj	_	_
+22	duwe	_	VERB	_	Mood=Ind|Voice=Act	18	conj	_	_
 23	jeneng	_	NOUN	_	Number=Sing|Polite=Infm	22	obj	_	Level=Ngoko
-24	gedhé	_	ADJ	_	Polite=Infm	23	amod	_	Level=Ngoko
+24	gedhe	_	ADJ	_	Polite=Infm	23	amod	_	Level=Ngoko
 25	kaya	_	ADP	_	_	26	case	_	_
 26	Beyonce	_	PROPN	_	_	22	obl	_	_
 27	lan	_	CCONJ	_	Polite=Infm	28	cc	_	Level=Ngoko
@@ -4694,7 +4694,7 @@
 36	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-124
-# text = Ing wiwit taun 1980 Eddie malih ing Éropah lan piyambakipun lajeng ndirikaken tim Eddie Jordan Racing ingkang mandhap ing kejuaraan Formula 3 Inggris.
+# text = Ing wiwit taun 1980 Eddie malih ing eropah lan piyambakipun lajeng ndirikaken tim Eddie Jordan Racing ingkang mandhap ing kejuaraan Formula 3 Inggris.
 # text_id = Pada awal 1980-an Eddie kembali ke Eropa dan kemudian mendirikan tim Eddie Jordan Racing yang kemudian memenangkan kejuaraan Formula 3 Inggris.
 # text_en = In the early 1980s Eddie returned to Europe and later founded the Eddie Jordan Racing team which went on to win the British Formula 3 championship.
 1	Ing	_	ADP	_	_	2	case	_	_
@@ -4704,7 +4704,7 @@
 5	Eddie	_	PROPN	_	_	6	nsubj	_	_
 6	malih	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	ing	_	ADP	_	Polite=Infm	8	case	_	_
-8	Éropah	_	PROPN	_	_	6	obl	_	_
+8	eropah	_	PROPN	_	_	6	obl	_	_
 9	lan	_	CCONJ	_	Polite=Infm	12	cc	_	Level=Ngoko
 10	piyambakipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	12	nsubj	_	Level=Krama
 11	lajeng	_	ADV	_	_	12	advmod	_	_
@@ -4723,7 +4723,7 @@
 24	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = opus-wiki-125
-# text = Rancangan ning mburi Virus Flu Burung, Amérika Sarékat lan organisasi WHO sekuthon ngrembakakaké senjata biologis kanthi nggunakaké virus flu burung.
+# text = Rancangan ning mburi Virus Flu Burung, Amerika Sarekat lan organisasi WHO sekuthon ngrembakakake senjata biologis kanthi nggunakake virus flu burung.
 # text_id = Rencana di Balik Virus Flu Burung, Amerika Serikat dan organisasi WHO bersekongkol mengembangkan senjata biologis untuk menggunakan virus flu burung.
 # text_en = The plan Behind the Avian Influenza Virus The United States and the WHO organization conspired to develop biological weapons to use the avian influenza virus.
 1	Rancangan	_	NOUN	_	Number=Sing	13	obl	_	_
@@ -4733,17 +4733,17 @@
 5	Flu	_	PROPN	_	_	4	flat:name	_	_
 6	Burung	_	PROPN	_	_	4	flat:name	_	SpaceAfter=No
 7	,	_	PUNCT	_	_	1	punct	_	_
-8	Amérika	_	PROPN	_	_	13	nsubj	_	_
-9	Sarékat	_	PROPN	_	_	8	flat:name	_	_
+8	Amerika	_	PROPN	_	_	13	nsubj	_	_
+9	Sarekat	_	PROPN	_	_	8	flat:name	_	_
 10	lan	_	CCONJ	_	Polite=Infm	11	cc	_	Level=Ngoko
 11	organisasi	_	NOUN	_	Number=Sing	8	conj	_	_
 12	WHO	_	PROPN	_	_	11	nmod	_	_
 13	sekuthon	_	VERB	_	_	0	root	_	_
-14	ngrembakakaké	_	VERB	_	Voice=Act	13	xcomp	_	_
+14	ngrembakakake	_	VERB	_	Voice=Act	13	xcomp	_	_
 15	senjata	_	NOUN	_	Number=Sing	14	obj	_	_
 16	biologis	_	NOUN	_	Number=Sing	15	nmod	_	_
 17	kanthi	_	SCONJ	_	_	18	mark	_	_
-18	nggunakaké	_	VERB	_	Voice=Pass	14	advcl	_	_
+18	nggunakake	_	VERB	_	Voice=Pass	14	advcl	_	_
 19	virus	_	NOUN	_	Number=Sing	18	obj	_	_
 20	flu	_	PROPN	_	_	19	nmod	_	_
 21	burung	_	NOUN	_	Number=Sing	20	nmod	_	SpaceAfter=No
@@ -4782,7 +4782,7 @@
 27	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = opus-wiki-127
-# text = Manawi adhi lanang Potter, Bertram, awis sanget wonten ing griya; piyambakipun dipunsekolahakèn ing sekolah asrama, pramila Beatrix namung piyambakan sareng kaliyan kéwan ingah-ingahipun.
+# text = Manawi adhi lanang Potter, Bertram, awis sanget wonten ing griya; piyambakipun dipunsekolahakèn ing sekolah asrama, pramila Beatrix namung piyambakan sareng kaliyan kewan ingah-ingahipun.
 # text_id = Jika adik laki-laki Potter, Bertram, sangat jarang berada di rumah; dia dididik di sekolah asrama, jadi Beatrix hanya berdua dengan hewan peliharaannya.
 # text_en = If Potter's younger brother, Bertram, was very rarely at home; he was raised in a boarding school, so Beatrix was alone with her pet.
 1	Manawi	_	SCONJ	_	Polite=Form	2	mark	_	Level=Krama
@@ -4810,24 +4810,24 @@
 23	piyambakan	_	ADJ	_	Polite=Form	15	advcl	_	Level=Krama
 24	sareng	_	ADV	_	Polite=Form	23	advmod	_	level=Krama
 25	kaliyan	_	ADP	_	Polite=Form	26	case	_	Level=Krama
-26	kéwan	_	NOUN	_	Number=Sing	23	obl	_	_
+26	kewan	_	NOUN	_	Number=Sing	23	obl	_	_
 27-28	ingah-ingahipun	_	_	_	_	_	_	_	SpaceAfter=No
 27	ingah-ingah	_	NOUN	_	Polite=Form	26	nmod	_	Level=Krama
 28	ipun	_	DET	_	Definite=Def|Polite=Form|PronType=Art	26	det	_	Level=Krama
 29	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = opus-wiki-128
-# text = Kanthi beasiswa, dhèwèké manggon ing Amérika Sarékat, sinau lan entuk gelar Master saka American University, Washington DC, Jurusan Komunikasi Internasional, taun 1982.
+# text = Kanthi beasiswa, dhèwèke manggon ing Amerika Sarekat, sinau lan entuk gelar Master saka American University, Washington DC, Jurusan Komunikasi Internasional, taun 1982.
 # text_id = Dengan beasiswa, ia menetap di Amerika Serikat, belajar dan memperoleh gelar Master dari American University, Washington DC, Departemen Komunikasi Internasional, pada tahun 1982.
 # text_en = With a scholarship, he settled in the United States, studied and obtained his Master's degree from American University, Washington DC, Department of International Communication, in 1982.
 1	Kanthi	_	ADP	_	Polite=Infm	2	case	_	Level=Ngoko
 2	beasiswa	_	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	2	punct	_	_
-4	dhèwèké	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nsubj	_	Level=Ngoko
+4	dhèwèke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nsubj	_	Level=Ngoko
 5	manggon	_	VERB	_	Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 6	ing	_	ADP	_	Polite=Infm	7	case	_	_
-7	Amérika	_	PROPN	_	_	5	obl	_	_
-8	Sarékat	_	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+7	Amerika	_	PROPN	_	_	5	obl	_	_
+8	Sarekat	_	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	10	punct	_	_
 10	sinau	_	VERB	_	Voice=Act	5	conj	_	_
 11	lan	_	CCONJ	_	Polite=Infm	12	cc	_	Level=Ngoko
@@ -4881,20 +4881,20 @@
 26	.	_	PUNCT	_	_	11	punct	_	_
 
 # sent_id = opus-wiki-130
-# text = Bageyané badan kang paling kerep kena akibaté yaiku: kulit (80–90%), saluran napas (70%), saluran cerna (30–45%), jantung lan pembuluh getih (10–45%), lan sistem syaraf pusat (10–15%).
+# text = Bageyane badan kang paling kerep kena akibate yaiku: kulit (80–90%), saluran napas (70%), saluran cerna (30–45%), jantung lan pembuluh getih (10–45%), lan sistem syaraf pusat (10–15%).
 # text_id = Bagian tubuh yang paling sering terkena adalah: kulit (80-90%), saluran pernapasan (70%), saluran pencernaan (30-45%), jantung dan pembuluh darah (10-45%) , dan sistem saraf pusat (10-15%).
 # text_en = The most commonly affected body parts are: skin (80-90%), respiratory tract (70%), gastrointestinal tract (30-45%), heart and blood vessels (10-45%), and central nervous system (10-45%). 15%).
-1-2	Bageyané	_	_	_	_	_	_	_	_
+1-2	Bageyane	_	_	_	_	_	_	_	_
 1	Bageyan	_	NOUN	_	Number=Sing	12	nsubj	_	_
-2	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
+2	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
 3	badan	_	NOUN	_	Number=Sing	1	nmod	_	_
 4	kang	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	Level=Ngoko
 5	paling	_	ADV	_	_	6	advmod	_	_
 6	kerep	_	ADV	_	_	7	advmod	_	_
 7	kena	_	VERB	_	Polite=Infm|Voice=Pass	1	acl:relcl	_	Level=Ngoko
-8-9	akibaté	_	_	_	_	_	_	_	_
+8-9	akibate	_	_	_	_	_	_	_	_
 8	akibat	_	NOUN	_	Number=Sing	7	obl	_	_
-9	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	8	nmod:poss	_	Level=Ngoko
+9	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	8	nmod:poss	_	Level=Ngoko
 10	yaiku	_	AUX	_	Polite=Infm	12	aux	_	Level=Ngoko|SpaceAfter=No
 11	:	_	PUNCT	_	_	12	punct	_	_
 12	kulit	_	NOUN	_	Number=Sing	0	root	_	_
@@ -4945,7 +4945,7 @@
 57	.	_	PUNCT	_	_	12	punct	_	_
 
 # sent_id = opus-wiki-131
-# text = Tokyo (東京; Tōkyō, harafiah: ibukitha wétan) punika ibukitha Jepang sisan tlatah ingkang paling padhet ing Jepang, sarta laladan metropolitan paling ageng ing donya dipuntingal saking cacah padunungipun (33.750.000 ing kitha lan tlatah saubengipun).
+# text = Tokyo (東京; Tōkyō, harafiah: ibukitha wetan) punika ibukitha Jepang sisan tlatah ingkang paling padhet ing Jepang, sarta laladan metropolitan paling ageng ing donya dipuntingal saking cacah padunungipun (33.750.000 ing kitha lan tlatah saubengipun).
 # text_id = Tokyo (東京; Tōkyō, secara harfiah: ibu kota timur) adalah sisa ibu kota terpadat di Jepang, dan wilayah metropolitan terbesar di dunia dalam hal populasi (33.750.000 di kota dan sekitarnya).
 # text_en = Tokyo (東京; Tōkyō, literally: eastern capital) is the most populous remaining capital city in Japan, and the largest metropolitan area in the world in terms of population (33,750,000 in the city and beyond).
 1	Tokyo	_	PROPN	_	_	13	nsubj	_	_
@@ -4957,7 +4957,7 @@
 7	harafiah	_	NOUN	_	Number=Sing	5	nmod	_	SpaceAfter=No
 8	:	_	PUNCT	_	_	9	punct	_	_
 9	ibukitha	_	NOUN	_	Number=Sing	7	parataxis	_	_
-10	wétan	_	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+10	wetan	_	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
 11	)	_	PUNCT	_	_	3	punct	_	_
 12	punika	_	DET	_	Polite=Form|PronType=Dem	1	det	_	Level=Krama
 13	ibukitha	_	NOUN	_	Number=Sing	0	root	_	_
@@ -4994,7 +4994,7 @@
 43	.	_	PUNCT	_	_	13	punct	_	_
 
 # sent_id = opus-wiki-132
-# text = Ing Oktober 2010, Otoritas Palestina nyekel dheweké amarga diduga ngolok-olok marang Islam ing Facebook lan ing postingan blog; Penangkapané éntuk perhatian internasional.
+# text = Ing Oktober 2010, Otoritas Palestina nyekel dheweke amarga diduga ngolok-olok marang Islam ing Facebook lan ing postingan blog; Penangkapane entuk perhatian internasional.
 # text_id = Pada bulan Oktober 2010, Otoritas Palestina menangkapnya karena diduga menghina Islam di Facebook dan di posting blog; Penangkapannya mendapat perhatian internasional.
 # text_en = In October 2010, the Palestinian Authority arrested him for allegedly insulting Islam on Facebook and in blog posts; His arrest received international attention.
 1	Ing	_	ADP	_	_	2	case	_	_
@@ -5004,7 +5004,7 @@
 5	Otoritas	_	PROPN	_	_	7	nsubj	_	_
 6	Palestina	_	PROPN	_	_	5	flat:name	_	_
 7	nyekel	_	VERB	_	Voice=Act	0	root	_	_
-8	dheweké	_	PRON	_	_	7	obj	_	_
+8	dheweke	_	PRON	_	_	7	obj	_	_
 9	amarga	_	SCONJ	_	_	10	mark	_	_
 10	diduga	_	VERB	_	Voice=Pass	7	advcl	_	_
 11	ngolok-olok	_	VERB	_	Voice=Act	10	xcomp	_	_
@@ -5017,16 +5017,16 @@
 18	postingan	_	X	_	Foreign=Yes	15	conj	_	_
 19	blog	_	NOUN	_	Number=Sing	18	nmod	_	SpaceAfter=No
 20	;	_	PUNCT	_	_	23	punct	_	_
-21-22	Penangkapané	_	_	_	_	_	_	_	_
+21-22	Penangkapane	_	_	_	_	_	_	_	_
 21	Penangkapan	_	PROPN	_	_	23	nsubj	_	_
-22	é	_	DET	_	Definite=Def|PronType=Art	21	nmod:poss	_	Level=Ngoko
-23	éntuk	_	VERB	_	Voice=Act	7	parataxis	_	Level=Ngoko
+22	e	_	DET	_	Definite=Def|PronType=Art	21	nmod:poss	_	Level=Ngoko
+23	entuk	_	VERB	_	Voice=Act	7	parataxis	_	Level=Ngoko
 24	perhatian	_	NOUN	_	Number=Sing	23	obj	_	_
 25	internasional	_	ADJ	_	_	24	amod	_	SpaceAfter=No
 26	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = opus-wiki-133
-# text = Album studhio kang kapapat, Viva la Vida or Death and All His Friends (2008), diprodhuksi déning Brian Eno lan éntuk koméntar positif uga éntuk sawetara nominasi Grammy Award lan menang ing 51st Grammy Awards.
+# text = Album studhio kang kapapat, Viva la Vida or Death and All His Friends (2008), diprodhuksi dening Brian Eno lan entuk komentar positif uga entuk sawetara nominasi Grammy Award lan menang ing 51st Grammy Awards.
 # text_id = Album studio keempatnya, Viva la Vida or Death and All His Friends (2008), diproduksi bersama Brian Eno dan untuk komentar positifnya juga dinominasikan untuk Grammy Award dan memenangkan Grammy Awards ke-51.
 # text_en = His fourth studio album, Viva la Vida or Death and All His Friends (2008), was co-produced with Brian Eno and to his positive comments was also nominated for a Grammy Award and won the 51st Grammy Awards.
 1	Album	_	NOUN	_	Number=Sing	19	nsubj:pass	_	_
@@ -5048,15 +5048,15 @@
 17	)	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
 18	,	_	PUNCT	_	_	6	punct	_	_
 19	diprodhuksi	_	VERB	_	Voice=Pass	0	root	_	_
-20	déning	_	ADP	_	Polite=Infm	21	case	_	Level=Ngoko
+20	dening	_	ADP	_	Polite=Infm	21	case	_	Level=Ngoko
 21	Brian	_	PROPN	_	_	19	obl	_	_
 22	Eno	_	PROPN	_	_	21	flat:name	_	_
 23	lan	_	CCONJ	_	Polite=Infm	24	cc	_	Level=Ngoko
-24	éntuk	_	VERB	_	Polite=Infm|Voice=Act	19	conj	_	Level=Ngoko
-25	koméntar	_	NOUN	_	Number=Sing	24	obj	_	_
+24	entuk	_	VERB	_	Polite=Infm|Voice=Act	19	conj	_	Level=Ngoko
+25	komentar	_	NOUN	_	Number=Sing	24	obj	_	_
 26	positif	_	ADJ	_	_	25	amod	_	_
 27	uga	_	ADV	_	Polite=Infm	28	advmod	_	Level=Ngoko
-28	éntuk	_	VERB	_	Polite=Infm|Voice=Act	19	conj	_	Level=Ngoko
+28	entuk	_	VERB	_	Polite=Infm|Voice=Act	19	conj	_	Level=Ngoko
 29	sawetara	_	DET	_	_	30	det	_	_
 30	nominasi	_	NOUN	_	Number=Sing	28	obj	_	_
 31	Grammy	_	PROPN	_	_	30	nmod	_	_
@@ -5070,7 +5070,7 @@
 39	.	_	PUNCT	_	_	19	punct	_	_
 
 # sent_id = opus-wiki-134
-# text = Ing pertengahan akir 1990an, prakara kaya I Love Lucy, The Mary Tyler Moore Show, lan prakara kang saiki ditayangaké ing TV Land biteen ditayangaké ing Nick at Nite.
+# text = Ing pertengahan akir 1990an, prakara kaya I Love Lucy, The Mary Tyler Moore Show, lan prakara kang saiki ditayangake ing TV Land biteen ditayangake ing Nick at Nite.
 # text_id = Pada pertengahan hingga akhir 1990-an, acara seperti I Love Lucy, The Mary Tyler Moore Show, dan acara yang sekarang ditayangkan di TV Land Biteen ditayangkan di Nick at Nite.
 # text_en = In the mid-to-late 1990s, shows such as I Love Lucy, The Mary Tyler Moore Show, and the now-airing show Land Biteen aired on Nick at Nite.
 1	Ing	_	ADP	_	_	4	case	_	_
@@ -5094,12 +5094,12 @@
 19	prakara	_	NOUN	_	Number=Plur	8	conj	_	_
 20	kang	_	PRON	_	Polite=Infm|PronType=Rel	22	nsubj:pass	_	Level=Ngoko
 21	saiki	_	NOUN	_	Polite=Infm	22	obl:tmod	_	Level=Ngoko
-22	ditayangaké	_	VERB	_	Polite=Infm|Voice=Pass	19	acl:relcl	_	Level=Ngoko
+22	ditayangake	_	VERB	_	Polite=Infm|Voice=Pass	19	acl:relcl	_	Level=Ngoko
 23	ing	_	ADP	_	Polite=Infm	24	case	_	_
 24	TV	_	PROPN	_	_	22	obl	_	_
 25	Land	_	PROPN	_	_	19	nmod	_	_
 26	biteen	_	PROPN	_	_	25	flat:name	_	_
-27	ditayangaké	_	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
+27	ditayangake	_	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 28	ing	_	ADP	_	Polite=Infm	29	case	_	_
 29	Nick	_	PROPN	_	_	27	obl	_	_
 30	at	_	PROPN	_	_	29	flat:name	_	_
@@ -5107,14 +5107,14 @@
 32	.	_	PUNCT	_	_	27	punct	_	_
 
 # sent_id = opus-wiki-135
-# text = Tembang kondhang teranyaré, "Kawa no Nagare no yōni" asring dipunbèta déning artis-artis ingkang misuwur lan orkestra, kalebèt The Three Tenors lan Teresa Teng.
+# text = Tembang kondhang teranyare, "Kawa no Nagare no yōni" asring dipunbèta dening artis-artis ingkang misuwur lan orkestra, kalebèt The Three Tenors lan Teresa Teng.
 # text_id = Lagu hits terbarunya, “Kawa no Nagare no yōni” sering dibawakan oleh artis dan orkestra terkenal, termasuk The Three Tenors dan Teresa Teng.
 # text_en = His latest hit, “Kawa no Nagare no yōni” is often performed by well-known artists and orchestras, including The Three Tenors and Teresa Teng.
 1	Tembang	_	NOUN	_	Number=Sing	14	nsubj:pass	_	_
 2	kondhang	_	ADJ	_	_	1	amod	_	_
-3-4	teranyaré	_	_	_	_	_	_	_	SpaceAfter=No
+3-4	teranyare	_	_	_	_	_	_	_	SpaceAfter=No
 3	teranyar	_	ADJ	_	_	1	amod	_	_
-4	é	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
+4	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
 5	,	_	PUNCT	_	_	7	punct	_	_
 6	"	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	Kawa	_	PROPN	_	_	1	appos	_	_
@@ -5125,7 +5125,7 @@
 12	"	_	PUNCT	_	_	7	punct	_	_
 13	asring	_	ADV	_	_	14	advmod	_	_
 14	dipunbèta	_	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
-15	déning	_	ADP	_	_	16	case	_	_
+15	dening	_	ADP	_	_	16	case	_	_
 16	artis-artis	_	NOUN	_	Number=Plur	14	obl:agent	_	_
 17	ingkang	_	PRON	_	Polite=Form|PronType=Rel	18	nsubj	_	Level=Krama
 18	misuwur	_	VERB	_	Voice=Pass	16	acl:relcl	_	_
@@ -5176,16 +5176,16 @@
 29	.	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = opus-wiki-137
-# text = Déning lembaga misi lan basa Amérika Sarékat ingkang dipunsebat Summer Institute of Linguistics (SIL), suku punika dipunlebetaken ing pamerangan 14 suku paling terasing.
+# text = Dening lembaga misi lan basa Amerika Sarekat ingkang dipunsebat Summer Institute of Linguistics (SIL), suku punika dipunlebetaken ing pamerangan 14 suku paling terasing.
 # text_id = Oleh badan misi dan bahasa Amerika Serikat yang disebut Summer Institute of Linguistics (SIL), suku ini terdaftar di antara 14 suku paling terpencil.
 # text_en = By the United States language and mission agency called the Summer Institute of Linguistics (SIL), this tribe is listed among the 14 most remote tribes. 
-1	Déning	_	ADP	_	Polite=Infm	2	case	_	_
+1	Dening	_	ADP	_	Polite=Infm	2	case	_	_
 2	lembaga	_	NOUN	_	Number=Sing	20	obl:agent	_	_
 3	misi	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	lan	_	CCONJ	_	Polite=Infm	5	cc	_	Level=Ngoko
 5	basa	_	NOUN	_	Number=Sing	3	conj	_	_
-6	Amérika	_	PROPN	_	_	2	nmod	_	_
-7	Sarékat	_	PROPN	_	_	6	flat:name	_	_
+6	Amerika	_	PROPN	_	_	2	nmod	_	_
+7	Sarekat	_	PROPN	_	_	6	flat:name	_	_
 8	ingkang	_	PRON	_	Polite=Form|PronType=Rel	9	nsubj	_	Level=Krama
 9	dipunsebat	_	VERB	_	Polite=Form|Voice=Pass	2	acl:relcl	_	Level=Krama
 10	Summer	_	PROPN	_	_	9	obl	_	_
@@ -5208,7 +5208,7 @@
 27	.	_	PUNCT	_	_	20	punct	_	_
 
 # sent_id = opus-wiki-138
-# text = Zaid mimpin kraman nglawan Bani Umayyah ing pertengahan abad kawolu, nambah kekerasan kang tansah kedadeyan antarané Bani Umayyah lan Bani Hasyim.
+# text = Zaid mimpin kraman nglawan Bani Umayyah ing pertengahan abad kawolu, nambah kekerasan kang tansah kedadeyan antarane Bani Umayyah lan Bani Hasyim.
 # text_id = Zaid memimpin pemberontakan melawan Bani Umayyah pada pertengahan abad ke-8, menambah kekerasan yang selalu berlangsung antara Bani Umayyah dan Bani Hasyim.
 # text_en = Zaid led a revolt against the Umayyads in the mid-8th century, adding to the ongoing violence between the Umayyads and the Banu Hashim.
 1	Zaid	_	PROPN	_	_	2	nsubj	_	_
@@ -5227,9 +5227,9 @@
 14	kang	_	PRON	_	Polite=Infm	16	nsubj:pass	_	_
 15	tansah	_	ADV	_	_	16	advmod	_	_
 16	kedadeyan	_	VERB	_	Voice=Pass	13	acl:relcl	_	_
-17-18	antarané	_	_	_	_	_	_	_	_
+17-18	antarane	_	_	_	_	_	_	_	_
 17	antara	_	NOUN	_	Number=Sing	18	nmod:lmod	_	_
-18	né	_	PRON	_	Polite=Infm	19	nmod	_	Level=Ngoko
+18	ne	_	PRON	_	Polite=Infm	19	nmod	_	Level=Ngoko
 19	Bani	_	PROPN	_	_	16	obl	_	_
 20	Umayyah	_	PROPN	_	_	19	flat:name	_	_
 21	lan	_	CCONJ	_	Polite=Infm	22	cc	_	Level=Ngoko
@@ -5238,18 +5238,18 @@
 24	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-139
-# text = Larangan total tumrapé panggunaan CFC taun 1990 diusulaké déning komunitas eropa ing taun 1989, kang uga dimupakati déning Présidhèn AS George Bush.
+# text = Larangan total tumrape panggunaan CFC taun 1990 diusulake dening komunitas eropa ing taun 1989, kang uga dimupakati dening Presidhèn AS George Bush.
 # text_id = Larangan total penggunaan CFC pada tahun 1990 diusulkan oleh masyarakat Eropa pada tahun 1989, yang juga disetujui oleh Presiden AS George Bush.
 # text_en = A total ban on the use of CFCs in 1990 was proposed by the European community in 1989, which was also approved by US President George Bush.
 1	Larangan	_	NOUN	_	Number=Sing	8	nsubj:pass	_	_
 2	total	_	ADJ	_	_	1	amod	_	_
-3	tumrapé	_	ADP	_	_	4	case	_	_
+3	tumrape	_	ADP	_	_	4	case	_	_
 4	panggunaan	_	NOUN	_	Number=Sing	1	nmod	_	_
 5	CFC	_	PROPN	_	_	4	nmod	_	_
 6	taun	_	NOUN	_	Number=Sing	1	nmod:tmod	_	_
 7	1990	_	NUM	_	_	6	nummod	_	_
-8	diusulaké	_	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
-9	déning	_	ADP	_	_	10	case	_	_
+8	diusulake	_	VERB	_	Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
+9	dening	_	ADP	_	_	10	case	_	_
 10	komunitas	_	NOUN	_	Number=Sing	8	obl:agent	_	_
 11	eropa	_	PROPN	_	_	10	nmod	_	_
 12	ing	_	ADP	_	Polite=Infm	13	case	_	_
@@ -5259,15 +5259,15 @@
 16	kang	_	PRON	_	Polite=Infm	18	nsubj:pass	_	Level=Ngoko
 17	uga	_	ADV	_	Polite=Infm	18	advmod	_	Level=Ngoko
 18	dimupakati	_	VERB	_	Voice=Pass	8	advcl	_	_
-19	déning	_	ADP	_	_	20	case	_	_
-20	Présidhèn	_	PROPN	_	_	18	obl:agent	_	_
+19	dening	_	ADP	_	_	20	case	_	_
+20	Presidhèn	_	PROPN	_	_	18	obl:agent	_	_
 21	AS	_	PROPN	_	_	20	flat:name	_	_
 22	George	_	PROPN	_	_	20	appos	_	_
 23	Bush	_	PROPN	_	_	22	flat:name	_	SpaceAfter=No
 24	.	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = opus-wiki-140
-# text = Piyambakipun angsal Bebungah Nobel Bedhamèn nalika taun 1909 dados pendhiri sarta présidhèn kelompok arbitrase parlemen Perancis ugi komite pertahanan kepentingan nasional lan arbitrase internasional.
+# text = Piyambakipun angsal Bebungah Nobel Bedhamèn nalika taun 1909 dados pendhiri sarta presidhèn kelompok arbitrase parlemen Perancis ugi komite pertahanan kepentingan nasional lan arbitrase internasional.
 # text_id = Dia memenangkan Hadiah Nobel Perdamaian pada tahun 1909 sebagai pendiri dan presiden dari kelompok arbitrase parlementer Prancis serta pertahanan kepentingan nasional dan komite arbitrase internasional.
 # text_en = He won the Nobel Peace Prize in 1909 as founder and president of the French parliamentary arbitration group as well as the defense of national interests and international arbitration committees.
 1	Piyambakipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	2	nsubj	_	Level=Krama
@@ -5281,7 +5281,7 @@
 9	dados	_	ADP	_	Polite=Form	10	case	_	Level=Krama
 10	pendhiri	_	NOUN	_	Number=Sing	2	obl	_	_
 11	sarta	_	CCONJ	_	_	12	cc	_	_
-12	présidhèn	_	NOUN	_	Number=Sing	10	conj	_	_
+12	presidhèn	_	NOUN	_	Number=Sing	10	conj	_	_
 13	kelompok	_	NOUN	_	Number=Sing	10	nmod	_	_
 14	arbitrase	_	X	_	Foreign=Yes	13	nmod	_	_
 15	parlemen	_	NOUN	_	Number=Sing	14	nmod	_	_
@@ -5297,7 +5297,7 @@
 25	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-141
-# text = Tantangan tuan rumah ana ing tangan Liam Broady, sing menangaké turnamen Grade 1; AEGON Junior International 2011, sing dianakaké ing Roehampton seminggu sedurung dimelaié Wimbledon.
+# text = Tantangan tuan rumah ana ing tangan Liam Broady, sing menangake turnamen Grade 1; AEGON Junior International 2011, sing dianakake ing Roehampton seminggu sedurung dimelaie Wimbledon.
 # text_id = Tantangan tuan rumah ada di tangan Liam Broady, yang menjadi juara turnamen kelas 1; AEGON Junior International 2011, yang diadakan di Roehampton seminggu sebelum Wimbledon.
 # text_en = The host's challenge rests with Liam Broady, who won the class 1 tournament; AEGON Junior International 2011, held in Roehampton the week before Wimbledon.
 1	Tantangan	_	NOUN	_	Number=Sing	4	nsubj	_	_
@@ -5310,7 +5310,7 @@
 8	Broady	_	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	11	punct	_	_
 10	sing	_	PRON	_	Polite=Infm	11	nsubj	_	_
-11	menangaké	_	VERB	_	Voice=Act	7	acl:relcl	_	_
+11	menangake	_	VERB	_	Voice=Act	7	acl:relcl	_	_
 12	turnamen	_	NOUN	_	Number=Sing	11	obj	_	_
 13	Grade	_	PROPN	_	_	12	nmod	_	_
 14	1	_	NUM	_	_	13	nummod	_	SpaceAfter=No
@@ -5321,12 +5321,12 @@
 19	2011	_	NUM	_	_	16	nummod	_	SpaceAfter=No
 20	,	_	PUNCT	_	_	22	punct	_	_
 21	sing	_	PRON	_	Polite=Infm	22	nsubj:pass	_	_
-22	dianakaké	_	VERB	_	Voice=Pass	16	acl:relcl	_	_
+22	dianakake	_	VERB	_	Voice=Pass	16	acl:relcl	_	_
 23	ing	_	ADP	_	Polite=Infm	24	case	_	_
 24	Roehampton	_	PROPN	_	_	22	obl	_	_
 25	seminggu	_	NOUN	_	Number=Sing	22	obl:tmod	_	_
 26	sedurung	_	SCONJ	_	_	27	mark	_	_
-27	dimelaié	_	VERB	_	Voice=Pass	25	acl	_	_
+27	dimelaie	_	VERB	_	Voice=Pass	25	acl	_	_
 28	Wimbledon	_	PROPN	_	_	27	obl	_	SpaceAfter=No
 29	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -5366,7 +5366,7 @@
 30	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-143
-# text = Taun 2011 ana kira-kira 130 – 150 sapi, 70 nganti 80 antarané wujud sapi babon kang bisa diperes susune, sisané sapi cilik-cilik sarta 3 sapi lanangan.
+# text = Taun 2011 ana kira-kira 130 – 150 sapi, 70 nganti 80 antarane wujud sapi babon kang bisa diperes susune, sisane sapi cilik-cilik sarta 3 sapi lanangan.
 # text_id = Pada tahun 2011 ada sekitar 130-150 ekor sapi, 70-80 ekor diantaranya adalah sapi perah, sisanya sapi kecil dan 3 ekor pejantan.
 # text_en = In 2011 there were about 130-150 cows, 70-80 of them were dairy cows, the rest were small cows and 3 bulls.
 1	Taun	_	NOUN	_	Number=Sing	3	obl:tmod	_	_
@@ -5381,9 +5381,9 @@
 10	70	_	NUM	_	_	8	nmod	_	_
 11	nganti	_	ADP	_	Polite=Infm	12	case	_	Level=Ngoko
 12	80	_	NUM	_	_	10	flat	_	_
-13-14	antarané	_	_	_	_	_	_	_	_
+13-14	antarane	_	_	_	_	_	_	_	_
 13	antara	_	ADP	_	_	14	case	_	_
-14	né	_	PRON	_	Polite=Infm	10	nmod	_	Level=Ngoko
+14	ne	_	PRON	_	Polite=Infm	10	nmod	_	Level=Ngoko
 15	wujud	_	NOUN	_	Number=Sing	10	nmod	_	_
 16	sapi	_	NOUN	_	Number=Sing	15	nmod	_	_
 17	babon	_	NOUN	_	Number=Sing	16	nmod	_	_
@@ -5394,9 +5394,9 @@
 21	susu	_	NOUN	_	Number=Sing	20	obl	_	_
 22	ne	_	PRON	_	Polite=Infm	21	nmod:poss	_	Level=Ngoko
 23	,	_	PUNCT	_	_	24	punct	_	_
-24-25	sisané	_	_	_	_	_	_	_	_
+24-25	sisane	_	_	_	_	_	_	_	_
 24	sisa	_	NOUN	_	Number=Sing	15	nmod	_	_
-25	né	_	PRON	_	Polite=Infm	24	nmod:poss	_	Level=Ngoko
+25	ne	_	PRON	_	Polite=Infm	24	nmod:poss	_	Level=Ngoko
 26	sapi	_	NOUN	_	Number=Sing	24	nmod	_	_
 27	cilik-cilik	_	ADJ	_	Polite=Infm	26	amod	_	Level=Ngoko
 28	sarta	_	CCONJ	_	_	30	cc	_	_
@@ -5406,7 +5406,7 @@
 32	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = opus-wiki-144
-# text = Wonten ing taun 1986 kekalihipun nyumbang 40 juta Dollar AS kanggé yasa griya sakit anak ingkang lajeng dipunkenal minangka Lucile Salter Packard Children's Hospital ing Universitas Stanford.
+# text = Wonten ing taun 1986 kekalihipun nyumbang 40 juta Dollar AS kangge yasa griya sakit anak ingkang lajeng dipunkenal minangka Lucile Salter Packard Children's Hospital ing Universitas Stanford.
 # text_id = Pada tahun 1986 mereka berdua menyumbangkan $ 40 juta untuk membangun rumah sakit anak yang kemudian dikenal sebagai Rumah Sakit Anak Lucile Salter Packard di Universitas Stanford.
 # text_en = In 1986 they both donated $40 million to build the children's hospital that became known as the Lucile Salter Packard Children's Hospital at Stanford University.
 1	Wonten	_	VERB	_	Polite=Form	6	advcl	_	Level=Krama
@@ -5419,7 +5419,7 @@
 8	juta	_	NUM	_	NumType=Card	7	flat	_	_
 9	Dollar	_	PROPN	_	_	6	obj	_	_
 10	AS	_	PROPN	_	_	9	flat:name	_	_
-11	kanggé	_	SCONJ	_	Polite=Infm	12	mark	_	Level=Ngoko
+11	kangge	_	SCONJ	_	Polite=Infm	12	mark	_	Level=Ngoko
 12	yasa	_	VERB	_	Polite=Form|Voice=Act	6	advcl	_	Level=Krama
 13	griya	_	NOUN	_	Polite=Form	12	obj	_	Level=Krama
 14	sakit	_	ADJ	_	_	13	amod	_	_
@@ -5440,13 +5440,13 @@
 29	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = opus-wiki-145
-# text = Piyambakipun naté dados Présidhèn Press Foundation of Asia, anggota Dewan Pimpinan International Association for Cultural Freedom (organisasi CIA), lan anggota Fédération Mondial pour le Études sur le Futur.
-# text_id = Ia pernah menjabat sebagai Presiden Yayasan Pers Asia, anggota Dewan Direksi Asosiasi Internasional untuk Kebebasan Budaya (organisasi CIA), dan anggota Fédération Mondial pour le tudes sur le Futur.
-# text_en = He has served as President of the Asian Press Foundation, a member of the Board of Directors of the International Association for Cultural Freedom (the CIA organization), and a member of the Fédération Mondial pour le tudes sur le Futur.
+# text = Piyambakipun nate dados Presidhèn Press Foundation of Asia, anggota Dewan Pimpinan International Association for Cultural Freedom (organisasi CIA), lan anggota Federation Mondial pour le etudes sur le Futur.
+# text_id = Ia pernah menjabat sebagai Presiden Yayasan Pers Asia, anggota Dewan Direksi Asosiasi Internasional untuk Kebebasan Budaya (organisasi CIA), dan anggota Federation Mondial pour le tudes sur le Futur.
+# text_en = He has served as President of the Asian Press Foundation, a member of the Board of Directors of the International Association for Cultural Freedom (the CIA organization), and a member of the Federation Mondial pour le tudes sur le Futur.
 1	Piyambakipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	3	nsubj	_	Level=Krama
-2	naté	_	ADV	_	Polite=Form	3	advmod	_	Level=Krama
+2	nate	_	ADV	_	Polite=Form	3	advmod	_	Level=Krama
 3	dados	_	VERB	_	Polite=Form	0	root	_	Level=Krama
-4	Présidhèn	_	PROPN	_	_	3	obl	_	_
+4	Presidhèn	_	PROPN	_	_	3	obl	_	_
 5	Press	_	PROPN	_	_	4	nmod	_	_
 6	Foundation	_	PROPN	_	_	5	flat:name	_	_
 7	of	_	PROPN	_	_	5	flat:name	_	_
@@ -5467,11 +5467,11 @@
 22	,	_	PUNCT	_	_	24	punct	_	_
 23	lan	_	CCONJ	_	Polite=Infm	24	cc	_	Level=Ngoko
 24	anggota	_	NOUN	_	Number=Sing	4	conj	_	_
-25	Fédération	_	PROPN	_	_	24	nmod	_	_
+25	Federation	_	PROPN	_	_	24	nmod	_	_
 26	Mondial	_	PROPN	_	_	25	flat:name	_	_
 27	pour	_	PROPN	_	_	25	flat:name	_	_
 28	le	_	PROPN	_	_	25	flat:name	_	_
-29	Études	_	PROPN	_	_	25	flat:name	_	_
+29	etudes	_	PROPN	_	_	25	flat:name	_	_
 30	sur	_	PROPN	_	_	25	flat:name	_	_
 31	le	_	PROPN	_	_	25	flat:name	_	_
 32	Futur	_	PROPN	_	_	25	flat:name	_	SpaceAfter=No
@@ -5556,7 +5556,7 @@
 35	.	_	PUNCT	_	_	12	punct	_	_
 
 # sent_id = opus-wiki-148
-# text = Nalika tanggal 20 November 1996 dibangun pabrik urea unit IV (POPKA) kang tujuane kanggo ningkatake aji tambah kanggo Amoniak sisa (Ammonia excess) lan gas CO2 kang diguwak marang atmosfer guna ngasilaké produk urea granul.
+# text = Nalika tanggal 20 November 1996 dibangun pabrik urea unit IV (POPKA) kang tujuane kanggo ningkatake aji tambah kanggo Amoniak sisa (Ammonia excess) lan gas CO2 kang diguwak marang atmosfer guna ngasilake produk urea granul.
 # text_id = Pada tanggal 20 November 1996 dibangun Pabrik Urea Unit IV (POPKA) dengan tujuan untuk meningkatkan nilai sisa Amoniak (Kelebihan Amoniak) dan Gas CO2 yang dilepaskan ke atmosfer untuk menghasilkan produk Urea granul.
 # text_en = On November 20, 1996 a unit IV urea plant (POPKA) was built with the aim of increasing the value of residual ammonia (Ammonia excess) and CO2 gas released into the atmosphere to produce granular urea products.
 1	Nalika	_	ADP	_	_	2	case	_	_
@@ -5595,14 +5595,14 @@
 33	marang	_	ADP	_	_	34	case	_	_
 34	atmosfer	_	NOUN	_	Number=Sing	32	obl	_	_
 35	guna	_	SCONJ	_	_	36	mark	_	_
-36	ngasilaké	_	VERB	_	Voice=Act	32	advcl	_	Level=Ngoko
+36	ngasilake	_	VERB	_	Voice=Act	32	advcl	_	Level=Ngoko
 37	produk	_	NOUN	_	Number=Sing	36	obj	_	_
 38	urea	_	X	_	Foreign=Yes	37	nmod	_	_
 39	granul	_	X	_	Foreign=Yes	38	flat:foreign	_	SpaceAfter=No
 40	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = opus-wiki-149
-# text = Piyambakipun ugi ndhèrèk terjun ing sapérangan kegiyatan milis sastra saha ing sapérangan komunitas, kados ta: ASAS, MnemoniC, Babad Bumi, lan liyane.
+# text = Piyambakipun ugi ndhèrèk terjun ing saperangan kegiyatan milis sastra saha ing saperangan komunitas, kados ta: ASAS, MnemoniC, Babad Bumi, lan liyane.
 # text_id = Ia juga mengikuti beberapa kegiatan surat menyurat sastra dan di beberapa komunitas, seperti: ASAS, MnemoniC, Babad Bumi, dan lain-lain.
 # text_en = He also participated in several literary mailing activities and in several communities, such as: ASAS, MnemoniC, Babad Bumi, and others.
 1	Piyambakipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	3	nsubj	_	Level=Krama
@@ -5610,13 +5610,13 @@
 3	ndhèrèk	_	VERB	_	Polite=Form	0	root	_	Level=Krama
 4	terjun	_	VERB	_	_	3	xcomp	_	_
 5	ing	_	ADP	_	Polite=Infm	7	case	_	_
-6	sapérangan	_	DET	_	_	7	det	_	_
+6	saperangan	_	DET	_	_	7	det	_	_
 7	kegiyatan	_	NOUN	_	Number=Sing	4	obl	_	_
 8	milis	_	NOUN	_	Number=Sing	7	nmod	_	_
 9	sastra	_	NOUN	_	Number=Sing	8	nmod	_	_
 10	saha	_	CCONJ	_	_	13	cc	_	_
 11	ing	_	ADP	_	Polite=Infm	13	case	_	_
-12	sapérangan	_	DET	_	_	13	det	_	_
+12	saperangan	_	DET	_	_	13	det	_	_
 13	komunitas	_	NOUN	_	Number=Sing	7	conj	_	SpaceAfter=No
 14	,	_	PUNCT	_	_	15	punct	_	_
 15	kados	_	VERB	_	Polite=Form	7	advcl	_	Level=Krama
@@ -5636,7 +5636,7 @@
 28	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = opus-wiki-150
-# text = Jennings èsih diwènèhi kapracayan dadi pranata acara dhèwèkan nganti tekan taun 1966 lan diganti déning pranata acara game show, Jim Perry, nganti tekan taun 1990.
+# text = Jennings èsih diwènèhi kapracayan dadi pranata acara dhèwèkan nganti tekan taun 1966 lan diganti dening pranata acara game show, Jim Perry, nganti tekan taun 1990.
 # text_id = Jennings masih dipercaya sebagai satu-satunya event organizer hingga tahun 1966 dan digantikan oleh penyelenggara game show, Jim Perry, hingga tahun 1990.
 # text_en = Jennings was still believed to be the sole event organizer until 1966 and was replaced by the game show organizer, Jim Perry, until 1990.
 1	Jennings	_	PROPN	_	_	3	nsubj:pass	_	_
@@ -5653,7 +5653,7 @@
 12	1966	_	NUM	_	_	11	nummod	_	_
 13	lan	_	CCONJ	_	Polite=Infm	14	cc	_	Level=Ngoko
 14	diganti	_	VERB	_	Voice=Pass	5	advcl	_	_
-15	déning	_	ADP	_	_	16	case	_	_
+15	dening	_	ADP	_	_	16	case	_	_
 16	pranata	_	NOUN	_	Number=Sing	14	obl	_	_
 17	acara	_	NOUN	_	Number=Sing	16	nmod	_	_
 18	game	_	X	_	Foreign=Yes	16	nmod	_	_

@@ -11,8 +11,8 @@
     <test><sentences>732</sentences><tokens>10562</tokens><words>11020</words><fused>455</fused></test>
   </size>
   <lemmas unique="0" /><!--  -->
-  <forms unique="3335" /><!-- ., ,, ing, e, lan, ne, kang, sing, ora, ana, iku, (, ), aku, taun -->
-  <fusions unique="296" /><!-- ujare, liyane, anake, sijine, wargane, antarané, carane, panggaweyane, adhine, anakmu, kakangku, sawahe, tegese, warsane, wujude -->
+  <forms unique="3306" /><!-- ., ,, ing, e, lan, ne, kang, sing, ora, ana, iku, (, ), aku, taun -->
+  <fusions unique="288" /><!-- ujare, liyane, antarane, anake, sijine, tegese, wargane, carane, panggaweyane, adhine, anakmu, kakangku, sawahe, warsane, wujude -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">525</tag><!-- _ -->
@@ -36,33 +36,33 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="29">
     <feat name="Abbr" value="Yes" upos="ADV,AUX,PART,PRON">13</feat><!-- isa, ra, ki, pa -->
-    <feat name="Definite" value="Def" upos="DET">258</feat><!-- e, ne, é, ipun, nipun, sing, né -->
+    <feat name="Definite" value="Def" upos="DET">258</feat><!-- e, ne, ipun, nipun, sing -->
     <feat name="Definite" value="Ind" upos="DET">27</feat><!-- para, akeh, sawijining, satunggaling, saindhenge -->
     <feat name="Foreign" value="Yes" upos="X">120</feat><!-- rock, eutanasia, penerbangan, semifinalis, arbitrase, marksman, subunit, turnamen, Burger, Kriteria -->
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, njagakke, nyemayani, pethiki -->
     <feat name="Mood" value="Ind" upos="VERB">227</feat><!-- dadi, ana, dados, ngangkat, dipunkenal, mangsuli, melu, olèh, wonten, adol -->
-    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">60</feat><!-- para, akeh, bocah-bocah, akèh, tembung-tembung, Sawah-sawah, awake, kita, sapérangan, Akèh-akèhe -->
-    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2433</feat><!-- aku, taun, e, ku, ne, warga, tembang, basa, tanggal, tembung -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">60</feat><!-- para, akeh, bocah-bocah, akèh, tembung-tembung, Sawah-sawah, awake, kita, saperangan, Akèh-akèhe -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2433</feat><!-- aku, taun, e, ne, ku, warga, tembang, basa, tanggal, tembung -->
     <feat name="NumType" value="Card" upos="NUM">194</feat><!-- 16, 6, 2022, 1, 1946, 3, 17, 10, 1948, 5 -->
     <feat name="NumType" value="Ord" upos="ADJ">4</feat><!-- kapisanan, kapitu, katiga, pertama -->
     <feat name="Person" value="1" upos="PRON">115</feat><!-- aku, ku, dak, tak, kula, awake, kita -->
     <feat name="Person" value="2" upos="PRON">32</feat><!-- mu, kowe, awakmu, kok, mbok, Sira -->
-    <feat name="Person" value="3" upos="PRON">162</feat><!-- e, ne, dheweke, piyambakipun, é, ipun, dhèwèké, né, panjenenganipun, panjenengan -->
+    <feat name="Person" value="3" upos="PRON">162</feat><!-- e, ne, dheweke, piyambakipun, ipun, dhèwèke, panjenenganipun, panjenengan, nipun, piyambake -->
     <feat name="Polarity" value="Neg" upos="PART">99</feat><!-- ora, durung, mboten, nora, ra, aja, boten, dudu -->
     <feat name="Polite" value="Elev" upos="ADP,NOUN,PRON,SCONJ,VERB">52</feat><!-- nalika, panjenenganipun, panjenengan, asma, asta, dhahar, ngendika, saknalika, dalem, grana -->
     <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">407</feat><!-- ingkang, punika, ipun, piyambakipun, inggih, dados, kaliyan, saking, lajeng, nipun -->
-    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">2746</feat><!-- ing, e, lan, ne, kang, sing, ora, iku, ana, aku -->
-    <feat name="PronType" value="Art" upos="DET">268</feat><!-- e, ne, sawijining, é, ipun, nipun, sing, satunggaling, né, saindhenge -->
+    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">2746</feat><!-- e, ing, lan, ne, kang, sing, ora, iku, ana, aku -->
+    <feat name="PronType" value="Art" upos="DET">268</feat><!-- e, ne, sawijining, ipun, nipun, sing, satunggaling, saindhenge -->
     <feat name="PronType" value="Dem" upos="DET,PRON">138</feat><!-- kuwi, iku, punika, iki, semana, mau, ngene, kana, kasebut, gene -->
     <feat name="PronType" value="Emp" upos="DET">3</feat><!-- dhewe, piyambak -->
-    <feat name="PronType" value="Ind" upos="DET">20</feat><!-- para, akèh, sapérangan, Akèh-akèhe, Pira-pira, pinten-pinten -->
+    <feat name="PronType" value="Ind" upos="DET">20</feat><!-- para, akèh, saperangan, Akèh-akèhe, Pira-pira, pinten-pinten -->
     <feat name="PronType" value="Int" upos="ADV">5</feat><!-- Kena, sepira -->
-    <feat name="PronType" value="Prs" upos="PRON">311</feat><!-- aku, e, ku, ne, dheweke, mu, piyambakipun, é, ipun, dak -->
+    <feat name="PronType" value="Prs" upos="PRON">311</feat><!-- aku, e, ne, ku, dheweke, mu, piyambakipun, ipun, dak, dhèwèke -->
     <feat name="PronType" value="Rel" upos="PRON">70</feat><!-- ingkang, kang, sing, apa, apa-apa, ngapa -->
     <feat name="PronType" value="Tot" upos="DET,PRON">5</feat><!-- kabèh, sedaya, Saben -->
     <feat name="Reflex" value="Yes" upos="PRON">3</feat><!-- diri, dhekne -->
     <feat name="Typo" value="Yes" upos="NOUN,X">2</feat><!-- kula, taunn -->
-    <feat name="Voice" value="Act" upos="VERB">871</feat><!-- ana, dadi, ujar, gawe, nggambarake, nganggo, ngandhut, duwe, mratelakake, sinau -->
+    <feat name="Voice" value="Act" upos="VERB">871</feat><!-- ana, dadi, ujar, gawe, nggambarake, nganggo, duwe, ngandhut, mratelakake, sinau -->
     <feat name="Voice" value="Pass" upos="VERB">314</feat><!-- katon, kelingan, diripta, diarani, dijenengi, dipunkenal, ditampa, mapan, dianggep, didadekake -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
