@@ -15,14 +15,14 @@
   <fusions unique="288" /><!-- ujare, liyane, antarane, anake, sijine, tegese, wargane, carane, panggaweyane, adhine, anakmu, kakangku, sawahe, warsane, wujude -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">525</tag><!-- _ -->
+    <tag name="ADJ">532</tag><!-- _ -->
     <tag name="ADP">617</tag><!-- _ -->
-    <tag name="ADV">582</tag><!-- _ -->
+    <tag name="ADV">585</tag><!-- _ -->
     <tag name="AUX">225</tag><!-- _ -->
     <tag name="CCONJ">270</tag><!-- _ -->
     <tag name="DET">573</tag><!-- _ -->
     <tag name="INTJ">50</tag><!-- _ -->
-    <tag name="NOUN">2320</tag><!-- _ -->
+    <tag name="NOUN">2321</tag><!-- _ -->
     <tag name="NUM">310</tag><!-- _ -->
     <tag name="PART">126</tag><!-- _ -->
     <tag name="PRON">686</tag><!-- _ -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">1678</tag><!-- _ -->
     <tag name="SCONJ">220</tag><!-- _ -->
     <tag name="SYM">11</tag><!-- _ -->
-    <tag name="VERB">1383</tag><!-- _ -->
+    <tag name="VERB">1372</tag><!-- _ -->
     <tag name="X">123</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -40,7 +40,7 @@
     <feat name="Definite" value="Ind" upos="DET">27</feat><!-- para, akeh, sawijining, satunggaling, saindhenge -->
     <feat name="Foreign" value="Yes" upos="X">121</feat><!-- rock, eutanasia, penerbangan, semifinalis, arbitrase, marksman, subunit, turnamen, Burger, Kriteria -->
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, njagakke, nyemayani, pethiki -->
-    <feat name="Mood" value="Ind" upos="VERB">1179</feat><!-- ana, dadi, ujar, gawe, nggambarake, katon, kelingan, wonten, duwe, ngandhut -->
+    <feat name="Mood" value="Ind" upos="VERB">1279</feat><!-- ana, dadi, ujar, gawe, katon, nganggo, nggambarake, kelingan, wonten, duwe -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">61</feat><!-- para, akeh, bocah-bocah, tembung-tembung, Sawah-sawah, awake, kita, saperangan, Akeh-akehe, Buku-buku -->
     <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2434</feat><!-- aku, taun, e, ne, ku, warga, tembang, basa, dheweke, tanggal -->
     <feat name="NumType" value="Card" upos="NUM">194</feat><!-- 16, 6, 2022, 1, 1946, 3, 17, 10, 1948, 5 -->
@@ -62,23 +62,23 @@
     <feat name="PronType" value="Tot" upos="DET,PRON">5</feat><!-- kabeh, sedaya, Saben -->
     <feat name="Reflex" value="Yes" upos="PRON">3</feat><!-- diri, dhekne -->
     <feat name="Typo" value="Yes" upos="NOUN,X">2</feat><!-- kula, taunn -->
-    <feat name="Voice" value="Act" upos="VERB">898</feat><!-- ana, dadi, ujar, gawe, nggambarake, nganggo, wonten, duwe, ngandhut, mratelakake -->
-    <feat name="Voice" value="Pass" upos="VERB">314</feat><!-- katon, kelingan, diripta, diarani, dijenengi, dipunkenal, ditampa, mapan, dianggep, didadekake -->
+    <feat name="Voice" value="Act" upos="VERB">993</feat><!-- ana, dadi, ujar, gawe, nganggo, nggambarake, wonten, duwe, ngandhut, sinau -->
+    <feat name="Voice" value="Pass" upos="VERB">320</feat><!-- katon, kelingan, diripta, diarani, dijenengi, dipunkenal, ditampa, mapan, dianggep, didadekake -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
     <dep name="acl">95</dep>
-    <dep name="acl:relcl">199</dep>
+    <dep name="acl:relcl">198</dep>
     <dep name="advcl">404</dep>
-    <dep name="advmod">746</dep>
+    <dep name="advmod">749</dep>
     <dep name="advmod:emph">8</dep>
-    <dep name="amod">191</dep>
+    <dep name="amod">192</dep>
     <dep name="appos">89</dep>
     <dep name="aux">186</dep>
     <dep name="case">608</dep>
     <dep name="case:adv">10</dep>
     <dep name="cc">270</dep>
-    <dep name="ccomp">19</dep>
+    <dep name="ccomp">17</dep>
     <dep name="clf">1</dep>
     <dep name="compound">21</dep>
     <dep name="conj">364</dep>
@@ -110,6 +110,6 @@
     <dep name="punct">1678</dep>
     <dep name="root">732</dep>
     <dep name="vocative">23</dep>
-    <dep name="xcomp">146</dep>
+    <dep name="xcomp">145</dep>
   </deps>
 </treebank>
