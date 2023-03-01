@@ -788,7 +788,7 @@
 7-8	antarane	_	_	_	_	_	_	_	_
 7	antara	_	NOUN	_	Number=Sing	10	nmod:lmod	_	_
 8	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	7	det	_	Level=Ngoko
-9	para	_	DET	_	_	10	det	_	_
+9	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	10	det	_	_
 10	rawuh	_	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -1455,7 +1455,7 @@
 4	masyarakat	_	NOUN	_	Number=Sing	10	nsubj	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	8	punct	_	_
 6	mliginipun	_	ADV	_	Polite=Form	8	advmod	_	Level=Krama
-7	para	_	DET	_	_	8	det	_	_
+7	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	8	det	_	_
 8	nem-neman	_	NOUN	_	Polite=Form	4	nmod	_	Level=Krama|SpaceAfter=No
 9	,	_	PUNCT	_	_	8	punct	_	_
 10	sami	_	ADJ	_	Polite=Form	0	root	_	Level=Krama
@@ -1793,7 +1793,7 @@
 7	telung	_	NUM	_	Polite=Infm	8	nummod	_	Level=Ngoko
 8	tataran	_	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	10	punct	_	_
-10	yaiku	_	AUX	_	Polite=Infm	16	cop	_	SpaceAfter=No
+10	yaiku	_	AUX	_	Polite=Infm	16	cop	_	Level=Ngoko|SpaceAfter=No
 11	,	_	PUNCT	_	_	13	punct	_	_
 12	saka	_	ADP	_	Polite=Infm	13	case	_	Level=Ngoko
 13	ngisor	_	NOUN	_	Polite=Infm	8	acl	_	Level=Ngoko
@@ -2068,7 +2068,7 @@
 8-9	ramanipun	_	_	_	_	_	_	_	_
 8	rama	_	NOUN	_	Number=Sing|Polite=Form	6	nmod	_	Level=Krama
 9	nipun	_	DET	_	Definite=Def|Polite=Form|PronType=Art	8	det	_	Level=Krama
-10	para	_	DET	_	Number=Plur|PronType=Ind	11	det	_	_
+10	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	11	det	_	_
 11	Korawa	_	PROPN	_	_	8	nmod:poss	_	SpaceAfter=No
 12	,	_	PUNCT	_	_	13	punct	_	_
 13-14	miyosipun	_	_	_	_	_	_	_	_
@@ -2560,7 +2560,7 @@
 2	seri	_	X	_	Foreign=Yes	1	nmod	_	_
 3	705	_	NUM	_	NumType=Card	2	nummod	_	_
 4	yaiku	_	AUX	_	Polite=Infm	6	aux	_	Level=Ngoko
-5	75	_	NUM	_	NumType=Card	6	nummod	_	Level=Ngoko
+5	75	_	NUM	_	NumType=Card	6	nummod	_	_
 6	penumpang	_	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
 
@@ -2848,7 +2848,7 @@
 2	ulah	_	NOUN	_	Number=Sing	4	obl	_	_
 3	raga	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	dikarepaké	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
-5	para	_	DET	_	Number=Plur|PronType=Ind	6	det	_	_
+5	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	6	det	_	_
 6	prajurit	_	NOUN	_	Number=Sing	7	nsubj	_	_
 7	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	ccomp	_	Level=Ngoko
 8	tangkas	_	ADJ	_	_	7	xcomp	_	_
@@ -4735,7 +4735,7 @@
 7	,	_	PUNCT	_	_	1	punct	_	_
 8	Amérika	_	PROPN	_	_	13	nsubj	_	_
 9	Sarékat	_	PROPN	_	_	8	flat:name	_	_
-10	lan	_	CCONJ	_	Polite=Infm	11	cc	_	_
+10	lan	_	CCONJ	_	Polite=Infm	11	cc	_	Level=Ngoko
 11	organisasi	_	NOUN	_	Number=Sing	8	conj	_	_
 12	WHO	_	PROPN	_	_	11	nmod	_	_
 13	sekuthon	_	VERB	_	_	0	root	_	_
@@ -4987,7 +4987,7 @@
 36	33.750.000	_	NUM	_	_	32	appos	_	_
 37	ing	_	ADP	_	_	38	case	_	_
 38	kitha	_	NOUN	_	Number=Sing	36	nmod	_	Level=Krama
-39	lan	_	CCONJ	_	Polite=Infm	40	cc	_	_
+39	lan	_	CCONJ	_	Polite=Infm	40	cc	_	Level=Ngoko
 40	tlatah	_	NOUN	_	Number=Sing	38	conj	_	_
 41	saubengipun	_	NOUN	_	Number=Sing	40	nmod	_	SpaceAfter=No
 42	)	_	PUNCT	_	_	36	punct	_	SpaceAfter=No
@@ -5090,7 +5090,7 @@
 15	Moore	_	PROPN	_	_	12	flat:name	_	_
 16	Show	_	PROPN	_	_	12	flat:name	_	SpaceAfter=No
 17	,	_	PUNCT	_	_	19	punct	_	_
-18	lan	_	CCONJ	_	Polite=Infm	19	cc	_	_
+18	lan	_	CCONJ	_	Polite=Infm	19	cc	_	Level=Ngoko
 19	prakara	_	NOUN	_	Number=Plur	8	conj	_	_
 20	kang	_	PRON	_	Polite=Infm|PronType=Rel	22	nsubj:pass	_	Level=Ngoko
 21	saiki	_	NOUN	_	Polite=Infm	22	obl:tmod	_	Level=Ngoko
@@ -5129,14 +5129,14 @@
 16	artis-artis	_	NOUN	_	Number=Plur	14	obl:agent	_	_
 17	ingkang	_	PRON	_	Polite=Form|PronType=Rel	18	nsubj	_	Level=Krama
 18	misuwur	_	VERB	_	Voice=Pass	16	acl:relcl	_	_
-19	lan	_	CCONJ	_	Polite=Infm	20	cc	_	_
+19	lan	_	CCONJ	_	Polite=Infm	20	cc	_	Level=Ngoko
 20	orkestra	_	NOUN	_	Number=Sing	16	conj	_	SpaceAfter=No
 21	,	_	PUNCT	_	_	22	punct	_	_
 22	kalebèt	_	VERB	_	Polite=Form|Voice=Pass	16	acl	_	Level=Krama
 23	The	_	PROPN	_	_	22	nsubj:pass	_	_
 24	Three	_	PROPN	_	_	23	flat:name	_	_
 25	Tenors	_	PROPN	_	_	23	flat:name	_	_
-26	lan	_	CCONJ	_	Polite=Infm	27	cc	_	_
+26	lan	_	CCONJ	_	Polite=Infm	27	cc	_	Level=Ngoko
 27	Teresa	_	PROPN	_	_	23	conj	_	_
 28	Teng	_	PROPN	_	_	27	flat:name	_	SpaceAfter=No
 29	.	_	PUNCT	_	_	14	punct	_	_
@@ -5182,7 +5182,7 @@
 1	Déning	_	ADP	_	Polite=Infm	2	case	_	_
 2	lembaga	_	NOUN	_	Number=Sing	20	obl:agent	_	_
 3	misi	_	NOUN	_	Number=Sing	2	nmod	_	_
-4	lan	_	CCONJ	_	Polite=Infm	5	cc	_	_
+4	lan	_	CCONJ	_	Polite=Infm	5	cc	_	Level=Ngoko
 5	basa	_	NOUN	_	Number=Sing	3	conj	_	_
 6	Amérika	_	PROPN	_	_	2	nmod	_	_
 7	Sarékat	_	PROPN	_	_	6	flat:name	_	_
@@ -5232,7 +5232,7 @@
 18	né	_	PRON	_	Polite=Infm	19	nmod	_	Level=Ngoko
 19	Bani	_	PROPN	_	_	16	obl	_	_
 20	Umayyah	_	PROPN	_	_	19	flat:name	_	_
-21	lan	_	CCONJ	_	Polite=Infm	22	cc	_	_
+21	lan	_	CCONJ	_	Polite=Infm	22	cc	_	Level=Ngoko
 22	Bani	_	PROPN	_	_	19	conj	_	_
 23	Hasyim	_	PROPN	_	_	22	flat:name	_	SpaceAfter=No
 24	.	_	PUNCT	_	_	2	punct	_	_
@@ -5291,7 +5291,7 @@
 19	pertahanan	_	NOUN	_	Number=Sing	18	nmod	_	_
 20	kepentingan	_	NOUN	_	Number=Sing	19	nmod	_	_
 21	nasional	_	ADJ	_	_	20	amod	_	_
-22	lan	_	CCONJ	_	Polite=Infm	23	cc	_	_
+22	lan	_	CCONJ	_	Polite=Infm	23	cc	_	Level=Ngoko
 23	arbitrase	_	X	_	Foreign=Yes	19	conj	_	_
 24	internasional	_	ADJ	_	_	23	amod	_	SpaceAfter=No
 25	.	_	PUNCT	_	_	2	punct	_	_
@@ -5358,7 +5358,7 @@
 22	dana	_	NOUN	_	Number=Sing	21	nmod	_	_
 23	bantuan	_	NOUN	_	Number=Sing	22	nmod	_	_
 24	kemanusiaan	_	NOUN	_	Number=Sing	23	nmod	_	_
-25	lan	_	CCONJ	_	Polite=Infm	26	cc	_	_
+25	lan	_	CCONJ	_	Polite=Infm	26	cc	_	Level=Ngoko
 26	pembangunan	_	NOUN	_	Number=Sing	22	conj	_	_
 27	infrastruktur	_	NOUN	_	Number=Sing	26	nmod	_	_
 28	ing	_	ADP	_	_	29	case	_	_
@@ -5465,7 +5465,7 @@
 20	CIA	_	PROPN	_	_	19	nmod	_	SpaceAfter=No
 21	)	_	PUNCT	_	_	19	punct	_	SpaceAfter=No
 22	,	_	PUNCT	_	_	24	punct	_	_
-23	lan	_	CCONJ	_	Polite=Infm	24	cc	_	_
+23	lan	_	CCONJ	_	Polite=Infm	24	cc	_	Level=Ngoko
 24	anggota	_	NOUN	_	Number=Sing	4	conj	_	_
 25	Fédération	_	PROPN	_	_	24	nmod	_	_
 26	Mondial	_	PROPN	_	_	25	flat:name	_	_
@@ -5504,7 +5504,7 @@
 21	Lewis	_	PROPN	_	_	18	conj	_	_
 22	Hamilton	_	PROPN	_	_	21	flat:name	_	SpaceAfter=No
 23	,	_	PUNCT	_	_	25	punct	_	_
-24	lan	_	CCONJ	_	Polite=Infm	25	cc	_	_
+24	lan	_	CCONJ	_	Polite=Infm	25	cc	_	Level=Ngoko
 25	Paul	_	PROPN	_	_	18	conj	_	_
 26	di	_	PROPN	_	_	25	flat:name	_	_
 27	Resta	_	PROPN	_	_	25	flat:name	_	_
@@ -5587,7 +5587,7 @@
 25	Ammonia	_	PROPN	_	_	22	appos	_	_
 26	excess	_	X	_	Foreign=Yes	25	nmod	_	SpaceAfter=No
 27	)	_	PUNCT	_	_	25	punct	_	_
-28	lan	_	CCONJ	_	Polite=Infm	29	cc	_	_
+28	lan	_	CCONJ	_	Polite=Infm	29	cc	_	Level=Ngoko
 29	gas	_	NOUN	_	Number=Sing	22	conj	_	_
 30	CO2	_	PROPN	_	_	29	nmod	_	_
 31	kang	_	PRON	_	_	32	nsubj:pass	_	_
@@ -5629,7 +5629,7 @@
 22	Babad	_	PROPN	_	_	18	conj	_	_
 23	Bumi	_	PROPN	_	_	22	flat:name	_	SpaceAfter=No
 24	,	_	PUNCT	_	_	26	punct	_	_
-25	lan	_	CCONJ	_	Polite=Infm	26	cc	_	_
+25	lan	_	CCONJ	_	Polite=Infm	26	cc	_	Level=Ngoko
 26-27	liyane	_	_	_	_	_	_	_	SpaceAfter=No
 26	liya	_	ADJ	_	_	18	conj	_	_
 27	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	26	det	_	Level=Ngoko
@@ -5651,7 +5651,7 @@
 10	tekan	_	NOUN	_	Number=Sing	5	obl	_	_
 11	taun	_	NOUN	_	Number=Sing	10	nmod	_	_
 12	1966	_	NUM	_	_	11	nummod	_	_
-13	lan	_	CCONJ	_	Polite=Infm	14	cc	_	_
+13	lan	_	CCONJ	_	Polite=Infm	14	cc	_	Level=Ngoko
 14	diganti	_	VERB	_	Voice=Pass	5	advcl	_	_
 15	déning	_	ADP	_	_	16	case	_	_
 16	pranata	_	NOUN	_	Number=Sing	14	obl	_	_
@@ -5680,7 +5680,7 @@
 6	punika	_	DET	_	_	3	det	_	_
 7	dipuntolak	_	VERB	_	Voice=Pass	0	root	_	_
 8	malih	_	ADV	_	_	7	advmod	_	_
-9	lan	_	CCONJ	_	Polite=Infm	11	cc	_	_
+9	lan	_	CCONJ	_	Polite=Infm	11	cc	_	Level=Ngoko
 10	akhiripun	_	ADV	_	_	11	advmod	_	_
 11	dipunputusaken	_	VERB	_	Voice=Pass	7	conj	_	_
 12	biih	_	SCONJ	_	_	19	mark	_	_
@@ -5721,7 +5721,7 @@
 18	,	_	PUNCT	_	_	19	punct	_	_
 19	Bogor	_	PROPN	_	_	16	nmod	_	SpaceAfter=No
 20	,	_	PUNCT	_	_	23	punct	_	_
-21	lan	_	CCONJ	_	Polite=Infm	23	cc	_	_
+21	lan	_	CCONJ	_	Polite=Infm	23	cc	_	Level=Ngoko
 22	terus	_	ADV	_	_	23	advmod	_	_
 23	dirawat	_	VERB	_	Voice=Pass	11	conj	_	_
 24	ing	_	ADP	_	_	25	case	_	_
@@ -6714,7 +6714,7 @@
 9	masarakat	_	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	13	punct	_	_
 11	utamane	_	ADV	_	_	13	advmod	_	_
-12	para	_	DET	_	_	13	det	_	_
+12	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	13	det	_	_
 13	pandhemen	_	NOUN	_	Number=Sing	8	nmod	_	_
 14	lan	_	CCONJ	_	Polite=Infm	15	cc	_	Level=Ngoko
 15	seniman	_	NOUN	_	Number=Sing	13	conj	_	_
@@ -6839,7 +6839,7 @@
 7-8	ratune	_	_	_	_	_	_	_	_
 7	ratu	_	NOUN	_	Number=Sing	6	obj	_	_
 8	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	7	nmod:poss	_	Level=Ngoko
-9	lan	_	CCONJ	_	Polite=Infm	10	cc	_	_
+9	lan	_	CCONJ	_	Polite=Infm	10	cc	_	Level=Ngoko
 10	ngedhegake	_	VERB	_	Voice=Act	6	conj	_	_
 11	padhepokan	_	NOUN	_	Number=Sing	10	obj	_	_
 12	seni	_	NOUN	_	Number=Sing	11	nmod	_	_
@@ -7483,7 +7483,7 @@
 3	ing	_	ADP	_	_	4	case	_	_
 4	Kaliwungu	_	PROPN	_	_	1	nmod	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	1	punct	_	_
-6	para	_	DET	_	_	7	det	_	_
+6	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	7	det	_	_
 7-8	wargane	_	_	_	_	_	_	_	_
 7	warga	_	NOUN	_	Number=Sing	10	nmod:poss	_	_
 8	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	7	nmod:poss	_	Level=Ngoko
@@ -7998,7 +7998,7 @@
 20-21	semangate	_	_	_	_	_	_	_	_
 20	semangat	_	NOUN	_	Number=Sing	19	nmod	_	_
 21	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	20	nmod:poss	_	Level=Ngoko
-22	para	_	DET	_	_	23	det	_	_
+22	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	23	det	_	_
 23	pahlawan	_	NOUN	_	Number=Sing	20	nmod	_	_
 24	nalika	_	SCONJ	_	_	25	mark	_	_
 25	merjuwangake	_	VERB	_	Polite=Infm|Voice=Act	20	acl	_	Level=Ngoko
@@ -10037,7 +10037,7 @@
 1	"	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Biyasane	_	ADV	_	_	3	advmod	_	_
 3	diagem	_	VERB	_	Polite=Form|Voice=Pass	0	root	_	Level=Krama
-4	para	_	DET	_	_	5	det	_	_
+4	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	5	det	_	_
 5	abdi	_	NOUN	_	Number=Sing	3	obl:agent	_	_
 6	dalem	_	ADJ	_	_	5	amod	_	_
 7	nalika	_	ADP	_	Polite=Elev	9	case	_	Level=KramaInggil
@@ -13446,7 +13446,7 @@
 1	Rasa	_	VERB	_	Voice=Act	0	root	_	_
 2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nsubj	_	Level=Ngoko
 3	ayem	_	ADJ	_	_	1	xcomp	_	_
-4	lan	_	CCONJ	_	Polite=Infm	5	cc	_	Level=NGoko
+4	lan	_	CCONJ	_	Polite=Infm	5	cc	_	Level=Ngoko
 5	bungah	_	ADJ	_	_	3	conj	_	_
 6	Simbah	_	PROPN	_	_	9	nsubj	_	_
 7	bisa	_	AUX	_	Polite=Infm	9	aux	_	Level=Ngoko
@@ -14025,7 +14025,7 @@
 10	lisan	_	ADJ	_	_	9	amod	_	_
 11	kang	_	PRON	_	_	12	nsubj:pass	_	_
 12	diwarisake	_	VERB	_	Voice=Pass	9	acl:relcl	_	_
-13	para	_	DET	_	_	14	det	_	_
+13	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	14	det	_	_
 14	leluhur	_	NOUN	_	Number=Sing	12	obl	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
@@ -14855,7 +14855,7 @@
 8	diputusi	_	VERB	_	Voice=Pass	0	root	_	_
 9	saka	_	ADP	_	_	10	case	_	_
 10	sarujuke	_	NOUN	_	Number=Sing	8	obl	_	_
-11	para	_	DET	_	_	12	det	_	_
+11	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	12	det	_	_
 12	seniman	_	NOUN	_	Number=Sing	10	nmod	_	_
 13	ing	_	ADP	_	_	14	case	_	_
 14	Ponorogo	_	PROPN	_	_	12	nmod	_	SpaceAfter=No

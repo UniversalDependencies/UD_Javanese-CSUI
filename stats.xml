@@ -37,11 +37,11 @@
   <feats unique="29">
     <feat name="Abbr" value="Yes" upos="ADV,AUX,PART,PRON">13</feat><!-- isa, ra, ki, pa -->
     <feat name="Definite" value="Def" upos="DET">254</feat><!-- e, ne, é, ipun, nipun, né, sing -->
-    <feat name="Definite" value="Ind" upos="DET">17</feat><!-- akeh, sawijining, satunggaling, saindhenge -->
+    <feat name="Definite" value="Ind" upos="DET">27</feat><!-- para, akeh, sawijining, satunggaling, saindhenge -->
     <feat name="Foreign" value="Yes" upos="X">120</feat><!-- rock, eutanasia, penerbangan, semifinalis, arbitrase, marksman, subunit, turnamen, Burger, Kriteria -->
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, njagakke, nyemayani, pethiki -->
     <feat name="Mood" value="Ind" upos="VERB">227</feat><!-- dadi, ana, dados, ngangkat, dipunkenal, mangsuli, melu, olèh, wonten, adol -->
-    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">50</feat><!-- akeh, bocah-bocah, para, akèh, tembung-tembung, Sawah-sawah, kita, sapérangan, Akèh-akèhe, Buku-buku -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">58</feat><!-- para, akeh, bocah-bocah, akèh, tembung-tembung, Sawah-sawah, kita, sapérangan, Akèh-akèhe, Buku-buku -->
     <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2393</feat><!-- aku, taun, e, ku, ne, warga, tembang, basa, tanggal, tembung -->
     <feat name="NumType" value="Card" upos="NUM">194</feat><!-- 16, 6, 2022, 1, 1946, 3, 17, 10, 1948, 5 -->
     <feat name="NumType" value="Ord" upos="ADJ">4</feat><!-- kapisanan, kapitu, katiga, pertama -->
@@ -55,7 +55,7 @@
     <feat name="PronType" value="Art" upos="DET">264</feat><!-- e, ne, sawijining, é, ipun, nipun, satunggaling, né, saindhenge, sing -->
     <feat name="PronType" value="Dem" upos="DET,PRON">104</feat><!-- iku, punika, iki, semana, kuwi, mau, ngene, kana, kasebut, gene -->
     <feat name="PronType" value="Emp" upos="DET">3</feat><!-- dhewe, piyambak -->
-    <feat name="PronType" value="Ind" upos="DET">12</feat><!-- para, akèh, sapérangan, Akèh-akèhe, Pira-pira, pinten-pinten -->
+    <feat name="PronType" value="Ind" upos="DET">20</feat><!-- para, akèh, sapérangan, Akèh-akèhe, Pira-pira, pinten-pinten -->
     <feat name="PronType" value="Int" upos="ADV">5</feat><!-- Kena, sepira -->
     <feat name="PronType" value="Prs" upos="PRON">263</feat><!-- aku, e, ku, ne, mu, é, ipun, piyambakipun, dhèwèké, né -->
     <feat name="PronType" value="Rel" upos="PRON">70</feat><!-- ingkang, kang, sing, apa, apa-apa, ngapa -->
