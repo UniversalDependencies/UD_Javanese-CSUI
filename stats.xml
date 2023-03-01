@@ -30,17 +30,17 @@
     <tag name="PUNCT">1678</tag><!-- _ -->
     <tag name="SCONJ">220</tag><!-- _ -->
     <tag name="SYM">11</tag><!-- _ -->
-    <tag name="VERB">1384</tag><!-- _ -->
-    <tag name="X">122</tag><!-- _ -->
+    <tag name="VERB">1383</tag><!-- _ -->
+    <tag name="X">123</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="29">
     <feat name="Abbr" value="Yes" upos="ADV,AUX,PART,PRON">13</feat><!-- isa, ra, ki, pa -->
     <feat name="Definite" value="Def" upos="DET">258</feat><!-- e, ne, ipun, nipun, sing -->
     <feat name="Definite" value="Ind" upos="DET">27</feat><!-- para, akeh, sawijining, satunggaling, saindhenge -->
-    <feat name="Foreign" value="Yes" upos="X">120</feat><!-- rock, eutanasia, penerbangan, semifinalis, arbitrase, marksman, subunit, turnamen, Burger, Kriteria -->
+    <feat name="Foreign" value="Yes" upos="X">121</feat><!-- rock, eutanasia, penerbangan, semifinalis, arbitrase, marksman, subunit, turnamen, Burger, Kriteria -->
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, njagakke, nyemayani, pethiki -->
-    <feat name="Mood" value="Ind" upos="VERB">227</feat><!-- dadi, ana, dados, ngangkat, dipunkenal, mangsuli, melu, oleh, wonten, adol -->
+    <feat name="Mood" value="Ind" upos="VERB">1179</feat><!-- ana, dadi, ujar, gawe, nggambarake, katon, kelingan, wonten, duwe, ngandhut -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">61</feat><!-- para, akeh, bocah-bocah, tembung-tembung, Sawah-sawah, awake, kita, saperangan, Akeh-akehe, Buku-buku -->
     <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2434</feat><!-- aku, taun, e, ne, ku, warga, tembang, basa, dheweke, tanggal -->
     <feat name="NumType" value="Card" upos="NUM">194</feat><!-- 16, 6, 2022, 1, 1946, 3, 17, 10, 1948, 5 -->
@@ -50,8 +50,8 @@
     <feat name="Person" value="3" upos="PRON">163</feat><!-- e, ne, dheweke, piyambakipun, ipun, panjenenganipun, panjenengan, nipun, piyambake, dhewe -->
     <feat name="Polarity" value="Neg" upos="PART">99</feat><!-- ora, durung, mboten, nora, ra, aja, boten, dudu -->
     <feat name="Polite" value="Elev" upos="ADP,NOUN,PRON,SCONJ,VERB">52</feat><!-- nalika, panjenenganipun, panjenengan, asma, asta, dhahar, ngendika, saknalika, dalem, grana -->
-    <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">407</feat><!-- ingkang, punika, ipun, piyambakipun, inggih, dados, kaliyan, saking, lajeng, nipun -->
-    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">2763</feat><!-- e, ing, lan, ne, kang, sing, ora, iku, aku, ana -->
+    <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">409</feat><!-- ingkang, punika, ipun, piyambakipun, inggih, wonten, dados, kaliyan, saking, lajeng -->
+    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">2786</feat><!-- e, ing, lan, ne, kang, sing, ora, iku, aku, ana -->
     <feat name="PronType" value="Art" upos="DET">268</feat><!-- e, ne, sawijining, ipun, nipun, sing, satunggaling, saindhenge -->
     <feat name="PronType" value="Dem" upos="DET,PRON">138</feat><!-- kuwi, iku, punika, iki, semana, mau, ngene, kana, kasebut, gene -->
     <feat name="PronType" value="Emp" upos="DET">10</feat><!-- dhewe, dhewe-dhewe, piyambak -->
@@ -62,14 +62,14 @@
     <feat name="PronType" value="Tot" upos="DET,PRON">5</feat><!-- kabeh, sedaya, Saben -->
     <feat name="Reflex" value="Yes" upos="PRON">3</feat><!-- diri, dhekne -->
     <feat name="Typo" value="Yes" upos="NOUN,X">2</feat><!-- kula, taunn -->
-    <feat name="Voice" value="Act" upos="VERB">871</feat><!-- ana, dadi, ujar, gawe, nggambarake, nganggo, duwe, ngandhut, mratelakake, sinau -->
+    <feat name="Voice" value="Act" upos="VERB">898</feat><!-- ana, dadi, ujar, gawe, nggambarake, nganggo, wonten, duwe, ngandhut, mratelakake -->
     <feat name="Voice" value="Pass" upos="VERB">314</feat><!-- katon, kelingan, diripta, diarani, dijenengi, dipunkenal, ditampa, mapan, dianggep, didadekake -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
     <dep name="acl">95</dep>
     <dep name="acl:relcl">199</dep>
-    <dep name="advcl">405</dep>
+    <dep name="advcl">404</dep>
     <dep name="advmod">746</dep>
     <dep name="advmod:emph">8</dep>
     <dep name="amod">191</dep>
@@ -85,7 +85,7 @@
     <dep name="cop">39</dep>
     <dep name="csubj">16</dep>
     <dep name="csubj:pass">1</dep>
-    <dep name="dep">2</dep>
+    <dep name="dep">3</dep>
     <dep name="det">554</dep>
     <dep name="discourse">50</dep>
     <dep name="fixed">16</dep>
