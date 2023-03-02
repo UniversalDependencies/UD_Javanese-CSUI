@@ -397,7 +397,7 @@
 # text_en = Drink the ice later when it's noon.
 1	Ngombe-ngombe	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 2	es	_	NOUN	_	Number=Sing	1	obj	_	_
-3	ki	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	SpaceAfter=No
+3	ki	_	DET	_	Abbr=Yes|Polite=Infm|PronType=Dem	2	det	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	1	punct	_	_
 5	mbok	_	PART	_	_	6	advmod:emph	_	_
 6	mengko	_	ADV	_	Polite=Infm	1	obl:tmod	_	Level=Ngoko
@@ -4060,7 +4060,7 @@
 35	utawa	_	CCONJ	_	Polite=Infm	40	cc	_	Level=Ngoko
 36	"	_	PUNCT	_	_	40	punct	_	SpaceAfter=No
 37	Kena	_	ADV	_	PronType=Int	40	advmod	_	_
-38	apa	_	PRON	_	PronType=Rel	37	fixed	_	_
+38	apa	_	PRON	_	PronType=Int	37	fixed	_	_
 39	ora	_	PART	_	Polarity=Neg|Polite=Infm	40	advmod	_	Level=Ngoko
 40	biyasa	_	ADJ	_	_	31	conj	_	SpaceAfter=No
 41	?	_	PUNCT	_	_	40	punct	_	SpaceAfter=No
@@ -8809,7 +8809,7 @@
 9	padha	_	ADV	_	Polite=Infm	10	advmod	_	Level=Ngoko
 10	jejogedan	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 11-12	rakaruan	_	_	_	_	_	_	_	SpaceAfter=No
-11	ra	_	PART	_	Polarity=Neg|Polite=Infm	12	advmod	_	Level=Ngoko
+11	ra	_	PART	_	Abbr=Yes|Polarity=Neg|Polite=Infm	12	advmod	_	Level=Ngoko
 12	karuan	_	ADJ	_	_	10	advcl	_	_
 13	.	_	PUNCT	_	_	10	punct	_	_
 
@@ -10595,7 +10595,7 @@
 4	isih	_	ADV	_	_	5	advmod	_	_
 5	njaluk	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	injet	_	NOUN	_	Number=Sing	5	obj	_	_
-7	ki	_	DET	_	Polite=Infm|PronType=Dem	6	det	_	SpaceAfter=No
+7	ki	_	DET	_	Abbr=Yes|Polite=Infm|PronType=Dem	6	det	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 9	”	_	PUNCT	_	_	5	punct	_	_
 
@@ -10954,7 +10954,7 @@
 3	gek	_	INTJ	_	_	8	discourse	_	_
 4	Yu	_	PROPN	_	_	8	nsubj	_	_
 5	Sri	_	PROPN	_	_	4	flat:name	_	_
-6	ki	_	DET	_	Polite=Infm|PronType=Dem	4	det	_	_
+6	ki	_	DET	_	Abbr=Yes|Polite=Infm|PronType=Dem	4	det	_	_
 7	ngendika	_	VERB	_	Mood=Ind|Polite=Elev|Voice=Act	0	root	_	Level=KramaInggil
 8	napa	_	PRON	_	PronType=Rel	7	obj	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	7	punct	_	_
@@ -11037,7 +11037,7 @@
 # text_en = Well, isn't it a panitya when your child needs a father and school fees.
 1	Lha	_	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	1	punct	_	_
-3	pa	_	ADV	_	Abbr=Yes	5	advmod	_	_
+3	pa	_	ADV	_	Abbr=Yes|PronType=Rel	5	advmod	_	_
 4	ra	_	PART	_	Abbr=Yes|Polarity=Neg|Polite=Infm	5	advmod	_	Level=Ngoko
 5	mesake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 6-7	anakmu	_	_	_	_	_	_	_	_
@@ -13025,7 +13025,7 @@
 4	kok	_	ADV	_	PronType=Int	6	advmod	_	_
 5	wis	_	AUX	_	Polite=Infm	6	aux	_	Level=Ngoko
 6	ditembung	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
-7	ki	_	PRON	_	Abbr=Yes	6	obl	_	SpaceAfter=No
+7	ki	_	PRON	_	Abbr=Yes|Polite=Infm|PronType=Dem	6	obl	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	6	punct	_	_
 9	Piye	_	ADV	_	Polite=Infm	6	parataxis	_	Level=Ngoko
 10	ta	_	INTJ	_	_	9	discourse	_	SpaceAfter=No
@@ -13311,7 +13311,7 @@
 1-2	Mbahmu	_	_	_	_	_	_	_	_
 1	Mbah	_	NOUN	_	Number=Sing	4	nsubj	_	_
 2	mu	_	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nmod:poss	_	_
-3	kok	_	ADV	_	PronType=Rel	4	advmod	_	_
+3	kok	_	ADV	_	PronType=Int	4	advmod	_	_
 4	ceguk	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	bar	_	ADP	_	Polite=Infm	6	case	_	Level=Ngoko
 6	kuwi	_	PRON	_	Polite=Infm|PronType=Dem	7	obl	_	_
@@ -13499,7 +13499,7 @@
 7	nganti	_	ADP	_	Polite=Infm	8	case	_	_
 8	Simbah	_	PROPN	_	_	9	nsubj	_	_
 9	mujudi	_	VERB	_	Mood=Ind|Voice=Act	5	advcl	_	_
-10	apa	_	PRON	_	Polite=Infm	9	obj	_	LEvel=Ngoko
+10	apa	_	PRON	_	PronType=Rel	9	obj	_	_
 11	kang	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	Level=Ngoko
 12	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	10	acl:relcl	_	Level=Ngoko
 13	sedyane	_	NOUN	_	Number=Sing	12	xcomp	_	_
