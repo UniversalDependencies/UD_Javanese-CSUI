@@ -229,7 +229,7 @@
 # text = Mau anakmu turokna neng kamar, ora kebribinen.
 # text_id = Seandainya tadi anakmu ditidurkan di kamar, tidak akan terbangun.
 # text_en = If your child had been put to sleep in the room, it would not wake up.
-1	Mau	_	DET	_	_	2	det	_	_
+1	Mau	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	_
 2-3	anakmu	_	_	_	_	_	_	_	_
 2	anak	_	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 3	mu	_	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nmod:poss	_	_
@@ -248,7 +248,7 @@
 1-2	Berase	_	_	_	_	_	_	_	_
 1	Beras	_	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 2	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
-3	mau	_	DET	_	_	1	det	_	_
+3	mau	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 4	wadhahna	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 5	karung	_	NOUN	_	Number=Sing	4	obl	_	SpaceAfter=No
 6	,	_	PUNCT	_	_	4	punct	_	_
@@ -299,7 +299,7 @@
 # text = Mau sangonana rak ya gelem.
 # text_id = Seandainya tadi diberi ongkos tentu mau.
 # text_en = If they had been given a fee, of course they would.
-1	Mau	_	ADV	_	_	2	advmod	_	_
+1	Mau	_	DET	_	Polite=Infm|PronType=Dem	2	advmod	_	_
 2	sangonana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 3	rak	_	ADV	_	_	5	advmod	_	_
 4	ya	_	INTJ	_	_	5	discourse	_	_
@@ -376,7 +376,7 @@
 2	dheweke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
 3	wis	_	AUX	_	_	4	aux	_	_
 4	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	1	advcl	_	_
-5	kene	_	ADV	_	_	4	advmod	_	SpaceAfter=No
+5	kene	_	ADV	_	Polite=Infm|PronType=Dem	4	advmod	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = wedhawati-2001-30
@@ -397,7 +397,7 @@
 # text_en = Drink the ice later when it's noon.
 1	Ngombe-ngombe	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 2	es	_	NOUN	_	Number=Sing	1	obj	_	_
-3	ki	_	DET	_	_	2	det	_	SpaceAfter=No
+3	ki	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	1	punct	_	_
 5	mbok	_	PART	_	_	6	advmod:emph	_	_
 6	mengko	_	ADV	_	Polite=Infm	1	obl:tmod	_	Level=Ngoko
@@ -615,7 +615,7 @@
 1-2	Piringe	_	_	_	_	_	_	_	_
 1	Piring	_	NOUN	_	Number=Sing	6	obj	_	_
 2	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
-3	sing	_	PRON	_	Polite=Infm	4	nsubj	_	_
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	_
 4	anyar	_	ADJ	_	_	1	acl:relcl	_	_
 5-6	taktibake	_	_	_	_	_	_	_	SpaceAfter=No
 5	tak	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nsubj	_	Level=Ngoko
@@ -626,7 +626,7 @@
 # text = Rene, bukune takwacakne.
 # text_id = Sini, bukunya saya bacakan.
 # text_en = Come here, let me read the book.
-1	Rene	_	PRON	_	_	6	obl	_	SpaceAfter=No
+1	Rene	_	PRON	_	PronType=Dem	6	obl	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	1	punct	_	_
 3-4	bukune	_	_	_	_	_	_	_	_
 3	buku	_	NOUN	_	Number=Sing	6	obj	_	_
@@ -676,7 +676,7 @@
 4-5	kokturokake	_	_	_	_	_	_	_	_
 4	kok	_	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	Level=Ngoko
 5	turokake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-6	kono	_	PRON	_	PronType=Dem	5	obl	_	SpaceAfter=No
+6	kono	_	ADV	_	Polite=Infm|PronType=Dem	5	obl	_	SpaceAfter=No
 7	!	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = wedhawati-2001-54
@@ -686,7 +686,7 @@
 1-2	Bukuku	_	_	_	_	_	_	_	_
 1	Buku	_	NOUN	_	Number=Sing	6	nsubj:pass	_	_
 2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
-3	sing	_	PRON	_	Polite=Infm	4	nsubj	_	_
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	_
 4	ilang	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 5	wis	_	AUX	_	Polite=Infm	6	aux	_	Level=Ngoko
 6	ketemu	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	SpaceAfter=No
@@ -735,7 +735,7 @@
 # text_id = Pusaka itu terlepas dari tangannya.
 # text_en = The heirloom slipped from his hands.
 1	Pusaka	_	NOUN	_	Number=Sing	3	nsubj:pass	_	_
-2	mau	_	DET	_	_	1	det	_	_
+2	mau	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 3	lumepas	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 4	saka	_	ADP	_	Polite=Infm	5	case	_	Level=Ngoko
 5-6	astane	_	_	_	_	_	_	_	SpaceAfter=No
@@ -796,7 +796,7 @@
 # text = Para panyarta lomba kudu bisa adu pinter.
 # text_id = Para peserta lomba harus dapat beradu pintar.
 # text_en = Competitors must be able to compete smartly.
-1	Para	_	DET	_	_	2	det	_	_
+1	Para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
 2	panyarta	_	NOUN	_	Number=Sing	6	nsubj	_	_
 3	lomba	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	kudu	_	AUX	_	Polite=Infm	7	aux	_	Level=Ngoko
@@ -878,7 +878,7 @@
 4	kudu	_	AUX	_	Polite=Infm	5	aux	_	Level=Ngoko
 5	linambaran	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	ati	_	NOUN	_	Number=Sing	5	obl	_	_
-7	kang	_	PRON	_	Polite=Infm	8	nsubj	_	Level=Ngoko
+7	kang	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj	_	Level=Ngoko
 8	manteb	_	ADJ	_	_	6	acl:relcl	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -898,7 +898,7 @@
 # text = Saben dina dheweke mangan sarta turu ing omahe Pak Harnowo.
 # text_id = Setiap hari dia makan serta tidur di rumah Pak Harnowo.
 # text_en = Every day he eats and sleeps at Pak Harnowo's house.
-1	Saben	_	DET	_	_	2	det	_	_
+1	Saben	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	_
 2	dina	_	NOUN	_	Number=Sing|Polite=Infm	4	obl:tmod	_	Level=Ngoko
 3	dheweke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
 4	mangan	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
@@ -918,7 +918,7 @@
 # text_en = The tiger prawns will be exported to Hong Kong.
 1	Urang	_	NOUN	_	Number=Sing	5	nsubj	_	_
 2	windu	_	NOUN	_	Number=Sing	1	nmod	_	_
-3	mau	_	DET	_	_	1	det	_	_
+3	mau	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 4	bakal	_	AUX	_	Polite=Infm	5	aux	_	Level=Ngoko
 5	diekspor	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	menyang	_	ADP	_	_	7	case	_	_
@@ -929,7 +929,7 @@
 # text = Saben esuk Pak Hamid nyoba nyopir.
 # text_id = Setiap pagi Pak Hamid mencoba menyopir.
 # text_en = Every morning Pak Hamid tries to drive.
-1	Saben	_	DET	_	_	2	det	_	_
+1	Saben	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	_
 2	esuk	_	NOUN	_	Number=Sing|Polite=Infm	5	obl:tmod	_	Level=Ngoko
 3	Pak	_	PROPN	_	_	5	nsubj	_	_
 4	Hamid	_	PROPN	_	_	3	flat:name	_	_
@@ -997,7 +997,7 @@
 # text_id = Semua pelamar yang pandai diterima dikantor Puspitek.
 # text_en = All good applicants are accepted at the Puspitek office.
 1	Pelamar	_	NOUN	_	Number=Sing	4	nsubj:pass	_	_
-2	sing	_	PRON	_	Polite=Infm	3	nsubj	_	Level=Ngoko
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	Level=Ngoko
 3	pinter-pinter	_	ADJ	_	_	1	acl:relcl	_	_
 4	ditampa	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 5	ing	_	ADP	_	Polite=Infm	6	case	_	_
@@ -1010,9 +1010,9 @@
 # text_id = Semua daging yang tipis tadi dimasak bestik.
 # text_en = All the thin meat was cooked bestik.
 1	Daging	_	NOUN	_	Number=Sing	5	nsubj:pass	_	_
-2	sing	_	PRON	_	Polite=Infm	3	nsubj	_	_
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	_
 3	tipis-tipis	_	ADJ	_	_	1	acl:relcl	_	_
-4	mau	_	DET	_	_	1	det	_	_
+4	mau	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 5	dimasak	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	bestik	_	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	5	punct	_	_
@@ -1047,7 +1047,7 @@
 # text = Saben kentekan obat sirahku mumat-mumet.
 # text_id = Setiap kehabisan obat kepala saya berulang kali pusing.
 # text_en = Every time I run out of medicine my head is repeatedly dizzy.
-1	Saben	_	DET	_	_	2	det	_	_
+1	Saben	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	_
 2	kentekan	_	NOUN	_	Number=Sing|Polite=Infm	6	obl	_	Level=Ngoko
 3	obat	_	NOUN	_	Number=Sing	2	nmod	_	_
 4-5	sirahku	_	_	_	_	_	_	_	_
@@ -1175,9 +1175,9 @@
 # text_id = Ular yang panjang sekali tadi ditangkap lalu dimasukkan ke dalam karung.
 # text_en = The very long snake was caught and put into a sack.
 1	Ula	_	NOUN	_	Number=Sing	5	nsubj	_	_
-2	kang	_	PRON	_	Polite=Infm	3	nsubj:pass	_	Level=Ngoko
+2	kang	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj:pass	_	Level=Ngoko
 3	duawa	_	ADJ	_	_	1	acl:relcl	_	_
-4	mau	_	DET	_	_	1	det	_	_
+4	mau	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 5	dicekel	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 6	banjur	_	ADV	_	_	7	advmod	_	_
 7	dilebokake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	5	advcl	_	Level=Ngoko
@@ -1278,7 +1278,7 @@
 # text_en = The banana leaf was slightly yellow in color because it was exposed to the moonlight.
 1	Godhong	_	NOUN	_	Number=Sing	7	nsubj	_	_
 2	gedhang	_	NOUN	_	Number=Sing	1	nmod	_	_
-3	mau	_	DET	_	_	1	det	_	_
+3	mau	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 4-5	wernane	_	_	_	_	_	_	_	_
 4	werna	_	NOUN	_	Number=Sing	1	nmod	_	_
 5	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nmod:poss	_	Level=Ngoko
@@ -1347,12 +1347,12 @@
 4	DIY	_	PROPN	_	_	1	flat:name	_	_
 5	dumugi	_	ADP	_	Polite=Form	6	case	_	Level=Krama
 6	samangke	_	NOUN	_	Number=Sing|Polite=Form	8	obl:tmod	_	Level=Krama
-7	taksih	_	DET	_	_	6	det	_	_
+7	taksih	_	ADV	_	_	8	advmod	_	_
 8	angleksanakaken	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 9	visi	_	NOUN	_	Number=Sing	8	obj	_	_
 10	lan	_	CCONJ	_	Polite=Infm	11	cc	_	Level=Ngoko
 11	misi	_	NOUN	_	Number=Sing	9	conj	_	_
-12	ingkang	_	PRON	_	Polite=Form	14	nsubj:pass	_	Level=Krama
+12	ingkang	_	PRON	_	Polite=Form|PronType=Rel	14	nsubj:pass	_	Level=Krama
 13	sampun	_	AUX	_	Polite=Form	14	aux	_	Level=Krama
 14	dipuntemtokaken	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	9	acl:relcl	_	Level=Krama|SpaceAfter=No
 15	,	_	PUNCT	_	_	14	punct	_	_
@@ -1361,12 +1361,12 @@
 18	andadosaken	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	14	advcl	_	Level=Krama
 19	punjering	_	NOUN	_	Number=Sing	18	obj	_	_
 20	informasi	_	NOUN	_	Number=Sing	19	nmod	_	_
-21	ingkang	_	PRON	_	Polite=Form	22	nsubj	_	Level=Krama
+21	ingkang	_	PRON	_	Polite=Form|PronType=Rel	22	nsubj	_	Level=Krama
 22	lengkap	_	ADJ	_	_	19	acl:relcl	_	_
 23	lan	_	CCONJ	_	Polite=Infm	24	cc	_	Level=Ngoko
 24	dados	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	18	conj	_	Level=Krama
 25	layanan	_	NOUN	_	Number=Sing	24	obl	_	_
-26	ingkang	_	PRON	_	Polite=Form	27	nsubj	_	Level=Krama
+26	ingkang	_	PRON	_	Polite=Form|PronType=Rel	27	nsubj	_	Level=Krama
 27	sae	_	ADJ	_	Polite=Form	25	acl:relcl	_	Level=Krama
 28	ing	_	ADP	_	Polite=Infm	29	case	_	_
 29	bab	_	NOUN	_	Number=Sing	27	obl	_	_
@@ -1451,7 +1451,7 @@
 # text_en = In fact, some people, especially young people, are afraid to use the Javanese language, worried that it will be the fault of others.
 1	Malah	_	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	1	punct	_	_
-3	saperangan	_	DET	_	_	4	det	_	_
+3	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	4	det	_	_
 4	masyarakat	_	NOUN	_	Number=Sing	10	nsubj	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	8	punct	_	_
 6	mliginipun	_	ADV	_	Polite=Form	8	advmod	_	Level=Krama
@@ -1495,7 +1495,7 @@
 # text = Apa tegese tembung ngoko?
 # text_id = Apa artinya kata ngoko?
 # text_en = What does the meaning of ngoko word?
-1	Apa	_	PRON	_	Polite=Infm	2	nsubj	_	Level=Ngoko
+1	Apa	_	PRON	_	Polite=Infm|PronType=Int	2	nsubj	_	Level=Ngoko
 2-3	tegese	_	_	_	_	_	_	_	_
 2	teges	_	NOUN	_	Number=Sing	0	root	_	_
 3	e	_	DET	_	Polite=Infm	2	det	_	Level=Ngoko
@@ -1551,7 +1551,7 @@
 3	panganggo	_	NOUN	_	Number=Sing|Polite=Infm	10	nmod	_	Level=Ngoko
 4	ne	_	DET	_	Polite=Infm	3	det	_	Level=Ngoko
 5	,	_	PUNCT	_	_	3	punct	_	_
-6	sing	_	PRON	_	Polite=Infm	7	nsubj	_	Level=Ngoko
+6	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	Level=Ngoko
 7	pokok	_	ADV	_	_	8	advmod	_	_
 8	basa	_	NOUN	_	Number=Sing	10	nsubj:pass	_	_
 9	Jawa	_	PROPN	_	_	8	nmod	_	_
@@ -1763,7 +1763,7 @@
 # text_en = Therefore, polite language can be distinguished between soft and less gentle.
 1	Mula	_	NOUN	_	Number=Sing	8	obl	_	_
 2	saka	_	ADP	_	Polite=Infm	3	case	_	Level=Ngoko
-3	iku	_	PRON	_	Polite=Infm	1	nmod	_	Level=Ngoko|SpaceAfter=No
+3	iku	_	PRON	_	Polite=Infm|PronType=Dem	1	nmod	_	Level=Ngoko|SpaceAfter=No
 4	,	_	PUNCT	_	_	1	punct	_	_
 5	basa	_	NOUN	_	Number=Sing	8	nsubj:pass	_	_
 6	krama	_	ADJ	_	_	5	amod	_	_
@@ -1772,10 +1772,10 @@
 9-10	antarane	_	_	_	_	_	_	_	_
 9	antara	_	NOUN	_	Number=Sing	10	nmod:lmod	_	_
 10	ne	_	PRON	_	Polite=Infm	8	obl	_	Level=Ngoko
-11	sing	_	PRON	_	Polite=Infm	12	nsubj	_	Level=Ngoko
+11	sing	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	Level=Ngoko
 12	alus	_	ADJ	_	_	8	advcl	_	_
 13	lan	_	CCONJ	_	Polite=Infm	16	cc	_	Level=Ngoko
-14	sing	_	PRON	_	Polite=Infm	16	nsubj	_	Level=Ngoko
+14	sing	_	PRON	_	Polite=Infm|PronType=Rel	16	nsubj	_	Level=Ngoko
 15	kurang	_	ADV	_	Polite=Infm	16	advmod	_	Level=Ngoko
 16	alus	_	ADJ	_	_	12	conj	_	SpaceAfter=No
 17	.	_	PUNCT	_	_	8	punct	_	_
@@ -1818,13 +1818,13 @@
 3	wis	_	AUX	_	Polite=Infm	5	aux	_	Level=Ngoko
 4	padha	_	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
 5	ngerti	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-6	sing	_	PRON	_	Polite=Infm	7	nsubj:pass	_	Level=Ngoko
+6	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj:pass	_	Level=Ngoko
 7	diarani	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	5	xcomp	_	Level=Ngoko
 8	tembung-tembung	_	NOUN	_	Number=Sing	7	obl	_	_
 9	iku	_	DET	_	Polite=Infm	8	det	_	Level=Ngoko|SpaceAfter=No
 10	,	_	PUNCT	_	_	5	punct	_	_
 11	nanging	_	CCONJ	_	_	13	cc	_	_
-12	sing	_	PRON	_	Polite=Infm	13	nsubj	_	Level=Ngoko
+12	sing	_	PRON	_	Polite=Infm|PronType=Rel	13	nsubj	_	Level=Ngoko
 13	akeh	_	ADJ	_	Polite=Infm	5	conj	_	Level=Ngoko
 14	dhewe	_	PRON	_	Number=Plur|Person=3|Polite=Infm|PronType=Prs	15	nsubj:pass	_	Level=Ngoko
 15	dimangerteni	_	VERB	Mood=Ind|Polite=Infm|Voice=Pass	Voice=Pass	13	advcl	_	Level=Ngoko
@@ -1853,7 +1853,7 @@
 14	pakurmatan	_	NOUN	_	Number=Sing	13	obj	_	_
 15	marang	_	ADP	_	Polite=Infm	16	case	_	Level=Ngoko
 16	wong	_	NOUN	_	Number=Sing|Polite=Infm	13	obl	_	Level=Ngoko
-17	sing	_	PRON	_	Polite=Infm	18	nsubj:pass	_	Level=Ngoko
+17	sing	_	PRON	_	Polite=Infm|PronType=Rel	18	nsubj:pass	_	Level=Ngoko
 18	dikarepake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	16	acl:relcl	_	Level=Ngoko
 19	kanthi	_	ADP	_	_	20	case	_	_
 20	cara	_	NOUN	_	Number=Sing	18	obl	_	_
@@ -1922,7 +1922,7 @@
 12	tembung	_	NOUN	_	Number=Sing	10	nmod:poss	_	_
 13	krama	_	NOUN	_	Number=Sing	12	nmod	_	_
 14	inggil	_	ADJ	_	_	13	amod	_	_
-15	sing	_	PRON	_	Polite=Infm	17	nsubj	_	Level=Ngoko
+15	sing	_	PRON	_	Polite=Infm|PronType=Rel	17	nsubj	_	Level=Ngoko
 16	wis	_	AUX	_	Polite=Infm	17	aux	_	Level=Ngoko
 17	diterangake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	12	acl:relcl	_	Level=Ngoko
 18	ing	_	ADP	_	Polite=Infm	19	case	_	_
@@ -1943,7 +1943,7 @@
 7	beda	_	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
 8	karo	_	ADP	_	Polite=Infm	9	case	_	Level=Ngoko
 9	tembung	_	NOUN	_	Number=Sing	7	obl	_	_
-10	sing	_	PRON	_	Polite=Infm	11	nsubj	_	Level=Ngoko
+10	sing	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	Level=Ngoko
 11	pantes	_	ADJ	_	_	9	acl:relcl	_	_
 12	kinurmatan	_	NOUN	_	Number=Sing	11	obl	_	_
 13	utawa	_	CCONJ	_	Polite=Infm	14	cc	_	Level=Ngoko
@@ -1974,7 +1974,7 @@
 5	kanggo	_	SCONJ	_	Polite=Infm	6	mark	_	Level=Ngoko
 6	ngluhurake	_	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
 7	wong	_	NOUN	_	Number=Sing|Polite=Infm	6	obj	_	Level=Ngoko
-8	sing	_	PRON	_	Polite=Infm	9	nsubj:pass	_	Level=Ngoko
+8	sing	_	PRON	_	Polite=Infm|PronType=Rel	9	nsubj:pass	_	Level=Ngoko
 9	dikarepake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	7	acl:relcl	_	Level=Ngoko|SpaceAfter=No
 10	,	_	PUNCT	_	_	4	punct	_	_
 11	dene	_	SCONJ	_	Polite=Infm	15	mark	_	Level=Ngoko
@@ -1989,10 +1989,10 @@
 19	pribadi	_	NOUN	_	Number=Sing	18	nmod	_	_
 20	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	19	det	_	Level=Ngoko
 21	wong	_	NOUN	_	Number=Sing|Polite=Infm	18	nmod:poss	_	Level=Ngoko
-22	sing	_	PRON	_	Polite=Infm	23	nsubj	_	Level=Ngoko
+22	sing	_	PRON	_	Polite=Infm|PronType=Rel	23	nsubj	_	Level=Ngoko
 23	guneman	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	21	acl:relcl	_	Level=Ngoko
 24	utawa	_	CCONJ	_	Polite=Infm	26	cc	_	Level=Ngoko
-25	sing	_	PRON	_	Polite=Infm	26	nsubj	_	Level=Ngoko
+25	sing	_	PRON	_	Polite=Infm|PronType=Rel	26	nsubj	_	Level=Ngoko
 26	ngurmati	_	VERB	_	Mood=Ind|Voice=Act	23	conj	_	_
 27	(	_	PUNCT	_	_	28	punct	_	SpaceAfter=No
 28	andhap	_	ADJ	_	Polite=Form	21	appos	_	Level=Krama|SpaceAfter=No
@@ -2007,7 +2007,7 @@
 # text =	Para warga padha metu karo nggawani sampah sing wis dipisah antarane sampah teles lan sampah garing ing sajroning bak sampah; Cecep (17), gaweane luwih enteng amarga wis didhewekake sampahe, dheweke ora perlu antri.
 # text_id = Para warga keluar dengan membawa tumpukan sampah yang sudah dipisahkan antara sampah basah dan sampah kering di dalam tempat sampah; Cecep (17), pekerjaannya lebih ringan karena sudah dipisahkan sampahnya, tidak perlu antri.
 # text_en = The residents came out with piles of garbage that had been separated between wet and dry waste in the trash; Cecep (17), his work is lighter because the garbage has been separated, no need to queue
-1	Para	_	DET	_	Number=Plur|PronType=Ind	2	det	_	_
+1	Para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
 2	warga	_	NOUN	_	Number=Sing	4	nsubj	_	_
 3	padha	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
 4	metu	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
@@ -2143,7 +2143,7 @@
 1	Semana	_	ADJ	_	_	0	root	_	_
 2	uga	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
 3	ing	_	ADP	_	Polite=Infm	5	case	_	_
-4	saperangan	_	DET	_	Number=Plur|PronType=Ind	5	det	_	_
+4	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	5	det	_	_
 5	perkutut	_	NOUN	_	Number=Sing	1	obl	_	_
 6	kagem	_	ADP	_	_	7	case	_	_
 7	Bapak	_	PROPN	_	_	1	obl	_	SpaceAfter=No
@@ -2655,7 +2655,7 @@
 # text = Para panantang iki mutusake yen beya ekonomi kang diperlokake kanggo nindak Protokol Kyoto isa ngancik 300 milyar dollar AS, mligi disebabake dening beya energi.
 # text_id = Penentang mengklaim bahwa biaya ekonomi yang dibutuhkan untuk menerapkan Protokol Kyoto dapat mencapai 300 miliar dolar AS, khususnya karena biaya energi.
 # text_en = Opponents claim that the economic costs required to implement the Kyoto Protocol could be as high as $300 billion, mainly because of energy costs.
-1	Para	_	DET	_	Number=Plur|PronType=Ind	2	det	_	_
+1	Para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
 2	panantang	_	NOUN	_	Number=Sing	4	nsubj	_	_
 3	iki	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko
 4	mutusake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
@@ -4560,7 +4560,7 @@
 12	tambahan	_	ADJ	_	_	11	amod	_	_
 13	(	_	PUNCT	_	_	27	punct	_	SpaceAfter=No
 14	ing	_	ADP	_	Polite=Infm	16	case	_	_
-15	saperangan	_	DET	_	Number=Plur|PronType=Ind	16	det	_	_
+15	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	16	det	_	_
 16	kadadosan	_	NOUN	_	Number=Sing	27	obl	_	_
 17	ingkang	_	PRON	_	Polite=Form|PronType=Rel	19	nsubj	_	Level=Krama
 18	cekap	_	ADV	_	_	19	advmod	_	_
@@ -5004,7 +5004,7 @@
 5	Otoritas	_	PROPN	_	_	7	nsubj	_	_
 6	Palestina	_	PROPN	_	_	5	flat:name	_	_
 7	nyekel	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-8	dheweke	_	PRON	_	_	7	obj	_	_
+8	dheweke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	7	obj	_	_
 9	amarga	_	SCONJ	_	_	10	mark	_	_
 10	diduga	_	VERB	_	Mood=Ind|Voice=Pass	7	advcl	_	_
 11	ngolok-olok	_	VERB	_	Mood=Ind|Voice=Act	10	xcomp	_	_
@@ -5057,7 +5057,7 @@
 26	positif	_	ADJ	_	_	25	amod	_	_
 27	uga	_	ADV	_	Polite=Infm	28	advmod	_	Level=Ngoko
 28	entuk	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	19	conj	_	Level=Ngoko
-29	sawetara	_	DET	_	_	30	det	_	_
+29	sawetara	_	ADP	_	_	30	case	_	_
 30	nominasi	_	NOUN	_	Number=Sing	28	obj	_	_
 31	Grammy	_	PROPN	_	_	30	nmod	_	_
 32	Award	_	PROPN	_	_	31	flat:name	_	_
@@ -5224,7 +5224,7 @@
 11	,	_	PUNCT	_	_	12	punct	_	_
 12	nambah	_	VERB	_	Mood=Ind|Voice=Act	3	acl	_	_
 13	kekerasan	_	NOUN	_	Number=Sing	12	obj	_	_
-14	kang	_	PRON	_	Polite=Infm	16	nsubj:pass	_	_
+14	kang	_	PRON	_	Polite=Infm|PronType=Rel	16	nsubj:pass	_	_
 15	tansah	_	ADV	_	_	16	advmod	_	_
 16	kedadeyan	_	VERB	_	Mood=Ind|Voice=Pass	13	acl:relcl	_	_
 17-18	antarane	_	_	_	_	_	_	_	_
@@ -5256,7 +5256,7 @@
 13	taun	_	NOUN	_	Number=Sing	8	obl:tmod	_	_
 14	1989	_	NUM	_	_	13	nummod	_	SpaceAfter=No
 15	,	_	PUNCT	_	_	18	punct	_	_
-16	kang	_	PRON	_	Polite=Infm	18	nsubj:pass	_	Level=Ngoko
+16	kang	_	PRON	_	Polite=Infm|PronType=Rel	18	nsubj:pass	_	Level=Ngoko
 17	uga	_	ADV	_	Polite=Infm	18	advmod	_	Level=Ngoko
 18	dimupakati	_	VERB	_	Mood=Ind|Voice=Pass	8	advcl	_	_
 19	dening	_	ADP	_	_	20	case	_	_
@@ -5309,7 +5309,7 @@
 7	Liam	_	PROPN	_	_	6	nmod	_	_
 8	Broady	_	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	11	punct	_	_
-10	sing	_	PRON	_	Polite=Infm	11	nsubj	_	_
+10	sing	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	_
 11	menangake	_	VERB	_	Mood=Ind|Voice=Act	7	acl:relcl	_	_
 12	turnamen	_	NOUN	_	Number=Sing	11	obj	_	_
 13	Grade	_	PROPN	_	_	12	nmod	_	_
@@ -5320,7 +5320,7 @@
 18	International	_	PROPN	_	_	16	flat:name	_	_
 19	2011	_	NUM	_	_	16	nummod	_	SpaceAfter=No
 20	,	_	PUNCT	_	_	22	punct	_	_
-21	sing	_	PRON	_	Polite=Infm	22	nsubj:pass	_	_
+21	sing	_	PRON	_	Polite=Infm|PronType=Rel	22	nsubj:pass	_	_
 22	dianakake	_	VERB	_	Mood=Ind|Voice=Pass	16	acl:relcl	_	_
 23	ing	_	ADP	_	Polite=Infm	24	case	_	_
 24	Roehampton	_	PROPN	_	_	22	obl	_	_
@@ -5342,7 +5342,7 @@
 6	Armenia	_	PROPN	_	_	4	nmod	_	_
 7	Fund	_	PROPN	_	_	6	flat:name	_	_
 8	International	_	PROPN	_	_	7	flat:name	_	_
-9	sing	_	PRON	_	Polite=Infm	11	nsubj	_	_
+9	sing	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	_
 10	wis	_	AUX	_	Polite=Infm	11	aux	_	Level=Ngoko
 11	menehi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	6	acl:relcl	_	Level=Ngoko
 12	punjul	_	ADV	_	_	13	advmod	_	_
@@ -5387,7 +5387,7 @@
 15	wujud	_	NOUN	_	Number=Sing	10	nmod	_	_
 16	sapi	_	NOUN	_	Number=Sing	15	nmod	_	_
 17	babon	_	NOUN	_	Number=Sing	16	nmod	_	_
-18	kang	_	PRON	_	Polite=Infm	20	nsubj	_	_
+18	kang	_	PRON	_	Polite=Infm|PronType=Rel	20	nsubj	_	_
 19	bisa	_	AUX	_	_	20	aux	_	_
 20	diperes	_	VERB	_	Mood=Ind|Voice=Pass	16	acl:relcl	_	_
 21-22	susune	_	_	_	_	_	_	_	SpaceAfter=No
@@ -5424,7 +5424,7 @@
 13	griya	_	NOUN	_	Number=Sing|Polite=Form	12	obj	_	Level=Krama
 14	sakit	_	ADJ	_	_	13	amod	_	_
 15	anak	_	NOUN	_	Number=Sing|Polite=Infm	13	nmod	_	Level=Ngoko
-16	ingkang	_	PRON	_	Polite=Form	18	nsubj:pass	_	Level=Krama
+16	ingkang	_	PRON	_	Polite=Form|PronType=Rel	18	nsubj:pass	_	Level=Krama
 17	lajeng	_	ADV	_	Polite=Form	18	advmod	_	Level=Krama
 18	dipunkenal	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	13	acl:relcl	_	Level=Krama
 19	minangka	_	ADP	_	_	20	case	_	_
@@ -5512,7 +5512,7 @@
 29	kasil	_	VERB	_	Mood=Ind|Voice=Act	11	advcl	_	_
 30	menangaken	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	29	advcl	_	Level=Krama
 31	ajang	_	NOUN	_	Number=Sing	30	obj	_	_
-32	mau	_	DET	_	_	31	det	_	SpaceAfter=No
+32	mau	_	DET	_	Polite=Infm|PronType=Dem	31	det	_	SpaceAfter=No
 33	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = opus-wiki-147
@@ -5525,7 +5525,7 @@
 4	41,8	_	NUM	_	_	2	nummod	_	_
 5	miliar	_	NUM	_	NumType=Card	4	flat	_	_
 6	utang	_	NOUN	_	Number=Sing	2	nmod	_	_
-7	ingkang	_	PRON	_	_	9	nsubj:pass	_	_
+7	ingkang	_	PRON	_	Polite=Form|PronType=Rel	9	nsubj:pass	_	_
 8	rantamanipun	_	NOUN	_	Number=Sing	9	obl:agent	_	_
 9	dipunbayar	_	VERB	_	Mood=Ind|Voice=Pass	6	acl:relcl	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	12	punct	_	_
@@ -5538,7 +5538,7 @@
 17	dhedhasar	_	NOUN	_	Number=Sing	16	obl	_	_
 18	kurs	_	NOUN	_	Number=Sing	17	nmod	_	_
 19	arta	_	NOUN	_	Number=Sing	18	nmod	_	_
-20	ingkang	_	PRON	_	Polite=Form	21	nsubj	_	Level=Krama
+20	ingkang	_	PRON	_	Polite=Form|PronType=Rel	21	nsubj	_	Level=Krama
 21	kasamekta	_	VERB	_	Mood=Ind|Voice=Act	17	acl:relcl	_	SpaceAfter=No
 22	,	_	PUNCT	_	_	25	punct	_	_
 23	inggih	_	AUX	_	Polite=Form	25	cop	_	Level=Krama
@@ -5572,7 +5572,7 @@
 11	(	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	POPKA	_	PROPN	_	_	7	appos	_	SpaceAfter=No
 13	)	_	PUNCT	_	_	12	punct	_	_
-14	kang	_	PRON	_	Polite=Infm	18	obl	_	_
+14	kang	_	PRON	_	Polite=Infm|PronType=Rel	18	obl	_	_
 15-16	tujuane	_	_	_	_	_	_	_	_
 15	tujuan	_	NOUN	_	Number=Sing	18	nsubj	_	_
 16	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	15	det	_	Level=Ngoko
@@ -5590,7 +5590,7 @@
 28	lan	_	CCONJ	_	Polite=Infm	29	cc	_	Level=Ngoko
 29	gas	_	NOUN	_	Number=Sing	22	conj	_	_
 30	CO2	_	PROPN	_	_	29	nmod	_	_
-31	kang	_	PRON	_	Polite=Infm	32	nsubj:pass	_	_
+31	kang	_	PRON	_	Polite=Infm|PronType=Rel	32	nsubj:pass	_	_
 32	diguwak	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	29	acl:relcl	_	Level=Ngoko
 33	marang	_	ADP	_	_	34	case	_	_
 34	atmosfer	_	NOUN	_	Number=Sing	32	obl	_	_
@@ -5610,13 +5610,13 @@
 3	ndherek	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	Level=Krama
 4	terjun	_	VERB	_	Mood=Ind|Voice=Act	3	xcomp	_	_
 5	ing	_	ADP	_	Polite=Infm	7	case	_	_
-6	saperangan	_	DET	_	_	7	det	_	_
+6	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	7	det	_	_
 7	kegiyatan	_	NOUN	_	Number=Sing	4	obl	_	_
 8	milis	_	NOUN	_	Number=Sing	7	nmod	_	_
 9	sastra	_	NOUN	_	Number=Sing	8	nmod	_	_
 10	saha	_	CCONJ	_	_	13	cc	_	_
 11	ing	_	ADP	_	Polite=Infm	13	case	_	_
-12	saperangan	_	DET	_	_	13	det	_	_
+12	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	13	det	_	_
 13	komunitas	_	NOUN	_	Number=Sing	7	conj	_	SpaceAfter=No
 14	,	_	PUNCT	_	_	15	punct	_	_
 15	kados	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	7	advcl	_	Level=Krama
@@ -5792,14 +5792,14 @@
 # text_en = However, there are also those whose job is as a famous secretary, the more famous one is his last job as a rain handler .
 1	Kamangka	_	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	4	punct	_	_
-3	sejene	_	PRON	_	_	4	nsubj	_	_
+3	sejene	_	SCONJ	_	_	4	mark	_	_
 4	nduwe	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 5	gaweyan	_	NOUN	_	Number=Sing|Polite=Infm	4	obj	_	Level=Ngoko
 6	minangka	_	ADP	_	_	7	case	_	_
 7	carik	_	NOUN	_	Number=Sing	5	nmod	_	_
 8	kondhang	_	ADJ	_	_	7	amod	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	12	punct	_	_
-10	sing	_	PRON	_	Polite=Infm	12	nsubj	_	Level=Ngoko
+10	sing	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	Level=Ngoko
 11	luwih	_	ADV	_	_	12	advmod	_	_
 12	kondhang	_	ADJ	_	_	4	advcl	_	_
 13	maneh	_	ADV	_	_	12	advmod	_	_
@@ -5831,7 +5831,7 @@
 # text = Apa maneh yen nganggo tanggapan klenengan tekan wayangan.
 # text_id = Apalagi kalau dengan pertunjukan gamelan atau wayang.
 # text_en = Especially if it's a gamelan or puppet show.
-1	Apa	_	PRON	_	_	5	obl	_	_
+1	Apa	_	PRON	_	Polite=Infm|PronType=Int	5	obl	_	_
 2	maneh	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
 3	yen	_	SCONJ	_	Polite=Infm	5	mark	_	Level=Ngoko
 4	nganggo	_	ADP	_	_	5	case	_	_
@@ -5900,13 +5900,13 @@
 1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	2	nsubj	_	Level=Ngoko
 2	aweh	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	saran	_	NOUN	_	Number=Sing	2	obj	_	_
-4	mangkono	_	DET	_	_	3	det	_	_
+4	mangkono	_	DET	_	Polite=Infm|PronType=Dem	3	det	_	_
 5	ya	_	INTJ	_	_	2	discourse	_	_
 6	merga	_	SCONJ	_	Polite=Infm	7	mark	_	Level=Ngoko
 7	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	2	advcl	_	Level=Ngoko
 8	grup	_	NOUN	_	Number=Sing	15	nsubj	_	_
 9	WA	_	PROPN	_	_	8	nmod	_	_
-10	gecer	_	PRON	_	_	11	nsubj	_	_
+10	gecer	_	ADV	_	_	11	advmod	_	_
 11	ngunggah	_	VERB	_	Mood=Ind|Voice=Act	8	acl:relcl	_	_
 12	tembung	_	NOUN	_	Number=Sing	11	obj	_	_
 13	dhukun	_	NOUN	_	Number=Sing	12	nmod	_	_
@@ -5924,7 +5924,7 @@
 3	objek	_	NOUN	_	Number=Sing	0	root	_	_
 4	laporan	_	NOUN	_	Number=Sing	3	nmod	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	3	punct	_	_
-6	sing	_	PRON	_	Polite=Infm	7	nsubj:pass	_	_
+6	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj:pass	_	_
 7	dijedhulke	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	3	advcl	_	Level=Ngoko
 8	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	7	advcl	_	Level=Ngoko
 9	pirang-pirang	_	DET	_	Number=Plur	10	det	_	_
@@ -5949,7 +5949,7 @@
 1	"	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Coba	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	2	punct	_	_
-4	apa	_	PRON	_	_	7	obl	_	_
+4	apa	_	PRON	_	PronType=Rel	7	obl	_	_
 5	panjenengan	_	PRON	_	Number=Sing|Person=3|Polite=Elev|PronType=Prs	6	nsubj	_	Level=Krama
 6	wani	_	ADJ	_	_	2	advcl	_	_
 7	mantu	_	VERB	_	Mood=Ind|Voice=Act	6	advcl	_	_
@@ -6004,7 +6004,7 @@
 1-2	Sauranku	_	_	_	_	_	_	_	_
 1	Sauran	_	NOUN	_	Number=Sing	8	nsubj	_	_
 2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
-3	sing	_	PRON	_	Polite=Infm	6	nsubj:pass	_	_
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	6	nsubj:pass	_	_
 4	kerep	_	ADV	_	_	6	advmod	_	_
 5	ora	_	PART	_	Polarity=Neg|Polite=Infm	6	advmod	_	Level=Ngoko
 6	keduga	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	1	acl:relcl	_	Level=Ngoko
@@ -6050,7 +6050,7 @@
 3	yen	_	SCONJ	_	Polite=Infm	5	mark	_	Level=Ngoko
 4	Ruwah	_	PROPN	_	_	5	nsubj	_	_
 5	ngene	_	VERB	Polite=Infm	Voice=Act	9	advcl	_	Level=Ngoko
-6	iki	_	PRON	_	_	5	obj	_	SpaceAfter=No
+6	iki	_	PRON	_	Polite=Infm|PronType=Dem	5	obj	_	SpaceAfter=No
 7	,	_	PUNCT	_	_	9	punct	_	_
 8	isa	_	AUX	_	Abbr=Yes|Polite=Infm	9	aux	_	Level=Ngoko
 9	ana	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -6115,7 +6115,7 @@
 # text_en = It is considered a cultural treasure.
 1	Dianggep	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 2	wae	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
-3	iki	_	PRON	_	Polite=Infm	1	obl	_	Level=Ngoko
+3	iki	_	PRON	_	Polite=Infm|PronType=Dem	1	obl	_	Level=Ngoko
 4	sawijining	_	DET	_	Definite=Ind|Number=Sing|Polite=Infm|PronType=Art	5	det	_	Level=Ngoko
 5	kekayaan	_	NOUN	_	Number=Sing	3	nmod	_	_
 6	budhaya	_	NOUN	_	Number=Sing	5	nmod	_	SpaceAfter=No
@@ -6125,7 +6125,7 @@
 # text = Apa maneh, Lek Wiro Bengah ngusir udan ya ora nganggo sesaji menyan lan kembang.
 # text_id = Apalagi, Lek Wiro Bengah mengusir hujan tanpa mempersembahkan dupa dan bunga.
 # text_en = Moreover, Lek Wiro Bengah drove the rain away without offering incense and flowers.
-1	Apa	_	PRON	_	_	7	obl	_	_
+1	Apa	_	PRON	_	Polite=Infm|PronType=Int	7	obl	_	_
 2	maneh	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko|SpaceAfter=No
 3	,	_	PUNCT	_	_	1	punct	_	_
 4	Lek	_	PROPN	_	_	7	nsubj	_	_
@@ -6149,7 +6149,7 @@
 1	Resik	_	ADJ	_	_	0	root	_	_
 2	saka	_	ADP	_	Polite=Infm	3	case	_	Level=Ngoko
 3	sesajen	_	NOUN	_	Number=Sing	1	obl	_	_
-4	sing	_	PRON	_	Polite=Infm	5	nsubj	_	Level=Ngoko
+4	sing	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	Level=Ngoko
 5	ngundang	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	3	acl:relcl	_	Level=Ngoko
 6	unsur	_	NOUN	_	Number=Sing	5	obj	_	_
 7	sirik	_	ADJ	_	_	6	amod	_	SpaceAfter=No
@@ -6177,7 +6177,7 @@
 # text_id = Ada yang memesan teh ginastel, kopi, jahe dan susu.
 # text_en = There is an order of ginastel tea , coffee, ginger and milk.
 1	Ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-2	sing	_	PRON	_	Polite=Infm	3	nsubj	_	Level=Ngoko
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	Level=Ngoko
 3	pesen	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	1	advcl	_	Level=Ngoko
 4	teh	_	NOUN	_	Number=Sing	3	obj	_	_
 5	ginastel	_	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
@@ -6195,7 +6195,7 @@
 # text_en = Kauman Village, which is located in Pasar Kliwon District, Solo, has a village name related to the work of its residents.
 1	Kelurahan	_	NOUN	_	Number=Sing	14	nsubj	_	_
 2	Kauman	_	PROPN	_	_	1	nmod	_	_
-3	kang	_	PRON	_	Polite=Infm	4	nsubj:pass	_	Level=Ngoko
+3	kang	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj:pass	_	Level=Ngoko
 4	mapan	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	1	acl:relcl	_	Level=Ngoko
 5	ing	_	ADP	_	Polite=Infm	6	case	_	Level=Ngoko
 6	laladan	_	NOUN	_	Number=Sing	4	obl	_	_
@@ -6208,7 +6208,7 @@
 13	duwe	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 14	jeneng-jeneng	_	NOUN	_	Number=Sing|Polite=Infm	13	obj	_	Level=Ngoko
 15	kampung	_	NOUN	_	Number=Sing	14	nmod	_	_
-16	sing	_	PRON	_	Polite=Infm	17	nsubj	_	Level=Ngoko
+16	sing	_	PRON	_	Polite=Infm|PronType=Rel	17	nsubj	_	Level=Ngoko
 17	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	14	acl:relcl	_	Level=Ngoko
 18-19	sesambungane	_	_	_	_	_	_	_	_
 18	sesambungan	_	NOUN	_	Number=Sing	17	obl	_	_
@@ -6256,7 +6256,7 @@
 8	warga	_	NOUN	_	Number=Sing	6	obl	_	_
 9	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	8	nmod:poss	_	Level=Ngoko
 10	akeh	_	DET	_	Definite=Ind|Number=Plur|Polite=Infm	8	det	_	Level=Ngoko
-11	kang	_	PRON	_	Polite=Infm	12	nsubj	_	_
+11	kang	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	_
 12	makarya	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	8	acl:relcl	_	Level=Ngoko
 13	gawe	_	NOUN	_	Number=Sing	12	obl	_	_
 14	bathik	_	NOUN	_	Number=Sing	13	nmod	_	SpaceAfter=No
@@ -6267,7 +6267,7 @@
 # text_id = Selain itu, beberapa warga juga ada yang berjualan makanan.
 # text_en = In addition, some residents also sell food.
 1	Saliyane	_	ADP	_	Polite=Infm	2	case	_	Level=Ngoko
-2	iku	_	PRON	_	_	8	obl	_	SpaceAfter=No
+2	iku	_	PRON	_	Polite=Infm|PronType=Dem	8	obl	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	2	punct	_	_
 4	saperangan	_	DET	_	Polite=Infm	5	det	_	Level=Ngoko
 5-6	wargane	_	_	_	_	_	_	_	_
@@ -6275,7 +6275,7 @@
 6	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nmod:poss	_	Level=Ngoko
 7	uga	_	ADV	_	Polite=Infm	8	advmod	_	Level=Ngoko
 8	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-9	sing	_	PRON	_	Polite=Infm	10	nsubj	_	Level=Ngoko
+9	sing	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj	_	Level=Ngoko
 10	dodolan	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	8	xcomp	_	Level=Ngoko
 11	panganan	_	NOUN	_	Number=Sing|Polite=Infm	10	obl	_	Level=Ngoko|SpaceAfter=No
 12	.	_	PUNCT	_	_	8	punct	_	_
@@ -6308,7 +6308,7 @@
 # text_id = Selain itu, ada Kampung Blodiran atau sering dibaca Mblodiran.
 # text_en = In addition, there is Kampung Blodiran or often read as Mblodiran .
 1	Saliyane	_	ADP	_	Polite=Infm	2	case	_	Level=Ngoko
-2	iku	_	PRON	_	Polite=Infm	4	obl	_	Level=Ngoko|SpaceAfter=No
+2	iku	_	PRON	_	Polite=Infm|PronType=Dem	4	obl	_	Level=Ngoko|SpaceAfter=No
 3	,	_	PUNCT	_	_	2	punct	_	_
 4	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 5	Kampung	_	PROPN	_	_	4	obl	_	_
@@ -6331,13 +6331,13 @@
 6	iku	_	DET	_	Polite=Infm	5	det	_	Level=Ngoko
 7	tau	_	ADV	_	Polite=Infm	8	advmod	_	Level=Ngoko
 8	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-9	sing	_	PRON	_	Polite=Infm	10	nsubj	_	Level=Ngoko
+9	sing	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj	_	Level=Ngoko
 10	manggon	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	8	advcl	_	Level=Ngoko
 11	yaiku	_	AUX	_	Polite=Infm	13	cop	_	_
 12	sawijining	_	DET	_	Definite=Ind|Number=Sing|Polite=Infm|PronType=Art	13	det	_	Level=Ngoko
 13	abdi	_	NOUN	_	Number=Sing	10	obl	_	_
 14	dalem	_	ADJ	_	_	13	amod	_	_
-15	kang	_	PRON	_	Polite=Infm	18	nsubj	_	Level=Ngoko
+15	kang	_	PRON	_	Polite=Infm|PronType=Rel	18	nsubj	_	Level=Ngoko
 16-17	panggaweyane	_	_	_	_	_	_	_	_
 16	panggaweyan	_	NOUN	_	Number=Sing|Polite=Infm	15	nmod	_	Level=Ngoko
 17	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	16	det	_	Level=Ngoko
@@ -6375,15 +6375,15 @@
 2	Nursalim	_	PROPN	_	_	8	obl	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	2	punct	_	_
 4	warga	_	NOUN	_	Number=Sing	8	nsubj	_	_
-5	kono	_	NOUN	_	Number=Sing|Polite=Infm	4	nmod	_	Level=Ngoko
+5	kono	_	ADV	_	Polite=Infm|PronType=Dem	4	advmod	_	Level=Ngoko
 6	akeh	_	DET	_	Definite=Ind|Number=Plur|Polite=Infm	4	det	_	Level=Ngoko
-7	sing	_	PRON	_	Polite=Infm	4	appos	_	Level=Ngoko
+7	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	appos	_	Level=Ngoko
 8	gawe	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 9	samir	_	NOUN	_	Number=Sing	8	obj	_	_
 10	utawa	_	CCONJ	_	Polite=Infm	11	cc	_	Level=Ngoko
 11	lendhang	_	NOUN	_	Number=Sing	9	conj	_	_
 12	cilik	_	ADJ	_	Polite=Infm	11	amod	_	Level=Ngoko
-13	kang	_	PRON	_	Polite=Infm	14	nsubj	_	Level=Ngoko
+13	kang	_	PRON	_	Polite=Infm|PronType=Rel	14	nsubj	_	Level=Ngoko
 14-15	lumrahe	_	_	_	_	_	_	_	_
 14	lumrah	_	ADJ	_	_	18	advmod	_	_
 15	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	16	det	_	Level=Ngoko
@@ -6398,7 +6398,7 @@
 # text_id = Penduduk setempat kebanyakan membuat topi pernikahan Jawa atau kuluk.
 # text_en = The locals mostly make Javanese wedding hats or kuluks.
 1	Warga	_	NOUN	_	Number=Sing	6	nsubj	_	_
-2	kono	_	NOUN	_	Number=Sing|Polite=Infm	1	nmod	_	Level=Ngoko
+2	kono	_	ADV	_	Polite=Infm|PronType=Dem	1	advmod	_	Level=Ngoko
 3	akeh-akehe	_	ADV	_	Polite=Infm	6	advmod	_	Level=Ngoko
 4-5	pakaryane	_	_	_	_	_	_	_	_
 4	pakarya	_	NOUN	_	Number=Sing	1	nmod	_	_
@@ -6428,7 +6428,7 @@
 10	plang	_	NOUN	_	Number=Sing	8	obl	_	_
 11	werna	_	NOUN	_	Number=Sing	10	nmod	_	_
 12	putih	_	ADJ	_	_	11	amod	_	_
-13	kang	_	PRON	_	Polite=Infm	14	nsubj:pass	_	Level=Ngoko
+13	kang	_	PRON	_	Polite=Infm|PronType=Rel	14	nsubj:pass	_	Level=Ngoko
 14	dipasang	_	VERB	_	Mood=Ind|Voice=Pass	10	acl:relcl	_	_
 15	ing	_	ADP	_	Polite=Infm	16	case	_	Level=Ngoko
 16	cagak	_	NOUN	_	Number=Sing	14	obl	_	_
@@ -6450,7 +6450,7 @@
 6	jeneng-jeneng	_	NOUN	_	Number=Sing|Polite=Infm	4	nmod	_	Level=Ngoko
 7	kampung	_	NOUN	_	Number=Sing	6	nmod	_	_
 8	iku	_	DET	_	Polite=Infm	7	det	_	Level=Ngoko
-9	mau	_	DET	_	_	7	det	_	SpaceAfter=No
+9	mau	_	DET	_	Polite=Infm|PronType=Dem	7	det	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	12	punct	_	_
 11	malah	_	ADV	_	_	12	advmod	_	_
 12	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	3	advcl	_	Level=Ngoko
@@ -6475,7 +6475,7 @@
 2	kasebut	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 3	minangka	_	ADP	_	_	4	case	_	_
 4	kutha	_	NOUN	_	Number=Sing	2	obl	_	_
-5	kang	_	PRON	_	Polite=Infm	6	nsubj	_	Level=Ngoko
+5	kang	_	PRON	_	Polite=Infm|PronType=Rel	6	nsubj	_	Level=Ngoko
 6	nduweni	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	acl:relcl	_	Level=Ngoko
 7	daya	_	NOUN	_	Number=Sing	6	obj	_	_
 8	pangaribawa	_	ADJ	_	_	7	amod	_	_
@@ -6494,7 +6494,7 @@
 3	pangripta	_	NOUN	_	Number=Sing	9	nsubj	_	_
 4	lagu	_	NOUN	_	Number=Sing	3	nmod	_	_
 5	Jawa	_	PROPN	_	_	4	nmod	_	_
-6	sing	_	PRON	_	Polite=Infm	7	nsubj:pass	_	Level=Ngoko
+6	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj:pass	_	Level=Ngoko
 7	kawentar	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	3	acl:relcl	_	Level=Ngoko
 8	yaiku	_	AUX	_	Polite=Infm	9	cop	_	Level=Ngoko
 9	Didi	_	PROPN	_	_	0	root	_	_
@@ -6521,7 +6521,7 @@
 12	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	11	det	_	Level=Ngoko
 13	Didi	_	PROPN	_	_	11	nmod:poss	_	_
 14	Kempot	_	PROPN	_	_	13	flat:name	_	_
-15	kang	_	PRON	_	Polite=Infm	16	nsubj:pass	_	_
+15	kang	_	PRON	_	Polite=Infm|PronType=Rel	16	nsubj:pass	_	_
 16	kawentar	_	VERB	_	Mood=Ind|Voice=Pass	9	acl:relcl	_	_
 17	tekan	_	VERB	_	Mood=Ind|Voice=Act	16	advcl	_	_
 18	ngendi-endi	_	NOUN	_	Number=Sing	17	xcomp	_	SpaceAfter=No
@@ -6540,7 +6540,7 @@
 6	kayata	_	ADP	_	Polite=Infm	7	case	_	Level=Ngoko
 7	gamelan	_	NOUN	_	Number=Sing	3	nmod	_	_
 8	Jawa	_	PROPN	_	_	7	nmod	_	_
-9	kang	_	PRON	_	Polite=Infm	10	nsubj:pass	_	Level=Ngoko
+9	kang	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj:pass	_	Level=Ngoko
 10	diripta	_	VERB	_	Mood=Ind|Voice=Pass	7	acl:relcl	_	_
 11	Suwargi	_	PROPN	_	_	10	obl:agent	_	_
 12	Rahayu	_	PROPN	_	_	11	flat:name	_	_
@@ -6633,7 +6633,7 @@
 4	tembang	_	NOUN	_	Number=Sing	0	root	_	_
 5	basa	_	NOUN	_	Number=Sing	4	nmod	_	_
 6	Jawa	_	PROPN	_	_	5	nmod	_	_
-7	sing	_	PRON	_	Polite=Infm	8	nsubj:pass	_	Level=Ngoko
+7	sing	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj:pass	_	Level=Ngoko
 8	diripta	_	VERB	_	Mood=Ind|Voice=Pass	4	acl:relcl	_	_
 9	dening	_	ADP	_	_	10	case	_	_
 10	penyanyi	_	NOUN	_	Number=Sing	8	obl	_	_
@@ -6736,7 +6736,7 @@
 9	putusan	_	NOUN	_	Number=Sing	7	obl	_	_
 10	pamarentah	_	NOUN	_	Number=Sing	9	nmod	_	_
 11	pusat	_	NOUN	_	Number=Sing	10	nmod	_	_
-12	kang	_	PRON	_	Polite=Infm	14	nsubj	_	Level=Ngoko
+12	kang	_	PRON	_	Polite=Infm|PronType=Rel	14	nsubj	_	Level=Ngoko
 13	ora	_	PART	_	Polarity=Neg	14	advmod	_	_
 14	ngusulake	_	VERB	_	Mood=Ind|Voice=Act	9	acl:relcl	_	_
 15	reyog	_	NOUN	_	Number=Sing	14	obj	_	_
@@ -6751,15 +6751,15 @@
 1	Sadurunge	_	SCONJ	_	Polite=Infm	2	mark	_	Level=Ngoko
 2	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	9	advcl	_	Level=Ngoko
 3	kesenian	_	NOUN	_	Number=Sing	2	xcomp	_	_
-4	kang	_	PRON	_	Polite=Infm	5	nsubj	_	Level=Ngoko
+4	kang	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	Level=Ngoko
 5	kondhang	_	ADJ	_	_	3	acl:relcl	_	_
 6	kaya	_	ADP	_	_	7	case	_	_
 7	saiki	_	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko|SpaceAfter=No
 8	,	_	PUNCT	_	_	9	punct	_	_
 9	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-10	saperangan	_	DET	_	_	11	det	_	_
+10	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	11	det	_	_
 11	crita	_	NOUN	_	Number=Sing	9	obl	_	_
-12	kang	_	PRON	_	Polite=Infm	13	nsubj	_	Level=Ngoko
+12	kang	_	PRON	_	Polite=Infm|PronType=Rel	13	nsubj	_	Level=Ngoko
 13	ngrembaka	_	VERB	_	Mood=Ind|Voice=Act	11	acl:relcl	_	_
 14	bab	_	ADP	_	_	15	case	_	_
 15	sujarah	_	NOUN	_	Number=Sing	13	obl	_	_
@@ -6776,7 +6776,7 @@
 3	siji	_	NUM	_	Polite=Infm	5	nummod	_	Level=Ngoko
 4	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	3	det	_	Level=Ngoko
 5	crita	_	NOUN	_	Number=Sing	9	nsubj	_	_
-6	kang	_	PRON	_	Polite=Infm	7	nsubj	_	Level=Ngoko
+6	kang	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	Level=Ngoko
 7	kondhang	_	ADJ	_	_	5	acl:relcl	_	_
 8	yaiku	_	AUX	_	Polite=Infm	12	cop	_	Level=Ngoko
 9	Ki	_	PROPN	_	_	12	nsubj	_	_
@@ -6864,7 +6864,7 @@
 10	sirah	_	NOUN	_	Number=Sing|Polite=Form	9	xcomp	_	Level=Krama
 11	singa	_	NOUN	_	Number=Sing	10	nmod	_	_
 12	barong	_	NOUN	_	Number=Sing	11	nmod	_	_
-13	kang	_	PRON	_	Polite=Infm	14	nsubj	_	Level=Ngoko
+13	kang	_	PRON	_	Polite=Infm|PronType=Rel	14	nsubj	_	Level=Ngoko
 14	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	11	acl:relcl	_	Level=Ngoko
 15-16	simbole	_	_	_	_	_	_	_	_
 15	simbol	_	NOUN	_	Number=Sing	14	xcomp	_	_
@@ -6897,7 +6897,7 @@
 2-3	penyebabe	_	_	_	_	_	_	_	_
 2	penyebab	_	NOUN	_	Number=Sing	0	root	_	_
 3	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	2	det	_	Level=Ngoko
-4	sing	_	PRON	_	Polite=Infm	5	nsubj	_	Level=Ngoko
+4	sing	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	Level=Ngoko
 5	njalari	_	VERB	_	Mood=Ind|Voice=Act	2	acl:relcl	_	_
 6	mirunggan	_	NOUN	_	Number=Sing	5	obj	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	2	punct	_	_
@@ -6923,7 +6923,7 @@
 # text_id = Pastikan semua penghuni menyiapkan makanan, camilan, dan minuman dengan ikhlas.
 # text_en = Make sure all residents prepare meals, snacks and drinks sincerely.
 1	Cekake	_	VERB	_	Mood=Imp|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-2	kabeh	_	DET	_	Polite=Infm	3	det	_	Level=Ngoko
+2	kabeh	_	DET	_	Polite=Infm|PronType=Tot	3	det	_	Level=Ngoko
 3	warga	_	NOUN	_	Number=Sing	4	nsubj	_	_
 4	nyepakake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	1	xcomp	_	Level=Ngoko
 5	dhaharan	_	NOUN	_	Number=Sing|Polite=Form	4	obj	_	Level=Krama|SpaceAfter=No
@@ -6948,7 +6948,7 @@
 4	,	_	PUNCT	_	_	3	punct	_	_
 5	ora	_	PART	_	Polarity=Neg|Polite=Infm	6	advmod	_	Level=Ngoko
 6	ana	_	VERB	_	Mood=Ind|Voice=Act	3	advcl	_	_
-7	sing	_	PRON	_	Polite=Infm	8	nsubj	_	Level=Ngoko
+7	sing	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj	_	Level=Ngoko
 8	dibayar	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	6	advcl	_	Level=Ngoko|SpaceAfter=No
 9	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -6989,7 +6989,7 @@
 # text = Saben meja diwenehi kendhi siji lan cangkir enem.
 # text_id = Setiap meja diberi satu toples dan enam cangkir.
 # text_en = Each table is given one jar and six cups.
-1	Saben	_	DET	_	_	2	det	_	_
+1	Saben	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	_
 2	meja	_	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 3	diwenehi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 4	kendhi	_	NOUN	_	Number=Sing	3	obl	_	_
@@ -7005,7 +7005,7 @@
 # text_en = Anyone who saw it would be very happy.
 1	Sapa	_	PRON	_	Polite=Infm	6	nsubj	_	Level=Ngoko
 2	wae	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
-3	sing	_	PRON	_	Polite=Infm	4	nsubj	_	Level=Ngoko
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	Level=Ngoko
 4	nyawang	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	1	acl:relcl	_	Level=Ngoko
 5	mesthi	_	AUX	_	_	6	aux	_	_
 6	bungah	_	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko|SpaceAfter=No
@@ -7024,7 +7024,7 @@
 7	mburi	_	NOUN	_	Number=Sing|Polite=Infm	6	nmod	_	Level=Ngoko_
 8	dipasangi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	3	conj	_	Level=Ngoko
 9	kaya	_	ADP	_	Polite=Infm	11	case	_	Level=Ngoko
-10	dene	_	ADP	_	_	11	nmod	_	_
+10	dene	_	ADV	_	_	11	advmod	_	_
 11	spanduk	_	NOUN	_	Number=Sing	8	obl	_	_
 12	saka	_	ADP	_	Polite=Infm	13	case	_	Level=Ngoko
 13	plastik	_	NOUN	_	Number=Sing	11	nmod	_	SpaceAfter=No
@@ -7034,7 +7034,7 @@
 # text = Para warga padha lungguh tumata rapi ing latare Pak RW sing wis dipasangi tratag.
 # text_id = Warga sudah duduk rapi di depan Pak RW yang sudah memasang traktor.
 # text_en = Residents were sitting neatly in front of Mr. RW who had installed the tractor.
-1	Para	_	DET	_	_	2	det	_	_
+1	Para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
 2	warga	_	NOUN	_	Number=Sing	4	nsubj	_	_
 3	padha	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
 4	lungguh	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
@@ -7046,7 +7046,7 @@
 9	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	8	det	_	Level=Ngoko
 10	Pak	_	PROPN	_	_	8	nmod:poss	_	_
 11	RW	_	PROPN	_	_	10	flat:name	_	_
-12	sing	_	PRON	_	Polite=Infm	14	nsubj	_	Level=Ngoko
+12	sing	_	PRON	_	Polite=Infm|PronType=Rel	14	nsubj	_	Level=Ngoko
 13	wis	_	AUX	_	Polite=Infm	14	aux	_	Level=Ngoko
 14	dipasangi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	8	acl:relcl	_	Level=Ngoko
 15	tratag	_	NOUN	_	Number=Sing	14	obl	_	SpaceAfter=No
@@ -7070,7 +7070,7 @@
 # text = Saben meja diubengi enem kursi.
 # text_id = Setiap meja dikelilingi oleh enam kursi.
 # text_en = Each table is surrounded by six chairs.
-1	Saben	_	DET	_	_	2	det	_	_
+1	Saben	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	_
 2	meja	_	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 3	diubengi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 4	enem	_	NUM	_	_	5	nummod	_	_
@@ -7081,7 +7081,7 @@
 # text = Kabeh kursi dileti siji lan sijine.
 # text_id = Semua kursi diberi jarak satu per satu.
 # text_en = All chairs are spaced one by one.
-1	Kabeh	_	DET	_	Polite=Infm	2	det	_	Level=Ngoko
+1	Kabeh	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	Level=Ngoko
 2	kursi	_	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 3	dileti	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 4	siji	_	NUM	_	Polite=Infm	3	obl	_	Level=Ngoko
@@ -7095,7 +7095,7 @@
 # text = Kabeh tamu undangan jumeneng karo ngidung lagu Indonesia Raya.
 # text_id = Semua tamu undangan berdiri dan menyanyikan lagu Indonesia Raya.
 # text_en = All the invited guests stood up and sang the Indonesia Raya anthem.
-1	Kabeh	_	DET	_	Polite=Infm	2	det	_	Level=Ngoko
+1	Kabeh	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	Level=Ngoko
 2	tamu	_	NOUN	_	Number=Sing	4	nsubj	_	_
 3	undangan	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	jumeneng	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -7135,14 +7135,14 @@
 7	panuwun	_	NOUN	_	Number=Sing	6	obj	_	_
 8	marang	_	ADP	_	Polite=Infm	9	case	_	Level=Ngoko
 9	tamu	_	NOUN	_	Number=Sing	6	obl	_	_
-10	kabeh	_	DET	_	Polite=Infm	9	det	_	Level=Ngoko|SpaceAfter=No
+10	kabeh	_	DET	_	Polite=Infm|PronType=Tot	9	det	_	Level=Ngoko|SpaceAfter=No
 11	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = solopos-2022-73
 # text = Para warga perantau padha nggumun mirengake ature Bu Guru.
 # text_id = Para pengembara tercengang mendengar kata-kata Guru.
 # text_en = The wanderers were astonished at Master's words.
-1	Para	_	DET	_	_	2	det	_	_
+1	Para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
 2	warga	_	NOUN	_	Number=Sing	5	nsubj	_	_
 3	perantau	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	padha	_	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
@@ -7159,8 +7159,8 @@
 # text = Kabeh iku nggambarake yen pidhatone Pak RT ditampa kanthi bungah.
 # text_id = Semua itu menggambarkan bahwa sambutan Pak RT disambut dengan gembira.
 # text_en = All of this illustrates that Mr. RT's welcome was greeted with joy.
-1	Kabeh	_	DET	_	Polite=Infm	2	det	_	Level=Ngoko
-2	iku	_	PRON	_	Polite=Infm	3	nsubj	_	Level=Ngoko
+1	Kabeh	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	Level=Ngoko
+2	iku	_	PRON	_	Polite=Infm|PronType=Dem	3	nsubj	_	Level=Ngoko
 3	nggambarake	_	VERB	Polite=Infm	Voice=Act	0	root	_	Level=Ngoko
 4	yen	_	SCONJ	_	Polite=Infm	9	mark	_	Level=Ngoko
 5-6	pidhatone	_	_	_	_	_	_	_	_
@@ -7177,13 +7177,13 @@
 # text = Kabeh wong bungah, ora ana sing susah.
 # text_id = Semua senang, tidak ada yang sedih.
 # text_en = Everyone is happy, no one is sad.
-1	Kabeh	_	DET	_	Polite=Infm	2	det	_	Level=Ngoko
+1	Kabeh	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	Level=Ngoko
 2	wong	_	NOUN	_	Number=Sing|Polite=Infm	3	nsubj	_	Level=Ngoko
 3	bungah	_	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko|SpaceAfter=No
 4	,	_	PUNCT	_	_	6	punct	_	_
 5	ora	_	PART	_	Polarity=Neg|Polite=Infm	6	advmod	_	Level=Ngoko
 6	ana	_	VERB	_	Mood=Ind|Voice=Act	3	advcl	_	_
-7	sing	_	PRON	_	Polite=Infm	8	nsubj	_	Level=Ngoko
+7	sing	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj	_	Level=Ngoko
 8	susah	_	ADJ	_	_	6	advcl	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -7276,7 +7276,7 @@
 2-3	siji-sijine	_	_	_	_	_	_	_	_
 2	siji-siji	_	NUM	_	Polite=Infm	1	nummod	_	Level=Ngoko
 3	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	2	det	_	Level=Ngoko
-4	kang	_	PRON	_	Polite=Infm	5	nsubj	_	Level=Ngoko
+4	kang	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	Level=Ngoko
 5	mujur	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 6	ngulon	_	NOUN	_	Number=Sing|Polite=Infm	5	obl	_	Level=Ngoko
 7	ngliwati	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -7324,7 +7324,7 @@
 # text_en = Not many young people want to be like Jamal, not even there.
 1	Bocah	_	NOUN	_	Number=Sing|Polite=Infm	8	nsubj	_	Level=Ngoko
 2	enom	_	ADJ	_	Polite=Infm	1	amod	_	Level=Ngoko
-3	sing	_	PRON	_	Polite=Infm	4	nsubj	_	Level=Ngoko
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	Level=Ngoko
 4	gelem	_	ADJ	_	Polite=Infm	1	acl:relcl	_	Level=Ngoko
 5	kaya	_	ADP	_	Polite=Infm	6	case	_	Level=Ngoko
 6	Jamal	_	PROPN	_	_	4	obl	_	_
@@ -7343,13 +7343,13 @@
 # text_en = The red water that enters the rice fields and all the rice fields in the village makes the harvest unsatisfactory.
 1	Banyu	_	NOUN	_	Number=Sing|Polite=Infm	13	nsubj	_	Level=Ngoko
 2	abang	_	ADJ	_	Polite=Infm	1	amod	_	Level=Ngoko
-3	sing	_	PRON	_	Polite=Infm	4	nsubj	_	Level=Ngoko
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	Level=Ngoko
 4	mlebu	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	1	acl:relcl	_	Level=Ngoko
 5-6	sawahe	_	_	_	_	_	_	_	_
 5	sawah	_	NOUN	_	Number=Sing	4	obj	_	_
 6	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	5	det	_	Level=Ngoko
 7	lan	_	CCONJ	_	Polite=Infm	9	cc	_	Level=Ngoko
-8	kabeh	_	DET	_	Polite=Infm	9	det	_	Level=Ngoko
+8	kabeh	_	DET	_	Polite=Infm|PronType=Tot	9	det	_	Level=Ngoko
 9	sawah	_	NOUN	_	Number=Sing|Polite=Infm	5	conj	_	Level=Ngoko
 10	ing	_	ADP	_	Polite=Infm	11	case	_	_
 11-12	desane	_	_	_	_	_	_	_	_
@@ -7374,7 +7374,7 @@
 4	,	_	PUNCT	_	_	2	punct	_	_
 5	banyu	_	NOUN	_	Number=Sing|Polite=Infm	12	nsubj	_	Level=Ngoko
 6	abang	_	ADJ	_	Polite=Infm	5	amod	_	Level=Ngoko
-7	kang	_	PRON	_	Polite=Infm	8	nsubj:pass	_	_
+7	kang	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj:pass	_	_
 8	dipyuri	_	VERB	Polite=Infm	Voice=Pass	5	acl:relcl	_	Level=Ngoko
 9	bubuk	_	NOUN	_	Number=Sing	8	obl	_	_
 10	putih	_	ADJ	_	Polite=Infm	9	amod	_	Level=Ngoko
@@ -7561,12 +7561,12 @@
 1	Sabanjure	_	ADV	_	Polite=Infm	2	advmod	_	Level=Ngoko
 2	maca	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 3	donga	_	NOUN	_	Number=Sing	2	obj	_	_
-4	sing	_	PRON	_	Polite=Infm	5	nsubj:pass	_	Level=Ngoko
+4	sing	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj:pass	_	Level=Ngoko
 5	dipimpin	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	2	advcl	_	Level=Ngoko
 6	dening	_	ADP	_	_	7	case	_	_
 7	sesepuh	_	NOUN	_	Number=Sing	5	obl	_	_
 8	dhaerah	_	NOUN	_	Number=Sing	7	nmod	_	_
-9	kono	_	ADV	_	Polite=Infm	8	advmod	_	Level=Ngoko|SpaceAfter=No
+9	kono	_	ADV	_	Polite=Infm|PronType=Dem	8	advmod	_	Level=Ngoko|SpaceAfter=No
 10	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = solopos-2022-96
@@ -7575,13 +7575,13 @@
 # text_en = The end of the event is a dinner party that can add to the warmth of the atmosphere.
 1-2	Pungkasaning	_	_	_	_	_	_	_	_
 1	Pungkasan	_	NOUN	_	Number=Sing	5	nmod	_	_
-2	ing	_	DET	_	_	1	det	_	_
+2	ing	_	ADP	_	_	3	case	_	_
 3	adicara	_	NOUN	_	Number=Sing	5	nsubj	_	_
 4	yaiku	_	AUX	_	Polite=Infm	5	cop	_	Level=Ngoko
 5	kembul	_	NOUN	_	Number=Sing	0	root	_	_
 6	bujana	_	NOUN	_	Number=Sing	5	nmod	_	_
 7	bebarengan	_	ADV	_	_	5	advmod	_	_
-8	sing	_	PRON	_	Polite=Infm	10	nsubj	_	Level=Ngoko
+8	sing	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj	_	Level=Ngoko
 9	bisa	_	AUX	_	Polite=Infm	10	aux	_	Level=Ngoko
 10	nambah	_	VERB	_	Mood=Ind|Voice=Act	5	acl:relcl	_	_
 11-12	gayenge	_	_	_	_	_	_	_	_
@@ -7654,7 +7654,7 @@
 # text_en = Mbak Kanthi, who was reading a book in her room, heard the screams of the children.
 1	Mbak	_	PROPN	_	_	11	nsubj	_	_
 2	Kanthi	_	PROPN	_	_	1	flat:name	_	_
-3	kang	_	PRON	_	Polite=Infm	5	nsubj	_	_
+3	kang	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	_
 4	lagi	_	ADV	_	_	5	advmod	_	_
 5	maca	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	1	acl:relcl	_	Level=Ngoko
 6	buku	_	NOUN	_	Number=Sing	5	obj	_	_
@@ -7719,7 +7719,7 @@
 1	Relief	_	NOUN	_	Number=Sing	11	obl	_	_
 2	utawa	_	CCONJ	_	Polite=Infm	3	cc	_	Level=Ngoko
 3	gambar	_	NOUN	_	Number=Sing	1	conj	_	_
-4	kang	_	PRON	_	Polite=Infm	5	nsubj	_	Level=Ngoko
+4	kang	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	Level=Ngoko
 5	nemplek	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 6	ing	_	ADP	_	Polite=Infm	7	case	_	_
 7	tembok	_	NOUN	_	Number=Sing	5	obl	_	_
@@ -7811,7 +7811,7 @@
 9	,	_	PUNCT	_	_	10	punct	_	_
 10	mratelakake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 11	relief	_	NOUN	_	Number=Sing	21	nsubj	_	_
-12	kang	_	PRON	_	Polite=Infm	13	nsubj:pass	_	Level=Ngoko
+12	kang	_	PRON	_	Polite=Infm|PronType=Rel	13	nsubj:pass	_	Level=Ngoko
 13	digambarake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	11	acl:relcl	_	Level=Ngoko
 14	awujud	_	VERB	_	Mood=Ind|Voice=Act	13	xcomp	_	_
 15	kumpulaning	_	NOUN	_	Number=Sing	16	nmod	_	_
@@ -7854,7 +7854,7 @@
 20	lan	_	CCONJ	_	Polite=Infm	21	cc	_	Level=Ngoko
 21	sapa	_	PRON	_	Polite=Infm	16	conj	_	Level=Ngoko
 22	wae	_	ADV	_	Polite=Infm	21	advmod	_	Level=Ngoko
-23	kang	_	PRON	_	Polite=Infm	24	nsubj	_	Level=Ngoko
+23	kang	_	PRON	_	Polite=Infm|PronType=Rel	24	nsubj	_	Level=Ngoko
 24	dolan	_	VERB	_	Mood=Ind|Voice=Act	21	acl	_	_
 25	mrono	_	ADV	_	_	24	advmod	_	SpaceAfter=No
 26	.	_	PUNCT	_	_	8	punct	_	_
@@ -7980,7 +7980,7 @@
 3	relief	_	NOUN	_	Number=Sing	18	nsubj	_	_
 4	utawa	_	CCONJ	_	_	5	cc	_	_
 5	mural	_	NOUN	_	Number=Sing	3	conj	_	_
-6	kang	_	PRON	_	Polite=Infm	7	nsubj	_	Level=Ngoko
+6	kang	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	Level=Ngoko
 7	ana	_	VERB	_	Mood=Ind|Voice=Act	3	acl:relcl	_	_
 8-9	sesambungane	_	_	_	_	_	_	_	_
 8	sesambungan	_	NOUN	_	Number=Sing	7	obl	_	_
@@ -8085,19 +8085,19 @@
 4	ditata	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	24	ccomp	_	Level=Ngoko
 5	liwat	_	ADP	_	_	6	case	_	_
 6	relief	_	NOUN	_	Number=Sing	4	obl	_	_
-7	kang	_	PRON	_	Polite=Infm	8	nsubj	_	Level=Ngoko
+7	kang	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj	_	Level=Ngoko
 8	edi	_	ADJ	_	_	6	acl:relcl	_	_
 9	peni	_	ADJ	_	_	8	compound	_	_
 10	lan	_	CCONJ	_	Polite=Infm	11	cc	_	Level=Ngoko
 11	ngandhut	_	VERB	_	Mood=Ind|Voice=Act	8	conj	_	_
 12	piwulang	_	NOUN	_	Number=Sing	11	obj	_	_
 13	rasa	_	NOUN	_	Number=Sing|Polite=Infm	12	nmod	_	Level=Ngoko
-14	kang	_	PRON	_	Polite=Infm	15	nsubj	_	Level=Ngoko
+14	kang	_	PRON	_	Polite=Infm|PronType=Rel	15	nsubj	_	Level=Ngoko
 15	gampang	_	ADJ	_	_	12	acl:relcl	_	_
 16	ditampa	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	15	advcl	_	Level=Ngoko
 17	dening	_	ADP	_	_	18	case	_	_
 18	wong-wong	_	NOUN	_	Number=Plur|Polite=Infm	16	obl	_	Level=Ngoko
-19	sing	_	PRON	_	Polite=Infm	21	nsubj	_	Level=Ngoko
+19	sing	_	PRON	_	Polite=Infm|PronType=Rel	21	nsubj	_	Level=Ngoko
 20	padha	_	ADV	_	Polite=Infm	21	advmod	_	Level=Ngoko
 21	ngematake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	18	acl:relcl	_	Level=Ngoko|SpaceAfter=No
 22	,	_	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -8140,7 +8140,7 @@
 5	ana	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	karya	_	NOUN	_	Number=Sing	5	obl	_	_
 7	seni	_	NOUN	_	Number=Sing	6	nmod	_	_
-8	sing	_	PRON	_	Polite=Infm	14	nsubj:pass	_	Level=Ngoko
+8	sing	_	PRON	_	Polite=Infm|PronType=Rel	14	nsubj:pass	_	Level=Ngoko
 9	miturut	_	ADP	_	Polite=Form	10	case	_	Level=Krama
 10-11	panemune	_	_	_	_	_	_	_	_
 10	panemu	_	NOUN	_	Number=Sing	14	obl	_	_
@@ -8165,7 +8165,7 @@
 6	melu	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	2	advcl	_	Level=Ngoko
 7	ngematake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	6	xcomp	_	Level=Ngoko
 8	karya-karya	_	NOUN	_	Number=Plur	7	obj	_	_
-9	kang	_	PRON	_	Polite=Infm	10	nsubj	_	Level=Ngoko
+9	kang	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj	_	Level=Ngoko
 10	nggambarake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	8	acl:relcl	_	Level=Ngoko
 11	sujarah	_	NOUN	_	Number=Sing	10	obj	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	2	punct	_	_
@@ -8222,7 +8222,7 @@
 8	,	_	PUNCT	_	_	9	punct	_	_
 9	ngajab	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	supaya	_	SCONJ	_	Polite=Infm	15	mark	_	Level=Ngoko
-11	kawula	_	PRON	_	_	15	nsubj	_	_
+11	kawula	_	NOUN	_	Number=Sing	15	nsubj	_	_
 12	mudha	_	ADJ	_	_	11	amod	_	_
 13	ora	_	PART	_	Polarity=Neg|Polite=Infm	15	advmod	_	Level=Ngoko
 14	nganti	_	SCONJ	_	Polite=Infm	15	mark	_	Level=Ngoko
@@ -8349,10 +8349,10 @@
 6	relief	_	NOUN	_	Number=Sing	8	nsubj	_	_
 7	iku	_	DET	_	Polite=Infm|PronType=Dem	6	det	_	Level=Ngoko
 8	nggambarake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-9	saperangan	_	DET	_	_	10	det	_	_
+9	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	10	det	_	_
 10	warga	_	NOUN	_	Number=Sing	8	obj	_	_
 11	pribumi	_	NOUN	_	Number=Sing	10	nmod	_	_
-12	kang	_	PRON	_	Polite=Infm	13	nsubj	_	Level=Ngoko
+12	kang	_	PRON	_	Polite=Infm|PronType=Rel	13	nsubj	_	Level=Ngoko
 13	nglawan	_	VERB	_	Mood=Ind|Voice=Act	10	acl:relcl	_	_
 14	penjajah	_	NOUN	_	Number=Sing	13	obl	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	8	punct	_	_
@@ -8448,7 +8448,7 @@
 16	uga	_	ADV	_	Polite=Infm	17	advmod	_	Level=Ngoko
 17	wong	_	NOUN	_	Number=Sing|Polite=Infm	7	conj	_	Level=Ngoko
 18	tani	_	NOUN	_	Number=Sing	17	nmod	_	_
-19	sing	_	PRON	_	Polite=Infm	21	nsubj	_	Level=Ngoko
+19	sing	_	PRON	_	Polite=Infm|PronType=Rel	21	nsubj	_	Level=Ngoko
 20	lagi	_	AUX	_	_	21	aux	_	_
 21	manen	_	VERB	_	Mood=Ind|Voice=Act	17	acl:relcl	_	_
 22	pari	_	NOUN	_	Number=Sing	21	obl	_	SpaceAfter=No
@@ -8487,7 +8487,7 @@
 6	ing	_	ADP	_	Polite=Infm	7	case	_	_
 7	Koran	_	PROPN	_	_	5	obl	_	_
 8	Solopos	_	PROPN	_	_	7	flat:name	_	_
-9	saben	_	DET	_	_	10	det	_	_
+9	saben	_	DET	_	Polite=Infm|PronType=Tot	10	det	_	_
 10	dinten	_	NOUN	_	Number=Sing|Polite=Form	5	nmod:tmod	_	Level=Krama
 11	Kemis	_	PROPN	_	_	10	nmod	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	5	punct	_	_
@@ -8539,7 +8539,7 @@
 2	kasebut	_	DET	_	PronType=Dem	1	det	_	_
 3	duwe	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 4	pandemen	_	NOUN	_	Number=Sing	3	obj	_	_
-5	kang	_	PRON	_	Polite=Infm	6	nsubj	_	Level=Ngoko
+5	kang	_	PRON	_	Polite=Infm|PronType=Rel	6	nsubj	_	Level=Ngoko
 6	setya	_	ADJ	_	_	4	acl:relcl	_	_
 7	lan	_	CCONJ	_	Polite=Infm	8	cc	_	Level=Ngoko
 8	militan	_	NOUN	_	Number=Sing	6	conj	_	SpaceAfter=No
@@ -8553,7 +8553,7 @@
 2	ngendi	_	NOUN	_	Number=Sing|Polite=Infm	7	obl	_	Level=Ngoko
 3	wae	_	ADV	_	Polite=Infm	2	advmod	_	Level=Ngoko
 4	pepanthan	_	NOUN	_	Number=Sing	7	nsubj	_	_
-5	kang	_	PRON	_	Polite=Infm	6	nsubj:pass	_	Level=Ngoko
+5	kang	_	PRON	_	Polite=Infm|PronType=Rel	6	nsubj:pass	_	Level=Ngoko
 6	disenengi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	4	acl:relcl	_	Level=Ngoko
 7	pentas	_	VERB	_	Mood=Ind|Voice=Act	9	csubj:pass	_	_
 8	bakal	_	AUX	_	_	9	aux	_	_
@@ -8578,7 +8578,7 @@
 9-10	suwarane	_	_	_	_	_	_	_	_
 9	suwara	_	NOUN	_	Number=Sing	7	conj	_	_
 10	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	9	nmod:poss	_	Level=Ngoko
-11	sing	_	PRON	_	Polite=Infm	12	nsubj	_	Level=Ngoko
+11	sing	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	Level=Ngoko
 12	nyanyi	_	VERB	_	Mood=Ind|Voice=Act	9	acl:relcl	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -8610,7 +8610,7 @@
 3	ya	_	INTJ	_	Polite=Infm	5	discourse	_	Level=Ngoko
 4	tetep	_	ADV	_	_	5	advmod	_	_
 5	akeh	_	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
-6	sing	_	PRON	_	Polite=Infm	7	nsubj	_	Level=Ngoko
+6	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	Level=Ngoko
 7	jejogetan	_	VERB	_	Mood=Ind|Voice=Act	5	advcl	_	_
 8	nalika	_	SCONJ	_	_	9	mark	_	_
 9	teka	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	7	advcl	_	Level=Ngoko
@@ -8693,7 +8693,7 @@
 7	uga	_	ADV	_	_	8	advmod	_	Level=Ngoko
 8	mbabar	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 9	babagan	_	NOUN	_	Number=Sing	8	obj	_	_
-10	sing	_	PRON	_	Polite=Infm	11	nsubj	_	Level=Ngoko
+10	sing	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	Level=Ngoko
 11	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	9	acl:relcl	_	Level=Ngoko
 12	gandheng	_	NOUN	_	Number=Sing	11	obl	_	_
 13-14	rakete	_	_	_	_	_	_	_	_
@@ -8702,7 +8702,7 @@
 15	karo	_	ADP	_	_	16	case	_	Level=Ngoko
 16	ajaran	_	NOUN	_	Number=Sing	12	nmod	_	_
 17	Jawa	_	PROPN	_	_	16	nmod	_	_
-18	sing	_	PRON	_	Polite=Infm	19	nsubj	_	Level=Ngoko
+18	sing	_	PRON	_	Polite=Infm|PronType=Rel	19	nsubj	_	Level=Ngoko
 19	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	16	acl:relcl	_	Level=Ngoko
 20	ing	_	ADP	_	Polite=Infm	21	case	_	_
 21	naskah	_	NOUN	_	Number=Sing	19	obl	_	_
@@ -8724,7 +8724,7 @@
 8	duwe	_	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
 9	rong	_	NUM	_	Polite=Infm	10	nummod	_	Level=Ngoko
 10	album	_	NOUN	_	Number=Sing	8	obj	_	_
-11	sing	_	PRON	_	Polite=Infm	12	nsubj	_	Level=Ngoko
+11	sing	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	Level=Ngoko
 12	ngandhut	_	VERB	_	Mood=Ind|Voice=Act	10	acl:relcl	_	_
 13	bab	_	NOUN	_	Number=Sing	12	obj	_	_
 14	Jawa	_	PROPN	_	_	13	nmod	_	SpaceAfter=No
@@ -8735,7 +8735,7 @@
 # text_id = Pria yang memiliki kemampuan bermain drum di grup Makam, Julius, mengatakan grup Makam telah tampil di seluruh Indonesia.
 # text_en = The man who has the ability to play drums in the Makam group, Julius, said the Makam group has performed all over Indonesia.
 1	Priya	_	NOUN	_	Number=Sing	14	nsubj	_	_
-2	kang	_	PRON	_	Polite=Infm	3	nsubj	_	_
+2	kang	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	_
 3	kajibah	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 4	nabuh	_	NOUN	_	Number=Sing	3	obj	_	_
 5	drum	_	X	_	Foreign=Yes	4	amod	_	_
@@ -8804,7 +8804,7 @@
 4	mesti	_	ADV	_	_	10	advmod	_	_
 5	akeh	_	DET	_	Definite=Ind|Number=Plur|Polite=Infm	6	det	_	Level=Ngoko
 6	wong	_	NOUN	_	Number=Sing|Polite=Infm	10	nsubj	_	Level=Ngoko
-7	kang	_	PRON	_	Polite=Infm	8	nsubj	_	_
+7	kang	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj	_	_
 8	nonton	_	VERB	_	Mood=Ind|Voice=Act	6	acl:relcl	_	_
 9	padha	_	ADV	_	Polite=Infm	10	advmod	_	Level=Ngoko
 10	jejogedan	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -8840,7 +8840,7 @@
 # text = Iku minangka pratandha ben beda karo liyane.
 # text_id = Itu sebagai tanda-tanda supaya berbeda dari yang lain.
 # text_en = Those are the signs to be different from the others.
-1	Iku	_	PRON	_	Polite=Infm	3	nsubj	_	Level=Ngoko
+1	Iku	_	PRON	_	Polite=Infm|PronType=Dem	3	nsubj	_	Level=Ngoko
 2	minangka	_	ADP	_	_	3	case	_	_
 3	pratandha	_	NOUN	_	Number=Sing	0	root	_	_
 4	ben	_	SCONJ	_	_	5	mark	_	_
@@ -8902,7 +8902,7 @@
 # text_id = Naskah yang menjadi dasar lagu itu tidak sama.
 # text_en = The script on which the song is based is not the same.
 1	Naskah	_	NOUN	_	Number=Sing	8	nsubj	_	_
-2	sing	_	PRON	_	Polite=Infm	3	nsubj	_	Level=Ngoko
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	Level=Ngoko
 3	didadekake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	1	acl:relcl	_	Level=Ngoko
 4	dhasar	_	NOUN	_	Number=Sing	3	obl	_	_
 5	lagu	_	NOUN	_	Number=Sing	4	nmod	_	_
@@ -8915,7 +8915,7 @@
 # text = Apa meneh penyanyine iku abdi dalem keraton.
 # text_id = Apalagi penyanyinya adalah abdi dalem.
 # text_en = Moreover, the singer is a courtier.
-1	Apa	_	PRON	_	Polite=Infm	6	nmod	_	Level=Ngoko
+1	Apa	_	PRON	_	Polite=Infm|PronType=Int	6	nmod	_	Level=Ngoko
 2	meneh	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
 3-4	penyanyine	_	_	_	_	_	_	_	_
 3	penyanyi	_	NOUN	_	Number=Sing	6	nsubj	_	_
@@ -8996,7 +8996,7 @@
 # text_id = Ajaran yang terkandung dalam teks dapat diterapkan di mana saja.
 # text_en = The teachings contained in the text can be applied anywhere.
 1	Piwulang	_	NOUN	_	Number=Sing	8	nsubj	_	_
-2	sing	_	PRON	_	Polite=Infm	3	nsubj	_	_
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	_
 3	ana	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 4	ing	_	ADP	_	Polite=Infm	5	case	_	_
 5	naskah	_	NOUN	_	Number=Sing	3	obl	_	_
@@ -9012,7 +9012,7 @@
 # text = Saben taun Pemkot Solo mengeti ambal warsane tanggal 16 Juni.
 # text_id = Setiap tahun Pemerintah Kota Solo merayakan hari jadinya pada tanggal 16 Juni.
 # text_en = Every year the Solo City Government celebrates its anniversary on June 16.
-1	Saben	_	DET	_	_	2	det	_	_
+1	Saben	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	_
 2	taun	_	NOUN	_	Number=Sing	5	obl:tmod	_	_
 3	Pemkot	_	PROPN	_	_	5	nsubj	_	_
 4	Solo	_	PROPN	_	_	3	flat:name	_	_
@@ -9062,7 +9062,7 @@
 9	Kota	_	PROPN	_	_	8	flat:name	_	_
 10	Solo	_	PROPN	_	_	8	flat:name	_	SpaceAfter=No
 11	,	_	PUNCT	_	_	4	punct	_	_
-12	sawetara	_	DET	_	Polite=Infm	13	det	_	Level=Ngoko
+12	sawetara	_	ADP	_	Polite=Infm	13	case	_	Level=Ngoko
 13	wektu	_	NOUN	_	Number=Sing|Polite=Infm	4	obl:tmod	_	Level=Ngoko
 14	kapungkur	_	ADV	_	_	13	advmod	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	4	punct	_	_
@@ -9259,12 +9259,12 @@
 10	kahanan	_	NOUN	_	Number=Sing	8	nsubj	_	Level=Ngoko
 11	Kutha	_	NOUN	_	Number=Sing|Polite=Form	10	nmod	_	_
 12	Solo	_	PROPN	_	_	11	nmod	_	_
-13	sing	_	PRON	_	Polite=Infm	16	nsubj	_	Level=Ngoko
+13	sing	_	PRON	_	Polite=Infm|PronType=Rel	16	nsubj	_	Level=Ngoko
 14	lagi	_	AUX	_	_	16	aux	_	_
 15	ora	_	PART	_	Polarity=Neg|Polite=Infm	16	advmod	_	_
 16	aman	_	ADJ	_	_	11	amod	_	SpaceAfter=No
 17	,	_	PUNCT	_	_	16	punct	_	_
-18	sejene	_	ADV	_	_	23	advmod	_	_
+18	sejene	_	ADP	_	_	19	case	_	_
 19	kahanan	_	NOUN	_	Number=Sing	23	nsubj	_	_
 20-21	pulitike	_	_	_	_	_	_	_	_
 20	pulitik	_	NOUN	_	Number=Sing	19	nmod	_	_
@@ -9316,7 +9316,7 @@
 4	,	_	PUNCT	_	_	5	punct	_	_
 5	akeh	_	DET	_	Definite=Ind|Number=Plur|Polite=Infm	6	det	_	Level=Ngoko
 6	wong	_	NOUN	_	Number=Sing|Polite=Infm	3	obl	_	Level=Ngoko
-7	sing	_	PRON	_	Polite=Infm	9	nsubj	_	Level=Ngoko
+7	sing	_	PRON	_	Polite=Infm|PronType=Rel	9	nsubj	_	Level=Ngoko
 8	ujug-ujug	_	ADV	_	_	9	advmod	_	_
 9	ilang	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	3	advcl	_	Level=Ngoko
 10	ora	_	PART	_	Polarity=Neg|Polite=Infm	11	advmod	_	Level=Ngoko
@@ -9397,7 +9397,7 @@
 3	karo	_	ADP	_	Polite=Infm	4	case	_	Level=Ngoko
 4	alesan	_	NOUN	_	Number=Sing	1	nmod	_	_
 5	kenapa	_	ADV	_	_	4	advmod	_	_
-6	sing	_	PRON	_	Polite=Infm	7	nsubj	_	Level=Ngoko
+6	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	Level=Ngoko
 7	dipilih	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	acl:relcl	_	Level=Ngoko
 8	minangka	_	ADP	_	_	9	case	_	_
 9	tanggal	_	NOUN	_	Number=Sing	7	obl	_	_
@@ -9452,7 +9452,7 @@
 8	kepala	_	NOUN	_	Number=Sing	7	xcomp	_	_
 9	dhaerah	_	NOUN	_	Number=Sing	8	nmod	_	_
 10	kapisan	_	ADJ	_	Polite=Infm	8	amod	_	Level=Ngoko
-11	kang	_	PRON	_	Polite=Infm	12	nsubj	_	_
+11	kang	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	_
 12	mimpin	_	VERB	_	Mood=Ind|Voice=Act	8	acl:relcl	_	_
 13	Solo	_	NOUN	_	Number=Sing	12	obj	_	_
 14	nalika	_	ADP	_	Polite=Elev	15	case	_	Level=KramaInggil
@@ -9513,7 +9513,7 @@
 9	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	8	advcl	_	_
 10	rong	_	NUM	_	Polite=Infm	11	nummod	_	Level=Ngoko
 11	pehak	_	NOUN	_	Number=Sing	9	obl	_	_
-12	kang	_	PRON	_	Polite=Infm	13	nsubj	_	_
+12	kang	_	PRON	_	Polite=Infm|PronType=Rel	13	nsubj	_	_
 13	nduweni	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	11	acl:relcl	_	Level=Ngoko
 14	kuwasa	_	NOUN	_	Number=Sing	13	obj	_	_
 15	saengga	_	SCONJ	_	_	16	mark	_	_
@@ -9572,7 +9572,7 @@
 10	setingkat	_	NOUN	_	Number=Sing	9	nmod	_	_
 11	provinsi	_	NOUN	_	Number=Sing	10	nmod	_	SpaceAfter=No
 12	,	_	PUNCT	_	_	14	punct	_	_
-13	kang	_	PRON	_	Polite=Infm	14	nsubj:pass	_	Level=Ngoko
+13	kang	_	PRON	_	Polite=Infm|PronType=Rel	14	nsubj:pass	_	Level=Ngoko
 14	diarani	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	9	acl:relcl	_	Level=Ngoko
 15	Daerah	_	PROPN	_	_	14	obl	_	_
 16	Istimewa	_	PROPN	_	_	15	flat:name	_	_
@@ -9588,16 +9588,16 @@
 # text_en = Furthermore, several anti-government practices developed in Solo City which were accompanied by terrible conditions, disturbing the peace, missing people, and the death of DIS officials.
 1	Sabanjure	_	ADV	_	Polite=Infm	2	advmod	_	Level=Ngoko
 2	ngrembaka	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-3	saperangan	_	DET	_	_	4	det	_	_
+3	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	4	det	_	_
 4	laku	_	NOUN	_	Number=Sing	5	nsubj	_	_
 5	antiswapraja	_	VERB	_	Mood=Ind|Voice=Act	2	advcl	_	_
 6	ing	_	ADP	_	Polite=Infm	7	case	_	Level=Ngoko
 7	Kutha	_	NOUN	_	Number=Sing	2	obl	_	_
 8	Solo	_	PROPN	_	_	7	nmod	_	_
-9	kang	_	PRON	_	Polite=Infm	10	nsubj:pass	_	Level=Ngoko
+9	kang	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj:pass	_	Level=Ngoko
 10	dibarengi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	4	acl:relcl	_	Level=Ngoko
 11	kahanan	_	NOUN	_	Number=Sing	10	obl	_	_
-12	kang	_	PRON	_	Polite=Infm	14	nsubj	_	Level=Ngoko
+12	kang	_	PRON	_	Polite=Infm|PronType=Rel	14	nsubj	_	Level=Ngoko
 13	sarwa	_	SCONJ	_	_	14	mark	_	_
 14	nggegirisi	_	VERB	_	Mood=Ind|Voice=Act	11	acl:relcl	_	SpaceAfter=No
 15	,	_	PUNCT	_	_	16	punct	_	_
@@ -9667,7 +9667,7 @@
 11	Daerah	_	PROPN	_	_	10	flat:name	_	_
 12	Kota	_	PROPN	_	_	10	flat:name	_	_
 13	Surakarta	_	PROPN	_	_	10	flat:name	_	_
-14	kang	_	PRON	_	Polite=Infm	15	nsubj	_	Level=Ngoko
+14	kang	_	PRON	_	Polite=Infm|PronType=Rel	15	nsubj	_	Level=Ngoko
 15	duwe	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	10	acl:relcl	_	Level=Ngoko
 16	kuwasa	_	NOUN	_	Number=Sing	15	obj	_	_
 17	kanggo	_	SCONJ	_	Polite=Infm	18	mark	_	Level=Ngoko
@@ -9725,7 +9725,7 @@
 16	/	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	SD	_	PROPN	_	_	14	nmod	_	SpaceAfter=No
 18	,	_	PUNCT	_	_	17	punct	_	_
-19	kang	_	PRON	_	Polite=Infm	20	nsubj:pass	_	Level=Ngoko
+19	kang	_	PRON	_	Polite=Infm|PronType=Rel	20	nsubj:pass	_	Level=Ngoko
 20	digiyarake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	10	acl:relcl	_	Level=Ngoko
 21	tanggal	_	NOUN	_	Number=Sing	20	obl	_	_
 22	15	_	NUM	_	_	21	nummod	_	_
@@ -9737,12 +9737,12 @@
 # text_id = Ada beberapa desa di Kota Solo yang diberi nama sesuai dengan jenis pekerjaan penduduknya.
 # text_en = There are several villages in Solo City which are named according to the type of occupation of the residents.
 1	Ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-2	saperangan	_	DET	_	_	3	det	_	_
+2	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	3	det	_	_
 3	kampung	_	NOUN	_	Number=Sing	1	nsubj	_	_
 4	ing	_	ADP	_	Polite=Infm	5	case	_	_
 5	Kutha	_	NOUN	_	Number=Sing	3	nmod	_	_
 6	Solo	_	PROPN	_	_	5	nmod	_	_
-7	sing	_	PRON	_	Polite=Infm	8	nsubj:pass	_	Level=Ngoko
+7	sing	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj:pass	_	Level=Ngoko
 8	dijenengi	_	VERB	Polite=Infm	Voice=Pass	3	advcl	_	Level=Ngoko
 9	miturut	_	ADP	_	_	10	case	_	_
 10	jinis	_	NOUN	_	Number=Sing	8	obl	_	_
@@ -9794,10 +9794,10 @@
 9	Kauman	_	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	1	punct	_	_
 11	kampung	_	NOUN	_	Number=Sing	16	nsubj	_	_
-12	sing	_	PRON	_	Polite=Infm	13	nsubj	_	Level=Ngoko
+12	sing	_	PRON	_	Polite=Infm|PronType=Rel	13	nsubj	_	Level=Ngoko
 13	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	11	acl:relcl	_	Level=Ngoko
 14	ing	_	ADP	_	Polite=Infm	15	case	_	_
-15	kono	_	NOUN	_	Number=Sing|Polite=Infm	13	obl	_	_
+15	kono	_	ADV	_	Polite=Infm|PronType=Dem	13	advmod	_	_
 16	dijenengi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 17	miturut	_	ADP	_	_	18	case	_	_
 18	jinis	_	NOUN	_	Number=Sing	16	obl	_	_
@@ -9831,7 +9831,7 @@
 2	warga	_	NOUN	_	Number=Sing	4	nsubj	_	_
 3	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	2	nmod:poss	_	Level=Ngoko
 4	akeh	_	ADJ	_	Polite=Infm	0	root	_	Level=Ngoko
-5	sing	_	PRON	_	Polite=Infm	8	obl	_	Level=Ngoko
+5	sing	_	PRON	_	Polite=Infm|PronType=Rel	8	obl	_	Level=Ngoko
 6-7	gaweyane	_	_	_	_	_	_	_	_
 6	gaweyan	_	NOUN	_	Number=Sing|Polite=Infm	8	nsubj	_	Level=Ngoko
 7	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	6	nmod:poss	_	Level=Ngoko
@@ -9857,7 +9857,7 @@
 7	kampung	_	NOUN	_	Number=Sing|Polite=Infm	6	nmod	_	_
 8	supaya	_	SCONJ	_	Polite=Infm	9	mark	_	Level=Ngoko
 9	gampang	_	ADJ	_	Polite=Infm	3	advcl	_	Level=Ngoko
-10	sing	_	PRON	_	Polite=Infm	11	nsubj	_	Level=Ngoko
+10	sing	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	Level=Ngoko
 11	ngeling-eling	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	9	advcl	_	Level=Ngoko
 12	utawa	_	CCONJ	_	Polite=Infm	13	cc	_	Level=Ngoko
 13	nggoleki	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	11	conj	_	Level=Ngoko|SpaceAfter=No
@@ -9932,8 +9932,8 @@
 4	amarga	_	SCONJ	_	Polite=Infm	5	mark	_	Level=Ngoko
 5	akeh	_	ADJ	_	Polite=Infm	2	advcl	_	Level=Ngoko
 6	warga	_	NOUN	_	Number=Sing|Polite=Infm	5	nsubj	_	_
-7	kono	_	ADV	_	Polite=Infm	6	advmod	_	Level=Ngoko
-8	sing	_	PRON	_	Polite=Infm	11	obl	_	Level=Ngoko
+7	kono	_	ADV	_	Polite=Infm|PronType=Dem	6	advmod	_	Level=Ngoko
+8	sing	_	PRON	_	Polite=Infm|PronType=Rel	11	obl	_	Level=Ngoko
 9-10	padinane	_	_	_	_	_	_	_	_
 9	padina	_	NOUN	_	Number=Sing|Polite=Infm	11	nsubj	_	Level=Ngoko
 10	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	9	det	_	Level=Ngoko
@@ -10072,14 +10072,14 @@
 3	,	_	PUNCT	_	_	2	punct	_	_
 4	warga	_	NOUN	_	Number=Sing	9	nsubj	_	_
 5	kampung	_	NOUN	_	Number=Sing	4	nmod	_	_
-6	kono	_	ADV	_	_	4	advmod	_	_
+6	kono	_	ADV	_	Polite=Infm|PronType=Dem	4	advmod	_	_
 7-8	panggaweyane	_	_	_	_	_	_	_	_
 7	panggaweyan	_	NOUN	_	Number=Sing	4	nmod	_	_
 8	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	7	det	_	Level=Ngoko
 9	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	_
 10	juru	_	NOUN	_	Number=Sing	9	xcomp	_	_
 11	mangsak	_	NOUN	_	Number=Sing	10	nmod	_	_
-12	maneka	_	DET	_	_	13	det	_	_
+12	maneka	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	13	det	_	_
 13	warna	_	NOUN	_	Number=Sing	10	nmod	_	_
 14	jinis	_	NOUN	_	Number=Sing	13	nmod	_	_
 15	panganan	_	NOUN	_	Number=Sing	14	nmod	_	SpaceAfter=No
@@ -10179,7 +10179,7 @@
 # text_id = Tari yang lumer dengan menunggu anaknya belajar makjegageg mengejutkannya.
 # text_en = Tari that melted away while waiting for his son to learn makjegageg surprised him.
 1	Tari	_	NOUN	_	Number=Sing	10	nsubj	_	_
-2	sing	_	PRON	_	Polite=Infm	3	nsubj	_	_
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	_
 3	leyeh-leyeh	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 4	karo	_	SCONJ	_	_	5	mark	_	_
 5	nunggu	_	VERB	_	Mood=Ind|Voice=Act	3	advcl	_	_
@@ -10216,7 +10216,7 @@
 4	mangsuli	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	2	advcl	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	6	punct	_	_
 6	kelingan	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	2	advcl	_	Level=Ngoko
-7	mau	_	DET	_	_	6	det	_	_
+7	mau	_	DET	_	Polite=Infm|PronType=Dem	6	det	_	_
 8	sore	_	NOUN	_	Number=Sing	6	obl	_	_
 9-10	simboke	_	_	_	_	_	_	_	_
 9	simbok	_	NOUN	_	Number=Sing	11	nsubj	_	_
@@ -10256,7 +10256,7 @@
 # text = Kabeh kaya teka bareng-bareng, lan Tari bingung carane nggolek dhuwit.
 # text_id = Semuanya seperti berkumpul, dan Tari bingung bagaimana menghasilkan uang.
 # text_en = Everything seems to be gathering, and Tari is confused about how to make money.
-1	Kabeh	_	PRON	_	_	3	nsubj	_	_
+1	Kabeh	_	PRON	_	Polite=Infm|PronType=Tot	3	nsubj	_	_
 2	kaya	_	SCONJ	_	_	3	mark	_	_
 3	teka	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	bareng-bareng	_	ADV	_	_	3	advmod	_	SpaceAfter=No
@@ -10292,7 +10292,7 @@
 # text_id = Perkebunan yang sudah lama terbengkalai kini kembali dikerjakan, tinggal berburu secukupnya saja, agar bisa dipanen seluruhnya.
 # text_en = The plantations that have been neglected for a long time are now being re-done, it is only a matter of hunting enough, so that they can be harvested in their entirety.
 1	Tandur	_	NOUN	_	Number=Sing|Polite=Infm	6	nsubj	_	_
-2	sing	_	PRON	_	Polite=Infm	4	nsubj	_	_
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	_
 3	suwe	_	ADJ	_	_	4	advmod	_	_
 4	ditinggalke	_	VERB	_	Mood=Ind|Voice=Pass	1	acl:relcl	_	_
 5	saiki	_	ADV	_	Polite=Infm	6	obl:tmod	_	Level=Ngoko
@@ -10329,7 +10329,7 @@
 12	lan	_	CCONJ	_	Polite=Infm	13	cc	_	Level=Ngoko
 13	nrejang	_	VERB	_	Mood=Ind|Voice=Act	11	conj	_	_
 14	adhem	_	NOUN	_	Number=Sing	13	obj	_	_
-15	sing	_	PRON	_	Polite=Infm	17	nsubj	_	_
+15	sing	_	PRON	_	Polite=Infm|PronType=Rel	17	nsubj	_	_
 16	isih	_	ADV	_	_	17	advmod	_	_
 17	ngemuli	_	VERB	_	Mood=Ind|Voice=Act	14	acl:relcl	_	_
 18	desa	_	NOUN	_	Number=Sing	17	obj	_	SpaceAfter=No
@@ -10358,7 +10358,7 @@
 3-4	kancane	_	_	_	_	_	_	_	_
 3	kanca	_	NOUN	_	Number=Sing	2	nsubj	_	_
 4	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
-5	sing	_	PRON	_	Polite=Infm	7	nsubj	_	_
+5	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	_
 6	uga	_	ADV	_	_	7	advmod	_	_
 7	nggawa	_	VERB	_	Mood=Ind|Voice=Act	3	acl:relcl	_	_
 8	pit	_	NOUN	_	Number=Sing	7	obl	_	_
@@ -10386,7 +10386,7 @@
 11	ngidul	_	NOUN	_	Number=Sing	10	nmod	_	_
 12	sajak	_	SCONJ	_	_	13	mark	_	_
 13	ana	_	VERB	_	Mood=Ind|Voice=Act	9	advcl	_	_
-14	sing	_	PRON	_	Polite=Infm	15	nsubj	_	_
+14	sing	_	PRON	_	Polite=Infm|PronType=Rel	15	nsubj	_	_
 15	ditunggu	_	VERB	_	Mood=Ind|Voice=Act	13	advcl	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -10412,7 +10412,7 @@
 # text_en = "Who are you waiting for, Ndhuk?"
 1	“	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Nunggu	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-3	sapa	_	PRON	_	_	2	obj	_	_
+3	sapa	_	PRON	_	PronType=Rel	2	obj	_	_
 4	maneh	_	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	2	punct	_	_
 6	Ndhuk	_	PROPN	_	_	2	vocative	_	SpaceAfter=No
@@ -10443,7 +10443,7 @@
 4	,	_	PUNCT	_	_	3	punct	_	_
 5	mung	_	ADV	_	_	6	advmod	_	_
 6	wong	_	NOUN	_	Number=Sing	3	obl	_	_
-7	sing	_	PRON	_	Polite=Infm	8	nsubj	_	_
+7	sing	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj	_	_
 8	mulih	_	VERB	_	Mood=Ind|Voice=Act	6	acl:relcl	_	_
 9	saka	_	ADP	_	_	10	case	_	_
 10	mejid	_	NOUN	_	Number=Sing	8	obl	_	_
@@ -10483,7 +10483,7 @@
 # text_en = Passing the still-dark barongan, crawling along the lane along the canal, scrambling to get rid of the cold air.
 1	Ngliwati	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 2	barongan	_	NOUN	_	Number=Sing	1	obj	_	_
-3	sing	_	PRON	_	Polite=Infm	6	nsubj	_	_
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	6	nsubj	_	_
 4	isih	_	ADV	_	_	6	advmod	_	_
 5	radha	_	ADV	_	_	6	advmod	_	_
 6	peteng	_	ADJ	_	_	2	acl:relcl	_	SpaceAfter=No
@@ -10506,7 +10506,7 @@
 # text_id = Sawah-sajak blachu yang berwarna cerah telah dirindukan dengan kaki sekaligus rumatan rombongan.
 # text_en = The brightly colored blachu rhymes have been missed with the feet and care of the group.
 1	Sawah-sawah	_	NOUN	_	Number=Plur	9	nsubj	_	_
-2	sing	_	PRON	_	Polite=Infm	4	nsubj	_	_
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	_
 3	wis	_	AUX	_	_	4	aux	_	_
 4	semilak	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 5	warna	_	NOUN	_	Number=Sing	4	obl	_	_
@@ -10595,7 +10595,7 @@
 4	isih	_	ADV	_	_	5	advmod	_	_
 5	njaluk	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	injet	_	NOUN	_	Number=Sing	5	obj	_	_
-7	ki	_	DET	_	_	6	det	_	SpaceAfter=No
+7	ki	_	DET	_	Polite=Infm|PronType=Dem	6	det	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 9	”	_	PUNCT	_	_	5	punct	_	_
 
@@ -10645,7 +10645,7 @@
 # text_id = Kedhokan yang belum ditanami benih sedikit kurang, kemudian dengan nekad petani meneruskan menempelkan benih.
 # text_en = Kedhokan which has not been planted with seeds is a little less, then the farmers are determined to continue attaching the seeds.
 1	Kedhokan	_	NOUN	_	Number=Sing	6	nsubj	_	_
-2	sing	_	PRON	_	Polite=Infm	4	nsubj	_	_
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	_
 3	durung	_	PART	_	Polite=Infm	4	advmod	_	_
 4	ketancep	_	VERB	_	Mood=Ind|Voice=Pass	1	acl:relcl	_	_
 5	winih	_	NOUN	_	Number=Sing	4	obl	_	_
@@ -10670,7 +10670,7 @@
 2	wis	_	AUX	_	_	4	aux	_	_
 3	kaya	_	ADP	_	_	4	case	_	_
 4	tumbak	_	NOUN	_	Number=Sing	0	root	_	_
-5	sing	_	PRON	_	Polite=Infm	6	nsubj:pass	_	_
+5	sing	_	PRON	_	Polite=Infm|PronType=Rel	6	nsubj:pass	_	_
 6	diclorotke	_	VERB	_	Mood=Ind|Voice=Pass	4	acl:relcl	_	_
 7	saka	_	ADP	_	_	8	case	_	_
 8	ndhuwur	_	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
@@ -10678,7 +10678,7 @@
 10	kaya	_	SCONJ	_	_	11	mark	_	_
 11	maku	_	VERB	_	Mood=Ind|Voice=Act	1	acl	_	_
 12	awak	_	NOUN	_	Number=Sing	11	obj	_	_
-13	sing	_	PRON	_	Polite=Infm	14	nsubj	_	_
+13	sing	_	PRON	_	Polite=Infm|PronType=Rel	14	nsubj	_	_
 14	mbungkuk	_	VERB	_	Mood=Ind|Voice=Act	12	acl:relcl	_	_
 15	karo	_	SCONJ	_	_	16	mark	_	_
 16	dongani	_	VERB	_	Mood=Ind|Voice=Act	14	advcl	_	_
@@ -10694,7 +10694,7 @@
 3	adhem	_	ADJ	_	_	2	advcl	_	_
 4	lan	_	CCONJ	_	Polite=Infm	5	cc	_	Level=Ngoko
 5	tangan	_	NOUN	_	Number=Sing	3	conj	_	_
-6	sing	_	PRON	_	Polite=Infm	7	nsubj	_	_
+6	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	_
 7	gemeter	_	VERB	_	Mood=Ind|Voice=Act	5	acl:relcl	_	SpaceAfter=No
 8	,	_	PUNCT	_	_	9	punct	_	_
 9	nujune	_	VERB	_	Mood=Ind|Voice=Act	2	advcl	_	_
@@ -10723,7 +10723,7 @@
 2	Lha	_	INTJ	_	_	7	discourse	_	_
 3	Dhik	_	PROPN	_	_	7	nsubj	_	_
 4	Tari	_	PROPN	_	_	2	flat:name	_	_
-5	apa	_	PRON	_	_	7	obl	_	_
+5	apa	_	PRON	_	PronType=Rel	7	obl	_	_
 6	wis	_	AUX	_	_	7	aux	_	_
 7	sehat	_	ADJ	_	_	0	root	_	SpaceAfter=No
 8	,	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -10732,7 +10732,7 @@
 11	salah	_	ADJ	_	_	12	advmod	_	_
 12	siji	_	NUM	_	_	13	nummod	_	_
 13	wanodya	_	NOUN	_	Number=Sing	10	nmod	_	_
-14	sing	_	PRON	_	Polite=Infm	15	nsubj	_	_
+14	sing	_	PRON	_	Polite=Infm|PronType=Rel	15	nsubj	_	_
 15	pite	_	VERB	_	Mood=Ind|Voice=Act	13	acl:relcl	_	_
 16	jengki	_	NOUN	_	Number=Sing	15	obj	_	SpaceAfter=No
 17	.	_	PUNCT	_	_	7	punct	_	_
@@ -10789,7 +10789,7 @@
 5	kados	_	SCONJ	_	Polite=Form	7	mark	_	_
 6	kula	_	PRON	_	Number=Sing|Person=1|Polite=Form|PronType=Prs	7	nsubj	_	Level=Krama
 7	ngaten	_	VERB	_	Mood=Ind|Voice=Act	3	acl	_	_
-8	niki	_	PRON	_	_	10	nsubj	_	_
+8	niki	_	PRON	_	Polite=Infm|PronType=Dem	10	nsubj	_	_
 9	sagede	_	ADV	_	_	10	advmod	_	_
 10	nyaur	_	VERB	_	Mood=Ind|Voice=Act	7	xcomp	_	_
 11	gek	_	ADP	_	_	12	case	_	_
@@ -10801,7 +10801,7 @@
 # text = Apa maneh utang budi.
 # text_id = Apalagi hutang budi.
 # text_en = Especially debt.
-1	Apa	_	PRON	_	_	3	nmod	_	_
+1	Apa	_	PRON	_	Polite=Infm|PronType=Int	3	nmod	_	_
 2	maneh	_	ADV	_	_	1	advmod	_	_
 3	utang	_	NOUN	_	Number=Sing	0	root	_	_
 4	budi	_	NOUN	_	Number=Sing	3	nmod	_	SpaceAfter=No
@@ -10850,7 +10850,7 @@
 7	kajaba	_	ADP	_	_	8	case	_	_
 8	kreket-kreket	_	NOUN	_	Number=Plur	3	obl	_	_
 9	pit	_	NOUN	_	Number=Sing	8	nmod	_	_
-10	sing	_	PRON	_	Polite=Infm	11	nsubj	_	_
+10	sing	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	_
 11	digenjot	_	VERB	_	Mood=Ind|Voice=Act	8	acl:relcl	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -10893,7 +10893,7 @@
 # text_en = Tari is a strong woman, her husband died of drowning in the Bengawan Solo River while trying to cross a tractor.
 1	Tari	_	PROPN	_	_	2	nsubj	_	_
 2	wanodya	_	NOUN	_	Number=Sing	0	root	_	_
-3	sing	_	PRON	_	Polite=Infm	4	nsubj	_	_
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	_
 4	kuwat	_	ADJ	_	_	2	acl:relcl	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	4	punct	_	_
 6-7	garwane	_	_	_	_	_	_	_	_
@@ -10916,7 +10916,7 @@
 # text = Kabeh durung bisa lali, amarga kedadeyan kuwi telung wulan kepungkur.
 # text_id = Semua belum bisa dilupakan, karena terjadi tiga bulan lalu.
 # text_en = All can not be forgotten, because it happened three months ago.
-1	Kabeh	_	PRON	_	_	4	nsubj	_	_
+1	Kabeh	_	PRON	_	Polite=Infm|PronType=Tot	4	nsubj	_	_
 2	durung	_	PART	_	Polarity=Neg	4	advmod	_	_
 3	bisa	_	AUX	_	_	4	aux	_	_
 4	lali	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No
@@ -10954,9 +10954,9 @@
 3	gek	_	INTJ	_	_	8	discourse	_	_
 4	Yu	_	PROPN	_	_	8	nsubj	_	_
 5	Sri	_	PROPN	_	_	4	flat:name	_	_
-6	ki	_	DET	_	_	4	det	_	_
+6	ki	_	DET	_	Polite=Infm|PronType=Dem	4	det	_	_
 7	ngendika	_	VERB	_	Mood=Ind|Polite=Elev|Voice=Act	0	root	_	Level=KramaInggil
-8	napa	_	PRON	_	_	7	obj	_	SpaceAfter=No
+8	napa	_	PRON	_	PronType=Rel	7	obj	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = solopos-2022-251
@@ -11014,13 +11014,13 @@
 # text_en = People fall in love, no matter who you are or who I am, there is joy and full of flowers.
 1	Wong	_	NOUN	_	Number=Sing|Polite=Infm	0	root	_	Level=Ngoko
 2	tresna	_	VERB	_	Mood=Ind|Voice=Act	1	acl	_	_
-3	mono	_	DET	_	_	1	det	_	SpaceAfter=No
+3	mono	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	6	punct	_	_
 5	ora	_	PART	_	Polarity=Neg|Polite=Infm	6	advmod	_	Level=Ngoko
 6	sapa	_	PRON	_	Polite=Infm	1	advcl	_	Level=Ngoko
 7	sira	_	PRON	_	Number=Sing	6	nsubj	_	_
 8	sapa	_	PRON	_	Polite=Infm	6	conj	_	Level=Ngoko
-9	ingsun	_	PRON	_	_	8	nsubj	_	SpaceAfter=No
+9	ingsun	_	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	11	punct	_	_
 11-12	anane	_	_	_	_	_	_	_	_
 11	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	1	advcl	_	Level=Ngoko
@@ -11077,7 +11077,7 @@
 1-2	Anake	_	_	_	_	_	_	_	_
 1	Anak	_	NOUN	_	Number=Sing	11	nsubj	_	_
 2	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
-3	sing	_	PRON	_	Polite=Infm	5	nsubj	_	Level=Ngoko
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	Level=Ngoko
 4	lagi	_	AUX	_	_	5	aux	_	_
 5	kelas	_	NOUN	_	Number=Sing	1	acl:relcl	_	_
 6	papat	_	NUM	_	_	7	nummod	_	_
@@ -11101,7 +11101,7 @@
 1-2	Simboke	_	_	_	_	_	_	_	_
 1	Simbok	_	NOUN	_	Number=Sing	9	nsubj	_	_
 2	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	Level=Ngoko
-3	sing	_	PRON	_	Polite=Infm	5	nsubj	_	Level=Ngoko
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	Level=Ngoko
 4	uga	_	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
 5	randha	_	NOUN	_	Number=Sing	1	acl:relcl	_	SpaceAfter=No
 6	,	_	PUNCT	_	_	9	punct	_	_
@@ -11156,7 +11156,7 @@
 7	srengenge	_	NOUN	_	Number=Sing	4	obl	_	_
 8	saka	_	ADP	_	_	9	case	_	_
 9	etan	_	NOUN	_	Number=Sing	7	nmod	_	_
-10	sing	_	PRON	_	Polite=Infm	12	nsubj	_	_
+10	sing	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	_
 11	lagi	_	AUX	_	_	12	aux	_	_
 12	nginjen	_	VERB	_	Mood=Ind|Voice=Pass	7	acl:relcl	_	_
 13	endahing	_	ADP	_	_	14	case	_	_
@@ -11190,7 +11190,7 @@
 # text_id = Seorang duda yang murah hati dan tidak pernah mengeluh, kedua anaknya semua telah berhasil.
 # text_en = A widower who is generous and never complain, his two children have all succeeded.
 1	Dhudha	_	NOUN	_	Number=Sing	0	root	_	_
-2	sing	_	PRON	_	Polite=Infm	3	nsubj	_	Level=Ngoko
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	Level=Ngoko
 3	loma	_	ADJ	_	_	1	acl:relcl	_	_
 4	tur	_	CCONJ	_	_	7	cc	_	_
 5	ora	_	PART	_	Polarity=Neg|Polite=Infm	7	advmod	_	Level=Ngoko
@@ -11201,7 +11201,7 @@
 9	anak	_	NOUN	_	Number=Sing|Polite=Infm	14	nsubj	_	Level=Ngoko
 10	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	9	nmod:poss	_	Level=Ngoko
 11	loro	_	NUM	_	Polite=Infm	9	nummod	_	Level=Ngoko
-12	kabeh	_	DET	_	Polite=Infm	9	det	_	Level=Ngoko
+12	kabeh	_	DET	_	Polite=Infm|PronType=Tot	9	det	_	Level=Ngoko
 13	wus	_	AUX	_	Polite=Infm	14	aux	_	Level=Ngoko
 14	mentas	_	VERB	_	Mood=Ind|Voice=Act	3	conj	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	1	punct	_	_
@@ -11362,7 +11362,7 @@
 # text_en = "Why are you getting warm, Ndhuk?"
 1	“	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
 2	Awakmu	_	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	Level=Ngoko
-3	kok	_	ADV	_	_	5	advmod	_	_
+3	kok	_	ADV	_	PronType=Int	5	advmod	_	_
 4	sansaya	_	ADV	_	_	5	advmod	_	_
 5	anget	_	ADJ	_	_	0	root	_	SpaceAfter=No
 6	,	_	PUNCT	_	_	7	punct	_	_
@@ -11392,7 +11392,7 @@
 2	Tuminah	_	PROPN	_	_	1	flat:name	_	_
 3	banjur	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
 4	mbacutake	_	VERB	Polite=Infm	Voice=Act	0	root	_	Level=Ngoko
-5	sing	_	PRON	_	Polite=Infm	6	nsubj	_	Level=Ngoko
+5	sing	_	PRON	_	Polite=Infm|PronType=Rel	6	nsubj	_	Level=Ngoko
 6	mindah	_	VERB	_	Mood=Ind|Voice=Act	7	csubj	_	_
 7	blek	_	X	_	Foreign=Yes	4	xcomp	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	4	punct	_	_
@@ -11407,7 +11407,7 @@
 4	Tari	_	PROPN	_	_	5	nsubj	_	_
 5	ngrasakke	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 6-7	awake	_	_	_	_	_	_	_	_
-6	awak	_	PRON	_	_	9	nsubj	_	_
+6	awak	_	NOUN	_	Number=Sing	9	nsubj	_	_
 7	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	6	det	_	Level=Ngoko
 8	ora	_	PART	_	Polarity=Neg|Polite=Infm	9	advmod	_	Level=Ngoko
 9	nggenah	_	VERB	_	Mood=Ind|Voice=Act	5	xcomp	_	SpaceAfter=No
@@ -11679,7 +11679,7 @@
 4	pikir	_	NOUN	_	Number=Sing	0	root	_	_
 5-6	gunemanku	_	_	_	_	_	_	_	_
 5	guneman	_	NOUN	_	Number=Sing	4	obj	_	_
-6	ku	_	PRON	_	_	5	nmod:poss	_	_
+6	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	5	nmod:poss	_	_
 7	rong	_	NUM	_	Polite=Infm	8	nummod	_	Level=Ngoko
 8	minggu	_	NOUN	_	Number=Sing	5	nmod:tmod	_	_
 9	kapungkur	_	ADV	_	_	8	advmod	_	SpaceAfter=No
@@ -11718,7 +11718,7 @@
 9	ngomong	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	2	advcl	_	Level=Ngoko
 10	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	9	advcl	_	_
 11	papan	_	NOUN	_	Number=Sing	10	obl	_	_
-12	kono	_	ADV	_	_	11	advmod	_	SpaceAfter=No
+12	kono	_	ADV	_	Polite=Infm|PronType=Dem	11	advmod	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = solopos-2022-294
@@ -11726,7 +11726,7 @@
 # text_id = Orang-orang yang sedang menanam terkejut dengan kata-kata Pak Badhi.
 # text_en = The people who were planting were surprised by Pak Badhi's words.
 1	Wong	_	NOUN	_	Number=Sing|Polite=Infm	5	nsubj	_	Level=Ngoko
-2	sing	_	PRON	_	Polite=Infm	4	nsubj	_	Level=Ngoko
+2	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	Level=Ngoko
 3	padha	_	ADV	_	_	4	advmod	_	_
 4	tandur	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 5	kaget	_	ADJ	_	_	0	root	_	_
@@ -11783,7 +11783,7 @@
 3	Putri	_	PROPN	_	_	2	nmod	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	5	punct	_	_
 5	pawongan	_	NOUN	_	Number=Sing|Polite=Infm	3	acl	_	Level=Ngoko
-6	kang	_	PRON	_	Polite=Infm	8	nsubj	_	Level=Ngoko
+6	kang	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj	_	Level=Ngoko
 7	tansah	_	ADV	_	_	8	advmod	_	_
 8	asih	_	VERB	_	Mood=Ind|Voice=Act	5	acl:relcl	_	_
 9	tresna	_	VERB	_	Mood=Ind|Voice=Act	6	conj	_	_
@@ -11810,7 +11810,7 @@
 # text_en = Need to interpret every sentence and word in the song being played.
 1	Butuh	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 2	interpretasi	_	NOUN	_	Number=Sing	1	obj	_	_
-3	saben	_	DET	_	_	4	det	_	_
+3	saben	_	DET	_	Polite=Infm|PronType=Tot	4	det	_	_
 4	ukara	_	NOUN	_	Number=Sing	2	nmod	_	_
 5	lan	_	CCONJ	_	Polite=Infm	6	cc	_	Level=Ngoko
 6	tembung	_	NOUN	_	Number=Sing	4	conj	_	_
@@ -11824,7 +11824,7 @@
 # text = Amung ngertine Simbah Putri sare angler nanging sejatine Simbah wus kritis.
 # text_id = Saya hanya tahu bahwa Nenek sedang tidur tetapi kenyataannya Nenek sudah kritis.
 # text_en = I only know that Grandma is a fisherman but the truth is that Grandpa has been critical.
-1	Amung	_	PRON	_	_	2	nsubj	_	_
+1	Amung	_	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2-3	ngertine	_	_	_	_	_	_	_	_
 2	ngerti	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	2	det	_	_
@@ -11877,19 +11877,19 @@
 12	ora	_	PART	_	Polarity=Neg|Polite=Infm	14	advmod	_	Level=Ngoko
 13	bisa	_	AUX	_	_	14	aux	_	_
 14	tandang	_	VERB	_	Mood=Ind|Voice=Act	7	conj	_	_
-15	apa-apa	_	PRON	_	_	14	obl	_	SpaceAfter=No
+15	apa-apa	_	PRON	_	PronType=Rel	14	obl	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-302
 # text = Sawetara dolanan bocah uga ana kang cara dolanane kairing tembang, kaya dolanan Cublak-cublak Suweng.
 # text_id = Sementara permainan anak juga ada yang cara memainkannya diiringi lagu, seperti Cublak-cublak Suweng.
 # text_en = Some children's games are also played with songs, such as Cublak-cublak Suweng.
-1	Sawetara	_	DET	_	_	2	det	_	_
+1	Sawetara	_	SCONJ	_	Polite=Infm	5	mark	_	_
 2	dolanan	_	NOUN	_	Number=Sing	5	nsubj	_	_
 3	bocah	_	NOUN	_	Number=Sing|Polite=Infm	2	nmod	_	_
 4	uga	_	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
 5	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
-6	kang	_	PRON	_	Polite=Infm	10	obl	_	Level=Ngoko
+6	kang	_	PRON	_	Polite=Infm|PronType=Rel	10	obl	_	Level=Ngoko
 7	cara	_	NOUN	_	Number=Sing	10	nsubj:pass	_	_
 8-9	dolanane	_	_	_	_	_	_	_	_
 8	dolanan	_	VERB	_	Mood=Ind|Voice=Act	7	acl	_	_
@@ -11949,7 +11949,7 @@
 26	kanthi	_	ADP	_	_	27	case	_	_
 27	linambaran	_	NOUN	_	Number=Sing	23	obl	_	_
 28	mesem	_	NOUN	_	Number=Sing	27	nmod	_	_
-29	kang	_	PRON	_	Polite=Infm	30	nsubj	_	Level=Ngoko
+29	kang	_	PRON	_	Polite=Infm|PronType=Rel	30	nsubj	_	Level=Ngoko
 30	tulus	_	ADJ	_	_	27	acl:relcl	_	SpaceAfter=No
 31	.	_	PUNCT	_	_	19	punct	_	SpacesAfter=\n
 
@@ -12036,12 +12036,12 @@
 2	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	3	nsubj	_	Level=Ngoko
 3	ngerti	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	menawa	_	SCONJ	_	Polite=Infm	5	mark	_	Level=Ngoko
-5	ibu	_	NOUN	_	Number=Sing	7	nsubj	_	_
-6	wong	_	DET	_	_	7	det	_	_
-7	kagetan	_	ADJ	_	_	3	advcl	_	_
+5	ibu	_	NOUN	_	Number=Sing	6	nsubj	_	_
+6	wong	_	NOUN	_	_	3	advcl	_	_
+7	kagetan	_	ADJ	_	_	6	amod	_	_
 8	lan	_	CCONJ	_	Polite=Infm	10	cc	_	Level=Ngoko
 9	ora	_	PART	_	Polarity=Neg|Polite=Infm	10	advmod	_	Level=Ngoko
-10	tega	_	ADJ	_	_	7	conj	_	_
+10	tega	_	ADJ	_	_	3	conj	_	_
 11	yen	_	SCONJ	_	_	12	mark	_	_
 12	nyumurip	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	10	advcl	_	Level=Krama
 13	kahanan	_	NOUN	_	Number=Sing|Polite=Infm	12	obj	_	Level=Ngoko
@@ -12074,7 +12074,7 @@
 # text = Kang ana amung rasa kangen nalika gesange tansah tresna mring kulawargane.
 # text_id = Yang ada hanya rasa kangen ketika hidupnya selalu mencintai keluarganya.
 # text_en = There is only a sense of longing when his life always loves his family..
-1	Kang	_	PRON	_	_	2	nsubj	_	_
+1	Kang	_	PRON	_	PronType=Rel	2	nsubj	_	_
 2	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 3	amung	_	ADV	_	_	4	advmod	_	_
 4	rasa	_	NOUN	_	Number=Sing	2	obl	_	_
@@ -12126,7 +12126,7 @@
 7	ana	_	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
 8	jinising	_	NOUN	_	Number=Sing	7	nsubj	_	_
 9	beksan	_	NOUN	_	Number=Sing	8	nmod	_	_
-10	kang	_	PRON	_	Polite=Infm	11	nsubj	_	Level=Ngoko
+10	kang	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	Level=Ngoko
 11	nggambarake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	8	acl:relcl	_	Level=Ngoko
 12-13	blegere	_	_	_	_	_	_	_	_
 12	bleger	_	NOUN	_	Number=Sing	11	obj	_	_
@@ -12138,21 +12138,21 @@
 # text = Dene bocah sing mbungkuk mau banjur tangi lan mbethek sapa bocah sing ndhelikake krikil mau.
 # text_id = Dan anak laki-laki yang sujud kemudian bangkit dan menebak siapa anak laki-laki yang menyembunyikan kerikil itu.
 # text_en = And the boy who is bending down then get up and guess who is hiding the pebble.
-1	Dene	_	DET	_	_	2	det	_	_
+1	Dene	_	ADV	_	_	7	advmod	_	_
 2	bocah	_	NOUN	_	Number=Sing|Polite=Infm	9	nsubj	_	Level=Ngoko
-3	sing	_	PRON	_	Polite=Infm	4	nsubj	_	Level=Ngoko
+3	sing	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	Level=Ngoko
 4	mbungkuk	_	VERB	_	Mood=Ind|Voice=Act	2	acl:relcl	_	_
-5	mau	_	DET	_	Polite=Infm	2	det	_	Level=Ngoko
+5	mau	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko
 6	banjur	_	ADV	_	_	7	advmod	_	_
 7	tangi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 8	lan	_	CCONJ	_	Polite=Infm	9	cc	_	Level=Ngoko
 9	mbethek	_	VERB	_	Mood=Ind|Voice=Act	7	conj	_	_
 10	sapa	_	PRON	_	Polite=Infm	11	nsubj	_	Level=Ngoko
 11	bocah	_	NOUN	_	Number=Sing	9	advcl	_	_
-12	sing	_	PRON	_	Polite=Infm	13	nsubj	_	Level=Ngoko
+12	sing	_	PRON	_	Polite=Infm|PronType=Rel	13	nsubj	_	Level=Ngoko
 13	ndhelikake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	11	acl:relcl	_	Level=Ngoko
 14	krikil	_	NOUN	_	Number=Sing	13	obj	_	_
-15	mau	_	DET	_	Polite=Infm	14	det	_	Level=Ngoko|SpaceAfter=No
+15	mau	_	DET	_	Polite=Infm|PronType=Dem	14	det	_	Level=Ngoko|SpaceAfter=No
 16	.	_	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-315
@@ -12297,7 +12297,7 @@
 # text_id = Aku sudah lemah, menangis di depan pintu saat aku dituntun untuk berjalan di depan Kakek.
 # text_en = I was already weak, crying at the door as I was led to walk in front of Grandpa.
 1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	6	nsubj	_	Level=Ngoko
-2	kang	_	PRON	_	Polite=Infm	4	nsubj	_	Level=Ngoko
+2	kang	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	Level=Ngoko
 3	wus	_	AUX	_	Polite=Infm	4	aux	_	Level=Ngoko
 4	lemes	_	ADJ	_	_	1	acl:relcl	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	6	punct	_	_
@@ -12406,7 +12406,7 @@
 16	bisa	_	AUX	_	Polite=Infm	17	aux	_	Level=Ngoko
 17	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	6	advcl	_	Level=Ngoko
 18	kaya	_	ADP	_	Polite=Infm	19	case	_	Level=Ngoko
-19	mangkene	_	PRON	_	_	17	obl	_	SpaceAfter=No
+19	mangkene	_	PRON	_	Polite=Infm|PronType=Dem	17	obl	_	SpaceAfter=No
 20	.	_	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-327
@@ -12419,7 +12419,7 @@
 4	gerah	_	NOUN	_	Number=Sing|Polite=Form	3	obj	_	Level=Krama|SpaceAfter=No
 5	,	_	PUNCT	_	_	9	punct	_	_
 6	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	9	nsubj	_	Level=Ngoko
-7	kang	_	PRON	_	Polite=Infm	9	obl	_	Level=Ngoko
+7	kang	_	PRON	_	Polite=Infm|PronType=Rel	9	obl	_	Level=Ngoko
 8	kudu	_	AUX	_	Polite=Infm	9	aux	_	Level=Ngoko
 9	tatag	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 10	ngrumat	_	VERB	_	Mood=Ind|Voice=Act	9	advcl	_	_
@@ -12465,7 +12465,7 @@
 7	dene	_	ADV	_	_	15	advmod	_	_
 8	wong	_	NOUN	_	Number=Sing|Polite=Infm	15	nsubj	_	Level=Ngoko
 9	bodho	_	ADJ	_	_	8	amod	_	_
-10	sing	_	PRON	_	Polite=Infm	12	nsubj	_	Level=Ngoko
+10	sing	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	Level=Ngoko
 11	ora	_	PART	_	Polarity=Neg|Polite=Infm	12	advmod	_	Level=Ngoko
 12	duweni	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	8	acl:relcl	_	Level=Ngoko
 13	pendhidhikan	_	NOUN	_	Number=Sing	12	obj	_	_
@@ -12477,7 +12477,7 @@
 19	nepsu	_	ADJ	_	_	15	advmod	_	SpaceAfter=No
 20	,	_	PUNCT	_	_	21	punct	_	_
 21	patrap	_	NOUN	_	Number=Sing	15	conj	_	_
-22	kang	_	PRON	_	Polite=Infm	24	nsubj	_	Level=Ngoko
+22	kang	_	PRON	_	Polite=Infm|PronType=Rel	24	nsubj	_	Level=Ngoko
 23	ora	_	PART	_	Polarity=Neg|Polite=Infm	24	advmod	_	Level=Ngoko
 24	becik	_	ADJ	_	_	21	acl:relcl	_	_
 25	kayata	_	ADP	_	_	26	case	_	_
@@ -12588,7 +12588,7 @@
 # text_en = Le, this is your Grandma, how is Le.
 1	Le	_	PROPN	_	_	4	vocative	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	1	punct	_	_
-3	iki	_	PRON	_	_	4	nsubj	_	_
+3	iki	_	PRON	_	Polite=Infm|PronType=Dem	4	nsubj	_	_
 4-5	Mbahmu	_	_	_	_	_	_	_	SpaceAfter=No
 4	Mbah	_	PROPN	_	_	0	root	_	_
 5	mu	_	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nmod:poss	_	_
@@ -12602,17 +12602,17 @@
 # text = Sopo ngguyu ndhelikake tegese sapa sing ngguyu dekne sing ndhelikake.
 # text_id = Sopo ngguyu ndhelikake artinya siapa yang tertawa dia yang menyembunyikan.
 # text_en = Sopo ngguyu ndhelikake means the one who is laughing is hiding.
-1	Sopo	_	PRON	_	_	2	nsubj	_	_
+1	Sopo	_	PRON	_	Polite=Infm|PronType=Int	2	nsubj	_	_
 2	ngguyu	_	VERB	_	Mood=Ind|Voice=Act	4	csubj	_	_
 3	ndhelikake	_	VERB	_	Mood=Ind|Voice=Act	2	xcomp	_	_
 4-5	tegese	_	_	_	_	_	_	_	_
 4	teges	_	NOUN	_	Number=Sing	0	root	_	_
 5	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	Level=Ngoko
 6	sapa	_	PRON	_	Polite=Infm	4	nmod	_	Level=Ngoko
-7	sing	_	PRON	_	Polite=Infm	8	nsubj	_	Level=Ngoko
+7	sing	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj	_	Level=Ngoko
 8	ngguyu	_	VERB	_	Mood=Ind|Voice=Act	6	acl:relcl	_	_
 9	dekne	_	VERB	_	Mood=Ind|Voice=Act	8	advcl	_	_
-10	sing	_	PRON	_	Polite=Infm	11	nsubj	_	_
+10	sing	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	_
 11	ndhelikake	_	VERB	_	Mood=Ind|Voice=Act	9	advcl	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
@@ -12628,7 +12628,7 @@
 6	Putri	_	PROPN	_	_	5	flat:name	_	_
 7	kaya	_	ADP	_	Polite=Infm	8	case	_	Level=Ngoko
 8	tanduran	_	NOUN	_	Number=Sing	0	root	_	_
-9	kang	_	PRON	_	Polite=Infm	11	nsubj	_	Level=Ngoko
+9	kang	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	Level=Ngoko
 10	semu	_	ADV	_	_	11	advmod	_	_
 11	layu	_	ADJ	_	_	8	acl:relcl	_	SpaceAfter=No
 12	,	_	PUNCT	_	_	14	punct	_	_
@@ -12645,7 +12645,7 @@
 # text_id = Situasi menakutkan hanya berisi ketakutan, dan kesedihan seolah-olah dia tidak bisa berpikir lagi.
 # text_en = The terrifying situation contained only fear, and sadness as if he couldn't think anymore.
 1	Kahanan	_	NOUN	_	Number=Sing	7	nsubj	_	_
-2	kang	_	PRON	_	Polite=Infm	3	nsubj	_	Level=Ngoko
+2	kang	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	Level=Ngoko
 3	medeni	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 4-5	isine	_	_	_	_	_	_	_	_
 4	isi	_	NOUN	_	Number=Sing	1	nmod	_	_
@@ -12751,7 +12751,7 @@
 # text_id = Laptop yang dibelikan kakek waktu itu masih awet dan saya rawat dengan baik sampai saya bisa kuliah.
 # text_en = The laptop that my grandfather bought at that time was still durable and I took good care of it until I could go to college.
 1	Laptop	_	NOUN	_	Number=Sing	10	nsubj	_	_
-2	kang	_	PRON	_	Polite=Infm	3	nsubj:pass	_	_
+2	kang	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj:pass	_	_
 3	ditumbasake	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	1	acl:relcl	_	Level=Krama
 4	Simbah	_	PROPN	_	_	3	obl	_	_
 5	rikala	_	NOUN	_	Number=Sing	3	obl:tmod	_	_
@@ -12798,15 +12798,15 @@
 # text_id = “Semua ini dapat diterima sebagai upaya semua pihak untuk mempromosikan warisan budaya kepada generasi muda Ponorogo agar mereka mau memelihara budayanya sendiri,” kata Gondo.
 # text_en = "All of this can be accepted as an effort by all parties to promote cultural heritage to the younger generation of Ponorogo so that they want to maintain their own culture," said Gondo.
 1	“	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
-2	Iki	_	PRON	_	_	5	nsubj	_	_
-3	kabeh	_	DET	_	_	2	det	_	_
+2	Iki	_	PRON	_	Polite=Infm|PronType=Dem	5	nsubj	_	_
+3	kabeh	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	_
 4	bisa	_	AUX	_	_	5	aux	_	_
 5	ditampa	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	minangka	_	ADP	_	_	7	case	_	_
 7-8	kupiyane	_	_	_	_	_	_	_	_
 7	kupiya	_	NUM	_	_	5	obl	_	_
 8	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	7	det	_	Level=Ngoko
-9	kabeh	_	DET	_	Polite=Infm	10	det	_	Level=Ngoko
+9	kabeh	_	DET	_	Polite=Infm|PronType=Tot	10	det	_	Level=Ngoko
 10	pehak	_	NOUN	_	Number=Sing	7	nmod:poss	_	_
 11	kanggo	_	SCONJ	_	Polite=Infm	12	mark	_	Level=Ngoko
 12	nggiyarake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	7	acl	_	Level=Ngoko
@@ -12907,7 +12907,7 @@
 3	jinis	_	NOUN	_	Number=Sing	1	obl	_	_
 4	dolanan	_	NOUN	_	Number=Sing	3	nmod	_	_
 5	bocah	_	NOUN	_	Number=Sing|Polite=Infm	4	nmod	_	_
-6	kang	_	PRON	_	Polite=Infm	7	nsubj	_	Level=Ngoko
+6	kang	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	Level=Ngoko
 7	kondhang	_	ADJ	_	_	3	acl:relcl	_	_
 8	ing	_	ADP	_	Polite=Infm	9	case	_	Level=Ngoko
 9	Jawa	_	PROPN	_	_	3	nmod	_	_
@@ -12925,7 +12925,7 @@
 5	sodor	_	VERB	_	Mood=Ind|Voice=Act	4	acl	_	SpaceAfter=No
 6	,	_	PUNCT	_	_	7	punct	_	_
 7	pate	_	NOUN	_	Number=Sing	2	conj	_	_
-8	lele	_	PRON	_	_	7	nmod	_	SpaceAfter=No
+8	lele	_	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	10	punct	_	_
 10	bekel	_	NOUN	_	Number=Sing	2	conj	_	SpaceAfter=No
 11	,	_	PUNCT	_	_	12	punct	_	_
@@ -12973,7 +12973,7 @@
 2	karya	_	NOUN	_	Number=Sing	4	obl	_	_
 3	sastra	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	ngandhut	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-5	maneka	_	DET	_	_	6	det	_	_
+5	maneka	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	6	det	_	_
 6	warna	_	NOUN	_	Number=Sing	4	obl	_	_
 7	piwulang	_	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
 8	,	_	PUNCT	_	_	9	punct	_	_
@@ -13002,7 +13002,7 @@
 # text_id = Saya yang kehilangan merasa menyesal, tersesat dan merasa telah melakukan dosa besar.
 # text_en = I felt sorry, lost and felt that I had committed a grave sin.
 1	Aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	7	nsubj:pass	_	Level=Ngoko
-2	kang	_	PRON	_	Polite=Infm	3	nsubj	_	Level=Ngoko
+2	kang	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	Level=Ngoko
 3	katilap	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 4	rumangsa	_	NOUN	_	Number=Sing	3	obl	_	_
 5	getun	_	NOUN	_	Number=Sing	4	nmod	_	SpaceAfter=No
@@ -13047,7 +13047,7 @@
 3	mung	_	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
 4	kanthi	_	ADP	_	_	5	case	_	_
 5	cara	_	NOUN	_	Number=Sing	0	root	_	_
-6	mangkene	_	DET	_	_	5	det	_	_
+6	mangkene	_	DET	_	Polite=Infm|PronType=Dem	5	det	_	_
 7-8	pangajabku	_	_	_	_	_	_	_	_
 7	pangajab	_	NOUN	_	Number=Sing	6	nsubj	_	_
 8	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	7	nmod:poss	_	Level=Ngoko
@@ -13080,7 +13080,7 @@
 6	sakulawarga	_	NOUN	_	Number=Sing	4	nsubj	_	_
 7	uga	_	ADV	_	_	8	advmod	_	_
 8	prasasat	_	X	_	Foreign=Yes	4	conj	_	_
-9	kabeh	_	DET	_	Polite=Infm	4	det	_	Level=Ngoko
+9	kabeh	_	DET	_	Polite=Infm|PronType=Tot	4	det	_	Level=Ngoko
 10	lagi	_	AUX	_	_	12	aux	_	_
 11	nandhang	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 12	pacoban	_	NOUN	_	Number=Sing	11	obj	_	SpaceAfter=No
@@ -13113,7 +13113,7 @@
 # text = Saperangan bocah mbabar beksan Krido Warok ing Alun-Alun Ponorogo, Jawa Timur, Rabu (15/6/2022).
 # text_id = Beberapa anak melakukan Krido Warok di Alun-Alun Ponorogo, Jawa Timur, Rabu (15/6/2022).
 # text_en = Several children perform Krido Warok in Ponorogo Square, East Java, Wednesday (15/6/2022).
-1	Saperangan	_	DET	_	_	2	det	_	_
+1	Saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
 2	bocah	_	NOUN	_	Number=Sing	3	nsubj	_	_
 3	mbabar	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	beksan	_	NOUN	_	Number=Sing	3	obl	_	_
@@ -13191,7 +13191,7 @@
 1	Mbah	_	PROPN	_	_	3	nsubj	_	_
 2	mu	_	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nmod:poss	_	_
 3	melu	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Polite=Infm
-4	mari	_	PRON	_	_	3	obl	_	SpaceAfter=No
+4	mari	_	ADJ	_	_	3	advmod	_	SpaceAfter=No
 5	;	_	PUNCT	_	_	3	punct	_	_
 6	kok	_	ADV	_	_	8	advmod	_	_
 7	kaya	_	ADP	_	_	8	case	_	_
@@ -13314,7 +13314,7 @@
 3	kok	_	ADV	_	_	4	advmod	_	_
 4	ceguk	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	bar	_	ADP	_	Polite=Infm	6	case	_	Level=Ngoko
-6	kuwi	_	PRON	_	_	7	obl	_	_
+6	kuwi	_	PRON	_	Polite=Infm|PronType=Dem	7	obl	_	_
 7	meneng	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	advcl	_	Level=Ngoko|SpaceAfter=No
 8	?	_	PUNCT	_	_	7	punct	_	SpacesAfter=\n
 
@@ -13327,7 +13327,7 @@
 3	Ariesta	_	PROPN	_	_	1	flat:name	_	_
 4	jroning	_	ADP	_	Polite=Infm	5	case	_	Level=Ngoko
 5	jurnale	_	NOUN	_	Number=Sing	1	nmod	_	_
-6	kang	_	PRON	_	Polite=Infm	7	nsubj	_	_
+6	kang	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	_
 7	asesirah	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	5	acl:relcl	_	Level=Ngoko
 8	Nilai	_	PROPN	_	_	7	obj	_	_
 9	Moral	_	PROPN	_	_	8	flat:name	_	_
@@ -13399,7 +13399,7 @@
 # text = Saperangan sumber sujarah nyebutake tembang dolanan Cublak-cublak Suweng diripta dening Wali Sanga, utamane Syekh Maulana Ainul Yakin utawa Sunan Giri watara taun 1442 M.
 # text_id = Beberapa sumber sejarah menyebutkan bahwa lakon Cublak-cublak Suweng diciptakan oleh Wali Sanga, khususnya Syekh Maulana Ainul Yakin atau Sunan Giri sekitar tahun 1442 Masehi.
 # text_en = Several historical sources state that the play Cublak-cublak Suweng was created by Wali Sanga, especially Sheikh Maulana Ainul Yakin or Sunan Giri around 1442 AD.
-1	Saperangan	_	DET	_	_	2	det	_	_
+1	Saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
 2	sumber	_	NOUN	_	Number=Sing	4	nsubj	_	_
 3	sujarah	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	nyebutake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
@@ -13500,7 +13500,7 @@
 8	Simbah	_	PROPN	_	_	9	nsubj	_	_
 9	mujudi	_	VERB	_	Mood=Ind|Voice=Act	5	advcl	_	_
 10	apa	_	PRON	_	Polite=Infm	9	obj	_	LEvel=Ngoko
-11	kang	_	PRON	_	Polite=Infm	12	nsubj	_	Level=Ngoko
+11	kang	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	Level=Ngoko
 12	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	10	acl:relcl	_	Level=Ngoko
 13	sedyane	_	NOUN	_	Number=Sing	12	xcomp	_	_
 14	kanggo	_	ADP	_	Polite=Infm	15	case	_	Level=NGoko
@@ -13521,7 +13521,7 @@
 7	ngenthengake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	advcl	_	Level=Ngoko
 8-9	anggonku	_	_	_	_	_	_	_	_
 8	anggon	_	NOUN	_	Number=Sing|Polite=Infm	7	obj	_	Level=Ngoko
-9	ku	_	PRON	_	_	8	nmod:poss	_	_
+9	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	8	nmod:poss	_	_
 10	sekolah	_	NOUN	_	Number=Sing	8	nmod	_	_
 11	lan	_	CCONJ	_	Polite=Infm	12	cc	_	Level=Ngoko
 12	wektu	_	NOUN	_	Number=Sing	16	obl:tmod	_	_
@@ -13535,7 +13535,7 @@
 20	kaya	_	ADP	_	_	21	case	_	_
 21-22	kanca-kancaku	_	_	_	_	_	_	_	SpaceAfter=No
 21	kanca-kanca	_	NOUN	_	Number=Sing|Polite=Infm	17	obl	_	Level=Ngoko
-22	ku	_	PRON	_	_	21	nmod:poss	_	_
+22	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	21	nmod:poss	_	_
 23	.	_	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-381
@@ -13550,7 +13550,7 @@
 6	makna	_	NOUN	_	Number=Sing	5	nmod	_	_
 7	lan	_	CCONJ	_	Polite=Infm	8	cc	_	Level=Ngoko
 8	piwulang	_	NOUN	_	Number=Sing	6	conj	_	_
-9	kang	_	PRON	_	Polite=Infm	10	nsubj:pass	_	Level=Ngoko
+9	kang	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj:pass	_	Level=Ngoko
 10	kakandhut	_	VERB	_	Mood=Ind|Voice=Pass	6	acl:relcl	_	_
 11	jroning	_	ADP	_	_	12	case	_	_
 12	tembang	_	NOUN	_	Number=Sing	10	obl	_	_
@@ -13572,11 +13572,11 @@
 7	,	_	PUNCT	_	_	8	punct	_	_
 8-9	kakangku	_	_	_	_	_	_	_	_
 8	kakang	_	NOUN	_	Number=Sing	6	conj	_	_
-9	ku	_	PRON	_	_	8	nmod:poss	_	_
+9	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	8	nmod:poss	_	_
 10	lan	_	CCONJ	_	Polite=Infm	11	cc	_	Level=Ngoko
 11	Simbah	_	PROPN	_	_	6	conj	_	_
 12	Kakung	_	PROPN	_	_	11	flat:name	_	_
-13	kang	_	PRON	_	Polite=Infm	14	nsubj	_	Level=Ngoko
+13	kang	_	PRON	_	Polite=Infm|PronType=Rel	14	nsubj	_	Level=Ngoko
 14	ngrumat	_	VERB	_	Mood=Ind|Voice=Act	6	acl:relcl	_	_
 15	Simbah	_	PROPN	_	_	14	obl	_	_
 16	Putri	_	PROPN	_	_	15	flat:name	_	SpaceAfter=No
@@ -13664,9 +13664,9 @@
 22	geger	_	NOUN	_	Number=Sing	20	obl	_	_
 23	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	22	nmod:poss	_	Level=Ngoko
 24	bocah	_	NOUN	_	Number=Sing	22	nmod	_	_
-25	sing	_	PRON	_	Polite=Infm	26	nsubj	_	Level=Ngoko
+25	sing	_	PRON	_	Polite=Infm|PronType=Rel	26	nsubj	_	Level=Ngoko
 26	mbungkuk	_	VERB	_	Mood=Ind|Voice=Act	24	acl:relcl	_	_
-27	mau	_	DET	_	Polite=Infm	24	det	_	Level=Ngoko|SpaceAfter=No
+27	mau	_	DET	_	Polite=Infm|PronType=Dem	24	det	_	Level=Ngoko|SpaceAfter=No
 28	.	_	PUNCT	_	_	1	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-386
@@ -13735,7 +13735,7 @@
 3	Suweng	_	PROPN	_	_	2	flat:name	_	_
 4	iku	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	Level=Ngoko
 5	kaya	_	ADP	_	Polite=Infm	6	case	_	Level=Ngoko
-6	mangkene	_	PRON	_	_	0	root	_	SpaceAfter=No
+6	mangkene	_	PRON	_	Polite=Infm|PronType=Dem	0	root	_	SpaceAfter=No
 7	:	_	PUNCT	_	_	8	punct	_	_
 8	Cublak-cublak	_	PROPN	_	_	6	acl	_	_
 9	suweng	_	ADJ	_	Polite=Form	8	amod	_	SpaceAfter=No
@@ -13754,14 +13754,14 @@
 21	empong	_	NOUN	_	Number=Sing	20	nmod	_	_
 22	lera-lere	_	ADJ	_	_	8	parataxis	_	SpaceAfter=No
 23	/	_	PUNCT	_	_	25	punct	_	_
-24	Sapa	_	PRON	_	_	25	nsubj	_	_
+24	Sapa	_	PRON	_	PronType=Rel	25	nsubj	_	_
 25	ngguyu	_	VERB	_	Mood=Ind|Voice=Act	8	parataxis	_	_
 26	ndhelikake	_	VERB	_	Mood=Ind|Voice=Act	25	advcl	_	SpaceAfter=No
 27	/	_	PUNCT	_	_	28	punct	_	_
 28	Sir	_	INTJ	_	_	26	obl	_	_
 29	sir	_	INTJ	_	_	28	nmod	_	_
 30	pong	_	NOUN	_	Number=Sing	8	parataxis	_	_
-31	dhele	_	PRON	_	_	32	nmod	_	_
+31	dhele	_	NOUN	_	_	32	nmod	_	_
 32	kopong	_	NOUN	_	Number=Sing	30	nmod	_	SpaceAfter=No
 33	.	_	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
@@ -13777,7 +13777,7 @@
 6	wong	_	NOUN	_	Number=Sing|Polite=Infm	4	obl	_	Level=Ngoko
 7	tuwa	_	ADJ	_	Polite=Infm	6	amod	_	Level=Ngoko
 8	ompong	_	ADJ	_	_	6	amod	_	_
-9	sing	_	PRON	_	Polite=Infm	10	nsubj	_	Level=NGoko
+9	sing	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj	_	Level=NGoko
 10	bingungan	_	ADJ	_	_	6	acl:relcl	_	_
 11	(	_	PUNCT	_	_	14	punct	_	SpaceAfter=No
 12	Pak	_	PROPN	_	_	14	nsubj	_	_
@@ -13807,7 +13807,7 @@
 3	ngandhut	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	piwulang	_	NOUN	_	Number=Sing	3	obl	_	_
 5	sapa	_	PRON	_	Polite=Infm	4	nmod	_	Level=Ngoko
-6	kang	_	PRON	_	Polite=Infm	7	nsubj	_	Level=Ngoko
+6	kang	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	Level=Ngoko
 7	wicaksana	_	ADJ	_	_	4	acl:relcl	_	SpaceAfter=No
 8	,	_	PUNCT	_	_	3	punct	_	_
 9	bakale	_	SCONJ	_	_	10	mark	_	_
@@ -13845,7 +13845,7 @@
 18-19	ponakane	_	_	_	_	_	_	_	_
 18	ponakan	_	NOUN	_	Number=Sing	16	obl	_	_
 19	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	18	det	_	Level=Ngoko
-20	kang	_	PRON	_	Polite=Infm	21	nsubj	_	_
+20	kang	_	PRON	_	Polite=Infm|PronType=Rel	21	nsubj	_	_
 21	nduweni	_	VERB	_	Mood=Ind|Voice=Act	18	acl:relcl	_	_
 22	kenalan	_	NOUN	_	Number=Sing	21	obl	_	_
 23	kanca	_	NOUN	_	Number=Sing|Polite=Infm	22	nmod	_	Level=Ngoko
@@ -13879,7 +13879,7 @@
 1-2	Idham-idhamane	_	_	_	_	_	_	_	_
 1	Idham-idhaman	_	NOUN	_	Number=Sing	10	obl	_	_
 2	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	Level=Ngoko
-3	kang	_	PRON	_	Polite=Infm	6	obj	_	Level=Ngoko
+3	kang	_	PRON	_	Polite=Infm|PronType=Rel	6	obj	_	Level=Ngoko
 4	durung	_	PART	_	Polarity=Neg|Polite=Infm	6	advmod	_	Level=Ngoko
 5	dak	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	6	nsubj	_	Level=Ngoko
 6	wujudi	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
@@ -13959,7 +13959,7 @@
 # text = Saben dina aku ditawani terus babagan kuwi, nanging aku nora wani mangsuli kang saktemene.
 # text_id = Setiap hari saya ditanya tentang itu, tetapi saya tidak berani menjawab yang sebenarnya.
 # text_en = Every day I am asked about it, but I dare not answer the truth.
-1	Saben	_	DET	_	_	2	det	_	_
+1	Saben	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	_
 2	dina	_	NOUN	_	Number=Sing|Polite=Infm	4	obl:tmod	_	Level=Ngoko
 3	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
 4	ditawani	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
@@ -13985,7 +13985,7 @@
 3	keprajuritan	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	warok	_	NOUN	_	Number=Sing	3	nmod	_	_
 5	iki	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	_
-6	sing	_	PRON	_	Polite=Infm	7	nsubj	_	_
+6	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	_
 7	didadekake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	2	acl:relcl	_	_
 8	beksan	_	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
@@ -14011,7 +14011,7 @@
 8	wujud	_	NOUN	_	Number=Sing	4	obl	_	_
 9	tradhisi	_	NOUN	_	Number=Sing	8	nmod	_	_
 10	lisan	_	ADJ	_	_	9	amod	_	_
-11	kang	_	PRON	_	Polite=Infm	12	nsubj:pass	_	_
+11	kang	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj:pass	_	_
 12	diwarisake	_	VERB	_	Mood=Ind|Voice=Pass	9	acl:relcl	_	_
 13	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	14	det	_	_
 14	leluhur	_	NOUN	_	Number=Sing	12	obl	_	SpaceAfter=No
@@ -14040,9 +14040,9 @@
 1	Gondo	_	PROPN	_	_	2	nsubj	_	_
 2	nyebutake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	_
 3	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	2	advcl	_	_
-4	saperangan	_	DET	_	_	5	det	_	_
+4	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	5	det	_	_
 5	gerakan	_	NOUN	_	Number=Sing	3	obl	_	_
-6	kang	_	PRON	_	Polite=Infm	7	nsubj	_	_
+6	kang	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	_
 7	nggunakake	_	VERB	_	Mood=Ind|Voice=Act	5	acl:relcl	_	_
 8	kolor	_	NOUN	_	Number=Sing	7	obj	_	_
 9	sapi	_	NOUN	_	Number=Sing	8	nmod	_	_
@@ -14081,7 +14081,7 @@
 # text = Kang diarani warok iku nggambarake blegere utawa wujude.
 # text_id = Yang disebut warok adalah gambaran penampilan atau bentuknya.
 # text_en = What is called warok is a description of its appearance or shape.
-1	Kang	_	PRON	_	_	2	nsubj:pass	_	_
+1	Kang	_	PRON	_	PronType=Rel	2	nsubj:pass	_	_
 2	diarani	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	5	csubj	_	Level=Ngoko
 3	warok	_	NOUN	_	Number=Sing	2	obl	_	_
 4	iku	_	DET	_	Polite=Infm	3	det	_	Level=Ngoko
@@ -14108,7 +14108,7 @@
 6	rasa	_	NOUN	_	Number=Sing	0	root	_	_
 7	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	6	det	_	Level=Ngoko
 8	kaya	_	SCONJ	_	_	10	mark	_	_
-9	dene	_	SCONJ	_	_	10	mark	_	_
+9	dene	_	ADV	_	_	10	advmod	_	_
 10	sinamber	_	VERB	_	Mood=Ind|Voice=Pass	6	acl	_	_
 11	bledheg	_	NOUN	_	Number=Sing	10	obl:agent	_	_
 12	ing	_	ADP	_	Polite=Infm	13	case	_	_
@@ -14120,7 +14120,7 @@
 # text = Kabeh bingung, katambahan udane sansaya deres.
 # text_id = Semua orang bingung, dan hujan semakin deras.
 # text_en = Everyone was confused, and the rain was getting heavier.
-1	Kabeh	_	PRON	_	_	2	nsubj	_	_
+1	Kabeh	_	PRON	_	Polite=Infm|PronType=Tot	2	nsubj	_	_
 2	bingung	_	ADJ	_	_	0	root	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	2	punct	_	_
 4	katambahan	_	ADV	_	_	8	advmod	_	_
@@ -14212,9 +14212,9 @@
 18	ora	_	PART	_	Polarity=Neg|Polite=Infm	20	advmod	_	_
 19	bisa	_	AUX	_	_	20	aux	_	_
 20	dimaknani	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
-21	ngono	_	PRON	_	_	20	obl	_	_
+21	ngono	_	PRON	_	Polite=Infm|PronType=Dem	20	obl	_	_
 22	wae	_	ADV	_	_	20	advmod	_	_
-23	apa	_	PRON	_	_	20	obl	_	_
+23	apa	_	PRON	_	PronType=Rel	20	obl	_	_
 24-25	anane	_	_	_	_	_	_	_	_
 24	ana	_	NOUN	_	Number=Sing	23	nmod	_	_
 25	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	24	det	_	_
@@ -14228,7 +14228,7 @@
 # text_id = Senyum yang masih seperti gambar dan seolah-olah masih hidup di dunia ini.
 # text_en = A smile that is still like a picture and as if it is still alive in this world.
 1	Eseming	_	NOUN	_	Number=Sing	0	root	_	_
-2	kang	_	PRON	_	Polite=Infm	5	nsubj	_	_
+2	kang	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	_
 3	isih	_	ADV	_	_	5	advmod	_	_
 4	kaya	_	SCONJ	_	_	5	mark	_	_
 5	kagambar	_	VERB	_	Mood=Ind|Voice=Pass	1	acl:relcl	_	_
@@ -14270,7 +14270,7 @@
 3	wus	_	AUX	_	_	4	aux	_	_
 4	prasetya	_	NOUN	_	Number=Sing	0	root	_	_
 5	sawise	_	ADP	_	_	6	case	_	_
-6	mangkene	_	PRON	_	_	10	obl	_	_
+6	mangkene	_	PRON	_	Polite=Infm|PronType=Dem	10	obl	_	_
 7	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	10	nsubj	_	Level=Ngoko
 8	kudu	_	AUX	_	Polite=Infm	10	aux	_	_
 9	luwih	_	ADV	_	_	10	advmod	_	_
@@ -14278,8 +14278,8 @@
 11	lan	_	CCONJ	_	Polite=Infm	13	cc	_	Level=Ngoko
 12	bisa	_	AUX	_	Polite=Infm	13	aux	_	_
 13	nggayuh	_	VERB	_	Mood=Ind|Voice=Act	10	conj	_	_
-14	apa	_	PRON	_	_	13	obj	_	_
-15	kang	_	PRON	_	Polite=Infm	16	nsubj	_	_
+14	apa	_	PRON	_	PronType=Rel	13	obj	_	_
+15	kang	_	PRON	_	Polite=Infm|PronType=Rel	16	nsubj	_	_
 16	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	14	advcl	_	Level=Ngoko
 17-18	angen-angenku	_	_	_	_	_	_	_	_
 17	angen-angen	_	NOUN	_	Number=Sing	16	obl	_	_
@@ -14287,7 +14287,7 @@
 19	kanggo	_	SCONJ	_	Polite=Infm	20	mark	_	_
 20	mujudake	_	VERB	_	Mood=Ind|Voice=Act	17	acl	_	_
 21	kabahagyan	_	NOUN	_	Number=Sing	20	obj	_	_
-22	kang	_	PRON	_	Polite=Infm	23	nsubj	_	_
+22	kang	_	PRON	_	Polite=Infm|PronType=Rel	23	nsubj	_	_
 23	ana	_	VERB	_	Mood=Ind|Voice=Act	21	acl:relcl	_	_
 24	ing	_	ADP	_	Polite=Infm	25	case	_	_
 25-26	kulawargaku	_	_	_	_	_	_	_	SpaceAfter=No
@@ -14324,8 +14324,8 @@
 # text_en = And, what God said, it was written that at that time Grandfather returned to God's House.
 1	Lan	_	CCONJ	_	_	12	cc	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	12	punct	_	_
-3	apa	_	PRON	_	_	12	acl	_	_
-4	kang	_	PRON	_	Polite=Infm	5	nsubj	_	_
+3	apa	_	PRON	_	PronType=Rel	12	acl	_	_
+4	kang	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	_
 5	ginaris	_	ADJ	_	_	9	advcl	_	_
 6	dening	_	ADP	_	_	7	case	_	_
 7	Gusti	_	PROPN	_	_	9	obl	_	_
@@ -14363,7 +14363,7 @@
 9	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	8	det	_	_
 10	kaya	_	SCONJ	_	_	11	mark	_	_
 11	turu	_	VERB	_	Mood=Ind|Voice=Act	8	advcl	_	_
-12	kang	_	PRON	_	Polite=Infm	13	nsubj	_	_
+12	kang	_	PRON	_	Polite=Infm|PronType=Rel	13	nsubj	_	_
 13	jenak	_	ADJ	_	_	11	advcl	_	_
 14	kepati	_	ADJ	_	_	13	xcomp	_	_
 15	beda	_	ADJ	_	_	14	xcomp	_	_
@@ -14385,12 +14385,12 @@
 8	Simbah	_	NOUN	_	Number=Sing	9	nsubj	_	_
 9	lara	_	ADJ	_	_	3	parataxis	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	9	punct	_	_
-11	kabeh	_	PRON	_	_	14	nsubj	_	_
+11	kabeh	_	PRON	_	Polite=Infm|PronType=Tot	14	nsubj	_	_
 12	gek	_	INTJ	_	_	14	discourse	_	_
 13	kaya	_	ADP	_	_	14	case	_	_
-14	ngono	_	PRON	_	_	9	parataxis	_	SpaceAfter=No
+14	ngono	_	PRON	_	Polite=Infm|PronType=Dem	9	parataxis	_	SpaceAfter=No
 15	,	_	PUNCT	_	_	3	punct	_	_
-16	iki	_	PRON	_	_	17	nsubj	_	_
+16	iki	_	PRON	_	Polite=Infm|PronType=Dem	17	nsubj	_	_
 17	kepiye	_	ADV	_	_	3	parataxis	_	SpaceAfter=No
 18	?	_	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
@@ -14407,7 +14407,7 @@
 6-7	tuwaku	_	_	_	_	_	_	_	_
 6	tuwa	_	ADJ	_	_	5	amod	_	_
 7	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	5	nmod:poss	_	Level=Ngoko
-8	kang	_	PRON	_	Polite=Infm	9	nsubj	_	_
+8	kang	_	PRON	_	Polite=Infm|PronType=Rel	9	nsubj	_	_
 9	wektu	_	NOUN	_	Number=Sing	3	nmod:tmod	_	_
 10	iku	_	DET	_	Polite=Infm	9	det	_	Level=Ngoko
 11	lagi	_	AUX	_	_	12	aux	_	_
@@ -14424,7 +14424,7 @@
 3	banter	_	ADJ	_	_	1	conj	_	_
 4-5	anggonku	_	_	_	_	_	_	_	_
 4	anggon	_	NOUN	_	Number=Sing	6	nsubj	_	_
-5	ku	_	PRON	_	_	4	nmod:poss	_	_
+5	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	4	nmod:poss	_	_
 6	nangis	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	kejer	_	ADJ	_	_	6	advmod	_	_
 8	kaya	_	SCONJ	_	_	9	mark	_	_
@@ -14447,7 +14447,7 @@
 7	nuju	_	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
 8	katentremaning	_	NOUN	_	Number=Sing	7	obl	_	_
 9	urip	_	NOUN	_	Number=Sing	8	nmod	_	_
-10	kang	_	PRON	_	Polite=Infm	11	nsubj	_	_
+10	kang	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	_
 11	sejati	_	ADJ	_	_	8	advcl	_	SpaceAfter=No
 12	,	_	PUNCT	_	_	15	punct	_	_
 13	manungsa	_	NOUN	_	Number=Sing	15	nsubj	_	_
@@ -14507,11 +14507,11 @@
 7	,	_	PUNCT	_	_	9	punct	_	_
 8	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	9	nsubj	_	Level=Ngoko
 9	nyerat	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-10	iki	_	PRON	_	_	9	obj	_	_
+10	iki	_	PRON	_	Polite=Infm|PronType=Dem	9	obj	_	_
 11	kanggo	_	SCONJ	_	Polite=Infm	12	mark	_	_
 12	mujudake	_	VERB	_	Mood=Ind|Voice=Act	9	advcl	_	_
-13	apa	_	PRON	_	_	12	obj	_	_
-14	kang	_	PRON	_	Polite=Infm	15	nsubj	_	_
+13	apa	_	PRON	_	PronType=Rel	12	obj	_	_
+14	kang	_	PRON	_	Polite=Infm|PronType=Rel	15	nsubj	_	_
 15	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	13	acl:relcl	_	Level=Ngoko
 16	pawelinge	_	NOUN	_	Number=Sing	15	obl	_	SpaceAfter=No
 17	,	_	PUNCT	_	_	21	punct	_	_
@@ -14519,8 +14519,8 @@
 19	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	21	nsubj	_	Level=Ngoko
 20	bisa	_	AUX	_	Polite=Infm	21	aux	_	_
 21	nggayuh	_	VERB	_	Mood=Ind|Voice=Act	9	advcl	_	_
-22	apa	_	PRON	_	_	21	obj	_	_
-23	kang	_	PRON	_	Polite=Infm	24	nsubj	_	_
+22	apa	_	PRON	_	PronType=Rel	21	obj	_	_
+23	kang	_	PRON	_	Polite=Infm|PronType=Rel	24	nsubj	_	_
 24	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	22	acl:relcl	_	_
 25-26	angen-angenku	_	_	_	_	_	_	_	SpaceAfter=No
 25	angen-angen	_	NOUN	_	Number=Sing	24	obl	_	_
@@ -14563,7 +14563,7 @@
 # text_en = "So the whole action when exposing beksan reflects the character of warok," he said.
 1	“	_	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	Dadi	_	ADV	_	_	9	advmod	_	_
-3	sakabehing	_	DET	_	_	4	det	_	_
+3	sakabehing	_	DET	_	PronType=Tot	4	det	_	_
 4	polah	_	NOUN	_	Number=Sing	9	nsubj	_	_
 5	nalika	_	SCONJ	_	_	6	mark	_	_
 6	mbabar	_	VERB	_	Mood=Ind|Voice=Act	4	acl	_	_
@@ -14610,7 +14610,7 @@
 23	”	_	PUNCT	_	_	6	punct	_	_
 24-25	wangsulanku	_	_	_	_	_	_	_	_
 24	wangsulan	_	VERB	_	Mood=Ind|Voice=Act	6	parataxis	_	_
-25	ku	_	PRON	_	_	24	nsubj	_	_
+25	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	24	nsubj	_	_
 26	karo	_	SCONJ	_	_	27	mark	_	_
 27	sangga	_	VERB	_	Mood=Ind|Voice=Act	24	advcl	_	_
 28	uwang	_	NOUN	_	Number=Sing	27	obj	_	SpaceAfter=No
@@ -14634,7 +14634,7 @@
 # text_en = The treasures of the library that people are looking for are scattered everywhere.
 1	Bandha	_	NOUN	_	Number=Sing	10	nsubj	_	_
 2	brana	_	NOUN	_	Number=Sing	1	nmod	_	_
-3	kang	_	PRON	_	Polite=Infm	4	nsubj	_	_
+3	kang	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	_
 4	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	1	acl:relcl	_	_
 5-6	golekane	_	_	_	_	_	_	_	_
 5	golekan	_	NOUN	_	Number=Sing	4	obl	_	_
@@ -14661,7 +14661,7 @@
 7	rasa	_	NOUN	_	Number=Sing	6	obl	_	_
 8	lan	_	CCONJ	_	Polite=Infm	9	cc	_	Level=Ngoko
 9	makna	_	NOUN	_	Number=Sing	7	conj	_	_
-10	kang	_	PRON	_	Polite=Infm	11	nsubj	_	_
+10	kang	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	_
 11	jero	_	ADJ	_	_	9	acl:relcl	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
@@ -14676,7 +14676,7 @@
 5	tembang	_	NOUN	_	Number=Sing	4	obj	_	_
 6	Cublak-cublak	_	PROPN	_	_	5	nmod	_	_
 7	Suweng	_	PROPN	_	_	6	flat:name	_	_
-8	kang	_	PRON	_	Polite=Infm	10	nsubj	_	_
+8	kang	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj	_	_
 9	wusanane	_	ADV	_	_	10	advmod	_	_
 10	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	5	acl	_	_
 11	tembang	_	NOUN	_	Number=Sing	10	obl	_	_
@@ -14746,7 +14746,7 @@
 4	mrepegi	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	_
 5	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	4	obj	_	Level=Ngoko
 6	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	advcl	_	_
-7	kene	_	ADV	_	_	6	advmod	_	SpaceAfter=No
+7	kene	_	ADV	_	Polite=Infm|PronType=Dem	6	advmod	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-437
@@ -14755,7 +14755,7 @@
 # text_en = But that's how it is, Grandpa already went to God when I was like this.
 1	Nanging	_	ADV	_	_	6	advmod	_	_
 2	ya	_	INTJ	_	_	6	discourse	_	_
-3	kuwi	_	PRON	_	_	6	obl	_	SpaceAfter=No
+3	kuwi	_	PRON	_	Polite=Infm|PronType=Dem	6	obl	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	6	punct	_	_
 5	Simbah	_	NOUN	_	Number=Sing	6	nsubj	_	_
 6	bacut	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -14766,7 +14766,7 @@
 11	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	14	nsubj	_	Level=Ngoko
 12	isih	_	ADV	_	Polite=Infm	14	advmod	_	_
 13	kaya	_	ADP	_	_	14	case	_	_
-14	mangkene	_	PRON	_	_	6	advcl	_	SpaceAfter=No
+14	mangkene	_	PRON	_	Polite=Infm|PronType=Dem	6	advcl	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-438
@@ -14796,7 +14796,7 @@
 # text_id = "Ini bagaimana Mas, Kakek seperti ini tidak memberi jawaban apa-apa?"
 # text_en = "How is this, Brother, Grandpa is like this, does not give any answer?"
 1	“	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
-2	Iki	_	PRON	_	_	3	obl	_	_
+2	Iki	_	PRON	_	Polite=Infm|PronType=Dem	3	obl	_	_
 3	piye	_	ADV	_	_	0	root	_	_
 4	Mas	_	NOUN	_	Number=Sing	3	vocative	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	3	punct	_	_
@@ -14876,7 +14876,7 @@
 # text_en = At that time, my grandfather, mother, and brother were sick.
 1	Wektu	_	PROPN	_	_	7	obl	_	_
 2	iku	_	DET	_	PronType=Dem	1	det	_	Level=Ngoko
-3	kang	_	PRON	_	Polite=Infm	4	nsubj	_	_
+3	kang	_	PRON	_	Polite=Infm|PronType=Rel	4	nsubj	_	_
 4	nandhang	_	VERB	_	Mood=Ind|Voice=Act	7	csubj	_	_
 5	gerah	_	ADJ	_	_	4	advcl	_	_
 6	yaiku	_	AUX	_	Polite=Infm	7	cop	_	Level=Ngoko
@@ -14914,7 +14914,7 @@
 15	jurnal	_	NOUN	_	Number=Sing	9	obl	_	_
 16	-	_	PUNCT	_	_	17	punct	_	_
 17	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	15	nmod:poss	_	Level=Ngoko
-18	kang	_	PRON	_	Polite=Infm	19	nsubj:pass	_	_
+18	kang	_	PRON	_	Polite=Infm|PronType=Rel	19	nsubj:pass	_	_
 19	dimot	_	VERB	_	Mood=Ind|Voice=Pass	15	acl:relcl	_	_
 20	ing	_	ADP	_	Polite=Infm	21	case	_	_
 21	laman	_	NOUN	_	Number=Sing	19	obl	_	_
@@ -14938,9 +14938,9 @@
 8-9	kahanane	_	_	_	_	_	_	_	_
 8	kahana	_	NOUN	_	Number=Sing	10	nsubj	_	_
 9	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	8	det	_	Level=Ngoko
-10	ngene	_	PRON	_	_	3	advcl	_	_
+10	ngene	_	PRON	_	Polite=Infm|PronType=Dem	3	advcl	_	_
 11	iki	_	DET	_	Polite=Infm|PronType=Dem	10	det	_	_
-12	kabeh	_	PRON	_	_	10	nmod	_	SpaceAfter=No
+12	kabeh	_	PRON	_	Polite=Infm|PronType=Tot	10	nmod	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 14	“	_	PUNCT	_	_	3	punct	_	SpaceAfter=\n
 
@@ -14956,7 +14956,7 @@
 6	kaya	_	ADP	_	_	8	case	_	_
 7	dene	_	ADV	_	_	8	advmod	_	_
 8	pageblug	_	NOUN	_	Number=Sing	0	root	_	_
-9	kang	_	PRON	_	Polite=Infm	10	nsubj	_	_
+9	kang	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj	_	_
 10	saknyatane	_	ADJ	_	_	8	acl:relcl	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
@@ -14970,7 +14970,7 @@
 4	weruh	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	gegambaraning	_	NOUN	_	Number=Sing	4	obj	_	_
 6	pawongan	_	NOUN	_	Number=Sing	5	nmod	_	_
-7	kang	_	PRON	_	Polite=Infm	9	nsubj	_	_
+7	kang	_	PRON	_	Polite=Infm|PronType=Rel	9	nsubj	_	_
 8	nora	_	PART	_	Polarity=Neg	9	advmod	_	_
 9	pangling	_	ADJ	_	_	6	acl:relcl	_	_
 10	maneh	_	ADV	_	_	9	advmod	_	SpaceAfter=No
@@ -14985,7 +14985,7 @@
 3	kuwi	_	PRON	_	Polite=Infm	5	nsubj	_	_
 4	isih	_	ADV	_	_	5	advmod	_	_
 5	ana	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-6	sing	_	PRON	_	Polite=Infm	7	nsubj	_	_
+6	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	nsubj	_	_
 7	apik	_	ADJ	_	_	5	advcl	_	_
 8	maneh	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	5	punct	_	SpacesAfter=\n
@@ -15004,7 +15004,7 @@
 8	ana	_	VERB	_	Mood=Ind|Voice=Act	5	advcl	_	_
 9	jinising	_	NOUN	_	Number=Sing	8	obl	_	_
 10	beksan	_	NOUN	_	Number=Sing	9	nmod	_	_
-11	kang	_	PRON	_	Polite=Infm	12	nsubj	_	_
+11	kang	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj	_	_
 12	nggambarake	_	VERB	_	Mood=Ind|Voice=Act	9	acl:relcl	_	_
 13	blegere	_	NOUN	_	Number=Sing	12	obj	_	_
 14	warok	_	NOUN	_	Number=Sing	13	nmod	_	SpaceAfter=No
@@ -15019,11 +15019,11 @@
 3	iku	_	DET	_	PronType=Dem	1	det	_	Level=Ngoko
 4	dolanan	_	NOUN	_	Number=Sing	0	root	_	_
 5	tradhisional	_	ADJ	_	_	4	amod	_	_
-6	kang	_	PRON	_	Polite=Infm	8	nsubj:pass	_	_
+6	kang	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj:pass	_	_
 7	kerep	_	ADV	_	_	8	advmod	_	_
 8	dinggo	_	VERB	_	Mood=Ind|Voice=Pass	4	acl:relcl	_	_
 9	dolanan	_	NOUN	_	Number=Sing	8	obl	_	_
-10	saperangan	_	DET	_	_	11	det	_	_
+10	saperangan	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	11	det	_	_
 11	bocah	_	NOUN	_	Number=Sing	8	obl	_	_
 12	wadon	_	NOUN	_	Number=Sing	11	nmod	_	_
 13	cacah	_	NOUN	_	Number=Sing	12	nmod	_	_
@@ -15061,7 +15061,7 @@
 7	kawimbuh	_	VERB	_	Mood=Ind|Voice=Act	2	conj	_	_
 8	sumiliring	_	VERB	_	Mood=Ind|Voice=Act	7	xcomp	_	_
 9	hawa	_	NOUN	_	Number=Sing	8	obl	_	_
-10	kang	_	PRON	_	Polite=Infm	11	nsubj	_	_
+10	kang	_	PRON	_	Polite=Infm|PronType=Rel	11	nsubj	_	_
 11	ngayemake	_	VERB	_	Mood=Ind|Voice=Act	9	acl:relcl	_	_
 12	ati	_	NOUN	_	Number=Sing	11	obj	_	_
 13	ana	_	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
