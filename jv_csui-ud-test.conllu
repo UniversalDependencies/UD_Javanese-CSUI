@@ -788,7 +788,7 @@
 7-8	antarane	_	_	_	_	_	_	_	_
 7	antara	_	NOUN	_	Number=Sing	10	nmod:lmod	_	_
 8	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	7	det	_	Level=Ngoko
-9	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	10	det	_	_
+9	para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	rawuh	_	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -796,7 +796,7 @@
 # text = Para panyarta lomba kudu bisa adu pinter.
 # text_id = Para peserta lomba harus dapat beradu pintar.
 # text_en = Competitors must be able to compete smartly.
-1	Para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
+1	Para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	panyarta	_	NOUN	_	Number=Sing	6	nsubj	_	_
 3	lomba	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	kudu	_	AUX	_	Polite=Infm	7	aux	_	Level=Ngoko
@@ -1455,7 +1455,7 @@
 4	masyarakat	_	NOUN	_	Number=Sing	10	nsubj	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	8	punct	_	_
 6	mliginipun	_	ADV	_	Polite=Form	8	advmod	_	Level=Krama
-7	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	8	det	_	_
+7	para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	nem-neman	_	NOUN	_	Number=Sing|Polite=Form	4	nmod	_	Level=Krama|SpaceAfter=No
 9	,	_	PUNCT	_	_	8	punct	_	_
 10	sami	_	ADJ	_	Polite=Form	0	root	_	Level=Krama
@@ -2007,7 +2007,7 @@
 # text =	Para warga padha metu karo nggawani sampah sing wis dipisah antarane sampah teles lan sampah garing ing sajroning bak sampah; Cecep (17), gaweane luwih enteng amarga wis didhewekake sampahe, dheweke ora perlu antri.
 # text_id = Para warga keluar dengan membawa tumpukan sampah yang sudah dipisahkan antara sampah basah dan sampah kering di dalam tempat sampah; Cecep (17), pekerjaannya lebih ringan karena sudah dipisahkan sampahnya, tidak perlu antri.
 # text_en = The residents came out with piles of garbage that had been separated between wet and dry waste in the trash; Cecep (17), his work is lighter because the garbage has been separated, no need to queue
-1	Para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
+1	Para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	warga	_	NOUN	_	Number=Sing	4	nsubj	_	_
 3	padha	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
 4	metu	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
@@ -2068,7 +2068,7 @@
 8-9	ramanipun	_	_	_	_	_	_	_	_
 8	rama	_	NOUN	_	Number=Sing|Polite=Form	6	nmod	_	Level=Krama
 9	nipun	_	DET	_	Definite=Def|Polite=Form|PronType=Art	8	det	_	Level=Krama
-10	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	11	det	_	_
+10	para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Korawa	_	PROPN	_	_	8	nmod:poss	_	SpaceAfter=No
 12	,	_	PUNCT	_	_	13	punct	_	_
 13-14	miyosipun	_	_	_	_	_	_	_	_
@@ -2655,7 +2655,7 @@
 # text = Para panantang iki mutusake yen beya ekonomi kang diperlokake kanggo nindak Protokol Kyoto isa ngancik 300 milyar dollar AS, mligi disebabake dening beya energi.
 # text_id = Penentang mengklaim bahwa biaya ekonomi yang dibutuhkan untuk menerapkan Protokol Kyoto dapat mencapai 300 miliar dolar AS, khususnya karena biaya energi.
 # text_en = Opponents claim that the economic costs required to implement the Kyoto Protocol could be as high as $300 billion, mainly because of energy costs.
-1	Para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
+1	Para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	panantang	_	NOUN	_	Number=Sing	4	nsubj	_	_
 3	iki	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko
 4	mutusake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
@@ -2848,7 +2848,7 @@
 2	ulah	_	NOUN	_	Number=Sing	4	obl	_	_
 3	raga	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	dikarepake	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
-5	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	6	det	_	_
+5	para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	prajurit	_	NOUN	_	Number=Sing	7	nsubj	_	_
 7	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	ccomp	_	Level=Ngoko
 8	tangkas	_	ADJ	_	_	7	xcomp	_	_
@@ -6714,7 +6714,7 @@
 9	masarakat	_	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	13	punct	_	_
 11	utamane	_	ADV	_	_	13	advmod	_	_
-12	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	13	det	_	_
+12	para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	pandhemen	_	NOUN	_	Number=Sing	8	nmod	_	_
 14	lan	_	CCONJ	_	Polite=Infm	15	cc	_	Level=Ngoko
 15	seniman	_	NOUN	_	Number=Sing	13	conj	_	_
@@ -7034,7 +7034,7 @@
 # text = Para warga padha lungguh tumata rapi ing latare Pak RW sing wis dipasangi tratag.
 # text_id = Warga sudah duduk rapi di depan Pak RW yang sudah memasang traktor.
 # text_en = Residents were sitting neatly in front of Mr. RW who had installed the tractor.
-1	Para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
+1	Para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	warga	_	NOUN	_	Number=Sing	4	nsubj	_	_
 3	padha	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
 4	lungguh	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
@@ -7142,7 +7142,7 @@
 # text = Para warga perantau padha nggumun mirengake ature Bu Guru.
 # text_id = Para pengembara tercengang mendengar kata-kata Guru.
 # text_en = The wanderers were astonished at Master's words.
-1	Para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	2	det	_	_
+1	Para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	warga	_	NOUN	_	Number=Sing	5	nsubj	_	_
 3	perantau	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	padha	_	ADV	_	Polite=Infm	5	advmod	_	Level=Ngoko
@@ -7483,7 +7483,7 @@
 3	ing	_	ADP	_	Polite=Infm	4	case	_	_
 4	Kaliwungu	_	PROPN	_	_	1	nmod	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	1	punct	_	_
-6	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	7	det	_	_
+6	para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7-8	wargane	_	_	_	_	_	_	_	_
 7	warga	_	NOUN	_	Number=Sing	10	nmod:poss	_	_
 8	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	7	nmod:poss	_	Level=Ngoko
@@ -7998,7 +7998,7 @@
 20-21	semangate	_	_	_	_	_	_	_	_
 20	semangat	_	NOUN	_	Number=Sing	19	nmod	_	_
 21	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	20	nmod:poss	_	Level=Ngoko
-22	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	23	det	_	_
+22	para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	pahlawan	_	NOUN	_	Number=Sing	20	nmod	_	_
 24	nalika	_	SCONJ	_	_	25	mark	_	_
 25	merjuwangake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	20	acl	_	Level=Ngoko
@@ -10033,7 +10033,7 @@
 1	"	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Biyasane	_	ADV	_	_	3	advmod	_	_
 3	diagem	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
-4	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	5	det	_	_
+4	para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	abdi	_	NOUN	_	Number=Sing	3	obl:agent	_	_
 6	dalem	_	ADJ	_	_	5	amod	_	_
 7	nalika	_	ADP	_	Polite=Elev	9	case	_	Level=KramaInggil
@@ -14013,7 +14013,7 @@
 10	lisan	_	ADJ	_	_	9	amod	_	_
 11	kang	_	PRON	_	Polite=Infm|PronType=Rel	12	nsubj:pass	_	_
 12	diwarisake	_	VERB	_	Mood=Ind|Voice=Pass	9	acl:relcl	_	_
-13	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	14	det	_	_
+13	para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	leluhur	_	NOUN	_	Number=Sing	12	obl	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	4	punct	_	SpacesAfter=\n
 
@@ -14843,7 +14843,7 @@
 8	diputusi	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 9	saka	_	ADP	_	_	10	case	_	_
 10	sarujuke	_	NOUN	_	Number=Sing	8	obl	_	_
-11	para	_	DET	_	Definite=Ind|Number=Plur|PronType=Ind	12	det	_	_
+11	para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	seniman	_	NOUN	_	Number=Sing	10	nmod	_	_
 13	ing	_	ADP	_	Polite=Infm	14	case	_	_
 14	Ponorogo	_	PROPN	_	_	12	nmod	_	SpaceAfter=No

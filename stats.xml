@@ -36,8 +36,8 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="29">
     <feat name="Abbr" value="Yes" upos="ADV,AUX,DET,PART,PRON">17</feat><!-- isa, ki, ra, pa -->
-    <feat name="Definite" value="Def" upos="DET">258</feat><!-- e, ne, ipun, nipun, sing -->
-    <feat name="Definite" value="Ind" upos="DET">46</feat><!-- para, saperangan, akeh, sawijining, maneka, satunggaling -->
+    <feat name="Definite" value="Def" upos="DET">273</feat><!-- e, ne, para, ipun, nipun, sing -->
+    <feat name="Definite" value="Ind" upos="DET">31</feat><!-- saperangan, akeh, sawijining, maneka, satunggaling -->
     <feat name="Foreign" value="Yes" upos="X">121</feat><!-- rock, eutanasia, penerbangan, semifinalis, arbitrase, marksman, subunit, turnamen, Burger, Kriteria -->
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, njagakke, nyemayani, pethiki -->
     <feat name="Mood" value="Ind" upos="VERB">1343</feat><!-- ana, dadi, ujar, nganggo, gawe, katon, nggambarake, duwe, kelingan, wonten -->
@@ -52,10 +52,10 @@
     <feat name="Polite" value="Elev" upos="ADP,NOUN,PRON,SCONJ,VERB">58</feat><!-- nalika, panjenenganipun, panjenengan, asma, asta, dhahar, ngendika, saknalika, dalem, grana -->
     <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">419</feat><!-- ingkang, punika, ipun, piyambakipun, inggih, wonten, dados, kaliyan, saking, ugi -->
     <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">2962</feat><!-- ing, e, lan, ne, kang, sing, ora, iku, aku, ana -->
-    <feat name="PronType" value="Art" upos="DET">267</feat><!-- e, ne, sawijining, ipun, nipun, sing, satunggaling -->
+    <feat name="PronType" value="Art" upos="DET">282</feat><!-- e, ne, para, sawijining, ipun, nipun, sing, satunggaling -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">233</feat><!-- kuwi, iki, iku, punika, mau, saiki, semana, kono, kana, mangkene -->
     <feat name="PronType" value="Emp" upos="DET">10</feat><!-- dhewe, dhewe-dhewe, piyambak -->
-    <feat name="PronType" value="Ind" upos="DET">36</feat><!-- para, saperangan, akeh, maneka, Akeh-akehe, Pira-pira, pinten-pinten -->
+    <feat name="PronType" value="Ind" upos="DET">21</feat><!-- saperangan, akeh, maneka, Akeh-akehe, Pira-pira, pinten-pinten -->
     <feat name="PronType" value="Int" upos="ADV,PRON">28</feat><!-- kok, apa, Kena, Sopo, ngapa, sepira -->
     <feat name="PronType" value="Prs" upos="PRON">322</feat><!-- aku, e, ku, ne, dheweke, mu, piyambakipun, ipun, dak, kowe -->
     <feat name="PronType" value="Rel" upos="ADV,PRON">256</feat><!-- kang, sing, ingkang, apa, apa-apa, sapa, napa, ngapa, pa -->
