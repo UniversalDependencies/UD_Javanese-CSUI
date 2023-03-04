@@ -119,11 +119,11 @@
 4	luwih	_	ADV	_	_	5	advmod	_	_
 5	kulina	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	ngomong	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	5	advcl	_	Level=Ngoko
-7	nganggo	_	VERB	_	Mood=Ind|Voice=Act	8	case	_	_
+7	nganggo	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	8	case	_	_
 8	basa	_	NOUN	_	Number=Sing	6	obl	_	_
 9	Indonesia	_	PROPN	_	_	8	nmod	_	_
 10	katimbang	_	ADP	_	_	12	case	_	_
-11	nganggo	_	VERB	_	Mood=Ind|Voice=Act	12	case	_	_
+11	nganggo	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	12	case	_	_
 12	basa	_	NOUN	_	Number=Sing	6	obl	_	_
 13	Jawa	_	PROPN	_	_	12	nmod	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	5	punct	_	_
@@ -3453,8 +3453,8 @@
 2	tembang	_	NOUN	_	Number=Sing	4	nsubj:pass	_	_
 3	Shakur	_	PROPN	_	_	2	nmod	_	_
 4	dipunserat	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	Level=Krama
-5	nganggo	_	ADP	_	Polite=Infm	6	case	_	Level=Ngoko
-6	kekerasan	_	X	_	Foreign=Yes	4	obl	_	_
+5	nganggo	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	advcl	_	Level=Ngoko
+6	kekerasan	_	X	_	Foreign=Yes	5	obl	_	_
 7	ing	_	ADP	_	Polite=Infm	8	case	_	_
 8	ghetto	_	X	_	Foreign=Yes	6	nmod	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	10	punct	_	_
@@ -5755,7 +5755,7 @@
 8	hik	_	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	4	punct	_	_
 10	dheweke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	11	nsubj	_	Level=Ngoko
-11	nganggo	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+11	nganggo	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	_
 12	kathok	_	NOUN	_	Number=Sing	11	obj	_	_
 13	kolor	_	NOUN	_	Number=Sing	12	nmod	_	_
 14	putih	_	ADJ	_	_	12	amod	_	SpaceAfter=No
@@ -5831,15 +5831,15 @@
 # text = Apa maneh yen nganggo tanggapan klenengan tekan wayangan.
 # text_id = Apalagi kalau dengan pertunjukan gamelan atau wayang.
 # text_en = Especially if it's a gamelan or puppet show.
-1	Apa	_	PRON	_	Polite=Infm|PronType=Int	5	obl	_	_
+1	Apa	_	PRON	_	Polite=Infm|PronType=Int	4	obl	_	_
 2	maneh	_	ADV	_	Polite=Infm	1	advmod	_	Level=Ngoko
-3	yen	_	SCONJ	_	Polite=Infm	5	mark	_	Level=Ngoko
-4	nganggo	_	ADP	_	_	5	case	_	_
-5	tanggapan	_	NOUN	_	Number=Sing	0	root	_	_
-6	klenengan	_	ADJ	_	_	5	amod	_	_
+3	yen	_	SCONJ	_	Polite=Infm	4	mark	_	Level=Ngoko
+4	nganggo	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	_
+5	tanggapan	_	NOUN	_	Number=Sing	4	obj	_	_
+6	klenengan	_	NOUN	_	Number=Sing	5	nmod	_	_
 7	tekan	_	VERB	_	Mood=Ind|Voice=Act	5	acl	_	_
 8	wayangan	_	NOUN	_	Number=Sing	7	obj	_	SpaceAfter=No
-9	.	_	PUNCT	_	_	5	punct	_	_
+9	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = solopos-2022-8
 # text = "Pokoke aja mbok celuk dhukun. Aku kelingan karo welingmu setaun kepungkur," setengah njegeges Wiro Bengah ngelikke aku.
@@ -6131,11 +6131,11 @@
 4	Lek	_	PROPN	_	_	7	nsubj	_	_
 5	Wiro	_	PROPN	_	_	4	nmod	_	_
 6	Bengah	_	PROPN	_	_	5	flat:name	_	_
-7	ngusir	_	VERB	Polite=Infm	Voice=Act	0	root	_	Level=Ngoko
+7	ngusir	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 8	udan	_	NOUN	_	Number=Sing|Polite=Infm	7	obj	_	Level=Ngoko
 9	ya	_	INTJ	_	_	7	discourse	_	_
 10	ora	_	PART	_	Polarity=Neg|Polite=Infm	11	advmod	_	Level=Ngoko
-11	nganggo	_	VERB	Polite=Infm	Voice=Act	7	advcl	_	Level=Ngoko
+11	nganggo	_	VERB	Mood=Ind|Polite=Infm	Voice=Act	7	advcl	_	Level=Ngoko
 12	sesaji	_	NOUN	_	Number=Sing	11	obj	_	_
 13	menyan	_	NOUN	_	Number=Sing	12	nmod	_	_
 14	lan	_	CCONJ	_	Polite=Infm	15	cc	_	Level=Ngoko
