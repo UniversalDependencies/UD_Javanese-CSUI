@@ -1264,7 +1264,7 @@
 # text_id = Sekarang dia agak kurus karena kurang makan.
 # text_en = Now he's a bit thin from not eating enough.
 1	Saiki	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
-2	dheweke	_	PRON	Number=Sing|Person=3|Polite=Infm|PronType=Prs	Polite=Infm	4	nsubj	_	Level=Ngoko
+2	dheweke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nsubj	_	Level=Ngoko
 3	rada	_	ADV	_	_	4	advmod	_	_
 4	kuru	_	ADJ	_	_	0	root	_	_
 5	amarga	_	SCONJ	_	Polite=Infm	7	mark	_	Level=Ngoko
@@ -1602,7 +1602,7 @@
 # text_en = Some can be marked with points as explained above, while others are determined based on public opinion.
 1	Saperangan	_	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 2	bisa	_	AUX	_	Polite=Infm	3	aux	_	Level=Ngoko
-3	dititeni	_	VERB	Polite=Infm	Voice=Pass	0	root	_	Level=Ngoko
+3	dititeni	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 4	sarana	_	ADP	_	_	5	case	_	_
 5	titikan	_	NOUN	_	Number=Sing	3	obl	_	_
 6	kaya	_	SCONJ	_	Polite=Infm	9	mark	_	Level=Ngoko
@@ -1619,7 +1619,7 @@
 17-18	liyane	_	_	_	_	_	_	_	_
 17	liya	_	ADJ	_	Polite=Infm	14	acl:relcl	_	Level=Ngoko
 18	ne	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	17	det	_	Level=Ngoko
-19	ditentokake	_	VERB	Polite=Infm	Voice=Pass	3	conj	_	Level=Ngoko
+19	ditentokake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	3	conj	_	Level=Ngoko
 20	adhe-dhasar	_	VERB	_	Mood=Ind|Voice=Act	19	advcl	_	_
 21-22	panganggepe	_	_	_	_	_	_	_	_
 21	panganggep	_	NOUN	_	Number=Sing	20	obl	_	_
@@ -1768,7 +1768,7 @@
 5	basa	_	NOUN	_	Number=Sing	8	nsubj:pass	_	_
 6	krama	_	ADJ	_	_	5	amod	_	_
 7	kena	_	AUX	_	Polite=Infm	8	aux	_	Level=Ngoko
-8	dibedakake	_	VERB	Polite=Infm	Voice=Pass	0	root	_	Level=Ngoko
+8	dibedakake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 9-10	antarane	_	_	_	_	_	_	_	_
 9	antara	_	NOUN	_	Number=Sing	10	nmod:lmod	_	_
 10	ne	_	PRON	_	Polite=Infm	8	obl	_	Level=Ngoko
@@ -1827,7 +1827,7 @@
 12	sing	_	PRON	_	Polite=Infm|PronType=Rel	13	nsubj	_	Level=Ngoko
 13	akeh	_	ADJ	_	Polite=Infm	5	conj	_	Level=Ngoko
 14	dhewe	_	PRON	_	Number=Plur|Person=3|Polite=Infm|PronType=Prs	15	nsubj:pass	_	Level=Ngoko
-15	dimangerteni	_	VERB	Mood=Ind|Polite=Infm|Voice=Pass	Voice=Pass	13	advcl	_	Level=Ngoko
+15	dimangerteni	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	13	advcl	_	Level=Ngoko
 16	yaiku	_	AUX	_	Polite=Infm	17	cop	_	Level=Ngoko
 17	tembung	_	NOUN	_	Number=Sing	13	obl	_	_
 18	ngoko	_	ADJ	_	_	17	amod	_	SpaceAfter=No
@@ -2171,7 +2171,7 @@
 # text_id = Paulus menyebut dirinya sebagai “rasul bagi bangsa-bangsa non-Yahudi” (Roma 11:13).
 # text_en = Paul called himself “an apostle to the Gentiles” (Romans 11:13).
 1	Paulus	_	PROPN	_	_	2	nsubj	_	_
-2	nyebut	_	VERB	Polite=Infm	Voice=Act	0	root	_	Level=Ngoko
+2	nyebut	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 3-4	dheknene	_	_	_	_	_	_	_	_
 3	dhekne	_	PRON	_	PronType=Prs|Reflex=Yes	1	obj	_	_
 4	ne	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	Level=Ngoko
@@ -3434,7 +3434,7 @@
 4	tembang	_	NOUN	_	Number=Sing	7	nsubj:pass	_	_
 5	iki	_	DET	_	Polite=Infm|PronType=Dem	4	det	_	Level=Ngoko
 6	uga	_	ADV	_	Polite=Infm	7	advmod	_	Level=Ngoko
-7	digunakake	_	VERB	Polite=Infm	Voice=Pass	0	root	_	Level=Ngoko
+7	digunakake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 8	ana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	7	advcl	_	Level=Ngoko
 9	ing	_	ADP	_	Polite=Infm	10	case	_	_
 10	saperangan	_	NOUN	_	Number=Sing	8	obl	_	_
@@ -6049,7 +6049,7 @@
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	yen	_	SCONJ	_	Polite=Infm	5	mark	_	Level=Ngoko
 4	Ruwah	_	PROPN	_	_	5	nsubj	_	_
-5	ngene	_	VERB	Polite=Infm	Voice=Act	9	advcl	_	Level=Ngoko
+5	ngene	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	9	advcl	_	Level=Ngoko
 6	iki	_	PRON	_	Polite=Infm|PronType=Dem	5	obj	_	SpaceAfter=No
 7	,	_	PUNCT	_	_	9	punct	_	_
 8	isa	_	AUX	_	Abbr=Yes|Polite=Infm	9	aux	_	Level=Ngoko
@@ -6135,7 +6135,7 @@
 8	udan	_	NOUN	_	Number=Sing|Polite=Infm	7	obj	_	Level=Ngoko
 9	ya	_	INTJ	_	_	7	discourse	_	_
 10	ora	_	PART	_	Polarity=Neg|Polite=Infm	11	advmod	_	Level=Ngoko
-11	nganggo	_	VERB	Mood=Ind|Polite=Infm	Voice=Act	7	advcl	_	Level=Ngoko
+11	nganggo	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	7	advcl	_	Level=Ngoko
 12	sesaji	_	NOUN	_	Number=Sing	11	obj	_	_
 13	menyan	_	NOUN	_	Number=Sing	12	nmod	_	_
 14	lan	_	CCONJ	_	Polite=Infm	15	cc	_	Level=Ngoko
@@ -6659,7 +6659,7 @@
 2	reyog	_	NOUN	_	Number=Sing	1	nmod	_	_
 3	Ponorogo	_	PROPN	_	_	2	nmod	_	_
 4	lagi	_	ADV	_	_	5	advmod	_	_
-5	dadi	_	VERB	Polite=Infm	Voice=Act	0	root	_	Level=Ngoko
+5	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 6	kembang	_	NOUN	_	Number=Sing	5	xcomp	_	_
 7-8	lambene	_	_	_	_	_	_	_	_
 7	lambe	_	NOUN	_	Number=Sing	6	nmod	_	_
@@ -6797,7 +6797,7 @@
 6	dalem	_	ADJ	_	_	5	amod	_	_
 7	kraton	_	NOUN	_	Number=Sing	5	nmod	_	_
 8	nalika	_	SCONJ	_	_	9	mark	_	_
-9	dipimpin	_	VERB	Polite=Infm	Voice=Pass	7	acl	_	Level=Ngoko
+9	dipimpin	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	7	acl	_	Level=Ngoko
 10	Bhre	_	PROPN	_	_	9	obl:agent	_	_
 11	Kertabhumi	_	PROPN	_	_	10	flat:name	_	SpaceAfter=No
 12	,	_	PUNCT	_	_	13	punct	_	_
@@ -7060,7 +7060,7 @@
 2	ngisor	_	NOUN	_	Number=Sing|Polite=Infm	5	obl	_	Level=Ngoko
 3	tratag	_	NOUN	_	Number=Sing	2	nmod	_	_
 4	iku	_	DET	_	Polite=Infm|PronType=Dem	2	det	_	Level=Ngoko
-5	ditata	_	VERB	Polite=Infm	Voice=Pass	0	root	_	Level=Ngoko
+5	ditata	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	Level=Ngoko
 6	meja	_	NOUN	_	Number=Sing	5	nsubj:pass	_	_
 7	lan	_	CCONJ	_	Polite=Infm	8	cc	_	Level=Ngoko
 8	kursi	_	NOUN	_	Number=Sing	6	conj	_	SpaceAfter=No
@@ -7161,7 +7161,7 @@
 # text_en = All of this illustrates that Mr. RT's welcome was greeted with joy.
 1	Kabeh	_	DET	_	Polite=Infm|PronType=Tot	2	det	_	Level=Ngoko
 2	iku	_	PRON	_	Polite=Infm|PronType=Dem	3	nsubj	_	Level=Ngoko
-3	nggambarake	_	VERB	Polite=Infm	Voice=Act	0	root	_	Level=Ngoko
+3	nggambarake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 4	yen	_	SCONJ	_	Polite=Infm	9	mark	_	Level=Ngoko
 5-6	pidhatone	_	_	_	_	_	_	_	_
 5	pidhato	_	NOUN	_	Number=Sing	9	nsubj	_	_
@@ -7375,11 +7375,11 @@
 5	banyu	_	NOUN	_	Number=Sing|Polite=Infm	12	nsubj	_	Level=Ngoko
 6	abang	_	ADJ	_	Polite=Infm	5	amod	_	Level=Ngoko
 7	kang	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj:pass	_	_
-8	dipyuri	_	VERB	Polite=Infm	Voice=Pass	5	acl:relcl	_	Level=Ngoko
+8	dipyuri	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	5	acl:relcl	_	Level=Ngoko
 9	bubuk	_	NOUN	_	Number=Sing	8	obl	_	_
 10	putih	_	ADJ	_	Polite=Infm	9	amod	_	Level=Ngoko
 11	kuwi	_	DET	_	Polite=Infm|PronType=Dem	9	det	_	Level=Ngoko
-12	malih	_	VERB	Polite=Infm	Voice=Act	0	root	_	Level=Ngoko
+12	malih	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 13	bening	_	ADJ	_	_	12	xcomp	_	_
 14	kaya	_	ADP	_	Polite=Infm	16	case	_	Level=Ngoko
 15	lumrahe	_	ADV	_	Polite=Infm	16	advmod	_	Level=Ngoko
@@ -7469,7 +7469,7 @@
 8	mbiyen	_	ADJ	_	Polite=Infm	7	amod	_	Level=Ngoko
 9	lan	_	CCONJ	_	Polite=Infm	11	cc	_	Level=Ngoko
 10	isih	_	ADV	_	Polite=Infm	11	advmod	_	Level=Ngoko
-11	dileluri	_	VERB	Polite=Infm	Voice=Pass	4	advcl	_	Level=Ngoko
+11	dileluri	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	4	advcl	_	Level=Ngoko
 12	nganti	_	ADP	_	Polite=Infm	13	case	_	Level=Ngoko
 13	saiki	_	ADV	_	Polite=Infm|PronType=Dem	11	advmod	_	Level=Ngoko|SpaceAfter=No
 14	.	_	PUNCT	_	_	4	punct	_	_
@@ -8829,7 +8829,7 @@
 9	ya	_	INTJ	_	Polite=Infm	12	discourse	_	Level=Ngoko
 10	wis	_	AUX	_	Polite=Infm	12	aux	_	Level=Ngoko
 11	kerep	_	ADV	_	Polite=Infm	12	advmod	_	Level=Ngoko
-12	gawe	_	VERB	Polite=Infm	Voice=Act	2	ccomp	_	Level=Ngoko
+12	gawe	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	2	ccomp	_	Level=Ngoko
 13	lagu	_	NOUN	_	Number=Sing	12	obj	_	_
 14	saka	_	ADP	_	Polite=Infm	15	case	_	Level=Ngoko
 15	naskah	_	NOUN	_	Number=Sing	12	obl	_	_
@@ -9434,7 +9434,7 @@
 39	ndadekake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	30	advcl	_	Level=Ngoko
 40	status	_	NOUN	_	Number=Sing	42	nsubj	_	_
 41	DIS	_	PROPN	_	_	40	nmod	_	_
-42	dadi	_	VERB	Polite=Infm	Voice=Act	39	xcomp	_	Level=Ngoko
+42	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	39	xcomp	_	Level=Ngoko
 43	karesidenan	_	NOUN	_	Number=Sing	42	xcomp	_	SpaceAfter=No
 44	.	_	PUNCT	_	_	26	punct	_	_
 
@@ -9443,7 +9443,7 @@
 # text_id = Dani menyebutkan Tuan. Iskaq Tjokrohadisoerjo diangkat menjadi kepala daerah pertama yang memimpin Kota Solo pada masa karesidenannya.
 # text_en = Danny mentions Mr. Iskaq Tjokrohadisoerjo was appointed the first regional head to lead the city of Solo during his residency.
 1	Dani	_	PROPN	_	_	2	nsubj	_	_
-2	nyebut	_	VERB	Polite=Infm	Voice=Act	0	root	_	Level=Ngoko
+2	nyebut	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 3	Mr.	_	PROPN	_	_	6	nsubj:pass	_	_
 4	Iskaq	_	PROPN	_	_	3	flat:name	_	_
 5	Tjokrohadisoerjo	_	PROPN	_	_	3	flat:name	_	_
@@ -9743,7 +9743,7 @@
 5	Kutha	_	NOUN	_	Number=Sing	3	nmod	_	_
 6	Solo	_	PROPN	_	_	5	nmod	_	_
 7	sing	_	PRON	_	Polite=Infm|PronType=Rel	8	nsubj:pass	_	Level=Ngoko
-8	dijenengi	_	VERB	Polite=Infm	Voice=Pass	3	advcl	_	Level=Ngoko
+8	dijenengi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	3	advcl	_	Level=Ngoko
 9	miturut	_	ADP	_	_	10	case	_	_
 10	jinis	_	NOUN	_	Number=Sing	8	obl	_	_
 11-12	panggaweyane	_	_	_	_	_	_	_	_
@@ -11391,7 +11391,7 @@
 1	Yu	_	PROPN	_	_	4	nsubj	_	_
 2	Tuminah	_	PROPN	_	_	1	flat:name	_	_
 3	banjur	_	ADV	_	Polite=Infm	4	advmod	_	Level=Ngoko
-4	mbacutake	_	VERB	Polite=Infm	Voice=Act	0	root	_	Level=Ngoko
+4	mbacutake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	Level=Ngoko
 5	sing	_	PRON	_	Polite=Infm|PronType=Rel	6	nsubj	_	Level=Ngoko
 6	mindah	_	VERB	_	Mood=Ind|Voice=Act	7	csubj	_	_
 7	blek	_	X	_	Foreign=Yes	4	xcomp	_	SpaceAfter=No

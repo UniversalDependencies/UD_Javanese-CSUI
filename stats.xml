@@ -40,24 +40,24 @@
     <feat name="Definite" value="Ind" upos="DET">31</feat><!-- saperangan, akeh, sawijining, maneka, satunggaling -->
     <feat name="Foreign" value="Yes" upos="X">121</feat><!-- rock, eutanasia, penerbangan, semifinalis, arbitrase, marksman, subunit, turnamen, Burger, Kriteria -->
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, njagakke, nyemayani, pethiki -->
-    <feat name="Mood" value="Ind" upos="VERB">1346</feat><!-- ana, dadi, nganggo, ujar, gawe, katon, nggambarake, duwe, kelingan, wonten -->
+    <feat name="Mood" value="Ind" upos="VERB">1366</feat><!-- ana, dadi, nganggo, ujar, gawe, nggambarake, katon, duwe, kelingan, wonten -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">77</feat><!-- para, saperangan, akeh, bocah-bocah, tembung-tembung, Sawah-sawah, awake, kita, maneka, Akeh-akehe -->
-    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2606</feat><!-- aku, taun, e, ku, ne, warga, wong, tembang, basa, dheweke -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">2607</feat><!-- aku, taun, e, ku, ne, warga, wong, tembang, basa, dheweke -->
     <feat name="NumType" value="Card" upos="NUM">194</feat><!-- 16, 6, 2022, 1, 1946, 3, 17, 10, 1948, 5 -->
     <feat name="NumType" value="Ord" upos="ADJ">4</feat><!-- kapisanan, kapitu, katiga, pertama -->
     <feat name="Person" value="1" upos="PRON">124</feat><!-- aku, ku, dak, tak, kula, awake, kita, Amung, ingsun -->
     <feat name="Person" value="2" upos="PRON">32</feat><!-- mu, kowe, awakmu, kok, mbok, Sira -->
-    <feat name="Person" value="3" upos="PRON">164</feat><!-- e, ne, dheweke, piyambakipun, ipun, panjenenganipun, panjenengan, nipun, piyambake, dhewe -->
+    <feat name="Person" value="3" upos="PRON">165</feat><!-- e, ne, dheweke, piyambakipun, ipun, panjenenganipun, panjenengan, nipun, piyambake, dhewe -->
     <feat name="Polarity" value="Neg" upos="PART">99</feat><!-- ora, durung, mboten, nora, ra, aja, boten, dudu -->
     <feat name="Polite" value="Elev" upos="ADP,NOUN,PRON,SCONJ,VERB">58</feat><!-- nalika, panjenenganipun, panjenengan, asma, asta, dhahar, ngendika, saknalika, dalem, grana -->
     <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">419</feat><!-- ingkang, punika, ipun, piyambakipun, inggih, wonten, dados, kaliyan, saking, ugi -->
-    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">2967</feat><!-- ing, e, lan, ne, kang, sing, ora, iku, aku, ana -->
+    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">2987</feat><!-- ing, e, lan, ne, kang, sing, ora, iku, aku, ana -->
     <feat name="PronType" value="Art" upos="DET">282</feat><!-- e, ne, para, sawijining, ipun, nipun, sing, satunggaling -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">233</feat><!-- kuwi, iki, iku, punika, mau, saiki, semana, kono, kana, mangkene -->
     <feat name="PronType" value="Emp" upos="DET">10</feat><!-- dhewe, dhewe-dhewe, piyambak -->
     <feat name="PronType" value="Ind" upos="DET">21</feat><!-- saperangan, akeh, maneka, Akeh-akehe, Pira-pira, pinten-pinten -->
     <feat name="PronType" value="Int" upos="ADV,PRON">28</feat><!-- kok, apa, Kena, Sopo, ngapa, sepira -->
-    <feat name="PronType" value="Prs" upos="PRON">322</feat><!-- aku, e, ku, ne, dheweke, mu, piyambakipun, ipun, dak, kowe -->
+    <feat name="PronType" value="Prs" upos="PRON">323</feat><!-- aku, e, ku, ne, dheweke, mu, piyambakipun, ipun, dak, kowe -->
     <feat name="PronType" value="Rel" upos="ADV,PRON">256</feat><!-- kang, sing, ingkang, apa, apa-apa, sapa, napa, ngapa, pa -->
     <feat name="PronType" value="Tot" upos="DET,PRON">32</feat><!-- kabeh, saben, sedaya, saindhenge, sakabehing -->
     <feat name="Reflex" value="Yes" upos="PRON">3</feat><!-- diri, dhekne -->
