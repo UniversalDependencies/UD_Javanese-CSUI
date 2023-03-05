@@ -13969,7 +13969,7 @@
 8	,	_	PUNCT	_	_	4	punct	_	_
 9	nanging	_	CCONJ	_	_	12	cc	_	_
 10	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	12	nsubj	_	Level=Ngoko
-11	nora	_	PART	Polarity=Neg|Polite=Infm	_	12	advmod	_	Level=Ngoko
+11	nora	_	PART	_	_	12	advmod	_	Level=Ngoko
 12	wani	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	4	conj	_	Level=Ngoko
 13	mangsuli	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	12	advcl	_	Level=Krama
 14	kang	_	PRON	_	Polite=Infm|PronType=Rel	15	nsubj	_	Level=Ngoko
