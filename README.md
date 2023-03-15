@@ -11,9 +11,10 @@ The original sentences were taken from several resources:
 2. [OPUS](https://opus.nlpl.eu/), especially from the Javanese section of the WikiMatrix v1 corpus (152 sents)
 2. Online news (Solopos) (455 sents)
 
-The sentences in this corpus do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa)) and use the Latin script. 
 
-Javanese has several language levels, such as Krama, Krama Inggil, and Ngoko. In this Javanese dependency treebank, the sentences are predominantly use Ngoko words, with some examples of Krama and Krama Inggil words.
+The sentences in this corpus use the Latin script, do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa))
+
+Javanese has several language levels, such as Ngoko, Krama, Krama Inggil, and Krama Andhap. In this Javanese dependency treebank, the sentences predominantly use Ngoko words, with some of them use Krama or Krama Inggil words.
 
 # Acknowledgments
 
