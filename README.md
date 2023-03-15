@@ -1,6 +1,6 @@
 # Summary
 
-UD Javanese-CSUI is a dependency treebank in Javanese, a regional language in Indonesia with more than 60 million users. This treebank was annotated manually. The newest version has 732 sentences and 11K words.
+UD Javanese-CSUI is a dependency treebank in Javanese, a regional language in Indonesia with more than 68 million users. This treebank was annotated manually. The newest version has 732 sentences and 11K words.
 
 # Introduction
 
@@ -11,9 +11,9 @@ The original sentences were taken from several resources:
 2. [OPUS](https://opus.nlpl.eu/), especially from the Javanese section of the WikiMatrix v1 corpus (152 sents)
 2. Online news (Solopos) (455 sents)
 
-The sentences in this corpus do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa)) and use the Roman writing system. 
+The sentences in this corpus do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa)) and use the Latin script. 
 
-Javanese has several language levels, such as Krama, Krama Inggil, and Ngoko. In this Javanese dependency treebank, the sentences are predominantly Ngoko language.
+Javanese has several language levels, such as Krama, Krama Inggil, and Ngoko. In this Javanese dependency treebank, the sentences are predominantly use Ngoko words, with some examples of Krama and Krama Inggil words.
 
 # Acknowledgments
 
