@@ -1,15 +1,15 @@
 # Summary
 
-UD Javanese-CSUI is a dependency treebank in Javanese, a regional language in Indonesia with more than 68 million users. This treebank was annotated manually. The newest version has 732 sentences and 11K words.
+UD Javanese-CSUI is a dependency treebank in Javanese, a regional language in Indonesia with more than 68 million users. This treebank was annotated manually. The newest version has 1000 sentences and 14K words.
 
 # Introduction
 
-UD Javanese-CSUI is dependency treebank for Javanese, the regional language that has the most users in Indonesia (more than 60 million native speakers). This treebank was annotated manually. The newest version has 732 sentences and 11K words.
+UD Javanese-CSUI is dependency treebank for Javanese, the regional language that has the most users in Indonesia (more than 60 million native speakers). This treebank was annotated manually. The newest version has 1000 sentences and 14K words.
 
 The original sentences were taken from several resources: 
 1. Javanese reference grammar books (125 sents)
-2. [OPUS](https://opus.nlpl.eu/), especially from the Javanese section of the WikiMatrix v1 corpus (152 sents)
-2. Online news (Solopos) (455 sents)
+2. [OPUS](https://opus.nlpl.eu/), especially from the Javanese section of the WikiMatrix v1 corpus (150 sents)
+2. Online news (Solopos) (725 sents)
 
 
 The sentences in this corpus use the Latin script, do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa))
@@ -29,7 +29,7 @@ Coming soon ;-)
 # Changelog
 
 * 2023-05-15 v2.12
-  * Added 607 sentences (became 732 sentences).
+  * Added 875 sentences (became 1000 sentences).
 
 * 2021-11-15 v2.9
   * Initial release in Universal Dependencies with 125 sentences.
