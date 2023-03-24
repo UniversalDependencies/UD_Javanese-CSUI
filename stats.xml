@@ -5,14 +5,14 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1000</sentences><tokens>13722</tokens><words>14320</words><fused>595</fused></total>
+    <total><sentences>1000</sentences><tokens>13722</tokens><words>14322</words><fused>597</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1000</sentences><tokens>13722</tokens><words>14320</words><fused>595</fused></test>
+    <test><sentences>1000</sentences><tokens>13722</tokens><words>14322</words><fused>597</fused></test>
   </size>
   <lemmas unique="0" /><!--  -->
   <forms unique="3794" /><!-- ., ,, e, ing, lan, sing, kang, ana, ora, aku, iku, ku, wis, dadi, iki -->
-  <fusions unique="347" /><!-- ujare, liyane, anake, antarane, sijine, tegese, atiku, carane, rasane, sawahe, wargane, anggonku, daleme, panggaweyane, adhine -->
+  <fusions unique="348" /><!-- ujare, liyane, anake, antarane, sijine, tegese, atiku, carane, rasane, sawahe, wargane, anggonku, daleme, panggaweyane, adhine -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">720</tag><!-- _ -->
@@ -20,10 +20,10 @@
     <tag name="ADV">798</tag><!-- _ -->
     <tag name="AUX">338</tag><!-- _ -->
     <tag name="CCONJ">307</tag><!-- _ -->
-    <tag name="DET">708</tag><!-- _ -->
+    <tag name="DET">706</tag><!-- _ -->
     <tag name="INTJ">38</tag><!-- _ -->
-    <tag name="NOUN">2924</tag><!-- _ -->
-    <tag name="NUM">359</tag><!-- _ -->
+    <tag name="NOUN">2926</tag><!-- _ -->
+    <tag name="NUM">361</tag><!-- _ -->
     <tag name="PART">234</tag><!-- _ -->
     <tag name="PRON">958</tag><!-- _ -->
     <tag name="PROPN">1560</tag><!-- _ -->
@@ -42,8 +42,8 @@
     <feat name="Mood" value="Imp" upos="VERB">9</feat><!-- Cekake, Kunceni, Migunani, Resiki, ambakke, njagakke, nyemayani, pethiki, wacanen -->
     <feat name="Mood" value="Ind" upos="VERB">1926</feat><!-- ana, dadi, gawe, nganggo, ujar, katon, melu, gelem, miturut, tekan -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">119</feat><!-- saperangan, para, akeh, bocah-bocah, buku-buku, sawetara, tembung-tembung, wong-wong, awake, maneka -->
-    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">3358</feat><!-- e, aku, ku, taun, wong, warga, bathik, dak, dheweke, tembang -->
-    <feat name="NumType" value="Card" upos="NUM">355</feat><!-- siji, rong, 15, 16, 2022, sak, 1, 3, 6, telung -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">3360</feat><!-- e, aku, ku, taun, wong, warga, bathik, dak, dheweke, tembang -->
+    <feat name="NumType" value="Card" upos="NUM">357</feat><!-- siji, rong, sak, 15, 16, 2022, 1, 3, 6, telung -->
     <feat name="NumType" value="Ord" upos="ADJ">7</feat><!-- kapisan, kapisanan, kapitu, katiga -->
     <feat name="Person" value="1" upos="PRON">237</feat><!-- aku, ku, dak, kula, tak, awake, kita, ingsun -->
     <feat name="Person" value="2" upos="PRON">49</feat><!-- mu, mbok, kowe, awakmu, kok, sira -->
@@ -51,7 +51,7 @@
     <feat name="Polarity" value="Neg" upos="PART">161</feat><!-- ora, durung, nora, ra, aja, dudu, mboten, boten, tan -->
     <feat name="Polite" value="Elev" upos="ADP,ADV,NOUN,PRON,SCONJ,VERB">78</feat><!-- nalika, asma, panjenenganipun, saknalika, asta, dhahar, panjenengan, ngendika, sare, grana -->
     <feat name="Polite" value="Form" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">483</feat><!-- ingkang, punika, ipun, piyambakipun, pungkasan, saking, wonten, dados, inggih, dalem -->
-    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">4140</feat><!-- e, ing, lan, sing, kang, ora, aku, iku, ku, wis -->
+    <feat name="Polite" value="Infm" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,SCONJ,VERB">4138</feat><!-- e, ing, lan, sing, kang, ora, aku, iku, ku, wis -->
     <feat name="PronType" value="Art" upos="DET">365</feat><!-- e, para, ipun, sawijining, sing, satunggaling, Kang, ingkang -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">408</feat><!-- iku, iki, kuwi, punika, mau, saiki, semana, kono, ngene, sesuk -->
     <feat name="PronType" value="Emp" upos="DET">17</feat><!-- dhewe, dhewe-dhewe, piyambak -->
@@ -79,7 +79,7 @@
     <dep name="case:adv">10</dep>
     <dep name="cc">309</dep>
     <dep name="ccomp">22</dep>
-    <dep name="clf">1</dep>
+    <dep name="clf">7</dep>
     <dep name="compound">26</dep>
     <dep name="conj">423</dep>
     <dep name="cop">39</dep>
@@ -87,7 +87,7 @@
     <dep name="csubj:outer">1</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">1</dep>
-    <dep name="det">689</dep>
+    <dep name="det">687</dep>
     <dep name="discourse">38</dep>
     <dep name="fixed">17</dep>
     <dep name="flat">83</dep>
@@ -96,15 +96,15 @@
     <dep name="goeswith">2</dep>
     <dep name="iobj">5</dep>
     <dep name="mark">308</dep>
-    <dep name="nmod">1195</dep>
+    <dep name="nmod">1192</dep>
     <dep name="nmod:lmod">45</dep>
     <dep name="nmod:poss">291</dep>
     <dep name="nmod:tmod">15</dep>
-    <dep name="nsubj">1223</dep>
-    <dep name="nsubj:outer">5</dep>
+    <dep name="nsubj">1222</dep>
+    <dep name="nsubj:outer">6</dep>
     <dep name="nsubj:pass">177</dep>
-    <dep name="nummod">246</dep>
-    <dep name="obj">496</dep>
+    <dep name="nummod">248</dep>
+    <dep name="obj">495</dep>
     <dep name="obl">848</dep>
     <dep name="obl:agent">30</dep>
     <dep name="obl:tmod">133</dep>

@@ -3492,15 +3492,15 @@
 11	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-79
-# text = Karakter-karakter punika namung muncul ingkang sakêdhepan kemawon, limrahipun ing film utawi serial House of Mouse.
-# text_id = Karakter ini hanya muncul sesekali, biasanya dalam film atau serial House of Mouse.
+# text = Karakter-karakter punika namung muncul ingkang sakedhepan kemawon, limrahipun ing film utawi serial House of Mouse.
+# text_id = Karakter-karakter ini hanya muncul sesekali, biasanya dalam film atau serial House of Mouse.
 # text_en = These characters only appear occasionally, usually in a movie or House of Mouse  series.
 1	Karakter-karakter	_	NOUN	_	Number=Plur	4	nsubj	_	_
 2	punika	_	DET	_	Polite=Form|PronType=Dem	1	det	_	_
 3	namung	_	ADV	_	Polite=Form	4	advmod	_	_
 4	muncul	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 5	ingkang	_	PRON	_	Polite=Form|PronType=Rel	6	nsubj	_	_
-6	sakêdhepan	_	ADV	_	_	4	advmod	_	_
+6	sakedhepan	_	ADV	_	_	4	advmod	_	_
 7	kemawon	_	ADV	_	Polite=Form	6	advmod	_	SpaceAfter=No
 8	,	_	PUNCT	_	_	11	punct	_	_
 9	limrahipun	_	ADV	_	Polite=Form	11	advmod	_	_
@@ -3722,7 +3722,7 @@
 9	dipuntampi	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	7	acl:relcl	_	_
 10	saking	_	ADP	_	Polite=Form	13	case	_	_
 11	2.396	_	NUM	_	NumType=Card	13	nummod	_	_
-12	tiyang	_	NOUN	_	Number=Sing|Polite=Form	13	clf	_	_
+12	tiyang	_	NOUN	_	Number=Sing|Polite=Form	11	clf	_	_
 13	pelamar	_	NOUN	_	Number=Sing	9	obl	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	9	punct	_	_
 
@@ -7498,7 +7498,7 @@
 
 # sent_id = solopos-2022-93
 # text = Adicara nyadran iku diwiwiti kanthi resik-resik sakjroning pasareyan lan sakiwa tengene.
-# text_id = Upacara berkabung dimulai dengan pembersihan makam dan sekitarnya.
+# text_id = Upacara berkabung dimulai dengan pembersihan keseluruhan makam dan sekitarnya.
 # text_en = The mourning ceremony begins with the cleaning of the tomb and its surroundings.
 1	Adicara	_	NOUN	_	Number=Sing	4	nsubj	_	_
 2	nyadran	_	NOUN	_	Number=Sing	1	nmod	_	_
@@ -10809,11 +10809,11 @@
 5	nlisir	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	dalan	_	NOUN	_	Number=Sing	5	obj	_	_
 7	cilik	_	ADJ	_	Polite=Infm	6	amod	_	_
-8	sak	_	NUM	_	NumType=Card	9	nummod	_	_
+8	sak	_	NUM	_	NumType=Card	11	nummod	_	_
 9-10	pinggire	_	_	_	_	_	_	_	_
-9	pinggir	_	NOUN	_	Number=Sing	6	nmod	_	_
+9	pinggir	_	NOUN	_	Number=Sing	8	clf	_	_
 10	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	9	det	_	_
-11	kalen	_	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+11	kalen	_	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = solopos-2022-244
@@ -17276,16 +17276,18 @@
 # text = Tali rafia sakgulung wis cemanthel neng ngisor setang montor.
 # text_id = Gulungan tali rafia telah dipasang di bagian bawah setang mobil.
 # text_en = Raffia reels have been attached to the underside of the car's handlebars.
-1	Tali	_	NOUN	_	Number=Sing	5	nsubj	_	_
+1	Tali	_	NOUN	_	Number=Sing	6	nsubj	_	_
 2	rafia	_	NOUN	_	Number=Sing	1	nmod	_	_
-3	sakgulung	_	DET	_	Polite=Infm	1	det	_	_
-4	wis	_	AUX	_	Polite=Infm	5	aux	_	_
-5	cemanthel	_	NOUN	_	Number=Sing	0	root	_	_
-6	neng	_	ADP	_	_	8	case	_	_
-7	ngisor	_	NOUN	_	Number=Sing|Polite=Infm	8	nmod:lmod	_	_
-8	setang	_	NOUN	_	Number=Sing	5	obl	_	_
-9	montor	_	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+3-4	sakgulung	_	_	_	_	_	_	_	_
+3	sak	_	NUM	_	NumType=Card	1	nummod	_	_
+4	gulung	_	NOUN	_	Number=Sing	3	clf	_	_
+5	wis	_	AUX	_	Polite=Infm	6	aux	_	_
+6	cemanthel	_	NOUN	_	Number=Sing	0	root	_	_
+7	neng	_	ADP	_	_	8	case	_	_
+8	ngisor	_	NOUN	_	Number=Sing|Polite=Infm	9	nmod:lmod	_	_
+9	setang	_	NOUN	_	Number=Sing	6	obl	_	_
+10	montor	_	NOUN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	_	PUNCT	_	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-582
 # text = Muga-muga isa gawe buyar manuk emprit sing ora kapok anggone menclok.
@@ -17306,24 +17308,26 @@
 
 # sent_id = solopos-2022-583
 # text = Sakgulung jala plastik ukuran kira-kira sepuluh meter bakal dak jembreng ana sak ndhuwure pathok sawah.
-# text_id = Gulungan jaring plastik berukuran sekitar sepuluh meter akan diletakkan di atas sawah.
+# text_id = Gulungan jaring plastik berukuran sekitar sepuluh meter akan aku diletakkan di atas sawah.
 # text_en = Rolls of plastic nets measuring about ten meters will be placed over the rice fields.
-1	Sakgulung	_	DET	_	Polite=Infm	2	det	_	_
-2	jala	_	NOUN	_	Number=Sing	10	obj	_	_
-3	plastik	_	NOUN	_	Number=Sing	2	nmod	_	_
-4	ukuran	_	NOUN	_	Number=Sing	2	nmod	_	_
-5	kira-kira	_	ADV	_	_	6	advmod	_	_
-6	sepuluh	_	NUM	_	NumType=Card	7	nummod	_	_
-7	meter	_	NOUN	_	Number=Sing	4	nmod	_	_
-8	bakal	_	AUX	_	Polite=Infm	10	aux	_	_
-9	dak	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	10	nsubj	_	_
-10	jembreng	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-11	ana	_	VERB	_	Mood=Ind|Voice=Act	10	advcl	_	_
-12	sak	_	NUM	_	NumType=Card	13	nummod	_	_
-13	ndhuwure	_	NOUN	_	Number=Sing	11	obl	_	_
-14	pathok	_	NOUN	_	Number=Sing	13	nmod	_	_
-15	sawah	_	NOUN	_	Number=Sing	14	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	_	_	10	punct	_	_
+1-2	Sakgulung	_	_	_	_	_	_	_	_
+1	Sak	_	NUM	_	NumType=Card	3	nummod	_	_
+2	gulung	_	NOUN	_	Number=Sing	1	clf	_	_
+3	jala	_	NOUN	_	Number=Sing	11	nsubj:outer	_	_
+4	plastik	_	NOUN	_	Number=Sing	3	nmod	_	_
+5	ukuran	_	NOUN	_	Number=Sing	3	nmod	_	_
+6	kira-kira	_	ADV	_	_	8	advmod	_	_
+7	sepuluh	_	NUM	_	NumType=Card	8	nummod	_	_
+8	meter	_	NOUN	_	Number=Sing	3	nmod	_	_
+9	bakal	_	AUX	_	Polite=Infm	11	aux	_	_
+10	dak	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	11	nsubj	_	_
+11	jembreng	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+12	ana	_	VERB	_	Mood=Ind|Voice=Act	11	advcl	_	_
+13	sak	_	NUM	_	NumType=Card	15	nummod	_	_
+14	ndhuwure	_	NOUN	_	Number=Sing	13	clf	_	_
+15	pathok	_	NOUN	_	Number=Sing	12	nmod	_	_
+16	sawah	_	NOUN	_	Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	_	PUNCT	_	_	11	punct	_	_
 
 # sent_id = solopos-2022-584
 # text = Ben kaya sawahe tangga, ketutup jala amba.
@@ -17679,14 +17683,14 @@
 
 # sent_id = solopos-2022-607
 # text = Kancaku uga sak angkatan biyen jaman SMA, nanging beda sekolahan.
-# text_id = Teman saya satu kelas dengan saya di sekolah menengah, tetapi di sekolah yang berbeda.
+# text_id = Teman saya juga seangkatan dulu di sekolah menengah, tetapi di sekolah yang berbeda.
 # text_en = My friend was in the same class as me in middle school, but in a different school.
 1-2	Kancaku	_	_	_	_	_	_	_	_
-1	Kanca	_	NOUN	_	Number=Sing|Polite=Infm	5	nsubj	_	_
+1	Kanca	_	NOUN	_	Number=Sing|Polite=Infm	0	root	_	_
 2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	_
 3	uga	_	ADV	_	Polite=Infm	5	advmod	_	_
 4	sak	_	NUM	_	NumType=Card	5	nummod	_	_
-5	angkatan	_	NOUN	_	Number=Sing	0	root	_	_
+5	angkatan	_	NOUN	_	Number=Sing	1	nmod	_	_
 6	biyen	_	ADV	_	Polite=Infm|PronType=Dem	5	advmod	_	_
 7	jaman	_	NOUN	_	Number=Sing	5	nmod	_	_
 8	SMA	_	PROPN	_	_	7	nmod	_	SpaceAfter=No
@@ -17694,7 +17698,7 @@
 10	nanging	_	CCONJ	_	Polite=Infm	11	cc	_	_
 11	beda	_	VERB	_	Mood=Ind|Voice=Act	1	conj	_	_
 12	sekolahan	_	NOUN	_	Number=Sing	11	obl	_	SpaceAfter=No
-13	.	_	PUNCT	_	_	5	punct	_	SpacesAfter=\s\n
+13	.	_	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
 
 # sent_id = solopos-2022-608
 # text = Ora ana angin, ora ana bledheg lha kok undangan sing dak waca iki wis gawe ambyar?
@@ -18476,8 +18480,8 @@
 6	wis	_	AUX	_	Polite=Infm	7	aux	_	_
 7	oleh	_	VERB	_	Mood=Ind|Voice=Act	3	advcl	_	_
 8	beras	_	NOUN	_	Number=Sing	7	obl	_	_
-9	sak	_	NUM	_	NumType=Card	10	nummod	_	_
-10	thekem	_	NOUN	_	Number=Sing	8	nmod	_	SpaceAfter=No
+9	sak	_	NUM	_	NumType=Card	8	nummod	_	_
+10	thekem	_	NOUN	_	Number=Sing	9	clf	_	SpaceAfter=No
 11	,	_	PUNCT	_	_	13	punct	_	_
 12	kudu	_	AUX	_	Polite=Infm	13	aux	_	_
 13	bolong	_	ADJ	_	_	7	advmod	_	_
@@ -18634,7 +18638,7 @@
 # sent_id = solopos-2022-657
 # text = Mesakake Riris yen kudu mlaku dhewe.
 # text_id = Kasihan Riris jika harus berjalan sendirian.
-# text_en = Poor Riris if you have to walk alone.
+# text_en = Poor Riris if she has to walk alone.
 1	Mesakake	_	ADJ	_	_	0	root	_	_
 2	Riris	_	PROPN	_	_	1	nsubj	_	_
 3	yen	_	SCONJ	_	Polite=Infm	5	mark	_	_
@@ -19766,9 +19770,9 @@
 9	ngadeg	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	11	punct	_	_
 11	njupuk	_	VERB	_	Mood=Ind|Voice=Act	9	advcl	_	_
-12	sak	_	NUM	_	NumType=Card	13	nummod	_	_
-13	gelas	_	NOUN	_	Number=Sing	11	obj	_	_
-14	teh	_	NOUN	_	Number=Sing	13	nmod	_	_
+12	sak	_	NUM	_	NumType=Card	14	nummod	_	_
+13	gelas	_	NOUN	_	Number=Sing	12	clf	_	_
+14	teh	_	NOUN	_	Number=Sing	11	obj	_	_
 15	anget	_	ADJ	_	_	14	amod	_	_
 16	sing	_	PRON	_	Polite=Infm|PronType=Rel	18	nsubj	_	_
 17	wes	_	AUX	_	Polite=Infm	18	aux	_	_
