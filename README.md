@@ -14,7 +14,7 @@ The original sentences were taken from several resources:
 
 The sentences in this corpus use the Latin script, do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa))
 
-Javanese has several language levels, such as Ngoko, Krama, Krama Inggil, and Krama Andhap. In this Javanese dependency treebank, the sentences predominantly use Ngoko words, with some of them use Krama or Krama Inggil words.
+Javanese has several language levels, such as Ngoko, Krama, Krama Inggil, and Krama Andhap. In this Javanese dependency treebank, the sentences predominantly use Ngoko words, with some of them use Krama words.
 
 # Acknowledgments
 
