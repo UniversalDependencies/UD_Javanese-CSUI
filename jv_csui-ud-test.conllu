@@ -272,8 +272,8 @@
 
 # sent_id = wedhawati-2001-20
 # text = Wenehana dhuwit ya ora gelem.
-# text_id = Meskipun diberi uang ya tidak mau.
-# text_en = Even though they were given money, they didn't want to.
+# text_id = Meskipun diberi uang ya tidak mau menerima.
+# text_en = Even though they were given money, they didn't want to accept it.
 1	Wenehana	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	_
 2	dhuwit	_	NOUN	_	Number=Sing	1	obl	_	_
 3	ya	_	PART	_	_	1	advmod:emph	_	_
@@ -16926,8 +16926,8 @@
 
 # sent_id = solopos-2022-560
 # text = Wayah matun, saben esuk aku nggawa sorok, dak jepit ing boncengan pit onthel.
-# text_id = Saat XX, setiap pagi saya bawa sorok, saya jepit di belakang motor.
-# text_en = XX, every morning I take a shovel, I pin it on the back of the motorbike.
+# text_id = Saat itu, setiap pagi saya bawa sorok, saya jepit di belakang motor.
+# text_en = At that time, every morning I took a shovel, I clamped it on the back of the motorbike.
 1	Wayah	_	NOUN	_	Number=Sing	7	obl	_	_
 2	matun	_	VERB	_	_	1	acl	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	7	punct	_	_
@@ -17308,7 +17308,7 @@
 
 # sent_id = solopos-2022-583
 # text = Sakgulung jala plastik ukuran kira-kira sepuluh meter bakal dak jembreng ana sak ndhuwure pathok sawah.
-# text_id = Gulungan jaring plastik berukuran sekitar sepuluh meter akan aku diletakkan di atas sawah.
+# text_id = Gulungan jaring plastik berukuran sekitar sepuluh meter akan aku letakkan di atas sawah.
 # text_en = Rolls of plastic nets measuring about ten meters will be placed over the rice fields.
 1-2	Sakgulung	_	_	_	_	_	_	_	_
 1	Sak	_	NUM	_	NumType=Card	3	nummod	_	_
@@ -17458,6 +17458,8 @@
 
 # sent_id = solopos-2022-591
 # text = “Lintang ki sapa, Ngger?” pitakone ibu.
+# text_id = "Lintang ini siapa, Nak?" tanya ibu.
+# text_en = "Who is this Lintang?" my mother asked.
 1	“	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	Lintang	_	PROPN	_	_	4	nsubj	_	_
 3	ki	_	DET	_	Abbr=Yes|Polite=Infm|PronType=Dem	2	det	_	_
@@ -17661,8 +17663,8 @@
 
 # sent_id = solopos-2022-605
 # text = Jodho pancen tan kena kinira.
-# text_id = Jodo memang tidak bisa dikira.
-# text_en = Jodo is unbelievable.
+# text_id = Jodoh memang tidak bisa dikira.
+# text_en = Life partner is unpredictable.
 1	Jodho	_	NOUN	_	Number=Sing	5	nsubj	_	_
 2	pancen	_	ADV	_	_	5	advmod	_	_
 3	tan	_	PART	_	Polarity=Neg	5	advmod	_	_
@@ -17683,8 +17685,8 @@
 
 # sent_id = solopos-2022-607
 # text = Kancaku uga sak angkatan biyen jaman SMA, nanging beda sekolahan.
-# text_id = Teman saya juga seangkatan dulu di sekolah menengah, tetapi di sekolah yang berbeda.
-# text_en = My friend was in the same class as me in middle school, but in a different school.
+# text_id = Teman saya juga, seangkatan dulu di masa SMA, tetapi beda sekolah.
+# text_en = My friend too, in high school, but different school.
 1-2	Kancaku	_	_	_	_	_	_	_	_
 1	Kanca	_	NOUN	_	Number=Sing|Polite=Infm	0	root	_	_
 2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	_
@@ -17819,11 +17821,15 @@
 
 # sent_id = solopos-2022-616
 # text = Istighfar bola-bali dak ucapne.
+# text_id = Istighfar bolak-balik aku ucapkan.
+# text_en = Istighfar back and forth I say.
 1	Istighfar	_	INTJ	_	_	4	discourse	_	_
 2	bola-bali	_	ADV	_	_	4	advmod	_	_
 3	dak	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	4	nsubj	_	_
-4	ucapne	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No
-5	.	_	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
+4-5	ucapne	_	_	_	_	_	_	_	SpaceAfter=No
+4	ucap	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+5	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	_
+6	.	_	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
 
 # sent_id = solopos-2022-617
 # text = Astaghfirullah… sepisan maneh lambeku ngucap dikir.
@@ -17994,7 +18000,7 @@
 # sent_id = solopos-2022-624
 # text = Sabanjure dikum banyu kang wus dicampur kembang telon.
 # text_id = Selanjutnya, direndam air yang telah dicampur dengan bunga telon.
-# text_en = Next, XX that has been mixed with telon flowers.
+# text_en = Next, soaked in water that has been mixed with telon flowers.
 1	Sabanjure	_	ADV	_	Polite=Infm	2	advmod	_	_
 2	dikum	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 3	banyu	_	NOUN	_	Number=Sing	2	obj	_	_
