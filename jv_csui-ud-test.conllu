@@ -147,7 +147,7 @@
 2	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	1	nmod:poss	_	_
 3	sinau	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 4	neng	_	ADP	_	Polite=Infm	5	case	_	_
-5	perpustakaan	_	NOUN	_	Number=Sing	3	obl	_	SpaceAfter=No
+5	perpustakaan	_	X	_	Foreign=Yes	3	obl	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = wedhawati-2001-10
@@ -457,11 +457,11 @@
 4	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = wedhawati-2001-36
-# text = Adikku nggawa kranjang blanjan.
+# text = Adhikku nggawa kranjang blanjan.
 # text_id = Adik saya membawa keranjang belanja.
 # text_en = My sister brought a shopping cart.
-1-2	Adikku	_	_	_	_	_	_	_	_
-1	Adik	_	NOUN	_	Number=Sing	3	nsubj	_	_
+1-2	Adhikku	_	_	_	_	_	_	_	_
+1	Adhik	_	NOUN	_	Number=Sing	3	nsubj	_	_
 2	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nmod:poss	_	_
 3	nggawa	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	0	root	_	_
 4	kranjang	_	NOUN	_	Number=Sing	3	obj	_	_
@@ -589,7 +589,7 @@
 2	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	_
 3	dijahitake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	_
 4	neng	_	ADP	_	Polite=Infm	5	case	_	_
-5	penjahit	_	NOUN	_	Number=Sing	3	obl	_	_
+5	penjahit	_	X	_	Foreign=Yes	3	obl	_	_
 6	"	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	Abadi	_	PROPN	_	_	5	nmod	_	SpaceAfter=No
 8	"	_	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -2870,7 +2870,7 @@
 4	punika	_	DET	_	Polite=Form|PronType=Dem	3	fixed	_	_
 5	"	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6-7	analisisipun	_	_	_	_	_	_	_	_
-6	analisis	_	NOUN	_	Number=Sing	0	root	_	_
+6	analisis	_	X	_	Foreign=Yes	0	root	_	_
 7	ipun	_	DET	_	Definite=Def|Polite=Form|PronType=Art	6	det	_	_
 8	babagan	_	ADP	_	_	9	case	_	_
 9	tumindak	_	NOUN	_	Number=Sing	6	nmod	_	_
@@ -3149,12 +3149,12 @@
 10	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = opus-wiki-62
-# text = Ananging, industri permata Dubai punika nglampahi dampak saking Perang Donya I, lajeng Depresi Gedhe ing taun 1920-an.
+# text = Ananging, indhustri permata Dubai punika nglampahi dampak saking Perang Donya I, lajeng Depresi Gedhe ing taun 1920-an.
 # text_id = Namun, industri permata Dubai mengalami dampak dari Perang Dunia I, kemudian Depresi Hebat pada tahun 1920-an.
 # text_en = However, Dubai’s gem industry suffered the effects of World War I, then the Great Depression in the 1920s.
 1	Ananging	_	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	1	punct	_	_
-3	industri	_	NOUN	_	Number=Sing	7	nsubj	_	_
+3	indhustri	_	NOUN	_	Number=Sing	7	nsubj	_	_
 4	permata	_	NOUN	_	Number=Sing	3	nmod	_	_
 5	Dubai	_	PROPN	_	_	3	nmod	_	_
 6	punika	_	DET	_	Polite=Form|PronType=Dem	3	det	_	_
@@ -4047,7 +4047,7 @@
 17	perusahaan	_	NOUN	_	Number=Sing	16	obl	_	_
 18	ingkang	_	PRON	_	Polite=Form|PronType=Rel	21	obl	_	_
 19-20	penjualanipun	_	_	_	_	_	_	_	_
-19	penjualan	_	NOUN	_	Number=Sing	21	nsubj	_	_
+19	penjualan	_	X	_	Foreign=Yes	21	nsubj	_	_
 20	ipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	19	nmod:poss	_	_
 21	ageng	_	ADJ	_	Polite=Form	17	acl:relcl	_	_
 22	ing	_	ADP	_	Polite=Infm	23	case	_	_
@@ -4213,23 +4213,23 @@
 3	punika	_	DET	_	Polite=Form|PronType=Dem	2	det	_	_
 4	gadhah	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 5	36	_	NUM	_	NumType=Card	6	nummod	_	_
-6	fasilitas	_	NOUN	_	Number=Sing	4	obj	_	_
-7	akademis	_	ADJ	_	_	6	amod	_	SpaceAfter=No
+6	fasilitas	_	X	_	Foreign=Yes	4	obj	_	_
+7	akademis	_	X	_	Foreign=Yes	6	nmod	_	SpaceAfter=No
 8	,	_	PUNCT	_	_	9	punct	_	_
 9	atletik	_	NOUN	_	Number=Sing	7	conj	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	11	punct	_	_
-11	administratif	_	ADJ	_	_	7	conj	_	_
+11	administratif	_	X	_	_	7	conj	_	_
 12	lan	_	CCONJ	_	Polite=Infm	13	cc	_	_
 13	acara	_	NOUN	_	Number=Sing	7	conj	_	_
 14	saliyane	_	ADP	_	Polite=Infm	16	case	_	_
 15	12	_	NUM	_	NumType=Card	16	nummod	_	_
 16	gedhong	_	NOUN	_	Number=Sing	4	obl	_	_
-17	perumahan	_	NOUN	_	Number=Sing	16	nmod	_	_
-18	mahasiswa	_	NOUN	_	Number=Sing	17	nmod	_	_
+17	perumahan	_	X	_	Foreign=Yes	16	nmod	_	_
+18	mahasiswa	_	X	_	Foreign=Yes	17	nmod	_	_
 19	lan	_	CCONJ	_	Polite=Infm	21	cc	_	_
 20	6	_	NUM	_	NumType=Card	21	nummod	_	_
-21	kompleks	_	NOUN	_	Number=Sing	16	conj	_	_
-22	apartemen	_	NOUN	_	Number=Sing	21	nmod	_	_
+21	kompleks	_	X	_	Foreign=Yes	16	conj	_	_
+22	apartemen	_	X	_	Foreign=Yes	21	nmod	_	_
 23	ing	_	ADP	_	Polite=Infm	24	case	_	_
 24	area	_	NOUN	_	Number=Sing	4	obl	_	_
 25	kampus	_	NOUN	_	Number=Sing	24	nmod	_	SpaceAfter=No
@@ -4383,7 +4383,7 @@
 15	organisasi	_	NOUN	_	Number=Sing	9	appos	_	_
 16	kang	_	PRON	_	Polite=Infm|PronType=Rel	17	nsubj:pass	_	_
 17	dilarang	_	VERB	_	Mood=Ind|Voice=Pass	15	acl	_	_
-18	beroperasi	_	VERB	_	Mood=Ind|Voice=Act	17	xcomp	_	_
+18	beroperasi	_	X	_	Foreign=Yes	17	xcomp	_	_
 19	karo	_	ADP	_	Polite=Infm	20	case	_	_
 20	Dikti	_	PROPN	_	_	17	obl:agent	_	_
 21	Depdiknas	_	PROPN	_	_	20	flat:name	_	_
@@ -4659,7 +4659,7 @@
 # text_en = During an audition for The X Factor, Niall once said something like: “I'm 16 years old and I want to have big names like Beyonce and Justin Bieber.
 1	Pas	_	ADP	_	_	2	case	_	_
 2	jamane	_	NOUN	_	Number=Sing	10	obl:tmod	_	_
-3	audisi	_	NOUN	_	Number=Sing	2	nmod	_	_
+3	audisi	_	X	_	Foreign=Yes	2	nmod	_	_
 4	The	_	PROPN	_	_	2	nmod	_	_
 5	X	_	PROPN	_	_	4	flat:name	_	_
 6	Factor	_	PROPN	_	_	4	flat:name	_	SpaceAfter=No
@@ -4860,7 +4860,7 @@
 # text_id = Dengan beasiswa, ia menetap di Amerika Serikat, belajar dan memperoleh gelar Master dari American University, Washington DC, Departemen Komunikasi Internasional, pada tahun 1982.
 # text_en = With a scholarship, he settled in the United States, studied and obtained his Master's degree from American University, Washington DC, Department of International Communication, in 1982.
 1	Kanthi	_	ADP	_	Polite=Infm	2	case	_	_
-2	beasiswa	_	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
+2	beasiswa	_	X	_	Foreign=Yes	5	obl	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	2	punct	_	_
 4	dheweke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nsubj	_	_
 5	manggon	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
@@ -5060,7 +5060,7 @@
 21	Penangkapan	_	PROPN	_	_	23	nsubj	_	_
 22	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	21	nmod:poss	_	_
 23	entuk	_	VERB	_	Mood=Ind|Voice=Act	7	parataxis	_	_
-24	perhatian	_	NOUN	_	Number=Sing	23	obj	_	_
+24	perhatian	_	X	_	Foreign=Yes	23	obj	_	_
 25	internasional	_	ADJ	_	_	24	amod	_	SpaceAfter=No
 26	.	_	PUNCT	_	_	7	punct	_	_
 
@@ -5321,14 +5321,14 @@
 10	pendhiri	_	NOUN	_	Number=Sing	9	obl	_	_
 11	sarta	_	CCONJ	_	Polite=Infm	12	cc	_	_
 12	presidhen	_	NOUN	_	Number=Sing	10	conj	_	_
-13	kelompok	_	NOUN	_	Number=Sing	10	nmod	_	_
+13	kelompok	_	X	_	Foreign=Yes	10	nmod	_	_
 14	arbitrase	_	X	_	Foreign=Yes	13	nmod	_	_
-15	parlemen	_	NOUN	_	Number=Sing	14	nmod	_	_
+15	parlemen	_	X	_	Foreign=Yes	14	nmod	_	_
 16	Perancis	_	PROPN	_	_	13	nmod	_	_
 17	ugi	_	CCONJ	_	Polite=Form	18	cc	_	_
-18	komite	_	NOUN	_	Number=Sing	13	conj	_	_
-19	pertahanan	_	NOUN	_	Number=Sing	18	nmod	_	_
-20	kepentingan	_	NOUN	_	Number=Sing	19	nmod	_	_
+18	komite	_	X	_	Foreign=Yes	13	conj	_	_
+19	pertahanan	_	X	_	Foreign=Yes	18	nmod	_	_
+20	kepentingan	_	X	_	Foreign=Yes	19	nmod	_	_
 21	nasional	_	ADJ	_	_	20	amod	_	_
 22	lan	_	CCONJ	_	Polite=Infm	23	cc	_	_
 23	arbitrase	_	X	_	Foreign=Yes	19	conj	_	_
@@ -5760,7 +5760,7 @@
 2	sengaja	_	ADJ	_	_	0	root	_	_
 3	katon	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	2	advcl	_	_
 4	kaya	_	ADP	_	Polite=Infm	5	case	_	_
-5	perancang	_	NOUN	_	Number=Sing	3	obl	_	_
+5	perancang	_	X	_	Foreign=Yes	3	obl	_	_
 6	mode	_	X	_	Foreign=Yes	5	nmod	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	2	punct	_	_
 
@@ -6871,7 +6871,7 @@
 # text_en = Many unusual causes.
 1	Akeh	_	DET	_	Number=Plur|Polite=Infm|PronType=Ind	2	det	_	_
 2-3	penyebabe	_	_	_	_	_	_	_	_
-2	penyebab	_	NOUN	_	Number=Sing	0	root	_	_
+2	penyebab	_	X	_	Foreign=Yes	0	root	_	_
 3	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	2	det	_	_
 4	sing	_	PRON	_	Polite=Infm|PronType=Rel	5	nsubj	_	_
 5	njalari	_	VERB	_	Mood=Ind|Voice=Act	2	acl:relcl	_	_
@@ -7733,7 +7733,7 @@
 12	nyritakake	_	VERB	_	Mood=Ind|Voice=Act	3	conj	_	_
 13	rikala	_	NOUN	_	Number=Sing	12	obj	_	_
 14	jaman	_	NOUN	_	Number=Sing	13	nmod	_	_
-15	penjajahan	_	NOUN	_	Number=Sing	14	nmod	_	_
+15	penjajahan	_	X	_	Foreign=Yes	14	nmod	_	_
 16	Walanda	_	PROPN	_	_	15	nmod	_	_
 17	nganti	_	SCONJ	_	Polite=Infm	18	mark	_	_
 18-19	dumadine	_	_	_	_	_	_	_	_
@@ -7875,7 +7875,7 @@
 4	jaman	_	NOUN	_	Number=Sing	0	root	_	_
 5	pindhahan	_	NOUN	_	Number=Sing	4	nmod	_	_
 6	saka	_	ADP	_	Polite=Infm	7	case	_	_
-7	penjajahan	_	NOUN	_	Number=Sing	5	nmod	_	_
+7	penjajahan	_	X	_	Foreign=Yes	5	nmod	_	_
 8	nganti	_	SCONJ	_	Polite=Infm	9	mark	_	_
 9	tekan	_	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
 10	adeging	_	NOUN	_	Number=Sing	9	obl	_	_
@@ -8266,7 +8266,7 @@
 15	swasana	_	NOUN	_	Number=Sing	20	nsubj	_	_
 16	perang	_	NOUN	_	Number=Sing	15	nmod	_	_
 17	nglawan	_	VERB	_	Mood=Ind|Voice=Act	16	acl	_	_
-18	penjajah	_	NOUN	_	Number=Sing	17	obj	_	_
+18	penjajah	_	X	_	Foreign=Yes	17	obj	_	_
 19	kaya	_	ADP	_	Polite=Infm	20	case	_	_
 20	mangkono	_	PRON	_	Polite=Infm|PronType=Dem	9	advcl	_	_
 21	kuwi	_	DET	_	Polite=Infm|PronType=Dem	20	det	_	SpaceAfter=No
@@ -8330,7 +8330,7 @@
 11	pribumi	_	NOUN	_	Number=Sing	10	nmod	_	_
 12	kang	_	PRON	_	Polite=Infm|PronType=Rel	13	nsubj	_	_
 13	nglawan	_	VERB	_	Mood=Ind|Voice=Act	10	acl:relcl	_	_
-14	penjajah	_	NOUN	_	Number=Sing	13	obl	_	SpaceAfter=No
+14	penjajah	_	X	_	Foreign=Yes	13	obl	_	SpaceAfter=No
 15	.	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = solopos-2022-126
@@ -9500,7 +9500,7 @@
 19	madeg	_	VERB	_	Mood=Ind|Voice=Act	16	xcomp	_	_
 20	sajroning	_	NOUN	_	Number=Sing|Polite=Infm	21	nmod:lmod	_	_
 21	rong	_	NUM	_	NumType=Card|Polite=Infm	22	nummod	_	_
-22	administrasi	_	NOUN	_	Number=Sing	19	nmod	_	SpaceAfter=No
+22	administrasi	_	X	_	Foreign=Yes	19	nmod	_	SpaceAfter=No
 23	,	_	PUNCT	_	_	25	punct	_	_
 24	yaiku	_	AUX	_	Polite=Infm	25	cop	_	_
 25	Keraton	_	PROPN	_	_	22	nmod	_	_
@@ -16729,7 +16729,7 @@
 8	mbacutne	_	VERB	_	Mood=Ind|Voice=Act	2	advcl	_	_
 9	laku	_	NOUN	_	Number=Sing	8	obj	_	_
 10	tekan	_	VERB	_	Mood=Ind|Voice=Act	8	advcl	_	_
-11	perpustakaan	_	NOUN	_	Number=Sing	10	obj	_	SpaceAfter=No
+11	perpustakaan	_	X	_	Foreign=Yes	10	obj	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
 
 # sent_id = solopos-2022-548
@@ -17929,13 +17929,15 @@
 16	limang	_	NUM	_	NumType=Card	17	nummod	_	_
 17	dina	_	NOUN	_	Number=Sing|Polite=Infm	14	nmod	_	_
 18	gumantung	_	VERB	_	Mood=Ind|Voice=Pass	11	advcl	_	_
-19-20	abot-entenge	_	_	_	_	_	_	_	_
-19	abot-enteng	_	ADJ	_	_	18	ccomp	_	_
-20	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	19	det	_	_
-21	teyeng	_	NOUN	_	Number=Sing|Polite=Infm	19	nsubj	_	_
-22	ing	_	ADP	_	Polite=Infm	23	case	_	_
-23	wilah	_	NOUN	_	Number=Sing	21	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
+19	abot	_	ADJ	_	_	18	xcomp	_	SpaceAfter=No
+20	-	_	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21-22	entenge	_	_	_	_	_	_	_	_
+21	enteng	_	ADJ	_	_	19	conj	_	_
+22	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	21	det	_	_
+23	teyeng	_	NOUN	_	Number=Sing|Polite=Infm	19	nsubj	_	_
+24	ing	_	ADP	_	Polite=Infm	23	case	_	_
+25	wilah	_	NOUN	_	Number=Sing	21	nmod	_	SpaceAfter=No
+26	.	_	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
 
 # sent_id = solopos-2022-621
 # text = Saliyane kuwi, ana tata cara liya sing ora mung awates ngumbah utawa ngresiki pusaka.
@@ -18927,7 +18929,7 @@
 3	Carik	_	PROPN	_	_	2	flat:name	_	_
 4	niku	_	DET	_	PronType=Dem	2	det	_	_
 5	kados	_	ADP	_	Polite=Form	6	case	_	_
-6	perpustakaan	_	NOUN	_	Number=Sing	0	root	_	_
+6	perpustakaan	_	X	_	Foreign=Yes	0	root	_	_
 7	desa	_	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
 8	,	_	PUNCT	_	_	6	punct	_	_
 9	Mas	_	PROPN	_	_	6	vocative	_	_
@@ -19682,7 +19684,7 @@
 2	sing	_	PRON	_	Polite=Infm|PronType=Rel	3	nsubj	_	_
 3	ana	_	VERB	_	Mood=Ind|Voice=Act	1	acl:relcl	_	_
 4	ing	_	ADP	_	Polite=Infm	5	case	_	_
-5	perpustakaan	_	NOUN	_	Number=Sing	3	obl	_	_
+5	perpustakaan	_	X	_	Foreign=Yes	3	obl	_	_
 6	mandiri	_	NOUN	_	Number=Sing	5	nmod	_	_
 7	kuwi	_	DET	_	Polite=Infm|PronType=Dem	6	det	_	_
 8	samsaya	_	ADV	_	_	9	advmod	_	_
@@ -19734,7 +19736,7 @@
 21	.	_	PUNCT	_	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-717
-# text = Kebon mburi arep dak tanduri winih kates mboyolali, ngarep arep dak gawe para-para kanggo winih woh naga merah.
+# text = Kebon mburi arep dak tanduri winih kates Mboyolali, ngarep arep dak gawe para-para kanggo winih woh naga merah.
 # text_id = Di kebun belakang saya mau menanam bibit kates mboyolali, di depan saya mau membuat parapara untuk bibit buah naga merah.
 # text_en = In the back garden I want to plant kates mboyolali seeds, in the front I want to make parapara for red dragon fruit seeds.
 1	Kebon	_	NOUN	_	Number=Sing	5	obl	_	_
@@ -19744,7 +19746,7 @@
 5	tanduri	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	winih	_	NOUN	_	Number=Sing	5	obj	_	_
 7	kates	_	NOUN	_	Number=Sing	6	amod	_	_
-8	mboyolali	_	NOUN	_	Number=Sing	7	nmod	_	SpaceAfter=No
+8	Mboyolali	_	PROPN	_	_	7	nmod	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	5	punct	_	_
 10	ngarep	_	NOUN	_	Number=Sing|Polite=Infm	13	obl	_	_
 11	arep	_	AUX	_	Polite=Infm	13	aux	_	_

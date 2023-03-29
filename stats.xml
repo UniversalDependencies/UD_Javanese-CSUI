@@ -5,44 +5,44 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1000</sentences><tokens>13721</tokens><words>14321</words><fused>597</fused></total>
+    <total><sentences>1000</sentences><tokens>13723</tokens><words>14323</words><fused>597</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1000</sentences><tokens>13721</tokens><words>14321</words><fused>597</fused></test>
+    <test><sentences>1000</sentences><tokens>13723</tokens><words>14323</words><fused>597</fused></test>
   </size>
   <lemmas unique="0" /><!--  -->
-  <forms unique="3792" /><!-- ., ,, e, ing, lan, sing, kang, ana, ora, aku, iku, ku, wis, dadi, iki -->
-  <fusions unique="348" /><!-- ujare, liyane, anake, antarane, sijine, tegese, atiku, carane, rasane, sawahe, wargane, anggonku, daleme, panggaweyane, adhine -->
+  <forms unique="3789" /><!-- ., ,, e, ing, lan, sing, kang, ana, ora, aku, iku, ku, wis, dadi, iki -->
+  <fusions unique="346" /><!-- ujare, liyane, anake, antarane, sijine, tegese, atiku, carane, rasane, sawahe, wargane, anggonku, daleme, panggaweyane, adhine -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">738</tag><!-- _ -->
+    <tag name="ADJ">737</tag><!-- _ -->
     <tag name="ADP">743</tag><!-- _ -->
     <tag name="ADV">797</tag><!-- _ -->
     <tag name="AUX">339</tag><!-- _ -->
     <tag name="CCONJ">307</tag><!-- _ -->
     <tag name="DET">701</tag><!-- _ -->
     <tag name="INTJ">32</tag><!-- _ -->
-    <tag name="NOUN">2899</tag><!-- _ -->
+    <tag name="NOUN">2871</tag><!-- _ -->
     <tag name="NUM">362</tag><!-- _ -->
     <tag name="PART">234</tag><!-- _ -->
     <tag name="PRON">965</tag><!-- _ -->
-    <tag name="PROPN">1559</tag><!-- _ -->
-    <tag name="PUNCT">2229</tag><!-- _ -->
+    <tag name="PROPN">1560</tag><!-- _ -->
+    <tag name="PUNCT">2230</tag><!-- _ -->
     <tag name="SCONJ">313</tag><!-- _ -->
     <tag name="SYM">12</tag><!-- _ -->
-    <tag name="VERB">1945</tag><!-- _ -->
-    <tag name="X">146</tag><!-- _ -->
+    <tag name="VERB">1944</tag><!-- _ -->
+    <tag name="X">176</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="30">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,AUX,DET,PART,PRON">32</feat><!-- isa, ra, ki, pa -->
     <feat name="Definite" value="Def" upos="DET">356</feat><!-- e, para, ipun, sing, Kang, ingkang -->
     <feat name="Definite" value="Ind" upos="DET">9</feat><!-- sawijining, satunggaling -->
-    <feat name="Foreign" value="Yes" upos="X">143</feat><!-- rock, eutanasia, penerbangan, pertengahan, metal, semifinalis, suku, turnamen, arbitrase, baca -->
+    <feat name="Foreign" value="Yes" upos="X">172</feat><!-- rock, eutanasia, penerbangan, perpustakaan, pertengahan, metal, semifinalis, suku, turnamen, arbitrase -->
     <feat name="Mood" value="Imp" upos="VERB">8</feat><!-- Cekake, Kunceni, Resiki, ambakke, njagakke, nyemayani, pethiki, wacanen -->
-    <feat name="Mood" value="Ind" upos="VERB">1931</feat><!-- ana, dadi, gawe, nganggo, ujar, katon, melu, gelem, miturut, tekan -->
+    <feat name="Mood" value="Ind" upos="VERB">1930</feat><!-- ana, dadi, gawe, nganggo, ujar, katon, melu, gelem, miturut, tekan -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">119</feat><!-- saperangan, para, akeh, bocah-bocah, buku-buku, sawetara, tembung-tembung, wong-wong, awake, maneka -->
-    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">3333</feat><!-- e, aku, ku, taun, wong, warga, bathik, dak, dheweke, tembang -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">3305</feat><!-- e, aku, ku, taun, wong, warga, bathik, dak, dheweke, tembang -->
     <feat name="NumType" value="Card" upos="NUM">361</feat><!-- siji, rong, sak, 15, 16, 2022, 1, 3, 6, telung -->
     <feat name="NumType" value="Ord" upos="ADJ">14</feat><!-- kaping, kapisan, kapisanan, kapitu, katiga -->
     <feat name="Person" value="1" upos="PRON">237</feat><!-- aku, ku, dak, kula, tak, awake, kita, ingsun -->
@@ -63,7 +63,7 @@
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">58</feat><!-- kabeh, saben, tansah, sedaya, emben, saindhenge, sakabehing -->
     <feat name="Reflex" value="Yes" upos="PRON">3</feat><!-- diri, dhekne -->
     <feat name="Typo" value="Yes" upos="NOUN,X">3</feat><!-- Budi, kula, taunn -->
-    <feat name="Voice" value="Act" upos="VERB">1535</feat><!-- ana, dadi, gawe, nganggo, ujar, melu, gelem, miturut, tekan, beda -->
+    <feat name="Voice" value="Act" upos="VERB">1534</feat><!-- ana, dadi, gawe, nganggo, ujar, melu, gelem, miturut, tekan, beda -->
     <feat name="Voice" value="Pass" upos="VERB">406</feat><!-- katon, kelingan, diripta, diarani, digawe, digunakake, ketemu, mapan, mesem, dienggo -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -73,16 +73,16 @@
     <dep name="advcl">629</dep>
     <dep name="advmod">1071</dep>
     <dep name="advmod:emph">47</dep>
-    <dep name="amod">245</dep>
+    <dep name="amod">244</dep>
     <dep name="appos">102</dep>
     <dep name="aux">300</dep>
     <dep name="case">735</dep>
     <dep name="case:adv">10</dep>
     <dep name="cc">309</dep>
-    <dep name="ccomp">22</dep>
+    <dep name="ccomp">21</dep>
     <dep name="clf">7</dep>
     <dep name="compound">27</dep>
-    <dep name="conj">423</dep>
+    <dep name="conj">424</dep>
     <dep name="cop">39</dep>
     <dep name="csubj">31</dep>
     <dep name="csubj:outer">1</dep>
@@ -97,7 +97,7 @@
     <dep name="goeswith">2</dep>
     <dep name="iobj">5</dep>
     <dep name="mark">308</dep>
-    <dep name="nmod">1177</dep>
+    <dep name="nmod">1178</dep>
     <dep name="nmod:lmod">45</dep>
     <dep name="nmod:poss">291</dep>
     <dep name="nmod:tmod">15</dep>
@@ -110,9 +110,9 @@
     <dep name="obl:agent">30</dep>
     <dep name="obl:tmod">133</dep>
     <dep name="parataxis">81</dep>
-    <dep name="punct">2229</dep>
+    <dep name="punct">2230</dep>
     <dep name="root">1000</dep>
     <dep name="vocative">48</dep>
-    <dep name="xcomp">197</dep>
+    <dep name="xcomp">198</dep>
   </deps>
 </treebank>
