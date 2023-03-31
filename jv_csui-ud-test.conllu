@@ -14693,7 +14693,7 @@
 9	,	_	PUNCT	_	_	8	punct	_	_
 10	Mbah	_	NOUN	_	Number=Sing	8	vocative	_	SpaceAfter=No
 11	.	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
-12	“	_	PUNCT	_	_	8	punct	_	SpaceAfter=\n
+12	“	_	PUNCT	_	_	8	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-435
 # text = Eling-eling sedulur-sedulurku nora dibandhani kaya aku nalika sekolah.
@@ -14917,7 +14917,7 @@
 11	iki	_	DET	_	Polite=Infm|PronType=Dem	10	det	_	_
 12	kabeh	_	PRON	_	Polite=Infm|PronType=Tot	10	nmod	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	3	punct	_	SpaceAfter=No
-14	“	_	PUNCT	_	_	3	punct	_	SpaceAfter=\n
+14	“	_	PUNCT	_	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-446
 # text = Wabah Covid-19 ing taun 2021 kaya dene pageblug kang saknyatane.
@@ -15666,7 +15666,7 @@
 10	lan	_	CCONJ	_	Polite=Infm	11	cc	_	_
 11	angel	_	ADJ	_	_	9	conj	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
-13	“	_	PUNCT	_	_	5	punct	_	SpaceAfter=\n
+13	“	_	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-486
 # text = Mula nalika mbathik payung, aja nganti gambare kleru,” piterange.
@@ -19268,7 +19268,7 @@
 13	.	_	PUNCT	_	_	6	punct	_	SpacesAfter=\s\n
 
 # sent_id = solopos-2022-693
-# text = Mbah Carik dhewe wis seda, nanging melu menangi buku-buku koleksine dadi bibit taman baca ing Desa Carikan.
+# text = Mbah Carik dhewe wis seda, nanging melu menangi buku-buku koleksine dadi bibit taman waca ing Desa Carikan.
 # text_id = Mbak Carik sendiri telah meninggal dunia, namun ia turut serta menjadikan buku-buku koleksinya untuk menjadi bibit taman bacaan di Desa Carikan.
 # text_en = Ms. Carik herself has passed away, but she took part in turning her collection of books into seeds for a reading garden in Carikan Village.
 1	Mbah	_	PROPN	_	_	5	nsubj	_	_
@@ -19287,7 +19287,7 @@
 13	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	9	advcl	_	_
 14	bibit	_	NOUN	_	Number=Sing	13	obl	_	_
 15	taman	_	NOUN	_	Number=Sing	14	nmod	_	_
-16	baca	_	X	_	Foreign=Yes	15	nmod	_	_
+16	waca	_	VERB	_	Mood=Ind|Voice=Act	15	acl	_	_
 17	ing	_	ADP	_	Polite=Infm	18	case	_	_
 18	Desa	_	PROPN	_	_	14	nmod	_	_
 19	Carikan	_	NOUN	_	Number=Sing	18	nmod	_	SpaceAfter=No
@@ -19656,7 +19656,7 @@
 26	.	_	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
 
 # sent_id = solopos-2022-714
-# text = Wukir saiki uga melu dadi sukarelawan nunggoni taman baca, gentenan karo liyane.
+# text = Wukir saiki uga melu dadi sukarelawan nunggoni taman waca, gentenan karo liyane.
 # text_id = Wukir kini juga ikut serta sebagai relawan di taman bacaan tersebut, bersama dengan yang lainnya.
 # text_en = Wukir now also participates as a volunteer at the reading garden, along with others.
 1	Wukir	_	PROPN	_	_	4	nsubj	_	_
@@ -19667,7 +19667,7 @@
 6	sukarelawan	_	NOUN	_	Number=Sing	5	obl	_	_
 7	nunggoni	_	VERB	_	Mood=Ind|Voice=Act	6	acl	_	_
 8	taman	_	NOUN	_	Number=Sing	7	obj	_	_
-9	baca	_	X	_	Foreign=Yes	8	nmod	_	SpaceAfter=No
+9	waca	_	VERB	_	Mood=Ind|Voice=Act	8	acl	_	SpaceAfter=No
 10	,	_	PUNCT	_	_	11	punct	_	_
 11	gentenan	_	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
 12	karo	_	ADP	_	Polite=Infm	13	case	_	_
