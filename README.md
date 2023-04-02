@@ -24,7 +24,13 @@ Javanese has several language levels, such as Ngoko, Krama, Krama Inggil, and Kr
 
 ## References
 
-Coming soon ;-)
+@unpublished{Alfina2023,
+author = {Alfina, Ika and Yuliawati, Arlisa and Tanaya, Dipta and Dinakaramani, Arawinda and Zeman, Daniel},
+keywords = {Natural Language Processing,POS tagging,Universal Dependencies,dependency parsing,low-resource language,tokenization},
+title = {{A Gold Standard Dataset for Javanese Tokenization, POS Tagging, Morphological Feature Tagging, and Dependency Parsing}},
+year = {2023}
+}
+
 
 # Changelog
 
@@ -47,7 +53,7 @@ UPOS: automatic with corrections
 XPOS: not available
 Features: automatic with corrections
 Relations: automatic with corrections
-Contributors: Alfina, Ika; Yuliawati, Arlisa; Tanaya, Dipta; Dinakaramani, Arawinda; Rizqiyah, Putri;  Wijono, Sri Hartati;
+Contributors: Alfina, Ika; Yuliawati, Arlisa; Tanaya, Dipta; Dinakaramani, Arawinda; Zeman, Daniel; Rizqiyah, Putri;  Wijono, Sri Hartati;
 Contributing: elsewhere
 Contact: ika.alfina@cs.ui.ac.id
 ===============================================================================
