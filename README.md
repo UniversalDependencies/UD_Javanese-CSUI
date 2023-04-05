@@ -16,7 +16,9 @@ The original sentences were taken from several resources:
 Javanese has several language levels, such as Ngoko, Krama, Krama Inggil, and Krama Andhap. In this treebank, the sentences predominantly use Ngoko words, some of which use Krama words.
 
 # Split
-This dataset has only one split: test.
+This dataset has only one split: test. 
+Since the dataset is small, we recommend using 10-fold cross validation (use [ud-tool](https://github.com/UniversalDependencies/tools/blob/master/conllu-tenfold.pl) to split the dataset).
+
 If you need three splits, the suggestions to split the 1000 sentences are:
 * Test: 1st, 11th, 21st, ..., 991st sentence, total 100 sents.
 * Dev: 5th, 15th, 25th, ..., 995th sentence, total 100 sents.
