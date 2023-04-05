@@ -1953,17 +1953,21 @@
 15	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = suwadji-2013-24
-# text = Mung bae, beda carane.
-# text_id = Hanya saja, betapa berbedanya.
-# text_en = It's just, how different.
-1	Mung	_	ADV	_	Polite=Infm	4	advmod	_	_
-2	bae	_	ADV	_	_	4	advmod	_	SpaceAfter=No
-3	,	_	PUNCT	_	_	4	punct	_	_
-4	beda	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-5-6	carane	_	_	_	_	_	_	_	SpaceAfter=No
-5	cara	_	NOUN	_	Number=Sing	4	nsubj	_	_
-6	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	5	det	_	_
-7	.	_	PUNCT	_	_	4	punct	_	_
+# text = Mangke sonten, menawi siyos, kula badhe kesah dhateng Surabaya.
+# text_id = Malam ini, jika saya bisa, saya akan pergi ke Surabaya.
+# text_en = Tonight, if I can, I will go to Surabaya.
+1	Mangke	_	ADV	_	Polite=Form	2	advmod	_	_
+2	sonten	_	NOUN	_	Number=Sing|Polite=Form	9	obl:tmod	_	SpaceAfter=No
+3	,	_	PUNCT	_	_	2	punct	_	_
+4	menawi	_	SCONJ	_	Polite=Form	5	mark	_	_
+5	siyos	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	2	advcl	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	2	punct	_	_
+7	kula	_	PRON	_	Number=Sing|Person=1|Polite=Form|PronType=Prs	9	nsubj	_	_
+8	badhe	_	AUX	_	Polite=Form	9	aux	_	_
+9	kesah	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
+10	dhateng	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	9	advcl	_	_
+11	Surabaya	_	PROPN	_	_	10	obl	_	SpaceAfter=No
+12	.	_	PUNCT	_	_	9	punct	_	SpacesAfter=\n
 
 # sent_id = suwadji-2013-25
 # text = Tembung krama inggil digunakake kanggo ngluhurake wong sing dikarepake, dene tembung krama andhap digunakake kanggo ngasorake dhiri pribadine wong sing guneman utawa sing ngurmati (andhap: cendhek, asor).
@@ -17724,32 +17728,46 @@
 18	?	_	PUNCT	_	_	16	punct	_	SpacesAfter=\s\n
 
 # sent_id = solopos-2022-609
-# text = Iki dudu ngimpi.
-# text_id = Ini bukan bermimpi.
-# text_en = This is not dreaming.
-1	Iki	_	PRON	_	Polite=Infm|PronType=Dem	3	nsubj	_	_
-2	dudu	_	PART	_	Polarity=Neg|Polite=Infm	3	advmod	_	_
-3	ngimpi	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No
-4	.	_	PUNCT	_	_	3	punct	_	SpacesAfter=\s\n
+# text = Jaman semana, Prabu Kelana Sewandana saka kraton ing Ponorogo kesengsem marang Dewi Sanggalangit saka Kediri.
+# text_id = Saat itu, Prabu Kelana Sewandana dari keraton di Ponorogo terkesan dengan Dewi Sanggalangit dari Kediri.
+# text_en = At that time, Prabu Kelana Sewandana from the palace in Ponorogo was impressed by Dewi Sanggalangit from Kediri.
+1	Jaman	_	NOUN	_	Number=Sing	11	obl:tmod	_	_
+2	semana	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	SpaceAfter=No
+3	,	_	PUNCT	_	_	4	punct	_	_
+4	Prabu	_	PROPN	_	_	11	nsubj:pass	_	_
+5	Kelana	_	PROPN	_	_	4	flat:name	_	_
+6	Sewandana	_	PROPN	_	_	4	flat:name	_	_
+7	saka	_	ADP	_	Polite=Infm	8	case	_	_
+8	kraton	_	NOUN	_	Number=Sing	4	nmod	_	_
+9	ing	_	ADP	_	Polite=Infm	10	case	_	_
+10	Ponorogo	_	PROPN	_	_	8	nmod	_	_
+11	kesengsem	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	0	root	_	_
+12	marang	_	ADP	_	Polite=Infm	13	case	_	_
+13	Dewi	_	PROPN	_	_	11	obl	_	_
+14	Sanggalangit	_	PROPN	_	_	13	flat:name	_	_
+15	saka	_	ADP	_	Polite=Infm	16	case	_	_
+16	Kediri	_	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	.	_	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
 
 # sent_id = solopos-2022-610
-# text = Iki pancen kasunyatan sing kudu dak adhepi, sanajan pait rasane.
-# text_id = Ini adalah kenyataan yang harus saya hadapi, betapapun pahitnya.
-# text_en = This is a reality I have to face, however bitter it may be.
-1	Iki	_	PRON	_	Polite=Infm|PronType=Dem	3	nsubj	_	_
-2	pancen	_	ADV	_	_	3	advmod	_	_
-3	kasunyatan	_	NOUN	_	Number=Sing	0	root	_	_
-4	sing	_	PRON	_	Polite=Infm|PronType=Rel	7	obj	_	_
-5	kudu	_	AUX	_	Polite=Infm	7	aux	_	_
-6	dak	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	7	nsubj	_	_
-7	adhepi	_	VERB	_	Mood=Ind|Voice=Act	3	acl:relcl	_	SpaceAfter=No
-8	,	_	PUNCT	_	_	10	punct	_	_
-9	sanajan	_	SCONJ	_	_	10	mark	_	_
-10	pait	_	ADJ	_	_	3	advcl	_	_
-11-12	rasane	_	_	_	_	_	_	_	SpaceAfter=No
-11	rasa	_	NOUN	_	Number=Sing	10	nsubj	_	_
-12	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	11	det	_	_
-13	.	_	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+# text = Prabu Kelana Sewandana banjur ngutus Bujang Ganong menyang Kediri, nanging ora bisa kasil.
+# text_id = Raja Kelana Sewandana kemudian mengutus Bujang Ganong ke Kediri, namun tidak berhasil.
+# text_en = King Kelana Sewandana then sent Bujang Ganong to Kediri, but he could not succeed.
+1	Prabu	_	PROPN	_	_	5	nsubj	_	_
+2	Kelana	_	PROPN	_	_	1	flat:name	_	_
+3	Sewandana	_	PROPN	_	_	1	flat:name	_	_
+4	banjur	_	ADV	_	Polite=Infm	5	advmod	_	_
+5	ngutus	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+6	Bujang	_	PROPN	_	_	5	obj	_	_
+7	Ganong	_	PROPN	_	_	6	flat:name	_	_
+8	menyang	_	ADP	_	_	9	case	_	_
+9	Kediri	_	PROPN	_	_	5	obl	_	SpaceAfter=No
+10	,	_	PUNCT	_	_	5	punct	_	_
+11	nanging	_	CCONJ	_	Polite=Infm	14	cc	_	_
+12	ora	_	PART	_	Polarity=Neg|Polite=Infm	14	advmod	_	_
+13	bisa	_	AUX	_	Polite=Infm	14	aux	_	_
+14	kasil	_	VERB	_	Mood=Ind|Voice=Act	5	conj	_	SpaceAfter=No
+15	.	_	PUNCT	_	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-611
 # text = Tresna ora salah.
