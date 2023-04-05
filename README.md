@@ -1,31 +1,31 @@
 # Summary
 
-UD Javanese-CSUI is a dependency treebank in Javanese, a regional language in Indonesia with more than 68 million users. This treebank was developed by Alfina et al. from the Faculty of Computer Science, Universitas Indonesia. The newest version has 1000 sentences and 14K words with manual annotation.
+UD Javanese-CSUI is a dependency treebank in Javanese, a regional language in Indonesia with more than 68 million users. It was developed by Alfina et al. from the Faculty of Computer Science, Universitas Indonesia. The newest version has 1000 sentences and 14K words with manual annotation.
 
 # Introduction
 
-UD Javanese-CSUI is a dependency treebank in Javanese, a regional language in Indonesia with more than 68 million users. This treebank was developed by Alfina et al. from the Faculty of Computer Science, Universitas Indonesia. The newest version has 1000 sentences and 14K words with manual annotation.
+UD Javanese-CSUI is a dependency treebank in Javanese, a regional language in Indonesia with more than 68 million users. It was developed by Alfina et al. from the Faculty of Computer Science, Universitas Indonesia. The newest version has 1000 sentences and 14K words with manual annotation.
+
+The sentences use the Latin script and do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa)).
 
 The original sentences were taken from several resources: 
 1. Javanese reference grammar books (125 sents)
 2. [OPUS](https://opus.nlpl.eu/), especially from the Javanese section of the WikiMatrix v1 corpus (150 sents)
 2. Online news ([Solopos](https://www.solopos.com/jagad-jawa)) (725 sents)
 
-The sentences in this corpus use the Latin script and do not use the original writing system of Javanese ([Hanacaraka](https://id.wikipedia.org/wiki/Aksara_Jawa))
-
-Javanese has several language levels, such as Ngoko, Krama, Krama Inggil, and Krama Andhap. In this Javanese dependency treebank, the sentences predominantly use Ngoko words, some of which use Krama words.
+Javanese has several language levels, such as Ngoko, Krama, Krama Inggil, and Krama Andhap. In this treebank, the sentences predominantly use Ngoko words, some of which use Krama words.
 
 # Split
 This dataset has only one split: test.
-If you need three splits, the suggestions are:
-* Test: 1st, 11th, 21st, ..., 991st sentence, in total 100 sents
-* Dev: 5th, 15th, 25th, ..., 995th sentence, in total 100 sents
-* Train: the rest 
+If you need three splits, the suggestions to split the 1000 sentences are:
+* Test: 1st, 11th, 21st, ..., 991st sentence, total 100 sents.
+* Dev: 5th, 15th, 25th, ..., 995th sentence, total 100 sents.
+* Train: the rest, total 800 sents. 
 
 
 # Acknowledgments
-
-* We are grateful to the many people who made this dataset possible: Ika Alfina, Arlisa Yuliawati, Dipta Tanaya, Arawinda Dinakaramani, Putri Rizqiyah, and Sri Hartati Wijono.
+* The contributors of the second version (v2.12): Ika Alfina, Arlisa Yuliawati, Dipta Tanaya, Arawinda Dinakaramani, and Daniel Zeman
+* The contributors of the first version (v2.9): Ika Alfina, Arlisa Yuliawati, Dipta Tanaya, Arawinda Dinakaramani, Putri Rizqiyah, and Sri Hartati Wijono
 
 
 ## References
