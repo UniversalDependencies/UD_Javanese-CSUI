@@ -10324,7 +10324,7 @@
 2	prapatan	_	NOUN	_	Number=Sing	1	obl	_	_
 3	desa	_	NOUN	_	Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	_	PUNCT	_	_	5	punct	_	_
-5	pit	_	NOUN	_	Number=Sing	2	nmod	_	_
+5	pit	_	NOUN	_	Number=Sing	8	nsubj	_	_
 6	kuwi	_	DET	_	Polite=Infm|PronType=Dem	5	det	_	_
 7	banjur	_	ADV	_	Polite=Infm	8	advmod	_	_
 8	mandeg	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No

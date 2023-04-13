@@ -98,11 +98,11 @@
     <dep name="goeswith">2</dep>
     <dep name="iobj">5</dep>
     <dep name="mark">309</dep>
-    <dep name="nmod">1180</dep>
+    <dep name="nmod">1179</dep>
     <dep name="nmod:lmod">44</dep>
     <dep name="nmod:poss">291</dep>
     <dep name="nmod:tmod">15</dep>
-    <dep name="nsubj">1216</dep>
+    <dep name="nsubj">1217</dep>
     <dep name="nsubj:outer">6</dep>
     <dep name="nsubj:pass">176</dep>
     <dep name="nummod">251</dep>
