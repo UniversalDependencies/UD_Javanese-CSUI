@@ -119,12 +119,12 @@
 4	luwih	_	ADV	_	_	5	advmod	_	_
 5	kulina	_	VERB	_	Mood=Ind|Voice=Pass	0	root	_	_
 6	ngomong	_	VERB	_	Mood=Ind|Voice=Act	5	advcl	_	_
-7	nganggo	_	VERB	_	Mood=Ind|Voice=Act	8	case	_	_
-8	basa	_	NOUN	_	Number=Sing	6	obl	_	_
+7	nganggo	_	VERB	_	Mood=Ind|Voice=Act	6	advcl	_	_
+8	basa	_	NOUN	_	Number=Sing	7	obl	_	_
 9	Indonesia	_	PROPN	_	_	8	nmod	_	_
-10	katimbang	_	ADP	_	_	12	case	_	_
-11	nganggo	_	VERB	_	Mood=Ind|Voice=Act	12	case	_	_
-12	basa	_	NOUN	_	Number=Sing	6	obl	_	_
+10	katimbang	_	SCONJ	_	_	11	mark	_	_
+11	nganggo	_	VERB	_	Mood=Ind|Voice=Act	6	advcl	_	_
+12	basa	_	NOUN	_	Number=Sing	11	obl	_	_
 13	Jawa	_	PROPN	_	_	12	nmod	_	SpaceAfter=No
 14	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -156,8 +156,8 @@
 # text_en = Mother gave me a necklace.
 1	Ibu	_	NOUN	_	Number=Sing	2	nsubj	_	_
 2	maringi	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	0	root	_	_
-3	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	2	obj	_	_
-4	kalung	_	NOUN	_	Number=Sing	2	iobj	_	SpaceAfter=No
+3	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	2	iobj	_	_
+4	kalung	_	NOUN	_	Number=Sing	2	obj	_	SpaceAfter=No
 5	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = wedhawati-2001-11
@@ -199,8 +199,8 @@
 # text_en = She walked slowly.
 1	Dheweke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	2	nsubj	_	_
 2	mlaku	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-3	kanthi	_	ADP	_	Polite=Infm	4	case	_	_
-4	alon-alon	_	ADJ	_	_	2	advcl	_	SpaceAfter=No
+3	kanthi	_	ADP	_	Polite=Infm	4	case:adv	_	_
+4	alon-alon	_	ADJ	_	_	2	advmod	_	SpaceAfter=No
 5	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = wedhawati-2001-15
@@ -209,7 +209,7 @@
 # text_en = Even though he was bought a book, he didn't read it either.
 1	Tukokna	_	VERB	_	Mood=Irr|Polite=Infm|Voice=Pass	0	root	_	_
 2	buku	_	NOUN	_	Number=Sing	1	obl	_	_
-3	ya	_	PART	_	_	1	advmod:emph	_	_
+3	ya	_	PART	_	_	5	advmod:emph	_	_
 4	ora	_	PART	_	Polarity=Neg|Polite=Infm	5	advmod	_	_
 5	diwaca	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	1	advcl	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	1	punct	_	_
@@ -220,7 +220,7 @@
 # text_en = Even if a drink is taken, it is also not drunk.
 1	Jupukna	_	VERB	_	Mood=Irr|Voice=Pass	0	root	_	_
 2	wedang	_	NOUN	_	Number=Sing	1	obl	_	_
-3	ya	_	PART	_	_	1	advmod:emph	_	_
+3	ya	_	PART	_	_	5	advmod:emph	_	_
 4	ora	_	PART	_	Polarity=Neg|Polite=Infm	5	advmod	_	_
 5	diombe	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	1	advcl	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	1	punct	_	_
@@ -261,12 +261,12 @@
 # text_id = Meskipun diberi tahu tidak akan jera, dasar anak nakal.
 # text_en = Even if you're told you won't be deterred, you naughty brat.
 1	Kandhanana	_	VERB	_	Mood=Irr|Polite=Infm|Voice=Pass	0	root	_	_
-2	ya	_	PART	_	_	1	advmod:emph	_	_
+2	ya	_	PART	_	_	4	advmod:emph	_	_
 3	ora	_	PART	_	Polarity=Neg|Polite=Infm	4	advmod	_	_
-4	kapok	_	ADJ	_	_	1	advcl	_	SpaceAfter=No
+4	kapok	_	ADJ	_	_	1	advmod	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	7	punct	_	_
 6	dasar	_	INTJ	_	_	7	discourse	_	_
-7	bocah	_	NOUN	_	Number=Sing|Polite=Infm	4	obl	_	_
+7	bocah	_	NOUN	_	Number=Sing|Polite=Infm	1	obl	_	_
 8	nakal	_	ADJ	_	_	7	amod	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	1	punct	_	_
 
@@ -276,7 +276,7 @@
 # text_en = Even though they were given money, they didn't want to accept it.
 1	Wenehana	_	VERB	_	Mood=Irr|Polite=Infm|Voice=Pass	0	root	_	_
 2	dhuwit	_	NOUN	_	Number=Sing	1	obl	_	_
-3	ya	_	PART	_	_	1	advmod:emph	_	_
+3	ya	_	PART	_	_	5	advmod:emph	_	_
 4	ora	_	PART	_	Polarity=Neg|Polite=Infm	5	advmod	_	_
 5	gelem	_	VERB	_	Mood=Ind|Voice=Act	1	advcl	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	1	punct	_	_
@@ -311,7 +311,7 @@
 # text_id = Perlebarlah jalannya!
 # text_en = Widen the road!
 1-2	Dalane	_	_	_	_	_	_	_	_
-1	Dalan	_	NOUN	_	Number=Sing	3	nsubj	_	_
+1	Dalan	_	NOUN	_	Number=Sing	3	obj	_	_
 2	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	_
 3	ambakke	_	VERB	_	Mood=Imp|Polite=Infm|Voice=Act	0	root	_	SpaceAfter=No
 4	!	_	PUNCT	_	_	3	punct	_	_
@@ -321,7 +321,7 @@
 # text_id = Petikilah bunga itu!
 # text_en = Pick the flower!
 1-2	Kembange	_	_	_	_	_	_	_	_
-1	Kembang	_	NOUN	_	Number=Sing	3	nsubj	_	_
+1	Kembang	_	NOUN	_	Number=Sing	3	obj	_	_
 2	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	_
 3	pethiki	_	VERB	_	Mood=Imp|Voice=Act	0	root	_	SpaceAfter=No
 4	!	_	PUNCT	_	_	3	punct	_	_
@@ -332,7 +332,7 @@
 # text_en = Lock those doors!
 1	Kunceni	_	VERB	_	Mood=Imp|Voice=Act	0	root	_	_
 2-3	lawange	_	_	_	_	_	_	_	SpaceAfter=No
-2	lawang	_	NOUN	_	Number=Sing	1	obl	_	_
+2	lawang	_	NOUN	_	Number=Sing	1	obj	_	_
 3	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	2	det	_	_
 4	!	_	PUNCT	_	_	1	punct	_	_
 
@@ -342,7 +342,7 @@
 # text_en = Clean the table!
 1	Resiki	_	VERB	_	Mood=Imp|Voice=Act	0	root	_	_
 2-3	mejane	_	_	_	_	_	_	_	SpaceAfter=No
-2	meja	_	NOUN	_	Number=Sing	1	nsubj	_	_
+2	meja	_	NOUN	_	Number=Sing	1	obj	_	_
 3	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	2	det	_	_
 4	!	_	PUNCT	_	_	1	punct	_	_
 
@@ -364,20 +364,21 @@
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	bareng	_	ADV	_	_	5	advmod	_	_
 4	wis	_	AUX	_	Polite=Infm	5	aux	_	_
-5	jam	_	NOUN	_	Number=Sing	1	advcl	_	_
+5	jam	_	NOUN	_	Number=Sing	1	obl	_	_
 6	pitu	_	NUM	_	NumType=Card|Polite=Infm	5	nummod	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = wedhawati-2001-29
-# text = Weruh-weruh dheweke wis ana kene.
+# text = Weruh-weruh, dheweke wis ana kene.
 # text_id = Begitu melihat, dia sudah berada di sini.
 # text_en = As soon as he saw it, he was already here.
-1	Weruh-weruh	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-2	dheweke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	4	nsubj	_	_
-3	wis	_	AUX	_	Polite=Infm	4	aux	_	_
-4	ana	_	VERB	_	Mood=Ind|Voice=Act	1	advcl	_	_
-5	kene	_	ADV	_	Polite=Infm|PronType=Dem	4	advmod	_	SpaceAfter=No
-6	.	_	PUNCT	_	_	1	punct	_	_
+1	Weruh-weruh	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	SpaceAfter=No
+2	,	_	PUNCT	_	_	1	punct	_	_
+3	dheweke	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	5	nsubj	_	_
+4	wis	_	AUX	_	Polite=Infm	5	aux	_	_
+5	ana	_	VERB	_	Mood=Ind|Voice=Act	1	advcl	_	_
+6	kene	_	ADV	_	Polite=Infm|PronType=Dem	5	advmod	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = wedhawati-2001-30
 # text = Wis bengi,kok durung mulih-mulih.
@@ -440,12 +441,12 @@
 # text_id = Kalau haus, silakan minum!
 # text_en = If you are thirsty, please drink!
 1	Yen	_	SCONJ	_	Polite=Infm	2	mark	_	_
-2	ngelak	_	ADJ	_	_	0	root	_	SpaceAfter=No
+2	ngelak	_	ADJ	_	_	5	advcl	_	SpaceAfter=No
 3	,	_	PUNCT	_	_	2	punct	_	_
 4	mbok	_	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
-5	ngombe-ngombe	_	VERB	_	Mood=Ind|Voice=Act	2	advcl	_	_
+5	ngombe-ngombe	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 6	kana	_	ADV	_	Polite=Infm|PronType=Dem	5	advmod	_	SpaceAfter=No
-7	!	_	PUNCT	_	_	2	punct	_	_
+7	!	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = wedhawati-2001-35
 # text = Dheweke mbukak lawang.
@@ -499,9 +500,9 @@
 1	Budhe	_	PROPN	_	_	3	nsubj	_	_
 2	Sri	_	PROPN	_	_	1	flat:name	_	_
 3	nggawekake	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-4	jenang	_	NOUN	_	Number=Sing	3	iobj	_	_
+4	jenang	_	NOUN	_	Number=Sing	3	obj	_	_
 5	sumsum	_	NOUN	_	Number=Sing	4	nmod	_	_
-6	bapak	_	NOUN	_	Number=Sing	3	obj	_	SpaceAfter=No
+6	bapak	_	NOUN	_	Number=Sing	3	iobj	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = wedhawati-2001-40
@@ -511,7 +512,7 @@
 1	Yu	_	PROPN	_	_	3	nsubj	_	_
 2	Walidah	_	PROPN	_	_	1	flat:name	_	_
 3	dodolan	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-4	tempe	_	NOUN	_	Number=Sing	3	obl	_	SpaceAfter=No
+4	tempe	_	NOUN	_	Number=Sing	3	obj	_	SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = wedhawati-2001-41
@@ -532,7 +533,7 @@
 2	Satinem	_	PROPN	_	_	1	flat:name	_	_
 3	lagi	_	AUX	_	Polite=Infm	4	aux	_	_
 4	ider	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-5	jangan	_	NOUN	_	Number=Sing	4	obl	_	SpaceAfter=No
+5	jangan	_	NOUN	_	Number=Sing	4	obj	_	SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = wedhawati-2001-43
@@ -562,7 +563,7 @@
 # text_en = The meat is sliced thinly.
 1-2	Daginge	_	_	_	_	_	_	_	_
 1	Daging	_	NOUN	_	Number=Sing	3	nsubj:pass	_	_
-2	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	4	det	_	_
+2	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	_
 3	diiris	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	_
 4	tipis-tipis	_	ADJ	_	_	3	advmod	_	SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
@@ -630,9 +631,9 @@
 2	,	_	PUNCT	_	_	1	punct	_	_
 3-4	bukune	_	_	_	_	_	_	_	_
 3	buku	_	NOUN	_	Number=Sing	6	obj	_	_
-4	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	_
+4	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	3	det	_	_
 5-7	takwacakne	_	_	_	_	_	_	_	SpaceAfter=No
-5	tak	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	1	nsubj	_	_
+5	tak	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	6	nsubj	_	_
 6	wacak	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	6	det	_	_
 8	.	_	PUNCT	_	_	6	punct	_	_
@@ -676,7 +677,7 @@
 4-5	kokturokake	_	_	_	_	_	_	_	_
 4	kok	_	PRON	_	Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
 5	turokake	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-6	kono	_	ADV	_	Polite=Infm|PronType=Dem	5	obl	_	SpaceAfter=No
+6	kono	_	ADV	_	Polite=Infm|PronType=Dem	5	advmod	_	SpaceAfter=No
 7	!	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = wedhawati-2001-54
@@ -697,7 +698,7 @@
 # text_id = Bunganya diambil oleh putri Ambarwati.
 # text_en = The flowers were taken by Ambarwati's daughter.
 1-2	Kembange	_	_	_	_	_	_	_	_
-1	kembang	_	NOUN	_	Number=Sing	3	nsubj:pass	_	_
+1	Kembang	_	NOUN	_	Number=Sing	3	nsubj:pass	_	_
 2	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	1	det	_	_
 3	kajupuk	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	_
 4	dening	_	ADP	_	Polite=Infm	5	case	_	_
@@ -799,8 +800,8 @@
 1	Para	_	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	panyarta	_	NOUN	_	Number=Sing	6	nsubj	_	_
 3	lomba	_	NOUN	_	Number=Sing	2	nmod	_	_
-4	kudu	_	AUX	_	Polite=Infm	7	aux	_	_
-5	bisa	_	AUX	_	Polite=Infm	7	aux	_	_
+4	kudu	_	AUX	_	Polite=Infm	6	aux	_	_
+5	bisa	_	AUX	_	Polite=Infm	6	aux	_	_
 6	adu	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 7	pinter	_	ADJ	_	_	6	xcomp	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	6	punct	_	_
@@ -1509,38 +1510,38 @@
 # text = Lire, yen tembung ngoko kena tegese ora ngurmati, tembung krama mengku teges ngurmati utawa luwih ngajeni.
 # text_id = Adapun, jika kata ngoko berarti tidak menghormati, kata krama memiliki arti menghormati atau lebih menghargai.
 # text_en = Meanwhile, if the ngoko word means disrespect, the word krama means respect or more respect
-1	Lire	_	ADV	_	_	7	advmod	_	SpaceAfter=No
+1	Lire	_	ADV	_	_	14	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	yen	_	SCONJ	_	Polite=Infm	7	mark	_	_
-4	tembung	_	NOUN	_	Number=Sing	10	nsubj	_	_
+4	tembung	_	NOUN	_	Number=Sing	7	nsubj	_	_
 5	ngoko	_	ADJ	_	_	4	nmod	_	_
 6	kena	_	AUX	_	Polite=Infm	7	aux	_	_
 7-8	tegese	_	_	_	_	_	_	_	_
-7	teges	_	NOUN	_	Number=Sing	0	root	_	_
+7	teges	_	VERB	_	Mood=Ind|Voice=Act	14	advcl	_	_
 8	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	7	det	_	_
 9	ora	_	PART	_	Polarity=Neg|Polite=Infm	10	advmod	_	_
 10	ngurmati	_	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	SpaceAfter=No
 11	,	_	PUNCT	_	_	12	punct	_	_
-12	tembung	_	NOUN	_	Number=Sing	14	obl	_	_
+12	tembung	_	NOUN	_	Number=Sing	14	nsubj	_	_
 13	krama	_	ADJ	_	_	12	nmod	_	_
-14	mengku	_	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
+14	mengku	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 15	teges	_	NOUN	_	Number=Sing	14	obl	_	_
-16	ngurmati	_	VERB	_	Mood=Ind|Voice=Act	12	advcl	_	_
+16	ngurmati	_	VERB	_	Mood=Ind|Voice=Act	14	advcl	_	_
 17	utawa	_	CCONJ	_	Polite=Infm	18	cc	_	_
 18	luwih	_	ADV	_	_	19	advmod	_	_
 19	ngajeni	_	VERB	_	Mood=Ind|Voice=Act	16	conj	_	SpaceAfter=No
-20	.	_	PUNCT	_	_	7	punct	_	_
+20	.	_	PUNCT	_	_	14	punct	_	_
 
 # sent_id = suwadji-2013-8
 # text = Cethane meneh tembung beda karo basa.
 # text_id = Lebih jelasnya kata berbeda dengan bahasa.
 # text_en = More specifically, words are different from language.
-1	Cethane	_	ADJ	_	Polite=Infm	3	amod	_	_
+1	Cethane	_	ADJ	_	Polite=Infm	4	advmod	_	_
 2	meneh	_	ADV	_	Polite=Infm	1	advmod	_	_
 3	tembung	_	NOUN	_	Number=Sing	4	nsubj	_	_
 4	beda	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
-5	karo	_	CCONJ	_	Polite=Infm	6	cc	_	_
-6	basa	_	NOUN	_	Number=Sing	3	conj	_	SpaceAfter=No
+5	karo	_	ADP	_	Polite=Infm	6	case	_	_
+6	basa	_	NOUN	_	Number=Sing	4	obl	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = suwadji-2013-9
@@ -1560,7 +1561,7 @@
 10	dipilahke	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	_
 11	dadi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Act	10	advcl	_	_
 12	rong	_	NUM	_	NumType=Card|Polite=Infm	13	nummod	_	_
-13	tataran	_	NOUN	_	Number=Sing	8	obl	_	SpaceAfter=No
+13	tataran	_	NOUN	_	Number=Sing	11	obl	_	SpaceAfter=No
 14	,	_	PUNCT	_	_	15	punct	_	_
 15	yaiku	_	AUX	_	Polite=Infm	16	cop	_	_
 16	basa	_	NOUN	_	Number=Sing	13	appos	_	_
@@ -1795,7 +1796,7 @@
 7	telung	_	NUM	_	NumType=Card|Polite=Infm	8	nummod	_	_
 8	tataran	_	NOUN	_	Number=Sing	6	obl	_	SpaceAfter=No
 9	,	_	PUNCT	_	_	10	punct	_	_
-10	yaiku	_	AUX	_	Polite=Infm	16	cop	_	SpaceAfter=No
+10	yaiku	_	AUX	_	Polite=Infm	13	cop	_	SpaceAfter=No
 11	,	_	PUNCT	_	_	13	punct	_	_
 12	saka	_	ADP	_	Polite=Infm	13	case	_	_
 13	ngisor	_	NOUN	_	Number=Sing|Polite=Infm	8	acl	_	_
@@ -1890,17 +1891,17 @@
 2	bae	_	ADV	_	_	1	advmod	_	_
 3	perlu	_	VERB	_	Mood=Ind|Voice=Act	4	advcl	_	_
 4	dimangerteni	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	_
-5	yen	_	SCONJ	_	Polite=Infm	6	mark	_	_
-6	tembung	_	NOUN	_	Number=Sing	10	nsubj	_	_
+5	yen	_	SCONJ	_	Polite=Infm	11	mark	_	_
+6	tembung	_	NOUN	_	Number=Sing	11	nsubj	_	_
 7	basa	_	NOUN	_	Number=Sing	6	nmod	_	_
 8	ing	_	ADP	_	Polite=Infm	9	case	_	_
 9	pasrawungan	_	NOUN	_	Number=Sing	6	nmod	_	_
 10	padha	_	ADJ	_	Polite=Infm	11	amod	_	_
 11-12	tegese	_	_	_	_	_	_	_	_
-11	teges	_	NOUN	_	Number=Sing	4	ccomp	_	_
+11	teges	_	VERB	_	Mood=Ind|Voice=Act	4	ccomp	_	_
 12	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	11	det	_	_
-13	karo	_	CCONJ	_	Polite=Infm	14	cc	_	_
-14	tembung	_	NOUN	_	Number=Sing	6	conj	_	_
+13	karo	_	ADP	_	Polite=Infm	14	case	_	_
+14	tembung	_	NOUN	_	Number=Sing	11	obl	_	_
 15	krama	_	ADJ	_	_	14	nmod	_	SpaceAfter=No
 16	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -2152,7 +2153,7 @@
 4	saperangan	_	DET	_	Number=Plur|PronType=Ind	5	det	_	_
 5	perkutut	_	NOUN	_	Number=Sing	0	root	_	_
 6	kagem	_	ADP	_	_	7	case	_	_
-7	bapak	_	NOUN	_	Number=Sing	1	obl	_	SpaceAfter=No
+7	bapak	_	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
 8	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = opus-wiki-7
@@ -2179,7 +2180,7 @@
 1	Paulus	_	PROPN	_	_	2	nsubj	_	_
 2	nyebut	_	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
 3-4	dheknene	_	_	_	_	_	_	_	_
-3	dhekne	_	PRON	_	PronType=Prs|Reflex=Yes	1	obj	_	_
+3	dhekne	_	PRON	_	PronType=Prs|Reflex=Yes	2	obj	_	_
 4	e	_	PRON	_	Number=Sing|Person=3|Polite=Infm|PronType=Prs	3	nmod:poss	_	_
 5	minangka	_	ADP	_	_	7	case	_	_
 6	"	_	PUNCT	_	_	7	punct	_	SpaceAfter=No

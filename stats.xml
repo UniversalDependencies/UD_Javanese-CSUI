@@ -5,10 +5,10 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1000</sentences><tokens>13745</tokens><words>14343</words><fused>595</fused></total>
+    <total><sentences>1000</sentences><tokens>13746</tokens><words>14344</words><fused>595</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1000</sentences><tokens>13745</tokens><words>14343</words><fused>595</fused></test>
+    <test><sentences>1000</sentences><tokens>13746</tokens><words>14344</words><fused>595</fused></test>
   </size>
   <lemmas unique="0" /><!--  -->
   <forms unique="3802" /><!-- ., ,, e, ing, lan, sing, kang, ana, ora, aku, iku, ku, wis, dadi, bisa -->
@@ -16,21 +16,21 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
     <tag name="ADJ">735</tag><!-- _ -->
-    <tag name="ADP">747</tag><!-- _ -->
+    <tag name="ADP">748</tag><!-- _ -->
     <tag name="ADV">798</tag><!-- _ -->
     <tag name="AUX">340</tag><!-- _ -->
-    <tag name="CCONJ">308</tag><!-- _ -->
+    <tag name="CCONJ">306</tag><!-- _ -->
     <tag name="DET">700</tag><!-- _ -->
     <tag name="INTJ">32</tag><!-- _ -->
-    <tag name="NOUN">2871</tag><!-- _ -->
+    <tag name="NOUN">2869</tag><!-- _ -->
     <tag name="NUM">362</tag><!-- _ -->
     <tag name="PART">234</tag><!-- _ -->
     <tag name="PRON">962</tag><!-- _ -->
     <tag name="PROPN">1573</tag><!-- _ -->
-    <tag name="PUNCT">2232</tag><!-- _ -->
-    <tag name="SCONJ">314</tag><!-- _ -->
+    <tag name="PUNCT">2233</tag><!-- _ -->
+    <tag name="SCONJ">315</tag><!-- _ -->
     <tag name="SYM">12</tag><!-- _ -->
-    <tag name="VERB">1950</tag><!-- _ -->
+    <tag name="VERB">1952</tag><!-- _ -->
     <tag name="X">173</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -40,10 +40,10 @@
     <feat name="Definite" value="Ind" upos="DET">9</feat><!-- sawijining, satunggaling -->
     <feat name="Foreign" value="Yes" upos="X">169</feat><!-- rock, eutanasia, penerbangan, perpustakaan, pertengahan, metal, semifinalis, suku, turnamen, arbitrase -->
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, nyemayani, pethiki, wacanen -->
-    <feat name="Mood" value="Ind" upos="VERB">1929</feat><!-- ana, dadi, gawe, nganggo, ujar, katon, melu, gelem, miturut, tekan -->
+    <feat name="Mood" value="Ind" upos="VERB">1931</feat><!-- ana, dadi, gawe, nganggo, ujar, katon, melu, gelem, miturut, tekan -->
     <feat name="Mood" value="Irr" upos="VERB">8</feat><!-- Jupukna, Kandhanana, Tukokna, Wenehana, ombenana, sangonana, turokna, wadhahna -->
     <feat name="Number" value="Plur" upos="DET,NOUN,PRON">119</feat><!-- saperangan, para, akeh, bocah-bocah, buku-buku, sawetara, tembung-tembung, wong-wong, awake, maneka -->
-    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">3305</feat><!-- e, aku, ku, taun, wong, warga, bathik, dak, dheweke, tembang -->
+    <feat name="Number" value="Sing" upos="DET,NOUN,PRON">3303</feat><!-- e, aku, ku, taun, wong, warga, bathik, dak, dheweke, tembang -->
     <feat name="NumType" value="Card" upos="NUM">361</feat><!-- siji, rong, sak, 15, 16, 2022, 1, 3, 6, telung -->
     <feat name="NumType" value="Ord" upos="ADJ">14</feat><!-- kaping, kapisan, kapisanan, kapitu, katiga -->
     <feat name="Person" value="1" upos="PRON">237</feat><!-- aku, ku, dak, kula, tak, awake, kita, ingsun -->
@@ -64,26 +64,26 @@
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">58</feat><!-- kabeh, saben, tansah, sedaya, emben, saindhenge, sakabehing -->
     <feat name="Reflex" value="Yes" upos="PRON">3</feat><!-- diri, dhekne -->
     <feat name="Typo" value="Yes" upos="NOUN,X">3</feat><!-- Budi, kula, taunn -->
-    <feat name="Voice" value="Act" upos="VERB">1538</feat><!-- ana, dadi, gawe, nganggo, ujar, melu, gelem, miturut, tekan, duwe -->
+    <feat name="Voice" value="Act" upos="VERB">1540</feat><!-- ana, dadi, gawe, nganggo, ujar, melu, gelem, miturut, tekan, duwe -->
     <feat name="Voice" value="Pass" upos="VERB">408</feat><!-- katon, kelingan, diripta, diarani, digawe, digunakake, ketemu, mapan, mesem, dienggo -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="46">
     <dep name="acl">114</dep>
     <dep name="acl:relcl">260</dep>
-    <dep name="advcl">645</dep>
-    <dep name="advmod">1072</dep>
+    <dep name="advcl">644</dep>
+    <dep name="advmod">1076</dep>
     <dep name="advmod:emph">47</dep>
-    <dep name="amod">244</dep>
+    <dep name="amod">243</dep>
     <dep name="appos">104</dep>
     <dep name="aux">301</dep>
-    <dep name="case">738</dep>
-    <dep name="case:adv">11</dep>
-    <dep name="cc">310</dep>
+    <dep name="case">736</dep>
+    <dep name="case:adv">12</dep>
+    <dep name="cc">308</dep>
     <dep name="ccomp">18</dep>
     <dep name="clf">7</dep>
     <dep name="compound">27</dep>
-    <dep name="conj">426</dep>
+    <dep name="conj">424</dep>
     <dep name="cop">39</dep>
     <dep name="csubj">30</dep>
     <dep name="csubj:outer">1</dep>
@@ -97,21 +97,21 @@
     <dep name="flat:name">555</dep>
     <dep name="goeswith">2</dep>
     <dep name="iobj">5</dep>
-    <dep name="mark">309</dep>
+    <dep name="mark">310</dep>
     <dep name="nmod">1179</dep>
     <dep name="nmod:lmod">44</dep>
     <dep name="nmod:poss">291</dep>
     <dep name="nmod:tmod">15</dep>
-    <dep name="nsubj">1217</dep>
+    <dep name="nsubj">1215</dep>
     <dep name="nsubj:outer">6</dep>
     <dep name="nsubj:pass">176</dep>
     <dep name="nummod">251</dep>
-    <dep name="obj">495</dep>
-    <dep name="obl">854</dep>
+    <dep name="obj">501</dep>
+    <dep name="obl">852</dep>
     <dep name="obl:agent">29</dep>
     <dep name="obl:tmod">135</dep>
     <dep name="parataxis">67</dep>
-    <dep name="punct">2232</dep>
+    <dep name="punct">2233</dep>
     <dep name="root">1000</dep>
     <dep name="vocative">47</dep>
     <dep name="xcomp">198</dep>
