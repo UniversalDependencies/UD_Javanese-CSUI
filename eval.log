@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Javanese-CSUI:
-commit c73be942e227fac40dcc1b057080a0af016f64e7
-Merge: 8963bf9 0a62b62
+commit 821fb952cb6063609d358f17fbe32fd43e8ba300
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 11:17:41 2023 +0200
 Size: counted 14344 of 14344 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.32666347260566.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.5.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Udapi:
-               TOTAL         32
-Udapi: found 32 bugs.
+               TOTAL         24
+Udapi: found 24 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 14344 words.
 Genres: found 5 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang jv --max-err=10 UD_Javanese-CSUI/jv_csui-ud-test.conllu
@@ -33,8 +33,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.385556758851375) = 0.0988607073977886
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.1) = 0.00769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.977691020635806) = 0.300828006349479
+(weight=0.307692307692308) * (score{udapi}=0.983268265476854) = 0.302544081685186
 (weight=0.0769230769230769) * (score{udeprels}=0.0864864864864865) = 0.00665280665280665
-(TOTAL score=0.493324929148189) * (availability=1) * (validity=1) = 0.493324929148189
+(TOTAL score=0.495041004483896) * (availability=1) * (validity=1) = 0.495041004483896
 STARS = 2.5
-UD_Javanese-CSUI	0.493324929148189	2.5
+UD_Javanese-CSUI	0.495041004483896	2.5
