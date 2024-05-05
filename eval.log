@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Javanese-CSUI:
-commit 821fb952cb6063609d358f17fbe32fd43e8ba300
+commit 1121a47924c2c1152c6084b3594cbf773d2d93b2
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 11:17:41 2023 +0200
+Date:   Mon Nov 6 12:31:43 2023 +0100
 Size: counted 14344 of 14344 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.32666347260566.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,11 +20,23 @@ Features: source of annotation (from README) factor is 0.5.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Udapi:
-               TOTAL         24
-Udapi: found 24 bugs.
+               TOTAL         22
+Udapi: found 22 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 14344 words.
 Genres: found 5 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang jv --max-err=10 UD_Javanese-CSUI/jv_csui-ud-test.conllu
+[Line 2327 Sent opus-wiki-17 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2919 Sent opus-wiki-46 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3260 Sent opus-wiki-66 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3259 Sent opus-wiki-66 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3261 Sent opus-wiki-66 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3259 Sent opus-wiki-66 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3262 Sent opus-wiki-66 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3259 Sent opus-wiki-66 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3263 Sent opus-wiki-66 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3259 Sent opus-wiki-66 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 16
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
@@ -33,8 +45,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.385556758851375) = 0.0988607073977886
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.1) = 0.00769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.983268265476854) = 0.302544081685186
+(weight=0.307692307692308) * (score{udapi}=0.984662576687117) = 0.302973100519113
 (weight=0.0769230769230769) * (score{udeprels}=0.0864864864864865) = 0.00665280665280665
-(TOTAL score=0.495041004483896) * (availability=1) * (validity=1) = 0.495041004483896
+(TOTAL score=0.495470023317823) * (availability=1) * (validity=1) = 0.495470023317823
 STARS = 2.5
-UD_Javanese-CSUI	0.495041004483896	2.5
+UD_Javanese-CSUI	0.495470023317823	2.5
