@@ -2325,7 +2325,7 @@
 3	minangka	_	ADP	_	_	4	case	_	_
 4	mêdhar	_	NOUN	_	Number=Sing	0	root	_	_
 5	piguna	_	NOUN	_	Number=Sing	4	nmod	_	_
-6	bisnis	_	X	_	Foreign=Yes	5	flat:foreign	_	_
+6	bisnis	_	X	_	Foreign=Yes	5	nmod	_	_
 7	ing	_	ADP	_	Polite=Infm	8	case	_	_
 8	partner	_	X	_	Foreign=Yes	5	nmod	_	_
 9	lumantar	_	ADP	_	_	10	case	_	_
@@ -2917,7 +2917,7 @@
 5	kanthi	_	SCONJ	_	Polite=Infm	6	mark	_	_
 6	ngleboni	_	VERB	_	Mood=Ind|Voice=Act	2	advcl	_	_
 7	tataran	_	NOUN	_	Number=Sing	6	obj	_	_
-8	kontrak	_	X	_	Foreign=Yes	7	flat:foreign	_	_
+8	kontrak	_	X	_	Foreign=Yes	7	nmod	_	_
 9	karo	_	ADP	_	Polite=Infm	10	case	_	_
 10	DHL	_	PROPN	_	_	7	nmod	_	_
 11	Worldwide	_	PROPN	_	_	10	flat:name	_	_
@@ -3256,11 +3256,11 @@
 2	iki	_	DET	_	Polite=Infm|PronType=Dem	1	det	_	_
 3	wujud	_	NOUN	_	Number=Sing	0	root	_	_
 4	anggota	_	NOUN	_	Number=Sing	3	nmod	_	_
-5	European	_	PROPN	_	_	4	nmod	_	_
-6	Low	_	PROPN	_	_	5	flat:foreign	_	_
-7	Fares	_	PROPN	_	_	5	flat:foreign	_	_
-8	Airline	_	PROPN	_	_	5	flat:foreign	_	_
-9	Association	_	PROPN	_	_	5	flat:foreign	_	_
+5	European	_	X	_	Foreign=Yes	4	nmod	_	_
+6	Low	_	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	Fares	_	X	_	Foreign=Yes	5	flat:foreign	_	_
+8	Airline	_	X	_	Foreign=Yes	5	flat:foreign	_	_
+9	Association	_	X	_	Foreign=Yes	5	flat:foreign	_	_
 10	(	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	ELFAA	_	PROPN	_	_	5	appos	_	SpaceAfter=No
 12	)	_	PUNCT	_	_	11	punct	_	SpaceAfter=No
@@ -3443,7 +3443,7 @@
 6	uga	_	ADV	_	Polite=Infm	7	advmod	_	_
 7	digunakake	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	0	root	_	_
 8	ana	_	VERB	_	Mood=Ind|Voice=Act	7	advcl	_	_
-9	ing	_	ADP	_	Polite=Infm	10	case	_	_
+9	ing	_	ADP	_	Polite=Infm	11	case	_	_
 10	saperangan	_	DET	_	Number=Plur|PronType=Ind	11	det	_	_
 11	episode	_	NOUN	_	Number=Sing	7	obl	_	_
 12	ing	_	ADP	_	Polite=Infm	13	case	_	_
@@ -3513,9 +3513,9 @@
 11	film	_	NOUN	_	Number=Sing	4	advcl	_	_
 12	utawi	_	CCONJ	_	Polite=Form	13	cc	_	_
 13	serial	_	NOUN	_	Number=Sing	11	conj	_	_
-14	House	_	PROPN	_	_	13	nmod	_	_
-15	of	_	PROPN	_	_	14	flat:foreign	_	_
-16	Mouse	_	PROPN	_	_	14	flat:foreign	_	SpaceAfter=No
+14	House	_	X	_	Foreign=Yes	13	nmod	_	_
+15	of	_	X	_	Foreign=Yes	14	flat:foreign	_	_
+16	Mouse	_	X	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
 17	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-80
@@ -3630,7 +3630,7 @@
 5	komunikasi	_	NOUN	_	Number=Sing	4	nmod	_	_
 6	Iridium	_	PROPN	_	_	4	nmod	_	_
 7	Amerika	_	PROPN	_	_	4	nmod	_	_
-8	Sarekat	_	PROPN	_	_	7	flat:foreign	_	SpaceAfter=No
+8	Sarekat	_	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = opus-wiki-86
@@ -10250,7 +10250,7 @@
 9	cara	_	NOUN	_	Number=Sing	8	obl	_	_
 10	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	9	det	_	_
 11	nggolek	_	VERB	_	Mood=Ind|Voice=Act	9	acl	_	_
-12	dhuwit	_	NOUN	_	Number=Sing	10	obj	_	SpaceAfter=No
+12	dhuwit	_	NOUN	_	Number=Sing	11	obj	_	SpaceAfter=No
 13	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = solopos-2022-212
@@ -10814,9 +10814,9 @@
 7	cilik	_	ADJ	_	Polite=Infm	6	amod	_	_
 8	sak	_	NUM	_	NumType=Card	11	nummod	_	_
 9-10	pinggire	_	_	_	_	_	_	_	_
-9	pinggir	_	NOUN	_	Number=Sing	8	clf	_	_
+9	pinggir	_	NOUN	_	Number=Sing	11	nmod	_	_
 10	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	9	det	_	_
-11	kalen	_	NOUN	_	Number=Sing	5	obl	_	SpaceAfter=No
+11	kalen	_	NOUN	_	Number=Sing	6	nmod	_	SpaceAfter=No
 12	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = solopos-2022-244
@@ -13031,7 +13031,7 @@
 5	cara	_	NOUN	_	Number=Sing	0	root	_	_
 6	mangkene	_	DET	_	Polite=Infm|PronType=Dem	5	det	_	_
 7-8	pangajabku	_	_	_	_	_	_	_	_
-7	pangajab	_	NOUN	_	Number=Sing	6	nsubj	_	_
+7	pangajab	_	NOUN	_	Number=Sing	5	nsubj	_	_
 8	ku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	7	nmod:poss	_	_
 9	supaya	_	SCONJ	_	Polite=Infm	12	mark	_	_
 10	aku	_	PRON	_	Number=Sing|Person=1|Polite=Infm|PronType=Prs	12	nsubj	_	_
@@ -13260,12 +13260,10 @@
 17	dening	_	ADP	_	Polite=Infm	19	case	_	_
 18	19.271	_	NUM	_	NumType=Card	19	nummod	_	_
 19	bocah	_	NOUN	_	Number=Sing|Polite=Infm	16	obl:tmod	_	_
-20	saka	_	ADP	_	Polite=Infm	21	case	_	_
-21-22	saindenge	_	_	_	_	_	_	_	_
-21	saindeng	_	DET	_	Number=Sing	23	det	_	_
-22	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	21	det	_	_
-23	Ponorogo	_	PROPN	_	_	19	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+20	saka	_	ADP	_	Polite=Infm	22	case	_	_
+21	saindenge	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	22	det	_	_
+22	Ponorogo	_	PROPN	_	_	19	nmod	_	SpaceAfter=No
+23	.	_	PUNCT	_	_	16	punct	_	SpacesAfter=\n
 
 # sent_id = solopos-2022-369
 # text = Tembang kanggo ngiring dolanan bocah Cublak-cublak Suweng kuwi rasane kaya-kaya prasaja.
@@ -19800,7 +19798,7 @@
 15	anget	_	ADJ	_	_	14	amod	_	_
 16	sing	_	PRON	_	Polite=Infm|PronType=Rel	18	nsubj	_	_
 17	wes	_	AUX	_	Polite=Infm	18	aux	_	_
-18	sumadya	_	VERB	_	Mood=Ind|Voice=Act	13	acl:relcl	_	_
+18	sumadya	_	VERB	_	Mood=Ind|Voice=Act	14	acl:relcl	_	_
 19	ing	_	ADP	_	Polite=Infm	20	case	_	_
 20	nakas	_	NOUN	_	Number=Sing	18	obl	_	SpaceAfter=No
 21	.	_	PUNCT	_	_	9	punct	_	SpacesAfter=\n

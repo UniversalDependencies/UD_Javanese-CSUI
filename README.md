@@ -41,6 +41,9 @@ year = {2023} <br>
 
 # Changelog
 
+* 2024-10-25 v2.15
+  * fixed errors
+
 * 2023-05-15 v2.12
   * Added 875 sentences (became 1000 sentences).
   * Added nsubj:outer and csubj:outer to the deprel list
