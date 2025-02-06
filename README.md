@@ -32,17 +32,26 @@ If you need three splits, the suggestions to split the 1000 sentences are:
 
 ## References
 
-@unpublished{Alfina2023, <br>
-author = {Alfina, Ika and Yuliawati, Arlisa and Tanaya, Dipta and Dinakaramani, Arawinda and Zeman, Daniel}, <br>
-title = {{A Gold Standard Dataset for Javanese Tokenization, POS Tagging, Morphological Feature Tagging, and Dependency Parsing}}, <br>
-year = {2023} <br>
+
+@article{Alfina2024,
+title = "A Gold Standard Dataset for Javanese Tokenization, POS Tagging, Morphological Feature Tagging, and Dependency Parsing",
+author = "Ika Alfina and Arlisa Yuliawati and Dipta Tanaya and Arawinda Dinakaramani and Daniel Zeman",
+year = "2024",
+month = nov,
+doi = "10.30564/fls.v6i5.6957",
+volume = "6",
+pages = "131--148",
+journal = "Forum for Linguistic Studies",
+issn = "2705-0610",
+publisher = "Bilingual Publishing Group",
+number = "5",
 }
 
 
 # Changelog
 
 * 2024-10-25 v2.15
-  * fixed errors
+  * Fixed errors
 
 * 2023-05-15 v2.12
   * Added 875 sentences (became 1000 sentences).
