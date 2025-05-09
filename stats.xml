@@ -34,10 +34,13 @@
     <tag name="X">183</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="31">
+  <feats unique="34">
     <feat name="Abbr" value="Yes" upos="ADJ,ADV,AUX,DET,PART,PRON">32</feat><!-- isa, ra, ki, pa -->
     <feat name="Definite" value="Def" upos="DET">355</feat><!-- e, para, ipun, sing, Kang, ingkang, saindenge -->
     <feat name="Definite" value="Ind" upos="DET">9</feat><!-- sawijining, satunggaling -->
+    <feat name="ExtPos" value="ADP" upos="ADP,AUX">9</feat><!-- inggih, kaya -->
+    <feat name="ExtPos" value="ADV" upos="ADV">6</feat><!-- Kena, babar, kadang -->
+    <feat name="ExtPos" value="SCONJ" upos="AUX,SCONJ">2</feat><!-- inggih, kaya -->
     <feat name="Foreign" value="Yes" upos="X">179</feat><!-- rock, eutanasia, penerbangan, perpustakaan, pertengahan, metal, semifinalis, suku, turnamen, arbitrase -->
     <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Cekake, Kunceni, Resiki, ambakke, nyemayani, pethiki, wacanen -->
     <feat name="Mood" value="Ind" upos="VERB">1931</feat><!-- ana, dadi, gawe, nganggo, ujar, katon, melu, gelem, miturut, tekan -->
@@ -76,15 +79,15 @@
     <dep name="advmod:emph">47</dep>
     <dep name="amod">243</dep>
     <dep name="appos">103</dep>
-    <dep name="aux">301</dep>
-    <dep name="case">736</dep>
+    <dep name="aux">299</dep>
+    <dep name="case">743</dep>
     <dep name="case:adv">12</dep>
     <dep name="cc">308</dep>
     <dep name="ccomp">18</dep>
     <dep name="clf">6</dep>
     <dep name="compound">27</dep>
     <dep name="conj">424</dep>
-    <dep name="cop">39</dep>
+    <dep name="cop">33</dep>
     <dep name="csubj">30</dep>
     <dep name="csubj:outer">1</dep>
     <dep name="csubj:pass">2</dep>
@@ -97,7 +100,7 @@
     <dep name="flat:name">559</dep>
     <dep name="goeswith">2</dep>
     <dep name="iobj">5</dep>
-    <dep name="mark">309</dep>
+    <dep name="mark">310</dep>
     <dep name="nmod">1180</dep>
     <dep name="nmod:lmod">44</dep>
     <dep name="nmod:poss">292</dep>

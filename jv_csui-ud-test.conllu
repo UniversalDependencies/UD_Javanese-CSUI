@@ -1167,7 +1167,7 @@
 2	Surojo	_	PROPN	_	_	1	flat:name	_	_
 3	ora	_	PART	_	Polarity=Neg|Polite=Infm	4	advmod	_	_
 4	angkuh	_	ADJ	_	_	0	root	_	_
-5	babar	_	ADV	_	_	4	advmod	_	_
+5	babar	_	ADV	_	ExtPos=ADV	4	advmod	_	_
 6	pisan	_	ADV	_	_	5	fixed	_	SpaceAfter=No
 7	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -1357,7 +1357,7 @@
 13	sampun	_	AUX	_	Polite=Form	14	aux	_	_
 14	dipuntemtokaken	_	VERB	_	Mood=Ind|Polite=Form|Voice=Pass	9	acl:relcl	_	SpaceAfter=No
 15	,	_	PUNCT	_	_	14	punct	_	_
-16	inggih	_	AUX	_	Polite=Form	18	cop	_	_
+16	inggih	_	AUX	_	ExtPos=SCONJ|Polite=Form	18	mark	_	_
 17	menika	_	DET	_	Polite=Form|PronType=Dem	16	fixed	_	_
 18	andadosaken	_	VERB	_	Mood=Ind|Polite=Form|Voice=Act	14	advcl	_	_
 19	punjering	_	NOUN	_	Number=Sing	18	obj	_	_
@@ -2274,7 +2274,7 @@
 4	Association	_	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 5	,	_	PUNCT	_	_	2	punct	_	_
 6	Rigoletto	_	PROPN	_	_	9	nsubj	_	_
-7	inggih	_	AUX	_	Polite=Form	9	aux	_	_
+7	inggih	_	AUX	_	ExtPos=ADP|Polite=Form	9	case	_	_
 8	punika	_	DET	_	Polite=Form|PronType=Dem	7	fixed	_	_
 9	opera	_	NOUN	_	Number=Sing	0	root	_	_
 10	nomer	_	NOUN	_	Number=Sing	9	nmod	_	_
@@ -2440,7 +2440,7 @@
 5-6	seranganipun	_	_	_	_	_	_	_	_
 5	serangan	_	NOUN	_	Number=Sing	9	nsubj	_	_
 6	ipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	5	nmod:poss	_	_
-7	inggih	_	AUX	_	Polite=Form	9	cop	_	_
+7	inggih	_	AUX	_	ExtPos=ADP|Polite=Form	9	case	_	_
 8	punika	_	DET	_	Polite=Form|PronType=Dem	7	fixed	_	_
 9	serangan	_	NOUN	_	Number=Sing	0	root	_	_
 10	ingkang	_	PRON	_	Polite=Form|PronType=Rel	11	nsubj	_	_
@@ -2450,7 +2450,7 @@
 14-15	rencangipun	_	_	_	_	_	_	_	_
 14	rencang	_	NOUN	_	Number=Sing	18	nsubj	_	_
 15	ipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	14	nmod:poss	_	_
-16	inggih	_	AUX	_	Polite=Form	18	cop	_	_
+16	inggih	_	AUX	_	ExtPos=ADP|Polite=Form	18	case	_	_
 17	punika	_	DET	_	Polite=Form|PronType=Dem	16	fixed	_	_
 18	Speedor	_	PROPN	_	_	9	conj	_	SpaceAfter=No
 19	.	_	PUNCT	_	_	9	punct	_	_
@@ -2871,7 +2871,7 @@
 # text_en = The first is “the behavior analysis of household savers”.
 1	Ingkang	_	PRON	_	Polite=Form|PronType=Rel	2	nsubj	_	_
 2	kapisanan	_	ADJ	_	NumType=Ord|Polite=Infm	6	csubj	_	_
-3	inggih	_	AUX	_	Polite=Form	6	cop	_	_
+3	inggih	_	AUX	_	ExtPos=ADP|Polite=Form	6	case	_	_
 4	punika	_	DET	_	Polite=Form|PronType=Dem	3	fixed	_	_
 5	"	_	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6-7	analisisipun	_	_	_	_	_	_	_	_
@@ -3417,7 +3417,7 @@
 6	paling	_	ADV	_	_	7	advmod	_	_
 7	ageng	_	ADJ	_	Polite=Form	4	amod	_	SpaceAfter=No
 8	,	_	PUNCT	_	_	11	punct	_	_
-9	inggih	_	AUX	_	Polite=Form	11	aux	_	_
+9	inggih	_	AUX	_	ExtPos=ADP|Polite=Form	11	case	_	_
 10	punika	_	DET	_	Polite=Form|PronType=Dem	9	fixed	_	_
 11	wangun	_	NOUN	_	Number=Sing	5	appos	_	_
 12	puisi	_	X	_	Foreign=Yes	11	nmod	_	_
@@ -3936,7 +3936,7 @@
 # text_en = Galileo Galilei was a great figure in hydrostatics.
 1	Galileo	_	PROPN	_	_	5	nsubj	_	_
 2	Galilei	_	PROPN	_	_	1	flat:name	_	_
-3	inggih	_	AUX	_	Polite=Form	5	cop	_	_
+3	inggih	_	AUX	_	ExtPos=ADP|Polite=Form	5	case	_	_
 4	punika	_	DET	_	Polite=Form|PronType=Dem	3	fixed	_	_
 5	bapak	_	NOUN	_	Number=Sing	0	root	_	_
 6	ageng	_	ADJ	_	Polite=Form	5	amod	_	_
@@ -4084,7 +4084,7 @@
 15	kaya	_	SCONJ	_	Polite=Infm	21	mark	_	SpaceAfter=No
 16	:	_	PUNCT	_	_	21	punct	_	_
 17	"	_	PUNCT	_	_	21	punct	_	SpaceAfter=No
-18	Kena	_	ADV	_	PronType=Int	21	advmod	_	_
+18	Kena	_	ADV	_	ExtPos=ADV|PronType=Int	21	advmod	_	_
 19	apa	_	PRON	_	Polite=Infm|PronType=Int	18	fixed	_	_
 20	IKEA	_	PROPN	_	_	21	nsubj	_	_
 21	ngadol	_	VERB	_	Mood=Ind|Voice=Act	14	acl	_	_
@@ -4094,7 +4094,7 @@
 25	"	_	PUNCT	_	_	21	punct	_	_
 26	utawa	_	CCONJ	_	Polite=Infm	31	cc	_	_
 27	"	_	PUNCT	_	_	31	punct	_	SpaceAfter=No
-28	Kena	_	ADV	_	PronType=Int	31	advmod	_	_
+28	Kena	_	ADV	_	ExtPos=ADV|PronType=Int	31	advmod	_	_
 29	apa	_	PRON	_	Polite=Infm|PronType=Int	28	fixed	_	_
 30	IKEA	_	PROPN	_	_	31	nsubj	_	_
 31	nggawe	_	VERB	_	Mood=Ind|Voice=Act	21	conj	_	_
@@ -4103,7 +4103,7 @@
 34	"	_	PUNCT	_	_	31	punct	_	_
 35	utawa	_	CCONJ	_	Polite=Infm	40	cc	_	_
 36	"	_	PUNCT	_	_	40	punct	_	SpaceAfter=No
-37	Kena	_	ADV	_	PronType=Int	40	advmod	_	_
+37	Kena	_	ADV	_	ExtPos=ADV|PronType=Int	40	advmod	_	_
 38	apa	_	PRON	_	Polite=Infm|PronType=Int	37	fixed	_	_
 39	ora	_	PART	_	Polarity=Neg|Polite=Infm	40	advmod	_	_
 40	biyasa	_	ADJ	_	_	31	conj	_	SpaceAfter=No
@@ -4424,7 +4424,7 @@
 17	1924	_	NUM	_	NumType=Card	15	flat	_	SpaceAfter=No
 18	,	_	PUNCT	_	_	24	punct	_	_
 19	nanging	_	CCONJ	_	Polite=Infm	24	cc	_	_
-20	kadang	_	ADV	_	_	24	advmod	_	_
+20	kadang	_	ADV	_	ExtPos=ADV	24	advmod	_	_
 21	kala	_	NOUN	_	Number=Sing	20	fixed	_	_
 22	piyambakipun	_	PRON	_	Number=Sing|Person=3|Polite=Form|PronType=Prs	24	nsubj	_	_
 23	ugi	_	ADV	_	Polite=Form	24	advmod	_	_
@@ -5585,7 +5585,7 @@
 20	ingkang	_	PRON	_	Polite=Form|PronType=Rel	21	nsubj	_	_
 21	kasamekta	_	VERB	_	Mood=Ind|Voice=Act	17	acl:relcl	_	SpaceAfter=No
 22	,	_	PUNCT	_	_	25	punct	_	_
-23	inggih	_	AUX	_	Polite=Form	25	cop	_	_
+23	inggih	_	AUX	_	ExtPos=ADP|Polite=Form	25	case	_	_
 24	punika	_	DET	_	Polite=Form|PronType=Dem	23	fixed	_	_
 25	peso	_	NOUN	_	Number=Sing	18	nmod	_	_
 26	Argentina	_	PROPN	_	_	25	nmod	_	SpaceAfter=No
@@ -7004,7 +7004,7 @@
 6	sisih	_	NOUN	_	Number=Sing	8	nsubj	_	_
 7	mburi	_	NOUN	_	Number=Sing|Polite=Infm	6	nmod	_	_
 8	dipasangi	_	VERB	_	Mood=Ind|Polite=Infm|Voice=Pass	3	conj	_	_
-9	kaya	_	ADP	_	Polite=Infm	11	case	_	_
+9	kaya	_	ADP	_	ExtPos=ADP|Polite=Infm	11	case	_	_
 10	dene	_	ADP	_	_	9	fixed	_	_
 11	spanduk	_	NOUN	_	Number=Sing	8	obl	_	_
 12	saka	_	ADP	_	Polite=Infm	13	case	_	_
@@ -14087,7 +14087,7 @@
 6-7	rasane	_	_	_	_	_	_	_	_
 6	rasa	_	NOUN	_	Number=Sing	0	root	_	_
 7	e	_	DET	_	Definite=Def|Polite=Infm|PronType=Art	6	det	_	_
-8	kaya	_	SCONJ	_	Polite=Infm	10	mark	_	_
+8	kaya	_	SCONJ	_	ExtPos=SCONJ|Polite=Infm	10	mark	_	_
 9	dene	_	SCONJ	_	_	8	fixed	_	_
 10	sinamber	_	VERB	_	Mood=Ind|Voice=Pass	6	acl	_	_
 11	bledheg	_	NOUN	_	Number=Sing	10	obl:agent	_	_
@@ -14670,7 +14670,7 @@
 # text = Kena ngapa Simbah kok tega lunga ninggalake aku?
 # text_id = Mengapa Kakek tega pergi meninggalkan aku?
 # text_en = Why did Grandpa leave me?
-1	Kena	_	ADV	_	PronType=Int	5	advmod	_	_
+1	Kena	_	ADV	_	ExtPos=ADV|PronType=Int	5	advmod	_	_
 2	ngapa	_	PRON	_	Polite=Infm|PronType=Int	1	fixed	_	_
 3	Simbah	_	NOUN	_	Number=Sing	5	nsubj	_	_
 4	kok	_	ADV	_	Polite=Infm|PronType=Int	5	advmod	_	_
@@ -14931,7 +14931,7 @@
 3	ing	_	ADP	_	Polite=Infm	4	case	_	_
 4	taun	_	NOUN	_	Number=Sing	1	nmod	_	_
 5	2021	_	NUM	_	NumType=Card	4	nummod	_	_
-6	kaya	_	ADP	_	Polite=Infm	8	case	_	_
+6	kaya	_	ADP	_	ExtPos=ADP|Polite=Infm	8	case	_	_
 7	dene	_	ADP	_	_	6	fixed	_	_
 8	pageblug	_	NOUN	_	Number=Sing	0	root	_	_
 9	kang	_	PRON	_	Polite=Infm|PronType=Rel	10	nsubj	_	_
