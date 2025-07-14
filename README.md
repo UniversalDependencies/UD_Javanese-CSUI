@@ -28,6 +28,7 @@ If you need three splits, the suggestions to split the 1000 sentences are:
 # Acknowledgments
 * The contributors of the second version (v2.12): Ika Alfina, Arlisa Yuliawati, Dipta Tanaya, Arawinda Dinakaramani, and Daniel Zeman
 * The contributors of the first version (v2.9): Ika Alfina, Arlisa Yuliawati, Dipta Tanaya, Arawinda Dinakaramani, Putri Rizqiyah, and Sri Hartati Wijono
+* We thank Rangga Prangwedana Januwarsa for adding lemmas since the dataset for UD v2.17 
 
 
 ## References
@@ -50,8 +51,8 @@ number = "5",
 
 # Changelog
 
-* 2024-10-25 v2.15
-  * Fixed errors
+* 2025-10-1 v2.17
+  * Added lemmas
 
 * 2023-05-15 v2.12
   * Added 875 sentences (became 1000 sentences).
@@ -68,12 +69,12 @@ Data available since: UD v2.9
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction grammar-examples wiki news fiction
-Lemmas: not available
+Lemmas: automatic with corrections
 UPOS: automatic with corrections
 XPOS: not available
 Features: automatic with corrections
 Relations: automatic with corrections
-Contributors: Alfina, Ika; Yuliawati, Arlisa; Tanaya, Dipta; Dinakaramani, Arawinda; Zeman, Daniel; Rizqiyah, Putri;  Wijono, Sri Hartati;
+Contributors: Alfina, Ika; Yuliawati, Arlisa; Tanaya, Dipta; Dinakaramani, Arawinda; Zeman, Daniel; Rizqiyah, Putri;  Wijono, Sri Hartati; Prangwedana, Rangga Prangwedana
 Contributing: elsewhere
 Contact: ika.alfina@cs.ui.ac.id
 ===============================================================================
